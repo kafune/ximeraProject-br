@@ -47,6 +47,14 @@ pub struct Segment {
     pub end: usize,
 }
 
+impl Segment {
+    /// Only finished translations reach exported files and the reader; drafts
+    /// and blank text keep the original prose.
+    pub fn is_complete(&self) -> bool {
+        self.status == "traduzido" && !self.translated.trim().is_empty()
+    }
+}
+
 #[derive(Debug, Clone)]
 pub struct FileRecord {
     pub id: i64,

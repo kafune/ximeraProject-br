@@ -32,49 +32,97 @@ pub fn chapter_id(tx: &Transaction<'_>, course: i64, name: &str, order: i64) -> 
         |r| r.get(0),
     )?)
 }
-pub fn existing_hash(conn: &Connection, path: &str) -> Result<Option<String>> {
+/// A file already in the database, with the placement the importer compares.
+pub struct ExistingFile {
+    pub id: i64,
+    pub hash: String,
+    pub course: String,
+    pub chapter: String,
+    pub chapter_order: i64,
+    pub order: i64,
+}
+pub fn existing_file(conn: &Connection, path: &str) -> Result<Option<ExistingFile>> {
     Ok(conn
         .query_row(
-            "SELECT fonte_hash FROM files WHERE caminho_tex=?1",
+            "SELECT f.id, f.fonte_hash, c.nome, ch.nome, ch.ordem, f.ordem
+             FROM files f
+             JOIN chapters ch ON ch.id = f.chapter_id
+             JOIN courses c ON c.id = ch.course_id
+             WHERE f.caminho_tex = ?1",
             [path],
-            |r| r.get(0),
+            |r| {
+                Ok(ExistingFile {
+                    id: r.get(0)?,
+                    hash: r.get(1)?,
+                    course: r.get(2)?,
+                    chapter: r.get(3)?,
+                    chapter_order: r.get(4)?,
+                    order: r.get(5)?,
+                })
+            },
         )
         .optional()?)
 }
 pub struct NewFile<'a> {
-    pub course: i64,
-    pub chapter: &'a str,
-    pub chapter_order: i64,
+    pub chapter_id: i64,
     pub path: &'a str,
     pub file_order: i64,
     pub hash: &'a str,
     pub source: &'a str,
     pub segments: &'a [ParsedSegment],
+    /// Translation and status carried over to each segment, when one was paired.
+    pub translations: &'a [Option<(String, String)>],
 }
-pub fn replace_file(conn: &mut Connection, new_file: NewFile<'_>) -> Result<()> {
-    let tx = conn.transaction()?;
-    let chapter_id = chapter_id(
-        &tx,
-        new_file.course,
-        new_file.chapter,
-        new_file.chapter_order,
-    )?;
-    let old: Option<i64> = tx
-        .query_row(
-            "SELECT id FROM files WHERE caminho_tex=?1",
-            [new_file.path],
-            |r| r.get(0),
-        )
-        .optional()?;
-    if let Some(id) = old {
-        tx.execute("DELETE FROM files WHERE id=?1", [id])?;
-    }
-    tx.execute("INSERT INTO files(chapter_id,caminho_tex,ordem,fonte_hash,fonte_original) VALUES(?1,?2,?3,?4,?5)", params![chapter_id,new_file.path,new_file.file_order,new_file.hash,new_file.source])?;
+pub fn insert_file(tx: &Transaction<'_>, new_file: NewFile<'_>) -> Result<()> {
+    tx.execute("INSERT INTO files(chapter_id,caminho_tex,ordem,fonte_hash,fonte_original) VALUES(?1,?2,?3,?4,?5)", params![new_file.chapter_id,new_file.path,new_file.file_order,new_file.hash,new_file.source])?;
     let file_id = tx.last_insert_rowid();
     for (i, seg) in new_file.segments.iter().enumerate() {
-        tx.execute("INSERT INTO segments(file_id,ordem,texto_original,placeholders_json,inicio,fim) VALUES(?1,?2,?3,?4,?5,?6)", params![file_id,i as i64,seg.original,serde_json::to_string(&seg.placeholders)?,seg.start as i64,seg.end as i64])?;
+        let (translated, status) = match new_file.translations.get(i).and_then(Option::as_ref) {
+            Some((translated, status)) => (translated.as_str(), status.as_str()),
+            None => ("", "pendente"),
+        };
+        tx.execute("INSERT INTO segments(file_id,ordem,texto_original,texto_traduzido,status,placeholders_json,inicio,fim) VALUES(?1,?2,?3,?4,?5,?6,?7,?8)", params![file_id,i as i64,seg.original,translated,status,serde_json::to_string(&seg.placeholders)?,seg.start as i64,seg.end as i64])?;
     }
-    tx.commit()?;
+    Ok(())
+}
+pub fn delete_file(tx: &Transaction<'_>, id: i64) -> Result<()> {
+    tx.execute("DELETE FROM files WHERE id=?1", [id])?;
+    Ok(())
+}
+pub fn place_file(tx: &Transaction<'_>, id: i64, chapter_id: i64, order: i64) -> Result<()> {
+    tx.execute(
+        "UPDATE files SET chapter_id=?1, ordem=?2 WHERE id=?3",
+        params![chapter_id, order, id],
+    )?;
+    Ok(())
+}
+/// Parks a course's files at negative orders so the importer can place them
+/// again without tripping UNIQUE(chapter_id, ordem).
+pub fn park_file_orders(tx: &Transaction<'_>, course: i64) -> Result<()> {
+    tx.execute(
+        "UPDATE files SET ordem = -1 - ordem
+         WHERE ordem >= 0 AND chapter_id IN (SELECT id FROM chapters WHERE course_id = ?1)",
+        [course],
+    )?;
+    Ok(())
+}
+/// Files still parked are no longer in the source. They keep their relative
+/// order after the files placed again, and nothing is deleted.
+pub fn unpark_file_orders(tx: &Transaction<'_>, course: i64) -> Result<()> {
+    let mut st = tx.prepare(
+        "SELECT id, chapter_id FROM files
+         WHERE ordem < 0 AND chapter_id IN (SELECT id FROM chapters WHERE course_id = ?1)
+         ORDER BY chapter_id, ordem DESC",
+    )?;
+    let parked = st
+        .query_map([course], |r| Ok((r.get::<_, i64>(0)?, r.get::<_, i64>(1)?)))?
+        .collect::<rusqlite::Result<Vec<_>>>()?;
+    for (id, chapter_id) in parked {
+        tx.execute(
+            "UPDATE files SET ordem = (SELECT COALESCE(MAX(ordem), -1) + 1 FROM files WHERE chapter_id = ?1 AND ordem >= 0) WHERE id = ?2",
+            params![chapter_id, id],
+        )?;
+    }
     Ok(())
 }
 pub fn file_records(conn: &Connection) -> Result<Vec<FileRecord>> {

@@ -8,4 +8,4 @@ cargo run -- --db data/traduz.sqlite3
 cargo run --bin export -- --db data/traduz.sqlite3 --source /caminho/roteiro --output /caminho/roteiro-traduzido
 ```
 
-Para reimportar um arquivo que mudou, revise o relatório e use `--replace`. Para exigir que tudo esteja concluído na exportação, acrescente `--require-complete`.
+Para reimportar arquivos que mudaram, use `--replace`: trechos idênticos mantêm a tradução, e o que não puder ser reaproveitado é listado e fica no backup criado antes da alteração. Rascunhos não entram na exportação; para exigir que tudo esteja concluído, acrescente `--require-complete`.

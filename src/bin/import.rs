@@ -8,7 +8,10 @@ struct Args {
     course: String,
     #[arg(long)]
     source: PathBuf,
-    #[arg(long, help = "Substitui somente arquivos cuja fonte mudou")]
+    #[arg(
+        long,
+        help = "Substitui arquivos cuja fonte mudou, reaproveitando traduções de trechos idênticos"
+    )]
     replace: bool,
     #[arg(long, help = "Arquivo mestre que define a ordem pedagógica")]
     manifest: Option<PathBuf>,
@@ -26,6 +29,14 @@ fn main() -> anyhow::Result<()> {
         "Importados: {}; inalterados: {}; segmentos: {}",
         r.imported, r.unchanged, r.segments
     );
+    if r.translations_kept > 0 {
+        println!("Traduções reaproveitadas: {}", r.translations_kept);
+    }
+    for (path, count) in &r.translations_dropped {
+        println!(
+            "Aviso: {count} tradução(ões) de {path} não puderam ser reaproveitadas; continuam no backup"
+        );
+    }
     if let Some(path) = r.backup {
         println!("Backup consistente criado em {}", path.display());
     }

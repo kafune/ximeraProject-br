@@ -15,8 +15,8 @@ fn main() -> anyhow::Result<()> {
     let a = Args::parse();
     let r = traduz::export::export_tree(&a.db, &a.source, &a.output, a.require_complete)?;
     println!(
-        "Arquivos: {}; concluídos: {}; pendentes: {}",
-        r.files, r.completed, r.pending
+        "Arquivos: {}; concluídos: {}; pendentes: {} (rascunhos exportados como original: {})",
+        r.files, r.completed, r.pending, r.drafts
     );
     Ok(())
 }

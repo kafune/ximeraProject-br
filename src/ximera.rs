@@ -4,9 +4,10 @@
 //! by a hand-written Markdown renderer.  This module invokes that same
 //! renderer in its official, network-isolated Docker image and caches the
 //! resulting activity fragment.  Only completed Traduz segments are injected;
-//! incomplete prose is removed while the surrounding LaTeX structure remains.
+//! drafts and pending prose keep the original text, exactly as in the export.
 
 use crate::{
+    export,
     models::{FileRecord, Placeholder, Segment},
     parser,
 };
@@ -50,7 +51,7 @@ pub fn metadata(translation: &str, placeholders: &[Placeholder]) -> ActivityMeta
 
 pub fn render(file: &FileRecord, segments: &[Segment]) -> Result<String, String> {
     ensure_safe_translations(segments)?;
-    let source = translated_source(file, segments)?;
+    let source = export::translated_source(&file.source, segments)?;
     let signature = signature(file, &source);
     let cache_root = env::var_os("TRADUZ_XIMERA_CACHE")
         .map(PathBuf::from)
@@ -142,53 +143,12 @@ pub fn render(file: &FileRecord, segments: &[Segment]) -> Result<String, String>
     Ok(rendered)
 }
 
-fn translated_source(file: &FileRecord, segments: &[Segment]) -> Result<String, String> {
-    let mut source = file.source.clone();
-    for segment in segments.iter().rev() {
-        let original = parser::reconstruct(&segment.original, &segment.placeholders)?;
-        if source.get(segment.start..segment.end) != Some(original.as_str()) {
-            return Err(format!(
-                "fonte armazenada não corresponde ao segmento {}",
-                segment.id
-            ));
-        }
-        let replacement = if !segment.translated.trim().is_empty() {
-            let translation = preserve_edge_whitespace(&segment.original, &segment.translated);
-            parser::reconstruct(&translation, &segment.placeholders)?
-        } else {
-            pending_source(segment)?
-        };
-        source.replace_range(segment.start..segment.end, &replacement);
-    }
-    Ok(source)
-}
-
-fn preserve_edge_whitespace(original: &str, translation: &str) -> String {
-    let leading = original.len() - original.trim_start().len();
-    let trailing = original.len() - original.trim_end().len();
-    let mut result = String::new();
-    if leading > 0 && translation.len() == translation.trim_start().len() {
-        result.push_str(&original[..leading]);
-    }
-    result.push_str(translation);
-    if trailing > 0 && result.len() == result.trim_end().len() {
-        result.push_str(&original[original.len() - trailing..]);
-    }
-    result
-}
-
-/// Keep unfinished segments in the original language so the official Ximera
-/// layout remains complete instead of leaving empty problem boxes.
-fn pending_source(segment: &Segment) -> Result<String, String> {
-    parser::reconstruct(&segment.original, &segment.placeholders)
-}
-
 /// User-entered backslashes would be executable TeX when the official compiler
 /// runs. Commands required by the document already live in protected tokens,
 /// so reject new ones before entering the isolated compiler.
 fn ensure_safe_translations(segments: &[Segment]) -> Result<(), String> {
     for segment in segments {
-        if !segment.translated.trim().is_empty() && segment.translated.contains('\\') {
+        if segment.is_complete() && segment.translated.contains('\\') {
             return Err(format!(
                 "segmento {} contém um comando TeX fora dos tokens protegidos",
                 segment.id
@@ -503,36 +463,6 @@ mod tests {
         assert_eq!(
             activity.summary.as_deref(),
             Some("Esse curso é construído com Ximera.")
-        );
-    }
-
-    #[test]
-    fn keeps_unfinished_prose_and_document_structure() {
-        let segment = Segment {
-            id: 1,
-            file_id: 1,
-            ordem: 0,
-            original: "Texto {{CMD_1}}mais texto{{DELIM_2}}".into(),
-            translated: String::new(),
-            status: "pendente".into(),
-            placeholders: vec![
-                Placeholder {
-                    token: "{{CMD_1}}".into(),
-                    original: "\\textbf{".into(),
-                    kind: PlaceholderKind::Command,
-                },
-                Placeholder {
-                    token: "{{DELIM_2}}".into(),
-                    original: "}".into(),
-                    kind: PlaceholderKind::Delimiter,
-                },
-            ],
-            start: 0,
-            end: 0,
-        };
-        assert_eq!(
-            pending_source(&segment).unwrap(),
-            "Texto \\textbf{mais texto}"
         );
     }
 }

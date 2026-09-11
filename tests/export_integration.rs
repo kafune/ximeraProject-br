@@ -39,3 +39,49 @@ fn export_reinjects_protected_content_after_translation() {
         "Olá \\emph{world} e $x^2$."
     );
 }
+
+#[test]
+fn export_keeps_the_original_text_of_drafts() {
+    let d = tempdir().unwrap();
+    let source = d.path().join("source");
+    fs::create_dir(&source).unwrap();
+    fs::write(source.join("one.tex"), "Hello world.\n").unwrap();
+    let database = d.path().join("db.sqlite");
+    importer::import_tree(&database, "C", &source, false).unwrap();
+    let conn = db::open(&database).unwrap();
+    let id = db::first_pending(&conn).unwrap().unwrap();
+    db::save_segment(&conn, id, "Olá mun", false).unwrap();
+    let out = d.path().join("out");
+    let report = export::export_tree(&database, &source, &out, false).unwrap();
+    assert_eq!(
+        fs::read_to_string(out.join("one.tex")).unwrap(),
+        "Hello world.\n"
+    );
+    assert_eq!((report.completed, report.pending, report.drafts), (0, 1, 1));
+    assert!(export::export_tree(&database, &source, &d.path().join("strict"), true).is_err());
+}
+
+#[test]
+fn export_restores_whitespace_the_translator_did_not_retype() {
+    let d = tempdir().unwrap();
+    let source = d.path().join("source");
+    fs::create_dir(&source).unwrap();
+    let input = "\\begin{itemize}\n\\item First item.\n\\end{itemize}\n";
+    fs::write(source.join("one.tex"), input).unwrap();
+    let database = d.path().join("db.sqlite");
+    importer::import_tree(&database, "C", &source, false).unwrap();
+    let conn = db::open(&database).unwrap();
+    let id = db::first_pending(&conn).unwrap().unwrap();
+    let segment = db::segment(&conn, id).unwrap().unwrap();
+    let typed = segment
+        .original
+        .trim()
+        .replace("First item.", "Primeiro item.");
+    db::save_segment(&conn, id, &typed, true).unwrap();
+    let out = d.path().join("out");
+    export::export_tree(&database, &source, &out, true).unwrap();
+    assert_eq!(
+        fs::read_to_string(out.join("one.tex")).unwrap(),
+        "\\begin{itemize}\n\\item Primeiro item.\n\\end{itemize}\n"
+    );
+}
