@@ -4,5 +4,6 @@
 /data/*.db
 /data/*.db-*
 /data/ximera-render/
+/data/backups/
 /.work/
 *.swp
