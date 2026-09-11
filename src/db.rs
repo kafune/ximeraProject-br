@@ -274,30 +274,43 @@ pub fn save_segment(conn: &Connection, id: i64, text: &str, complete: bool) -> R
     }
     Ok(())
 }
+/// Neighbouring segment in the course's pedagogical order (chapter, file,
+/// segment), the order the reader and the chapter list use. Row ids only
+/// reflect import history: a chapter imported later may come first.
 pub fn adjacent_segment(conn: &Connection, id: i64, next: bool) -> Result<Option<i64>> {
-    let seg = segment(conn, id)?.context("segmento não encontrado")?;
-    let op = if next { ">" } else { "<" };
-    let order = if next { "ASC" } else { "DESC" };
+    segment(conn, id)?.context("segmento não encontrado")?;
+    let (op, order) = if next { (">", "ASC") } else { ("<", "DESC") };
     let sql = format!(
-        "SELECT id FROM segments WHERE file_id=?1 AND ordem {op} ?2 ORDER BY ordem {order} LIMIT 1"
+        "WITH here AS (
+           SELECT ch.course_id, ch.ordem AS chapter_order, f.ordem AS file_order, s.ordem AS segment_order
+           FROM segments s
+           JOIN files f ON f.id = s.file_id
+           JOIN chapters ch ON ch.id = f.chapter_id
+           WHERE s.id = ?1
+         )
+         SELECT s.id FROM segments s
+         JOIN files f ON f.id = s.file_id
+         JOIN chapters ch ON ch.id = f.chapter_id
+         JOIN here ON here.course_id = ch.course_id
+         WHERE (ch.ordem, f.ordem, s.ordem) {op} (here.chapter_order, here.file_order, here.segment_order)
+         ORDER BY ch.ordem {order}, f.ordem {order}, s.ordem {order}
+         LIMIT 1"
     );
-    let local = conn
-        .query_row(&sql, params![seg.file_id, seg.ordem], |r| r.get(0))
-        .optional()?;
-    if local.is_some() {
-        return Ok(local);
-    }
-    let sql = if next {
-        "SELECT s.id FROM segments s JOIN files f ON f.id=s.file_id WHERE (f.chapter_id > (SELECT chapter_id FROM files WHERE id=?1) OR (f.chapter_id=(SELECT chapter_id FROM files WHERE id=?1) AND f.ordem>(SELECT ordem FROM files WHERE id=?1))) ORDER BY f.chapter_id,f.ordem,s.ordem LIMIT 1"
-    } else {
-        "SELECT s.id FROM segments s JOIN files f ON f.id=s.file_id WHERE (f.chapter_id < (SELECT chapter_id FROM files WHERE id=?1) OR (f.chapter_id=(SELECT chapter_id FROM files WHERE id=?1) AND f.ordem<(SELECT ordem FROM files WHERE id=?1))) ORDER BY f.chapter_id DESC,f.ordem DESC,s.ordem DESC LIMIT 1"
-    };
-    Ok(conn
-        .query_row(sql, [seg.file_id], |r| r.get(0))
-        .optional()?)
+    Ok(conn.query_row(&sql, [id], |r| r.get(0)).optional()?)
 }
 pub fn first_pending(conn: &Connection) -> Result<Option<i64>> {
-    Ok(conn.query_row("SELECT id FROM segments ORDER BY CASE status WHEN 'em_progresso' THEN 0 WHEN 'pendente' THEN 1 ELSE 2 END, id LIMIT 1", [], |r| r.get(0)).optional()?)
+    Ok(conn
+        .query_row(
+            "SELECT s.id FROM segments s
+             JOIN files f ON f.id = s.file_id
+             JOIN chapters ch ON ch.id = f.chapter_id
+             ORDER BY CASE s.status WHEN 'em_progresso' THEN 0 WHEN 'pendente' THEN 1 ELSE 2 END,
+                      ch.course_id, ch.ordem, f.ordem, s.ordem
+             LIMIT 1",
+            [],
+            |r| r.get(0),
+        )
+        .optional()?)
 }
 pub type ChapterTree = Vec<(String, Vec<(String, Vec<(i64, i64, String)>)>)>;
 pub fn chapters(conn: &Connection) -> Result<ChapterTree> {
