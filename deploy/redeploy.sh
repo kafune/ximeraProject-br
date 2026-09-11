@@ -9,10 +9,11 @@
 # Uso (no clone da VPS, com o usuário dono do repositório):
 #   deploy/redeploy.sh
 #
-# O binário, o --db e o --listen vêm do ExecStart do serviço. Opcionais:
+# O serviço pode ser do sistema ou do usuário (~/.config/systemd/user); o
+# binário, o --db e o --listen vêm do ExecStart dele. Opcionais:
 #   SERVICE=traduz   REMOTE=origin   BRANCH=main
 #   SKIP_TESTS=1     pula o cargo test
-#   FORCE=1          recompila e reinicia mesmo sem commits novos
+#   FORCE=1          recompila e reinicia mesmo que origin/main já esteja no ar
 #   KEEP_BACKUPS=10  quantos backups manter em data/backups/
 #   HEALTH_URL=URL   padrão: http://<listen>/chapters
 set -Eeuo pipefail
@@ -33,6 +34,8 @@ SUDO=""
 if [ "$(id -u)" -ne 0 ]; then
   SUDO="sudo"
 fi
+# Commit do último deploy concluído; um `git pull` manual não conta como deploy.
+deployed_marker="$repo/data/deployed-commit"
 
 phase="preparação"
 previous=""
@@ -48,9 +51,27 @@ die() {
   exit 1
 }
 
+for tool in git cargo curl systemctl flock install cmp; do
+  command -v "$tool" >/dev/null || die "comando ausente: $tool"
+done
+exec 9>"${TMPDIR:-/tmp}/traduz-redeploy.lock"
+flock -n 9 || die "outro redeploy já está em andamento"
+
+if [ "$(systemctl show -p LoadState --value "$SERVICE" 2>/dev/null)" = loaded ]; then
+  ctl() { systemctl "$@"; }
+  ctl_admin() { $SUDO systemctl "$@"; }
+  journal_hint="journalctl -u $SERVICE -n 50"
+elif [ "$(systemctl --user show -p LoadState --value "$SERVICE" 2>/dev/null)" = loaded ]; then
+  ctl() { systemctl --user "$@"; }
+  ctl_admin() { systemctl --user "$@"; }
+  journal_hint="journalctl --user -u $SERVICE -n 50"
+else
+  die "serviço $SERVICE.service não encontrado no systemd do sistema nem em systemctl --user"
+fi
+
 wait_healthy() {
   for _ in $(seq 1 30); do
-    if systemctl is-active --quiet "$SERVICE" &&
+    if ctl is-active --quiet "$SERVICE" &&
       curl -fsS -o /dev/null --max-time 5 "$HEALTH_URL"; then
       return 0
     fi
@@ -89,11 +110,11 @@ on_error() {
     install_binary "$backup/traduz"
   fi
   if [ "$swapped" = 1 ]; then
-    $SUDO systemctl restart "$SERVICE"
+    ctl_admin restart "$SERVICE"
     if wait_healthy; then
       echo "A versão anterior está no ar." >&2
     else
-      echo "ATENÇÃO: a versão anterior também não respondeu em $HEALTH_URL; veja journalctl -u $SERVICE -n 50" >&2
+      echo "ATENÇÃO: a versão anterior também não respondeu em $HEALTH_URL; veja $journal_hint" >&2
     fi
     echo "O banco não foi restaurado; a cópia de antes do deploy está em $backup." >&2
   else
@@ -102,15 +123,7 @@ on_error() {
   exit "$status"
 }
 
-for tool in git cargo curl systemctl flock install cmp; do
-  command -v "$tool" >/dev/null || die "comando ausente: $tool"
-done
-exec 9>"${TMPDIR:-/tmp}/traduz-redeploy.lock"
-flock -n 9 || die "outro redeploy já está em andamento"
-
-[ "$(systemctl show -p LoadState --value "$SERVICE")" = loaded ] ||
-  die "serviço $SERVICE.service não encontrado"
-exec_start="$(systemctl show -p ExecStart --value "$SERVICE")"
+exec_start="$(ctl show -p ExecStart --value "$SERVICE")"
 re='path=([^ ;]+)'
 if [[ $exec_start =~ $re ]]; then
   bin_path="${BASH_REMATCH[1]}"
@@ -128,7 +141,7 @@ arg() {
   fi
 }
 
-workdir="$(systemctl show -p WorkingDirectory --value "$SERVICE")"
+workdir="$(ctl show -p WorkingDirectory --value "$SERVICE")"
 workdir="${workdir#[-!]}"
 listen="$(arg listen)"
 listen="${listen:-127.0.0.1:3000}"
@@ -160,8 +173,9 @@ log "Buscando $REMOTE/$BRANCH"
 git fetch --quiet "$REMOTE" "$BRANCH"
 previous="$(git rev-parse HEAD)"
 target="$(git rev-parse "$REMOTE/$BRANCH")"
-if [ "$previous" = "$target" ] && [ "$FORCE" != 1 ]; then
-  echo "Nada novo: $(git log --oneline -1). Use FORCE=1 para recompilar e reiniciar mesmo assim."
+deployed="$(cat "$deployed_marker" 2>/dev/null || true)"
+if [ "$deployed" = "$target" ] && [ "$FORCE" != 1 ]; then
+  echo "Nada novo: $(git log --oneline -1 "$target") já está no ar. Use FORCE=1 para recompilar e reiniciar mesmo assim."
   exit 0
 fi
 git merge-base --is-ancestor "$previous" "$target" ||
@@ -192,7 +206,7 @@ cargo build --release --locked --bins
 phase="parada do serviço"
 log "Parando $SERVICE e copiando o banco para $backup"
 swapped=1
-$SUDO systemctl stop "$SERVICE"
+ctl_admin stop "$SERVICE"
 
 phase="backup do banco"
 for file in "$db" "$db-wal" "$db-shm"; do
@@ -205,7 +219,7 @@ phase="instalação do binário"
 install_binary "$repo/target/release/traduz"
 
 phase="reinício"
-$SUDO systemctl start "$SERVICE"
+ctl_admin start "$SERVICE"
 
 phase="verificação"
 log "Conferindo $HEALTH_URL"
@@ -215,6 +229,7 @@ if ! wait_healthy; then
 fi
 
 trap - ERR INT TERM
+git rev-parse HEAD >"$deployed_marker"
 ls -1d "$repo"/data/backups/[0-9]*-[0-9]* | sort | head -n "-$KEEP_BACKUPS" |
   xargs -r -d '\n' rm -rf -- || true
 log "Deploy concluído: $(git log --oneline -1)"

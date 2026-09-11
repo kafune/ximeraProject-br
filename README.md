@@ -12,4 +12,4 @@ Para reimportar arquivos que mudaram, use `--replace`: trechos idênticos mantê
 
 ## Deploy
 
-Na VPS, dentro do clone, rode `deploy/redeploy.sh`. O script lê o binário, `--db` e `--listen` do `traduz.service`, avança para `origin/main`, roda os testes, compila em release, guarda banco e binário atuais em `data/backups/` e reinicia o serviço. Se o serviço não responder, volta ao commit e ao binário anteriores. As variáveis opcionais estão no topo do script.
+Na VPS, dentro do clone, rode `deploy/redeploy.sh`. O script lê o binário, `--db` e `--listen` do `traduz.service` (do sistema ou de `systemctl --user`), avança para `origin/main`, roda os testes, compila em release, guarda banco e binário atuais em `data/backups/` e reinicia o serviço. Se o serviço não responder, volta ao commit e ao binário anteriores. As variáveis opcionais estão no topo do script.
