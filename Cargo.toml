@@ -1,0 +1,38 @@
+[package]
+name = "traduz"
+version = "0.1.0"
+edition = "2021"
+default-run = "traduz"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "traduz"
+path = "src/main.rs"
+
+[[bin]]
+name = "import"
+path = "src/bin/import.rs"
+
+[[bin]]
+name = "export"
+path = "src/bin/export.rs"
+
+[dependencies]
+anyhow = "1.0"
+askama = "0.12"
+axum = { version = "0.7", features = ["form", "http1", "json", "query"] }
+clap = { version = "4.5", features = ["derive"] }
+http-body-util = "0.1"
+rusqlite = { version = "0.32", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+thiserror = "2.0"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "net"] }
+tower-http = { version = "0.6", features = ["fs"] }
+walkdir = "2.5"
+
+[dev-dependencies]
+tempfile = "3.13"

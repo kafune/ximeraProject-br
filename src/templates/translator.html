@@ -1,0 +1,14 @@
+{% extends "base.html" %}{% block title %}Traduzir{% endblock %}{% block content %}
+<div class="progress" aria-live="polite"><span>{{ progress }}</span><a href="/read/files/{{ segment.file_id }}">Visualizar leitura</a></div>
+<div class="workspace"><aside class="sidebar" aria-label="Capítulos"><h2>Capítulos</h2>{% for (chapter, files) in chapters %}<h3>{{ chapter }}</h3>{% for (file, segments) in files %}<p>{{ file }}</p><ol>{% for (id, order, status) in segments %}<li><a href="/segments/{{ id }}">{{ order + 1 }}</a> <small>{{ status }}</small></li>{% endfor %}</ol>{% endfor %}{% endfor %}</aside>
+<article class="translator" data-segment-id="{{ segment.id }}">
+  <section class="source"><h1>Original</h1><div class="reading">{{ segment.original }}</div>
+    {% if !glossary.is_empty() %}<details><summary>Dicas do glossário</summary><ul>{% for (original, translated) in glossary %}<li><b>{{ original }}</b> — {{ translated }}</li>{% endfor %}</ul></details>{% endif %}
+  </section>
+  <section class="translation"><h1>Sua tradução</h1>
+    <form id="translation-form" action="/segments/{{ segment.id }}/complete" method="post"><textarea name="text" aria-label="Sua tradução" placeholder="Escreva a tradução; mantenha os tokens {% raw %}{{CMD_1}}{% endraw %}">{{ segment.translated }}</textarea><p id="save-status" role="status"></p><div class="actions"><button class="secondary" id="copy-original" type="button">Copiar original</button><button class="secondary" formaction="/segments/{{ segment.id }}/skip" formmethod="post">Pular</button><button type="submit">Salvar e próximo</button></div></form>
+  </section>
+</article>
+</div>
+<nav class="pager"><a href="/segments/{{ segment.id }}/previous">← Anterior</a><a href="/segments/{{ segment.id }}/next">Próximo →</a></nav>
+{% endblock %}
