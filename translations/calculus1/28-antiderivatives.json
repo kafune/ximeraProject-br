@@ -1,0 +1,746 @@
+[
+ {
+  "arquivo": "antiderivatives/titlePage.tex",
+  "ordem": 0,
+  "hash": "3fdd4c5625d55b58155b6efcc50c6eb6d84ebf23c6ae63b211d8df6be064a94f",
+  "traducao": "Antiderivadas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "antiderivatives/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "antiderivatives/titlePage.tex",
+  "ordem": 2,
+  "hash": "25f671af91312de33058defda577abb0b526f2272e658b566e494034266751c2",
+  "traducao": " Definir uma antiderivada.\n\t{{CMD_4}} Calcular antiderivadas básicas.\n\t{{CMD_5}} Comparar e contrastar o cálculo de derivadas e o cálculo de antiderivadas.\n\t{{CMD_6}} Definir problemas de valor inicial.\n\t{{CMD_7}} Resolver problemas de valor inicial básicos.\n\t{{CMD_8}} Usar antiderivadas para resolver problemas simples com enunciado.\n\t{{COMMENT_9}}\n\t{{CMD_10}} Discutir o significado das antiderivadas da velocidade e da aceleração.\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "antiderivatives/breakGround.tex",
+  "ordem": 0,
+  "hash": "8646c3cfa200010452ce403191ce3e67d6b18ce5e7bbd0e29c37d5b2a999c6cc",
+  "traducao": "Jeopardy! do cálculo{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Se a resposta é uma derivada, buscamos as perguntas que levam a essa resposta.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "antiderivatives/breakGround.tex",
+  "ordem": 1,
+  "hash": "5c1e8bda6181706f889341dd4a0196d4e67ba43ac87e5f8a059a2d89b21c51b1",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história real):"
+ },
+ {
+  "arquivo": "antiderivatives/breakGround.tex",
+  "ordem": 2,
+  "hash": "144ce27c7ef9743463d4e96e700fd669ce74a8bfae491c2eed8f0032f0f24f69",
+  "traducao": " (Fingindo ser Alex Trebek) Arrumei uma fantasia nova.\n{{CMD_7}} Uau! Você está igualzinho ao Trebek!\n{{CMD_8}} No {{CMD_9}}Jeopardy!{{CMD_10}}, eu, Trebek, dou a você uma resposta, e você precisa me dizer qual é a pergunta.\n{{CMD_11}} Hã, Alex, `Quais são as regras do {{CMD_12}}Jeopardy!{{CMD_13}}?'\n{{CMD_14}} Ha. Exatamente! Vamos jogar uma versão diferente, em que eu\n  digo uma derivada, e você me diz a função.  Está pronto?\n{{CMD_15}} Vou escolher ``Fórmulas para a inclinação'' por {{MATH_16}}.\n{{CMD_17}} {{MATH_18}}  \n{{CMD_19}} Tenho uma resposta!  Na verdade, tenho três respostas\n  diferentes, quer dizer, perguntas!\n  {{CMD_20}}\n  {{CMD_21}} ``Qual é a derivada de {{MATH_22}}?''\n  {{CMD_23}} ``Qual é a derivada de {{MATH_24}}?''\n  {{CMD_25}} ``Qual é a derivada de {{MATH_26}}?''\n  {{CMD_27}}\n{{CMD_28}} Hmmm. Agora não sei mais qual delas era.\n{{CMD_29}} E se você tivesse me dado {{MATH_30}}?\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "antiderivatives/breakGround.tex",
+  "ordem": 3,
+  "hash": "cd99f552c50db05425451efd991a3a61cd659aae24c3a59275e8008aee9ed09d",
+  "traducao": "  Quantas funções cuja derivada é {{MATH_32}} existem?\n  {{CMD_33}}\n  {{CMD_34}}\n    {{CMD_35}}Zero{{CMD_36}}\n    {{CMD_37}}Uma{{CMD_38}}\n    {{CMD_39}}Duas{{CMD_40}}\n    {{CMD_41}}Três{{CMD_42}}\n    {{CMD_43}}Quatro{{CMD_44}}\n    {{CMD_45}}Infinitas{{CMD_46}}\n  {{CMD_47}}\n  {{CMD_48}}\n{{CMD_49}}"
+ },
+ {
+  "arquivo": "antiderivatives/breakGround.tex",
+  "ordem": 4,
+  "hash": "3e378cb374f33f1ac81a864b2300a3f5f3654d72ace5861ec591d3b9ace3f6f5",
+  "traducao": "  Quantas funções cuja derivada é {{MATH_50}} e que valem\n  {{MATH_51}} em {{MATH_52}} existem?\n  {{CMD_53}}\n  {{CMD_54}}\n    {{CMD_55}}Zero{{CMD_56}}\n    {{CMD_57}}Uma{{CMD_58}}\n    {{CMD_59}}Duas{{CMD_60}}\n    {{CMD_61}}Três{{CMD_62}}\n    {{CMD_63}}Quatro{{CMD_64}}\n    {{CMD_65}}Infinitas{{CMD_66}}\n  {{CMD_67}}\n  {{CMD_68}}\n{{CMD_69}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 0,
+  "hash": "02de3092a2c29d9b8a00412a6d2da22f5e61fb95efd656ba7a3154d88ae9ba10",
+  "traducao": "Antiderivadas básicas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Introduzimos as antiderivadas.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 1,
+  "hash": "d333c62765d4925df326562de0e69c0b09bfd17f06c2b21e98e69955c10105ae",
+  "traducao": "Calcular derivadas não é tão difícil. A esta altura, você deve ser capaz de derivar praticamente qualquer função que consiga escrever.\nNo entanto, desfazer derivadas é bem mais difícil. Esse processo de desfazer uma derivada é chamado de calcular uma {{CMD_7}}antiderivada{{CMD_8}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 2,
+  "hash": "5b23e3807d025df4ed5a0029ad6fb1c3979a6d2cb3e5a1b815b74734f2c5f1e3",
+  "traducao": "\tUma função {{MATH_9}} é chamada de {{CMD_10}} de {{MATH_11}} em um intervalo se\n\t{{MATH_12}}\n\tpara todo {{MATH_13}} no intervalo.\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 3,
+  "hash": "4396d8e25e7a4a188f9aff25315eee456a33587eb495c0b096e6a80fff2aacb8",
+  "traducao": "  Quantas antiderivadas {{MATH_15}} possui?\n  {{CMD_16}}\n\t  {{CMD_17}}\n\t\t    {{CMD_18}}nenhuma{{CMD_19}}\n\t\t    {{CMD_20}}uma{{CMD_21}}\n\t\t    {{CMD_22}}infinitas{{CMD_23}}\n\t  {{CMD_24}}\n  {{CMD_25}}\n  {{CMD_26}}\n   {{CMD_27}}\n          {{ENV_28}}\n{{COMMENT_29}}\n{{COMMENT_30}}\n{{COMMENT_31}}\n{{COMMENT_32}}\n{{CMD_33}}\n    As funções {{MATH_34}}, {{MATH_35}}, {{MATH_36}}, {{MATH_37}} e assim por diante são todas\n    antiderivadas de {{MATH_38}}.\n\n     É claro que qualquer função {{MATH_39}}, em que {{MATH_40}} é uma constante, é uma antiderivada de {{MATH_41}}. Por quê?\n    Porque {{MATH_42}}.\n\n     Poderia existir alguma outra antiderivada de {{MATH_43}}, digamos {{MATH_44}}, tal que {{MATH_45}} não seja a soma de {{MATH_46}} com uma constante?\n    Nesse caso, para todo {{MATH_47}} teríamos\n  {{MATH_48}}\n  {{CMD_49}}\n  Lembre-se: qualquer função cuja derivada é igual a {{MATH_50}} em algum intervalo é igual a uma constante nesse intervalo. Isso significa que\n  a função {{MATH_51}}, para alguma constante {{MATH_52}}. Isso implica que {{MATH_53}}, para todo x.\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 4,
+  "hash": "3ba8ab8f582442c32e2670842018cd086183ad9e7fa1e8296e395e744827211c",
+  "traducao": "\tSe {{MATH_55}} é uma antiderivada de {{MATH_56}}, então a função {{MATH_57}} tem toda uma {{CMD_58}}família de antiderivadas{{CMD_59}}.\n\tCada antiderivada de {{MATH_60}} é a soma de {{MATH_61}} com alguma constante {{MATH_62}}.\n{{CMD_63}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 5,
+  "hash": "0d9675af519072813dbb6c628f873291bbd35eaa7dbcd4513ec867126971f3b8",
+  "traducao": "Quando escrevemos {{MATH_64}}, estamos denotando toda a família de antiderivadas de {{MATH_65}}. Uma notação alternativa para essa família de\nantiderivadas foi introduzida por {{CMD_66}}G.W.{{CMD_67}}Leibniz{{CMD_68}} (1646-1716):\n\n{{CMD_69}}{{CMD_70}}{{CMD_71}}\n\tSeja {{MATH_72}} uma função. A família de {{CMD_73}}todas{{CMD_74}} as antiderivadas de {{MATH_75}} é denotada por\n\t{{MATH_76}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 6,
+  "hash": "c900bd9fb3b99a0063818e0a6f7eea491e46a78d1c5515a6996a44b9a091e65a",
+  "traducao": "\tIsso é chamado de {{CMD_77}} de {{MATH_78}}.\n{{CMD_79}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 7,
+  "hash": "b078075adb04f789343017177d6d55e7899ac02c8aad623f5d2dfaae205ac4dc",
+  "traducao": "Segue que\n{{MATH_80}}\nem que {{MATH_81}} é qualquer antiderivada de {{MATH_82}} e {{MATH_83}} é uma constante arbitrária."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 8,
+  "hash": "0377b36f874091d475660af8c1a58790ffed82634160d4cabbbf743eefbc91ce",
+  "traducao": "Abaixo está uma lista de antiderivadas básicas das nossas funções famosas.\nObserve que cada um desses exemplos vem diretamente do nosso conhecimento das derivadas básicas."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 9,
+  "hash": "78b624f1a8ffa85fc8923ee0343334ef9373249f4c54fb3e61f46be97acf87b8",
+  "traducao": "Pode parecer que bastaria memorizar essas antiderivadas e que antiderivar seria tão fácil quanto derivar. Esse\n{{CMD_84}}não{{CMD_85}} é o caso. O problema surge quando tentamos combinar essas funções. Ao calcular derivadas, temos a {{CMD_86}}regra do produto{{CMD_87}}\ne a {{CMD_88}}regra da cadeia{{CMD_89}}. Os análogos dessas duas regras são muito mais difíceis de lidar quando calculamos antiderivadas. Porém, nem\ntudo está perdido."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 10,
+  "hash": "c6c31fcd69aa42d67a7fe4d241381a47698324dd3400f3beba7665d90f7d0e10",
+  "traducao": "Considere o exemplo a seguir.\n{{CMD_90}}\n\t  Determine uma antiderivada da função {{MATH_91}} definida pela expressão\n\n\t   {{MATH_92}}, para todo {{MATH_93}} em algum intervalo {{MATH_94}}.\n\t  {{CMD_95}}\n\t\t    {{CMD_96}}{{MATH_97}}{{CMD_98}}\n\t\t    {{CMD_99}}{{MATH_100}}{{CMD_101}}\n\t\t    {{CMD_102}}{{MATH_103}}{{CMD_104}}\n\t  {{CMD_105}}\n\t  {{CMD_106}}\n\t \t   Derive cada alternativa. Na última alternativa, obtemos\n\t    \t{{MATH_107}}.\n\t  {{CMD_108}}\n{{CMD_109}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 11,
+  "hash": "2cc6813ea9a92a942c52e018fc3f36487a8197528564e2eda7a421079f0a0c09",
+  "traducao": "É fácil verificar se uma antiderivada está correta: basta derivá-la e checar que {{MATH_110}}, para todo {{MATH_111}} em {{MATH_112}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 12,
+  "hash": "f40dd72dc5328fa6796b80ecf64f8cd5b9968ba4b49502a8f1ae356acd11d936",
+  "traducao": "Observe que, no último exemplo, a função {{MATH_113}} é a soma de duas funções, {{MATH_114}} e {{MATH_115}}, em que\n{{MATH_116}} e {{MATH_117}}, para {{MATH_118}} em {{MATH_119}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 13,
+  "hash": "136df36fb3956af6cf75a78d28197ab8d77b2b92566cdd714ffb02758636a396",
+  "traducao": "Conhecemos antiderivadas de ambas as funções: {{MATH_120}} e {{MATH_121}}, para {{MATH_122}} em {{MATH_123}}, são antiderivadas de {{MATH_124}} e {{MATH_125}}, respectivamente.\nAssim, neste exemplo vemos que a função {{MATH_126}} é uma antiderivada de {{MATH_127}}.\nEm outras palavras, \"a soma de antiderivadas é uma antiderivada da soma\"."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 14,
+  "hash": "fd6276e033da00b8bd7a720f179b420bc58411670e341ae0364062db73835d25",
+  "traducao": "Isso é verdade em geral?"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 15,
+  "hash": "5ca2fad29c32808ba2cc98b54cbdab921eb343d11dfd9ac306939da62dffa050",
+  "traducao": "Vamos verificar se essa regra vale para qualquer par admissível de funções {{MATH_128}} e {{MATH_129}} definidas em algum intervalo {{MATH_130}}.\n {{CMD_131}}\n\tSejam {{MATH_132}}, {{MATH_133}}, {{MATH_134}} e {{MATH_135}} quatro funções definidas em algum intervalo {{MATH_136}} tais que {{MATH_137}} é uma antiderivada de {{MATH_138}}\n\te {{MATH_139}} é uma antiderivada de {{MATH_140}}, isto é,"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 16,
+  "hash": "00b5c8c3ba11d40446de0fc312e50c4d4679a41b242cc547d79cf9a075120b25",
+  "traducao": " e {{MATH_141}} para todo {{MATH_142}} em algum intervalo {{MATH_143}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 17,
+  "hash": "13acfa8cf3f4ef53abd7115cbe054f53681f7108a620b1eec5327b4dcfe30a51",
+  "traducao": "\t  Determine uma antiderivada da função {{MATH_144}}.\n\t    {{CMD_145}}\n\t    Derive a função {{MATH_146}}.\n\t     {{CMD_147}}\n\t     Como\n\t     {{MATH_148}},\n\t     segue que {{MATH_149}} é uma antiderivada de {{MATH_150}}.\n\n\t Resumindo: a soma de antiderivadas é uma antiderivada da soma.\n{{CMD_151}}\nProvamos o teorema a seguir."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 18,
+  "hash": "7b806e32ca616d963954b525199d234da13d683d861a9fd9940586c9ec1fc84c",
+  "traducao": "\tSe {{MATH_152}} é uma antiderivada de {{MATH_153}} e {{MATH_154}} é uma antiderivada de\n\t{{MATH_155}}, então {{MATH_156}} é uma antiderivada de {{MATH_157}}.\n\n\tDe modo equivalente, usando integrais indefinidas, podemos escrever\n\n\t{{MATH_158}}.\n{{CMD_159}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 19,
+  "hash": "63938122d90084941dc52db926973d65813ac13d1e9c1bf211f89a57df89c8a2",
+  "traducao": "Em seguida, vamos tentar provar um análogo da regra do múltiplo constante para derivadas.\nConsideremos o exemplo a seguir.\n{{CMD_160}}\n\t  Determine uma antiderivada da função {{MATH_161}}, em que\n\t   {{MATH_162}}, para todo {{MATH_163}} em algum intervalo {{MATH_164}}.\n\t  {{CMD_165}}\n\t  {{CMD_166}}{{MATH_167}}{{CMD_168}}\n\t    {{CMD_169}}{{MATH_170}}{{CMD_171}}\n\t    {{CMD_172}}{{MATH_173}}{{CMD_174}}\n\t  {{CMD_175}}\n\t  {{CMD_176}}\n\t    Derive cada alternativa para {{MATH_177}}. Na primeira alternativa, obtemos\n\t    {{MATH_178}}.\n\t  {{CMD_179}}\n{{CMD_180}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 20,
+  "hash": "9494c96038382417086470a81b6259ddd1167ab112c1f6295f26fb421a20b3c0",
+  "traducao": "É fácil reconhecer uma antiderivada: basta derivá-la e verificar se {{MATH_181}}, para todo {{MATH_182}} em {{MATH_183}}.\nObserve que, neste exemplo, a função {{MATH_184}} é um múltiplo constante de {{MATH_185}},\nem que {{MATH_186}}. Por outro lado, sabemos que a função {{MATH_187}}, definida por\n{{MATH_188}}, é uma antiderivada de {{MATH_189}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 21,
+  "hash": "5aba6ed4cbd6df1c6207812ffa69b90078ed9194a196ea8c7604d2657e7b9e13",
+  "traducao": "Se derivarmos a função {{MATH_190}}, obtemos\n{{MATH_191}}, para {{MATH_192}} em {{MATH_193}}.\n\n  Em outras palavras, ``um múltiplo constante de uma antiderivada é uma antiderivada do múltiplo constante da função.''\nIsso é sempre verdade?"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 22,
+  "hash": "61d50e375557c5c319921b7e6641f3487b317e6672d97faad357fb3d0cd58579",
+  "traducao": "Vamos verificar se essa regra vale para qualquer constante {{MATH_194}} e qualquer função admissível {{MATH_195}} definida em algum intervalo {{MATH_196}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 23,
+  "hash": "fa3032ddc4b4b06d8fd6d74e916651386e7cbf781338e537168033420b0a9fb9",
+  "traducao": "Seja {{MATH_197}} uma constante, seja {{MATH_198}} uma função definida em algum intervalo {{MATH_199}} e seja {{MATH_200}} uma antiderivada de {{MATH_201}}, isto é,"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 24,
+  "hash": "d9909333d50c67aa9f673145526911d49d11e57f66aa899eecd1fc7599dfa40d",
+  "traducao": ", para todo {{MATH_202}} em algum intervalo {{MATH_203}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 25,
+  "hash": "d5c6dd413a996c12947f2f2f8c6b9826a2a6b5f28d75e9ec26ee03593c24f285",
+  "traducao": "  Determine uma antiderivada da função {{MATH_204}}.\n    {{CMD_205}}\n    Derive a função {{MATH_206}}.\n     {{CMD_207}}\n     Como {{MATH_208}}, segue que {{MATH_209}} é\n     uma antiderivada de {{MATH_210}}.\n Resumindo: o múltiplo constante de uma antiderivada é uma antiderivada do múltiplo constante da função.\n{{CMD_211}}\nProvamos o teorema a seguir.\n{{CMD_212}}{{CMD_213}}\n\tSe {{MATH_214}} é uma antiderivada de {{MATH_215}} e {{MATH_216}} é uma constante, então {{MATH_217}} é uma antiderivada de {{MATH_218}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 26,
+  "hash": "1a935b5260ee0bcc2a5af009a0d8ad982249a3a663c8b11a6310220e179a488b",
+  "traducao": "\tDe modo equivalente, usando integrais indefinidas, podemos escrever {{MATH_219}}.\n{{CMD_220}}\nVamos colocar essas regras e nosso conhecimento das derivadas básicas para trabalhar.\n{{CMD_221}}\nDetermine a antiderivada de {{MATH_222}}.\n{{CMD_223}}\nPelos teoremas acima, vemos que\n{{ENV_224}}\n{{CMD_225}}\n{{CMD_226}}\nA regra da soma para antiderivadas nos permite integrar\ntermo a termo. Vejamos um exemplo disso."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 27,
+  "hash": "1b214166b6ebc6731bdd37c8356c6a61c3726d71490d13aacf838aae9c8b05e4",
+  "traducao": "\tCalcule:\n\t{{MATH_227}}\n\t{{CMD_228}}\n\t\tVamos começar simplificando o problema com a regra da soma\n\t\t e a regra do múltiplo constante para antiderivadas:\n\t\t{{ENV_229}}\n\t\tAgora podemos integrar termo a termo e obter\n\t\t{{MATH_230}}\n\t{{CMD_231}}\n{{CMD_232}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 28,
+  "hash": "bbb37ab0aa9f59a118267063e54a4704c90c7affcca27e69f19d5cbf8e1aa57e",
+  "traducao": "\tEmbora a regra da soma para antiderivadas nos permita integrar\n\ttermo a termo, não podemos integrar {{CMD_233}}fator a fator{{CMD_234}}, ou seja,\n\tem geral\n\t{{MATH_235}}\n{{CMD_236}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 29,
+  "hash": "713b2087b63f3849a346d0ec5848b4ac12d83326d39130ad9956f2668c71076a",
+  "traducao": "  Um estudante afirma que {{MATH_237}}. Determine se o estudante está certo ou errado.\n\n  {{CMD_238}}\n    Se o estudante estivesse certo, a derivada de {{MATH_239}} em relação a {{MATH_240}} teria de ser {{MATH_241}}. Porém:\n\n      {{MATH_242}}\n\n Logo, o estudante está errado!\n  {{CMD_243}}\n{{CMD_244}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 30,
+  "hash": "016d8093617c636c45e2b62df4a3456a2996c3dfb5821f9ecf6160e3d69622af",
+  "traducao": "Calculando antiderivadas{{CMD_245}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 31,
+  "hash": "a9ad54d602d00dfe1f7ae2d1858b828b9ee8e45e0e47b1802b2d2bb565ae7cf1",
+  "traducao": "Infelizmente, não podemos lhe dizer como calcular toda e qualquer antiderivada;\nnós as vemos como uma espécie de {{CMD_246}}quebra-cabeça{{CMD_247}}. Mais adiante, aprenderemos um\npunhado de técnicas para calcular antiderivadas. Contudo, uma\nmaneira simples e robusta de calcular antiderivadas é chutar e verificar."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 32,
+  "hash": "7482e89acc20cb23ccbe1bcee7a60d2709013c2257fa4c7f70cf89d2701ac5ca",
+  "traducao": "Dicas para chutar antiderivadas{{CMD_248}}\n{{CMD_249}}\n{{CMD_250}} Se possível, expresse a função que você está integrando em uma forma conveniente para a integração.\n{{CMD_251}} Dê um chute para a antiderivada.\n{{CMD_252}} Calcule a derivada do seu chute.\n{{CMD_253}} Observe em que a derivada acima difere da função\n  cuja antiderivada você quer encontrar.\n{{CMD_254}} Modifique seu chute original {{CMD_255}}multiplicando{{CMD_256}} por constantes\n  ou {{CMD_257}}somando{{CMD_258}} novas funções.\n{{CMD_259}}\n{{COMMENT_260}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 33,
+  "hash": "268e6fcd7cad2b1421a5f3c7486f6ce7cfdb74af052ac1407d3686ac2e65e1d0",
+  "traducao": "\tCalcule:\n\t{{MATH_261}}\n\t{{CMD_262}}\n\t\tAntes de chutar a solução, vamos expressar a função em uma forma conveniente para a integração. Por causa da regra da soma, é mais\n\t\tconveniente ter uma soma de funções do que um único termo complicado.\n\t\t{{ENV_263}}\n\t\tAgora podemos aplicar a regra da soma.\n\t\t{{MATH_264}}\n\t\tAgora podemos terminar o problema.\n\t\t{{MATH_265}}\n\t{{CMD_266}}\n{{CMD_267}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 34,
+  "hash": "a90113c8ff53a2a1e0796b46732381e4eb5765d081af7cd39ba4357c60ce1993",
+  "traducao": "\t  Calcule:\n\t  {{MATH_268}}\n\t  {{CMD_269}}\n\t\t    Comece com o chute\n\t\t    {{MATH_270}}\n\t\t    Aqui, usamos o símbolo {{MATH_271}} para indicar que isso é um chute, baseado no integrando.\n\t\t    Calcule a derivada do seu chute para ver se ele está correto:\n\t\t    {{MATH_272}}\n\t\t    Erramos por um fator de {{MATH_273}}, então multiplique seu chute por essa constante.\n\t\t    {{MATH_274}}\n\t\t    Isso nos dá a resposta.\n\t\t    {{MATH_275}}\n\t{{CMD_276}}\n{{CMD_277}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 35,
+  "hash": "53b3cf0cea42cddc7c330c08e877679b0553f559728a77803cb89f33ee81e543",
+  "traducao": "\tCalcule:\n\t{{MATH_278}}\n\t{{CMD_279}}\n\t\tComo o integrando aqui é uma exponencial, começaremos chutando uma exponencial.\n\t\t{{MATH_280}}\n\t\tDerive nosso chute para verificá-lo:\n\t\t{{MATH_281}}\n\t\tParece que erramos por um fator constante. Vamos dividir por {{MATH_282}} para nos livrar do coeficiente do lado direito.\n\t\t{{MATH_283}}\n\t\tPrecisamos de um coeficiente {{MATH_284}} na exponencial, então multiplicamos por {{MATH_285}}.\n\t\t{{MATH_286}}\n\t\tIsso nos dá o resultado.\n\t\t{{MATH_287}}\n\t{{CMD_288}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 36,
+  "hash": "e4fcf9064e3c7798e595e301a8e2805c11e94b8fa7e2060482a0baf97fd84be9",
+  "traducao": "\t  Calcule:\n\t  {{MATH_289}}\n\t  {{CMD_290}}\n\t\t    Comece com o chute\n\t\t    {{MATH_291}}\n\t\t    Calcule a derivada do seu chute para ver se ele está correto:\n\t\t    {{MATH_292}}\n\t\t    Para nos livrar do coeficiente {{MATH_293}}, dividimos ambos os lados.\n\t\t    {{MATH_294}}\n\t\t    Multiplique ambos os lados por {{MATH_295}} para obter o coeficiente correto.\n\t\t    {{MATH_296}}\n\t\t   Portanto,\n\t\t    {{MATH_297}}\n\t{{CMD_298}}\n{{CMD_299}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 37,
+  "hash": "6540ad8b114d6b8ec7c73882d55a4e3b1b9e284b5175e8bf920d487d36957bbe",
+  "traducao": "  Calcule:\n  {{MATH_300}}\n  {{CMD_301}}\n    Comece com o chute\n    {{MATH_302}}\n    Calcule a derivada do seu chute para ver se ele está correto:\n    {{MATH_303}}\n    Erramos por um fator de {{MATH_304}}, então multiplique nosso chute por essa constante\n    para obter a solução,\n    {{MATH_305}}\n{{CMD_306}}\n{{CMD_307}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 38,
+  "hash": "aa1680240aa45509b5fdefa5041988660c63fd1e5cb5e9ab199037471f43f54c",
+  "traducao": "  Calcule:\n  {{MATH_308}}\n  {{CMD_309}}\n    Comece reescrevendo a integral indefinida como\n    {{MATH_310}}\n    Agora comece com o chute\n    {{MATH_311}}\n    Calcule a derivada do seu chute para ver se ele está correto:\n    {{MATH_312}}\n    Erramos por um fator de {{MATH_313}}, então multiplique nosso chute por essa constante\n    para obter a solução,\n    {{MATH_314}}\n{{CMD_315}}\n{{CMD_316}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 39,
+  "hash": "7ac678f049cabb3c963fc7e47bb8efeeced44276142e81e01dc8d65b563b9ee3",
+  "traducao": "Calcule:\n{{MATH_317}}\n{{CMD_318}}\nTentamos chutar a antiderivada. Comece com o chute\n{{MATH_319}}\nCalcule a derivada do seu chute para ver se ele está correto:\n{{MATH_320}}\nAh! Então basta multiplicar nosso chute original por {{MATH_321}}. Agora\nobtemos\n{{MATH_322}}\n{{CMD_323}}\n{{CMD_324}}\n{{CMD_325}}\nCalcule:\n{{MATH_326}}\n{{CMD_327}}\nNotamos que o numerador é a derivada do denominador, isto é, a função que estamos integrando tem a forma {{MATH_328}}.\n{{MATH_329}}\nCalcule a derivada do seu chute para ver se ele está correto:\n{{MATH_330}}\nPortanto,\n{{MATH_331}}\n{{CMD_332}}\n{{CMD_333}}\n{{CMD_334}}\nCalcule:\n{{MATH_335}}\n{{CMD_336}}\nComeçaremos com o chute\n{{MATH_337}}\nCalcule a derivada do seu chute para ver se ele está correto:\n{{MATH_338}}\nErramos apenas por um fator de {{MATH_339}}, então precisamos multiplicar nosso\nchute original por essa constante para obter a solução,\n{{MATH_340}}\n{{CMD_341}}\n{{CMD_342}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 40,
+  "hash": "204688d3dc943626cf60242c6280899611094226a64166ececb821c27096bffe",
+  "traducao": "Considerações finais{{CMD_343}}\nCalcular antiderivadas é um lugar onde intuição e cálculo\nmecânico se encontram. Não podemos lhe ensinar um método que sempre\nfuncione. Além disso, apenas {{CMD_344}}entender{{CMD_345}} os exemplos acima\nprovavelmente não será suficiente para você se tornar proficiente em calcular\nantiderivadas. Você precisa praticar, praticar, praticar!"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 41,
+  "hash": "2c3bab0f738a50a6cc446089ed0852c19707b8ad6c946c31f6b541713f38758c",
+  "traducao": "Equações diferenciais{{CMD_346}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 42,
+  "hash": "aa3cf5d5ec80830b93b7fdbf9c8c69bc6543099ae4520a3815cce74dbf362f55",
+  "traducao": "  As equações diferenciais mostram relações entre as taxas de variação de\n  funções."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 43,
+  "hash": "84f083fbe82fd07c4d45a744855ed24cec677ccad34b794b61c66f62ab5f4281",
+  "traducao": "Uma {{CMD_347}}equação diferencial{{CMD_348}}{{CMD_349}} é\nsimplesmente uma equação que envolve uma derivada. Eis um exemplo:\n{{MATH_350}}\n{{CMD_351}}\n Qual destas é uma equação diferencial?\n  {{CMD_352}}\n    {{CMD_353}}{{MATH_354}}{{CMD_355}}\n    {{CMD_356}}{{MATH_357}}{{CMD_358}}\n    {{CMD_359}}{{MATH_360}}{{CMD_361}}\n  {{CMD_362}}\n{{CMD_363}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 44,
+  "hash": "a5d5bb0a55226b579968cdce228f724737aa1afd0eac4d93c965a330e88ab432",
+  "traducao": "Quando um matemático resolve uma equação diferencial, ele está encontrando\n{{CMD_364}}funções{{CMD_365}} que satisfazem a equação.\n{{CMD_366}}\n  Quais das funções a seguir resolvem a equação diferencial\n  {{MATH_367}}\n  {{CMD_368}}\n    {{CMD_369}}{{MATH_370}}{{CMD_371}}\n    {{CMD_372}}{{MATH_373}}{{CMD_374}}\n    {{CMD_375}}{{MATH_376}}{{CMD_377}}\n     {{CMD_378}}{{MATH_379}}{{CMD_380}}\n    {{CMD_381}}{{MATH_382}}{{CMD_383}}\n    {{CMD_384}}{{MATH_385}}{{CMD_386}}\n  {{CMD_387}}\n{{CMD_388}}\n{{CMD_389}}\n    Podemos verificar diretamente que qualquer função {{MATH_390}} é uma solução da nossa equação diferencial {{MATH_391}}. Poderia haver outras? Acontece que essas são as {{CMD_392}}únicas{{CMD_393}} soluções. Mas mostrar que não deixamos nenhuma de fora é um pouco delicado.\n    {{CMD_394}}\n   {{CMD_395}}\n    Bem, suponha que temos uma função misteriosa {{MATH_396}} e tudo que sabemos é que {{MATH_397}}. Vamos definir uma nova função {{MATH_398}}. Como o denominador nunca é 0, a regra do quociente nos diz que\n    {{MATH_399}}\n    Mas sabemos que uma função com derivada 0 é constante, então {{MATH_400}}. Substituindo isso de volta na nossa fórmula para {{MATH_401}}, obtemos {{MATH_402}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 45,
+  "hash": "4c51e9e348086f2bb3d3e92aaf8fabad26b36bbdf9a96a15963a09d498bd05a8",
+  "traducao": " Agora rearranjamos para obter {{MATH_403}}.\n\n    Isso nos mostra que qualquer solução da nossa equação diferencial {{CMD_404}}deve{{CMD_405}} ser uma das funções que já encontramos. Nosso argumento depende de algumas características especiais deste problema; provar que encontramos todas as soluções possíveis de uma equação diferencial arbitrária é uma tarefa muito difícil!\n   {{CMD_406}}\n    {{CMD_407}}\n{{CMD_408}}\n\nUma função {{MATH_409}} é chamada de {{CMD_410}} da equação diferencial. Como há infinitas soluções para uma equação diferencial, podemos impor uma condição adicional (digamos, {{MATH_411}}), chamada de {{CMD_412}}. Quando nos pedem para encontrar uma função {{MATH_413}} que satisfaça tanto a equação diferencial (ED) quanto a condição inicial (CI), isso é chamado de {{CMD_414}} (PVI). Vamos experimentar um.\n{{CMD_415}}\nResolva o problema de valor inicial (PVI):\n{{ENV_416}}\n{{CMD_417}}\nA figura abaixo mostra várias soluções da equação diferencial.\n{{CMD_418}}\n\t{{ENV_419}}\n{{CMD_420}}\nA figura sugere que a única solução do problema de valor inicial é a função {{MATH_421}}.\nPodemos verificar esse resultado."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 46,
+  "hash": "aff550f6fcfadf4d71450a29ab0f54a9131f6a916966263b226cdd997debe53d",
+  "traducao": "Como todas as soluções da equação diferencial têm a forma {{MATH_422}} e {{MATH_423}}, segue que\n{{MATH_424}}\nPortanto,\n{{MATH_425}}\nAssim, a {{CMD_426}}única{{CMD_427}} solução do problema de valor inicial dado é a função {{MATH_428}}.\n{{CMD_429}}\n{{CMD_430}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 47,
+  "hash": "bbc6238c8d4889ad8cec02d7207bb1ec29df32c1872fb5c80b539f4a4cdcac5b",
+  "traducao": "Resolva o problema de valor inicial (PVI):\n{{ENV_431}}\n{{CMD_432}}\nPrimeiro, temos que resolver a equação diferencial. A solução é claramente uma antiderivada de {{MATH_433}}.\n{{MATH_434}}\nem que {{MATH_435}} é uma constante arbitrária. Encontramos a solução geral da ED, e essa família de soluções está ilustrada na figura abaixo.\n{{CMD_436}}\n\t{{ENV_437}}\n{{CMD_438}}\nAgora precisamos encontrar a solução que também satisfaz a condição inicial\n{{MATH_439}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInBasicAntiderivatives.tex",
+  "ordem": 48,
+  "hash": "eddac395c7d9faaf55e000d14e5076827ea63c14849f1c05e724e99282d8fb82",
+  "traducao": "Como\n{{MATH_440}}\n segue que\n{{MATH_441}}\nPortanto,\n{{MATH_442}}\nA função\n{{MATH_443}}\né a solução do problema de valor inicial e está mostrada na figura acima.\n{{CMD_444}}\n{{CMD_445}}\n{{CMD_446}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInFallingObjects.tex",
+  "ordem": 0,
+  "hash": "92463b37865a2a78dafb3f6ddd2c21f443104507e303e5c6bec85b810d2c3ab0",
+  "traducao": "Objetos em queda{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Estudamos um tipo especial de equação diferencial.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInFallingObjects.tex",
+  "ordem": 1,
+  "hash": "fdb4220c1567a42bf87edf3fee76f26743ee2f1af1e44d27dd912eaa68de12b1",
+  "traducao": "Uma {{CMD_7}} é simplesmente uma equação que contém uma derivada, como esta:\n{{MATH_8}}\nQuando um matemático resolve uma equação diferencial, ele está encontrando\numa {{CMD_9}}função{{CMD_10}} que satisfaz a equação."
+ },
+ {
+  "arquivo": "antiderivatives/digInFallingObjects.tex",
+  "ordem": 2,
+  "hash": "933de6643dcee920f08c6d90c554957d6192d398795f46a9a0ef82570b242be4",
+  "traducao": "Considere um objeto em queda. Lembre-se de que a aceleração da gravidade é de aproximadamente {{MATH_11}}\nm/s{{MATH_12}}. Como a primeira derivada da função velocidade\né a aceleração e a\nsegunda derivada de uma função posição\né a aceleração, temos as equações diferenciais\n{{ENV_13}}\nA partir dessas equações simples, podemos obter expressões para a velocidade\ne para a posição do objeto usando antiderivadas."
+ },
+ {
+  "arquivo": "antiderivatives/digInFallingObjects.tex",
+  "ordem": 3,
+  "hash": "5ecc033878dd772c45700bab687832086c701e2036a585d67ed67d5780d259f6",
+  "traducao": "Uma bola é lançada para cima com velocidade inicial de {{MATH_14}}\nm/s. Qual é a velocidade da bola após 1 segundo? E após\n2 segundos?\n{{CMD_15}}\nSabendo que a aceleração da gravidade é {{MATH_16}} m/s{{MATH_17}}, escrevemos\n{{MATH_18}}\nPara resolver essa equação diferencial, tome a antiderivada de ambos os lados\n{{ENV_19}}\n Como a bola é\nlançada para cima com velocidade inicial de {{MATH_20}} m/s,\n{{MATH_21}}\ne vemos que {{MATH_22}}. Portanto, {{MATH_23}} representa a velocidade inicial da bola.\nLogo, {{MATH_24}}."
+ },
+ {
+  "arquivo": "antiderivatives/digInFallingObjects.tex",
+  "ordem": 4,
+  "hash": "5255eea07885a39152705993dba6064476c9e416fc4dffd2e4d15578b1b93ff7",
+  "traducao": "Agora, quando {{MATH_25}},\n{{MATH_26}} m/s, e a bola está subindo; e em {{MATH_27}}, {{MATH_28}} m/s,\ne a bola está caindo.\n{{CMD_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInFallingObjects.tex",
+  "ordem": 5,
+  "hash": "b9ee66ddd316ae05d60d328615a11181f649c45a57a14640c38d2635f97dd8e9",
+  "traducao": "Agora vamos resolver um problema parecido, mas, em vez de encontrar a velocidade,\nvamos encontrar a posição."
+ },
+ {
+  "arquivo": "antiderivatives/digInFallingObjects.tex",
+  "ordem": 6,
+  "hash": "33a3d27d93721bd93e43e07996297e7edfe710be19ef0aee90780deeff0979cd",
+  "traducao": "Uma bola é lançada para cima com velocidade inicial de {{MATH_31}} m/s\na partir de uma altura de 2 metros. Quando a bola atinge o chão?\n{{CMD_32}}\nSabendo que a aceleração da gravidade é {{MATH_33}} m/s{{MATH_34}}, escrevemos\n{{MATH_35}}\nComece tomando a antiderivada de ambos os lados da equação\n{{ENV_36}}\nAqui {{MATH_37}} representa a velocidade inicial da bola. Como ela é\nlançada para cima com velocidade inicial de {{MATH_38}} m/s, {{MATH_39}} e\n{{MATH_40}}\nComo a velocidade é a derivada da posição, podemos escrever, de forma equivalente,\n{{MATH_41}}\nAgora vamos tomar a antiderivada novamente.\n{{ENV_42}}\nComo sabemos que a altura inicial era {{MATH_43}} metros, escrevemos\n{{MATH_44}}\nLogo, {{MATH_45}}. Precisamos saber quando a\nbola atinge o chão, ou seja, quando {{MATH_46}}. Resolvendo a equação\n{{MATH_47}}\nencontramos duas soluções, {{MATH_48}} e {{MATH_49}}. Descartando\na solução negativa, vemos que a bola atingirá o chão após\naproximadamente {{MATH_50}} segundos.\n{{CMD_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "antiderivatives/digInFallingObjects.tex",
+  "ordem": 7,
+  "hash": "52ebc8d6986cf9324a9fc2c2f47c5b1a62c7b0f30a112394082d56d5d80fdf62",
+  "traducao": "O poder do cálculo está em nos libertar da memorização mecânica de\nfórmulas e nos permitir deduzir o que precisamos."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_07.tex",
+  "ordem": 0,
+  "hash": "1b9756b5c7b83ab79af545c3afbef856eb4bd5c69e95762de141924b59c568f3",
+  "traducao": "Escolha a alternativa correta que completa a frase.\nA antiderivada de uma função aceleração é uma\n{{CMD_1}}\n{{CMD_2}}função constante.{{CMD_3}}\n{{CMD_4}}função positiva. {{CMD_5}}\n{{CMD_6}}função negativa.{{CMD_7}}\n{{CMD_8}}função posição.{{CMD_9}}\n{{CMD_10}}função velocidade.{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_09.tex",
+  "ordem": 0,
+  "hash": "1517f314920ba6ba840e91278b0e0bd1bd1de1ed36db7dfb421a531a154ef4d9",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_11.tex",
+  "ordem": 0,
+  "hash": "07a65a02ad7415edabe146a06d92debc7112e85d36fb7b6985f5e1e0fea67b89",
+  "traducao": "Determine a integral indefinida a seguir."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_13.tex",
+  "ordem": 0,
+  "hash": "ad16fea57702f4775d8a5139ccc88420f7c4d044ca7fc98782fa5efcc60735c0",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}.\n{{CMD_3}}\nUse a regra do múltiplo constante para antiderivadas."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_13.tex",
+  "ordem": 1,
+  "hash": "133307e67bce880b29ef58c6568f859ee03eb14c40332a802f06cba8806da5ce",
+  "traducao": "Escreva a função sob o sinal de integral como uma função potência, porque isso é mais conveniente para a integração."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_16.tex",
+  "ordem": 0,
+  "hash": "1517f314920ba6ba840e91278b0e0bd1bd1de1ed36db7dfb421a531a154ef4d9",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_20.tex",
+  "ordem": 0,
+  "hash": "1517f314920ba6ba840e91278b0e0bd1bd1de1ed36db7dfb421a531a154ef4d9",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_24.tex",
+  "ordem": 0,
+  "hash": "5dd9fb686036f2c3ef69f73f43dfbf3d1181e80b22a8680da60b0165eb8e3099",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}.\n{{CMD_3}}\nLembre-se: {{MATH_4}}\n{{CMD_5}}\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_25.tex",
+  "ordem": 0,
+  "hash": "fe0f1fe3e56d293d1267730b6ae018f9b474a86cf7a1ac43612ca841d601f0f8",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}.\n{{CMD_3}}\nLembre-se: {{MATH_4}} é uma CONSTANTE!\n{{CMD_5}}\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_27.tex",
+  "ordem": 0,
+  "hash": "507dfdd01407b7af8b920d8936b281a06b682125fe8210a9bd8d216a9b3ecc14",
+  "traducao": "Se {{MATH_1}} e {{MATH_2}}, então\n{{CMD_3}}\nVocê está procurando a solução de um problema de valor inicial (PVI).\nPrimeiro, encontre a solução geral da equação diferencial (ED).\n{{CMD_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_27.tex",
+  "ordem": 1,
+  "hash": "c1008e4b1c31e85f153aee03b6437dd1c945d30da13556304c34fadb6c79f66f",
+  "traducao": "Em seguida, encontre a constante C de modo que a solução particular satisfaça a condição inicial.\n{{CMD_6}}\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_01_ex_29.tex",
+  "ordem": 0,
+  "hash": "a40857a8d6877f5135e1e41e5c4f841c96c6a8288b49f76ebb191b4211ea5eb4",
+  "traducao": "Se {{MATH_1}} e {{MATH_2}}, então\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_02_ex_26.tex",
+  "ordem": 0,
+  "hash": "1870b58519ad1a38d734cfae758d5353ee491b89392dbe70ea2bca22f05945ac",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}.\n{{CMD_3}}\n  {{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_02_ex_27.tex",
+  "ordem": 0,
+  "hash": "1956ea2daba724a7271e98d901f3714e4e192df863be45d1fde96c0099341f14",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}.\n{{CMD_3}}\n  {{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_02_ex_28.tex",
+  "ordem": 0,
+  "hash": "1956ea2daba724a7271e98d901f3714e4e192df863be45d1fde96c0099341f14",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}.\n{{CMD_3}}\n  {{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/05_02_ex_29.tex",
+  "ordem": 0,
+  "hash": "afd89d92f8235a92c99f1aa79876c32ca5e5e9ae64d8d7e5066ff34982b28c25",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}.\n{{CMD_3}}\n  {{MATH_4}}\n  {{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/antiderivativeTrueFalse8.tex",
+  "ordem": 0,
+  "hash": "eb57503c949cfcffc103031148a27a663d6da9baae7c74d1fc3d7fb0e1b8e738",
+  "traducao": "Se {{MATH_1}} é uma antiderivada de {{MATH_2}}, que está definida em toda a reta real, então {{MATH_3}} é contínua.\n{{CMD_4}}\nLembre-se: {{MATH_5}}, para todo número real {{MATH_6}}. Portanto, {{MATH_7}} é derivável em toda a reta real.\n{{CMD_8}}\n{{CMD_9}}\nComo {{MATH_10}} é derivável em toda a reta real, ela deve ser contínua em toda a reta real.\n{{CMD_11}}\n\t{{CMD_12}}\n\t\t{{CMD_13}}Verdadeiro{{CMD_14}}\n\t\t{{CMD_15}}Falso{{CMD_16}}\n\t{{CMD_17}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/diffEqApprox1.tex",
+  "ordem": 0,
+  "hash": "aad49ef1eca441026b5b990d6230680b550965427d37b6590acf2cb22bd22d90",
+  "traducao": "Seja {{MATH_1}} uma função com {{MATH_2}}, e suponha que {{MATH_3}} é uma solução da\nequação diferencial (ED)\n{{MATH_4}}\nUse a aproximação linear de {{MATH_5}} perto de {{MATH_6}} para aproximar {{MATH_7}}.\n{{CMD_8}}\nVamos aproximar {{MATH_9}} por {{MATH_10}}, em que {{MATH_11}} é a aproximação linear de {{MATH_12}} em {{MATH_13}}.\n{{CMD_14}}\n{{CMD_15}}\nPara encontrar {{MATH_16}}, a aproximação linear de {{MATH_17}} em {{MATH_18}}, precisamos encontrar tanto {{MATH_19}} quanto {{MATH_20}}.\n{{CMD_21}}\n{{CMD_22}}\nPara encontrar {{MATH_23}}, a aproximação linear de {{MATH_24}} em {{MATH_25}}, precisamos encontrar tanto {{MATH_26}} quanto {{MATH_27}}.\nJá sabemos que {{MATH_28}}. Agora precisamos encontrar {{MATH_29}}.\n{{CMD_30}}\n{{CMD_31}}\nPara encontrar {{MATH_32}}, a aproximação linear de {{MATH_33}} em {{MATH_34}}, precisamos encontrar tanto {{MATH_35}} quanto {{MATH_36}}.\nJá sabemos que {{MATH_37}}. Agora precisamos encontrar {{MATH_38}}."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/diffEqApprox1.tex",
+  "ordem": 1,
+  "hash": "65733a7bf7e874380cf3e34c6083bf8b0a91eafee2326e4e809fee86a11ea8cc",
+  "traducao": "Sabemos que {{MATH_39}} é uma solução da ED\n{{MATH_40}}\n{{CMD_41}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/diffEqApprox1.tex",
+  "ordem": 2,
+  "hash": "e4efeab965515ba13773097eea5b2d062e0cdee77ad1a15f9e56f49f8932a201",
+  "traducao": "Para encontrar {{MATH_42}}, a aproximação linear de {{MATH_43}} em {{MATH_44}}, precisamos encontrar tanto {{MATH_45}} quanto {{MATH_46}}.\nJá sabemos que {{MATH_47}}. Agora precisamos encontrar {{MATH_48}}."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/diffEqApprox1.tex",
+  "ordem": 3,
+  "hash": "25ac9d13ab153d2834082bb2ddf9f4da39d90650e199ffee063a12f5e669eeba",
+  "traducao": "Sabemos que {{MATH_49}} é uma solução da ED\n{{MATH_50}}\nentão, fazendo {{MATH_51}},\n{{MATH_52}}\ne, portanto, para {{MATH_53}}, obtemos\n{{MATH_54}}\n{{CMD_55}}\n{{CMD_56}}\nAgora,\n{{MATH_57}}\nPortanto,\n{{MATH_58}}\n{{CMD_59}}\n{{CMD_60}}\nAgora,\n{{MATH_61}}\n{{CMD_62}}\n{{MATH_63}}\n{{CMD_64}}\n{{CMD_65}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity1.tex",
+  "ordem": 0,
+  "hash": "91e6617c68b21581bd46ec47172de52c0724cb9fe268e6bf931326fc549a9ab7",
+  "traducao": "Um objeto é lançado verticalmente para cima de uma altura de {{MATH_1}} pés, e sua velocidade, em pés/s, é dada por\n{{MATH_2}}, para {{MATH_3}} no intervalo de tempo {{MATH_4}}, em que {{MATH_5}} é o tempo em segundos."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity1.tex",
+  "ordem": 1,
+  "hash": "b48a96bbb26cc64c011d172ade1cff737d93c3a3cf46ee13fb2728dcb06b3ead",
+  "traducao": " Qual é a velocidade máxima do objeto? {{CMD_6}}{{MATH_7}}{{CMD_8}}\n{{CMD_9}} Determine a posição do objeto em um instante qualquer {{MATH_10}}, para {{MATH_11}} em {{MATH_12}}.\n{{CMD_13}}\nVocê precisa resolver o problema de valor inicial:"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity1.tex",
+  "ordem": 2,
+  "hash": "d98b786818ef968819414843118bdecdc89842232c13b53d03e65e6226073b3c",
+  "traducao": " Quando o objeto atingirá a altura {{MATH_14}}? {{CMD_15}}\nResolva a equação"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity1.tex",
+  "ordem": 3,
+  "hash": "795b5d1e2f39b494e34ff99b031f609e6f463f889a276ff3430b3e180b588e54",
+  "traducao": " Qual é o deslocamento máximo do objeto em relação à sua posição inicial? {{CMD_16}}{{MATH_17}}{{CMD_18}}\n{{CMD_19}} Quando ocorre o deslocamento máximo? {{CMD_20}}{{MATH_21}}{{CMD_22}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity2.tex",
+  "ordem": 0,
+  "hash": "415aefcccc3888bc175609d62257ae2fbeed802fcd6306c67d507dc3659ee0b3",
+  "traducao": "Considere um objeto que se move ao longo de uma reta e cuja velocidade e posição inicial são dadas por\n{{ENV_1}}\npara {{MATH_2}}."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity2.tex",
+  "ordem": 1,
+  "hash": "404a2f9079ba237af26e65a3c351a14d3628746be12571ddace135a8ee3bb6f2",
+  "traducao": "A função posição da partícula para {{MATH_3}} é dada por\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity3.tex",
+  "ordem": 0,
+  "hash": "133f834cb8388ff203212ef46f4c88af704068a7e1d31b478b6ac712e3ad390d",
+  "traducao": "O objeto está na origem quando começa a se mover ao longo da reta. A velocidade do objeto é dada pela função\n{{MATH_1}}\n(a) Determine {{MATH_2}}, a posição do objeto em um instante {{MATH_3}}, para {{MATH_4}}.\n{{CMD_5}}\nResolva o PVI:\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity3.tex",
+  "ordem": 1,
+  "hash": "5a4e02c5417eaa743f10c779342577fa1c37016bbfa57bf751069b4061e1b6ab",
+  "traducao": "Como a função {{MATH_7}} é uma função definida por partes, vamos primeiro resolver o seguinte PVI para {{MATH_8}}:\n{{MATH_9}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity3.tex",
+  "ordem": 2,
+  "hash": "6902f900f8adb9a1c2d17e8271f112eb510a9dd5b68b52d834cb9e6db4a693a8",
+  "traducao": "Para {{MATH_10}}:\n{{MATH_11}}\n{{CMD_12}}\n{{CMD_13}}\nAgora precisamos resolver o PVI para {{MATH_14}}:\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity3.tex",
+  "ordem": 3,
+  "hash": "51548e4d0ef5fdae2ca754ba478c72c26562458eaf852878b8c72e485f175afc",
+  "traducao": "Mas qual é a condição inicial aqui?\n{{MATH_16}} não se aplica, porque {{MATH_17}}.\nMas sabemos que a solução {{MATH_18}} tem de ser uma função derivável. Portanto, {{MATH_19}} é contínua. Logo, ela é, em particular, contínua em {{MATH_20}}.\nPortanto, usando a expressão de {{MATH_21}} para {{MATH_22}} em {{MATH_23}}, obtemos que"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity3.tex",
+  "ordem": 4,
+  "hash": "c83aeb2aafab8023afe8a6bc51d604439d83b6fcd4e57527598a69f1ef5c56c0",
+  "traducao": "Para {{MATH_24}}:\n{{MATH_25}}\n{{CMD_26}}\n{{CMD_27}}\nAgora precisamos resolver o PVI para {{MATH_28}}:\n{{MATH_29}}\n{{MATH_30}}\nAssim,\n{{MATH_31}}\ne\n{{MATH_32}}\nSubstituindo {{MATH_33}}, obtemos\n{{MATH_34}}\nPortanto,\n{{MATH_35}}\n{{CMD_36}}\nSOLUÇÃO:"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/positionFromVelocity3.tex",
+  "ordem": 5,
+  "hash": "213329240f735bad4f96de82eb589deacfd8332ec9fa99bc5b04547dfed9cadd",
+  "traducao": "Se {{MATH_37}}\n{{MATH_38}}\nse {{MATH_39}}\n{{MATH_40}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14429v1.tex",
+  "ordem": 0,
+  "hash": "a4863041764da527cb150ec180b767443813ad836c690e4178bd0017194515bc",
+  "traducao": "Determine a antiderivada: {{MATH_1}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14429v1.tex",
+  "ordem": 1,
+  "hash": "862499672c5eb940fd3c728d26b007c0ddcce17a3f2adf15a077f37aaf9631f3",
+  "traducao": "Este é um problema de antiderivada. Precisamos encontrar todas as funções\n{{MATH_2}} tais que {{MATH_3}}.\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14429v1.tex",
+  "ordem": 2,
+  "hash": "b66201e341d3bf84f5be9d90592259e1918cbe141ff8ff45e626fd59d3dddeaf",
+  "traducao": "Para resolver este problema, precisamos aplicar a regra da soma para antiderivadas."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14430v1.tex",
+  "ordem": 0,
+  "hash": "a4863041764da527cb150ec180b767443813ad836c690e4178bd0017194515bc",
+  "traducao": "Determine a antiderivada: {{MATH_1}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14430v1.tex",
+  "ordem": 1,
+  "hash": "62ac017b154a9bba29767ad87afcc49f500f7f622284b7d1ccb2e0736d6d1ed6",
+  "traducao": "Use a regra da soma para antiderivadas.\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}\nUse a regra do múltiplo constante para antiderivadas.\n{{MATH_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14431v1.tex",
+  "ordem": 0,
+  "hash": "a4863041764da527cb150ec180b767443813ad836c690e4178bd0017194515bc",
+  "traducao": "Determine a antiderivada: {{MATH_1}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14431v1.tex",
+  "ordem": 1,
+  "hash": "fd0e8e623188986824a636d54ac0738865719343640de55d82a80c24e363196a",
+  "traducao": "Use a regra da soma para antiderivadas.\n{{MATH_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14431v1.tex",
+  "ordem": 2,
+  "hash": "6559288436748271651b0200ce91a7f92cffd3679490560f5f3584e40a7059e5",
+  "traducao": "Use a regra do múltiplo constante para antiderivadas.\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14432v1.tex",
+  "ordem": 0,
+  "hash": "a4863041764da527cb150ec180b767443813ad836c690e4178bd0017194515bc",
+  "traducao": "Determine a antiderivada: {{MATH_1}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14432v1.tex",
+  "ordem": 1,
+  "hash": "bde8cf5eed51e4a2983a74e34c86493a9705ac0689e34dfd0f06c61ca0cb2031",
+  "traducao": "\tEste é um problema de antiderivada. Queremos encontrar a função\n\tmais geral {{MATH_2}} tal que {{MATH_3}}.\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14432v1.tex",
+  "ordem": 2,
+  "hash": "bfdce2160ead7bf0f8f9d35dc4b0b24eee80683a69707d9a63cb76bea891fe4c",
+  "traducao": "\tTente adivinhar uma antiderivada.\n\tSabemos que uma antiderivada de {{MATH_5}} deve ser algo parecido com {{MATH_6}}.\n\n\tDerive o seu chute.\n\t{{MATH_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14432v1.tex",
+  "ordem": 3,
+  "hash": "13b93ddf02fa08e2b51d671013ee15cf523bba5432cb3468cee7e6a0153387fe",
+  "traducao": "\tPasse o múltiplo constante {{MATH_9}} para o outro lado multiplicando ambos os lados pela constante {{MATH_10}}.\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14433v1.tex",
+  "ordem": 0,
+  "hash": "a4863041764da527cb150ec180b767443813ad836c690e4178bd0017194515bc",
+  "traducao": "Determine a antiderivada: {{MATH_1}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14434v1.tex",
+  "ordem": 0,
+  "hash": "a4863041764da527cb150ec180b767443813ad836c690e4178bd0017194515bc",
+  "traducao": "Determine a antiderivada: {{MATH_1}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14434v1.tex",
+  "ordem": 1,
+  "hash": "6b40e95d25931c38fccae4006cc2917487c4f9b3d68206b86b965c576269fa51",
+  "traducao": "\tAplique a regra da soma para antiderivadas.\n\t{{MATH_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14434v1.tex",
+  "ordem": 2,
+  "hash": "4daf9b64c490ce7ff67722e8da6ac45e27770946095f35c79af9c1005e2f5a5c",
+  "traducao": "\tAplique a regra do múltiplo constante para antiderivadas.\n\t{{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14434v1.tex",
+  "ordem": 3,
+  "hash": "b7ee96f474134a48c38126be77fbe994ce7c496504843078b3941ba3fb101ef0",
+  "traducao": "\tAdivinhe uma antiderivada.\n\tUma antiderivada de {{MATH_6}} deve ser algo parecido com {{MATH_7}}.\n\tEm seguida, derive-a e multiplique por um fator, se necessário.\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14435v1.tex",
+  "ordem": 0,
+  "hash": "5b1d39ac39afcfd79129c42958806e6e69a7c8ac3db37cade05650c335e56bec",
+  "traducao": "Calcule {{MATH_1}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14435v1.tex",
+  "ordem": 1,
+  "hash": "3cc94dc32284ce42f9ab2a7b69b66c9474e94540fcb48f44ee28ddc5ba9a859b",
+  "traducao": "Este é um problema que usa o teorema fundamental do cálculo. O\nteorema fundamental do cálculo diz que, se {{MATH_2}} é\numa antiderivada qualquer de {{MATH_3}}, então {{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14435v1.tex",
+  "ordem": 2,
+  "hash": "83ce67d0364f6206661d05bd85aa055bf5b04e31a4c343e8a5bf55e77a4d9015",
+  "traducao": "Aplicando isso ao problema em questão, vemos que\n{{MATH_6}} de modo que podemos escolher\n{{MATH_7}} com {{MATH_8}}. Então, {{ENV_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14513v1.tex",
+  "ordem": 0,
+  "hash": "2e8f67df4c5c5318c9355640c1ec3886a7e7b945ce6566926b7a7af4fbd2e2b3",
+  "traducao": "Resolva o problema de valor inicial (PVI)."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14513v1.tex",
+  "ordem": 1,
+  "hash": "0673d69ff78439adfb40182f626c701aa63586c0f636a134a72a8cd425151a29",
+  "traducao": "."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/q14513v1.tex",
+  "ordem": 2,
+  "hash": "4bbd3da6acfe1875ec4481d83553dcf0f3c6a9d26390d475fafd9d379db7c3de",
+  "traducao": "Este é um problema de valor inicial. Primeiro, encontre a solução geral\ne depois use a condição inicial dada para determinar a antiderivada\nparticular que satisfaz a condição inicial.\n{{CMD_1}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/velocityFromAcceleration.tex",
+  "ordem": 0,
+  "hash": "e073be4c31828cdfe448f4df476aae10467b5fceaac0c9bcc65978f61d5540dc",
+  "traducao": "Considere uma partícula que se move ao longo de uma reta. Sua aceleração, sua velocidade inicial e sua posição inicial são dadas por\n{{ENV_1}}\npara {{MATH_2}}."
+ },
+ {
+  "arquivo": "antiderivatives/exercises/velocityFromAcceleration.tex",
+  "ordem": 1,
+  "hash": "4a307263906ff7be846bfe30a76937020c0ab01da72df1dad7028bade478e879",
+  "traducao": "(a) Determine a velocidade da partícula no instante {{MATH_3}}, para {{MATH_4}}.\n{{CMD_5}}\nResolva o PVI:\n{{ENV_6}}\n{{CMD_7}}\n{{MATH_8}}"
+ },
+ {
+  "arquivo": "antiderivatives/exercises/velocityFromAcceleration.tex",
+  "ordem": 2,
+  "hash": "01e7c64b6066f6e13f86056d22e99970ff5edbd6cc343ce54fcf4193e8fc7932",
+  "traducao": "(b) Determine a posição da partícula no instante {{MATH_9}}, para {{MATH_10}}.\n{{CMD_11}}\nResolva o PVI:\n{{ENV_12}}\nVocê precisa usar a expressão de {{MATH_13}} obtida no item (a).\n{{CMD_14}}\n{{MATH_15}}"
+ }
+]

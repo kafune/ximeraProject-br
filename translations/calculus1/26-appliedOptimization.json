@@ -1,0 +1,218 @@
+[
+ {
+  "arquivo": "appliedOptimization/titlePage.tex",
+  "ordem": 0,
+  "hash": "bd0e424d4dc83a71ed659663eb55b2652505113dace6434d38889c41728c75d7",
+  "traducao": "Otimização aplicada{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "appliedOptimization/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Ao concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "appliedOptimization/titlePage.tex",
+  "ordem": 2,
+  "hash": "8e8e7ab2cfe5dc9cb3be7f2dd0796a14952c1c7719c14a81a25fe424549a8b7b",
+  "traducao": " Reconhecer problemas de otimização.\n{{CMD_4}} Traduzir um problema contextualizado no problema de encontrar os valores extremos de uma função.\n{{COMMENT_5}}\n{{CMD_6}} Montar um problema de otimização identificando a função objetivo e as restrições apropriadas.\n{{CMD_7}} Identificar o domínio apropriado para funções que modelam fenômenos do mundo real.   \n{{CMD_8}} Resolver problemas de otimização encontrando o extremo absoluto apropriado.\n{{CMD_9}} Resolver problemas contextualizados básicos envolvendo máximos ou mínimos.\n{{COMMENT_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "appliedOptimization/breakGround.tex",
+  "ordem": 0,
+  "hash": "4da18f1a4b4456f661c1df26f351bac6a0c8e8f7d0f46051d2192399231c8f32",
+  "traducao": "Volumes de latas de alumínio{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem a otimização de latas de alumínio.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "appliedOptimization/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "appliedOptimization/breakGround.tex",
+  "ordem": 2,
+  "hash": "b06e6e39c0e5130f6591e556f6269942b49f0a511464851d9eec1d10d77b09c9",
+  "traducao": " Riley, você já reparou nas latas de alumínio?\n{{CMD_7}} Tão recicláveis! \n{{CMD_8}} Eu sei! Mas também reparei que algumas são\n  baixas e largas, e outras são altas e finas, e mesmo assim elas\n  podem ter o mesmo volume!\n{{CMD_9}} Que observador! \n{{CMD_10}} Isso me deixou pensando: se quisermos fazer uma lata com\n  volume {{MATH_11}}, que formato de lata usa menos alumínio?\n{{CMD_12}} Ah! Isso parece um trabalho para o cálculo!  O volume de uma lata cilíndrica é dado por\n  {{MATH_13}}\n  onde {{MATH_14}} é o raio do cilindro e {{MATH_15}} é a altura do\n  cilindro. Além disso, a área da superfície é dada por\n  {{ENV_16}}\n  De algum jeito queremos minimizar a área da superfície, porque ela é a\n  quantidade de alumínio usada, mas também queremos manter o volume constante.\n{{CMD_17}} Uau, temos letras demais aqui.\n{{CMD_18}} É, de algum jeito precisamos de uma única variável. Eita. Letras demais.\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "appliedOptimization/breakGround.tex",
+  "ordem": 3,
+  "hash": "76785a854fc9648f80c686b001de8477414e09efb52309a0cacef3ca75814e58",
+  "traducao": "  Suponha que queremos construir uma lata de alumínio com volume {{MATH_20}} que\n  use a menor quantidade possível de alumínio. No contexto acima, o que\n  queremos minimizar?\n  {{CMD_21}}\n    {{CMD_22}}{{MATH_23}}{{CMD_24}}\n    {{CMD_25}}{{MATH_26}}{{CMD_27}}\n    {{CMD_28}}{{MATH_29}}{{CMD_30}}\n    {{CMD_31}}{{MATH_32}}{{CMD_33}}\n  {{CMD_34}}\n{{CMD_35}}"
+ },
+ {
+  "arquivo": "appliedOptimization/breakGround.tex",
+  "ordem": 4,
+  "hash": "4eb86d3f551d75085360fa52954d3d9218ea7e12b8722a1acfb8b33d859fe64d",
+  "traducao": "  No contexto acima, o que deve ser considerado uma constante?\n  {{CMD_36}}\n    {{CMD_37}}{{MATH_38}}{{CMD_39}}\n    {{CMD_40}}{{MATH_41}}{{CMD_42}}\n    {{CMD_43}}{{MATH_44}}{{CMD_45}}\n    {{CMD_46}}{{MATH_47}}{{CMD_48}}\n  {{CMD_49}}\n{{CMD_50}}"
+ },
+ {
+  "arquivo": "appliedOptimization/breakGround.tex",
+  "ordem": 5,
+  "hash": "212f74601c811e0b78c62de9fa68c347d05af38e5882f87ef0fe0c1befd6fa19",
+  "traducao": "Como Devyn e Riley perceberam, quando resolvemos esse tipo de problema, \nprecisamos reduzir o problema a uma única variável."
+ },
+ {
+  "arquivo": "appliedOptimization/breakGround.tex",
+  "ordem": 6,
+  "hash": "f85df53a66ad850cc9feef6e899a5e1746a1caacb54b508623ba7233c935fef4",
+  "traducao": "  Considere {{MATH_51}} como a variável e expresse {{MATH_52}} como função de {{MATH_53}}.\n  {{CMD_54}}\n    Primeiro, vamos eliminar a variável {{MATH_55}}.  Sabemos que {{MATH_56}} é uma constante e que\n    {{MATH_57}}\n    então {{MATH_58}}.\n    Substitua essa expressão para {{MATH_59}} na equação\n    {{MATH_60}}\n  {{CMD_61}}\n  {{CMD_62}}\n    {{MATH_63}}\n  {{CMD_64}}\n{{CMD_65}}"
+ },
+ {
+  "arquivo": "appliedOptimization/breakGround.tex",
+  "ordem": 7,
+  "hash": "29cf359370f433de6b2765cecc82900331094a214377e938b427d01596da0b87",
+  "traducao": "  Agora considere {{MATH_66}} como a variável e expresse {{MATH_67}} como função de {{MATH_68}}.\n  {{CMD_69}}\n    Primeiro, vamos eliminar a variável {{MATH_70}}.  Sabemos que {{MATH_71}} é uma constante e que\n    {{MATH_72}}\n    então {{MATH_73}}.\n    Substitua essa expressão para {{MATH_74}} na equação\n    {{MATH_75}}\n  {{CMD_76}}\n  {{CMD_77}}\n    {{MATH_78}}\n  {{CMD_79}}\n{{CMD_80}}"
+ },
+ {
+  "arquivo": "appliedOptimization/breakGround.tex",
+  "ordem": 8,
+  "hash": "9d8e353e3378e9a60232b11af1848414a452a25cd809349f806d0621d88d3ba3",
+  "traducao": "Observe que reduzimos (de um jeito ou de outro) essa\nfunção de duas variáveis a uma função de uma variável. Esse processo será um passo fundamental em\npraticamente todos os problemas da próxima seção."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 0,
+  "hash": "35cea34a478c748ab56e6df76119cb607b74c9c284f400d545205673eab29b54",
+  "traducao": "Otimização aplicada{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Agora vamos pôr em prática nossas habilidades de otimização.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 1,
+  "hash": "5490a1240f5acd30ecf032477701e5bc4fa9c58e0fd9e74e4ae202053179a8dd",
+  "traducao": "Nesta seção, apresentaremos vários exemplos resolvidos de\nproblemas de otimização. Nosso método para resolver esses problemas é,\nessencialmente, o seguinte:\n{{CMD_7}}\n{{CMD_8}} Se possível, desenhe um esquema com todas as informações relevantes.\n{{CMD_9}} Precisamos identificar a quantidade que deve ser\n  otimizada.\n{{CMD_10}} Que limitações são impostas à nossa\n  otimização?\n{{CMD_11}} Agora você deve ter uma função a otimizar.\n{{CMD_12}} Não deixe de verificar sua resposta!\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 2,
+  "hash": "80dc3d6a145781427e9eacecd8c7608eb56858f37a363ebe6abf7f1e3e13289d",
+  "traducao": "Você está fabricando recipientes cilíndricos para conter um volume dado. Suponha\nque a tampa e o fundo sejam feitos de um material que é {{MATH_14}} vezes mais\ncaro (custo por unidade de área) do que o material usado para a superfície lateral do\ncilindro. Determine (em termos de {{MATH_15}}) a razão entre a altura e o raio da base do\ncilindro que minimiza o custo de fabricação dos recipientes.\n{{CMD_16}}\n  Primeiro fazemos um desenho:\n{{CMD_17}}\n{{ENV_18}}\n{{CMD_19}}\n  Chamando de {{MATH_20}} o custo da superfície lateral, podemos escrever uma\n  expressão para o custo dos materiais:\n  {{MATH_21}}\n  Como sabemos que {{MATH_22}}, podemos usar essa relação para\n  eliminar {{MATH_23}} (poderíamos eliminar {{MATH_24}}, mas é um pouco mais fácil se\n  eliminarmos {{MATH_25}}, que aparece em apenas um lugar na fórmula acima\n  para o custo). Obtemos\n{{ENV_26}}\nComo expressamos o custo como função de uma única variável, o problema se torna um ``problema de cálculo'': determinar o mínimo da função {{MATH_27}} no intervalo\n{{MATH_28}}."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 3,
+  "hash": "ab3fa27353a7d561c81f4800728236b96792671c01e33e5b5384233191390b4c",
+  "traducao": " Embora a função {{MATH_29}} seja contínua em seu domínio, esse domínio é um intervalo aberto e ilimitado, e o Teorema do Valor Extremo não se aplica; não há garantia nem mesmo de que o mínimo exista. Mas não desistimos! Nossa estratégia será procurar um ponto crítico e verificar se o mínimo é atingido ali. Resolvendo a equação\n{{MATH_30}}\ndescobrimos que o ponto onde {{MATH_31}} é o único ponto crítico de {{MATH_32}}. Como {{MATH_33}} é\npositiva quando {{MATH_34}} é positivo, há um mínimo local no\nponto crítico e, portanto, um mínimo global, já que há apenas um\nponto crítico."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 4,
+  "hash": "6aff167a89a53caaf9664799c7ef3fc4265e2ab1d0bcb328d8b92c151c9563e6",
+  "traducao": "Outra maneira de chegar a essa conclusão é examinar o sinal da derivada {{MATH_35}} no intervalo {{MATH_36}}:\n{{MATH_37}}\nA partir dessa fatoração fica claro que {{MATH_38}} em {{MATH_39}} e {{MATH_40}} em {{MATH_41}}.\nIsso significa que a função {{MATH_42}} é decrescente em {{MATH_43}} e crescente em {{MATH_44}} e, portanto, tem um mínimo global no ponto crítico."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 5,
+  "hash": "c1363d114d7d04164026553179904dd10f190a13e0fbb52dc449b4d7c5ea6345",
+  "traducao": "Finalmente, como {{MATH_45}},\n{{ENV_46}}\nde modo que o custo mínimo ocorre quando a altura {{MATH_47}} é {{MATH_48}} vezes o\nraio. Se, por exemplo, não houver diferença no custo dos\nmateriais, a altura é o dobro do raio.\n{{CMD_49}}\n{{CMD_50}}"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 6,
+  "hash": "34f928e45fcf550f7c0069e09091f5f67ede8e393c6873369b8e4f4bf9a7ff87",
+  "traducao": "  Você quer vender uma certa quantidade {{MATH_51}} de itens de modo a maximizar\n  seu lucro. Uma pesquisa de mercado indica que, se você fixar o preço em\n  {{CMD_52}}{{MATH_53}}, conseguirá vender {{MATH_54}} itens, e que, para cada {{MATH_55}}\n  centavos que você baixar o preço abaixo de {{CMD_56}}{{MATH_57}}, conseguirá vender\n  mais {{MATH_58}} itens. Suponha que seus custos fixos (``custos\n  iniciais'') somem {{CMD_59}}{{MATH_60}} e que o custo de produção por item\n  (``custo marginal'') seja {{CMD_61}}{{MATH_62}}. Determine o preço a fixar por item e\n  a quantidade de itens vendidos para maximizar o lucro, e determine também\n  o lucro máximo que você pode obter.\n{{CMD_63}}\nO primeiro passo é converter o problema em um problema de maximização\nde uma função. A receita pela venda de {{MATH_64}} itens a {{MATH_65}} dólares é dada por\n{{MATH_66}}\ne o custo de produzir {{MATH_67}} itens é dado por\n{{MATH_68}}\nNo entanto, pelo enunciado vemos que a quantidade de itens vendidos é\nela própria uma função de {{MATH_69}},\n{{MATH_70}}\nAssim, o lucro é dado por:\n{{ENV_71}}\nQueremos saber o valor máximo da função {{MATH_72}} no intervalo {{MATH_73}}."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 7,
+  "hash": "3198efa50b6be9dfd43e94379fd27f2e9c3833ffb8fab1b28ba08c01728c9356",
+  "traducao": "O Teorema do Valor Extremo agora garante que o máximo é atingido, pois a função {{MATH_74}} é contínua no intervalo fechado {{MATH_75}}.\nPrecisamos encontrar os pontos críticos:\n{{MATH_76}}\nou seja,\n{{MATH_77}}\no que implica que o único ponto crítico ocorre em {{MATH_78}}.\nAgora precisamos calcular a função no ponto crítico e nas duas extremidades, e comparar os valores:"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 8,
+  "hash": "3e7d818ba2e3e7e5236b3db93dcfef0df165fa860ad98cadfd3a650f8e4bcf21",
+  "traducao": ", {{MATH_79}} e {{MATH_80}}.\n Observe que\n{{MATH_81}} é o maior desses valores. Portanto, o lucro máximo é de\n{{CMD_82}}{{MATH_83}}, atingido quando fixamos o preço em {{CMD_84}}{{MATH_85}} e vendemos {{MATH_86}} itens."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 9,
+  "hash": "e39d557ec84b56bc740af82db30a2b776324cf7a0ea71ddf4ac9ee69db5749ba",
+  "traducao": "Alternativamente, poderíamos aplicar o Teste da Segunda Derivada no ponto crítico e concluir que\ndeve haver um\nmáximo local ali, pois {{MATH_87}}. Como esse é o único ponto crítico,\nele deve ser também um máximo global.\n{{CMD_88}}\n   Podemos confirmar nossos resultados olhando o gráfico de {{MATH_89}}:\n   {{MATH_90}}\n{{CMD_91}}\n{{CMD_92}}\n{{CMD_93}}"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 10,
+  "hash": "a57f101839e7d75b585608d518c93421842d6022a234dd16ac2cbe3374b8a748",
+  "traducao": "Se você encaixar o maior cone circular reto possível dentro de uma esfera, que fração do\nvolume da esfera é ocupada pelo cone?\n{{CMD_94}}\n{{ENV_95}}\n{{CMD_96}}\n{{CMD_97}}\nSeja {{MATH_98}} o raio da esfera, e sejam {{MATH_99}} e {{MATH_100}} o raio da base\ne a altura do cone dentro da esfera. Nosso objetivo é\nmaximizar o volume do cone: {{MATH_101}}. O maior valor possível de {{MATH_102}}\né {{MATH_103}}, e o maior valor possível de {{MATH_104}} é {{MATH_105}}."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 11,
+  "hash": "5ac1ce722fb01b852d39b5dd57e160decd43f74b5db105f2f86c9a43044391fe",
+  "traducao": "Observe que a função que queremos maximizar, {{MATH_106}}, depende de\n{{CMD_107}}duas{{CMD_108}} variáveis. Nosso próximo passo é encontrar a relação entre {{MATH_109}} e {{MATH_110}} e\nusá-la para escrever uma das variáveis em termos da outra, de modo\na ter uma função de apenas uma variável para maximizar. Neste problema,\na condição fica evidente na figura abaixo."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 12,
+  "hash": "2b8ab6be7cb0416223222fabb503bd2faa1a20fa24627e32a27bc7acc7be2797",
+  "traducao": "Aplique o Teorema de Pitágoras ao triângulo retângulo da figura acima para obter"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 13,
+  "hash": "b1161a9befb9220fe5e9e819e032dc79b7d1a2e113ea73a6f20068a09b57097b",
+  "traducao": "Isole {{MATH_111}}, já que {{MATH_112}} aparece na fórmula do volume\ndo cone, e obtenha\n{{MATH_113}}\nSubstitua isso na fórmula do volume do cone para obter\n{{MATH_114}}\nSimplificando, conseguimos expressar o volume do cone como função de uma única variável, {{MATH_115}},\n{{MATH_116}}"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 14,
+  "hash": "a43aeab95aac7d3497572da5ead5ba3f5c27c8e5c193243652cdebcbcbc8ae1f",
+  "traducao": "Queremos maximizar a função {{MATH_117}} no intervalo {{MATH_118}}.\nComo se trata de uma função contínua em um intervalo fechado, o máximo é atingido em um ponto crítico ou em uma extremidade.\nResolvendo a equação\n{{MATH_119}}\ndescobrimos que a função tem em {{MATH_120}} seu único ponto crítico, já que {{MATH_121}} é uma extremidade. Calculamos a função em todos os pontos críticos e extremidades,\n{{MATH_122}}"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 15,
+  "hash": "3009b8e720bb32829dd00bf4599736b5433ae6860e185d5b166e13fc22a9599d",
+  "traducao": "O máximo é obviamente atingido em {{MATH_123}}. Como o volume da esfera é {{MATH_124}}, a fração da esfera ocupada pelo cone é\n{{MATH_125}}\n{{CMD_126}}\n{{CMD_127}}"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 16,
+  "hash": "d58c371ddf2ea41c5f9120504fa16d0eb1879d8954a5977b2fffa4da8079b6ee",
+  "traducao": "  Uma linha de energia precisa ser estendida de uma usina localizada na\n  praia até uma instalação no mar.\n  {{CMD_128}}\n    {{ENV_129}}\n  {{CMD_130}}\n  Custa {{CMD_131}}50 por pé estender a linha por terra e {{CMD_132}}130 por pé\n  estendê-la por baixo da água. Que extensão da linha deve ser estendida\n  por terra para minimizar o custo total? Qual é o custo mínimo?\n  {{CMD_133}}\n    Há duas soluções imediatas que poderíamos considerar, e vamos\n    rejeitar cada uma delas com base no ``bom senso''. Primeiro, poderíamos\n    minimizar a distância ligando diretamente os dois locais por uma\n    linha reta. No entanto, isso exige que todo o cabo seja instalado\n    debaixo d'água, a opção mais cara. Segundo, poderíamos minimizar a\n    extensão submersa estendendo o cabo pelos 5000 pés ao longo da praia,\n    até o ponto exatamente em frente à instalação no mar."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 17,
+  "hash": "6af4efdb46cfa042edd23ced7358679b1c89f0e04079c8de981009c8303e9a40",
+  "traducao": " Isso tem o efeito\n    indesejado de produzir a maior distância de todas, o que provavelmente\n    garante um custo não mínimo.\n\n    A solução ótima provavelmente tem a linha estendida por terra\n    durante um trecho e depois debaixo d'água, como sugere a figura. Precisamos\n    rotular nossas distâncias desconhecidas: a distância percorrida por\n    terra e a distância percorrida debaixo d'água. Reconhecendo que a\n    distância submersa pode ser medida como a hipotenusa de um triângulo\n    retângulo, podemos rotular nossa figura da seguinte forma\n      {{CMD_134}}\n    {{ENV_135}}\n      {{CMD_136}}\n      Ao escolher {{MATH_137}} como fizemos, tornamos simples a expressão dentro da\n      raiz quadrada. Agora criamos a função custo:\n    {{MATH_138}}\n    Assim, temos\n    {{MATH_139}}\n    Essa função só faz sentido no intervalo {{MATH_140}}. Embora\n    tenhamos bastante certeza de que as extremidades não darão o custo mínimo,\n    ainda assim calculamos {{MATH_141}} em cada uma delas para verificar.\n    {{MATH_142}}\n    Agora encontramos os pontos críticos de {{MATH_143}}. Calculamos {{MATH_144}} como\n    {{MATH_145}}\n    Note que essa expressão nunca é indefinida. Fazendo {{MATH_146}} e resolvendo\n    para {{MATH_147}}, temos:\n    {{ENV_148}}\n    Calculando {{MATH_149}} em {{MATH_150}}, obtemos um custo de cerca de\n    {{MATH_151}}. A distância em que a linha é instalada por terra é\n    {{MATH_152}}, e a distância submersa é\n    {{MATH_153}}.\n  {{CMD_154}}\n  Podemos confirmar nossos resultados olhando o gráfico de {{MATH_155}}:\n  {{MATH_156}}\n  {{CMD_157}}\n  {{CMD_158}}\n{{CMD_159}}"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 18,
+  "hash": "89e366092cdc2519ea6377bc31792d61da0b2b15f6c5d5247b8be39f642d3498",
+  "traducao": "Agora resolvemos um problema semelhante sem números concretos."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 19,
+  "hash": "7978264154df8eac6768b91e9cca6acf4eae8895452bc57a66e8ed0a00c8522f",
+  "traducao": "  Suponha que você queira chegar a um ponto {{MATH_160}} localizado do outro lado de uma\n  faixa de areia, a partir de uma estrada próxima.\n{{CMD_161}}\n{{ENV_162}}\n{{CMD_163}}\n  Suponha que a estrada seja reta e que {{MATH_164}} seja a distância de {{MATH_165}}\n  ao ponto {{MATH_166}} da estrada mais próximo dele. Seja {{MATH_167}} sua velocidade na\n  estrada, e seja {{MATH_168}}, que é menor que {{MATH_169}}, sua velocidade na\n  areia. Neste momento você está no ponto {{MATH_170}}, que está a uma distância {{MATH_171}}\n  de {{MATH_172}}. Em que ponto {{MATH_173}} você deve sair da estrada e atravessar\n  a areia para minimizar o tempo de viagem até {{MATH_174}}?\n  {{CMD_175}}\n    Seja {{MATH_176}} a distância que falta até {{MATH_177}} quando você sai da estrada, isto é, a distância\n    de {{MATH_178}} a {{MATH_179}}. Queremos minimizar o tempo total de viagem. Lembre-se\n    de que, quando se viaja a velocidade constante, o tempo é a distância dividida pela\n    velocidade."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 20,
+  "hash": "6c436547fb829eef3e2a1ce36208043270a97de14bf11f30706865a8fa2b2f53",
+  "traducao": "    Você percorre a distância de {{MATH_180}} a {{MATH_181}} com velocidade {{MATH_182}} e, em seguida, a\n    distância de {{MATH_183}} a {{MATH_184}} com velocidade {{MATH_185}}. A distância de {{MATH_186}} a {{MATH_187}}\n    é {{MATH_188}}. Pelo teorema de Pitágoras, a distância de {{MATH_189}} a {{MATH_190}}\n    é\n    {{MATH_191}}\nLogo, o tempo total da viagem é\n{{MATH_192}}\nQueremos encontrar o valor mínimo de {{MATH_193}} quando {{MATH_194}} está entre 0 e\n{{MATH_195}}. Como de costume, fazemos {{MATH_196}} e resolvemos para {{MATH_197}}. Escreva\n{{MATH_198}}\nEncontramos\n{{MATH_199}}\nObserve que {{MATH_200}} não aparece na última expressão, mas {{MATH_201}} não é\nirrelevante, pois só nos interessam os valores críticos que estão\nem {{MATH_202}}, e {{MATH_203}} ou está nesse intervalo ou não está.\nSe estiver, podemos usar a segunda derivada para testá-lo:\n{{MATH_204}}\nComo isso é sempre positivo, há um mínimo local no ponto\ncrítico e, portanto, ele é também um mínimo global."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 21,
+  "hash": "44783f6ec665d0a2a5ad0cd817e4a830f9a61fd439b4d8804bec2d11a462ee6f",
+  "traducao": "Se o valor crítico não está em {{MATH_205}}, ele é maior que {{MATH_206}}. Nesse\ncaso, o mínimo deve ocorrer em uma das extremidades. Podemos calcular\n{{ENV_207}}\nmas é difícil determinar qual desses valores é o menor por comparação\ndireta. Se, como é provável na prática, conhecermos os valores de {{MATH_208}},\n{{MATH_209}}, {{MATH_210}} e {{MATH_211}}, então é fácil determinar isso. Com um pouco de\nastúcia, porém, podemos determinar o mínimo em geral. Vimos que\n{{MATH_212}} é sempre positiva, de modo que a derivada {{MATH_213}} é sempre crescente.\nSabemos que em {{MATH_214}} a derivada é zero, portanto, para\nvalores de {{MATH_215}} menores que esse valor crítico, a derivada é\nnegativa. Isso significa que {{MATH_216}}, e então o mínimo ocorre quando {{MATH_217}}."
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 22,
+  "hash": "565d488f099da07522eb9facd641cf224c602de3833609daacc1a62832f1a631",
+  "traducao": "Portanto, a conclusão é esta: se você começa a uma distância de {{MATH_218}} maior que\n{{MATH_219}}, então sempre convém cortar pela areia\nquando estiver a uma distância {{MATH_220}} do ponto {{MATH_221}}. Se você\ncomeça mais perto de {{MATH_222}} do que isso, deve cortar diretamente pela areia.\n{{CMD_223}}\n{{CMD_224}}"
+ },
+ {
+  "arquivo": "appliedOptimization/digInAppliedOptimization.tex",
+  "ordem": 23,
+  "hash": "c5ba6d713dbcafcad12247a8cd06dca24bb2ae1f1e0422f8f0f96b5d2e4b4bfc",
+  "traducao": "Nos problemas de otimização você verá uma variedade de situações que\nexigem combinar habilidades de resolução de problemas com cálculo. Concentre-se\nno {{CMD_225}}processo{{CMD_226}}. É preciso aprender a montar, a partir das\nsituações, equações que possam ser manipuladas até chegar ao que você precisa. Esqueça\na ideia de memorizar como resolver ``este tipo de problema'' em oposição a ``aquele\ntipo de problema''.\n{{CMD_227}}\n  {{CMD_228}}Aprender um processo é muito mais vantajoso do que memorizar\n    uma técnica específica.{{CMD_229}}\n{{CMD_230}}"
+ }
+]

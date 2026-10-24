@@ -1,0 +1,602 @@
+[
+ {
+  "arquivo": "optimization/titlePage.tex",
+  "ordem": 0,
+  "hash": "7a659de880720f52c046efe845f8fb0be49a63f5b747952347cd1d97c766a2c4",
+  "traducao": "Otimização{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "optimization/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após completar esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "optimization/titlePage.tex",
+  "ordem": 2,
+  "hash": "8de05109d2c2fa479fe152ea0f58c23ecf317d63bf87d9d09910556e5acc6796",
+  "traducao": " Descrever, de modo geral, os objetivos dos problemas de otimização.\n{{CMD_4}} Encontrar todos os máximos e mínimos locais usando os testes da primeira e da segunda derivada.\n{{CMD_5}} Identificar quando podemos encontrar um máximo ou mínimo absoluto em um intervalo aberto.\n{{CMD_6}} Contrastar a otimização em intervalos abertos e fechados.\n{{CMD_7}} Descrever a função objetivo e as restrições em um dado problema de otimização.\n{{CMD_8}} Resolver problemas de otimização encontrando os valores extremos apropriados.\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "optimization/breakGround.tex",
+  "ordem": 0,
+  "hash": "a814d31fd126daf7e330dc1ccfa9394ad879935f8570dcc30e7dd851a95650d1",
+  "traducao": "Uma fórmula misteriosa{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem otimização de um ponto de vista\nabstrato.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "optimization/breakGround.tex",
+  "ordem": 1,
+  "hash": "1c1d941972d782608f2c96ec5a8521a564eba79f12c5564299bad3fe9a2de40a",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo:"
+ },
+ {
+  "arquivo": "optimization/breakGround.tex",
+  "ordem": 2,
+  "hash": "fc0e9f7ba138991974bc1595dd95a793bfe1d4ab903ef10e9d3146a9e4a3a566",
+  "traducao": " Riley, qual você acha que é o valor máximo de\n  {{MATH_7}}\n{{CMD_8}} De onde veio essa função?\n{{CMD_9}} É só uma função, hum, aleatória.\n{{CMD_10}} Espere, isso tem a ver com café?\n{{CMD_11}} Hum, ahn, não?\n{{CMD_12}} Bom, em que intervalo estamos?\n{{CMD_13}} Digamos {{MATH_14}}, quer dizer, não tem a menor chance de eu conseguir beber dez xícaras de caf{{CMD_15}}\n{{CMD_16}} Eu sabia que isso era sobre café.\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "optimization/breakGround.tex",
+  "ordem": 3,
+  "hash": "7b389d746a36c75b5b5c892cc3a4b42b4c0d5bfb294ac9f89095ba1f2a545b75",
+  "traducao": "Aqui Devyn criou uma função que supostamente registra o\n``bem-estar'' de Devyn em função do número de xícaras de café consumidas\nem um dia."
+ },
+ {
+  "arquivo": "optimization/breakGround.tex",
+  "ordem": 4,
+  "hash": "36e247c3d52cd1d19916de54c6627f08e4acac9304bbdf6247c5f764d2811f19",
+  "traducao": "  Esboce o gráfico da função de Devyn. Onde você estima que esteja o máximo no\n  intervalo {{MATH_18}}?\n  {{CMD_19}}\n    O máximo está em {{MATH_20}}\n  {{CMD_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "optimization/breakGround.tex",
+  "ordem": 5,
+  "hash": "406979a17f031f97b29092593e47b3a55ccbac110ef05e363e5961000d2bb9e0",
+  "traducao": "  Se você quisesse argumentar que esse é o valor máximo (global) em\n  {{MATH_23}} sem traçar o gráfico, que argumentos poderia usar?\n  {{CMD_24}}\n  {{CMD_25}}\n {{CMD_26}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 0,
+  "hash": "7b130ee6db4149552d439effc18ee0aaafa693797ef1b44051915ade7509d163",
+  "traducao": "Otimização básica{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Agora colocamos nossas habilidades de otimização para trabalhar.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 1,
+  "hash": "e2a012e7138e573ee75d42fb3a794898b557a95174a18dca7fd9e1527621dd1c",
+  "traducao": "Um {{CMD_7}} é um problema em que você precisa maximizar\nou minimizar alguma quantidade, dadas algumas restrições. Isso pode ser\nfeito usando as ferramentas de cálculo diferencial que já\ndesenvolvemos."
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 2,
+  "hash": "eda1088145299370a9d321bf673842e60b195b9aa101fe932e6b46053d855200",
+  "traducao": "Talvez o problema de otimização mais básico seja gerado pela\nseguinte pergunta:"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 3,
+  "hash": "4a1447e698cc27cbc1e04487ade9ddd816716608c682f9a4e090a8618cd6f186",
+  "traducao": "  Entre todos os retângulos de perímetro fixo, qual tem a maior área?\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 4,
+  "hash": "f22b5872f84fa9f50dc0cd0e0be8c181ab40eff9be46c793266847a1f6a4811c",
+  "traducao": "Não vamos resolver esse problema de forma abstrata; vamos resolvê-lo com números."
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 5,
+  "hash": "e23eed02488c45e35dff41a421cef15b9b7d1eb39f21e5ec5aaf769df6b8d697",
+  "traducao": "  Entre todos os retângulos de perímetro {{MATH_9}}, quais comprimentos de lado dão a maior área?\n    {{CMD_10}}\n  A figura abaixo mostra quatro retângulos de perímetro {{MATH_11}}. Há infinitos retângulos com essa propriedade, e entre todos eles temos que encontrar aquele com a área máxima.\n  Com a ajuda do cálculo, podemos resolver facilmente esse problema.\n\n\n   {{CMD_12}}\n{{ENV_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 6,
+  "hash": "cf0f1f21b8fd960d3bf4a8120cdf6b640b565ef7a0326ac78777e3666666b3c1",
+  "traducao": "Primeiro, vamos desenhar um retângulo genérico de perímetro {{MATH_15}}."
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 7,
+  "hash": "3ae35b7f16876b097e29b220739c979ffa0d0378572e4c1957fd611595bdc3bc",
+  "traducao": "  A área do retângulo  é\n  {{MATH_16}}\n   Para podermos usar  as técnicas do cálculo,  temos que expressar a área como função de uma única variável.\n\n   Para isso, temos que  expressar uma das variáveis, digamos {{MATH_17}}, em termos de {{MATH_18}}. Como podemos fazer isso?\n\n  Lembre-se de que temos a restrição: ``{{CMD_19}} retângulos de perímetro {{MATH_20}}{{CMD_21}}''\n\n    Se um retângulo tem perímetro {{MATH_22}}, então {{MATH_23}}, e podemos resolver para {{MATH_24}} em termos de {{MATH_25}},\n    {{MATH_26}}\n\n    Logo, a área de um retângulo de perímetro {{MATH_27}} pode ser expressa como função de uma única variável, {{MATH_28}},\n    {{MATH_29}}\n    No entanto, para que os comprimentos dos lados façam sentido fisicamente, devemos\n    supor que {{MATH_30}} e {{MATH_31}}.\n\n     Portanto, o domínio da  função {{MATH_32}} é  o intervalo\n    {{MATH_33}}.\n\n    Assim, para maximizar a área do retângulo, temos que encontrar o máximo global da função {{MATH_34}} no intervalo {{MATH_35}}.\n   Como o domínio de {{MATH_36}} é um intervalo aberto, o máximo global (se existir!"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 8,
+  "hash": "d66ccf6de41e4227efdaa321f1713022b286a4d1b0598bbb924979b15ef982af",
+  "traducao": ") tem que ser um máximo local e, portanto, ocorre em um ponto crítico.\n   Assim, temos que encontrar todos os pontos críticos de {{MATH_37}} no intervalo {{MATH_38}}.\n    Como\n    {{MATH_39}}\n   para encontrar os pontos críticos, temos que resolver a equação\n    {{MATH_40}}\n   Segue que o único ponto crítico de {{MATH_41}} está em {{MATH_42}}.\n\n    Podemos fazer um quadro de sinais para {{MATH_43}} no intervalo {{MATH_44}}:\n    {{CMD_45}}\n{{ENV_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 9,
+  "hash": "684ae2429a98f560a117171d2e8869823b3cc52213b09d029cd96c2f9198d5b6",
+  "traducao": "    Como {{MATH_48}} é positiva\n   em\n    {{MATH_49}} e\n   negativa em\n    {{MATH_50}}, a função {{MATH_51}} tem um máximo global em {{MATH_52}}.  Isso acontece\n      exatamente quando o retângulo é um quadrado!\n  {{CMD_53}}\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 10,
+  "hash": "523dc21f0438ca17255585ce4d0689093afab865ffc1e85bc87b56f249d91c58",
+  "traducao": "Um passo fundamental é explicar por que {{MATH_55}} é de fato o\nmáximo. Acima, basicamente usamos fatos sobre a derivada. Abaixo,\nusamos um argumento semelhante."
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 11,
+  "hash": "fef1904801a52220e5613995092515e99fc963e52e6fa91ce5726f26c229df3f",
+  "traducao": "  Entre todos os retângulos de área {{MATH_56}}, qual tem o menor\n  perímetro?\n  {{CMD_57}}\n  A figura abaixo mostra quatro retângulos diferentes de área {{MATH_58}}. Há infinitos retângulos com essa propriedade, e entre todos eles temos que encontrar aquele com o perímetro mínimo.\n Vamos resolver esse problema usando cálculo.\n\n  {{CMD_59}}\n  {{ENV_60}}\n{{CMD_61}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 12,
+  "hash": "6df18736c8032d869636a3687ac090a0ee416327e9f03fd37133c6cac56408fa",
+  "traducao": "  Primeiro, fazemos um desenho. Aqui está um retângulo com área {{MATH_62}}.\n\n{{CMD_63}}\n  {{ENV_64}}\n{{CMD_65}}\n O perímetro do retângulo  é\n  {{MATH_66}}\n   Para podermos usar  as técnicas do cálculo,  temos que expressar o perímetro como função de uma única variável.\n\n   Para isso, temos que  expressar uma das variáveis, digamos {{MATH_67}}, em termos de {{MATH_68}}, usando a restrição {{MATH_69}},\n{{MATH_70}}\n\n    Logo, o perímetro de um retângulo com área {{MATH_71}} pode ser expresso como função de uma única variável, {{MATH_72}},\n    {{MATH_73}}\n    Novamente, para que os comprimentos dos lados façam sentido fisicamente, devemos\n    supor que {{MATH_74}}.\n\n     Portanto, o domínio da  função {{MATH_75}} é  o intervalo\n    {{MATH_76}}.\n\n    Assim, para minimizar o perímetro do retângulo, temos que encontrar o mínimo global da função {{MATH_77}} no intervalo {{MATH_78}}.\n\n   Como o domínio de {{MATH_79}} é um intervalo aberto, o mínimo global (se existir!) tem que ser um mínimo local e, portanto, ocorre em um ponto crítico.\n   Assim, temos que encontrar todos os pontos críticos de {{MATH_80}} no intervalo {{MATH_81}}.\n    Como\n    {{MATH_82}}\n   para encontrar os pontos críticos, temos que resolver a equação\n    {{MATH_83}}\n  Resolvendo para {{MATH_84}}, obtemos {{MATH_85}}.\nApenas o valor {{MATH_86}} está no domínio de {{MATH_87}}.\n Como {{MATH_88}} está definida em todo o intervalo\n{{MATH_89}}, não há mais valores críticos, e não há\nextremidades.\n Há um máximo local, um mínimo local ou nenhum dos dois em {{MATH_90}}?\nA segunda derivada é\n{{MATH_91}}\ne {{MATH_92}}, logo há um mínimo local. Como há apenas um\nponto crítico, esse também é o mínimo global."
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 13,
+  "hash": "aad6daaa84e5ee64a02e45afd8e2ce52cbdc51cf6215bca3ca3b54fc8f8b5bc0",
+  "traducao": " Assim, o retângulo com\nmenor perímetro é o quadrado {{MATH_93}}."
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 14,
+  "hash": "e95272174f95b6f969ec97ed23034da7c85a7b8bd1702cbbedad91bc0c709286",
+  "traducao": "Podemos ilustrar nosso resultado com o gráfico de {{MATH_94}}.\n{{CMD_95}}\n    {{ENV_96}}\n{{CMD_97}}\n{{CMD_98}}\n{{CMD_99}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 15,
+  "hash": "6dce68072cc3c1bc07fbcb87df828b793d86dc3ab52fffedc9f11062b517700f",
+  "traducao": "Logo, o cálculo nos dá uma {{CMD_100}}razão{{CMD_101}} para {{CMD_102}}por que{{CMD_103}} um quadrado é\no retângulo que tem, ao mesmo tempo,\n{{CMD_104}}\n{{CMD_105}} a maior área para um dado perímetro.\n{{CMD_106}} o menor perímetro para uma dada área.\n{{CMD_107}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 16,
+  "hash": "5d61bb878f8bc1a463ffd9504a270d003920858d02d05b235db700e452bf7e38",
+  "traducao": "Nós podemos ter terminado com os retângulos, mas eles não terminaram conosco. Aqui está\num problema em que há mais restrições sobre os possíveis comprimentos\ndos lados do retângulo."
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 17,
+  "hash": "9eb4276a8f7a706e9059fdcd2f492f61a31c7dbf1398c0f6b93f94f07dc5a12f",
+  "traducao": "Determine o retângulo de maior área que cabe dentro do gráfico da\nparábola {{MATH_108}} abaixo da reta {{MATH_109}}, em que {{MATH_110}} é uma constante\npositiva não especificada, com o lado superior do retângulo sobre a reta horizontal\n{{MATH_111}}. Veja a figura abaixo:\n{{CMD_112}}\n{{ENV_113}}\n{{CMD_114}}\n{{CMD_115}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 18,
+  "hash": "9f6e8db8dd2daf50122d2ef6d6f9ab120d7b17b7651c0d84099757c9561ba068",
+  "traducao": "A figura abaixo mostra três retângulos desse tipo. Há infinitos retângulos assim, um para cada escolha de {{MATH_116}} em {{MATH_117}}."
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 19,
+  "hash": "00e1b5fc3ca5cb104715bed6c68fa2493d2a9deb475d97d670067800cffc45a0",
+  "traducao": "Queremos maximizar {{MATH_118}},  a área do retângulo.  O canto inferior direito do\nretângulo está em {{MATH_119}} e, uma vez escolhido esse ponto, o retângulo fica\ncompletamente determinado. Seja {{MATH_120}} a altura e {{MATH_121}} a largura do retângulo."
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 20,
+  "hash": "6e2f9594045c0d9cc66ffdd9d3c1e424aa22d46ec5d4cedbb93bd358b249ee41",
+  "traducao": "Então\n{{MATH_122}}\nem que\n{{MATH_123}}\nPortanto, podemos expressar a área {{MATH_124}} como função de {{MATH_125}}\n{{MATH_126}}\nQueremos o valor máximo de {{MATH_127}} quando {{MATH_128}} está em {{MATH_129}}. Você\npode objetar que não deveríamos permitir {{MATH_130}} ou {{MATH_131}}, já que nesses casos o\n``retângulo'' não tem largura ou não tem altura, e portanto não é ``realmente'' um\nretângulo. Mas o problema fica um pouco mais fácil se simplesmente permitirmos tais\nretângulos, que têm área zero, pois assim podemos aplicar o teorema do\nvalor extremo e ver que de fato temos um valor máximo e um valor mínimo.\n{{CMD_132}}\n  {{CMD_133}}Neste ponto, você deve esboçar o gráfico da função, se puder.{{CMD_134}}\n{{CMD_135}}\nFazendo {{MATH_136}}, encontramos\n{{MATH_137}} como o único ponto crítico. Testando\nesse ponto e as duas extremidades (pois o máximo também poderia estar lá),\ntemos {{MATH_138}} e\n{{MATH_139}}. Logo, a área máxima\nocorre quando o retângulo tem dimensões {{MATH_140}}.\n{{CMD_141}}\n{{CMD_142}}"
+ },
+ {
+  "arquivo": "optimization/digInOptimization.tex",
+  "ordem": 21,
+  "hash": "fc54325ef6ebbe382255d17a4a7e77332bb4ee13eac6b7ed474127613596578a",
+  "traducao": "Novamente, observe que acima usamos o teorema do valor extremo para garantir\nque encontramos o máximo."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise1.tex",
+  "ordem": 0,
+  "hash": "4c1e99f783b93255a690e062243d0f24415744d967d214e0621f16b8ade7fcb5",
+  "traducao": "Uma empresa de transporte está tentando minimizar o custo de dirigir um caminhão entre Chicago e Nova Orleans.  Ela sabe o seguinte:\n{{CMD_1}}\n{{CMD_2}} A viagem tem 750 milhas.\n{{CMD_3}} A 50 mph, o caminhão faz 4 milhas por galão.\n{{CMD_4}} Para cada aumento de 1 mph na velocidade acima de 50 mph, o caminhão perde 1/10 de milha por galão em eficiência de combustível, e para cada redução de 1 mph na velocidade abaixo de 50 mph, o caminhão ganha 1/10 de milha por galão em eficiência de combustível.\n{{CMD_5}} A equipe de motoristas ganha 27 dólares por hora.\n{{CMD_6}} Há um custo adicional de 15 dólares por hora para operar o caminhão.\n{{CMD_7}} O óleo diesel para o caminhão custa {{CMD_8}}3.90 por galão.\n{{CMD_9}} O caminhão será dirigido a uma velocidade constante durante toda a viagem.\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise1.tex",
+  "ordem": 1,
+  "hash": "18a04a534b9ab7a37db7a4f2644996ab17e9c3d751e8ba5d5e710ba316ad4ba4",
+  "traducao": "Escreva uma função custo, {{MATH_11}}, para o custo total de dirigir o caminhão de Chicago a Nova Orleans à velocidade {{CMD_12}}constante{{CMD_13}} {{MATH_14}}.\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise1.tex",
+  "ordem": 2,
+  "hash": "c02db11970bc8d9a2e2bd68fed9b0d3e3942ad12ec24d5fb958ad6cc12aa1e23",
+  "traducao": "O domínio dessa função custo é {{MATH_16}}, em milhas por hora."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise1.tex",
+  "ordem": 3,
+  "hash": "0fdcd914c15bf95bc819b133bb61459b947a093d0c2fddf8a00a5e6a15cf7aeb",
+  "traducao": "Para minimizar essa função, procuramos os pontos críticos em que {{MATH_17}}."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise1.tex",
+  "ordem": 4,
+  "hash": "b4bd20aea6d68ebac215e33e88289beaa9297677f2767094547d99d562c0b627",
+  "traducao": "Resolvendo essa equação, obtemos um ponto crítico, {{MATH_18}}, no domínio de {{MATH_19}}, em {{MATH_20}} milhas por hora (arredonde para o décimo de milha por hora mais próximo)."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise1.tex",
+  "ordem": 5,
+  "hash": "22b97ac434502e67a3c0f15a1b1f15aa499bd78de2463ec9be10516a5b835856",
+  "traducao": "Para confirmar que esse ponto crítico é um mínimo local, usamos o teste da primeira derivada.  Para {{MATH_21}}, {{MATH_22}} é {{CMD_23}}{{CMD_24}}positiva{{CMD_25}}{{CMD_26}}negativa{{CMD_27}}{{CMD_28}}, e para {{MATH_29}}, {{MATH_30}} é {{CMD_31}}{{CMD_32}}positiva{{CMD_33}}{{CMD_34}}negativa{{CMD_35}}{{CMD_36}}.  Então, pelo teste da primeira derivada, {{MATH_37}} tem um mínimo local.  Agora, como {{MATH_38}} tem apenas um ponto crítico em seu domínio, e tem um mínimo local nele, esse mínimo local também é o mínimo absoluto de {{MATH_39}}."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise1.tex",
+  "ordem": 6,
+  "hash": "c8309666a5cf030ecab41b9633954c3794e9e7120801594152b986af8f3d9746",
+  "traducao": "Assim, concluímos que, para minimizar o custo, o caminhão deve ser dirigido a {{MATH_40}} milhas por hora (arredondado para o décimo de milha por hora mais próximo)."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise10.tex",
+  "ordem": 0,
+  "hash": "dfceff0ae9bcfea7556f766b1c42dd3c546fe08e147d73ad8033956f142c6f5c",
+  "traducao": "Considere a função {{MATH_1}} dada por\n{{MATH_2}}\nConsidere um retângulo com lados paralelos aos eixos, com dois vértices no eixo {{MATH_3}} e os outros dois vértices no gráfico de {{MATH_4}}, acima do eixo {{MATH_5}}."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise10.tex",
+  "ordem": 1,
+  "hash": "c7584418135d0df76f3c92e2fc16bb965bbb4514e00568638e3f8547666bf4f7",
+  "traducao": "A área do retângulo como função de {{MATH_6}} é (veja a figura acima)\n{{MATH_7}}\nO domínio da função {{MATH_8}} é {{MATH_9}}."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise10.tex",
+  "ordem": 2,
+  "hash": "715592ef05a936c90458d7c9d7dc0727cd9b37f8514edd48e2c06f1f5867de2c",
+  "traducao": "A largura do retângulo de área máxima é {{MATH_10}} e sua altura é {{MATH_11}}."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise2.tex",
+  "ordem": 0,
+  "hash": "8b1c0170c9b56286be3bef449cc8ce4dbdc3e5c5c816116a398e9922386f00ec",
+  "traducao": "O ponto da curva {{MATH_1}} mais próximo da origem, para {{MATH_2}}, é o ponto\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise3.tex",
+  "ordem": 0,
+  "hash": "21a62e1dd41204be60096c1d4aa79d921d12c48ed0d1120491e658d253fad0a2",
+  "traducao": "A figura abaixo mostra o gráfico da função {{MATH_1}}."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise3.tex",
+  "ordem": 1,
+  "hash": "641487803cf56dee9d34bc4abef6b12ed07ab2d4e3d6d2a7ab75b1b3d0178d4e",
+  "traducao": "Seja {{MATH_2}} a aproximação linear de {{MATH_3}} em {{MATH_4}}."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise3.tex",
+  "ordem": 2,
+  "hash": "652381278abf1d1ee92b2d08734450591c31e1fe78eb3a05abdb439f207d7c22",
+  "traducao": "Selecione a afirmação correta abaixo.\n{{CMD_5}}\n{{CMD_6}}{{MATH_7}}{{CMD_8}}\n{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}{{MATH_13}}{{CMD_14}}\n{{CMD_15}}{{MATH_16}}{{CMD_17}}\n{{CMD_18}}Nenhuma das afirmações acima está correta.{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise4.tex",
+  "ordem": 0,
+  "hash": "8613f06fae83473954a63b358b18c26103a12e1501057a412833021449cd555b",
+  "traducao": "Seja {{MATH_1}} uma função tal que\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}},\n{{CMD_5}} {{MATH_6}}, e\n{{CMD_7}} {{MATH_8}} para todo {{MATH_9}}.\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise4.tex",
+  "ordem": 1,
+  "hash": "542e17a0e6f131da3d542073e029640f574b5ef251f5581f49fa0ee6d20ceed2",
+  "traducao": "Escolha todas as afirmações corretas abaixo.\n{{CMD_11}}\n{{CMD_12}}{{MATH_13}} {{CMD_14}}não{{CMD_15}} satisfaz as hipóteses do teorema do valor médio.{{CMD_16}}\n{{CMD_17}}{{MATH_18}} para algum número {{MATH_19}} em {{MATH_20}}.{{CMD_21}}\n{{CMD_22}}{{MATH_23}} para todo {{MATH_24}} em {{MATH_25}}.{{CMD_26}}\n{{CMD_27}}{{MATH_28}} para todo {{MATH_29}} em {{MATH_30}}.{{CMD_31}}\n{{CMD_32}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise5.tex",
+  "ordem": 0,
+  "hash": "16b40aedcabd8a368338e42323bef8ab64f46e4ea07677e3026e0be10c83bc39",
+  "traducao": "Considere as funções {{MATH_1}}, {{MATH_2}}, {{MATH_3}} e {{MATH_4}}, cada uma com domínio {{MATH_5}}, cujos gráficos estão abaixo."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise5.tex",
+  "ordem": 1,
+  "hash": "654395296db70de4309f338d53222b4d84b0f16ba0143f205964f182369d312b",
+  "traducao": "Selecione todas as funções que satisfazem as hipóteses do teorema do valor médio em {{MATH_6}}.\n{{CMD_7}}\n{{CMD_8}}{{MATH_9}}{{CMD_10}}\n{{CMD_11}}{{MATH_12}}{{CMD_13}}\n{{CMD_14}}{{MATH_15}}{{CMD_16}}\n{{CMD_17}}{{MATH_18}}{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise5.tex",
+  "ordem": 2,
+  "hash": "86c1af4acb181b1b8c4743c5fffb2ba35cc0dc6bcfdfe7d9f955d9239835231a",
+  "traducao": "Selecione todas as funções {{MATH_21}} para as quais existe um ponto {{MATH_22}} em {{MATH_23}} tal que\n{{MATH_24}}\n{{CMD_25}}\n{{CMD_26}}{{MATH_27}}{{CMD_28}}\n{{CMD_29}}{{MATH_30}}{{CMD_31}}\n{{CMD_32}}{{MATH_33}}{{CMD_34}}\n{{CMD_35}}{{MATH_36}}{{CMD_37}}\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise6.tex",
+  "ordem": 0,
+  "hash": "139d0063de34f5ec14aff8f7a7f9bd34278a883249fcc020ae5a910f007055c7",
+  "traducao": "Considere o gráfico da parábola {{MATH_1}} e a reta {{MATH_2}} no intervalo {{MATH_3}}.  Um retângulo {{MATH_4}}, com lados paralelos aos eixos, é construído de modo que os dois cantos esquerdos estejam sobre o eixo {{MATH_5}}, o canto superior direito esteja sobre a parábola {{MATH_6}} e o canto inferior direito esteja sobre a reta {{MATH_7}}."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise6.tex",
+  "ordem": 1,
+  "hash": "9c01a7950e84231d7ef3fc8b8e173ad7822d179fd2069dac18b813be24fed450",
+  "traducao": "Em termos de {{MATH_8}}, os pontos {{MATH_9}} e {{MATH_10}} são\n{{MATH_11}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise6.tex",
+  "ordem": 2,
+  "hash": "712d57a4b8c9a40fa23020c1e030760ab630e9cf98b6d8ff3fbea1170cb5edef",
+  "traducao": "A altura do retângulo {{MATH_12}}, em termos de {{MATH_13}}, é\n{{MATH_14}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise6.tex",
+  "ordem": 3,
+  "hash": "2e71ce257d07813e82a20f933be5fb6372b97738995297eeadcd27e86e567ee9",
+  "traducao": "A área do retângulo {{MATH_15}}, em termos de {{MATH_16}}, é\n{{MATH_17}}\ne o domínio dessa função é\n{{MATH_18}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise6.tex",
+  "ordem": 4,
+  "hash": "fbf7cc4427b0bd8b05b27bc601dd511b66cae1582d5a112ad3f7790a5e856410",
+  "traducao": "O valor de {{MATH_19}} que maximiza a área de {{MATH_20}} é\n{{MATH_21}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise7.tex",
+  "ordem": 0,
+  "hash": "3e6c177236aa4cb7081cbdf0c828d641a0ee6702f98f7e2fe95eca6f5163458c",
+  "traducao": "Um cone circular reto deve ser construído com uma geratriz fixa de 8 pés.\n{{CMD_1}}\n{{ENV_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise7.tex",
+  "ordem": 1,
+  "hash": "d08c3c06584e19ea4af2238365373f2c21e6df4b51206633ecab487a7bfd9d3a",
+  "traducao": "A altura que maximiza o volume do cone é\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise7.tex",
+  "ordem": 2,
+  "hash": "6a4cdbdbd4f837d5fd35fa3652d2cf5e87e6e89974811cac715427130a8eaf22",
+  "traducao": "Dica: o volume do cone é {{MATH_5}}, onde {{MATH_6}} é a altura do cone e {{MATH_7}} é o raio."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise8.tex",
+  "ordem": 0,
+  "hash": "16b40aedcabd8a368338e42323bef8ab64f46e4ea07677e3026e0be10c83bc39",
+  "traducao": "Considere as funções {{MATH_1}}, {{MATH_2}}, {{MATH_3}} e {{MATH_4}}, cada uma com domínio {{MATH_5}}, cujos gráficos estão abaixo."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise8.tex",
+  "ordem": 1,
+  "hash": "537e1e860f226ebdb872ef226c779911a3f8c7b5fa82f6f9f1b40379e4037ee5",
+  "traducao": "Selecione todas as funções que satisfazem as hipóteses do teorema do valor médio em {{MATH_6}}.\n{{CMD_7}}\n{{CMD_8}}{{MATH_9}}{{CMD_10}}\n{{CMD_11}}{{MATH_12}}{{CMD_13}}\n{{CMD_14}}{{MATH_15}}{{CMD_16}}\n{{CMD_17}}{{MATH_18}}{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise8.tex",
+  "ordem": 2,
+  "hash": "86c1af4acb181b1b8c4743c5fffb2ba35cc0dc6bcfdfe7d9f955d9239835231a",
+  "traducao": "Selecione todas as funções {{MATH_21}} para as quais existe um ponto {{MATH_22}} em {{MATH_23}} tal que\n{{MATH_24}}\n{{CMD_25}}\n{{CMD_26}}{{MATH_27}}{{CMD_28}}\n{{CMD_29}}{{MATH_30}}{{CMD_31}}\n{{CMD_32}}{{MATH_33}}{{CMD_34}}\n{{CMD_35}}{{MATH_36}}{{CMD_37}}\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise9.tex",
+  "ordem": 0,
+  "hash": "ba7aa5b5eb75d9e0843fc6dbc73a142e163a25355c17f3c89b51d7d0d32716e6",
+  "traducao": "Uma montanha-russa de brinquedo foi projetada de modo que o trilho tem a forma do gráfico de {{MATH_1}}, onde {{MATH_2}} e {{MATH_3}} são medidos em polegadas."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise9.tex",
+  "ordem": 1,
+  "hash": "e36d77346df4b6a1eb3d95f1b6d490a38b000a4ac74de28703b0b486793bfcde",
+  "traducao": "A taxa de variação média da altitude da montanha-russa no intervalo {{MATH_4}} é {{MATH_5}}."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise9.tex",
+  "ordem": 2,
+  "hash": "b3c30019d8d0670ee158ca5c9fd25f1a72168a605adecdbd04e76c5dbe1bd43c",
+  "traducao": "Selecione a melhor interpretação de {{MATH_6}} para {{MATH_7}}.\n{{CMD_8}}\n{{CMD_9}}{{MATH_10}} é a altitude em {{MATH_11}}.{{CMD_12}}\n{{CMD_13}}{{MATH_14}} é a taxa de variação média da altitude no intervalo {{MATH_15}}.{{CMD_16}}\n{{CMD_17}}{{MATH_18}} é a velocidade de um objeto em {{MATH_19}}.{{CMD_20}}\n{{CMD_21}}{{MATH_22}} é a taxa de variação instantânea da altitude em {{MATH_23}}.{{CMD_24}}\n{{CMD_25}}{{MATH_26}} é a inclinação da reta secante que passa por {{MATH_27}} e {{MATH_28}}.{{CMD_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise9.tex",
+  "ordem": 3,
+  "hash": "fa9a4c441cd2d5a8a8915d85e5ecc4d0f2379eb402ce13a5e8703a71384be340",
+  "traducao": "Como {{MATH_31}} é {{CMD_32}}{{CMD_33}}contínua{{CMD_34}}{{CMD_35}}derivável{{CMD_36}}{{CMD_37}} no intervalo {{MATH_38}} e {{MATH_39}} é {{CMD_40}}{{CMD_41}}contínua{{CMD_42}}{{CMD_43}}derivável{{CMD_44}}{{CMD_45}} no intervalo {{MATH_46}}, {{MATH_47}} satisfaz as hipóteses do teorema do valor médio."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise9.tex",
+  "ordem": 4,
+  "hash": "ad63f9db8af31be8616812520a3903fa6870725d974ee047b6fa15cf9c7d6995",
+  "traducao": "Pelo teorema do valor médio, existe {{MATH_48}} em {{MATH_49}} tal que {{MATH_50}}.  Na verdade, isso acontece duas vezes: quando {{MATH_51}} e quando {{MATH_52}} (suponha {{MATH_53}})."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise9.tex",
+  "ordem": 5,
+  "hash": "af48b2e859b7b90731e7bde170d08afff7ebc6dec3b4507bc1246190c380e188",
+  "traducao": "O ponto mais íngreme da montanha-russa é {{MATH_54}}. (Dica: maximize {{MATH_55}} em {{MATH_56}}.)"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise9.tex",
+  "ordem": 6,
+  "hash": "d2b20b2992089d6c5b0d765163b48c706284eaaa0852066c86b71f5d51193141",
+  "traducao": "A aproximação linear, {{MATH_57}}, de {{MATH_58}} em {{MATH_59}} é \n{{MATH_60}}"
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise9.tex",
+  "ordem": 7,
+  "hash": "3a37f6577fc91b4cb7cf5483233f39777c36560f8d9680519a481aec493902cc",
+  "traducao": "Usando essa aproximação linear, estimamos que {{MATH_61}} é aproximadamente\n{{MATH_62}}\nEssa estimativa é uma {{CMD_63}}{{CMD_64}}estimativa por excesso{{CMD_65}}{{CMD_66}}estimativa por falta{{CMD_67}}{{CMD_68}} porque {{MATH_69}} tem {{CMD_70}}{{CMD_71}}concavidade para cima{{CMD_72}}{{CMD_73}}concavidade para baixo{{CMD_74}}{{CMD_75}} entre 5 e 7."
+ },
+ {
+  "arquivo": "optimization/exercises/optimizationExercise9.tex",
+  "ordem": 8,
+  "hash": "357f0c76cd53b08c68d4d63b17331130683657ce55f4f236b3001d20b67718c9",
+  "traducao": "Quando {{MATH_76}} varia de {{MATH_77}} até {{MATH_78}}, a variação de {{MATH_79}}, {{MATH_80}}, é\n{{MATH_81}}\nPodemos aproximar essa variação pela diferencial {{MATH_82}}, que é\n{{MATH_83}}\n(Dica: consulte a definição de diferenciais no livro.)"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization13.tex",
+  "ordem": 0,
+  "hash": "00b535bb6a4d8de6ea9654cd5c15ce5b153627e72377fc4b7fe9bf1a084d915c",
+  "traducao": "  Uma janela deve ser construída com o formato de um semicírculo sobre um retângulo:\n  {{CMD_1}}\n    {{ENV_2}}\n  {{CMD_3}}\n  Se o perímetro externo mede {{MATH_4}} pés, maximize a área. Arredonde sua resposta para o décimo de pé quadrado mais próximo.\n  {{CMD_5}}\n  Vamos colocar rótulos na figura.\n   {{CMD_6}}\n    {{ENV_7}}\n  {{CMD_8}}\n    {{CMD_9}}\n      {{CMD_10}}\n      O perímetro externo, {{MATH_11}}, é dado por\n      \n      {{MATH_12}}.\n      \n      Como sabemos que {{MATH_13}}, podemos expressar {{MATH_14}} em termos de {{MATH_15}}.\n      \n      {{MATH_16}}.\n      \n      A área, A , é a soma da área do retângulo com a área do semicírculo:\n      \n      {{MATH_17}}\n      \n        {{CMD_18}}\n           {{CMD_19}}\n           Agora podemos expressar a área  {{MATH_20}} como função de {{MATH_21}}:\n           \n           {{MATH_22}}.\n           \n           O domínio de A é  o intervalo fechado {{MATH_23}}. (Lembre-se: P=10!)\n              {{CMD_24}}\n                {{CMD_25}}\n                Agora precisamos encontrar o máximo absoluto de {{MATH_26}} em seu domínio.\n                Primeiro, precisamos encontrar os pontos críticos de {{MATH_27}}.\n                Como\n                \n                {{MATH_28}},\n                \n                segue que a função {{MATH_29}} tem seu único ponto crítico em  {{MATH_30}} .\n                              {{CMD_31}}\n                                {{CMD_32}}\n                                Agora, calculamos {{MATH_33}} nas extremidades e no ponto crítico e, em seguida, comparamos os valores.\n                                \n                                {{MATH_34}}\n                                \n                                {{MATH_35}}\n                                \n                                {{MATH_36}}\n                                \n                                Isso parece complicado. É melhor argumentar que a derivada satisfaz \n                                \n                                {{MATH_37}} em {{MATH_38}} e  {{MATH_39}} em {{MATH_40}},\n                                \n                                 pois {{MATH_41}}.\n                                 \n                                 \n                                 Isso implica que o máximo absoluto ocorre no ponto crítico."
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization15.tex",
+  "ordem": 0,
+  "hash": "268dc69dc32220df8b1647908b7b154202be392a8731ba5b773250ce13566eac",
+  "traducao": " Uma calha, mostrada na figura, tem 64 pés de comprimento e suas extremidades têm a forma de triângulos isósceles cujos lados medem 2 pés. \n  {{CMD_1}}\n    {{ENV_2}}\n  {{CMD_3}}\n  \n \n  Determine o comprimento da base dos dois triângulos isósceles, indicado por {{MATH_4}} na figura, que maximiza o volume.\n  {{CMD_5}}\n  Seja V o volume da calha. Então\n  \n  V=(Área do triângulo isósceles){{MATH_6}}\n  \n  Seja A a área do triângulo isósceles. \n   {{CMD_7}}\n    {{ENV_8}}\n  {{CMD_9}}"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization15.tex",
+  "ordem": 1,
+  "hash": "1d6270352be84da868006f773c406d52060752ac0c35a6e5e387410e4f4b37d2",
+  "traducao": " Então\n  {{MATH_10}},\n  \n  e\n  \n  \n{{MATH_11}}\n  {{CMD_12}}\n  {{CMD_13}}\n  {{MATH_14}}\n  {{CMD_15}}\n{{CMD_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization16.tex",
+  "ordem": 0,
+  "hash": "3ef33ba0ac46c9b2e058d973da4fd5c4393b692d47a52253404223dbb0a12782",
+  "traducao": "  Um retângulo está inscrito na elipse\n  {{MATH_1}}\n  de modo que dois de seus lados são paralelos ao eixo {{MATH_2}} e os outros dois são paralelos ao eixo {{MATH_3}}.\n  Determine as dimensões do retângulo de maior área.\n  {{CMD_4}}\n  {{CMD_5}}\n{{ENV_6}}\n{{CMD_7}}\n{{CMD_8}}\n{{CMD_9}}\nÁrea do retângulo:\n {{MATH_10}}. \n Vamos expressar {{MATH_11}} como função de, digamos, {{MATH_12}}.\nObserve que {{MATH_13}} e {{MATH_14}} satisfazem a equação da elipse, então\n {{MATH_15}}\nComo em nossa figura {{MATH_16}}, temos \n {{MATH_17}}\n{{CMD_18}}\n{{CMD_19}}\nAgora\n{{MATH_20}}."
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization16.tex",
+  "ordem": 1,
+  "hash": "b9cf38619d22e7c0c086ea7b4e3091c0ada5cce4aadae8e9429137c6f94cb807",
+  "traducao": "O domínio de {{MATH_21}}.\n{{CMD_22}}\n{{CMD_23}}\nPrecisamos encontrar os pontos críticos de {{MATH_24}}."
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization16.tex",
+  "ordem": 2,
+  "hash": "7224bfb7d8e4588efa96ea423a5b00f599fa6bea79001caa1ae119bbf721714e",
+  "traducao": ".\nSe simplificarmos {{MATH_25}}, obtemos"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization16.tex",
+  "ordem": 3,
+  "hash": "724b2ece43cbc34aac49125e547a1383894db8729fa10e0bba2b34d47cdf4713",
+  "traducao": ","
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization16.tex",
+  "ordem": 4,
+  "hash": "2db4a677fda586258c49cb53ce0d1b3b8fa1d2b59085dee69267a8cc9dd0f1ed",
+  "traducao": "e, simplificando novamente, obtemos"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization16.tex",
+  "ordem": 5,
+  "hash": "c1756c80b1e481ff998c47dec14735021d0530df4e754dc6265d177ed991c1d6",
+  "traducao": "A função {{MATH_26}} tem um único ponto crítico, em {{MATH_27}}.\n{{CMD_28}}\n{{CMD_29}}"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization16.tex",
+  "ordem": 6,
+  "hash": "a3c3dada4d508cac300922d5be91c4362102dcb74609d2f4ba9d62f5772d7670",
+  "traducao": "Como o domínio de {{MATH_30}} é o intervalo fechado {{MATH_31}}, \nprecisamos calcular a função {{MATH_32}} nas extremidades e no ponto crítico:\n {{MATH_33}}\n  {{MATH_34}}\n  {{MATH_35}}\n  Portanto, o máximo é atingido no ponto crítico.\n{{CMD_36}}\n  {{CMD_37}}\n  {{ENV_38}}\n  {{CMD_39}}\n{{CMD_40}}\n{{CMD_41}}"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization17.tex",
+  "ordem": 0,
+  "hash": "a577deef3c27f5426314fa822210a24774f4d4bd2d1ad00b3e54bb6105ab0d51",
+  "traducao": "  Determine o ponto com valor de {{MATH_1}} positivo na parábola {{MATH_2}} que está mais próximo do ponto\n  {{MATH_3}}.\n  {{CMD_4}}\n {{CMD_5}}\n{{COMMENT_6}}\n{{ENV_7}}\n{{COMMENT_8}}\n{{COMMENT_9}}\n{{COMMENT_10}}\n{{CMD_11}}\nA distância, D, entre o ponto {{MATH_12}} e um ponto {{MATH_13}} da parábola é dada por"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization17.tex",
+  "ordem": 1,
+  "hash": "3e9ab50b9a9cc9dab2c14e1517d9474d55a4cb2c196ba99deda3efaceb9b1dd7",
+  "traducao": ".\nPrecisamos encontrar um mínimo absoluto de D em seu domínio {{MATH_14}}.\n  {{CMD_15}}\n    {{CMD_16}}\n    Precisamos encontrar os pontos críticos de {{MATH_17}}.\n      {{CMD_18}}\n  \n  {{CMD_19}}\n  {{ENV_20}}\n  {{CMD_21}}\n{{CMD_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization18.tex",
+  "ordem": 0,
+  "hash": "aa5fec5a3a1ac3f236d96196101cc1e80e03860bbbcda1bc2d28ffaa8c0ecd04",
+  "traducao": "  Determine o ponto da curva {{MATH_1}} que está mais próximo do ponto {{MATH_2}}.\n  {{CMD_3}}\n  {{ENV_4}}\n  {{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization3.tex",
+  "ordem": 0,
+  "hash": "eb883867f192fb015b975f4abfa7a866d49524f7277085ba7234134490e13c8c",
+  "traducao": "  \n  Uma caixa com base quadrada e sem tampa deve ter volume {{MATH_1}}.  Determine\n  as dimensões da caixa que exige a menor quantidade de material para as\n  cinco faces.\n  {{CMD_2}}\n  {{ENV_3}}\n  {{CMD_4}}\n  {{CMD_5}}\n  As dimensões que resultam na \"menor quantidade de material\" para as cinco faces são as dimensões que resultam na \"menor área de superfície\".\n  Portanto, a quantidade que precisamos \"minimizar\" é a área de superfície, {{MATH_6}}.\n  {{CMD_7}}\n  {{CMD_8}}\n  Precisamos \"minimizar\"  a área de superfície, {{MATH_9}}.\n  \n  {{MATH_10}}\n  \n  Lembre-se: sem tampa!\n  {{CMD_11}}\n    {{CMD_12}}\nEm seguida, expressamos {{MATH_13}} como função de, digamos, {{MATH_14}}.\nPara isso, precisamos expressar {{MATH_15}} em termos de {{MATH_16}}."
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization3.tex",
+  "ordem": 1,
+  "hash": "cade362d443af63c6d8431f4d57c769c6756b54a8a7d1e387f009e511e12c82c",
+  "traducao": "Sabemos que  {{MATH_17}}. Portanto,"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization3.tex",
+  "ordem": 2,
+  "hash": "7f85db8ec45b6c2abec2085f6dc883bf92e2bb6ab1d2d4729a1bdd707ab18e64",
+  "traducao": ",\ne"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization3.tex",
+  "ordem": 3,
+  "hash": "0e2c564e732b47d2a6ffcb58147da30eb2fc63c9359e0d638423d0fb1211456b",
+  "traducao": ".\n  \n Segue que \n  \n   {{MATH_18}}."
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization3.tex",
+  "ordem": 4,
+  "hash": "831f5e335c111229d28f73747049d32db9fc8515aea05e3adc52ded2e134cbaf",
+  "traducao": "  Portanto, precisamos encontrar o mínimo (absoluto) de {{MATH_19}} em seu domínio, {{MATH_20}}.\n  Precisamos encontrar os pontos críticos de {{MATH_21}}.\n  Para isso, precisamos calcular {{MATH_22}}.\n  {{CMD_23}}\n  {{CMD_24}}\n  {{MATH_25}}.\n    {{CMD_26}}\n     {{CMD_27}}\n     Precisamos encontrar os pontos críticos de {{MATH_28}}.\n     Portanto, precisamos resolver a equação\n     \n  {{MATH_29}}.\n  \n  Segue que {{MATH_30}} tem um único ponto crítico,  {{MATH_31}}.\n    {{CMD_32}}\n  \n     {{CMD_33}}\n     Como\n    \n     {{MATH_34}}, segue que\n    \n      {{MATH_35}} em {{MATH_36}} e  que {{MATH_37}} em {{MATH_38}}.\n     \n      Isso significa que {{MATH_39}} é decrescente em {{MATH_40}} e crescente em {{MATH_41}}.\n      Ou seja, a função {{MATH_42}} tem tanto um mínimo local quanto um mínimo absoluto em {{MATH_43}}.\n {{CMD_44}}"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization3.tex",
+  "ordem": 5,
+  "hash": "94eefbb25d7cc15a07bf5bcb62d351db79a6879846659d502a21342bcf9ca862",
+  "traducao": "  Portanto, as dimensões que minimizam a área de superfície são\n  \n  {{CMD_45}}\n  {{MATH_46}}\n  {{CMD_47}}\n{{CMD_48}}\n{{CMD_49}}"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization6.tex",
+  "ordem": 0,
+  "hash": "d226504f084e815b466d68e410f514231c1fc27efca433a6138ba5e72a672452",
+  "traducao": "  Você tem {{MATH_1}} pés de cerca para fazer uma área de recreação retangular\n  encostada na parede da sua casa.  A parede da casa delimita um dos\n  lados.  Qual é a maior área possível (em pés quadrados)?"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization6.tex",
+  "ordem": 1,
+  "hash": "dd9715008c1a23b9824b790160700d2bf9a4abe1b646c785f5067dd30dc117a2",
+  "traducao": "Precisamos maximizar a área, {{MATH_2}}.\nComo {{MATH_3}}, segue que"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization6.tex",
+  "ordem": 2,
+  "hash": "6330f68de1c2c44fb2f9485a98d3b48a22f7fd06824771b5716de83851073983",
+  "traducao": ".\n{{CMD_4}}\n{{CMD_5}}\nAgora expressamos a área como função de {{MATH_6}}."
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization6.tex",
+  "ordem": 3,
+  "hash": "4e96e456d5f41e0ea2e8f58a0a24caabda3edf1ea7e2c9e19f769e7c85502bed",
+  "traducao": "Portanto, precisamos encontrar o máximo absoluto da função {{MATH_7}}, dada por"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization6.tex",
+  "ordem": 4,
+  "hash": "55d14fe8827b89d03ff5f09ade63338140eb15829f2a8e6c1cb6e8a2d412b41d",
+  "traducao": "em seu domínio {{MATH_8}}.\n{{CMD_9}}\n{{CMD_10}}\nPrecisamos encontrar todos os pontos críticos de {{MATH_11}} em {{MATH_12}}.\nComo"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization6.tex",
+  "ordem": 5,
+  "hash": "57921907897e290bfa82eca69ab31c0252a7827701e78fc11de5871bbe4d5fac",
+  "traducao": ","
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization6.tex",
+  "ordem": 6,
+  "hash": "ccf293e172350450c5ca3632a3dd42d447fe73f6b2a5229faf96c1c802b7a170",
+  "traducao": "segue que  a função {{MATH_13}} tem seu único ponto crítico em {{MATH_14}}."
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization6.tex",
+  "ordem": 7,
+  "hash": "50dd3b008140a49e894f1d09ba882263236f4158ae0bcc8930aaf9397a9d37c5",
+  "traducao": "Precisamos calcular {{MATH_15}} nas extremidades e no ponto crítico."
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization6.tex",
+  "ordem": 8,
+  "hash": "b8879f96e28fdfbc43f0f71a200706a3f43531b4d7c7dcc4de81e4579d8b61f2",
+  "traducao": "Agora comparamos esses três valores e determinamos o máximo absoluto de {{MATH_16}}.\n{{CMD_17}}\n  {{CMD_18}}\n  {{MATH_19}}\n  {{CMD_20}}\n{{CMD_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization9.tex",
+  "ordem": 0,
+  "hash": "c82fa7ee954a34ed64891a13da41992cdc3aa1e27eebb5174dcde8dc7e04d820",
+  "traducao": "  Você quer fabricar recipientes cilíndricos com capacidade de 1 litro (1000{{MATH_1}}) usando a\n  menor quantidade possível de material.  A lateral é feita de uma\n  peça retangular de material, e isso pode ser feito sem desperdício.\n  No entanto, a tampa e o fundo são recortados de quadrados de lado\n  {{MATH_2}}, de modo que são necessários {{MATH_3}} de material (em vez de\n  {{MATH_4}}, que é a área total da tampa e do fundo).  Determine\n  as dimensões do recipiente que usa a menor quantidade de material.\n  {{CMD_5}}\n  A área total  de material gasto é a soma da área da superfície lateral do cilindro com a área de dois quadrados de lado {{MATH_6}}.\n  \n  \n  {{MATH_7}}"
+ },
+ {
+  "arquivo": "optimization/exercises/singVarCalcOptimization9.tex",
+  "ordem": 1,
+  "hash": "b0adfb9f8910c3fe0a6c1606085a2755ad2601648563b5dea8f563cd7a457886",
+  "traducao": "  Use o fato de que o volume do cilindro é {{MATH_8}} e que {{MATH_9}}.\n  Expresse {{MATH_10}} em termos de {{MATH_11}}.\n  Agora você pode expressar {{MATH_12}} como função de {{MATH_13}}.\n    {{CMD_14}}\n   Nossa função objetivo {{MATH_15}} é dada pela expressão\n   \n   \n    {{MATH_16}}.\n    {{CMD_17}}\n    \n    {{CMD_18}}\n  {{CMD_19}}\n  {{MATH_20}}\n  {{CMD_21}}\n{{CMD_22}}\n{{CMD_23}}"
+ }
+]

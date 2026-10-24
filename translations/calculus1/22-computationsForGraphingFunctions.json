@@ -448,5 +448,575 @@
   "ordem": 14,
   "hash": "552e081a36ed68ea3ab4233ef904a566019da466686f79e350655089760b0589",
   "traducao": "Escolha o gráfico que representa corretamente {{MATH_19}}.\n{{CMD_20}}\n{{CMD_21}}{{MATH_22}}{{CMD_23}}\n{{CMD_24}}{{MATH_25}}{{CMD_26}}\n{{CMD_27}}{{MATH_28}}{{CMD_29}}\n{{CMD_30}}{{MATH_31}}{{CMD_32}}\n{{CMD_33}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 0,
+  "hash": "683674e4d0cbfe126335f82b3a1edc953737afd28093ea9b0ae128a182db95d6",
+  "traducao": "Considere a função {{MATH_1}} dada por \n{{MATH_2}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 1,
+  "hash": "1b825e7b631d6dd0de393d8648386f253167b2bf2a33284ae47aae57d7b2af84",
+  "traducao": "O domínio de {{MATH_3}} é {{MATH_4}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 2,
+  "hash": "027326f70ff7727af81f2279b130703a75a4d0c68bcd898f12f0a37e9aff0e70",
+  "traducao": " é {{CMD_5}}{{CMD_6}}par{{CMD_7}}{{CMD_8}}ímpar{{CMD_9}}{{CMD_10}}nem par nem ímpar{{CMD_11}}{{CMD_12}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 3,
+  "hash": "74187c4cac3bb3f2512e5adaca9573a31aa6ad0d21f7623c116cf20a3854908f",
+  "traducao": " tem uma assíntota horizontal em {{MATH_13}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 4,
+  "hash": "a7f722b1c281b56e2bcec85e6a4d117e29a415a47027e1f48b45171a6b7e8d68",
+  "traducao": " tem {{MATH_14}} assíntotas verticais."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 5,
+  "hash": "849659e7491e4c443c0c4493f6b7348f9087697765bba3d1ac2fc7fc2a6b2396",
+  "traducao": "A derivada de {{MATH_15}} é\n{{MATH_16}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 6,
+  "hash": "2f95980e77061a25e6651c799505a350a4242a613c712055213c454d0dcc80ee",
+  "traducao": "A segunda derivada de {{MATH_17}} é\n{{MATH_18}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 7,
+  "hash": "2804596a5a2284088e0d1f998f826cfcd8af50efe97ba9e6cc94b8b0095f8d83",
+  "traducao": " é crescente e tem concavidade para cima em {{MATH_19}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 8,
+  "hash": "40f42d1f5fc4c5816b34566fbe1a52a472f2feb0a0c4e50192cd284b7d160734",
+  "traducao": " é crescente e tem concavidade para baixo em {{MATH_20}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 9,
+  "hash": "dfb0a1ca412b17dbde2294303219807b094a9967cd95be55b7cd503490addd7c",
+  "traducao": " é decrescente e tem concavidade para cima em (da esquerda para a direita) {{MATH_21}} e {{MATH_22}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 10,
+  "hash": "4db31b212cb4c4aaf6bf763467bb8748643d82bcc3919f99eb39fd32f21da19f",
+  "traducao": " é decrescente e tem concavidade para baixo em {{MATH_23}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 11,
+  "hash": "699c8b7da2c7b90cdc204df9bfd10f3cc745127f2c238a2501b8b400c4489266",
+  "traducao": " tem um mínimo local em {{MATH_24}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 12,
+  "hash": "94944c5145162c3b9a06a975e922119cd777401e2b2144a8306578c07034f28c",
+  "traducao": " tem um máximo local em {{MATH_25}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 13,
+  "hash": "518fbe78bb37df2202f8ce835d674dae2f41a68b212c3e5b45205061697f7b44",
+  "traducao": " tem pontos de inflexão (da esquerda para a direita) em {{MATH_26}} e {{MATH_27}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 14,
+  "hash": "009383bcb553430b5a1ac8d81cc171566020c038224e44198e3fb0c0797c2111",
+  "traducao": "Considere os gráficos abaixo."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations3.tex",
+  "ordem": 15,
+  "hash": "37a3db4f2269b0595f19ceb315c09fa319f0bf06b2bd7743fd0b8f2ee317ad27",
+  "traducao": "Escolha o gráfico que representa corretamente {{MATH_28}}.\n{{CMD_29}}\n{{CMD_30}}{{MATH_31}}{{CMD_32}}\n{{CMD_33}}{{MATH_34}}{{CMD_35}}\n{{CMD_36}}{{MATH_37}}{{CMD_38}}\n{{CMD_39}}{{MATH_40}}{{CMD_41}}\n{{CMD_42}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations4.tex",
+  "ordem": 0,
+  "hash": "09ba0a1716981948dec7fe660c85e9f60db70d2ce8dde59246e203d34048e9fd",
+  "traducao": "Considere a função {{MATH_1}} cuja derivada é\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations4.tex",
+  "ordem": 1,
+  "hash": "628ae6891c1131c13af777dae47a37ac3a0fb1fabce00179615dc1c0740c4399",
+  "traducao": " é crescente no intervalo {{MATH_3}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations4.tex",
+  "ordem": 2,
+  "hash": "55609065e612ebe6aceb6e669cf1c736d761891dd8c029914b7bc0231485afbe",
+  "traducao": " não tem {{CMD_4}}{{CMD_5}}mínimos{{CMD_6}}{{CMD_7}}máximos{{CMD_8}}{{CMD_9}} locais."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations4.tex",
+  "ordem": 3,
+  "hash": "2486147da9e6f20a7f59e026cd14f232753fa06ee750c0faab34e952246b7d40",
+  "traducao": " tem um {{CMD_10}}{{CMD_11}}mínimo{{CMD_12}}{{CMD_13}}máximo{{CMD_14}}{{CMD_15}} local em {{MATH_16}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations4.tex",
+  "ordem": 4,
+  "hash": "d19cf9a56cc37c1f58f0e9d822670c6234fe38c0151cd165330e8d87b5ff1df2",
+  "traducao": "A segunda derivada de {{MATH_17}} é dada por\n{{MATH_18}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations4.tex",
+  "ordem": 5,
+  "hash": "9d004c77ce7de63967937b508f88baec2faf7bbfffe8be4d25efdeeec1f6013a",
+  "traducao": " tem concavidade para {{CMD_19}}{{CMD_20}}cima{{CMD_21}}{{CMD_22}}baixo{{CMD_23}}{{CMD_24}} no intervalo {{MATH_25}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations4.tex",
+  "ordem": 6,
+  "hash": "e7870604b27238ac6a904c687d73458831f3000990c5c17ff3dae6b540b5861c",
+  "traducao": "tem{{CMD_26}}{{CMD_27}}não tem{{CMD_28}}{{CMD_29}} pontos de inflexão."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations5.tex",
+  "ordem": 0,
+  "hash": "09ba0a1716981948dec7fe660c85e9f60db70d2ce8dde59246e203d34048e9fd",
+  "traducao": "Considere a função {{MATH_1}} cuja derivada é\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations5.tex",
+  "ordem": 1,
+  "hash": "6d3a8c3f7bfb925fcaebc75443f03f8b17e75edc705b6213c4b5eb8fa97a6002",
+  "traducao": " tem um ponto crítico em {{MATH_3}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations5.tex",
+  "ordem": 2,
+  "hash": "70fcbc33feb82d444412e30dbd46b22dd1ae0ab6e6b0611e94d386af29b49291",
+  "traducao": " é decrescente em {{MATH_4}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations5.tex",
+  "ordem": 3,
+  "hash": "a668856145361db0ff301b56de316305c61dd376461fd3f5f83373c5af994ab6",
+  "traducao": " não tem {{CMD_5}}{{CMD_6}}mínimos{{CMD_7}}{{CMD_8}}máximos{{CMD_9}}{{CMD_10}} locais."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations5.tex",
+  "ordem": 4,
+  "hash": "39c8eb03668c6043ee1cbfd029df41e29a4f79263380796bcb5ab8fda660c272",
+  "traducao": " tem um {{CMD_11}}{{CMD_12}}mínimo{{CMD_13}}{{CMD_14}}máximo{{CMD_15}}{{CMD_16}} local em {{MATH_17}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations5.tex",
+  "ordem": 5,
+  "hash": "8133ee544d963e742a4c56c3d5c35fabb37b9bb5a8e7be6820e5dc38793a4b2e",
+  "traducao": "A segunda derivada de {{MATH_18}} é\n{{MATH_19}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations5.tex",
+  "ordem": 6,
+  "hash": "20a30c77b00147a31766422e121761916aa55fab9490eda319ad5c0e532ff94b",
+  "traducao": " tem concavidade para baixo no intervalo {{MATH_20}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations5.tex",
+  "ordem": 7,
+  "hash": "9087cc09d727e9d9697e183951f477e626f3c7fc2e46380e4e4c6c2c6f63279c",
+  "traducao": " tem concavidade para cima no intervalo {{MATH_21}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations5.tex",
+  "ordem": 8,
+  "hash": "16b6e954748793308d4bc34af0a1ead866053f28407c1bd162684361c88b8c1b",
+  "traducao": " tem um ponto de inflexão em {{MATH_22}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 0,
+  "hash": "8947574d6ebd874b165d6b60c4f7b2b2f9b6ad12fbcf860e54a3222fea862415",
+  "traducao": "Considere a função {{MATH_1}} dada por\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 1,
+  "hash": "f9f5d97daf31a5cc918ba7329d68cb8fe86a504e53f115fe9435812828287dbb",
+  "traducao": "O domínio de {{MATH_3}} (da esquerda para a direita) é {{MATH_4}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 2,
+  "hash": "027326f70ff7727af81f2279b130703a75a4d0c68bcd898f12f0a37e9aff0e70",
+  "traducao": " é {{CMD_5}}{{CMD_6}}par{{CMD_7}}{{CMD_8}}ímpar{{CMD_9}}{{CMD_10}}nem par nem ímpar{{CMD_11}}{{CMD_12}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 3,
+  "hash": "8d4b46422598e516aad5e14b68375102ded25c31180a9ba09de18e09f84e1aff",
+  "traducao": " tem uma assíntota horizontal em {{MATH_13}}. (Escreva {{CMD_14}}|DNE| se {{MATH_15}} não tiver assíntota horizontal.)"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 4,
+  "hash": "b403394a38e95c5d4c6a9f1516a9aed7b340083b327466c01e1d8bbf0a1cb99e",
+  "traducao": " tem uma assíntota vertical em {{MATH_16}}. (Escreva {{CMD_17}}|DNE| se {{MATH_18}} não tiver assíntota vertical.)"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 5,
+  "hash": "bbc8ada5bc962d855e3549a2393f405e2c7167fb4b2d345433fb84eef73b598f",
+  "traducao": "A derivada de {{MATH_19}} é \n{{MATH_20}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 6,
+  "hash": "325e766c5069c6c225ac37b345a09dc581d475238bd4910d86f00a10aea30549",
+  "traducao": "A segunda derivada de {{MATH_21}} é \n{{MATH_22}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 7,
+  "hash": "210c1ab9b48bb51ad5539c7df2d1658427721c74e0956d7ada34e47ec3be4667",
+  "traducao": " é crescente e tem concavidade para baixo em {{MATH_23}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 8,
+  "hash": "22e26bdb0efa7c944aebaefa19dcf85322866988fb60f44054acc7564ceda4f9",
+  "traducao": " é crescente e tem concavidade para cima em {{MATH_24}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 9,
+  "hash": "9c8b56c52e7842697a52201e7a01d60d6bbcca38780879d8df84bde50c470707",
+  "traducao": " é decrescente e tem concavidade para baixo em {{MATH_25}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 10,
+  "hash": "517b931208d284f54164184abc9b0f4bedd09c81b95ba64b76ac76eeb4789e6f",
+  "traducao": " é decrescente e tem concavidade para cima em {{MATH_26}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 11,
+  "hash": "3eaf9e720016dd4936446b17c54653e85260e7a6672d40a2005fea1d46f5949b",
+  "traducao": " tem um mínimo local em {{MATH_27}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 12,
+  "hash": "54645b045bef16621c687e9f923aaef63df293cbc7395d5f558432d5947aff9e",
+  "traducao": " tem um máximo local em {{MATH_28}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 13,
+  "hash": "096ab3a494949cab3451d6fafc6c8d666affe1c811dfae570b20d76242e3d4ce",
+  "traducao": "tem{{CMD_29}}{{CMD_30}}não tem{{CMD_31}}{{CMD_32}} pontos de inflexão."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 14,
+  "hash": "009383bcb553430b5a1ac8d81cc171566020c038224e44198e3fb0c0797c2111",
+  "traducao": "Considere os gráficos abaixo."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations6.tex",
+  "ordem": 15,
+  "hash": "f12782e6d53a5c7db6812b45a2d0d3877c1d10af29e01be16007da7425bb807e",
+  "traducao": "Escolha o gráfico que representa corretamente {{MATH_33}}.\n{{CMD_34}}\n{{CMD_35}}{{MATH_36}}{{CMD_37}}\n{{CMD_38}}{{MATH_39}}{{CMD_40}}\n{{CMD_41}}{{MATH_42}}{{CMD_43}}\n{{CMD_44}}{{MATH_45}}{{CMD_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 0,
+  "hash": "e3346bbf32d57dc53135d265a610f0d6987741d74d363221fab81fe40eb77a16",
+  "traducao": "Considere a função {{MATH_1}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 1,
+  "hash": "088b638822945243c508429b3677dfc0357117aa98cb45e1ff67ee97a662728c",
+  "traducao": "O domínio de {{MATH_2}} é {{MATH_3}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 2,
+  "hash": "dbed01666ed626b1cf73a8fc8cb694ce158ab871b687608fee1d948349ba0444",
+  "traducao": " é {{CMD_4}}{{CMD_5}}par{{CMD_6}}{{CMD_7}}ímpar{{CMD_8}}{{CMD_9}}nem par nem ímpar{{CMD_10}}{{CMD_11}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 3,
+  "hash": "bfdb062cd689edcf41e4b2330a661b06d09eae010e4580197c453539db16c151",
+  "traducao": "tem{{CMD_12}}{{CMD_13}}não tem{{CMD_14}}{{CMD_15}} assíntotas horizontais."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 4,
+  "hash": "f2d240de426b4141c7cbe2c73de789869adc4ecec1f3b0b55f23b81ae4298f3f",
+  "traducao": "tem{{CMD_16}}{{CMD_17}}não tem{{CMD_18}}{{CMD_19}} assíntotas verticais."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 5,
+  "hash": "cfae04bd08864b1b44ab50d63e9097a5dd0974fbf3ba9e3577aafa9c177db521",
+  "traducao": "A derivada de {{MATH_20}} é dada por\n{{MATH_21}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 6,
+  "hash": "e010aed0b83917aaca13b34019bcb08511acac01b04f753b17b3b0dcea51b357",
+  "traducao": "A segunda derivada de {{MATH_22}} é dada por \n{{MATH_23}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 7,
+  "hash": "bd07626efebdf9ce7904ead328b0d0f4ab0659bc15bd49993444e2958f67d288",
+  "traducao": " é crescente e tem concavidade para baixo em {{MATH_24}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 8,
+  "hash": "ddcbe403f33780a6fa27d581ae0bfcdc1d2b91b52f900c21caeecf86168b7d42",
+  "traducao": " é crescente e tem concavidade para cima em {{MATH_25}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 9,
+  "hash": "9ff0f04573bf6f073ddeb8993c03274f759dd1111d909baa319d6418bff1bfee",
+  "traducao": " é decrescente e tem concavidade para baixo em (da esquerda para a direita) {{MATH_26}} e {{MATH_27}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 10,
+  "hash": "83944829db80155e4551c7600b88118b3f1e25e86939dc1ac4fd27a07c91db5d",
+  "traducao": " é decrescente e tem concavidade para cima em (da esquerda para a direita) {{MATH_28}} e {{MATH_29}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 11,
+  "hash": "a6e7b47b356a5b06a4107a06aa2591624a13d5b9891fd83a928ff2886426d830",
+  "traducao": " atinge um mínimo local em {{MATH_30}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 12,
+  "hash": "b528345b8eee8ba54c9fbc1dcc849b36620a4f1cc14b7f7c1c41910cf02f38f6",
+  "traducao": " atinge um máximo local em {{MATH_31}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 13,
+  "hash": "399201f465846cc70f68c4b6102d63dc495b5caed4bcf7e0bf811a6942ac5e9a",
+  "traducao": " tem pontos de inflexão (da esquerda para a direita) em {{MATH_32}}, {{MATH_33}} e {{MATH_34}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 14,
+  "hash": "009383bcb553430b5a1ac8d81cc171566020c038224e44198e3fb0c0797c2111",
+  "traducao": "Considere os gráficos abaixo."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations7.tex",
+  "ordem": 15,
+  "hash": "47b6c1a5fffdea6d849af6587a0a8ffbe9f3347046ef54562ba29b60df3fc509",
+  "traducao": "Escolha o gráfico que representa corretamente {{MATH_35}}.\n{{CMD_36}}\n{{CMD_37}}{{MATH_38}}{{CMD_39}}\n{{CMD_40}}{{MATH_41}}{{CMD_42}}\n{{CMD_43}}{{MATH_44}}{{CMD_45}}\n{{CMD_46}}{{MATH_47}}{{CMD_48}}\n{{CMD_49}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 0,
+  "hash": "e3346bbf32d57dc53135d265a610f0d6987741d74d363221fab81fe40eb77a16",
+  "traducao": "Considere a função {{MATH_1}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 1,
+  "hash": "304bf9b3021983efd50487803e55362ee8daf918cd3c9b8bd1acc52b5787ae39",
+  "traducao": "O domínio de {{MATH_2}} (da esquerda para a direita) é {{MATH_3}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 2,
+  "hash": "dbed01666ed626b1cf73a8fc8cb694ce158ab871b687608fee1d948349ba0444",
+  "traducao": " é {{CMD_4}}{{CMD_5}}par{{CMD_6}}{{CMD_7}}ímpar{{CMD_8}}{{CMD_9}}nem par nem ímpar{{CMD_10}}{{CMD_11}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 3,
+  "hash": "bfdb062cd689edcf41e4b2330a661b06d09eae010e4580197c453539db16c151",
+  "traducao": "tem{{CMD_12}}{{CMD_13}}não tem{{CMD_14}}{{CMD_15}} assíntotas horizontais."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 4,
+  "hash": "eb222340431c468db757ea857a6baaa1a38c71591a177e31893059cc0841ab58",
+  "traducao": " tem uma assíntota vertical em {{MATH_16}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 5,
+  "hash": "fa2c59a3e08b9f500c9112cf05d585ef25cfa082945aa4f2ee5d3bedc9971758",
+  "traducao": "A derivada de {{MATH_17}} é dada por\n{{MATH_18}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 6,
+  "hash": "fd24d87af8dc66495a1c1365bf9eb0696e5f967fac4e6eeff1bb11d2b4985ef1",
+  "traducao": "A segunda derivada de {{MATH_19}} é dada por\n{{MATH_20}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 7,
+  "hash": "75676d7904f606f8753983c77c83eb4a3905a6603393bb31e1551b4e6094dadf",
+  "traducao": " é crescente e tem concavidade para cima em {{MATH_21}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 8,
+  "hash": "b1c10dbe5761843b29b3d9bd0e77ac08a897fb0a641578109226f4827c40571c",
+  "traducao": " é crescente e tem concavidade para baixo em {{MATH_22}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 9,
+  "hash": "93dea29ec27b836b5a382f06984278b8c7be91b3ddf98bd677303658fd158c59",
+  "traducao": " é decrescente e tem concavidade para cima em {{MATH_23}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 10,
+  "hash": "7ecce7c74e1bab3d787e64a081563008f1e30cc468b2bc7ae30231ecf9e1b23a",
+  "traducao": " é decrescente e tem concavidade para baixo em {{MATH_24}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 11,
+  "hash": "512adad11b50d6b6d8720d538093e938ab85ce88d01b391254fdbe1e7eba7fe4",
+  "traducao": " atinge um máximo local em {{MATH_25}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 12,
+  "hash": "8842f16eed10bfbba74af101e67e435b4005c560db98db78f544895b0cdbeb9a",
+  "traducao": " atinge um mínimo local em {{MATH_26}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 13,
+  "hash": "2d6d77a4cc57bee060167996914021c42847a8c9997517ee2a86fc6dfe9eb4e4",
+  "traducao": "tem{{CMD_27}}{{CMD_28}}não tem{{CMD_29}}{{CMD_30}} um ponto de inflexão em {{MATH_31}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 14,
+  "hash": "009383bcb553430b5a1ac8d81cc171566020c038224e44198e3fb0c0797c2111",
+  "traducao": "Considere os gráficos abaixo."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations8.tex",
+  "ordem": 15,
+  "hash": "e70eaa3c24b0cb0b0ae789af972fa788779e10cc17e7f1b6d121e618959db037",
+  "traducao": "Escolha o gráfico que representa corretamente {{MATH_32}}.\n{{CMD_33}}\n{{CMD_34}}{{MATH_35}}{{CMD_36}}\n{{CMD_37}}{{MATH_38}}{{CMD_39}}\n{{CMD_40}}{{MATH_41}}{{CMD_42}}\n{{CMD_43}}{{MATH_44}}{{CMD_45}}\n{{CMD_46}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 0,
+  "hash": "e3346bbf32d57dc53135d265a610f0d6987741d74d363221fab81fe40eb77a16",
+  "traducao": "Considere a função {{MATH_1}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 1,
+  "hash": "304bf9b3021983efd50487803e55362ee8daf918cd3c9b8bd1acc52b5787ae39",
+  "traducao": "O domínio de {{MATH_2}} (da esquerda para a direita) é {{MATH_3}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 2,
+  "hash": "adeea4acdb29a7a30125de97912c5735cb14568042236bc6d33ac2ab1e8f3543",
+  "traducao": " tem uma assíntota horizontal em {{MATH_4}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 3,
+  "hash": "caa509805563d0713c4b98d5e3b77fc2a8903c245a32f5d142f5f2afa4a45888",
+  "traducao": " tem assíntotas verticais (da esquerda para a direita) em {{MATH_5}} e {{MATH_6}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 4,
+  "hash": "e3dc32d472a49ff0d0ae00d5d13bd4804df473a1fe1a483dd2d8ab69b6b5716f",
+  "traducao": "A derivada de {{MATH_7}} é dada por \n{{MATH_8}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 5,
+  "hash": "1cd830d4617fd2576a9b478c47d963c110748b6571bc70076ef05f1bf78a0e0e",
+  "traducao": "A segunda derivada de {{MATH_9}} é dada por\n{{MATH_10}}"
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 6,
+  "hash": "1fbf14af159d4ddc43608a20aa6a8fd733fe64dc8958e02d1ae685805ecc674c",
+  "traducao": " é crescente e tem concavidade para cima em {{MATH_11}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 7,
+  "hash": "fa620a817077d43603ca53e6790e2fe2a1e46e014307da9f5305638fdd02d1af",
+  "traducao": " é crescente e tem concavidade para baixo em {{MATH_12}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 8,
+  "hash": "4ad604f9f917605d91094a80ca63907f2b5777a8225aabf4a520f8da6d748d90",
+  "traducao": " é decrescente e tem concavidade para cima em {{MATH_13}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 9,
+  "hash": "68f0ae870b27320fe308758f3daf280d696a61f88db704ae622dd6d329262932",
+  "traducao": " é decrescente e tem concavidade para baixo em {{MATH_14}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 10,
+  "hash": "ba043e25445a864902cd86ecfd71ac8f42cae666ffa08113fa7ad6d844f57dab",
+  "traducao": " tem um máximo local em {{MATH_15}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 11,
+  "hash": "7b72db2e5b2bd256ff9ab0ec58e662b48e6d902477ad7612fda7ea2bc9995dd5",
+  "traducao": " tem {{MATH_16}} mínimos locais."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 12,
+  "hash": "1390e5f2fb6001cdec76165e524f6f4debfbb5c36bec8311a70ee25c1207649b",
+  "traducao": "tem{{CMD_17}}{{CMD_18}}não tem{{CMD_19}}{{CMD_20}} pontos de inflexão em {{MATH_21}} e {{MATH_22}}."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 13,
+  "hash": "009383bcb553430b5a1ac8d81cc171566020c038224e44198e3fb0c0797c2111",
+  "traducao": "Considere os gráficos abaixo."
+ },
+ {
+  "arquivo": "computationsForGraphingFunctions/exercises/graphingComputations9.tex",
+  "ordem": 14,
+  "hash": "3172de2a2b282d8e0c73687fe699ce6af856048d99932fea8e3b9619692ae45c",
+  "traducao": "Escolha o gráfico que representa corretamente {{MATH_23}}.\n{{CMD_24}}\n{{CMD_25}}{{MATH_26}}{{CMD_27}}\n{{CMD_28}}{{MATH_29}}{{CMD_30}}\n{{CMD_31}}{{MATH_32}}{{CMD_33}}\n{{CMD_34}}{{MATH_35}}{{CMD_36}}\n{{CMD_37}}"
  }
 ]

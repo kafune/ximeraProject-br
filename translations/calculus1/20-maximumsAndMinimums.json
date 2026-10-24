@@ -243,7 +243,7 @@
   "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
   "ordem": 32,
   "hash": "e3da81976887bf588c57f61400f83ac990e7be5b3bbcf88a57758527204a7570",
-  "traducao": "Comece calculando\n{{MATH_507}}\nAgora precisamos descobrir em quais intervalos {{MATH_508}} é positiva e em quais é\nnegativa. Para isso, resolva\n{{MATH_509}}\nFatore {{MATH_510}}\n{{ENV_511}}\nPortanto, os pontos críticos (em que {{MATH_512}}) ocorrem em {{MATH_513}}, {{MATH_514}} e\n{{MATH_515}}. Como a derivada, {{MATH_516}}, é um polinômio, ela não muda de sinal nos intervalos entre seus zeros, isto é, entre os pontos críticos. Agora podemos verificar o sinal de {{MATH_517}} em alguns pontos {{CMD_518}}entre{{CMD_519}} os pontos críticos para descobrir\nonde {{MATH_520}} é positiva e onde é negativa:\n{{ENV_521}}\nA partir disso, podemos montar uma tabela de sinais:"
+  "traducao": "Comece calculando\n{{MATH_507}}\nAgora precisamos descobrir em quais intervalos {{MATH_508}} é positiva e em quais é\nnegativa. Para isso, resolva\n{{MATH_509}}\nFatore {{MATH_510}}\n{{ENV_511}}\nPortanto, os pontos críticos (em que {{MATH_512}}) ocorrem em {{MATH_513}}, {{MATH_514}} e\n{{MATH_515}}. Como a derivada, {{MATH_516}}, é um polinômio, ela não muda de sinal nos intervalos entre seus zeros, isto é, entre os pontos críticos. Agora podemos verificar o sinal de {{MATH_517}} em alguns pontos {{CMD_518}}entre{{CMD_519}} os pontos críticos para descobrir\nonde {{MATH_520}} é positiva e onde é negativa:\n{{ENV_521}}\nA partir disso, podemos montar uma quadro de sinais:"
  },
  {
   "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",

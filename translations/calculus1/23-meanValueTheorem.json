@@ -1,0 +1,764 @@
+[
+ {
+  "arquivo": "meanValueTheorem/titlePage.tex",
+  "ordem": 0,
+  "hash": "f723805b9425cc80c154e5ef125bfc631b08a902eb4139ae8d983a535d9bb6f6",
+  "traducao": "Teorema do valor médio{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "meanValueTheorem/titlePage.tex",
+  "ordem": 2,
+  "hash": "d5789a80f936a2ba47ba768e03f42e3084dab671ba738ab23a3239c28dc83dcf",
+  "traducao": " Compreender o enunciado do teorema do valor extremo.\n{{CMD_4}} Compreender o enunciado do teorema do valor médio.\n{{CMD_5}} Esboçar figuras que ilustrem por que o teorema do valor médio é verdadeiro.\n{{CMD_6}} Determinar se o teorema de Rolle ou o teorema do valor médio pode ser aplicado.\n{{CMD_7}} Encontrar os valores garantidos pelo teorema de Rolle ou pelo teorema do valor médio.\n{{CMD_8}} Usar o teorema do valor médio para resolver problemas contextualizados.\n{{CMD_9}} Comparar e contrastar o teorema do valor intermediário, o teorema do valor médio e o teorema de Rolle.\n{{CMD_10}} Identificar ideias do cálculo que são consequências do teorema do valor médio.\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/breakGround.tex",
+  "ordem": 0,
+  "hash": "9a0d5f34268d6ca13c9e81c76e101fcc841ecb24794b15e71cc325836b6fbb65",
+  "traducao": "Teorema do valor médio{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{COMMENT_4}}\n{{COMMENT_5}}\n{{COMMENT_6}}\n{{COMMENT_7}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/breakGround.tex",
+  "ordem": 1,
+  "hash": "5ab241e6a2a8859c1536d725302854490853e9d35217496a469edff4de519434",
+  "traducao": "Dois jovens matemáticos apostam uma corrida até a aula de matemática.\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/breakGround.tex",
+  "ordem": 2,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "meanValueTheorem/breakGround.tex",
+  "ordem": 3,
+  "hash": "30d9317c0b70ff2527aabe91c0bab082cba25cfcc549e2720cf2544c7647d1f6",
+  "traducao": " Riley, eu quero ir para a aula de matemática. Agora. Olha, este corredor comprido e reto está vazio. Vamos apostar uma corrida!\n{{CMD_10}} Sim. Vamos correr! Em suas\n  marcas{{CMD_11}}. Preparar. Apontar. Já!\n{{CMD_12}} Você pode até se achar veloz, mas estou te alcançando!\n{{CMD_13}} Nããããão!\n{{CMD_14}} Agora eu estou ganhando! Nunca ganhei uma corrida a pé na minha vida!\n{{CMD_15}} Nunca{{CMD_16}} vou{{CMD_17}} desistir!\n{{CMD_18}} Ufa! Nós dois chegamos à aula de matemática exatamente ao mesmo\n  tempo!\n{{CMD_19}} Uau. A gente devia ir correndo para todas as aulas. Ei, tenho uma pergunta:\n  houve algum momento durante a nossa corrida em que estávamos correndo exatamente\n  na mesma velocidade?\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/breakGround.tex",
+  "ordem": 4,
+  "hash": "b708a5ab674471e68feb010b83e89611ad9a3780da02e9fdcb653b101c20c052",
+  "traducao": "  Qual das alternativas a seguir descreve a corrida acima?\n  {{CMD_21}}\n    {{CMD_22}}Devyn estava na frente até o final, quando a corrida terminou empatada.{{CMD_23}}\n    {{CMD_24}}Riley estava na frente até o final, quando a corrida terminou empatada.{{CMD_25}}\n    {{CMD_26}}Devyn estava na frente, depois Riley ficou na frente até o final, quando a corrida terminou empatada.{{CMD_27}}\n    {{CMD_28}}Riley estava na frente, depois Devyn ficou na frente até o final, quando a corrida terminou empatada.{{CMD_29}}\n    {{CMD_30}}Nenhuma das anteriores.{{CMD_31}}\n  {{CMD_32}}\n{{CMD_33}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/breakGround.tex",
+  "ordem": 5,
+  "hash": "756f3e68c3a2b7d912a94086652eb545f824389c1ca58df62c3c4b3fd6dee33d",
+  "traducao": "  O que você pode dizer sobre as velocidades médias de Devyn e de Riley?\n  {{CMD_34}}\n    {{CMD_35}}Devyn tem a maior velocidade média.{{CMD_36}}\n    {{CMD_37}}Riley tem a maior velocidade média.{{CMD_38}}\n    {{CMD_39}}As velocidades médias dos dois são iguais.{{CMD_40}}\n    {{CMD_41}}Nenhuma das anteriores.{{CMD_42}}\n  {{CMD_43}}\n    Como Devyn e Riley partem e chegam no mesmo instante e no mesmo lugar,\n    suas velocidades médias são iguais.\n  {{CMD_44}}\n  {{CMD_45}}\n{{CMD_46}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/breakGround.tex",
+  "ordem": 6,
+  "hash": "b9ccd7d5c3f8c388a2dec44561bd72cc6a9df5f80e3d40af04239d5f5cc48a92",
+  "traducao": "  Registre seu palpite para a pergunta de Riley: houve algum momento durante a corrida em que Devyn e Riley estavam correndo exatamente na mesma velocidade?\n  {{CMD_47}}\n  \tDigite seu palpite, ``sim'' ou ``não'', e depois volte após a seção Aprofundar para ver se seu palpite estava correto!\n  {{CMD_48}}\n{{CMD_49}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 0,
+  "hash": "2d05ff3937ef640511994ccaec01589630946c29533010fd99a0ccbcc38e3954",
+  "traducao": "O teorema do valor extremo{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Examinamos um fato sobre funções contínuas.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 1,
+  "hash": "5907caaaaf6fd39630a7f29b1d4e95b824799b42c0a218dcc8576c659e2ae9e2",
+  "traducao": "Vamos relembrar a ideia de extremo global.\n{{CMD_7}}{{CMD_8}}\n\t{{CMD_9}}\n\t\t{{CMD_10}} Uma função {{MATH_11}} tem um {{CMD_12}} em {{MATH_13}} se {{MATH_14}} para todo {{MATH_15}} no domínio da função.\n\t\t{{CMD_16}} Uma função {{MATH_17}} tem um {{CMD_18}} em {{MATH_19}} se {{MATH_20}} para todo {{MATH_21}} no domínio da função.\n\t{{CMD_22}}\n\tUm {{CMD_23}} é um máximo global ou um mínimo global.\n{{CMD_24}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 2,
+  "hash": "b78f0c3805b1bcac35fb8a70ced6045a46d0edd3a2f1907768b046a89ad1e4b4",
+  "traducao": "Seja {{MATH_25}} a função dada pelo gráfico abaixo.\n{{CMD_26}}\n  {{ENV_27}}\n{{CMD_28}}\n{{CMD_29}}\n{{COMMENT_30}}\n  Determine a coordenada {{MATH_31}} do ponto em que a função {{MATH_32}} tem um máximo global.\n    {{CMD_33}}\n  {{MATH_34}}\n  {{CMD_35}}\n\n Observe que {{MATH_36}} para todo {{MATH_37}} no domínio de {{MATH_38}}. Note que a função {{MATH_39}}  também tem um máximo local em {{MATH_40}}.\n\n {{CMD_41}}\n {{COMMENT_42}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 3,
+  "hash": "89dd53456940d444983fffc4be563092a7e8eada60d53dd85130d0f337d0be84",
+  "traducao": "   Determine a coordenada {{MATH_43}} do ponto em que a função {{MATH_44}} tem um\n   mínimo global.\n   {{CMD_45}}\n     {{MATH_46}}\n   {{CMD_47}}\n   Observe que {{MATH_48}} para todo {{MATH_49}} no domínio de {{MATH_50}}. Note que a função {{MATH_51}}  não tem um mínimo local em {{MATH_52}}.\n   Lembre-se de que uma função não pode ter um extremo local em um ponto da fronteira do domínio.\n {{CMD_53}}\n {{CMD_54}}\n   {{COMMENT_55}}\n   Determine a(s) coordenada(s) {{MATH_56}} do(s) ponto(s) em que a função {{MATH_57}} tem um mínimo local.\n   {{CMD_58}}\n     {{MATH_59}}\n   {{CMD_60}}\n   Observe que {{MATH_61}} para todo {{MATH_62}} em um intervalo, digamos, {{MATH_63}}. Mas não é verdade que {{MATH_64}} para todo {{MATH_65}} no domínio de {{MATH_66}}. Por exemplo, {{MATH_67}}.\n {{CMD_68}}\n{{CMD_69}}\n{{CMD_70}}\n  Toda função atinge um extremo global em seu domínio? Selecione a resposta correta.\n  {{CMD_71}}\n\n    {{CMD_72}}Toda função atinge tanto um mínimo global quanto um máximo global em seu domínio.{{CMD_73}}\n {{CMD_74}}Toda função atinge um mínimo global em seu domínio.{{CMD_75}}\n {{CMD_76}}Toda função atinge um máximo global em seu domínio.{{CMD_77}}\n {{CMD_78}}Algumas funções não têm extremos globais em seu domínio.{{CMD_79}}\n  {{CMD_80}}\n\n{{CMD_81}}\nConfira o gráfico a seguir.\n{{CMD_82}}\n{{ENV_83}}\n{{CMD_84}}\nNote que a função {{CMD_85}}não é contínua{{CMD_86}} em {{MATH_87}} e, portanto, {{MATH_88}} {{CMD_89}}não é contínua{{CMD_90}}  em seu domínio, {{MATH_91}}.{{CMD_92}}\nA função dada pelo gráfico acima atinge um extremo global em seu domínio? Selecione a resposta correta.\n {{CMD_93}}\n{{COMMENT_94}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 4,
+  "hash": "95a6903f710135635623194cbd00c15e17ac91ca7000bc07eab1a79f6ff62cc8",
+  "traducao": "A função atinge tanto um mínimo global quanto um máximo global em seu domínio.{{CMD_95}}\n {{CMD_96}}A função atinge um mínimo global, mas não tem máximo global em seu domínio.{{CMD_97}}\n {{CMD_98}}A função atinge um máximo global, mas não tem mínimo global em seu domínio.{{CMD_99}}\n {{CMD_100}}A função não tem extremo global em seu domínio.{{CMD_101}}\n  {{CMD_102}}\n  Confira o gráfico abaixo.\n{{CMD_103}}\n{{ENV_104}}\n{{CMD_105}}\nNote que a função é {{CMD_106}}contínua{{CMD_107}} em seu domínio {{MATH_108}}.\nA função dada pelo gráfico acima atinge um extremo global em seu domínio? Selecione a resposta correta.\n {{CMD_109}}\n{{COMMENT_110}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 5,
+  "hash": "6b834f6d05ce72482ec8ef6b784246a6db7b20af4bf9e71abbdae7239acfe134",
+  "traducao": "A função atinge tanto um mínimo global quanto um máximo global em seu domínio.{{CMD_111}}\n {{CMD_112}} A função atinge um mínimo global, mas não tem máximo global em seu domínio.{{CMD_113}}\n {{CMD_114}}A função atinge um máximo global, mas não tem mínimo global em seu domínio.{{CMD_115}}\n {{CMD_116}}A função não tem extremo global em seu domínio.{{CMD_117}}\n  {{CMD_118}}\n   Confira o gráfico a seguir.\n{{CMD_119}}\n{{ENV_120}}\n{{CMD_121}}\nNote que a função é {{CMD_122}}contínua em um intervalo fechado{{CMD_123}} {{MATH_124}}.\nA função dada pelo gráfico acima atinge um extremo global em seu domínio? Selecione a resposta correta.\n{{CMD_125}}\n{{COMMENT_126}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 6,
+  "hash": "8955b740c46d4bfc02a20b5087811060ac52e2d793fa28d9fbbcefc665b0b9ae",
+  "traducao": " A função atinge tanto um mínimo global quanto um máximo global em seu domínio.{{CMD_127}}\n {{CMD_128}}A função atinge um mínimo global, mas não tem máximo global em seu domínio.{{CMD_129}}\n {{CMD_130}}A função atinge um máximo global, mas não tem mínimo global em seu domínio.{{CMD_131}}\n {{CMD_132}}A função não tem extremo global em seu domínio.{{CMD_133}}\n  {{CMD_134}}\n{{CMD_135}}\n{{COMMENT_136}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 7,
+  "hash": "ef7d7781cdb331713d8d7ee90ec6fd97ba46554ffa604fbc1209764abb9810e3",
+  "traducao": "  Determine a(s) coordenada(s) x do(s) ponto(s) em que a função {{MATH_137}} tem um mínimo global.\n    {{CMD_138}}\n  {{MATH_139}}\n  {{CMD_140}}\n {{CMD_141}}\n {{CMD_142}}\n  Determine a(s) coordenada(s) x do(s) ponto(s) em que a função {{MATH_143}} tem um máximo global.\n    {{CMD_144}}\n  {{MATH_145}}\n  {{CMD_146}}\n {{CMD_147}}\nÀs vezes é importante saber se uma função atinge um extremo global em seu domínio.\nO teorema a seguir, que não chega a ser surpresa depois dos três exemplos anteriores, dá uma resposta simples a essa pergunta.\n{{CMD_148}}{{CMD_149}}{{CMD_150}}\nSe {{MATH_151}} é contínua no intervalo fechado\n{{MATH_152}}, então existem pontos {{MATH_153}} e {{MATH_154}} em {{MATH_155}} tais que\n{{MATH_156}} é um máximo global e {{MATH_157}} é um mínimo\nglobal em {{MATH_158}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 8,
+  "hash": "8dcb6c816458ba6c2030bc36a7840e1eaed0bee6585d6002dec1adf0d5cd7a51",
+  "traducao": "Abaixo, vemos uma interpretação geométrica desse teorema.\n{{CMD_159}}\n{{ENV_160}}\n{{COMMENT_161}}\n{{COMMENT_162}}\n{{COMMENT_163}}\n{{COMMENT_164}}\n{{COMMENT_165}}\n{{COMMENT_166}}\n{{CMD_167}}\n{{CMD_168}}\n{{CMD_169}}\n  Esse teorema continuaria válido se estivéssemos trabalhando em um intervalo aberto?\n  {{CMD_170}}\n  {{CMD_171}}\n    {{CMD_172}}sim{{CMD_173}}\n    {{CMD_174}}não{{CMD_175}}\n  {{CMD_176}}\n  {{CMD_177}}\n    Considere {{MATH_178}} para {{MATH_179}}. Essa função atinge seu máximo ou seu mínimo?\n  {{CMD_180}}\n  {{CMD_181}}\n  {{CMD_182}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 9,
+  "hash": "a7d5f764c505d65777e7348285f164fa36206828bd5e9e6464c62e3ebd68735c",
+  "traducao": "  Esse teorema continuaria válido se estivéssemos trabalhando em um intervalo fechado\n  {{MATH_183}}, mas a função não fosse contínua em {{MATH_184}}?\n  {{CMD_185}}\n    {{CMD_186}}\n      {{CMD_187}}sim{{CMD_188}}\n      {{CMD_189}}não{{CMD_190}}\n    {{CMD_191}}\n    {{CMD_192}}\n      Considere uma função {{MATH_193}} no intervalo fechado {{MATH_194}}, definida\n      por {{MATH_195}} para {{MATH_196}} e {{MATH_197}}. Essa\n      função atinge seu máximo ou seu mínimo?\n    {{CMD_198}}\n  {{CMD_199}}\n{{CMD_200}}\nSuponha que uma função {{MATH_201}} seja contínua em um intervalo fechado\n{{MATH_202}}. Pelo teorema do valor extremo, {{MATH_203}} atinge ambos os extremos\nglobais no intervalo {{MATH_204}}.  Como podemos localizar esses extremos\nglobais? Vimos que eles podem ocorrer nas extremidades ou no\nintervalo aberto {{MATH_205}}.  Se um extremo global ocorre em um ponto {{MATH_206}} do\nintervalo aberto {{MATH_207}}, então {{MATH_208}} tem um extremo local em {{MATH_209}}. Isso\nsignifica que {{MATH_210}} tem um ponto crítico em {{MATH_211}}.  Assim, os extremos globais de\numa função {{MATH_212}} ocorrem ou nas extremidades, {{MATH_213}} ou {{MATH_214}}, ou nos\npontos críticos. Se quisermos localizar os extremos globais, precisamos\ncalcular o valor da função nas extremidades e nos pontos críticos e\ncomparar os valores."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 10,
+  "hash": "358565f5e8189066446709fd104cbf27fa6a600de626017f2d97c2af53b895b1",
+  "traducao": "\tDetermine os valores extremos de {{MATH_215}} no intervalo {{MATH_216}}.\n\t{{CMD_217}}\n\t\tA derivada é {{MATH_218}}\n\t\t\t{{ENV_219}}\n\t\t\tOs pontos críticos são {{MATH_220}} e {{MATH_221}} (ambos pertencem a {{MATH_222}}),\n\t\t\tcom valores {{MATH_223}} e  {{MATH_224}}.\n\n\t\t\tAs extremidades têm valores {{MATH_225}} e {{MATH_226}}.\n\n\t\t\tIsso nos dá a lista de valores {{MATH_227}}.\n\n\t\t\tO valor máximo global de {{MATH_228}} é {{MATH_229}} (ocorrendo em {{MATH_230}}) e o\n\t\t\tvalor mínimo global é {{MATH_231}} (ocorrendo em {{MATH_232}} e {{MATH_233}}).\n\t{{CMD_234}}\n{{CMD_235}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 11,
+  "hash": "8dce58b37e65832b21ba71fe2ae7052a1acb78090acd39835836f8a503b48b60",
+  "traducao": "Seja {{MATH_236}}, para {{MATH_237}}. Localize os extremos globais\nde {{MATH_238}} no intervalo fechado {{MATH_239}}. A função {{MATH_240}} satisfaz\nas condições do teorema do valor extremo em seu domínio?\n {{CMD_241}}\n   {{CMD_242}}Sim, porque {{MATH_243}} é contínua em {{MATH_244}}.{{CMD_245}}\n   {{CMD_246}}Sim, porque {{MATH_247}} é contínua em {{MATH_248}}.{{CMD_249}}\n   {{CMD_250}}Não, porque {{MATH_251}} não é contínua em {{MATH_252}}.{{CMD_253}}\n   {{CMD_254}}Não, porque {{MATH_255}} não é derivável em  {{MATH_256}}.{{CMD_257}}\n {{CMD_258}}\n Portanto, o teorema do valor extremo garante que a função {{MATH_259}}\n atinge ambos os extremos globais em seu domínio. Os extremos globais\n ocorrem nas extremidades ou nos pontos críticos.\n\n Determine os pontos críticos de {{MATH_260}}. Primeiro, calcule a derivada de {{MATH_261}}.\n {{CMD_262}}\n   {{MATH_263}}\n {{CMD_264}}\n Para encontrar os pontos críticos de {{MATH_265}}, precisamos resolver a\n equação\n {{CMD_266}}\n   {{MATH_267}}\n {{CMD_268}}\n Segue que a função {{MATH_269}} tem apenas um ponto crítico,\n {{MATH_270}}. Determine {{MATH_271}}.\n {{CMD_272}}\n   {{MATH_273}}\n {{CMD_274}}\n Para localizar os extremos globais de {{MATH_275}}, precisamos calcular\n {{MATH_276}} nas extremidades e no ponto crítico.\n {{CMD_277}}\n   {{MATH_278}}\n {{CMD_279}}\n {{CMD_280}}\n   {{MATH_281}}\n {{CMD_282}}\n\n {{CMD_283}}\n   {{MATH_284}}\n {{CMD_285}}\n Ordene os três valores, {{MATH_286}}, {{MATH_287}} e {{MATH_288}},  do menor para o maior. Substitua {{MATH_289}} pelo seu valor ao escrever {{MATH_290}}  na sua resposta abaixo.\n {{CMD_291}}\n  {{MATH_292}}\n\n {{CMD_293}}\n\n Com base nessa comparação, determine a localização do mínimo global e do máximo global de {{MATH_294}}. Marque a resposta correta.\n {{CMD_295}}\n   {{CMD_296}}{{MATH_297}} tem um máximo global em {{MATH_298}} e um mínimo global em {{MATH_299}}.{{CMD_300}}\n   {{CMD_301}}{{MATH_302}} tem um máximo global em {{MATH_303}} e um mínimo global em {{MATH_304}}.{{CMD_305}}\n   {{CMD_306}} {{MATH_307}} tem um máximo global em {{MATH_308}} e um mínimo global em {{MATH_309}}.{{CMD_310}}\n  {{CMD_311}}{{MATH_312}} tem um máximo global em {{MATH_313}} e um mínimo global em {{MATH_314}}.{{CMD_315}}\n  {{CMD_316}}{{MATH_317}} tem um máximo global em {{MATH_318}} e um mínimo global em {{MATH_319}}.{{CMD_320}}\n  {{CMD_321}}{{MATH_322}} tem um máximo global em {{MATH_323}} e um mínimo global em {{MATH_324}}.{{CMD_325}}\n {{CMD_326}}\n{{CMD_327}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 12,
+  "hash": "d15b3dac6b83c14ffc2e66ef2cb7a73b2b5c413f78bdc40034f2f5ead86df9e0",
+  "traducao": "\tDetermine os valores extremos de {{MATH_328}} em {{MATH_329}}.\n\t{{CMD_330}}\n\t\tPara encontrar os pontos críticos:\n\t\t\t{{ENV_331}}\n\t\t\tObserve que os valores de {{MATH_332}} com {{MATH_333}} têm {{MATH_334}}, de modo que\n\t\t\t{{MATH_335}}.  Esses valores não são pontos críticos."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInExtremeValueTheorem.tex",
+  "ordem": 13,
+  "hash": "f0b03bfa7d2febbebaf5f9b91f09368fdfdb7ab06f197a5a61ee982ce9d1f44a",
+  "traducao": "\t\t\tNo intervalo {{MATH_336}}, as soluções de {{MATH_337}} são\n\t\t\t{{MATH_338}}.  (As soluções que não estão em {{MATH_339}} são ignoradas.)\n\t\t\t{{ENV_340}}\n\n\t\t\tAs extremidades têm valores {{MATH_341}}\n\n\t\t\tO valor máximo global de {{MATH_342}} é {{MATH_343}}\n\t\t\t(ocorrendo em {{MATH_344}}) e o\n\t\t\tvalor mínimo global é {{MATH_345}} (ocorrendo em {{MATH_346}} ).\n\t{{CMD_347}}\n{{CMD_348}}\n{{CMD_349}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 0,
+  "hash": "a6c26b1c8f85de892553cd8cc84324e889ad790e3953e4871ed7e9d39f5bfce7",
+  "traducao": "O teorema do valor médio{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Aqui vemos um teorema fundamental do cálculo.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 1,
+  "hash": "4bb7c59d3fa27c7183d6e4690e3ca5b1a947f8da6f69a7438e22639d80ae4265",
+  "traducao": "Eis algumas perguntas interessantes envolvendo derivadas:"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 2,
+  "hash": "c1d051ed9eca270b11b07f3b13a8c7c0376bd4555ab8ef01f04792614d140fda",
+  "traducao": " Suponha que você lance uma bola para cima e depois a pegue de volta. A\n\t\tvelocidade da bola deve ter sido zero em algum instante?\n\t{{CMD_7}} Suponha que você dirija um carro por um trecho reto de rodovia, de um pedágio até\n\t\toutro pedágio {{MATH_8}} milhas adiante, em meia hora. Você deve ter\n\t\tdirigido a {{MATH_9}} milhas por hora em algum instante?\n\t{{CMD_10}} Suponha que duas funções diferentes tenham a mesma derivada. O que\n\t\tpodemos dizer sobre a relação entre essas duas funções?\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 3,
+  "hash": "69c82d4fe956f4e252c0d555bd3810f79a036486b09ea728cac84a2d78e64149",
+  "traducao": "Embora esses problemas pareçam muito diferentes, acontece que eles estão intimamente relacionados. Vamos começar de forma simples:"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 4,
+  "hash": "880e37db912b54db5e3f538e4d221fef23a78dd625817b7051fe45370de7f7f1",
+  "traducao": "\tSuponha que {{MATH_12}} seja derivável no intervalo {{MATH_13}},\n\tcontínua no intervalo {{MATH_14}} e que {{MATH_15}}.\n\t{{CMD_16}}\n\t{{ENV_17}}\n\t{{COMMENT_18}}\n\t{{COMMENT_19}}\n\t{{COMMENT_20}}\n\t{{CMD_21}}\n\tEntão\n\t{{MATH_22}}\n\tpara algum {{MATH_23}} no intervalo aberto {{MATH_24}}.\n\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 5,
+  "hash": "378457930a9ce0ef0608c173448d6152a9ea609e4dffbe9d51c3bd78d701bf37",
+  "traducao": "Se a função {{MATH_26}} for constante, então {{MATH_27}} para todos os pontos {{MATH_28}} do intervalo aberto {{MATH_29}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 6,
+  "hash": "39ea4f439ec29097dcea45ba910857fbfd1f92e1cd8009d16c0283bfd83fe822",
+  "traducao": "Se {{MATH_30}} não for constante, então ela deve atingir ambos os extremos absolutos no intervalo {{MATH_31}}, pelo Teorema do Valor Extremo.\nUm desses dois extremos distintos é atingido no intervalo aberto {{MATH_32}}, em algum ponto {{MATH_33}}, e a função {{MATH_34}} tem um ponto crítico ali. Como {{MATH_35}} é derivável em {{MATH_36}}, segue que {{MATH_37}}.\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 7,
+  "hash": "42404a525632eabef2957b75be8b0753c3ced7e82fdb27172941cff3a9087100",
+  "traducao": "Agora podemos responder à nossa primeira pergunta acima."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 8,
+  "hash": "89f67c3b325ee38f3fee476676da8082caff7e21840e51b1c1a76e879c28f92c",
+  "traducao": "Suponha que você lance uma bola para cima e depois a pegue de volta no mesmo ponto de onde a lançou. A\nvelocidade da bola deve ter sido zero em algum instante?\n{{CMD_39}}\n  Seja {{MATH_40}} a posição da bola (na reta vertical) no instante {{MATH_41}}. O intervalo de tempo em questão será\n  {{MATH_42}}\n  Podemos supor que {{MATH_43}} é contínua em {{MATH_44}} e derivável\n  em {{MATH_45}}. Como {{MATH_46}}, podemos aplicar o Teorema de Rolle e concluir que, em algum instante\n  {{MATH_47}} do intervalo de tempo dado, {{MATH_48}}. Logo, a velocidade deve ter sido zero em\n  algum instante.\n{{CMD_49}}\n{{CMD_50}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 9,
+  "hash": "972d290b2bc89103e7199257f363cf4a0a0680aa42e834fd504cf98017a4acee",
+  "traducao": "O Teorema de Rolle é um caso particular de um teorema mais geral."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 10,
+  "hash": "7b736f20a88e69f7b35c7a8cdbc9ee944f5b91af281f64cddb8b3b6479d9ba47",
+  "traducao": "Suponha que {{MATH_51}} tenha derivada no intervalo {{MATH_52}} e seja\ncontínua no intervalo {{MATH_53}}.\n{{COMMENT_54}}\n{{CMD_55}}\n{{ENV_56}}\n{{COMMENT_57}}\n{{COMMENT_58}}\n{{COMMENT_59}}\n{{CMD_60}}\nEntão\n{{MATH_61}}\npara algum {{MATH_62}} em {{MATH_63}}.\n{{COMMENT_64}}\n{{COMMENT_65}}\n{{COMMENT_66}}\n{{COMMENT_67}}\n{{COMMENT_68}}\n{{COMMENT_69}}\n{{COMMENT_70}}\n{{COMMENT_71}}\n{{COMMENT_72}}\n{{COMMENT_73}}\n{{COMMENT_74}}\n{{COMMENT_75}}\n{{COMMENT_76}}\n{{COMMENT_77}}\n{{COMMENT_78}}\n{{COMMENT_79}}\n{{COMMENT_80}}\n{{COMMENT_81}}\n{{COMMENT_82}}\n{{COMMENT_83}}\n{{COMMENT_84}}\n{{COMMENT_85}}\n{{COMMENT_86}}\n{{COMMENT_87}}\n{{COMMENT_88}}\n{{COMMENT_89}}\n{{CMD_90}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 11,
+  "hash": "32e3c45344faaff23e1aaabc358279c14c0f497aaad848f09e2ef1973ca87e14",
+  "traducao": "Agora podemos responder à nossa segunda pergunta acima."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 12,
+  "hash": "15df22da23c025054d9c436672a56f68871346d163d14d4dba4d2c372db68ed2",
+  "traducao": "\tSuponha que você dirija um carro por um trecho reto de rodovia, de um pedágio até outro\n\tpedágio {{MATH_91}} milhas adiante, em meia hora. Você deve ter dirigido\n\ta {{MATH_92}} milhas por hora em algum instante?\n\n\t{{CMD_93}}\n\t\tSeja {{MATH_94}} a posição do carro no instante {{MATH_95}}, e sejam {{MATH_96}} horas o\n\t\tinstante inicial e {{MATH_97}} hora o instante final, de modo que {{MATH_98}} e {{MATH_99}}.\n\t\tPodemos supor que {{MATH_100}} é contínua em {{MATH_101}} e derivável em\n\t\t{{MATH_102}}. Agora, o Teorema do Valor Médio afirma que existe um instante {{MATH_103}} tal que\n\t\t{{MATH_104}}\n\t\tComo a derivada da posição é a velocidade, isso diz que o carro\n\t\tdeve ter sido dirigido a {{MATH_105}} milhas por hora em algum instante.\n\t{{CMD_106}}\n{{CMD_107}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 13,
+  "hash": "ccbd00276b16e587c6dc21ecab449cad932ba16e631e7f7aa421d44087509af5",
+  "traducao": "Agora vamos encarar o impensável: poderia existir uma função\ncontínua {{MATH_108}} em {{MATH_109}}, cuja derivada é zero em {{MATH_110}}, que\nnão seja constante? Como veremos, a resposta é ``não''."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 14,
+  "hash": "d4fff666dcc13d42387afc2a461719e1a68ad81d2becb295ccdc3ddce5fa5026",
+  "traducao": "\tSe {{MATH_111}} para todo {{MATH_112}} em um intervalo {{MATH_113}}, então {{MATH_114}} é constante\n\tem {{MATH_115}}.\n\t{{CMD_116}}\n\t\tSejam {{MATH_117}} dois pontos de {{MATH_118}}. Como {{MATH_119}} é contínua em {{MATH_120}}\n\t\te derivável em {{MATH_121}}, pelo Teorema do Valor Médio sabemos que\n\t\t{{MATH_122}}\n\t\tpara algum {{MATH_123}} no intervalo {{MATH_124}}. Como {{MATH_125}}, vemos que\n\t\t{{MATH_126}}. {{COMMENT_127}}\n\t\tAlém disso, como {{MATH_128}} e {{MATH_129}} foram escolhidos arbitrariamente,\n\t\t{{MATH_130}} deve ser a função constante.\n\t{{CMD_131}}\n{{CMD_132}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 15,
+  "hash": "16a9813e03ea211ad3733bbacc400cd5cf9e1eb9ac4397895c85af60705fe4ab",
+  "traducao": "Agora vamos responder à nossa terceira pergunta."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 16,
+  "hash": "270343ea9fd4a3b7f1052b2402cc0a82cf52648e79027794078ce78aa79397d0",
+  "traducao": "\tSuponha que duas funções diferentes tenham a mesma derivada em algum intervalo {{MATH_133}}. O que\n\tpodemos dizer sobre a relação entre essas duas funções?\n\n\t{{CMD_134}}\n\t\tDefina {{MATH_135}}, de modo que {{MATH_136}}. Então {{MATH_137}}\n\t\tno intervalo {{MATH_138}}. Isso significa que {{MATH_139}} para todo {{MATH_140}} em {{MATH_141}}, onde {{MATH_142}} é alguma\n\t\tconstante. Logo, para todo {{MATH_143}} em {{MATH_144}},\n\t\t{{MATH_145}}\n\t{{CMD_146}}\n{{CMD_147}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 17,
+  "hash": "0aecd804f2a4be0ae74a69a4cd57026edc7640ceee4e8feaceb7782a0bfbe860",
+  "traducao": "\tDescreva todas as funções cuja derivada é {{MATH_148}}.\n\t{{CMD_149}}\n\t\tUma dessas funções é {{MATH_150}}, logo todas essas funções têm a forma\n\t\t{{MATH_151}},\n\t\t{{COMMENT_152}}\n\t\t{{CMD_153}}\n\t\t{{ENV_154}}\n\t\t{{COMMENT_155}}\n\t\t{{COMMENT_156}}\n\t\t{{COMMENT_157}}\n\t\t{{CMD_158}}\n\t{{CMD_159}}\n{{CMD_160}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 18,
+  "hash": "cb3416587394eba1bb354fa57b31aae750ca1fe4872f324c3301cc73fc8a0c08",
+  "traducao": "Vamos investigar dois jovens matemáticos que correm para a aula."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 19,
+  "hash": "d92aacefb54cda71e5190c00a2a498268a038c41ca3323cc208b88c47ef4076f",
+  "traducao": "  Dois estudantes, Devyn e Riley, apostaram uma corrida até a sala de aula por um corredor reto. Eles partem ao mesmo tempo e terminam empatados. Houve algum momento\n  da corrida em que Devyn e Riley estavam correndo exatamente com a\n  mesma velocidade?\n  {{CMD_161}}\n    Seja {{MATH_162}} a posição de Devyn em função do\n    tempo, e seja {{MATH_163}} a posição de Riley em função do\n    tempo. Seja {{MATH_164}} o instante de início da\n    corrida e {{MATH_165}} o instante final da corrida. Defina\n    {{MATH_166}}\n    Observe que podemos supor que {{MATH_167}} e\n    {{MATH_168}} são contínuas em\n    {{MATH_169}} e que são\n    deriváveis em {{MATH_170}}. Logo,\n    o mesmo vale para {{MATH_171}}. Como os dois corredores partem e chegam no\n    mesmo lugar,\n    {{ENV_172}}\n    Na verdade, isso nos mostra que a taxa de variação média de\n    {{MATH_173}}\n    é {{MATH_174}}. Logo, pelo teorema do valor médio, existe um ponto {{MATH_175}}\n    {{MATH_176}}\n    com {{MATH_177}}. Porém,\n    {{MATH_178}}\n    Logo, em {{MATH_179}},\n    {{MATH_180}}\n    e isso significa que houve um instante em que eles estavam correndo exatamente com a mesma velocidade.\n  {{CMD_181}}\n{{CMD_182}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 20,
+  "hash": "e509ced82a326b27eea5c99631fe8837a6fbabc254c4f3e4a3b8817d638ba69e",
+  "traducao": "Vamos terminar com um exemplo baseado em cálculos."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 21,
+  "hash": "6475302e8b9682b3f688868d72d27854478d3a261ea1f80af42f947e91a5f947",
+  "traducao": "\tDetermine o ponto {{MATH_183}} que satisfaz a conclusão do Teorema do Valor Médio para a função {{MATH_184}} no intervalo {{MATH_185}}.\n\t{{CMD_186}}\n\t\tComeçamos observando que a função {{MATH_187}} é contínua no intervalo fechado {{MATH_188}} e derivável no\n\t\tintervalo aberto {{MATH_189}}. Isso significa que o Teorema do Valor Médio de fato se aplica a essa função.\n\n\t\tCalculamos {{MATH_190}} e {{MATH_191}}. Isso significa que a taxa de variação média de {{MATH_192}}\n\t\tno intervalo {{MATH_193}} é {{MATH_194}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 22,
+  "hash": "bfc88a796b4bb3527be7fc8c94f0b6a7c2d187292ee0bd58dc5a6cca13e85a41",
+  "traducao": "\t\tO valor de {{MATH_195}} estará no intervalo {{MATH_196}} e satisfará {{MATH_197}}.\n\t\tComo {{MATH_198}}, isso significa que {{MATH_199}} será a solução da equação\n\t\t{{MATH_200}}. Tomando o logaritmo natural de ambos os lados dessa equação, obtemos\n\t\t{{MATH_201}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 23,
+  "hash": "039c74e4b0904abc5465f83a1cc2ba9f69e4f60cbc5c4715f152dbad0fccb4b2",
+  "traducao": "\t\tComo esse valor, arredondado (para duas casas decimais), é {{MATH_202}}, ele de fato está no intervalo {{MATH_203}}, como exigido.\n\t{{CMD_204}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 24,
+  "hash": "6d697ea54cfa21dd83fe0b7587deca9271084424a0d42247693fc9952f696843",
+  "traducao": "Em resumo, o Teorema do Valor Médio relaciona a função {{MATH_205}} e sua derivada, {{MATH_206}}. Como a derivada tem muitas interpretações,\n por exemplo, taxa de variação instantânea, inclinação da reta tangente, velocidade, não é surpresa que possamos usar o TVM em contextos diferentes."
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 25,
+  "hash": "b6ea7678a401d9da6728a32ec43d8f0ff955b5e1b20e250f1c2da9f524d56646",
+  "traducao": "Portanto, se a função {{MATH_207}} é contínua em {{MATH_208}} e derivável em {{MATH_209}}, então o TVM garante que\n{{CMD_210}}\n\t{{CMD_211}} existe um ponto {{MATH_212}} em {{MATH_213}} no qual a taxa de variação instantânea de {{MATH_214}} é igual à taxa\n\t\tde variação média de {{MATH_215}} no intervalo {{MATH_216}};"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 26,
+  "hash": "f7daa2c7dc1b63af82810ac453ccf780772f4b35794da24a686cfd084786e10b",
+  "traducao": "\tou"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 27,
+  "hash": "aaa7917dbab563291f1f99736bf35f41fba08bf4adfcb94d062a2e3b5d689d3b",
+  "traducao": " existe um ponto {{MATH_217}} em {{MATH_218}} no qual a inclinação da reta tangente à curva {{MATH_219}} é igual à\n\t\tinclinação da reta secante que passa pelos pontos {{MATH_220}}  e {{MATH_221}};"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 28,
+  "hash": "f7daa2c7dc1b63af82810ac453ccf780772f4b35794da24a686cfd084786e10b",
+  "traducao": "\tou"
+ },
+ {
+  "arquivo": "meanValueTheorem/digInMeanValueTheorem.tex",
+  "ordem": 29,
+  "hash": "3a16dbf8fef16c48f4f3c93e46442dfbbd7b14ff8581ebf511d138a0de2c3b2c",
+  "traducao": " existe um ponto {{MATH_222}} no intervalo de tempo {{MATH_223}} no qual a velocidade instantânea é igual à velocidade\n\t\tmédia no intervalo de tempo {{MATH_224}}. Aqui, supomos que {{MATH_225}} é a função posição de um objeto que se move ao longo de uma reta.\n{{CMD_226}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/GBranchQ6AU15.tex",
+  "ordem": 0,
+  "hash": "8fbd98e7fff74b280f6248fd38beed43baf8677a8bd517978d29092478a22fe3",
+  "traducao": "Máximos e mínimos absolutos.{{CMD_1}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/GBranchQ6AU15.tex",
+  "ordem": 1,
+  "hash": "60d034541f5a915f59552b0782243d79a547b35dc04592415f87d00daae34a93",
+  "traducao": "Seja {{MATH_2}}.{{CMD_3}}\n Determine os valores máximo absoluto e mínimo absoluto de {{MATH_4}} no intervalo fechado {{MATH_5}} e encontre as coordenadas x dos pontos em que eles são atingidos.\n{{CMD_6}}\n Primeiro, precisamos calcular {{MATH_7}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/GBranchQ6AU15.tex",
+  "ordem": 2,
+  "hash": "0673d69ff78439adfb40182f626c701aa63586c0f636a134a72a8cd425151a29",
+  "traducao": "."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/GBranchQ6AU15.tex",
+  "ordem": 3,
+  "hash": "be29d8afee3a7841313fb8305d8a122214947d1d02cb5244c720991d4290532f",
+  "traducao": "Complete a afirmação abaixo."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/GBranchQ6AU15.tex",
+  "ordem": 4,
+  "hash": "a50c0e3aa8eec959322a686716c694209546e1bb14947ac656c856b46e2c0a02",
+  "traducao": "As coordenadas x de todos os pontos críticos de {{MATH_8}} (da esquerda para a direita) são {{MATH_9}}, {{MATH_10}} e {{MATH_11}}.\n{{CMD_12}}\n{{CMD_13}}\nAgora, calculamos a função {{MATH_14}} nas extremidades do intervalo e nos pontos críticos.\n{{MATH_15}}\n{{MATH_16}}\n{{MATH_17}}\n{{MATH_18}}\n{{MATH_19}}\nAgora comparamos esses valores e respondemos à pergunta.\n{{CMD_20}}\nO valor máximo absoluto de {{MATH_21}} no intervalo {{MATH_22}} é {{MATH_23}} e ele é atingido em {{MATH_24}} e em  {{MATH_25}}  ."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/GBranchQ6AU15.tex",
+  "ordem": 5,
+  "hash": "508fe0cbfc9a254e7a07de1679b049aab5f875b0e60afabfd0f558d152df5078",
+  "traducao": "O valor mínimo absoluto de {{MATH_26}} no intervalo {{MATH_27}} é {{MATH_28}} e ele é atingido  em {{MATH_29}} e em {{MATH_30}} ."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/SP17Q6.tex",
+  "ordem": 0,
+  "hash": "c439f7123f4b257bd8cde40fff7e99d7ff4c3e4012646652d0382ff0833e37a9",
+  "traducao": "Determinar a aproximação linear de uma função em um ponto e usá-la para aproximar o valor da função.{{CMD_1}}\n{{CMD_2}}Usar o Teorema do Valor Médio para limitar o erro da aproximação linear.{{CMD_3}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/SP17Q6.tex",
+  "ordem": 1,
+  "hash": "7b0620f93ea450e40f758ba23445b52b2562b2a84297d8981d06ad175b3b0109",
+  "traducao": "Seja {{MATH_4}} uma função derivável no intervalo {{MATH_5}} com os valores particulares de {{MATH_6}} e {{MATH_7}} dados na tabela abaixo.\n{{MATH_8}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/SP17Q6.tex",
+  "ordem": 2,
+  "hash": "bfd70ee91165309203d2c4950b843cb72ea1fd1e07592d44e27b824c12c60953",
+  "traducao": "Determine a taxa de variação média de {{MATH_9}} no intervalo {{MATH_10}}.\n{{MATH_11}}\n{{CMD_12}}\nEscolha a afirmação correta.\n{{CMD_13}}\n{{CMD_14}}Existe um ponto {{MATH_15}} em {{MATH_16}} tal que a taxa de variação instantânea de {{MATH_17}} no ponto {{MATH_18}} é igual à taxa de variação média de {{MATH_19}} em {{MATH_20}}, embora a função {{MATH_21}} não satisfaça as condições do Teorema do Valor Médio em {{MATH_22}}.{{CMD_23}}\n{{CMD_24}}Existe um ponto {{MATH_25}} em {{MATH_26}}  tal que a taxa de variação instantânea de {{MATH_27}} no ponto {{MATH_28}} é igual à taxa de variação média de {{MATH_29}} em {{MATH_30}}, já que a função {{MATH_31}} satisfaz as condições do Teorema do Valor Médio em {{MATH_32}}.{{CMD_33}}\n{{CMD_34}}Existe um ponto {{MATH_35}} em {{MATH_36}} tal que a taxa de variação instantânea de {{MATH_37}} no ponto {{MATH_38}} é igual à taxa de variação média de {{MATH_39}} em {{MATH_40}}, mas não temos informação suficiente para encontrar tal ponto.{{CMD_41}}\n{{CMD_42}}Não existe nenhum ponto {{MATH_43}} em {{MATH_44}} tal que a taxa de variação instantânea de {{MATH_45}} no ponto {{MATH_46}} seja igual à taxa de variação média de {{MATH_47}} em {{MATH_48}}.{{CMD_49}}\n{{CMD_50}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/globMaxGlobMin2.tex",
+  "ordem": 0,
+  "hash": "0a672aa16dab4d896067dea151e1c1734c66d4f9bcecf1a35b5fc2b67a2085c8",
+  "traducao": "Considere a função {{MATH_1}}. {{CMD_2}}\nDetermine as coordenadas x do máximo absoluto e do mínimo absoluto de {{MATH_3}} no intervalo {{MATH_4}} .\n{{CMD_5}}\nPrimeiro, calcule a derivada de {{MATH_6}}.\n{{MATH_7}}\nA função {{MATH_8}} tem três pontos críticos no conjunto {{MATH_9}}. Observe que {{MATH_10}} não está definida em um deles.\n Se chamarmos esses pontos de {{MATH_11}}, {{MATH_12}} e {{MATH_13}} e os ordenarmos de modo\nque {{MATH_14}}, então\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/globMaxGlobMin2.tex",
+  "ordem": 1,
+  "hash": "9ba037ccaa94380d8c51fe0a0e09cac914767f6ce01407bfaa718e68931c6e4e",
+  "traducao": "Em seguida, calculamos {{MATH_16}} nas extremidades do intervalo e nos pontos críticos.\n{{MATH_17}}\n{{MATH_18}}\n{{MATH_19}}\n{{MATH_20}}\n{{MATH_21}}\nComparando esses valores, você pode responder à pergunta.\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/globMaxGlobMin2.tex",
+  "ordem": 2,
+  "hash": "20abbfaeb92d6ad775064a7e130b7d5a82b49054f31de5c357c42e72aa2c5f5d",
+  "traducao": "A função {{MATH_23}} atinge seu máximo absoluto em\n{{CMD_24}}\n{{MATH_25}}\n{{CMD_26}}\nA função {{MATH_27}} atinge seu mínimo absoluto em\n{{CMD_28}}\n{{MATH_29}}.\n{{CMD_30}}\n{{CMD_31}}\n{{CMD_32}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/globMaxGlobMinFromGraph1.tex",
+  "ordem": 0,
+  "hash": "ecf958e52f7fd9303c8f3d313d1403725a49d28385e73aa4b52f0f261ccba990",
+  "traducao": "  Seja {{MATH_1}} uma função definida em {{MATH_2}}. O gráfico de {{MATH_3}} é dado na figura abaixo.\n\n  {{CMD_4}}\n  {{ENV_5}}\n  {{CMD_6}}\n  Selecione  todos os valores de {{MATH_7}} em que a função {{MATH_8}} atinge seu máximo absoluto.\n\n{{CMD_9}}\n{{CMD_10}}{{MATH_11}}{{CMD_12}}\n{{CMD_13}}{{MATH_14}}{{CMD_15}}\n{{CMD_16}}{{MATH_17}}{{CMD_18}}\n{{CMD_19}}{{MATH_20}}{{CMD_21}}\n{{CMD_22}}{{MATH_23}}{{CMD_24}}\n{{CMD_25}}{{MATH_26}}{{CMD_27}}\n{{CMD_28}}{{MATH_29}}{{CMD_30}}\n{{CMD_31}}{{MATH_32}}{{CMD_33}}\n{{CMD_34}}{{MATH_35}}{{CMD_36}}\n{{CMD_37}}{{MATH_38}}{{CMD_39}}\n{{CMD_40}}\n{{CMD_41}}\n  {{CMD_42}}\n   Selecione  todos os valores de {{MATH_43}} em que a função {{MATH_44}} atinge seu mínimo absoluto.\n\n{{CMD_45}}\n{{CMD_46}}{{MATH_47}}{{CMD_48}}\n{{CMD_49}}{{MATH_50}}{{CMD_51}}\n{{CMD_52}}{{MATH_53}}{{CMD_54}}\n{{CMD_55}}{{MATH_56}}{{CMD_57}}\n{{CMD_58}}{{MATH_59}}{{CMD_60}}\n{{CMD_61}}{{MATH_62}}{{CMD_63}}\n{{CMD_64}}{{MATH_65}}{{CMD_66}}\n{{CMD_67}}{{MATH_68}}{{CMD_69}}\n{{CMD_70}}{{MATH_71}}{{CMD_72}}\n{{CMD_73}}{{MATH_74}}{{CMD_75}}\n{{CMD_76}}\n{{CMD_77}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/globMaxGlobMinFromGraph1.tex",
+  "ordem": 1,
+  "hash": "8867374980edbe1ca3991154805c6fd9eaf02e1bedebeb325cbfbb0ecfb9971b",
+  "traducao": "   A função {{MATH_78}} satisfaz as condições do Teorema do Valor Extremo em seu domínio?\n\n{{CMD_79}}\n{{CMD_80}}Sim.{{CMD_81}}\n{{CMD_82}}Não temos informação suficiente para responder à pergunta.{{CMD_83}}\n{{CMD_84}}Não.{{CMD_85}}\n{{CMD_86}}\n{{CMD_87}}\n {{CMD_88}}\n   Selecione  todos os intervalos {{MATH_89}} tais que a função {{MATH_90}} satisfaz as condições do Teorema do Valor Extremo em {{MATH_91}}.\n{{CMD_92}}\n{{CMD_93}}{{MATH_94}}{{CMD_95}}\n{{CMD_96}}{{MATH_97}}{{CMD_98}}\n{{CMD_99}}{{MATH_100}}{{CMD_101}}\n{{CMD_102}}{{MATH_103}}{{CMD_104}}\n{{CMD_105}}{{MATH_106}}{{CMD_107}}\n{{CMD_108}}{{MATH_109}}{{CMD_110}}\n{{CMD_111}}{{MATH_112}}{{CMD_113}}\n{{CMD_114}}{{MATH_115}}{{CMD_116}}\n{{CMD_117}}\n{{CMD_118}}\n{{CMD_119}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/maxMinFirstDerivativeTest4.tex",
+  "ordem": 0,
+  "hash": "49aa1cd39410ccbc97f61aa82fea6f4e4698bd1bdf4f82de5884fba9bf58c011",
+  "traducao": "Considere a função {{MATH_1}}. {{CMD_2}}\nDetermine as coordenadas x do máximo absoluto e do mínimo absoluto de {{MATH_3}} no intervalo {{MATH_4}} .\n{{CMD_5}}\nPrimeiro, calcule a derivada de {{MATH_6}}.\n{{MATH_7}}\nA função {{MATH_8}} tem dois pontos críticos no conjunto {{MATH_9}}.\n Se chamarmos esses pontos de {{MATH_10}} e {{MATH_11}} e os ordenarmos de modo\nque {{MATH_12}}, então\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/maxMinFirstDerivativeTest4.tex",
+  "ordem": 1,
+  "hash": "de5ed22fff5c193ac6a51bf22335357ef65fc2f1eef0206e1ffc3764d0b3869f",
+  "traducao": "Em seguida, calculamos {{MATH_14}} nas extremidades e no único ponto crítico do intervalo {{MATH_15}}.\n{{MATH_16}}\n{{MATH_17}}\n{{MATH_18}}\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/maxMinFirstDerivativeTest4.tex",
+  "ordem": 2,
+  "hash": "76ebb6d9e5290d342b9463ce8f10b40e8029ccb9585c1d3dab0e6fe25410b3e8",
+  "traducao": "A função {{MATH_20}} atinge seu máximo absoluto em\n{{CMD_21}}\n{{MATH_22}}.\n{{CMD_23}}\nA função {{MATH_24}} atinge seu mínimo absoluto em\n{{CMD_25}}\n{{MATH_26}}.\n{{CMD_27}}\n{{CMD_28}}\n{{CMD_29}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueErrorBound1.tex",
+  "ordem": 0,
+  "hash": "27846ebe8873673805075a88a9980731f92f2adc3c17f1f7c1288d654cafbe1b",
+  "traducao": "Considere a função {{MATH_1}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueErrorBound1.tex",
+  "ordem": 1,
+  "hash": "2326bc8509fc6542c2e0b17db2554b65f2cd77ea4b7956f4ba379b587be84698",
+  "traducao": "A aproximação linear de {{MATH_2}} em {{MATH_3}} é\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueErrorBound1.tex",
+  "ordem": 2,
+  "hash": "10a9b19160de4f3b2602e31b92991f157a11bc9c1aebac2ee827233bc6aa0fea",
+  "traducao": "Usamos isso para aproximar {{MATH_5}} por\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueErrorBound1.tex",
+  "ordem": 3,
+  "hash": "47fa17b555854d8c67e5c9ea21a2098550f2de0d7288f3333473bae7406d120b",
+  "traducao": "Agora vamos usar o teorema do valor médio para obter cotas superior e inferior rigorosas para o valor de {{MATH_7}}.  Aplicando o teorema do valor médio a {{MATH_8}} no intervalo {{MATH_9}}, obtemos\n{{MATH_10}}\npara algum {{MATH_11}}.  Podemos isolar {{MATH_12}} na expressão acima, o que nos dá\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueErrorBound1.tex",
+  "ordem": 4,
+  "hash": "90f0b4edfca8895071caa5d76699af9450012a5ee2641051bc353a3d92c9e28b",
+  "traducao": "Agora sabemos que {{MATH_14}} é {{CMD_15}}{{CMD_16}}crescente{{CMD_17}}{{CMD_18}}decrescente{{CMD_19}}{{CMD_20}}, então, como {{MATH_21}},\n{{CMD_22}}\n{{CMD_23}}{{MATH_24}}.{{CMD_25}}\n{{CMD_26}}{{MATH_27}}.{{CMD_28}}\n{{CMD_29}}\nUsamos essas cotas para concluir que\n{{MATH_30}}\nAssim, nossa estimativa obtida pela aproximação linear de {{MATH_31}} pode errar por no máximo {{MATH_32}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard1.tex",
+  "ordem": 0,
+  "hash": "a84c8d92f6e4d1f74fb53dee1d77473a218224287642d238be0c92d377759fa2",
+  "traducao": "Seja {{MATH_1}}.  Determine a constante {{MATH_2}}, cuja existência é garantida pelo Teorema do Valor Médio, para a qual {{MATH_3}}, onde {{MATH_4}} e {{MATH_5}} são dois números reais distintos quaisquer.  O resultado é uma propriedade muito interessante das funções quadráticas."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard1.tex",
+  "ordem": 1,
+  "hash": "f698904ff2ca87b343dd13e31c3202f1ce90add90f4a7ed5bc9932445b0f6139",
+  "traducao": "Primeiro, substitua:"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard1.tex",
+  "ordem": 2,
+  "hash": "9003fe35e5df438ae266050cfd856cedf40b55cb4c6b836ede129459bc2102db",
+  "traducao": "Em seguida, simplifique.\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard1.tex",
+  "ordem": 3,
+  "hash": "b6b917296017634f2cd8adcd96c705c353b665fddc7c879b0228879e8645ee82",
+  "traducao": "Em seguida, calculamos {{MATH_7}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard1.tex",
+  "ordem": 4,
+  "hash": "c552d8be9bd2d35df3d352f2bc3eab061ce83cf5aca0c028f1788fde18c7b041",
+  "traducao": "Em seguida, resolvemos a equação"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard1.tex",
+  "ordem": 5,
+  "hash": "38f7b44ea9f0c5594845dcfbf0e55078414ea70174385725876898059261a6ca",
+  "traducao": "Na equação acima, substituímos {{MATH_8}} por {{MATH_9}}. Agora, isolamos {{MATH_10}}:"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard4.tex",
+  "ordem": 0,
+  "hash": "7525c3a91dfc2c78fa44d53dd28f0c4ce91c58e00c28c046c94f083ca7ed1639",
+  "traducao": "Vamos usar o teorema do valor médio para mostrar que {{MATH_1}} para {{MATH_2}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard4.tex",
+  "ordem": 1,
+  "hash": "57938187bdb97a4df42be6d67a40066ad0fc8e1da9be883ef13825f9dc2d61ff",
+  "traducao": "Primeiro consideramos {{MATH_3}}.  Aplicamos o teorema do valor médio a {{MATH_4}} no intervalo {{MATH_5}} para concluir que existe um {{MATH_6}} com\n{{MATH_7}}\nAgora isolamos {{MATH_8}} na expressão acima e obtemos\n{{MATH_9}}\nComo {{MATH_10}}, sabemos que\n{{MATH_11}}\nUsando essa cota, concluímos que\n{{MATH_12}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard4.tex",
+  "ordem": 2,
+  "hash": "7fe2a5e4c4554ce21c36cba0b3d149eacbb311b3ad4d4f2ec761aaef7541602d",
+  "traducao": "Em seguida, para {{MATH_13}}, {{MATH_14}} e, portanto, {{MATH_15}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard4.tex",
+  "ordem": 3,
+  "hash": "870465e58e6a4d8f3f14b3e10a590d683c250fd76580a77d7b208940fc53310c",
+  "traducao": "Finalmente, como {{MATH_16}} é periódica com período {{MATH_17}}, para {{MATH_18}} existe algum {{MATH_19}} com {{MATH_20}}. (Observe que {{MATH_21}} é digitado como {{CMD_22}}|{{CMD_23}}|.)  Com isso em mente,\n{{MATH_24}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueNonstandard4.tex",
+  "ordem": 4,
+  "hash": "1de64bc3930cb3ba48416a1f858c993fa592141ae434eb81e0cdcc2a8b816a61",
+  "traducao": "Assim, mostramos que, para todo {{MATH_25}}, {{MATH_26}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueStandard1.tex",
+  "ordem": 0,
+  "hash": "64738f22fb1dafbe1ef1132458b73e075b9f1946e2378d7916280e6877c79d10",
+  "traducao": "Qual ponto {{MATH_1}} satisfaz a conclusão do teorema do valor médio para a função {{MATH_2}} no intervalo\n{{MATH_3}}?\n{{CMD_4}}\nVocê precisa encontrar um ponto {{MATH_5}} em {{MATH_6}} tal que {{MATH_7}}.\n{{CMD_8}}\n{{CMD_9}}\nPrimeiro, calcule a taxa de variação média de {{MATH_10}} no intervalo {{MATH_11}},"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueStandard1.tex",
+  "ordem": 1,
+  "hash": "5a4f3bf8959f768be0a2a40d0c19f6e6ffd67263483a0b44cc06c8be7b911976",
+  "traducao": ".\n{{CMD_12}}\n{{CMD_13}}\nEm seguida, precisamos calcular {{MATH_14}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueStandard1.tex",
+  "ordem": 2,
+  "hash": "3f63b0c73f69d194bda74504386edc245e5834336103399b38bcba6f25ad063c",
+  "traducao": ".\n{{CMD_15}}\n{{CMD_16}}\nE, por último, precisamos resolver a equação\n{{MATH_17}}.\n{{CMD_18}}\n{{CMD_19}}\n\t{{MATH_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueStandard2.tex",
+  "ordem": 0,
+  "hash": "821cf4615a87effe52b5a136dc583f86a72850ce99ceb832111e5f2188967ef6",
+  "traducao": "Qual ponto {{MATH_1}} satisfaz a conclusão do teorema do valor médio para a função {{MATH_2}} no intervalo\n{{MATH_3}}?"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem1.tex",
+  "ordem": 0,
+  "hash": "2f2e5f4fbc0d70054752b98b27db00c8e5e87d15924fac79674f1b23def8cde2",
+  "traducao": "Considere as funções {{MATH_1}}, {{MATH_2}}, {{MATH_3}} e {{MATH_4}}, cujos gráficos estão abaixo."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem1.tex",
+  "ordem": 1,
+  "hash": "27db1aff8e3c53247044af0e6ed96068115e4d39d6fa7921fc516afa9d3a294f",
+  "traducao": "Selecione todas as funções que são contínuas em {{MATH_5}}.\n{{CMD_6}}\n{{CMD_7}}{{MATH_8}}{{CMD_9}}\n{{CMD_10}}{{MATH_11}}{{CMD_12}}\n{{CMD_13}}{{MATH_14}}{{CMD_15}}\n{{CMD_16}}{{MATH_17}}{{CMD_18}}\n{{CMD_19}}\n{{CMD_20}}\nSelecione todas as funções que são deriváveis em {{MATH_21}}.\n{{CMD_22}}\n{{CMD_23}}{{MATH_24}}{{CMD_25}}\n{{CMD_26}}{{MATH_27}}{{CMD_28}}\n{{CMD_29}}{{MATH_30}}{{CMD_31}}\n{{CMD_32}}{{MATH_33}}{{CMD_34}}\n{{CMD_35}}\n{{CMD_36}}\nResponda às seguintes perguntas de verdadeiro ou falso."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem1.tex",
+  "ordem": 2,
+  "hash": "4ce49b6e03a713bb0a078ea535ceb318727d5c5e77a0058a67953103d3b1d1a0",
+  "traducao": "O teorema do valor médio {{CMD_37}}se aplica{{CMD_38}} a {{MATH_39}} em {{MATH_40}}, e {{MATH_41}} é o ponto cuja existência é garantida.\n{{CMD_42}}\n{{CMD_43}}Verdadeiro{{CMD_44}}\n{{CMD_45}}Falso{{CMD_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem1.tex",
+  "ordem": 3,
+  "hash": "465e84194654d92f866785c79e2160b2db96b27efbb69d94ca29b5b28654c723",
+  "traducao": "O teorema do valor médio {{CMD_48}}não se aplica{{CMD_49}} a {{MATH_50}} em {{MATH_51}}.\n{{CMD_52}}\n{{CMD_53}}Verdadeiro{{CMD_54}}\n{{CMD_55}}Falso{{CMD_56}}\n{{CMD_57}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem1.tex",
+  "ordem": 4,
+  "hash": "3ee742e8a3400ca02af03ea209e6e4fb2eab0a32e4731325aad43125f4cd3ba3",
+  "traducao": "O teorema do valor médio {{CMD_58}}se aplica{{CMD_59}} a {{MATH_60}} em {{MATH_61}}, e {{MATH_62}} é o ponto cuja existência é garantida.\n{{CMD_63}}\n{{CMD_64}}Verdadeiro{{CMD_65}}\n{{CMD_66}}Falso{{CMD_67}}\n{{CMD_68}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem1.tex",
+  "ordem": 5,
+  "hash": "e2a32bd37cb28fe4d29908271e526719c8b862e3a804ef4696d67ce6721618e4",
+  "traducao": "Como a função {{MATH_69}} não satisfaz as condições do teorema do valor médio, não existe ponto {{MATH_70}} em {{MATH_71}} tal que {{MATH_72}}.\n{{CMD_73}}\nObserve o gráfico de {{MATH_74}} no intervalo aberto {{MATH_75}}: é uma reta de inclinação {{MATH_76}}. Portanto, para todo ponto {{MATH_77}} em {{MATH_78}} vale que  {{MATH_79}}. Isso pode acontecer ou não com funções que não satisfazem as condições do teorema do valor médio (veja o gráfico de {{MATH_80}}). Mas, se as condições são satisfeitas, o teorema do valor médio {{CMD_81}}garante{{CMD_82}} que tal ponto {{MATH_83}} existe.\n{{CMD_84}}\n{{CMD_85}}\n{{CMD_86}}Verdadeiro{{CMD_87}}\n{{CMD_88}}Falso{{CMD_89}}\n{{CMD_90}}\n{{MATH_91}} atinge um mínimo absoluto em {{MATH_92}}.\n{{CMD_93}}\n{{CMD_94}}Verdadeiro{{CMD_95}}\n{{CMD_96}}Falso{{CMD_97}}\n{{CMD_98}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem1.tex",
+  "ordem": 6,
+  "hash": "562f6f88158d7e0a2da3d9cce3d8039a3e5afbcad50efa55a5e4a5e3d88e444a",
+  "traducao": " atinge um mínimo absoluto em {{MATH_99}} em um ponto crítico.\n{{CMD_100}}\n{{CMD_101}}Verdadeiro{{CMD_102}}\n{{CMD_103}}Falso{{CMD_104}}\n{{CMD_105}}\n{{CMD_106}}\n{{CMD_107}}\n{{CMD_108}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem2.tex",
+  "ordem": 0,
+  "hash": "41f1cfde1f0c58e2201d34a9bfdcaeb12c5b9c2a203ec4c1b9449f513e77fe43",
+  "traducao": "Considere a função {{MATH_1}} no intervalo {{MATH_2}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem2.tex",
+  "ordem": 1,
+  "hash": "6ae5a6b5a21f1cd7c9b923fa2a34bee264bf9848d7ed7625a02d4459e5af2496",
+  "traducao": "A equação da aproximação linear de {{MATH_3}} em {{MATH_4}} é\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem2.tex",
+  "ordem": 2,
+  "hash": "bc0a87926a23d7051aa0603c23e3192ac95619b9084bb3b12366ac8c0030d566",
+  "traducao": "Usando a aproximação linear, podemos estimar {{MATH_6}} como\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem2.tex",
+  "ordem": 3,
+  "hash": "bb9bbbe250095a82a9c3d1d94b8e2c93c83db3ab43aa2192e06943766f779e70",
+  "traducao": "O teorema do valor médio {{CMD_8}}{{CMD_9}}se aplica{{CMD_10}}{{CMD_11}}não se aplica{{CMD_12}}{{CMD_13}} a {{MATH_14}} em {{MATH_15}}, e o ponto {{MATH_16}} cuja existência é garantida é {{MATH_17}}. (Escreva {{CMD_18}}|DNE| se o teorema do valor médio não se aplicar.)"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem3.tex",
+  "ordem": 0,
+  "hash": "45f7698acf70363b00005ec4779e5ac51ac1b4a8e56db57ee971ccb6a7d5c9ae",
+  "traducao": "Suponha que {{MATH_1}} seja uma função contínua em {{MATH_2}} e derivável em {{MATH_3}}.  Suponha ainda que {{MATH_4}}, {{MATH_5}} e {{MATH_6}} para todo {{MATH_7}} em {{MATH_8}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem3.tex",
+  "ordem": 1,
+  "hash": "441adf44866c67d3529843d683e76ffe00eb9605ed0ae74f616e13e8836365bc",
+  "traducao": "Responda às seguintes perguntas de verdadeiro ou falso."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem3.tex",
+  "ordem": 2,
+  "hash": "c22f93067f4b497ca013bae327508cc6d3fc3c1d8758947527a611e31319d106",
+  "traducao": " não satisfaz as condições do teorema do valor médio em {{MATH_9}}.\n{{CMD_10}}\nObserve que {{MATH_11}} é {{CMD_12}}contínua{{CMD_13}}  em {{MATH_14}} e {{CMD_15}}derivável{{CMD_16}} em {{MATH_17}}.\n{{CMD_18}}\n{{CMD_19}}\n{{CMD_20}}Verdadeiro{{CMD_21}}\n{{CMD_22}}Falso{{CMD_23}}\n{{CMD_24}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem3.tex",
+  "ordem": 3,
+  "hash": "feea08abee95b76d0857d37e1a2924bfbc2613e0f599c4ddc9294b81588a9bc9",
+  "traducao": " para algum número {{MATH_25}} em {{MATH_26}}.\n{{CMD_27}}\nComo a função {{MATH_28}} satisfaz as condições do teorema do valor médio (TVM), existe um ponto {{MATH_29}} em {{MATH_30}} tal que {{MATH_31}}.\n{{CMD_32}}\n{{CMD_33}}\n{{CMD_34}}Verdadeiro{{CMD_35}}\n{{CMD_36}}Falso{{CMD_37}}\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem3.tex",
+  "ordem": 4,
+  "hash": "9a30a9b8f64686557c992b97de77d3eae443b17a72e959404418165b7345f6f4",
+  "traducao": " para todo {{MATH_39}} em {{MATH_40}}.\n{{CMD_41}}\nComo a função {{MATH_42}} satisfaz as condições do teorema do valor médio (TVM), existe um ponto {{MATH_43}} em {{MATH_44}} tal que {{MATH_45}}.\n{{CMD_46}}\n{{CMD_47}}\nComo  {{MATH_48}},{{CMD_49}}\n segue que {{MATH_50}}.\n{{CMD_51}}\n{{CMD_52}}\n{{CMD_53}}Verdadeiro{{CMD_54}}\n{{CMD_55}}Falso{{CMD_56}}\n{{CMD_57}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem3.tex",
+  "ordem": 5,
+  "hash": "ebfeb5e172ac309f657a9eab8f9e216395146813d12841a67c2893462218ebe1",
+  "traducao": " para todo {{MATH_58}} em {{MATH_59}}.\n{{CMD_60}}\nComo {{MATH_61}} em {{MATH_62}}, a função {{MATH_63}} é crescente no intervalo {{MATH_64}}.\n{{CMD_65}}\n{{CMD_66}}\nComo  a função {{MATH_67}} é crescente (e contínua em {{MATH_68}}) no intervalo {{MATH_69}}, segue que"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem3.tex",
+  "ordem": 6,
+  "hash": "6dcdc3dd1871e12f1271bb9c0f21c8f89983331cf2f443beca5f66eed67f3064",
+  "traducao": ", para todo {{MATH_70}} em {{MATH_71}}.\n{{CMD_72}}\n{{CMD_73}}\n{{CMD_74}}Verdadeiro{{CMD_75}}\n{{CMD_76}}Falso{{CMD_77}}\n{{CMD_78}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem4.tex",
+  "ordem": 0,
+  "hash": "91c2ff5d2b32817e8338fd73a66760194eaa5c71418efe5e90520b6091c76c26",
+  "traducao": "A população (em milhões de células) de uma cultura de bactérias é dada pela função {{MATH_1}}, em que {{MATH_2}} é medido em semanas a partir de uma certa data inicial."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem4.tex",
+  "ordem": 1,
+  "hash": "199fc296d6644b52f1166fdee351accde77fae481851420445df28b9ea2a9a02",
+  "traducao": "Abaixo está uma tabela parcial de valores de {{MATH_3}}.\n{{MATH_4}}\n{{CMD_5}}\nCalcule a taxa de variação média da população durante o intervalo de tempo {{MATH_6}}.\n{{CMD_7}}\nLembre-se de que a taxa de variação média da população durante o intervalo de tempo {{MATH_8}} é dada pela expressão {{MATH_9}}.\n{{CMD_10}}\nA taxa de variação média da população durante o intervalo de tempo {{MATH_11}} é {{MATH_12}} milhões de células por semana.\n{{CMD_13}}\n{{CMD_14}}\nSuponha que  a função {{MATH_15}} seja contínua em {{MATH_16}} e derivável em {{MATH_17}}. Então,  no intervalo {{MATH_18}}, a função {{MATH_19}}  {{CMD_20}}{{CMD_21}}satisfaz{{CMD_22}}{{CMD_23}}não satisfaz{{CMD_24}}{{CMD_25}} as condições do teorema do valor médio, de modo que {{CMD_26}}{{CMD_27}}existe{{CMD_28}}{{CMD_29}}não existe necessariamente{{CMD_30}}{{CMD_31}} um {{MATH_32}} tal que {{MATH_33}} é igual à taxa de variação média da população calculada acima."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem4.tex",
+  "ordem": 2,
+  "hash": "f6a39f309345c05f079b9114fd801448fe63d39a1946c31eb105f796208beb9c",
+  "traducao": "Isso significa que, no instante {{MATH_34}}, a {{CMD_35}}taxa de variação instantânea{{CMD_36}} da população é igual à {{CMD_37}}taxa de variação média{{CMD_38}} da população durante o intervalo de tempo {{MATH_39}}.\n{{CMD_40}}\n{{CMD_41}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem5.tex",
+  "ordem": 0,
+  "hash": "cef061f2947c97a3728fcb5655fda1625046bc60237aaacda30f140d73c32e03",
+  "traducao": "A posição de um objeto que se move ao longo de uma reta horizontal é dada por {{MATH_1}}, em que {{MATH_2}} é medido em segundos e {{MATH_3}} em metros."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem5.tex",
+  "ordem": 1,
+  "hash": "b4933a928a1de4c362c8ca1469bcc1ac0d3a20a8650081a76a7334b80ee090f2",
+  "traducao": "Abaixo está uma tabela parcial de valores de {{MATH_4}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem5.tex",
+  "ordem": 2,
+  "hash": "f60a8b093a83a53a9a22416c485867aac4e16d7904ed88df45f5f49204cdf055",
+  "traducao": "Calcule a velocidade média do objeto durante o intervalo de tempo {{MATH_5}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem5.tex",
+  "ordem": 3,
+  "hash": "5270115b7ffc830882f5053add4bfcba614499ab8d7c5fa893e9a41abe44d8b5",
+  "traducao": "Lembre-se de que a velocidade média durante o intervalo de tempo {{MATH_6}} é dada pela expressão\n{{MATH_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem5.tex",
+  "ordem": 4,
+  "hash": "e834b4a2c5b5fbfc5902318136777fb356b0eea5165a30c22cc6a94e95c7a33b",
+  "traducao": "A velocidade média do objeto durante o intervalo de tempo {{MATH_9}} é {{MATH_10}} m/s."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem5.tex",
+  "ordem": 5,
+  "hash": "096621812fa1d01ca3a662802ba1700306c1057059e510e3e95b920997e1b11f",
+  "traducao": "Suponha que a função {{MATH_11}} seja contínua em {{MATH_12}} e derivável em {{MATH_13}}."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem5.tex",
+  "ordem": 6,
+  "hash": "4bba9c96498c2068e621324d0f6c4abebcaa9f283b6b0288b9557de04a74e146",
+  "traducao": " Então,  no intervalo {{MATH_14}}, a função {{MATH_15}} {{CMD_16}}{{CMD_17}}satisfaz{{CMD_18}}{{CMD_19}}não satisfaz{{CMD_20}}{{CMD_21}} as condições do teorema do valor médio,\n\n  de modo que {{CMD_22}}{{CMD_23}}existe{{CMD_24}}{{CMD_25}}não existe necessariamente{{CMD_26}}{{CMD_27}} um número c no intervalo {{MATH_28}}\n\n  tal que {{MATH_29}} é igual à velocidade média calculada acima."
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheorem5.tex",
+  "ordem": 7,
+  "hash": "672f355fc544b93c1d0c092b05bb71243409d1c031a48d95b408d0c67a110f39",
+  "traducao": "Isso significa que, no instante {{MATH_30}}, a {{CMD_31}}velocidade instantânea{{CMD_32}} do objeto é igual à {{CMD_33}}velocidade média{{CMD_34}} do objeto durante o intervalo de tempo {{MATH_35}}.\n{{CMD_36}}\n{{CMD_37}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheoremFromGraph1.tex",
+  "ordem": 0,
+  "hash": "efedf3086b2afbb3a049fa3d37e7a318e15ae5988bdc9b184532dbbee7af8bfc",
+  "traducao": "  Seja {{MATH_1}} uma função definida em {{MATH_2}}. O gráfico de {{MATH_3}} é dado na figura abaixo.\n Com base no gráfico, responda às perguntas a seguir.\n  {{CMD_4}}\n  {{ENV_5}}\n  {{CMD_6}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheoremFromGraph1.tex",
+  "ordem": 1,
+  "hash": "3f7f5bdb496ee2ccebfeea92eeb992607d6d924c0d601b6d0b62970d466ac6c2",
+  "traducao": "  Selecione  a afirmação correta.\n  {{CMD_7}}\n  Lembre-se de que uma função {{MATH_8}} precisa ser contínua em um intervalo fechado {{MATH_9}} e derivável em um intervalo aberto {{MATH_10}} para que possamos aplicar o teorema do valor médio.\n  Se as condições acima  são satisfeitas, o teorema do valor médio (TVM) garante que existe um ponto {{MATH_11}} em {{MATH_12}} tal que {{MATH_13}}.\n    {{CMD_14}}\n{{CMD_15}}\n{{CMD_16}}A função {{MATH_17}} satisfaz as condições do TVM em seu domínio.{{CMD_18}}\n{{CMD_19}}A função {{MATH_20}} não satisfaz as condições do TVM em seu domínio, porque  {{MATH_21}} não é contínua em seu domínio.{{CMD_22}}\n{{CMD_23}}A função {{MATH_24}} não satisfaz as condições do TVM em seu domínio, porque {{MATH_25}} não é derivável em {{MATH_26}}.{{CMD_27}}\n{{CMD_28}}\n{{CMD_29}}\n  {{CMD_30}}\n   {{CMD_31}}\n  {{ENV_32}}\n  {{CMD_33}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheoremFromGraph1.tex",
+  "ordem": 2,
+  "hash": "cb09b6ec1ca48d58e62bfab5453576efd4784254848302b042078cceb714a217",
+  "traducao": " Seja {{MATH_34}} a inclinação da reta secante que passa pelos pontos {{MATH_35}} e {{MATH_36}} (veja a figura acima). Selecione a afirmação correta.\n\n{{CMD_37}}\n{{CMD_38}}{{MATH_39}}{{CMD_40}}\n{{CMD_41}}{{MATH_42}}{{CMD_43}}\n{{CMD_44}}{{MATH_45}}{{CMD_46}}\n{{CMD_47}}{{MATH_48}}{{CMD_49}}\n{{CMD_50}}{{MATH_51}}{{CMD_52}}\n{{CMD_53}}{{MATH_54}}{{CMD_55}}\n{{CMD_56}}{{MATH_57}}{{CMD_58}}\n{{CMD_59}}{{MATH_60}}{{CMD_61}}\n{{CMD_62}}{{MATH_63}}{{CMD_64}}\n{{CMD_65}}{{MATH_66}}{{CMD_67}}\n{{CMD_68}}\n{{CMD_69}}\n  {{CMD_70}}\n  Complete a afirmação abaixo  a respeito da função {{MATH_71}} no intervalo {{MATH_72}}.\n\n\n Selecione todas as alternativas corretas.\n (Observe que {{MATH_73}}, a inclinação da reta secante que passa pelos pontos {{MATH_74}} e {{MATH_75}}, foi calculada no exercício anterior.)\n\n AFIRMAÇÃO:\n\n  O teorema do valor médio garante que existe um ponto {{MATH_76}} no intervalo aberto {{MATH_77}} tal que\n    {{CMD_78}}\n{{CMD_79}}{{MATH_80}}{{CMD_81}}\n{{CMD_82}}{{MATH_83}}{{CMD_84}}\n{{CMD_85}}{{MATH_86}}{{CMD_87}}\n{{CMD_88}}{{MATH_89}}{{CMD_90}}\n{{CMD_91}}{{MATH_92}}{{CMD_93}}\n{{CMD_94}}{{MATH_95}}{{CMD_96}}\n{{CMD_97}}{{MATH_98}}{{CMD_99}}\n{{CMD_100}}{{MATH_101}}{{CMD_102}}\n{{CMD_103}}{{MATH_104}}{{CMD_105}}\n{{CMD_106}}{{MATH_107}}{{CMD_108}}\n{{CMD_109}}\n{{CMD_110}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheoremFromGraph1.tex",
+  "ordem": 3,
+  "hash": "87a7143d5e0663431a37ea6be0b40f0db020640540884f7e2e112a6af42eb37c",
+  "traducao": "Encontre um ponto {{MATH_111}} em {{MATH_112}}, garantido pelo TVM, tal que"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheoremFromGraph1.tex",
+  "ordem": 4,
+  "hash": "0fb93996123fb98c295bf4fe231f141ffec8b8e75211035d685481591de99680",
+  "traducao": ". Selecione a alternativa correta.\n{{CMD_113}}\nObserve a figura abaixo. Ela mostra que a {{CMD_114}}reta secante{{CMD_115}} que passa pelos pontos {{MATH_116}} e {{MATH_117}} é {{CMD_118}}paralela{{CMD_119}} à {{CMD_120}}reta tangente{{CMD_121}} à curva {{MATH_122}} no ponto {{MATH_123}}.\n {{CMD_124}}\n  {{ENV_125}}\n  {{CMD_126}}\n{{CMD_127}}\n{{CMD_128}}\n{{CMD_129}}{{MATH_130}}{{CMD_131}}\n{{CMD_132}}{{MATH_133}}{{CMD_134}}\n{{CMD_135}}{{MATH_136}}{{CMD_137}}\n{{CMD_138}}{{MATH_139}}{{CMD_140}}\n{{CMD_141}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheoremFromGraph1.tex",
+  "ordem": 5,
+  "hash": "62ee133f88672e9b10ce53209f408bc7acb84f89e0d59d35a248b0f7298e4a3d",
+  "traducao": " Encontre uma equação da reta tangente à curva {{MATH_142}} no ponto em que {{MATH_143}}.\n {{CMD_144}}\n Você tem informação suficiente para escrever a equação de uma reta: você conhece as coordenadas de um ponto {{MATH_145}} e a inclinação da reta (tangente), {{MATH_146}}.\n  {{CMD_147}}\n  Selecione todas as alternativas corretas.\n\n\n  {{CMD_148}}\n{{CMD_149}}{{MATH_150}}{{CMD_151}}\n{{CMD_152}}{{MATH_153}}{{CMD_154}}\n{{CMD_155}}{{MATH_156}}{{CMD_157}}\n{{CMD_158}}{{MATH_159}}{{CMD_160}}\n{{CMD_161}}{{MATH_162}}{{CMD_163}}\n{{CMD_164}}{{MATH_165}}{{CMD_166}}\n{{CMD_167}}{{MATH_168}}{{CMD_169}}\n{{CMD_170}}{{MATH_171}}{{CMD_172}}\n{{CMD_173}}\n{{CMD_174}}"
+ },
+ {
+  "arquivo": "meanValueTheorem/exercises/meanValueTheoremFromGraph2.tex",
+  "ordem": 0,
+  "hash": "3048f39d02a5efbd7359a03bc50622637d2bd547d81e39e9d3d5d733a843c629",
+  "traducao": "  Seja {{MATH_1}} uma função definida em {{MATH_2}}. O gráfico de {{MATH_3}} é dado na figura abaixo.\n\n  {{CMD_4}}\n  {{ENV_5}}\n  {{CMD_6}}\n\n{{CMD_7}}\n   A função {{MATH_8}} satisfaz as condições do teorema do valor médio em seu domínio?\n\n{{CMD_9}}\n{{CMD_10}}Sim.{{CMD_11}}\n{{CMD_12}}Não temos informação suficiente para responder à pergunta.{{CMD_13}}\n{{CMD_14}}Não.{{CMD_15}}\n{{CMD_16}}\n{{CMD_17}}\n {{CMD_18}}\n   Selecione  todos os intervalos {{MATH_19}} tais que a função {{MATH_20}} satisfaz as condições do teorema do valor médio em {{MATH_21}}.\n{{CMD_22}}\n{{CMD_23}}{{MATH_24}}{{CMD_25}}\n{{CMD_26}}{{MATH_27}}{{CMD_28}}\n{{CMD_29}}{{MATH_30}}{{CMD_31}}\n{{CMD_32}}{{MATH_33}}{{CMD_34}}\n{{CMD_35}}{{MATH_36}}{{CMD_37}}\n{{CMD_38}}{{MATH_39}}{{CMD_40}}\n{{CMD_41}}{{MATH_42}}{{CMD_43}}\n{{CMD_44}}{{MATH_45}}{{CMD_46}}\n{{CMD_47}}{{MATH_48}}{{CMD_49}}\n{{CMD_50}}{{MATH_51}}{{CMD_52}}\n{{CMD_53}}"
+ }
+]

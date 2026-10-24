@@ -1,0 +1,344 @@
+[
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/titlePage.tex",
+  "ordem": 0,
+  "hash": "1963db9e2bb0bbba7f6c616f8e15fbce5ccceb676236837b2b3c6fbd8de0ef46",
+  "traducao": "Segundo Teorema Fundamental do Cálculo{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/titlePage.tex",
+  "ordem": 2,
+  "hash": "a5a2939487e62171baa63ccb2cc182a68cb2651f8667df146b45a4f4cf1ceab3",
+  "traducao": " Enunciar o Segundo Teorema Fundamental do Cálculo.\n\t{{CMD_4}} Calcular integrais definidas usando o Segundo Teorema Fundamental do Cálculo.\n\t{{CMD_5}} Entender como a área sob uma curva está relacionada à antiderivada.\n\t{{CMD_6}} Entender a relação entre integrais indefinidas e definidas.\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/breakGround.tex",
+  "ordem": 0,
+  "hash": "3ce527baf7c6b1ecd1537ee030405e95cf58292167932165df94dc7c017aba7b",
+  "traducao": "Um segredo da integral definida{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem do que trata o cálculo, afinal.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/breakGround.tex",
+  "ordem": 1,
+  "hash": "0f2aac58fcb16f42a8b27f76b3396277671806c8ba40497491979af0a2346f9b",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/breakGround.tex",
+  "ordem": 2,
+  "hash": "670b3dac35e5ff63cad29851133c80a162bc9f43eff88219f4b402215619c5d7",
+  "traducao": " Ah. Então agora temos uma conexão entre derivadas e\n  integrais.\n{{CMD_7}} Isso, a derivada da função acumulação é a função\n  ``de dentro''.\n{{CMD_8}} Então como usamos isso para calcular área?\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/breakGround.tex",
+  "ordem": 3,
+  "hash": "10b075d1bbc95fcde4b8dd6fbb924c9bb0922bce514bdebdca1827b511611fca",
+  "traducao": "Às vezes ajuda pensar nos exemplos mais básicos. Considere\n{{MATH_10}}\nSabemos (pela geometria) que isso calcula a área de um retângulo\n{{MATH_11}}, que é igual a {{MATH_12}}. Por outro lado, se considerarmos a\nfunção acumulação\n{{MATH_13}}\nvemos que\n{{MATH_14}}\n{{CMD_15}}\n  Quanto vale {{MATH_16}}?\n  {{CMD_17}}\n    {{MATH_18}}\n  {{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/breakGround.tex",
+  "ordem": 4,
+  "hash": "14c0925f6a871ba827d3c7833750748c73690debae901537dbc6da47165df9f8",
+  "traducao": "  Por outro lado, o Primeiro Teorema Fundamental do Cálculo diz que, se\n  {{MATH_21}}\n  então {{MATH_22}}. Munidos desse conhecimento, e do fato de que {{MATH_23}}, o que {{MATH_24}} deve ser?\n  {{CMD_25}}\n    {{MATH_26}}\n  {{CMD_27}}\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 0,
+  "hash": "f8b24bcbd7b7303270bcc2c685c0afed60c9495033096c1955d13c90ca82fee5",
+  "traducao": "O Segundo Teorema Fundamental do Cálculo{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nA acumulação de uma taxa é dada pela variação da quantidade.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 1,
+  "hash": "d178680faf5bdf3efb0dff0805a9119c3f6ad7ca956734054a23f7e867daa4d5",
+  "traducao": "Existe outra forma comum do Teorema Fundamental do Cálculo. Nessa forma, o Teorema Fundamental do Cálculo\nservirá como nossa ``fórmula de atalho'' para calcular integrais definidas."
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 2,
+  "hash": "90bf717fdddf81c6ee8cc2ce680764e66ea6e23915580dcdba738692a7c70b0d",
+  "traducao": "\t  Seja {{MATH_7}} contínua em {{MATH_8}}. Se {{MATH_9}} é {{CMD_10}}qualquer{{CMD_11}}\n\t  antiderivada de {{MATH_12}}, então\n\t  {{MATH_13}}\n\t  {{CMD_14}}\n\t \tChame de {{MATH_15}} a função acumulação dada por\n\t \t{{MATH_16}}\n\t \tPelo Primeiro Teorema Fundamental do Cálculo, {{MATH_17}} é uma antiderivada de {{MATH_18}}. Vemos que valem as duas igualdades:\n\t \t{{ENV_19}}\n\t \tFixe {{MATH_20}} como uma antiderivada qualquer de {{MATH_21}}. Como {{MATH_22}} e {{MATH_23}} têm a mesma derivada, elas diferem por uma constante.\n\t \tIsto é, existe uma constante {{MATH_24}} tal que, para todo {{MATH_25}} no intervalo {{MATH_26}}, {{MATH_27}}.\n\n\t\tEntão:\n\t\t{{ENV_28}}\n\t\t{{COMMENT_29}}\n\t\t{{COMMENT_30}}\n\t\t{{COMMENT_31}}\n\t\t{{COMMENT_32}}\n\t\t{{COMMENT_33}}\n\t\t{{COMMENT_34}}\n\t\t{{COMMENT_35}}\n\t\t{{COMMENT_36}}\n\t\t{{COMMENT_37}}\n\t\t{{COMMENT_38}}\n\t\t{{COMMENT_39}}\n\t\t{{COMMENT_40}}\n\t\t{{COMMENT_41}}\n\t\t{{COMMENT_42}}\n\t\t{{COMMENT_43}}\n\t\t{{COMMENT_44}}\n\t\t{{COMMENT_45}}\n\t{{CMD_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 3,
+  "hash": "167f96478be5f96a43210945ebf38de386c522432d1d39cd6f5db8fd58616a60",
+  "traducao": "A partir disso, você deve perceber que as duas versões do Teorema Fundamental estão intimamente relacionadas. Na verdade, as duas formas são\n{{CMD_48}}equivalentes{{CMD_49}}, apenas enunciadas de modo diferente. Por isso, muitas vezes as pessoas simplesmente chamam ambas de ``O Teorema Fundamental do Cálculo''.\nUma maneira de pensar no Segundo Teorema Fundamental do Cálculo é:\n{{CMD_50}}\n  {{ENV_51}}\n{{CMD_52}}\nIsso pode ser lido como:\n{{CMD_53}}{{CMD_54}}{{CMD_55}}A {{CMD_56}} de uma {{CMD_57}} é dada pela {{CMD_58}}.{{CMD_59}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 4,
+  "hash": "912ae51c007525b85fd8f64b64c6a9761cce701ea99722ce23636d3bb1baf2b0",
+  "traducao": "Quando calculamos uma integral definida, primeiro encontramos uma antiderivada e depois a avaliamos nos limites de integração. É conveniente\nprimeiro exibir a antiderivada e depois avaliá-la. Uma notação especial costuma ser usada no processo de calcular integrais definidas\nusando o Teorema Fundamental do Cálculo. Em vez de escrever explicitamente {{MATH_60}}, muitas vezes escrevemos\n{{MATH_61}}\no que significa que devemos avaliar {{MATH_62}} em {{MATH_63}} e depois subtrair {{MATH_64}} avaliada em {{MATH_65}}\n{{MATH_66}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 5,
+  "hash": "5b4e273b723dcb8ef63718a588d3188b2e8b6c65682668f8fc4cfa2803041289",
+  "traducao": "Vamos examinar juntos o Primeiro e o Segundo Teoremas Fundamentais:\n{{ENV_67}}\nJuntos, eles nos dizem como a integral definida e a derivada interagem uma com a outra.\n{{CMD_68}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 6,
+  "hash": "1f43037786ea2e6e7d96c1e86c11e88d9d00d6f6b2868f007aaa623f6760ba6b",
+  "traducao": "Vamos ver alguns exemplos do teorema fundamental em ação."
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 7,
+  "hash": "e6e9c6dc6e223ca889894485b6068393dc67242a03b921c2834830d77d34e7dd",
+  "traducao": "  Calcule:\n  {{MATH_69}}\n  {{CMD_70}}\n    Começamos encontrando uma antiderivada de {{MATH_71}}. Uma escolha possível é {{MATH_72}}. (Podemos verificar isso derivando:\n    {{MATH_73}}.) Observe que não precisamos do termo ``{{MATH_74}}'' aqui. O Segundo Teorema Fundamental do Cálculo diz que\n    podemos usar {{CMD_75}}qualquer{{CMD_76}} antiderivada de {{MATH_77}}. Quase sempre usaremos aquela com {{MATH_78}} ao\n    calcular uma integral definida.\n    {{ENV_79}}\n  {{CMD_80}}\n{{CMD_81}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 8,
+  "hash": "6bf8a61e2111f6517fa7cea94db5259b28a28236b19aa4faf9243919378824fb",
+  "traducao": "\t  Calcule:\n\t  {{MATH_82}}\n\t  {{CMD_83}}\n\t\t    Começamos encontrando uma antiderivada de {{MATH_84}}. Uma escolha correta é {{MATH_85}}, o que se pode verificar calculando a\n\t\t    derivada. Então\n\t\t    {{ENV_86}}\n\t\t    Isso é interessante: diz que a área sob uma ``corcova'' da curva do seno é {{MATH_87}}.\n\t  {{CMD_88}}\n{{CMD_89}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 9,
+  "hash": "2900071433892a13cdc0ff7f235096b29341bd1dcc067561db1e812c0a0ae53b",
+  "traducao": "  Calcule:\n  {{MATH_90}}\n  {{CMD_91}}\n    Começamos encontrando uma antiderivada de {{MATH_92}}. Uma escolha correta\n    é {{MATH_93}}, o que se pode verificar calculando a\n    derivada. Logo\n    {{ENV_94}}\n  {{CMD_95}}\n{{CMD_96}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 10,
+  "hash": "7ae5cbf82a032339844547025ff06eaa02cd8e7d298f83f48a58775e39adbf72",
+  "traducao": "\tCalcule:\n\t{{MATH_97}}\n\t{{CMD_98}}\n\t\tComeçamos encontrando uma antiderivada de {{MATH_99}}. Uma\n\t\tescolha correta é {{MATH_100}}, o que se pode verificar\n\t\tcalculando a derivada. Logo\n\t\t{{ENV_101}}\n\t{{CMD_102}}\n{{CMD_103}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 11,
+  "hash": "172e1852ea7adb84be30df4c32ef7c407875cafe1f638a84214fe28f224cb8b5",
+  "traducao": "Entendendo o movimento com o Teorema Fundamental do Cálculo{{CMD_104}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 12,
+  "hash": "66bae0329655dd5b8e1398a38c3058e83dcc48aa1dea2ac9180ffd63a301085a",
+  "traducao": "Sabemos que\n{{CMD_105}}\n\t{{CMD_106}} A derivada de uma função posição é uma função velocidade.\n\t{{CMD_107}} A derivada de uma função velocidade é uma função aceleração.\n{{CMD_108}}\nAgora considere integrais definidas de funções velocidade e\naceleração. Especificamente, se {{MATH_109}} é uma função velocidade, o que significa {{MATH_110}}?"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 13,
+  "hash": "dd4ce5860d8d78845b23dbfb2849f0d3791febca838ee337bde7972a58da423a",
+  "traducao": "O Segundo Teorema Fundamental do Cálculo afirma que\n{{MATH_111}}\nonde {{MATH_112}} é qualquer antiderivada de {{MATH_113}}. Como {{MATH_114}} é uma\nfunção velocidade, podemos escolher {{MATH_115}} como a função posição. Então, {{MATH_116}} mede uma {{CMD_117}}variação de posição{{CMD_118}}, ou {{CMD_119}}, ao longo do intervalo de tempo {{MATH_120}}."
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 14,
+  "hash": "74fdd21b6722a31ada56d8ae10eabf1e3908dbf077ff92df2c5fbfd73f94a267",
+  "traducao": "  Uma bola é lançada verticalmente para cima com velocidade dada por {{MATH_121}}, onde {{MATH_122}} é medido em {{MATH_123}}. Determine e interprete\n  {{MATH_124}}.\n    {{CMD_125}}\n      Usando o Segundo Teorema Fundamental do Cálculo, temos\n      {{ENV_126}}\n      Assim, se uma bola é lançada verticalmente para cima com velocidade\n      {{MATH_127}}\n      a altura da bola, {{MATH_128}} depois, estará {{MATH_129}} acima da\n      altura inicial. Observe que a bola {{CMD_130}}percorreu{{CMD_131}} uma distância muito\n      maior. Ela subiu até o ponto mais alto e está caindo, mas a\n      diferença entre sua altura em {{MATH_132}} e em {{MATH_133}} é {{MATH_134}}.\n    {{CMD_135}}\n{{CMD_136}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus.tex",
+  "ordem": 15,
+  "hash": "212b3836cf0166125e78befb63e7a6e57b4e0e7477cccb1d74683748be44daa8",
+  "traducao": "Agora sabemos que, para resolver certos tipos de problemas, aqueles que envolvem alguma forma de acumulação, ``basta'' encontrar uma\nantiderivada, substituir dois valores e subtrair. Infelizmente, encontrar antiderivadas pode ser bastante difícil. Embora exista um\npequeno número de regras que nos permitem calcular a derivada de qualquer função usual, não existem regras desse tipo para antiderivadas. Há\nalgumas técnicas que frequentemente se mostram úteis, mas nunca conseguiremos reduzir o problema a um processo completamente mecânico."
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals.tex",
+  "ordem": 0,
+  "hash": "8a7727191e0f2ebbeafcb750eac0a8ec59369c403c7f82e5c2852b03c63f787f",
+  "traducao": "Uma história de três integrais{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Neste ponto, temos três integrais ``diferentes''.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals.tex",
+  "ordem": 1,
+  "hash": "2fb88c7e5de494702861641cc904fb95874181dec57eb31be18d9612d26832f1",
+  "traducao": "Neste ponto, temos três ``integrais'' diferentes. Vamos ver se\nconseguimos esclarecer as diferenças."
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals.tex",
+  "ordem": 2,
+  "hash": "57ffca8ffb164482ccd8a5bb6e6cdae741816f0d950c0fb3dcdb0e880670efbb",
+  "traducao": "Integrais indefinidas{{CMD_7}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals.tex",
+  "ordem": 3,
+  "hash": "0bfadae96096adf5fa2201fc39d6c0232f615837432f2555415f175061124a55",
+  "traducao": "Uma integral indefinida, também chamada de {{CMD_8}}, calcula\nclasses de funções:\n{{MATH_9}}\nAqui não há limites de integração, e sua resposta terá um\n``{{MATH_10}}'' no final. Preste atenção à notação:\n{{CMD_11}}\n  {{ENV_12}}\n{{CMD_13}}\nOnde {{MATH_14}}.\n{{CMD_15}}{{COMMENT_16}}\n  Integrais indefinidas\n  {{CMD_17}}{{CMD_18}}têm{{CMD_19}}{{CMD_20}}não têm{{CMD_21}}{{CMD_22}} limites de\n  integração, e elas calculam {{CMD_23}}{{CMD_24}}área\n      com sinal{{CMD_25}}{{CMD_26}}uma antiderivada{{CMD_27}}{{CMD_28}}uma classe\n      de antiderivadas{{CMD_29}}{{CMD_30}}.\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals.tex",
+  "ordem": 4,
+  "hash": "d0968b6a815ab136b6050b683942bf4d47d26ed995a35d4d65f232823c53fc0f",
+  "traducao": "  Dois estudantes, digamos Devyn e Riley, estão trabalhando com a seguinte\n  integral indefinida:\n  {{MATH_32}}\n  Devyn calcula a integral como\n  {{MATH_33}}\n  e Riley calcula a integral como\n  {{MATH_34}}\n  Qual dos estudantes está certo?\n  {{CMD_35}}\n    {{CMD_36}}Devyn está certo{{CMD_37}}\n    {{CMD_38}}Riley está certo{{CMD_39}}\n    {{CMD_40}}Os dois estudantes estão certos{{CMD_41}}\n    {{CMD_42}}Nenhum dos dois está certo{{CMD_43}}\n  {{CMD_44}}\n  {{CMD_45}}\n    Os dois estudantes estão certos! A aparente discrepância vem do\n    fato de que o ``+C'' em cada caso é {{CMD_46}}diferente{{CMD_47}}!\n  {{CMD_48}}\n{{CMD_49}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals.tex",
+  "ordem": 5,
+  "hash": "4f20f8ca94f5b818a6093cab5032892012ce064e1d33385081d2e73e275fdbd2",
+  "traducao": "Funções acumulação{{CMD_50}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals.tex",
+  "ordem": 6,
+  "hash": "2c7350cbdb4eb33b9403568023d4503705d7d298d42900000bd20901f5a3d13a",
+  "traducao": "Uma {{CMD_51}}, também chamada de {{CMD_52}},\ncalcula a área acumulada:\n{{MATH_53}}\nEsta é uma função de {{MATH_54}} cuja derivada é {{MATH_55}}, com a propriedade\nadicional de que {{MATH_56}}. Preste atenção à notação:\n{{CMD_57}}\n  {{ENV_58}}\n{{CMD_59}}\nOnde {{MATH_60}}.\n{{CMD_61}}{{COMMENT_62}}\n  Funções acumulação {{CMD_63}}{{CMD_64}}têm{{CMD_65}}{{CMD_66}}não\n      têm{{CMD_67}}{{CMD_68}} limites de integração, e elas calculam\n  {{CMD_69}}{{CMD_70}}área com sinal{{CMD_71}}{{CMD_72}}uma antiderivada{{CMD_73}}{{CMD_74}}uma classe de antiderivadas{{CMD_75}}{{CMD_76}}.\n{{CMD_77}}\n{{CMD_78}}\n  Verdadeiro ou falso: existe uma função {{MATH_79}} tal que\n  {{MATH_80}}\n  {{CMD_81}}\n  {{CMD_82}}\n    {{CMD_83}}verdadeiro{{CMD_84}}\n    {{CMD_85}}falso{{CMD_86}}\n  {{CMD_87}}\n  {{CMD_88}}\n    Seja\n    {{MATH_89}}\n    esta é uma função acumulação e {{MATH_90}}, já que nenhuma área foi\n    acumulada ainda. No entanto, {{MATH_91}}. Logo, não pode existir tal\n    função {{MATH_92}}. Por outro lado, existe uma função {{MATH_93}} com\n     {{MATH_94}}\n     a saber, {{MATH_95}}. Essa sutileza vem do fato de que uma\n     função acumulação\n     {{MATH_96}}\n     fornece uma antiderivada {{CMD_97}}específica{{CMD_98}} de {{MATH_99}}, aquela que,\n     quando avaliada em {{MATH_100}}, vale zero.\n  {{CMD_101}}\n  {{CMD_102}}\n{{CMD_103}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals.tex",
+  "ordem": 7,
+  "hash": "86e18e73a1b35adf61a6e4ca11c8d72d44dcca05bb84a9c82fa1f0d4c91897a6",
+  "traducao": "Integrais definidas{{CMD_104}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals.tex",
+  "ordem": 8,
+  "hash": "5ab63a71a170495762ea3238f4ac96555e786fbd7c6e48b732163e687f7389c4",
+  "traducao": "Uma {{CMD_105}} calcula área com sinal:\n{{MATH_106}}\nAqui sempre temos limites de integração, e ambos são\nnúmeros. Além disso, integrais definidas têm valores definidos, a área\ncom sinal entre {{MATH_107}} e o eixo {{MATH_108}}. Preste atenção à notação:\n{{CMD_109}}\n  {{ENV_110}}\n{{CMD_111}}\nOnde {{MATH_112}}.\n{{CMD_113}}{{COMMENT_114}}\n  Integrais definidas {{CMD_115}}{{CMD_116}}têm{{CMD_117}}{{CMD_118}}não\n      têm{{CMD_119}}{{CMD_120}} limites de integração, e elas calculam\n  {{CMD_121}}{{CMD_122}}área com sinal{{CMD_123}}{{CMD_124}}uma antiderivada{{CMD_125}}{{CMD_126}}uma classe de antiderivadas{{CMD_127}}{{CMD_128}}.\n{{CMD_129}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_05.tex",
+  "ordem": 0,
+  "hash": "4dc6dbde6512e4f5636882ff080fbedfd15fc1e4fa45b684044fff16dc375676",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_05.tex",
+  "ordem": 1,
+  "hash": "505848f6d9933f359dfe1a19af03e6113e931b917605e9b621abd943572d7a53",
+  "traducao": "Use o Segundo Teorema Fundamental do Cálculo:"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_05.tex",
+  "ordem": 2,
+  "hash": "386bd199eda900c61f32347e402877087d6479b21b0ba4097785973130bfed67",
+  "traducao": "onde {{MATH_2}} é uma antiderivada de {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_06.tex",
+  "ordem": 0,
+  "hash": "4dc6dbde6512e4f5636882ff080fbedfd15fc1e4fa45b684044fff16dc375676",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_07.tex",
+  "ordem": 0,
+  "hash": "92f37a1fe35eb6dd7eef5f17ce5e15db9acb75b3df6cfd08c9594d43ceed365a",
+  "traducao": "Determine\n{{MATH_1}}\n{{CMD_2}}\nUse simetria!\n{{CMD_3}}\n{{CMD_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_08.tex",
+  "ordem": 0,
+  "hash": "4dc6dbde6512e4f5636882ff080fbedfd15fc1e4fa45b684044fff16dc375676",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_09.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_10.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_11.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_12.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_13.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_14.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_15.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_16.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_17.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_18.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_19.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_20.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_21.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_24.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_25.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_26.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_27.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "secondFundamentalTheoremOfCalculus/exercises/05_04_ex_29.tex",
+  "ordem": 0,
+  "hash": "23e54c77c378760306e8e08a447ca7bf6129d436baa9c86daa9a1df2ec7cbbc7",
+  "traducao": "Determine\n{{MATH_1}}"
+ }
+]

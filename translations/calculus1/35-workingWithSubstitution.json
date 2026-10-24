@@ -1,0 +1,266 @@
+[
+ {
+  "arquivo": "workingWithSubstitution/titlePage.tex",
+  "ordem": 0,
+  "hash": "180920ae7809f970298dc398464de8c76b3161813d4276f80fb306ead7a1fef1",
+  "traducao": "Trabalhando com substituição{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "workingWithSubstitution/titlePage.tex",
+  "ordem": 2,
+  "hash": "a72b92537d0d80b59fef2375eb5dcb56f6d8f4730c7e3f327dc2d8a601ea44f3",
+  "traducao": " Determinar quando uma função é uma composição de duas ou mais funções.\n\t{{CMD_4}} Calcular integrais indefinidas e definidas que exigem substituições complicadas.\n\t{{CMD_5}} Reconhecer padrões comuns nas substituições.\n\t{{CMD_6}} Calcular integrais indefinidas e definidas por meio de uma mudança de variáveis.\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/breakGround.tex",
+  "ordem": 0,
+  "hash": "0cd789e42982fb07e4ef8299e94574bf256b916597f2b671f18219e54633c695",
+  "traducao": "Integrais são quebra-cabeças!{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem como integrais difíceis são quebra-cabeças.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "workingWithSubstitution/breakGround.tex",
+  "ordem": 2,
+  "hash": "4085829bf68fa880c62d85296b4cb6c552b82e9a9a5f590f53f03e0477eb8ab6",
+  "traducao": " Ei, Riley, é só impressão minha ou integrais são meio divertidas?\n{{CMD_7}} Eu sempre me sinto realizada quando termino uma.\n{{CMD_8}} Eu sei! Além disso, mesmo que antiderivadas sejam difíceis,\n  sempre podemos conferir nosso trabalho calculando a derivada.\n{{CMD_9}} Demais!\n{{CMD_10}} Mas tem uma coisa me incomodando. Quando fazemos substituição,\n  temos que encontrar {{MATH_11}} e {{MATH_12}} tais que\n  {{MATH_13}}\n  Como escolhemos {{MATH_14}} e {{MATH_15}}?\n{{CMD_16}} Bom, nunca, jamais escolha {{MATH_17}}, isso não muda\n    nada!\n{{CMD_18}} E nunca, jamais escolha {{MATH_19}} como o integrando inteiro,\n  isso também não ajuda.\n{{CMD_20}} De algum modo, precisamos ``enxergar'' uma função ``aninhada'' dentro de\n  outra.\n{{CMD_21}} Não sei se existe um caminho fácil para fazer isso, acho\n  que vai exigir prática.\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/breakGround.tex",
+  "ordem": 3,
+  "hash": "c5d9371f14c0c3a7c7e26b88ba45083e390d8ec3fb956e9937f78917ec7f246f",
+  "traducao": "Nos problemas a seguir, vamos usar a fórmula de substituição\n{{MATH_23}}\nEmbora você possa usar um método um pouco diferente para calcular suas\nintegrais, as habilidades desenvolvidas ao responder aos problemas abaixo\nvão ajudar você em sua missão de conquistar o cálculo."
+ },
+ {
+  "arquivo": "workingWithSubstitution/breakGround.tex",
+  "ordem": 4,
+  "hash": "304383c246ded90b2556aa98a6996426f9a72281d5d1e5338d3f7268cf337386",
+  "traducao": "  Considere\n  {{MATH_24}}\n  se {{MATH_25}}, e\n  {{MATH_26}}\n  qual é {{MATH_27}}?\n  {{CMD_28}}\n    {{MATH_29}}\n  {{CMD_30}}\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/breakGround.tex",
+  "ordem": 5,
+  "hash": "004853f416849cfd22d16dbfa66256fc9dfa6f659f39da14cea6fb21e017bf61",
+  "traducao": "  Considere\n  {{MATH_32}}\n  se {{MATH_33}}, e\n  {{MATH_34}}\n  qual é {{MATH_35}}?\n  {{CMD_36}}\n    {{MATH_37}}\n  {{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/breakGround.tex",
+  "ordem": 6,
+  "hash": "6ea499976618bd4a0b3c4542314c5300c397664b017c78c077e61583f41a2166",
+  "traducao": "\tCom suas próprias palavras, explique por que Devyn e Riley afirmam que nunca devemos\n\tescolher {{MATH_40}} nem {{MATH_41}} como o integrando inteiro.\n\t{{CMD_42}}\n\t\tO objetivo da substituição é tornar a integral mais fácil de calcular.  Suas escolhas\n\t\tpara {{MATH_43}} e {{MATH_44}} devem tornar as coisas mais fáceis, não mais difíceis!\n\n\t\tA menos que a derivada de {{MATH_45}} seja {{MATH_46}}, escolher {{MATH_47}} como o integrando\n\t\tinteiro significa que não sobra nenhuma parte do integrando para ser\n\t\ta derivada de {{MATH_48}}.  Escolher {{MATH_49}} significa que {{MATH_50}}, ou seja,\n\t\tvocê não simplificou a integral em nada.\n\t{{CMD_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 0,
+  "hash": "754bda02bf75812998d277685480458fc976c760165ccc61fbaafa3a7d5ee7d0",
+  "traducao": "Trabalhando com substituição{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nExploramos problemas mais difíceis envolvendo substituição.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 1,
+  "hash": "6ed4ca9f5855167d702306ab474ceedcac27deb94bcc52893bb328361e49080c",
+  "traducao": "Começamos reenunciando a fórmula de substituição."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 2,
+  "hash": "e0cb3ebe5c2725446adb802acf4fd8b0cce6165b034752f48752e7bea3732ebc",
+  "traducao": "Se {{MATH_7}} é derivável no intervalo {{MATH_8}} e {{MATH_9}} é\nderivável no intervalo {{MATH_10}}, e se ambas têm derivadas contínuas, então\n{{MATH_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 3,
+  "hash": "e1d4cb718dade52af15a9ca2d4ca963e6d4e8da40e362cb4ca282bc64cde6958",
+  "traducao": "Vamos resolver mais alguns exemplos."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 4,
+  "hash": "03212da0e22cc7b881d41ee9bfd93a0d648bca23e0082359e7ad3bf8f7782560",
+  "traducao": "Calcule:\n{{MATH_13}}\n{{CMD_14}}\n  Seja\n  {{MATH_15}}\n  calculando {{MATH_16}}, encontramos\n  {{MATH_17}}\n  e, isolando {{MATH_18}}, obtemos\n  {{MATH_19}}\n  Agora\n{{ENV_20}}\n{{CMD_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 5,
+  "hash": "370ffbb8fd3fe3f83074ebf824144f21e8f381d9a0941f683d374c7fa80173b0",
+  "traducao": "O próximo exemplo exige uma técnica nova."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 6,
+  "hash": "1fd588da24df359176ea13e131c84b4c758c97afce0f3419847051597be1243d",
+  "traducao": "  Calcule:\n{{MATH_23}}\n{{CMD_24}}\nAqui não é evidente que a regra da cadeia esteja envolvida. Porém, se\nela estivesse envolvida, talvez um bom chute para {{MATH_25}} fosse\n{{MATH_26}}\ne então\n{{ENV_27}}\nAgora consideramos a integral que estamos tentando calcular\n{{MATH_28}}\ne substituímos usando nosso trabalho acima. Escreva comigo\n{{ENV_29}}\nPorém, não podemos continuar enquanto cada {{MATH_30}} não for substituído. Sabemos que\n{{ENV_31}}\nentão agora podemos substituir {{MATH_32}}\n{{MATH_33}}\nNeste ponto, estamos perto de terminar. Escreva\n{{ENV_34}}\nAgora lembre-se de que {{MATH_35}}. Logo, nossa resposta final é\n{{MATH_36}}\n{{CMD_37}}\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 7,
+  "hash": "0171b881d27f85aefc76c6927a1e48d72e114954f766e5cbde7ad37e6a38b428",
+  "traducao": "Às vezes não é óbvio como uma fração poderia ter sido obtida\nusando a regra da cadeia.  Um truque comum, porém, é substituir o\n{{CMD_39}}denominador{{CMD_40}} da fração.  Como todo truque, essa técnica\nnem sempre funciona. Mesmo assim, os dois próximos exemplos mostram como\nessa técnica pode ser usada."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 8,
+  "hash": "0501e1fcf4eac8c9e9f307407f6fd79b7be48ed128c2dd4107b0c9d766d9f25b",
+  "traducao": "Calcule:\n{{MATH_41}}\n{{CMD_42}}\nSubstituímos\n{{MATH_43}}\ne vemos imediatamente que\n{{ENV_44}}\nMas isso se cancela perfeitamente com o numerador!\nAssim, temos que\n{{ENV_45}}\n{{CMD_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 9,
+  "hash": "f6a4bac75772f871dc64525071957ff5773f6a3934657dc7984f585b486dac0f",
+  "traducao": "Observe que\n{{MATH_48}}\nquando {{MATH_49}}.\nAssim, de um modo bastante artificial, acabamos de demonstrar"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 10,
+  "hash": "dbe0a0f9706c3be282b745c01f82bd6ec7a6ef1e3c94e46d291e374672564f30",
+  "traducao": "Repare na variável deste próximo exemplo."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 11,
+  "hash": "96d3ad50eeb46053ce3746d70da471c2cfe76cd87482abf2ce352e0fb411624e",
+  "traducao": "Calcule:\n{{MATH_50}}\n{{CMD_51}}\nQueremos substituir {{MATH_52}}.\nMas a variável ``{{MATH_53}}'' já foi usada{{CMD_54}} ESSA NÃO!\nSem pânico! Podemos substituir usando a variável que quisermos.\nEm particular, vamos usar ``{{MATH_55}}'' neste problema.\nEntão fazemos\n{{MATH_56}}\ne, portanto,\n{{ENV_57}}\nLogo\n{{ENV_58}}\n{{CMD_59}}\nLembre-se:\n{{MATH_60}}\nAssim, podemos chamar uma variável {{MATH_61}} por qualquer outro nome e ``ela teria o mesmo doce perfume\"."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 12,
+  "hash": "a9659dc3ad5a3e5922e2b6920414cf3e12ef39520e3ee5690ce8d5fab704c66e",
+  "traducao": "Calcule:\n{{MATH_62}}\n{{CMD_63}}\nComeçamos escrevendo\n{{ENV_64}}\nEm seguida fazemos a substituição\n{{MATH_65}}\ne, assim,\n{{ENV_66}}\nEntão\n{{ENV_67}}\nMas este é o mesmo problema do Exemplo {{CMD_68}}!\nE, portanto, sabemos que\n{{ENV_69}}\n{{CMD_70}}\n{{CMD_71}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 13,
+  "hash": "b6cf81816e11f0c7923ea93168e7f1fad76ff51681f7d37cb6dfdf440fc67691",
+  "traducao": "Acabamos de demonstrar"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 14,
+  "hash": "a57af4f5cb1f58f409e6248b82373b4d4052f77aa2f9ea011f7b6b0b0b36a365",
+  "traducao": "Observe que, no Exemplo {{CMD_72}}, poderíamos em vez disso ter feito a substituição\n{{MATH_73}}\nIsso nos teria levado à resposta mais rapidamente e sem usar o Exemplo {{CMD_74}}.\nVocê está convidado a fazer essas contas por conta própria agora mesmo!"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 15,
+  "hash": "6f27b2c08af51e1ce62abc206d445cbb89f397b6eecb61b01851c3975b2695b0",
+  "traducao": "Encerramos esta seção com mais dois exemplos difíceis."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 16,
+  "hash": "6e67c47a72a2fe0f3be5cb552239fc02aa72cb45efa0b855ab3bf0cb983eda45",
+  "traducao": "Calcule:\n{{MATH_75}}\n{{CMD_76}}\nTalvez a maior chave para resolver este problema seja lembrar que\n{{MATH_77}}\nAssim, podemos reescrever o problema\n{{MATH_78}}\nAgora, se fizermos a substituição {{MATH_79}}, temos que\n{{ENV_80}}\ne\n{{ENV_81}}\nMas agora voltamos ao Exemplo {{CMD_82}} e, portanto, sabemos que\n{{ENV_83}}\n{{CMD_84}}\n{{CMD_85}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 17,
+  "hash": "0db8323969cfc12f1a70679f1341c9c6871ea6db660114f9a82f0270bce0a644",
+  "traducao": "Novamente, no exemplo anterior poderíamos em vez disso ter feito a substituição\n{{MATH_86}}\ne evitado usar o Exemplo {{CMD_87}}.\nEm geral, sempre que você faz duas substituições sucessivas em um problema, poderia ter feito apenas uma substituição.\nEssa única substituição é a {{CMD_88}}composição{{CMD_89}} das duas substituições originais.\nMas às vezes pode não ser óbvio fazer uma única substituição esperta, e então duas substituições fazem mais sentido.\nO próximo exemplo ajuda a ilustrar isso."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInWorkingWithSubstitution.tex",
+  "ordem": 18,
+  "hash": "f6e2abff40c5da73bf45d0255012504a8992687dfe2487740a7b0be392efb6ae",
+  "traducao": "Calcule:\n{{MATH_90}}\n{{CMD_91}}\nEmbora não seja nada óbvio, vamos tentar a substituição\n{{MATH_92}}\nEntão\n{{ENV_93}}\ne, assim,\n{{ENV_94}}\nA partir daqui, fazemos agora a segunda (e mais óbvia) substituição\n{{MATH_95}}\nEntão {{MATH_96}}, e\n{{ENV_97}}\nLogo\n{{ENV_98}}\n{{CMD_99}}\n{{CMD_100}}\n{{CMD_101}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 0,
+  "hash": "b35284a7ef08422df374b9e43f20b1312f51d3ff9980672c792f3728b9841a97",
+  "traducao": "O teorema trabalho-energia{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  A substituição recebe um significado físico.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 1,
+  "hash": "51caa50f57cbaee56bc4c1d07aa94064846119a43a6130a23f288252977e363a",
+  "traducao": "Na física, tomamos grandezas mensuráveis do mundo real e\ntentamos encontrar relações significativas entre elas. Um exemplo básico\ndisso seria o conceito físico de {{CMD_7}}. Uma força aplicada a um\nobjeto altera o movimento desse objeto. Mas a questão é que, em um\nnível básico,\n{{MATH_8}}\ne, embora possamos dar uma interpretação física a essa definição\naritmética, no fim das contas força é simplesmente ``massa vezes\naceleração''. A unidade de força no SI é o {{CMD_9}}, definido como\n{{MATH_10}}\n{{CMD_11}}\n  Para ter uma noção do que é um newton, considere o seguinte: se uma maçã tem\n  massa de {{MATH_12}}, que força essa maçã exerceria sobre a sua mão\n  devido à aceleração da gravidade?\n  {{CMD_13}}\n  {{MATH_14}}\n  {{CMD_15}}\n{{CMD_16}}\n  Logo, o ``peso'' de uma maçã é aproximadamente {{MATH_17}}.\n{{CMD_18}}\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 2,
+  "hash": "9d69303489819566740f2f62bd3d9dd775111e24677383a1f1305ce060202d37",
+  "traducao": "De modo parecido, a ideia de {{CMD_20}} é a ``energia'' que\nos objetos têm por estarem em movimento. Ela é definida pela fórmula\n{{MATH_21}}\nA unidade de energia no SI é o {{CMD_22}}, definido como\n{{MATH_23}}\nPara ter uma noção do ``tamanho'' de um joule, considere o seguinte: se uma maçã\ntem massa de {{MATH_24}} e é solta de uma altura de\n{{MATH_25}}, então aproximadamente {{MATH_26}} joule de energia é liberado quando\nela atinge o chão. Vamos ver se conseguimos explicar por que isso é verdade."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 3,
+  "hash": "8bb345ee816144f74ecac6a4f5c0f9c1e2a961b94807d2cb05ff787e34be0386",
+  "traducao": "  Se uma maçã tem massa de {{MATH_27}} e é solta de uma\n  altura de {{MATH_28}}, quanta energia é liberada quando ela atinge o\n  chão? Suponha que a aceleração da gravidade seja\n  {{MATH_29}}.\n  {{CMD_30}}\n    Primeiro precisamos encontrar a velocidade com que a maçã atinge o\n    chão. Seja {{MATH_31}} a aceleração no instante {{MATH_32}} e {{MATH_33}}\n    a velocidade. Como {{MATH_34}}, sabemos que\n    {{ENV_35}}\n    Agora precisamos saber quanto tempo a maçã leva para atingir o\n    chão depois de ser solta de uma altura de {{MATH_36}} metro. Para isso,\n    vamos precisar de uma fórmula para a posição. Aqui {{MATH_37}}, então vamos precisar\n    usar uma integral indefinida:\n    {{ENV_38}}\n    Como {{MATH_39}}, escreva comigo\n    {{MATH_40}}\n    logo {{MATH_41}} e {{MATH_42}}. Resolver a equação\n    {{MATH_43}}\n    para {{MATH_44}} nos dá o instante em que a maçã atinge o chão. Escreva comigo\n    {{ENV_45}}\n    Então a maçã atinge o chão após {{MATH_46}} segundos.\n    Finalmente, a fórmula da energia cinética é\n    {{ENV_47}}\n    Ah! Então a energia cinética liberada por uma maçã solta de uma\n    altura de {{MATH_48}} metro é aproximadamente {{MATH_49}} joule.\n  {{CMD_50}}\n{{CMD_51}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 4,
+  "hash": "7543dad438f8fa52685c31efaec70b6e9373d573a26d1e195b28c419051e292d",
+  "traducao": "Finalmente, {{CMD_52}} é definido como força acumulada ao longo de uma\ndistância. Observe que deve haver alguma força {{CMD_53}}na direção{{CMD_54}} (ou\nna direção oposta) em que o objeto está se movendo para que isso seja considerado\n{{CMD_55}}trabalho{{CMD_56}}.\n{{CMD_57}}\n  Quais das alternativas a seguir são exemplos em que trabalho desse tipo está sendo realizado?\n  {{CMD_58}}\n    {{CMD_59}}estudar cálculo{{CMD_60}}\n    {{CMD_61}}um carro freando até parar ao longo de uma distância de {{MATH_62}}{{CMD_63}}\n    {{CMD_64}}um jovem matemático escalando uma montanha{{CMD_65}}\n    {{CMD_66}}um jovem matemático parado, segurando um livro de cálculo de {{MATH_67}} páginas por {{MATH_68}} minutos{{CMD_69}}\n    {{CMD_70}}um jovem matemático andando por aí com um livro de cálculo de {{MATH_71}} páginas{{CMD_72}}\n    {{CMD_73}}um jovem matemático levantando um livro de cálculo de {{MATH_74}} páginas{{CMD_75}}\n  {{CMD_76}}\n  {{CMD_77}}\n    Estudar cálculo pode ``parecer'' trabalho, mas não é\n    (em geral) um exemplo de força acumulada ao longo de uma distância\n    e, portanto, nenhum trabalho é realizado."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 5,
+  "hash": "808b3ebbcc60736b60eb8e164c254b41100867490b1b4ca91617ec67ba51aad5",
+  "traducao": "    Por outro lado, um carro freando é uma mudança de movimento e,\n    portanto, uma força é aplicada. Como essa força é aplicada ao longo de uma\n    distância, há trabalho realizado."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 6,
+  "hash": "a60e9556fd70aaf08cd7b1fcf0797d8c45fdef49035c4a729c0989a76c8c36b5",
+  "traducao": "    Escalar uma montanha também é um exemplo de trabalho, pois a pessoa aplica\n    força para vencer a aceleração da gravidade ao longo da\n    distância que está escalando."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 7,
+  "hash": "aaaa89591b53e95a0cebe0edeeb337a9613d19249cf171450528f3b323e76457",
+  "traducao": "    Nenhum trabalho é realizado ao segurar um livro de cálculo, pois não há\n    força acumulada ao longo de uma distância."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 8,
+  "hash": "3398da6760bcb397d0ed796ec80fa9f7d665b394b775c9dcc8fd17e53519caf9",
+  "traducao": "    Também não há trabalho realizado quando alguém anda por aí\n    com um livro de cálculo; isso ocorre porque a ``força'' está em uma\n    direção perpendicular ao movimento."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 9,
+  "hash": "763e0d95264e7c15dd7189b08001be5798e55d7ae7e65aaf9df063c2db9549d8",
+  "traducao": "    Finalmente, quando alguém levanta um livro de cálculo, está movendo o\n    livro contra a força devida à aceleração da\n    gravidade. Logo, há trabalho realizado.\n  {{CMD_78}}\n{{CMD_79}}\nPodemos escrever a definição de trabalho na linguagem do cálculo como\n{{MATH_80}}\nA unidade de trabalho no SI também é o {{CMD_81}}. Para ajudar a entender isso,\n{{MATH_82}} joule é aproximadamente o trabalho realizado quando você levanta uma\nmaçã por um metro."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 10,
+  "hash": "aaf8d8ba4f7793128c919cd7bd8898beac0d0b897ba49c048569aa98ce57f6d3",
+  "traducao": "Vamos ver novamente por que isso é verdade.\n{{CMD_83}}\n  Se uma maçã tem massa de {{MATH_84}}, quanto trabalho é necessário\n  para levantar essa maçã {{MATH_85}} metro?  Suponha que a aceleração da\n  gravidade seja {{MATH_86}}.\n  {{CMD_87}}\n    Bem, o trabalho é calculado por\n    {{MATH_88}}\n    Como força é massa vezes aceleração,\n    {{ENV_89}}\n    Assim, nossa integral se torna\n    {{ENV_90}}\n    Ah! Então levantar uma maçã {{MATH_91}} metro requer {{MATH_92}} joules de\n    trabalho. O sinal é negativo porque estamos levantando a maçã {{CMD_93}}contra{{CMD_94}}\n    a força gravitacional.\n  {{CMD_95}}\n{{CMD_96}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 11,
+  "hash": "5f5ffe899f20e3078a7679ca3d014bb265e96b8365154b80f323d2b48aa5458d",
+  "traducao": "Agora temos uma pergunta:\n{{CMD_97}}\n {{CMD_98}}Por que trabalho e energia cinética têm as mesmas unidades?{{CMD_99}}\n{{CMD_100}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 12,
+  "hash": "b3ed98a2a36b8683eeef8887aa6b0971a4e659cdb213f226ce63779a11a52f5f",
+  "traducao": "Uma maneira de responder a isso é por meio do {{CMD_101}}teorema trabalho-energia{{CMD_102}}."
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 13,
+  "hash": "e6b4740a9e7e1692865f2cb949cc543a6c89bc73983b3c4c967cf8a6f6ebff54",
+  "traducao": "  Suponha que um objeto de massa {{MATH_103}} esteja se movendo ao longo de uma\n  reta. Se {{MATH_104}} e {{MATH_105}} são as posições inicial e final,\n  {{MATH_106}} e {{MATH_107}} são as velocidades inicial e final, e\n  {{MATH_108}} é a força que atua sobre o objeto em cada posição,\n  então\n  {{MATH_109}}\n  {{CMD_110}}\n    Primeiro precisamos deixar clara toda a nossa notação. Sejam:\n    {{CMD_111}}\n    {{CMD_112}} {{MATH_113}} a posição em função do tempo,\n    {{CMD_114}} {{MATH_115}} a velocidade em função do tempo,\n    {{CMD_116}} {{MATH_117}} a aceleração em função da posição,\n    {{CMD_118}} {{MATH_119}} o instante inicial,\n    {{CMD_120}} {{MATH_121}} o instante final,\n    {{CMD_122}}\n    então também temos que\n    {{CMD_123}}\n    {{CMD_124}} {{MATH_125}} representa a posição inicial, {{MATH_126}},\n    {{CMD_127}} {{MATH_128}} representa a posição final, {{MATH_129}},\n    {{CMD_130}} {{MATH_131}} representa a velocidade inicial, {{MATH_132}},\n    {{CMD_133}} {{MATH_134}} representa a velocidade final, {{MATH_135}}.\n    {{CMD_136}}\n    Agora escreva comigo,\n    {{MATH_137}}\n    aqui estamos trabalhando com funções da distância. Vamos usar a\n    fórmula de substituição,\n    {{CMD_138}}\n    {{ENV_139}}\n  {{CMD_140}}\n    transformando da direita para a esquerda, para ver que\n    {{MATH_141}}\n    e agora estamos trabalhando com funções do tempo. Como {{MATH_142}}, podemos escrever\n    {{MATH_143}}\n    e agora lembre-se de que {{MATH_144}}, então\n    {{MATH_145}}\n    Porém, {{MATH_146}}, então, reorganizando, temos\n    {{MATH_147}}\n    Agora aplicamos a fórmula de substituição de novo, desta vez transformando da esquerda para a direita\n    {{CMD_148}}\n    {{ENV_149}}\n    {{CMD_150}}\n    e assim vemos que\n    {{MATH_151}}\n    e estamos trabalhando com funções da velocidade.  Por fim, fazendo\n    {{MATH_152}} e {{MATH_153}}, podemos calcular essa integral,\n    {{ENV_154}}\n  {{CMD_155}}\n{{CMD_156}}"
+ },
+ {
+  "arquivo": "workingWithSubstitution/digInTheWorkEnergyTheorem.tex",
+  "ordem": 14,
+  "hash": "d2676d1681ac2b7686ed048188cb232483bed1d2be660e2988b2d6862d22f11b",
+  "traducao": "O teorema trabalho-energia diz que:\n{{CMD_157}}\n  {{ENV_158}}\n{{CMD_159}}\nIsso pode ser interpretado assim:\n{{CMD_160}}\n  {{CMD_161}}{{CMD_162}}A {{CMD_163}} {{CMD_164}} {{CMD_165}} é a {{CMD_166}}.{{CMD_167}}\n{{CMD_168}}\nAlém disso, isso responde à nossa pergunta inicial sobre por que trabalho e energia\ncinética têm as mesmas unidades.  Em essência, a energia alimenta o trabalho."
+ }
+]

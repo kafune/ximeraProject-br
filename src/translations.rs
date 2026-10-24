@@ -146,8 +146,12 @@ pub fn localize_protected(map: &ProtectedMap, placeholder: &Placeholder) -> Stri
         return translated.clone();
     }
     match placeholder.kind {
-        PlaceholderKind::Math | PlaceholderKind::Environment => {
-            localize_text_commands(&placeholder.original, map)
+        PlaceholderKind::Math => localize_text_commands(&placeholder.original, map),
+        // Figures carry labels (`\\node ... {text}`) and definitions of their
+        // own; whole snippets go first so a sentence is matched before the
+        // `\\textbf{...}` inside it is localized word by word.
+        PlaceholderKind::Environment => {
+            localize_text_commands(&localize_snippets(&placeholder.original, map), map)
         }
         _ => placeholder.original.clone(),
     }
@@ -203,6 +207,27 @@ fn balanced_close(text: &str, open: usize) -> Option<usize> {
         i += 1;
     }
     None
+}
+
+/// Substitui, num trecho de LaTeX bruto (um ambiente protegido ou o espaço
+/// entre dois segmentos), cada entrada do mapa cujo original é um comando
+/// inteiro (começa com `\\`) ou um argumento inteiro entre chaves (começa com
+/// `{`), como o rótulo de um `\\node`. Entradas de texto solto (conteúdo de
+/// `\\text{...}`) não se aplicam aqui.
+pub fn localize_snippets(source: &str, map: &ProtectedMap) -> String {
+    let mut result = source.to_owned();
+    let mut keys: Vec<&String> = map
+        .keys()
+        .filter(|key| {
+            (key.starts_with('\\') || key.starts_with('{')) && result.contains(key.as_str())
+        })
+        .collect();
+    // Longer snippets first, so `\\dfn{limit}` never pre-empts `\\dfn{limit at infinity}`.
+    keys.sort_by(|a, b| b.len().cmp(&a.len()).then_with(|| a.cmp(b)));
+    for key in keys {
+        result = result.replace(key.as_str(), &map[key]);
+    }
+    result
 }
 
 /// Os mesmos tokens com os originais localizados, prontos para `reconstruct`.
@@ -366,6 +391,30 @@ mod tests {
                 &placeholder(PlaceholderKind::Math, "$\\text{unclosed$")
             ),
             "$\\text{unclosed$"
+        );
+    }
+
+    #[test]
+    fn localizes_whole_snippets_only_in_loose_latex() {
+        let map: ProtectedMap = [
+            (
+                "\\begin{theorem}[Rolle's Theorem]",
+                "\\begin{theorem}[Teorema de Rolle]",
+            ),
+            ("\\dfn{limit}", "\\dfn{limite}"),
+            ("\\dfn{limit at infinity}", "\\dfn{limite no infinito}"),
+            ("{slope of the}", "{inclinação da}"),
+            ("and", "e"),
+        ]
+        .into_iter()
+        .map(|(a, b)| (a.to_string(), b.to_string()))
+        .collect();
+        assert_eq!(
+            localize_snippets(
+                "\\begin{theorem}[Rolle's Theorem]\\index{and} \\dfn{limit at infinity} \\node at (1,2) {slope of the};",
+                &map
+            ),
+            "\\begin{theorem}[Teorema de Rolle]\\index{and} \\dfn{limite no infinito} \\node at (1,2) {inclinação da};"
         );
     }
 

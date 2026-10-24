@@ -1,0 +1,530 @@
+[
+ {
+  "arquivo": "substitution/titlePage.tex",
+  "ordem": 0,
+  "hash": "7f1ba7e7d623c69eaff86b9e7958d13303f8f9bd89e81545d4b3b9d1a0353224",
+  "traducao": "A ideia de substituição{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "substitution/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "substitution/titlePage.tex",
+  "ordem": 2,
+  "hash": "9c1dce9237f599a6656adfdcc69476689df67b1dd36d42ef55bf143ffacd35b7",
+  "traducao": " Desfazer a regra da cadeia.\n\t{{CMD_4}} Calcular integrais indefinidas (antiderivadas) usando substituição básica.\n\t{{CMD_5}} Calcular integrais definidas usando substituição básica.\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "substitution/breakGround.tex",
+  "ordem": 0,
+  "hash": "1c45387ab571d2f8739ab889b4229833a8f45ccf8725719de10ff3e20c279ce3",
+  "traducao": "Geometria e substituição{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois estudantes pensam na substituição de forma geométrica.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "substitution/breakGround.tex",
+  "ordem": 1,
+  "hash": "0f2aac58fcb16f42a8b27f76b3396277671806c8ba40497491979af0a2346f9b",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "substitution/breakGround.tex",
+  "ordem": 2,
+  "hash": "5dcc22e04772d84d7943df1676f4cd896052d90e28cc8b2f2e4cc176c1e2ebf8",
+  "traducao": " Riley! A gente devia conseguir calcular algumas integrais\n  geometricamente usando transformações de funções.\n{{CMD_7}} Parece uma ideia legal. Talvez, como sabemos que o\n  gráfico de {{MATH_8}} é um semicírculo, obtemos uma elipse\n  definida em {{MATH_9}} simplesmente esticando o gráfico de {{MATH_10}} por um fator\n  de {{MATH_11}} na horizontal. A equação dessa elipse seria\n  {{MATH_12}}\n{{CMD_13}} Exatamente! Então, como sabemos que\n  {{MATH_14}}\n  geometricamente{{CMD_15}}\n{{CMD_16}} E sabemos que a área sob {{MATH_17}} em {{MATH_18}} é\n  o dobro da área sob {{MATH_19}}{{CMD_20}}\n{{CMD_21}} Devemos ter\n  {{MATH_22}}\n{{CMD_23}} Falamos juntos!\n{{CMD_24}} É como se a gente tivesse esticado todo o nosso\n  sistema de coordenadas, e isso nos ajudou a resolver uma integral.\n{{CMD_25}} Nesse caso, tudo foi esticado por um fator constante\n  de {{MATH_26}} na direção horizontal. Será que conseguiríamos\n  dizer algo útil sobre casos em que esticamos o eixo {{MATH_27}}\n  por uma quantidade diferente em cada ponto?\n{{CMD_28}} Uau, essa ideia é bem maluca."
+ },
+ {
+  "arquivo": "substitution/breakGround.tex",
+  "ordem": 3,
+  "hash": "3c4aa493438de20a62c535c33ebd017dd7b432632d5104283c9201fe3b6f8186",
+  "traducao": "  Parece muito difícil.\n  Como as derivadas medem quanto uma função estica um pedacinho\n  do domínio, talvez a derivada entre em jogo aqui?\n{{CMD_29}} Hmmmm, mas não vejo exatamente como. Talvez devêssemos perguntar\n  ao nosso monitor sobre isso?\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "substitution/breakGround.tex",
+  "ordem": 4,
+  "hash": "aa10a4e1d6a749804696b9b5abc9d8eb0a1522ebae7b6cb4bf7567a5fb69d0b9",
+  "traducao": "  Digamos que saibamos que\n  {{MATH_31}}\n  Então, usando essa ideia de transformação, podemos calcular\n  {{MATH_32}}\n  se {{MATH_33}} e {{MATH_34}}. O valor da integral nesse\n  intervalo é {{MATH_35}}.\n  {{CMD_36}}\n    Como estamos ``comprimindo'' o integrando, a integral tem valor\n    {{MATH_37}}. Para refletir: como mudamos o integrando de modo\n    que as duas integrais acima sejam iguais?\n  {{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 0,
+  "hash": "b22df9af3955216fd16d1f92944e2d01702fa28f97ca286384f64cbc5ccc811d",
+  "traducao": "A ideia da substituição{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Aprendemos uma nova técnica, chamada substituição, para nos ajudar a resolver\n  problemas envolvendo integração.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 1,
+  "hash": "e2a11ebbea5c798a7e080dd23feb585a0a4f2e824b93909ba0aeb26da00b0dc7",
+  "traducao": "Calcular antiderivadas não é tão fácil quanto calcular derivadas.\nUm dos problemas é que a regra da cadeia pode ser difícil de ``desfazer''.  Temos\num método geral chamado ``integração por substituição'' que\najuda, em certa medida, com essa dificuldade."
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 2,
+  "hash": "d8a18729809b398e139c7124b5c7376f6e2819edbd339b6183cc0108acda3255",
+  "traducao": "Se as funções forem deriváveis, podemos aplicar a regra da cadeia e obter\n{{MATH_7}}\nSe as derivadas forem contínuas, podemos usar essa igualdade para calcular uma integral definida. A saber,\n{{ENV_8}}\nPor outro lado, também é verdade que\n{{ENV_9}}\n Como os lados direitos dessas igualdades são iguais,  os lados esquerdos também devem ser iguais. Então, segue que\n\n{{MATH_10}}"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 3,
+  "hash": "300dda621e7d6109c6c21bbf4932a1769b9dd098a13dbc3cf589b3a6e1241f65",
+  "traducao": "Essa observação simples  nos leva ao teorema a seguir."
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 4,
+  "hash": "dae35eb8ffac2e91cb2db13c9bcff373dd02ad0922aa4f905b2c35283dc5d9dc",
+  "traducao": "\tSeja {{MATH_11}} a derivada de uma  função {{MATH_12}} e seja {{MATH_13}} a derivada de uma função {{MATH_14}}. Se {{MATH_15}} é contínua\n\tno intervalo {{MATH_16}} e  {{MATH_17}} é contínua no intervalo {{MATH_18}}, então\n\t{{MATH_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 5,
+  "hash": "7d57f5a5046633e25397aa2d197f8413ce067c95d29adf1adf38065ca2edbda2",
+  "traducao": "A integral da direita parece ser muito mais simples do que a integral original.\nEntão, ao calcular uma integral difícil,  tentamos aplicar esse teorema e substituir a integral original por uma mais simples.\n Podemos fazer isso desde que as condições do teorema sejam satisfeitas."
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 6,
+  "hash": "6fb4efb991167386e07ee2732309bbcf85dfe6391643b77418b6dbb7819657f8",
+  "traducao": "Vamos aplicar a Fórmula de Substituição para Integrais (FSI)  ao exemplo a seguir."
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 7,
+  "hash": "3f9738ef1496358bf9518b7a0e3951feb031bacb07d617fb65b4bd67f02a1430",
+  "traducao": "Calcule:\n{{MATH_21}}\n{{CMD_22}}\nPor que achamos que a FSI pode ser útil neste exemplo?"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 8,
+  "hash": "59038be3688110e784f8fab6a4bf82399dbd386dfaa6ab22a78874d6acfeda39",
+  "traducao": "Essa integral tem a estrutura\n{{MATH_23}}\nde modo que possamos aplicar a FSI?"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 9,
+  "hash": "2b34375ca3f9aef393caa53c4892caeb3ceb35e85056e57fca2a5971d0164fe0",
+  "traducao": "Fazemos {{MATH_24}}, de modo que {{MATH_25}}, e observamos que"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 10,
+  "hash": "e190365866fb411f055a2eef830c152e2bf5db0f689edfe406e6c5559af3cb0a",
+  "traducao": "Assim, escrevemos a integral em uma forma adequada para a aplicação da FSI. Portanto, podemos colocar {{MATH_26}} no lugar de {{MATH_27}} e {{MATH_28}} no lugar de {{MATH_29}} e escrever"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 11,
+  "hash": "7460f71aec29c2a0e6e9646738f4d7cd68f0342f92ca159decca55aa7ca5eebe",
+  "traducao": "Agora, calculamos as extremidades:\n{{ENV_30}}\nPodemos calcular facilmente a última integral\n{{MATH_31}}\nEm resumo,"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 12,
+  "hash": "ef3768c5f673e3e1132265317c490b703773ab6528835e54224e1ffa3a03188c",
+  "traducao": "  A figura abaixo ilustra as duas integrais.\n{{CMD_32}}\n  {{ENV_33}}\n  {{ENV_34}}\n{{CMD_35}}\nAs duas áreas sombreadas na figura, {{MATH_36}} e {{MATH_37}}, parecem ser iguais,\ne isso confirma o que foi estabelecido antes por meio do cálculo.\n\n\nPortanto, sempre que nos deparamos com o problema de calcular uma integral difícil, tentamos  substituí-la por  uma mais simples, desde que  as duas  integrais representem a mesma área líquida."
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 13,
+  "hash": "272e3ace25d7939cf2e17412ec1b048d050d8f7e9cb673a420511477ac373d1b",
+  "traducao": "Podemos resolver um problema como esse de um modo um pouco\ndiferente. Vamos fazer o mesmo exemplo de novo, mas desta vez pensando em termos\nde diferenciais."
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 14,
+  "hash": "e1aa88536a8faef48ad1c02f458cc2473e55312cb1933c5fe42abc7acf5d6e44",
+  "traducao": "\tCalcule:\n\t{{MATH_38}}\n\t{{CMD_39}}\n\t\tAqui vamos fazer\n\t\t{{MATH_40}}\n\t\t Então\n\t\t {{MATH_41}}\n\t\tAqui, estamos pensando em termos de diferenciais. Podemos isolar {{MATH_42}} para obter\n\t\t{{MATH_43}}\n\n\t\tUsando essa igualdade, podemos escrever\n\n\t\t{{ENV_44}}\n\t\tObserve que substituímos a nova variável {{MATH_45}} tanto no integrando quanto nos limites de integração.\n\t\tQuando fazemos a substituição, precisamos atualizar os limites de integração, reescrevendo-os em termos da nova variável de substituição.\n\n\t\tA partir daqui, podemos continuar como fizemos antes e escrever\n\t\t{{MATH_46}}\n\t{{CMD_47}}\n{{CMD_48}}"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 15,
+  "hash": "d98a3711592f586ff544c218fef8209a43bf218a85910d8c4e5eb6052829f911",
+  "traducao": "Por fim, às vezes queremos simplesmente lidar com a antiderivada por\nsi só.  Vamos repetir o exemplo mais uma vez para demonstrar essa abordagem."
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 16,
+  "hash": "06480ebbaf8e1f280403e347ce2a074fdc966e7b3bf185fd4ae05bee0132d187",
+  "traducao": "\tCalcule:\n\t{{MATH_49}}\n\t{{CMD_50}}\n\t\tPodemos aplicar o Segundo Teorema Fundamental do Cálculo e, para isso, precisamos primeiro calcular uma integral indefinida.\n\t\t{{MATH_51}}\n\n\t\tComo antes, fazemos {{MATH_52}} e calculamos {{MATH_53}},\n\t\t pensando em termos de diferenciais. Agora vemos que\n\t\t{{MATH_54}}\n\t\tLogo\n\t\t{{MATH_55}}\n\t\tIsso não parece certo, pois  precisamos encontrar uma antiderivada da função {{MATH_56}} e nosso resultado é uma função de {{MATH_57}}.\n\t\tPodemos corrigir isso facilmente, bastando substituir {{MATH_58}} por {{MATH_59}}.\n\t\tPortanto,\n\t\t{{MATH_60}}\n\t\tFinalmente, podemos aplicar o STFC\n\t\t{{ENV_61}}\n\t{{CMD_62}}\n{{CMD_63}}\nNeste caso, como usamos a substituição para encontrar a integral indefinida, não precisamos modificar os limites de integração ao\ncalcular a integral definida. Porém, tivemos o passo extra de reescrever a antiderivada em termos da variável original.\nSe você seguir esse método, observe que estará realizando dois cálculos separados. O primeiro usa a substituição para calcular a antiderivada (sem nenhum limite de integração); depois, usa-se esse resultado para calcular a integral definida por meio do STFC."
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 17,
+  "hash": "fe95e569e08f54aae17bb1074fc4f81839ba6c212bd4c457c785fde0c3db0d23",
+  "traducao": "Mais exemplos{{CMD_64}}"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 18,
+  "hash": "0ee5ee4f4b0276c7387a8913f435bcf70d38b77c1deaad5150572fbe626c3961",
+  "traducao": "Com alguma experiência, (em geral) não é tão difícil ver o que\nsubstituir por {{MATH_65}}.  Vamos resolver os exemplos a seguir do\nmesmo modo que fizemos no Exemplo {{CMD_66}}.\n{{CMD_67}}\nCalcule:\n{{MATH_68}}\n{{CMD_69}}\nAqui fazemos {{MATH_70}}, de modo que {{MATH_71}}.  Então\nsegue que {{MATH_72}}. Portanto\n{{ENV_73}}\nObserve que este exemplo é uma integral indefinida, e não uma integral\ndefinida, o que significa que não há limites de integração.  Assim, não\nprecisamos nos preocupar em mudar as extremidades da integral.  Porém,\nprecisamos desfazer a substituição na nossa resposta, de modo que a resposta\nfinal seja uma função de {{MATH_74}}.  Lembrando que {{MATH_75}}, temos\nnossa resposta final\n{{MATH_76}}\nLembrete: você sempre pode verificar seu resultado derivando."
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 19,
+  "hash": "d2c39dc567a38c0b135ef65cef7f21d44db2d646f3c631348b862b3d27ed00f1",
+  "traducao": "Se a substituição funciona para calcular uma integral (e nem sempre é o\ncaso!), um truque comum para descobrir o que substituir é localizar a\nparte ``feia'' da função que está sendo integrada.  Substituímos, então,\no ``interior'' dessa parte feia.  Embora essa técnica certamente\nnão seja rigorosa, ela pode se mostrar muito útil.  Isso vale\nespecialmente para estudantes que estão começando a aprender a técnica da substituição.\nOs dois próximos problemas são exemplos muito bons dessa filosofia."
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 20,
+  "hash": "82be2896545fef79f6591d6d31698d06c927409cbacd8cb457e0f5e8981f625f",
+  "traducao": "Calcule:\n{{MATH_77}}\n{{CMD_78}}\nA parte ``feia'' da função que está sendo integrada é {{MATH_79}}.  O\n``interior'' desse termo é, então, {{MATH_80}}.  Portanto, uma boa possibilidade é\ntentar\n{{MATH_81}}\nEntão\n{{MATH_82}}\ne assim\n{{ENV_83}}\n{{CMD_84}}\n{{CMD_85}}"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 21,
+  "hash": "f911b45cb1af520311aece71fd13c83ad5c92868036120d455eb387b478e1f8f",
+  "traducao": "  Calcule:\n  {{MATH_86}}\n{{CMD_87}}\nAqui a parte ``feia'' é {{MATH_88}}.  Então substituímos\no interior:\n{{MATH_89}}\nEntão\n{{MATH_90}}\nObserve que\n{{ENV_91}}\nEm seguida, substituímos de volta na integral original e resolvemos:\n{{ENV_92}}\n{{CMD_93}}\n{{CMD_94}}"
+ },
+ {
+  "arquivo": "substitution/digInIdeaOfSubstitution.tex",
+  "ordem": 22,
+  "hash": "92216f0a1bfae492fb20efa3aaa5dd60275ddadc612e28f6f25df16def704661",
+  "traducao": "Resumindo, se suspeitamos que uma dada função é a derivada de\noutra via regra da cadeia, introduzimos uma nova variável {{MATH_95}}, em que {{MATH_96}} é uma candidata provável para\na função interna. Reescrevemos a integral\n inteiramente em termos de {{MATH_97}}, sem que sobre nenhum {{MATH_98}} na\nexpressão. Se conseguirmos integrar essa nova função de {{MATH_99}}, então a\nantiderivada da função original é obtida substituindo {{MATH_100}}\npor {{MATH_101}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_03.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_03.tex",
+  "ordem": 1,
+  "hash": "4263bab1877507c47e93e0c2a6564ad5ecc271ecf291ba1b2193b922d7811ea3",
+  "traducao": "\tTente a substituição {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}\n\tIsso dá o diferencial  {{MATH_6}}.\n{{CMD_7}}\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_06.tex",
+  "ordem": 0,
+  "hash": "1517f314920ba6ba840e91278b0e0bd1bd1de1ed36db7dfb421a531a154ef4d9",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_06.tex",
+  "ordem": 1,
+  "hash": "43b84473d5a7c28668bdad00d529b6c410e371c5dac2219b3c29eeffb4689425",
+  "traducao": "\tTente a substituição {{MATH_3}}. Não há garantia de que isso vá funcionar, mas nos dá algo para tentar.\n{{CMD_4}}\n{{CMD_5}}\n\tO diferencial é {{MATH_6}}, de modo que\n\t{{ENV_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_09.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_11.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_11.tex",
+  "ordem": 1,
+  "hash": "780132333b0af10e0d38f340dfbbd7ab3b84232a7d7b17f3573e1ae30e8a7a13",
+  "traducao": "\tTente a substituição {{MATH_3}}. Isso dá o diferencial {{MATH_4}}.\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_17.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_17.tex",
+  "ordem": 1,
+  "hash": "afa6d008d7411c031b07c44138725a8ed999663e791e35ff856bdb4637d405bf",
+  "traducao": "Simplifique!\n{{CMD_3}}\n{{CMD_4}}\nObserve: {{MATH_5}}\n{{CMD_6}}\n{{CMD_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_18.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_18.tex",
+  "ordem": 1,
+  "hash": "0efecf26b80398ed3dd9222154c5768d4b9bc8cd5d846a8cfe72a3cbdfe515f4",
+  "traducao": "\tTente a substituição {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_20.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_20.tex",
+  "ordem": 1,
+  "hash": "102d26b4486376aa0b15f5c477c4c41e5be65e33de8248f338d7831885c371c6",
+  "traducao": "Simplifique!\n{{CMD_3}}\n{{CMD_4}}\nObserve: {{MATH_5}}\n{{CMD_6}}\n{{CMD_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_22.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_25.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_27.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_27.tex",
+  "ordem": 1,
+  "hash": "92ff78dd435713d324b75e5d9c1b37e89031c27a3ca294edfc7ab0f1d88787c3",
+  "traducao": "Lembre-se da identidade trigonométrica: {{MATH_3}} !\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_30.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_33.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_33.tex",
+  "ordem": 1,
+  "hash": "cd7eb47ec61193013bad351c754ad98ed384d5ce3d50eb31c56af464ceba67c9",
+  "traducao": "Simplifique!\n{{CMD_3}}\n{{CMD_4}}\n{{MATH_5}}\n{{CMD_6}}\n{{CMD_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_38.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_38.tex",
+  "ordem": 1,
+  "hash": "ca9ecbaf193fad4533e5a435b8a585b9fec7758c76657d7bdd57e8658871b567",
+  "traducao": "\tLembre-se: {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}\n\tEscreva a integral como {{MATH_6}} e tente a substituição {{MATH_7}}.\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_40.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_45.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_50.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_50.tex",
+  "ordem": 1,
+  "hash": "822022ce5b1a9c3b67f4ef335ba47c9743b41ed6854fdf2adc69b61801b5662f",
+  "traducao": "\tDepois de simplificar, tente a substituição {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_56.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_56.tex",
+  "ordem": 1,
+  "hash": "2fd128600916a4182d16c6eb232a82f564c50c0deacb5083348ffb3983adddb4",
+  "traducao": "\tTente a substituição {{MATH_3}}.\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_56.tex",
+  "ordem": 2,
+  "hash": "71d3204d92737c1e33fe1524373347951fa5fc2f447be261cb0c164d1d688327",
+  "traducao": "\tEntão,  {{MATH_5}}, e\n\t{{ENV_6}}\n\n\tAgora precisamos simplificar um pouco mais."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_56.tex",
+  "ordem": 3,
+  "hash": "78d6dd56901e64c82ce954aaea9fe4c1d9c7260a332a0b0aefae538502348db4",
+  "traducao": "\t\tUse outra substituição: {{MATH_7}} (Não se esqueça do fator {{MATH_8}} na frente da integral.)\n\t{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_69.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_75.tex",
+  "ordem": 0,
+  "hash": "0e290d9bf35b1ca66b6631c01643aa2f05f51f97d89348c947480608929959a9",
+  "traducao": "Calcule a seguinte integral definida de {{MATH_1}} em relação a {{MATH_2}}:"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_75.tex",
+  "ordem": 1,
+  "hash": "5e71c6486965dbe9d75a8117db0a7a660534d5cf30686e1f492396445719d1d5",
+  "traducao": "Use: {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_76.tex",
+  "ordem": 0,
+  "hash": "0e290d9bf35b1ca66b6631c01643aa2f05f51f97d89348c947480608929959a9",
+  "traducao": "Calcule a seguinte integral definida de {{MATH_1}} em relação a {{MATH_2}}:"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_77.tex",
+  "ordem": 0,
+  "hash": "0e290d9bf35b1ca66b6631c01643aa2f05f51f97d89348c947480608929959a9",
+  "traducao": "Calcule a seguinte integral definida de {{MATH_1}} em relação a {{MATH_2}}:"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_78.tex",
+  "ordem": 0,
+  "hash": "0e290d9bf35b1ca66b6631c01643aa2f05f51f97d89348c947480608929959a9",
+  "traducao": "Calcule a seguinte integral definida de {{MATH_1}} em relação a {{MATH_2}}:"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_78.tex",
+  "ordem": 1,
+  "hash": "6da632f1b8a85e5c7ce18274e84be8a9be258e675de834741562009d2d215b32",
+  "traducao": "\tTente a substituição {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}\n\tEntão,  {{MATH_6}}.\n{{CMD_7}}\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_01_ex_79.tex",
+  "ordem": 0,
+  "hash": "0e290d9bf35b1ca66b6631c01643aa2f05f51f97d89348c947480608929959a9",
+  "traducao": "Calcule a seguinte integral definida de {{MATH_1}} em relação a {{MATH_2}}:"
+ },
+ {
+  "arquivo": "substitution/exercises/06_02_ex_08.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_02_ex_15.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/06_02_ex_15.tex",
+  "ordem": 1,
+  "hash": "4230188f1bc174e71dd3e701cfc859125b3bf0b85c5d392e3227504a44cc3e86",
+  "traducao": "Lembre-se: {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "substitution/exercises/06_02_ex_25.tex",
+  "ordem": 0,
+  "hash": "76f05f0ebfc15e5054db29add94e3a34ba4af4961520daccce2d7c3680fa3c29",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}."
+ },
+ {
+  "arquivo": "substitution/exercises/q14432v1.tex",
+  "ordem": 0,
+  "hash": "a4863041764da527cb150ec180b767443813ad836c690e4178bd0017194515bc",
+  "traducao": "Determine a antiderivada: {{MATH_1}}"
+ },
+ {
+  "arquivo": "substitution/exercises/q14432v1.tex",
+  "ordem": 1,
+  "hash": "90a2c80229929d5a43d2cd3f7c0fa0bc7eee2d242394b93418ee3776965a39ef",
+  "traducao": "\tTente a substituição {{MATH_2}}.\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "substitution/exercises/q14432v1.tex",
+  "ordem": 2,
+  "hash": "4638b36fac49299285e042010da931f7f1b518bb050a70c1c2b2aeb2bfc9a0c9",
+  "traducao": "\tO diferencial de {{MATH_4}} é {{MATH_5}}, de modo que {{MATH_6}}. Isso dá\n\t{{MATH_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "substitution/exercises/q14434v1.tex",
+  "ordem": 0,
+  "hash": "a4863041764da527cb150ec180b767443813ad836c690e4178bd0017194515bc",
+  "traducao": "Determine a antiderivada: {{MATH_1}}"
+ },
+ {
+  "arquivo": "substitution/exercises/q14434v1.tex",
+  "ordem": 1,
+  "hash": "76e73c1dfb1da3252ba3c052b6a7ff249798963562591bf731a3d49aae06bc29",
+  "traducao": "\tEsta é uma pergunta sobre antiderivadas. Ela pede a função mais geral\n\t{{MATH_2}} tal que {{MATH_3}}. Para resolvê-la, você\n\tprecisa usar tanto a regra da exponencial quanto a regra da potência para\n\tantiderivadas.\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "substitution/exercises/q14434v1.tex",
+  "ordem": 2,
+  "hash": "131cffd5631543f654feebff943f4ce969ab2a7d481d0a15c2f514bd9dc88431",
+  "traducao": "\tA regra da exponencial para antiderivadas diz que\n\t{{MATH_5}} e, neste caso, com {{MATH_6}},\n\t{{MATH_7}}, de modo que {{MATH_8}} e\n\t{{MATH_9}} e, portanto,\n\t{{MATH_10}}"
+ },
+ {
+  "arquivo": "substitution/exercises/q14434v1.tex",
+  "ordem": 3,
+  "hash": "95ef89d9af43e40d714aa955d7c65a239bcb3c06302e22706b62766507105b2e",
+  "traducao": "\tA regra da potência para antiderivadas diz que\n\t{{MATH_11}} sempre que {{MATH_12}}. Neste\n\tproblema, temos um termo com {{MATH_13}} e um termo com {{MATH_14}}, de modo que a\n\tregra da potência se aplica e\n\t{{MATH_15}}\n\tJuntando tudo, {{MATH_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "substitution/exercises/substitution1.tex",
+  "ordem": 0,
+  "hash": "aab85ea8cd3f2d59311f3ae4bc4a55f64055eced40a73f379509cadd59fee000",
+  "traducao": "Considere as duas regiões representadas nos gráficos abaixo."
+ },
+ {
+  "arquivo": "substitution/exercises/substitution1.tex",
+  "ordem": 1,
+  "hash": "417e263ec21bd0cd53495cc081b65e3bcad4749349d629b45b6dfdd7eac20b30",
+  "traducao": "Veremos que as regiões {{MATH_1}} e {{MATH_2}} têm a mesma área."
+ },
+ {
+  "arquivo": "substitution/exercises/substitution1.tex",
+  "ordem": 2,
+  "hash": "95c200f4ced7303a390b69949a0929cc918a63b4788c48bfdb3088309dbc227f",
+  "traducao": "Primeiro, a área de {{MATH_3}} é dada pela integral\n{{MATH_4}}\nE a área de {{MATH_5}} é dada por\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "substitution/exercises/substitution1.tex",
+  "ordem": 3,
+  "hash": "eef62e5859401467b4f028312589c663923a820c21acd8743dbc546775941af9",
+  "traducao": "Agora, se quiséssemos calcular a área de {{MATH_7}}, poderíamos fazer uma substituição com {{MATH_8}}. Neste caso, {{MATH_9}}.  O limite inferior é {{MATH_10}} e nosso limite superior   é {{MATH_11}}. Fazendo todas essas substituições, podemos reescrever a integral que calcula a área de {{MATH_12}} como\n{{MATH_13}}\nque é exatamente a integral que calcula a área de {{MATH_14}}.  Assim, vemos que {{MATH_15}} e {{MATH_16}} têm a mesma área."
+ },
+ {
+  "arquivo": "substitution/exercises/substitution2.tex",
+  "ordem": 0,
+  "hash": "9c63fb0e4b74e67f9aae6602a9f3dd09f2bcda7a50e9518af93f02f7c4c41059",
+  "traducao": "Dado o valor da integral\n {{MATH_1}}\n determine as integrais a seguir.\n{{CMD_2}}\n{{CMD_3}}\n{{MATH_4}}\n{{CMD_5}}\n{{MATH_6}}\n{{CMD_7}}\n{{MATH_8}}\n{{CMD_9}}\n{{MATH_10}}\n{{CMD_11}}\n{{MATH_12}}\n{{CMD_13}}\nLembre-se: {{MATH_14}}.\n{{CMD_15}}\n{{CMD_16}}\n{{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "substitution/exercises/variableSubstitution1.tex",
+  "ordem": 0,
+  "hash": "1a39dfa4190e060f8c5db270bffe128ed5b2232cc632938539343f6fbc43854b",
+  "traducao": "Use: {{MATH_1}}.\n{{CMD_2}}\n{{CMD_3}}\nEntão, {{MATH_4}}, e"
+ },
+ {
+  "arquivo": "substitution/exercises/variableSubstitution1.tex",
+  "ordem": 1,
+  "hash": "0673d69ff78439adfb40182f626c701aa63586c0f636a134a72a8cd425151a29",
+  "traducao": "."
+ },
+ {
+  "arquivo": "substitution/exercises/variableSubstitution4.tex",
+  "ordem": 0,
+  "hash": "7a514ad8dbc009fcc936e15d406f273123bd9cecfe67eae5825c37f1577b3216",
+  "traducao": "\tTente a substituição com {{MATH_1}}.\n{{CMD_2}}\n{{CMD_3}}\n\tEntão: {{MATH_4}}, de modo que\n\t{{ENV_5}}"
+ }
+]

@@ -375,13 +375,13 @@
   "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition1.tex",
   "ordem": 1,
   "hash": "72e57237cfaf02ad1d946ff1d1f40a8460aed712dc73725342f28f36717645f7",
-  "traducao": " Usando sua calculadora, aproxime {{MATH_2}} calculando a taxa de variação média de {{MATH_3}} no intervalo {{MATH_4}}. {{CMD_5}}   A taxa de variação média é  {{MATH_6}}{{CMD_7}}. (Arredonde para duas casas decimais.)  {{COMMENT_8}}\n{{CMD_9}} Usando o gráfico de {{MATH_10}} fornecido abaixo, você acha que a estimativa de {{MATH_11}} que você obteve acima é uma superestimativa ou uma subestimativa?"
+  "traducao": " Usando sua calculadora, aproxime {{MATH_2}} calculando a taxa de variação média de {{MATH_3}} no intervalo {{MATH_4}}. {{CMD_5}}   A taxa de variação média é  {{MATH_6}}{{CMD_7}}. (Arredonde para duas casas decimais.)  {{COMMENT_8}}\n{{CMD_9}} Usando o gráfico de {{MATH_10}} fornecido abaixo, você acha que a estimativa de {{MATH_11}} que você obteve acima é uma estimativa por excesso ou uma estimativa por falta?"
  },
  {
   "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition1.tex",
   "ordem": 2,
   "hash": "214b7575a21523de31a825074a8cac57a234c530d302e872fa0d1a586971fae0",
-  "traducao": "Subestimativa{{CMD_12}}\n\t{{CMD_13}}Superestimativa{{CMD_14}}\n{{CMD_15}}\n{{CMD_16}}"
+  "traducao": "Estimativa por falta{{CMD_12}}\n\t{{CMD_13}}Estimativa por excesso{{CMD_14}}\n{{CMD_15}}\n{{CMD_16}}"
  },
  {
   "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition1.tex",
@@ -399,13 +399,13 @@
   "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition3.tex",
   "ordem": 1,
   "hash": "a1b6858aa51e9151c83f30ba0410564d6d95f3bd09e228761c6792ffe7f511ab",
-  "traducao": " Usando sua calculadora, aproxime {{MATH_2}} calculando a taxa de variação média de {{MATH_3}} no intervalo {{MATH_4}}.  A taxa de variação média é{{CMD_5}}  {{MATH_6}}\n{{CMD_7}} Usando o gráfico de {{MATH_8}} fornecido abaixo, você acha que a estimativa de {{MATH_9}} que você obteve acima é uma superestimativa ou uma subestimativa?"
+  "traducao": " Usando sua calculadora, aproxime {{MATH_2}} calculando a taxa de variação média de {{MATH_3}} no intervalo {{MATH_4}}.  A taxa de variação média é{{CMD_5}}  {{MATH_6}}\n{{CMD_7}} Usando o gráfico de {{MATH_8}} fornecido abaixo, você acha que a estimativa de {{MATH_9}} que você obteve acima é uma estimativa por excesso ou uma estimativa por falta?"
  },
  {
   "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition3.tex",
   "ordem": 2,
   "hash": "954daeed715c8d22ce3c760ea6a1474be4edf4df249cc36d9cdce33d1b4f89e4",
-  "traducao": "Subestimativa{{CMD_10}}\n\t{{CMD_11}}Superestimativa{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}"
+  "traducao": "Estimativa por falta{{CMD_10}}\n\t{{CMD_11}}Estimativa por excesso{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}"
  },
  {
   "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition3.tex",
@@ -423,13 +423,13 @@
   "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition4.tex",
   "ordem": 1,
   "hash": "a1b6858aa51e9151c83f30ba0410564d6d95f3bd09e228761c6792ffe7f511ab",
-  "traducao": " Usando sua calculadora, aproxime {{MATH_2}} calculando a taxa de variação média de {{MATH_3}} no intervalo {{MATH_4}}.  A taxa de variação média é{{CMD_5}}  {{MATH_6}}\n{{CMD_7}} Usando o gráfico de {{MATH_8}} fornecido abaixo, você acha que a estimativa de {{MATH_9}} que você obteve acima é uma superestimativa ou uma subestimativa?"
+  "traducao": " Usando sua calculadora, aproxime {{MATH_2}} calculando a taxa de variação média de {{MATH_3}} no intervalo {{MATH_4}}.  A taxa de variação média é{{CMD_5}}  {{MATH_6}}\n{{CMD_7}} Usando o gráfico de {{MATH_8}} fornecido abaixo, você acha que a estimativa de {{MATH_9}} que você obteve acima é uma estimativa por excesso ou uma estimativa por falta?"
  },
  {
   "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition4.tex",
   "ordem": 2,
   "hash": "954daeed715c8d22ce3c760ea6a1474be4edf4df249cc36d9cdce33d1b4f89e4",
-  "traducao": "Subestimativa{{CMD_10}}\n\t{{CMD_11}}Superestimativa{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}"
+  "traducao": "Estimativa por falta{{CMD_10}}\n\t{{CMD_11}}Estimativa por excesso{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}"
  },
  {
   "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition4.tex",

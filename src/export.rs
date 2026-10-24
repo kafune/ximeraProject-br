@@ -74,6 +74,8 @@ pub fn translated_source(
     protected: &ProtectedMap,
 ) -> Result<String, String> {
     let mut result = source.to_owned();
+    let translated_file = segments.iter().any(Segment::is_complete);
+    let mut gap_end = source.len();
     for segment in segments.iter().rev() {
         let original = parser::reconstruct(&segment.original, &segment.placeholders)?;
         if result.get(segment.start..segment.end) != Some(original.as_str()) {
@@ -82,6 +84,10 @@ pub fn translated_source(
                 segment.id
             ));
         }
+        if translated_file {
+            localize_gap(&mut result, segment.end..gap_end, protected);
+        }
+        gap_end = segment.start;
         if segment.is_complete() {
             let translation = preserve_edge_whitespace(&segment.original, &segment.translated);
             let placeholders =
@@ -90,7 +96,24 @@ pub fn translated_source(
             result.replace_range(segment.start..segment.end, &translated);
         }
     }
+    if translated_file {
+        localize_gap(&mut result, 0..gap_end, protected);
+    }
     Ok(result)
+}
+
+/// Protected text between two segments (a `\begin{theorem}[Title]` with no
+/// prose next to it, for example) never reaches a translator. Whole-snippet
+/// entries of the protected map still apply there, once the file has at least
+/// one finished translation, so an untouched file stays byte-identical.
+fn localize_gap(result: &mut String, range: std::ops::Range<usize>, protected: &ProtectedMap) {
+    if range.is_empty() || protected.is_empty() {
+        return;
+    }
+    let localized = translations::localize_snippets(&result[range.clone()], protected);
+    if localized != result[range.clone()] {
+        result.replace_range(range, &localized);
+    }
 }
 
 /// Translators rarely retype the whitespace around a segment, yet it is what

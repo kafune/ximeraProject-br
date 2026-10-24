@@ -1,0 +1,638 @@
+[
+ {
+  "arquivo": "lhopitalsRule/titlePage.tex",
+  "ordem": 0,
+  "hash": "158073b257e8ab670269d2873e0f77ff3f918ee9b2dfdb749c9ff9dee387d72e",
+  "traducao": "Regra de L'H{{CMD_1}}pital{{CMD_2}}{{PREAMBLE_3}}{{CMD_4}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "lhopitalsRule/titlePage.tex",
+  "ordem": 2,
+  "hash": "9eea4a576e6b5262d73c0df25d84d1867565bf527700e64a1d79e0f343c3546b",
+  "traducao": " Lembrar como calcular limites de formas que são determinadas.\n\t{{CMD_5}} Definir uma forma indeterminada.\n\t{{CMD_6}} Determinar se uma forma é indeterminada.\n\t{{CMD_7}} Converter algumas formas indeterminadas para a forma zero sobre zero\n          ou infinito sobre infinito.\n\t{{CMD_8}} Determinar quando a regra de l'H{{CMD_9}}pital pode ser usada.\n\t{{CMD_10}} Usar a regra de l'H{{CMD_11}}pital para calcular limites.\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/breakGround.tex",
+  "ordem": 0,
+  "hash": "8e5464a8a1b52cb2ae5d0ab26320073c2cdca3863b145e4ce2d435289bfc7e40",
+  "traducao": "Um diálogo sem limites{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n{{COMMENT_5}}\nDois jovens matemáticos consideram uma maneira de calcular limites usando derivadas.\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "lhopitalsRule/breakGround.tex",
+  "ordem": 2,
+  "hash": "c2cc0242e3e9b39dcff9e30571d78b5be7fb6eb2cde05163c5faa04de3df0b98",
+  "traducao": " Ei, Riley, adivinha o que eu fiz ontem à noite?\n{{CMD_8}} O quê?\n{{CMD_9}} Eu estava fazendo um pouco de cálculo.\n{{CMD_10}} Isso. É. Demais.\n{{CMD_11}} Eu sei! Enfim, notei uma coisa meio engraçada. Acho\n  que às vezes dá para calcular limites tomando a derivada do\n  numerador e do denominador.\n{{CMD_12}} Isso é loucura.\n{{CMD_13}} Eu sei! Mas olha só:\n  {{ENV_14}}\n  {{CMD_15}} Uau. Isso. É. Dem{{CMD_16}} estranho. Hmmm, mas parece\n    trapaça. Espera, nem sempre funciona, olha isto:\n    {{MATH_17}}\n    mas\n    {{ENV_18}}\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/breakGround.tex",
+  "ordem": 3,
+  "hash": "d5dc61f2a9499b37d6518fa60b2542a59c3305a10db4c6885ea9352b2b419bfb",
+  "traducao": "  Encontre {{CMD_20}}cinco{{CMD_21}} exemplos em que esse ``truque'' funciona e\n  {{CMD_22}}cinco{{CMD_23}} exemplos em que ele não funciona.\n  {{CMD_24}}\n    Comece com limites de frações que você sabe calcular. Depois\n    tome a derivada do numerador e do denominador e veja\n    se o novo limite é igual ao antigo ou não.\n  {{CMD_25}}\n  {{CMD_26}}\n  {{CMD_27}}\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/breakGround.tex",
+  "ordem": 4,
+  "hash": "d7914266abbfc686de38de210658789fa9d31f517960a813dd02867fcade0a1b",
+  "traducao": "  Qual é o padrão para quando o ``truque'' funciona e quando ele não funciona?\n  {{CMD_29}}\n{{CMD_30}}\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 0,
+  "hash": "d65316202e2fb2cf2c592b09a8da5536dd0db04ecbb7df13ba79f2ebf1e2635f",
+  "traducao": "Regra de L'H{{CMD_1}}pital{{CMD_2}}{{PREAMBLE_3}}{{CMD_4}}\n{{CMD_5}}\n  Usamos derivadas para obter um ``atalho'' para o cálculo de limites.\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 1,
+  "hash": "6f329cd4822bd3cdf2a69edb2090eabfa26057b0ab8babb61cf8ffe80d886206",
+  "traducao": "As derivadas nos permitem pegar problemas que antes eram difíceis de\nresolver e transformá-los em problemas mais fáceis de resolver. Vamos\nconsiderar a regra de L'H{{CMD_8}}pital:"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 2,
+  "hash": "f71b23a79d11ab46dfc16396c8771ffc17bab487e04c229685f1dfddb7ce8303",
+  "traducao": " \n\tSejam {{MATH_9}} e {{MATH_10}} funções deriváveis perto de {{MATH_11}}.  Se\n\t{{MATH_12}}\n\t e {{MATH_13}}\n\tpara todo {{MATH_14}} perto de {{MATH_15}}, então \n\t{{MATH_16}}\n\tdesde que {{MATH_17}} exista ou seja {{MATH_18}}.\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 3,
+  "hash": "81884955a6863b3cc0c86b65e9497c6eca54c51a2e0af11c942df9ecef4c375a",
+  "traducao": "Esse teorema é um tanto difícil de demonstrar, em parte porque\nabrange muitas possibilidades diferentes, então não o demonstraremos\naqui. \n{{CMD_20}}\n  A regra de L'H{{CMD_21}}pital se aplica mesmo quando {{MATH_22}}\n  e {{MATH_23}}.\n{{CMD_24}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 4,
+  "hash": "98e8c43c2fdd58e7c756f98a4083af02b482b4c350ca0a73637f4ffdbf853c52",
+  "traducao": "A regra de L'H{{CMD_25}}pital nos permite investigar limites de {{CMD_26}}forma indeterminada{{CMD_27}}."
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 5,
+  "hash": "f534cb2555774f54c94a9fb72e816bb4e38075eb844ff337d4aa5ee111cf76af",
+  "traducao": " Refere-se a um limite da forma {{MATH_28}} em que {{MATH_29}} e {{MATH_30}} quando {{MATH_31}}.\n\t\t{{CMD_32}} Refere-se a um limite da forma {{MATH_33}} em que {{MATH_34}} e {{MATH_35}} quando {{MATH_36}}.\n\t\t{{CMD_37}} Refere-se a um limite da forma {{MATH_38}} em que {{MATH_39}} e {{MATH_40}} quando {{MATH_41}}.\n\t\t{{CMD_42}} Refere-se a um limite da forma {{MATH_43}} em que {{MATH_44}} e {{MATH_45}} quando {{MATH_46}}.\n\t\t{{CMD_47}} Refere-se a um limite da forma {{MATH_48}} em que {{MATH_49}} e {{MATH_50}} quando {{MATH_51}}.\n\t\t{{CMD_52}} Refere-se a um limite da forma {{MATH_53}} em que {{MATH_54}} e {{MATH_55}} quando {{MATH_56}}.\n\t\t{{CMD_57}} Refere-se a um limite da forma {{MATH_58}} em que {{MATH_59}} e {{MATH_60}} quando {{MATH_61}}.\n\t{{CMD_62}}\n\tEm cada um desses casos, o valor do limite {{CMD_63}}não{{CMD_64}} é imediatamente\n\tóbvio. Logo, é preciso uma análise cuidadosa!\n{{CMD_65}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 6,
+  "hash": "c6862df7910de966e042c928a3c03786f3ed9173b00cc4c9ebb31b54861ccded",
+  "traducao": "Formas indeterminadas básicas{{CMD_66}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 7,
+  "hash": "80676d3e17f7f9d4057b1d069616030e42ba9838c06d952791b322dac313224b",
+  "traducao": "Nosso primeiro exemplo é o cálculo de um limite que antes era um tanto\ndifícil."
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 8,
+  "hash": "7c1c82456b73f3a8239a1f1e19c514cf7624bd4c0b58901fb820cf92e3f0c3b2",
+  "traducao": "\tCalcule\n\t{{MATH_67}}\n\t{{CMD_68}}\n\t\tTome {{MATH_69}} e {{MATH_70}}.  Como tanto {{MATH_71}} quanto {{MATH_72}} são\n\t\tfunções deriváveis em {{MATH_73}}, e \n\t\t{{MATH_74}}\n\t\testa situação é perfeita para a regra de L'H{{CMD_75}}pital. Agora,\n\t\t{{MATH_76}}\n\t\te\n\t\t{{MATH_77}} \n\t\tA regra de L'H{{CMD_78}}pital nos diz que \n\t\t{{MATH_79}}\n\t{{CMD_80}}\n{{CMD_81}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 9,
+  "hash": "c13805c717fa917a5cfdca91ee9847eba812a5deecf2f37ea4be5106ec1c39a7",
+  "traducao": "  Observe que o matemático atento vai perceber que, em nosso exemplo\n  acima, estamos trapaceando um pouco. Para aplicar a regra de L'H{{CMD_82}} opital,\n  precisamos conhecer a derivada do seno; porém, para conhecer a derivada\n  do seno, precisamos ser capazes de calcular o limite:\n  {{MATH_83}}\n  Logo, usar a regra de L'H{{CMD_84}}pital para calcular esse limite é um argumento\n  circular! Encorajamos o gentil leitor a ver a regra de L'H{{CMD_85}}pital\n  como um ``lembrete'' do que é verdade, e não como a dedução formal do\n  resultado.\n{{CMD_86}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 10,
+  "hash": "6b20df25483e0d9c3462c9bdf5d72cbe97dd3992656fc8b2e5fc08f071a11797",
+  "traducao": "\tCalcule:\n\t{{MATH_87}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 11,
+  "hash": "0b11c85bc6ed5cfafd3ba0c55c4b29556072a827d1cf03876c980d57128daee3",
+  "traducao": "\t\tTome {{MATH_88}} e {{MATH_89}}. \n\t\tComo {{MATH_90}} e {{MATH_91}},\n\t\teste é um limite da forma {{MATH_92}}, então a regra de L'H{{CMD_93}}pital (RLH) se aplica. Isso dá:\n\t\t{{MATH_94}}\n\t\tO lado direito é outro limite da forma {{MATH_95}}, então podemos usar a RLH de novo.\n\t\t{{MATH_96}}\n\t\tEsse limite tem numerador tendendo a {{MATH_97}} e denominador tendendo a {{MATH_98}}, de modo que seu valor é {{MATH_99}}.\n\t\t\n\t\t{{MATH_100}}\n\t{{CMD_101}}\n{{CMD_102}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 12,
+  "hash": "b3e1422c26825404848783080371c4fd02b0de0782f51253bb9190159a8f5004",
+  "traducao": "Nosso próximo conjunto de exemplos percorre as demais formas indeterminadas\nque costumam aparecer.\n{{CMD_103}}Formas indeterminadas envolvendo multiplicação{{CMD_104}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 13,
+  "hash": "86f5cda041697291ecaca50e16bdf914abee6cf1f01e1c29111d3c662d3a56fb",
+  "traducao": " são formas que surgem de um limite do tipo {{MATH_105}}. Uma maneira de escrever {{MATH_106}} como uma fração é lembrar que\n{{MATH_107}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 14,
+  "hash": "f79bc3cd41acb3f384517fecd7b53cb20b7cd885bfbb9468e762b553cce61eca",
+  "traducao": "  Calcule \n{{MATH_108}}\n{{CMD_109}}\nTome {{MATH_110}} e {{MATH_111}}. Tanto {{MATH_112}} quanto {{MATH_113}}\nsão deriváveis perto de {{MATH_114}}. Além disso,\n{{MATH_115}}\nEsta situação é perfeita para a regra de L'H{{CMD_116}}opital. Agora, \n{{MATH_117}}\ne\n{{MATH_118}}\nA regra de L'H{{CMD_119}}pital nos diz que \n{{ENV_120}}\n{{CMD_121}}\n{{CMD_122}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 15,
+  "hash": "09ce12a583ae8bbc631a15e7c010b0606d7fdd7f3929c3abc688fdc2c644ddd0",
+  "traducao": " \nCalcule \n{{MATH_123}}\n{{CMD_124}}\nEste limite não parece adequado para a regra de L'H{{CMD_125}}pital. Quando {{MATH_126}}\nse aproxima de zero, {{MATH_127}} vai para {{MATH_128}}, então o produto se parece com\n{{MATH_129}} \nEsse produto poderia ser qualquer coisa. É preciso uma análise cuidadosa.\nEscreva\n{{MATH_130}}\nTome {{MATH_131}} e {{MATH_132}}.  Como ambas as funções são deriváveis perto de zero e \n{{MATH_133}}\npodemos aplicar a regra de L'H{{CMD_134}}pital. Escreva comigo\n{{MATH_135}}\ne\n{{MATH_136}}\nentão\n{{ENV_137}}\nUma maneira de interpretar isso é que, como {{MATH_138}},\na função {{MATH_139}} se aproxima de zero muito mais rápido do que {{MATH_140}} se aproxima\nde {{MATH_141}}.\n{{CMD_142}}\n{{CMD_143}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 16,
+  "hash": "b28900cac26f0824ee79368bbe9fc64fc2fd47790e33eda587d2917cee53738e",
+  "traducao": "Formas indeterminadas envolvendo subtração{{CMD_144}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 17,
+  "hash": "92b58b68082963e6304e4a829a3cbafd767d8cbf9234e1e7e3ce30fba2eb7ac6",
+  "traducao": "Há dois casos básicos aqui; faremos um exemplo de cada."
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 18,
+  "hash": "1a5e3d63ab2413d61e239a5e3e09ae2b1eba1088ca2e12fa6f6ac9fff263c418",
+  "traducao": "Calcule\n{{MATH_145}}\n{{CMD_146}}\nAqui basta escrever cada termo como uma fração,\n{{ENV_147}}\nTomando {{MATH_148}} e {{MATH_149}}, ambas as funções são deriváveis perto de zero e \n{{MATH_150}}\nPodemos agora aplicar a regra de L'H{{CMD_151}}pital. Escreva comigo\n{{MATH_152}}\ne\n{{MATH_153}}\nentão\n{{ENV_154}}\n{{CMD_155}}\n{{CMD_156}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 19,
+  "hash": "97bf96d34120047af99fe95be4d9d7743ebc3bb570ade5f76c8bb096de42faa1",
+  "traducao": "Às vezes é preciso ser um pouco mais esperto."
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 20,
+  "hash": "74648d0af37e4947e63320a8e65f5370ce33524e19ae60baaf97e20560aeccae",
+  "traducao": "Calcule\n{{MATH_157}}\n{{CMD_158}}\nNovamente, este limite não parece adequado para a regra de L'H{{CMD_159}}pital. Um\npouco de manipulação algébrica vai ajudar. Escreva comigo\n{{ENV_160}}\nAgora tome {{MATH_161}}, {{MATH_162}}. Como ambas\n  as funções são deriváveis para valores grandes de {{MATH_163}} e \n{{MATH_164}}\npodemos aplicar a regra de L'H{{CMD_165}}pital. Escreva comigo\n{{MATH_166}}\ne\n{{MATH_167}}\nentão\n{{ENV_168}}\n{{CMD_169}}\n{{CMD_170}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 21,
+  "hash": "98235456ebd753306877eef0be6c249a9d021aa875fa8c911232709538ff45f9",
+  "traducao": "Formas indeterminadas exponenciais{{CMD_171}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 22,
+  "hash": "b117b7b8333479db5d563ceba2a1a49d0c267e3eaa439e7837b6e6adbe652088",
+  "traducao": "Há um truque padrão para lidar com as formas indeterminadas\n{{MATH_172}}\nDadas {{MATH_173}} e {{MATH_174}} tais que\n{{MATH_175}}\nse encaixa em uma das categorias descritas acima, reescrevemos como\n{{MATH_176}}\ne, em seguida, reescrevemos como\n{{MATH_177}}\n Lembre-se de que a função exponencial é contínua. Portanto,\n{{MATH_178}}\nAgora vamos nos concentrar no limite\n{{MATH_179}}\nusando a regra de L'H{{CMD_180}}pital. (Depois de calcular esse limite, não se esqueça de substituir o resultado de volta na exponencial.)"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 23,
+  "hash": "e02973a315261106885d9ef174407517d533962a659630995b87a8cb2eac2065",
+  "traducao": "Nos dois últimos exemplos abaixo, note que eles são formas indeterminadas exponenciais diferentes, mas os abordamos com a mesma\ntécnica.\n{{CMD_181}}\n\tPrimeiro determine a forma do limite e, em seguida, calcule o limite.\n\t{{MATH_182}}\n\t Selecione a alternativa correta. A forma do limite é\n\t {{CMD_183}}\n\t\t{{CMD_184}}{{MATH_185}}{{CMD_186}}\n\t\t {{CMD_187}} {{CMD_188}}{{CMD_189}}\n\t\t {{CMD_190}}{{MATH_191}}{{CMD_192}}\n\t\t {{CMD_193}} {{CMD_194}}{{CMD_195}}\n\t\t  {{CMD_196}}{{MATH_197}}{{CMD_198}}\n\t\t   {{CMD_199}}{{MATH_200}}{{CMD_201}}\n\t\t   {{CMD_202}}{{MATH_203}}{{CMD_204}}\n\t {{CMD_205}}\n  \n\t{{CMD_206}}\n\t\tEscreva \n\t\t{{MATH_207}}\n\t\tAgora olhamos para o limite no expoente.\n\t\t{{MATH_208}}\n\t\tComo {{MATH_209}} e {{MATH_210}}, sabemos que\n\t\t{{MATH_211}} tem a forma {{MATH_212}}, então podemos aplicar a regra de L'H{{CMD_213}}pital.\n\t\t\n\t\tIsso dá:\n\t\t{{ENV_214}}\n\t\tNote que {{MATH_215}} tinha a forma {{MATH_216}}; usamos a regra de L'H{{CMD_217}}pital de novo\n\t\tnesse passo.\n\t\t\n\t\tLembre-se de que {{MATH_218}}. Acabamos de calcular que\n\t\t{{MATH_219}}, o que significa:\n\t\t{{MATH_220}}\n\t{{CMD_221}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/digInLhopitalsRule.tex",
+  "ordem": 24,
+  "hash": "9a693a58ca6822fb34109e0031fe7f79e8f416da22b2219244a17b8dad8f0dc9",
+  "traducao": "Primeiro determine a forma do limite e, em seguida, calcule o limite.\n{{MATH_222}}\n  Selecione a alternativa correta. A forma do limite é\n {{CMD_223}}\n     {{CMD_224}}{{MATH_225}}{{CMD_226}}\n {{CMD_227}} {{CMD_228}}{{CMD_229}}\n {{CMD_230}}{{MATH_231}}{{CMD_232}}\n {{CMD_233}} {{CMD_234}}{{CMD_235}}\n  {{CMD_236}}{{MATH_237}}{{CMD_238}}\n   {{CMD_239}}{{MATH_240}}{{CMD_241}}\n   {{CMD_242}}{{MATH_243}}{{CMD_244}}\n  {{CMD_245}}\n{{CMD_246}}\nEscreva\n{{MATH_247}}\nAgora olhe para o limite do expoente\n{{MATH_248}}\nTomando {{MATH_249}} e {{MATH_250}},\nambas as funções são deriváveis para valores grandes de {{MATH_251}} e\n{{MATH_252}}\nPodemos agora aplicar a regra de L'H{{CMD_253}}pital. Escreva\n{{MATH_254}}\ne\n{{MATH_255}}\nentão\n{{ENV_256}}\nLogo, \n{{ENV_257}}\n{{CMD_258}}\n{{CMD_259}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalAlgebraFirst2.tex",
+  "ordem": 0,
+  "hash": "f031bfe1b4cf703401fb130c3817b3bdf04c1f2bb4ba7c3c7dfffef6b4b6d901",
+  "traducao": "Calcule o limite a seguir."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalAlgebraFirst4.tex",
+  "ordem": 0,
+  "hash": "f031bfe1b4cf703401fb130c3817b3bdf04c1f2bb4ba7c3c7dfffef6b4b6d901",
+  "traducao": "Calcule o limite a seguir."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalApplied.tex",
+  "ordem": 0,
+  "hash": "57cdfd07333e4ee6261c7fe45fac8e91d5842bf0ffae52c308a04563990ea3a7",
+  "traducao": "A carga no circuito LCR, sem resistência ({{MATH_1}}), com tensão externa {{MATH_2}},"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalApplied.tex",
+  "ordem": 1,
+  "hash": "df5939707c7c6dcd58d931c7c5017c47d765f56347a17410996342512fe89bd0",
+  "traducao": "e com carga e corrente iniciais nulas, é dada por"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalApplied.tex",
+  "ordem": 2,
+  "hash": "b46206b1cf59aeec522a0b6f25d37442ef65652e218a334c3e41d9b3b4bb66b1",
+  "traducao": "onde {{MATH_3}} é o tempo em segundos e {{MATH_4}} é uma \"frequência natural\" do circuito."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalApplied.tex",
+  "ordem": 3,
+  "hash": "faf671ede57dbcc8608d640cce416d9712217cd39f82c3961beca7086386c4ef",
+  "traducao": "A carga na ressonância, {{MATH_5}}, é definida pelo limite"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalApplied.tex",
+  "ordem": 4,
+  "hash": "df8e9126ccfd96c1f66d102750362c8a959a27f99000408be4d077718e38fd44",
+  "traducao": "(a) Qual é a forma do limite?"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalApplied.tex",
+  "ordem": 5,
+  "hash": "0dfd78c9d48d8dd27d0419af90f45274b6d0109b2b3b148ea4220fd4f82ff4e4",
+  "traducao": "(b)  Calcule o limite para encontrar a expressão de {{MATH_6}}."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalApplied.tex",
+  "ordem": 6,
+  "hash": "cdc8ef7ba3a66ea4c1e4b57c55ef1c6f5979594edf626aafca9783dc132b2299",
+  "traducao": "Você pode usar a regra de L'Hôpital."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalApplied.tex",
+  "ordem": 7,
+  "hash": "eadfd3fc84d45e9c4b34170c88edc738991bac7be583697e825c6f0e9273504a",
+  "traducao": "Tenha em mente que {{MATH_7}} ao escrever sua resposta."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalBasic1.tex",
+  "ordem": 0,
+  "hash": "9f4387ceb2bdaaaf628e710cfc81f578c70d2624f1d2e131413a8ba4eb35978b",
+  "traducao": "Calcule o limite a seguir. {{COMMENT_1}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalBasic2.tex",
+  "ordem": 0,
+  "hash": "9f4387ceb2bdaaaf628e710cfc81f578c70d2624f1d2e131413a8ba4eb35978b",
+  "traducao": "Calcule o limite a seguir. {{COMMENT_1}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalBasic3.tex",
+  "ordem": 0,
+  "hash": "9f4387ceb2bdaaaf628e710cfc81f578c70d2624f1d2e131413a8ba4eb35978b",
+  "traducao": "Calcule o limite a seguir. {{COMMENT_1}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalBasic6.tex",
+  "ordem": 0,
+  "hash": "9f4387ceb2bdaaaf628e710cfc81f578c70d2624f1d2e131413a8ba4eb35978b",
+  "traducao": "Calcule o limite a seguir. {{COMMENT_1}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential1.tex",
+  "ordem": 0,
+  "hash": "da746e1e97bce102f4825c53442ab00b2b885b4fb3ddaf99dc6c98634b7745ae",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential1.tex",
+  "ordem": 1,
+  "hash": "5ab32527433b14d5d619671cde72a7fa8a274341a14e1f2f175ea5fd95984bd3",
+  "traducao": "Selecione a forma do limite.\n{{CMD_2}}\n{{CMD_3}}{{MATH_4}}{{CMD_5}}\n{{CMD_6}}{{MATH_7}}{{CMD_8}}\n{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential1.tex",
+  "ordem": 2,
+  "hash": "000018d55cac63f80bd762422fc597ebb42284f37112301fa1defc48be0fc3a6",
+  "traducao": "Agora\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential1.tex",
+  "ordem": 3,
+  "hash": "3323c9976b801e08a3de68f66458aef8ca8960fd2aa56230868033a8ffadc016",
+  "traducao": "O valor do limite na exponencial acima é {{MATH_14}}, então\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential2.tex",
+  "ordem": 0,
+  "hash": "da746e1e97bce102f4825c53442ab00b2b885b4fb3ddaf99dc6c98634b7745ae",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential2.tex",
+  "ordem": 1,
+  "hash": "29a6c009214a84336f8e01b314e1d7df365cab5522e99a2e43a00b6d451f1a76",
+  "traducao": "Selecione a forma do limite.\n{{CMD_2}}\n\t{{CMD_3}}{{MATH_4}}{{CMD_5}}\n\t{{CMD_6}}{{MATH_7}}{{CMD_8}}\n\t{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential2.tex",
+  "ordem": 2,
+  "hash": "000018d55cac63f80bd762422fc597ebb42284f37112301fa1defc48be0fc3a6",
+  "traducao": "Agora\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential2.tex",
+  "ordem": 3,
+  "hash": "3323c9976b801e08a3de68f66458aef8ca8960fd2aa56230868033a8ffadc016",
+  "traducao": "O valor do limite na exponencial acima é {{MATH_14}}, então\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential3.tex",
+  "ordem": 0,
+  "hash": "da746e1e97bce102f4825c53442ab00b2b885b4fb3ddaf99dc6c98634b7745ae",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential3.tex",
+  "ordem": 1,
+  "hash": "29a6c009214a84336f8e01b314e1d7df365cab5522e99a2e43a00b6d451f1a76",
+  "traducao": "Selecione a forma do limite.\n{{CMD_2}}\n\t{{CMD_3}}{{MATH_4}}{{CMD_5}}\n\t{{CMD_6}}{{MATH_7}}{{CMD_8}}\n\t{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential3.tex",
+  "ordem": 2,
+  "hash": "000018d55cac63f80bd762422fc597ebb42284f37112301fa1defc48be0fc3a6",
+  "traducao": "Agora\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential3.tex",
+  "ordem": 3,
+  "hash": "3323c9976b801e08a3de68f66458aef8ca8960fd2aa56230868033a8ffadc016",
+  "traducao": "O valor do limite na exponencial acima é {{MATH_14}}, então\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential4.tex",
+  "ordem": 0,
+  "hash": "da746e1e97bce102f4825c53442ab00b2b885b4fb3ddaf99dc6c98634b7745ae",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential4.tex",
+  "ordem": 1,
+  "hash": "29a6c009214a84336f8e01b314e1d7df365cab5522e99a2e43a00b6d451f1a76",
+  "traducao": "Selecione a forma do limite.\n{{CMD_2}}\n\t{{CMD_3}}{{MATH_4}}{{CMD_5}}\n\t{{CMD_6}}{{MATH_7}}{{CMD_8}}\n\t{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential4.tex",
+  "ordem": 2,
+  "hash": "000018d55cac63f80bd762422fc597ebb42284f37112301fa1defc48be0fc3a6",
+  "traducao": "Agora\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential4.tex",
+  "ordem": 3,
+  "hash": "3323c9976b801e08a3de68f66458aef8ca8960fd2aa56230868033a8ffadc016",
+  "traducao": "O valor do limite na exponencial acima é {{MATH_14}}, então\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential5.tex",
+  "ordem": 0,
+  "hash": "da746e1e97bce102f4825c53442ab00b2b885b4fb3ddaf99dc6c98634b7745ae",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential5.tex",
+  "ordem": 1,
+  "hash": "5ab32527433b14d5d619671cde72a7fa8a274341a14e1f2f175ea5fd95984bd3",
+  "traducao": "Selecione a forma do limite.\n{{CMD_2}}\n{{CMD_3}}{{MATH_4}}{{CMD_5}}\n{{CMD_6}}{{MATH_7}}{{CMD_8}}\n{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential5.tex",
+  "ordem": 2,
+  "hash": "000018d55cac63f80bd762422fc597ebb42284f37112301fa1defc48be0fc3a6",
+  "traducao": "Agora\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalExponential5.tex",
+  "ordem": 3,
+  "hash": "3323c9976b801e08a3de68f66458aef8ca8960fd2aa56230868033a8ffadc016",
+  "traducao": "O valor do limite na exponencial acima é {{MATH_14}}, então\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 0,
+  "hash": "7e85a3d8d4ed2d8d5ab2215cfd291818fea942a3b1fc6923478954aa8b632123",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}} duas funções tais que"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 1,
+  "hash": "34e80625622d24f2269cb77eb78b53bba412f43fa4f276545aa0a9a6bee4015a",
+  "traducao": ".{{CMD_3}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 2,
+  "hash": "8835a98d6324c97706dd54eb097538bc4c0f21eb3dfe352e0289962cf0de266a",
+  "traducao": "Dizemos que {{MATH_4}}   {{CMD_5}}cresce mais rápido{{CMD_6}} que {{MATH_7}} quando {{MATH_8}} vai para {{MATH_9}}  se{{CMD_10}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 3,
+  "hash": "f3bd174803cd86ebd6b6561b04865b2c18dbd8309b3b021958935f7464768a07",
+  "traducao": ", ou, equivalentemente, se {{MATH_11}}.{{CMD_12}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 4,
+  "hash": "3b377ec85d62889197234f60d09807248104fb7acc6528b7cc76fe17101f0c7f",
+  "traducao": "Se o limite existe, isto é, se{{CMD_13}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 5,
+  "hash": "3c7df88422b6441a014d6a716d4ccf84ca342023589b585ed84fe2149a003c65",
+  "traducao": ", {{CMD_14}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 6,
+  "hash": "0f71aa22aacc54c3bb46b1e17330b06ea0d6185863aebe9b6200867a09a4b668",
+  "traducao": "para algum número positivo {{MATH_15}},{{CMD_16}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 7,
+  "hash": "64ffb3bb9c732a92a562b2a2011c8f7a3c9faf8f20d07287fcaa9028c1c963af",
+  "traducao": " então dizemos que as funções {{MATH_17}} e {{MATH_18}} têm {{CMD_19}}taxas de crescimento comparáveis{{CMD_20}}.{{CMD_21}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 8,
+  "hash": "6032557ec0d9b29ae65d6f73151e3991519f2a317a0bfdd65b87e3a6e5675deb",
+  "traducao": "Em outras palavras, comparamos as taxas de crescimento das funções {{MATH_22}} e {{MATH_23}} calculando o limite da forma {{MATH_24}}: {{MATH_25}} .{{CMD_26}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 9,
+  "hash": "330fac5f22ca8c434520ff290dfac4488a511bba6dd41151abbdcc548116e200",
+  "traducao": "Para cada um dos pares de funções a seguir, determine qual das duas cresce mais rápido ou afirme que elas têm taxas de crescimento comparáveis.  Justifique sua resposta calculando o limite {{MATH_27}}."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 10,
+  "hash": "d4bd4e5d6fa6f0feaff12ffac9b82f65138f2a6845df1e38bc507f20086e2ad5",
+  "traducao": ", {{MATH_28}}\n{{MATH_29}}\nSelecione a conclusão correta.\n{{CMD_30}}\n{{CMD_31}}{{MATH_32}} cresce mais rápido que {{MATH_33}}.{{CMD_34}}\n{{CMD_35}}{{MATH_36}} cresce mais rápido que {{MATH_37}}.{{CMD_38}}\n{{CMD_39}}{{MATH_40}} e {{MATH_41}} têm taxas de crescimento comparáveis.{{CMD_42}}\n{{CMD_43}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 11,
+  "hash": "e933a6f951443d5b072bdd78b4c777509563a3866065aabf50a9f2ea3dd2fcc4",
+  "traducao": ", {{MATH_44}}\n{{MATH_45}}\nSelecione a conclusão correta.\n{{CMD_46}}\n{{CMD_47}}{{MATH_48}} cresce mais rápido que {{MATH_49}}.{{CMD_50}}\n{{CMD_51}}{{MATH_52}} cresce mais rápido que {{MATH_53}}.{{CMD_54}}\n{{CMD_55}}{{MATH_56}} e {{MATH_57}} têm taxas de crescimento comparáveis.{{CMD_58}}\n{{CMD_59}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 12,
+  "hash": "1790818d010d84ce6cd037def831446f5aac27884b50277e4347d8017c4d6ee4",
+  "traducao": ", {{MATH_60}}\n{{MATH_61}}\nSelecione a conclusão correta.\n{{CMD_62}}\n{{CMD_63}}{{MATH_64}} cresce mais rápido que {{MATH_65}}.{{CMD_66}}\n{{CMD_67}}{{MATH_68}} cresce mais rápido que {{MATH_69}}.{{CMD_70}}\n{{CMD_71}}{{MATH_72}} e {{MATH_73}} têm taxas de crescimento comparáveis.{{CMD_74}}\n{{CMD_75}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 13,
+  "hash": "fb3feadc9d74780e75df7a18e97518c19815247cd7d9a1b0b6fe7dff697a48d8",
+  "traducao": ", {{MATH_76}}\n{{MATH_77}}\nSelecione a conclusão correta.\n{{CMD_78}}\n{{CMD_79}}{{MATH_80}} cresce mais rápido que {{MATH_81}}.{{CMD_82}}\n{{CMD_83}}{{MATH_84}} cresce mais rápido que {{MATH_85}}.{{CMD_86}}\n{{CMD_87}}{{MATH_88}} e {{MATH_89}} têm taxas de crescimento comparáveis.{{CMD_90}}\n{{CMD_91}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalGrowthRates1.tex",
+  "ordem": 14,
+  "hash": "3d955d2adc99a794abaf6b608c9e347c6a723418b6da76c81763fbaa16de5b88",
+  "traducao": ", {{MATH_92}}\n{{MATH_93}}\nSelecione a conclusão correta.\n{{CMD_94}}\n{{CMD_95}}{{MATH_96}} cresce mais rápido que {{MATH_97}}.{{CMD_98}}\n{{CMD_99}}{{MATH_100}} cresce mais rápido que {{MATH_101}}.{{CMD_102}}\n{{CMD_103}}{{MATH_104}} e {{MATH_105}} têm taxas de crescimento comparáveis.{{CMD_106}}\n{{CMD_107}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalRepeated1.tex",
+  "ordem": 0,
+  "hash": "e56fc2968626416a521d90220271260fbeadfccd422a418702e56260d4290fb4",
+  "traducao": "Calcule o limite a seguir:"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalRepeated2.tex",
+  "ordem": 0,
+  "hash": "e56fc2968626416a521d90220271260fbeadfccd422a418702e56260d4290fb4",
+  "traducao": "Calcule o limite a seguir:"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalRepeated4.tex",
+  "ordem": 0,
+  "hash": "e56fc2968626416a521d90220271260fbeadfccd422a418702e56260d4290fb4",
+  "traducao": "Calcule o limite a seguir:"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalTheory3.tex",
+  "ordem": 0,
+  "hash": "f0a8725827be17ae2e3d674546897bed8e9501648e026f9e4796a7f89ed95f5e",
+  "traducao": "Decida se a regra de L'H{{CMD_1}}pital se aplica imediatamente ao limite a seguir.  Se não se aplicar, explique por quê.  Determine o limite por qualquer meio necessário ou afirme que ele não existe."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalTheory3.tex",
+  "ordem": 1,
+  "hash": "616515163371e78c1145e07ebf079dc5e01438406be8b66fda8eda19ddc2d49d",
+  "traducao": "\tChame o numerador de {{MATH_2}} e o denominador de {{MATH_3}}."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalTheory3.tex",
+  "ordem": 2,
+  "hash": "a9cdb2338f9d53cee7a908b9b0da4795f0c446bb4281114d5f01cd38c0943551",
+  "traducao": "A regra de L'H{{CMD_4}}pital se aplica{{CMD_5}}\n\t{{CMD_6}}A regra de L'H{{CMD_7}}pital não se aplica, pois o limite não é uma forma indeterminada {{CMD_8}}\n\t{{CMD_9}}A regra de L'H{{CMD_10}}pital não se aplica porque {{MATH_11}}, com {{MATH_12}}, tem zeros em todo intervalo {{MATH_13}}, onde {{MATH_14}} é um número positivo pequeno {{CMD_15}}\n\t{{CMD_16}}A regra de L'H{{CMD_17}}pital não se aplica porque {{MATH_18}} não existe.{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalTheory3.tex",
+  "ordem": 3,
+  "hash": "52445b53fedc27cbdb47f784bf2b14048e5b07fc337da07190936074732e082d",
+  "traducao": "Se o limite não existir, escreva {{MATH_21}}."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/lhopitalTheory3.tex",
+  "ordem": 4,
+  "hash": "b08fd46af4103e0622f171938d0e0b8cbccb0da998a7cbb120bcb1c1cb7e8af4",
+  "traducao": "Lembre-se da fórmula do arco duplo para o seno:\n{{MATH_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14542v1.tex",
+  "ordem": 0,
+  "hash": "bbb4c327b0b24e4b1caa3538c237038b33a933f309fdc5f3a37e09f34000c657",
+  "traducao": "Calcule o limite. Escreva `DNE' se o limite não existir e não for nem {{MATH_1}} nem {{MATH_2}}. \n {{MATH_3}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14542v1.tex",
+  "ordem": 1,
+  "hash": "18903a5fe65cca688978f7e082baf78ddd1c5cd43a745277a930ce369848aed6",
+  "traducao": "Primeiro, temos que verificar que a regra de L'Hôpital se aplica:\n{{MATH_4}} e {{MATH_5}}.\nComo o numerador e o denominador têm, cada um (separadamente), limite {{MATH_6}}, este limite tem a forma {{MATH_7}}, o que significa que podemos usar a regra de L'Hôpital."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14542v1.tex",
+  "ordem": 2,
+  "hash": "3f45fcf137d96f0435b115bce449ca14f875cd79221aa4bd51bb087bafdb8c2e",
+  "traducao": "Aplicando a regra de L'Hôpital, temos:\n{{MATH_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14544v1.tex",
+  "ordem": 0,
+  "hash": "bbb4c327b0b24e4b1caa3538c237038b33a933f309fdc5f3a37e09f34000c657",
+  "traducao": "Calcule o limite. Escreva `DNE' se o limite não existir e não for nem {{MATH_1}} nem {{MATH_2}}. \n {{MATH_3}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14544v1.tex",
+  "ordem": 1,
+  "hash": "3025232eab3a08e53c2f9cc96e7412879ed2386809bb7760a028762ce02b1f36",
+  "traducao": "Como {{MATH_4}} e {{MATH_5}}, este limite tem a forma {{MATH_6}}. \nEssa é uma forma indeterminada, mas temos que reescrever antes de poder usar a regra de L'Hôpital.\n{{ENV_7}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14544v1.tex",
+  "ordem": 2,
+  "hash": "d88b4e1fc32aec5ce8c9d9e092f55402925f0be7adb5e15c4fdb400f0ac08499",
+  "traducao": "O numerador aqui tem limite {{MATH_8}} (um número positivo, não nulo). O denominador se aproxima de {{MATH_9}}, mas é positivo para {{MATH_10}} perto de {{MATH_11}}."
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14546v1.tex",
+  "ordem": 0,
+  "hash": "97974f1eaa8afd8702c2a8ffee2bc9d1594fc3198571704ed0259a7a7e427d33",
+  "traducao": "Calcule o limite. Escreva `DNE' se o limite não existir e não for nem {{MATH_1}} nem {{MATH_2}}.  \n{{MATH_3}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14546v1.tex",
+  "ordem": 1,
+  "hash": "69f4da1a13390510ef0a8eb21a4ef23022b2bce7ce982fec433e5bb66a938c18",
+  "traducao": "Este limite tem a forma {{MATH_4}}. Reescrevemos e aplicamos a regra de L'Hôpital.\n{{ENV_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14547v1.tex",
+  "ordem": 0,
+  "hash": "9c25c86b59a2861d7d633a222ab8e3d28bef9d6427fbcaca7f28e7a3c05c2c56",
+  "traducao": "Calcule o limite. Escreva `DNE' se o limite não existir e não for nem {{MATH_1}} nem {{MATH_2}}. \n{{MATH_3}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14547v1.tex",
+  "ordem": 1,
+  "hash": "53b1f0c5afd3f35baa6470679799f399e1b44f9167dcf47042deb0cd20e27a82",
+  "traducao": "Este é o limite de uma função contínua, não uma forma indeterminada.\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14547v1.tex",
+  "ordem": 2,
+  "hash": "71a432a8282bd21ffeae4e02187807d3b5a1955d4c21614c29602a40fdf482d9",
+  "traducao": "Calculando, temos\n{{MATH_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14550v1.tex",
+  "ordem": 0,
+  "hash": "9c25c86b59a2861d7d633a222ab8e3d28bef9d6427fbcaca7f28e7a3c05c2c56",
+  "traducao": "Calcule o limite. Escreva `DNE' se o limite não existir e não for nem {{MATH_1}} nem {{MATH_2}}. \n{{MATH_3}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14550v1.tex",
+  "ordem": 1,
+  "hash": "5185508fee9ecfbf9930f6fb2bd8433c18d10ca334e726d2e255a0c4b865a828",
+  "traducao": "Este é um problema de regra de L'Hôpital, com a forma indeterminada\n{{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14550v1.tex",
+  "ordem": 2,
+  "hash": "985f078de9410ff6822d9b39135c93eaa98c70fff93dfd87651e79b8672bf1db",
+  "traducao": "Para verificar a forma, note que\n{{MATH_6}} e\n{{MATH_7}}. Isso significa que este limite tem a forma {{MATH_8}}.\nReescrevendo e aplicando L'Hôpital, temos: \n{{ENV_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14552v1.tex",
+  "ordem": 0,
+  "hash": "9c25c86b59a2861d7d633a222ab8e3d28bef9d6427fbcaca7f28e7a3c05c2c56",
+  "traducao": "Calcule o limite. Escreva `DNE' se o limite não existir e não for nem {{MATH_1}} nem {{MATH_2}}. \n{{MATH_3}}"
+ },
+ {
+  "arquivo": "lhopitalsRule/exercises/q14552v1.tex",
+  "ordem": 1,
+  "hash": "2b7010dde944a35b5848ab5bbf98733566102a05543aa43538dbddaa03e742d2",
+  "traducao": "\tEste limite tem a forma {{MATH_4}}, então a regra de L'Hôpital se aplica.\n{{CMD_5}}"
+ }
+]

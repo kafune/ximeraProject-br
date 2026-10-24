@@ -108,3 +108,47 @@ fn load_entries_reads_every_json_in_a_directory() {
     assert_eq!(entries[0].arquivo, "a.tex");
     assert!(translations::load_entries(&d.path().join("vazio.json")).is_err());
 }
+
+#[test]
+fn export_localizes_protected_titles_between_segments() {
+    let d = tempdir().unwrap();
+    let source = d.path().join("source");
+    fs::create_dir(&source).unwrap();
+    let text = "Intro.\n\n\\begin{theorem}[Rolle's Theorem]\\index{Rolle's Theorem}\n\\[ x \\]\n\\end{theorem}\n\nSee \\dfn{limit}.\n";
+    fs::write(source.join("one.tex"), text).unwrap();
+    let database = d.path().join("db.sqlite3");
+    importer::import_tree(&database, "C", &source, false).unwrap();
+    let protected = vec![
+        translations::ProtectedEntry {
+            original: "\\begin{theorem}[Rolle's Theorem]".into(),
+            traducao: "\\begin{theorem}[Teorema de Rolle]".into(),
+        },
+        translations::ProtectedEntry {
+            original: "\\dfn{limit}".into(),
+            traducao: "\\dfn{limite}".into(),
+        },
+    ];
+    translations::apply_protected_entries(&database, &protected).unwrap();
+    // Without any finished translation the export stays byte-identical.
+    let out = d.path().join("out-untouched");
+    export::export_tree(&database, &source, &out, false).unwrap();
+    assert_eq!(fs::read_to_string(out.join("one.tex")).unwrap(), text);
+
+    let conn = db::open(&database).unwrap();
+    let file = db::file_records(&conn).unwrap().remove(0);
+    let segments = db::segments_for_file(&conn, file.id).unwrap();
+    for segment in &segments {
+        let translated = segment
+            .original
+            .replace("Intro.", "Introdução.")
+            .replace("See", "Veja");
+        db::save_segment(&conn, segment.id, &translated, true).unwrap();
+    }
+    drop(conn);
+    let out = d.path().join("out");
+    export::export_tree(&database, &source, &out, true).unwrap();
+    let exported = fs::read_to_string(out.join("one.tex")).unwrap();
+    assert!(exported.contains("\\begin{theorem}[Teorema de Rolle]\\index{Rolle's Theorem}"));
+    assert!(exported.contains("Veja \\dfn{limite}."));
+    assert!(exported.starts_with("Introdução.\n"));
+}

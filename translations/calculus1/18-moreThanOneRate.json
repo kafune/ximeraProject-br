@@ -471,7 +471,7 @@
   "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
   "ordem": 1,
   "hash": "5fd2cd06b1999eb51573d756b85da99fb60cb65fbdc94b89ad236cb38ef1a10c",
-  "traducao": "PASSO 1"
+  "traducao": "ETAPA 1"
  },
  {
   "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
@@ -495,19 +495,19 @@
   "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
   "ordem": 5,
   "hash": "30bbcced6e9ce9035cd8403207b7af50d7bf44c9f231474c7267385dec9a612a",
-  "traducao": "PASSO 2"
+  "traducao": "ETAPA 2"
  },
  {
   "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
   "ordem": 6,
   "hash": "73391cc811af556717481872a799cea8e11bcc66119687170d596e4980d9d8f7",
-  "traducao": " PASSO 3\n\n Expresse {{MATH_10}} em termos de {{MATH_11}}.\n\n  {{MATH_12}}"
+  "traducao": " ETAPA 3\n\n Expresse {{MATH_10}} em termos de {{MATH_11}}.\n\n  {{MATH_12}}"
  },
  {
   "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
   "ordem": 7,
   "hash": "ffe953608121dbd9812aec32addc6c187928776c31ae6b7bb9cc83181f75941c",
-  "traducao": "PASSO 3"
+  "traducao": "ETAPA 3"
  },
  {
   "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
@@ -519,7 +519,7 @@
   "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
   "ordem": 9,
   "hash": "276220050faaa42adddb03fd6d7ffb80c89962ade04bf644f3d25e0bd7a1304c",
-  "traducao": " PASSO 4\n\n Derive ambos os lados da equação do PASSO 3 em relação a {{MATH_15}}.\n\n  {{MATH_16}}\n\n\n PASSO 5\n\n Calcule.\n\n  {{MATH_17}}\n\n{{CMD_18}}"
+  "traducao": " ETAPA 4\n\n Derive ambos os lados da equação do ETAPA 3 em relação a {{MATH_15}}.\n\n  {{MATH_16}}\n\n\n ETAPA 5\n\n Calcule.\n\n  {{MATH_17}}\n\n{{CMD_18}}"
  },
  {
   "arquivo": "moreThanOneRate/exercises/relatedRatesSimple6.tex",

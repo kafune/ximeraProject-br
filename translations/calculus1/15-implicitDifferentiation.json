@@ -117,7 +117,7 @@
   "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
   "ordem": 11,
   "hash": "664212b79a31b3b35469288b8c8610fbeec3b052c8da60bc6f73f5a6b30b304b",
-  "traducao": "    Há dois pontos diferentes na curva com  a {{MATH_100}}coordenada {{MATH_101}}.\n\n    A vantagem da expressão para {{MATH_102}} que obtivemos acima é que ela pode ser usada para calcular a inclinação da reta tangente em cada um desses dois pontos, e em qualquer outro ponto da curva, onde estiver definida.\n\n\nAssim, para a segunda parte do problema, basta substituir {{MATH_103}} e {{MATH_104}}\nna expressão acima; logo, a inclinação da reta tangente nesse ponto\né {{MATH_105}}.\nPara a terceira parte do problema, basta substituir {{MATH_106}} e {{MATH_107}}\nna expressão acima; logo, a inclinação da reta tangente nesse ponto\né {{MATH_108}}."
+  "traducao": "    Há dois pontos diferentes na curva com coordenada {{MATH_100}} {{MATH_101}}.\n\n    A vantagem da expressão para {{MATH_102}} que obtivemos acima é que ela pode ser usada para calcular a inclinação da reta tangente em cada um desses dois pontos, e em qualquer outro ponto da curva, onde estiver definida.\n\n\nAssim, para a segunda parte do problema, basta substituir {{MATH_103}} e {{MATH_104}}\nna expressão acima; logo, a inclinação da reta tangente nesse ponto\né {{MATH_105}}.\nPara a terceira parte do problema, basta substituir {{MATH_106}} e {{MATH_107}}\nna expressão acima; logo, a inclinação da reta tangente nesse ponto\né {{MATH_108}}."
  },
  {
   "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",

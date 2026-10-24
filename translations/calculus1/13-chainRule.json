@@ -519,19 +519,19 @@
   "arquivo": "chainRule/exercises/trigReview9.tex",
   "ordem": 1,
   "hash": "ee26fc9e947e0e1ec45efed979a2ade0510dbb764e682bd68360fbf58669b90d",
-  "traducao": "PASSO 1\nIntroduza uma variável {{MATH_2}} que denote a distância entre o homem e a árvore. Em seguida, esboce e rotule a figura."
+  "traducao": "ETAPA 1\nIntroduza uma variável {{MATH_2}} que denote a distância entre o homem e a árvore. Em seguida, esboce e rotule a figura."
  },
  {
   "arquivo": "chainRule/exercises/trigReview9.tex",
   "ordem": 2,
   "hash": "068f79ee8d37a6b0e56f06eb10ea3301ac750bce9d6a3c5c259bd21aae826b58",
-  "traducao": "PASSO 2\nExpresse o ângulo de elevação em radianos\n{{MATH_3}}\nPASSO 3\nIntroduza uma nova variável, {{MATH_4}}, que denote o comprimento da sombra do homem. Calcule {{MATH_5}}."
+  "traducao": "ETAPA 2\nExpresse o ângulo de elevação em radianos\n{{MATH_3}}\nETAPA 3\nIntroduza uma nova variável, {{MATH_4}}, que denote o comprimento da sombra do homem. Calcule {{MATH_5}}."
  },
  {
   "arquivo": "chainRule/exercises/trigReview9.tex",
   "ordem": 3,
   "hash": "e07956bfb76b0ec2c5f4c57b34686455e71d365269a51bf6e9eba4cfc8af6430",
-  "traducao": "PASSO 4"
+  "traducao": "ETAPA 4"
  },
  {
   "arquivo": "chainRule/exercises/trigReview9.tex",
@@ -543,7 +543,7 @@
   "arquivo": "chainRule/exercises/trigReview9.tex",
   "ordem": 5,
   "hash": "4eb5bad36643a34769c44fa726f389a0d687a08f9251f15b6a282340819dc466",
-  "traducao": "PASSO 5"
+  "traducao": "ETAPA 5"
  },
  {
   "arquivo": "chainRule/exercises/trigReview9.tex",

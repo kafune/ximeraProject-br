@@ -1,0 +1,650 @@
+[
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/titlePage.tex",
+  "ordem": 0,
+  "hash": "7987512f8eea1b7cfac21293e31c51e3c06b1f7f882508cd64c3b9b6800c3821",
+  "traducao": "Aproximando a área sob uma curva{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/titlePage.tex",
+  "ordem": 2,
+  "hash": "56c763148b8137b4d69c1bea9b242270df3f81cdc8f6ca0390c075541298dd9e",
+  "traducao": " Expressar a soma de n termos usando a notação de somatório (sigma).\n\t{{CMD_4}} Aplicar as propriedades das somas ao trabalhar com somas em notação de somatório.\n\t{{CMD_5}} Compreender a relação entre a área sob uma curva e somas de áreas de retângulos.\n\t{{CMD_6}} Aproximar a área da região sob uma curva.\n\t{{CMD_7}} Calcular somas de Riemann à esquerda, à direita e do ponto médio com 10 retângulos ou menos.\n\t{{CMD_8}} Compreender como são calculadas as somas de Riemann com n retângulos e como o valor exato da área é obtido tomando o limite quando {{MATH_9}} .\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/breakGround.tex",
+  "ordem": 0,
+  "hash": "2f61b40e1eeb1f050902ec83ef951c78c1c4d820c5930f322fd23614b397c86f",
+  "traducao": "O que é área?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem a ideia de área.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/breakGround.tex",
+  "ordem": 1,
+  "hash": "4d6ab74d32f054905da685238f26eb3ebe97ff27b35342f78e62a8d5a1a315f5",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/breakGround.tex",
+  "ordem": 2,
+  "hash": "976e85540d936da84b809f30e74ce3e907068df4832eecf0a7a804e434780e50",
+  "traducao": " Riley, tenho uma pergunta que está me incomodando.\n{{CMD_7}} Sim?\n{{CMD_8}} O que é área?\n{{CMD_9}} Ah, para um retângulo é só\n  {{MATH_10}}\n{{CMD_11}} Certo. Mas não deveria significar algo mais?\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/breakGround.tex",
+  "ordem": 3,
+  "hash": "77b963b714849c89a4b5b4bb0a7de9f454a920afe303323f33b07b9d975dc29c",
+  "traducao": "Área é uma coisa curiosa. O que ela é, de fato? Bem, a ideia é a seguinte:\n{{CMD_13}}\nDefina algo como tendo área ``unitária'' e veja quantas vezes isso\n``cobre'' alguma outra coisa.\n{{CMD_14}}\nA escolha mais óbvia para a nossa área ``unitária'' é um quadrado\nunitário. A partir disso, podemos rapidamente passar a encontrar a área de qualquer\nretângulo como\n  {{MATH_15}}\n{{CMD_16}}\n  Às vezes a área é descrita como ``quanta tinta é necessária para cobrir uma superfície''.\n  Isso é preciso? O que você acha?\n  {{CMD_17}}\n  {{CMD_18}}\n{{CMD_19}}\n{{COMMENT_20}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 0,
+  "hash": "9ac817ac56acbce1b179d844145ffc3eee243a0cc212dd10007c29c31d7c075e",
+  "traducao": "Introdução à notação de somatório{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Apresentamos a notação de somatório (notação sigma).\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 1,
+  "hash": "e6ecd11aee4d9b830cd8d890e64eb95031537a873cafaf0af08b1b077ca668e1",
+  "traducao": "A notação em si{{CMD_7}}\nA {{CMD_8}}notação de somatório{{CMD_9}} (ou notação sigma) é uma maneira de escrever uma soma de muitos termos de forma concisa.  Uma soma em notação de somatório se parece com isto:"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 2,
+  "hash": "fa8f986a94d5828d2cdaf1cbb9710b9399696f4f16c369675edae7ee8d7fc2b0",
+  "traducao": "O {{MATH_10}} (sigma) indica que uma soma está sendo calculada.  A variável {{MATH_11}} é chamada de {{CMD_12}}índice{{CMD_13}} da soma.  Os números acima e abaixo do {{MATH_14}}\nsão chamados de {{CMD_15}}limites superior e inferior{{CMD_16}} do somatório.  Neste caso, o limite superior é {{MATH_17}}, e o limite inferior é {{MATH_18}}.  A notação significa que tomamos\ncada valor inteiro de {{MATH_19}} entre {{MATH_20}} e {{MATH_21}} (ou seja, {{MATH_22}}, {{MATH_23}}, {{MATH_24}}, {{MATH_25}} e {{MATH_26}}) e substituímos cada um deles na fórmula do termo geral (aqui, essa fórmula é {{MATH_27}}).\nDepois, somamos todos esses valores.\n{{MATH_28}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 3,
+  "hash": "a39652c422e475e6959f0a462be6f90745b442a87ddcacd3d363130262d6921e",
+  "traducao": "  Escreva por extenso o que significa a expressão a seguir:\n  {{MATH_29}}\n  {{CMD_30}}\n    Aqui, o índice {{MATH_31}} assume os valores {{MATH_32}}, {{MATH_33}}, {{MATH_34}} e {{MATH_35}}.  Vamos substituir cada um deles em {{MATH_36}} e somar os resultados.\n    {{MATH_37}}\n  {{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 4,
+  "hash": "314578c833fe455828b20144bbdeb0c2179a3b8a28cba66b5e8f05b1cab7f943",
+  "traducao": "  Escreva por extenso o que significa a expressão a seguir:\n  {{MATH_40}}\n  {{CMD_41}}\n    Aqui, a variável índice está escrita como {{MATH_42}} em vez de {{MATH_43}}.  Não há problema nisso.  As variáveis mais usadas como índice incluem {{MATH_44}}, {{MATH_45}}, {{MATH_46}}, {{MATH_47}} e {{MATH_48}}.\n    {{ENV_49}}\n    Isso é igual a:\n    {{ENV_50}}\n  {{CMD_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 5,
+  "hash": "733fa75c7e4e6597a311ae3213360d92187122647f903f05961adc103f4ef818",
+  "traducao": "Tente uma por conta própria.\n{{CMD_53}}\n\tEscreva por extenso o que significa a expressão a seguir (não é preciso simplificar):\n\t{{MATH_54}}\n{{CMD_55}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 6,
+  "hash": "becdfe3207914044630149f0550f86c1e4bcf122f6ae8dce5e706ad69bc9dde1",
+  "traducao": "Vamos tentar fazer o caminho inverso.\n{{CMD_56}}\n\tEscreva a soma a seguir em notação de somatório.\n\t{{MATH_57}}\n\t{{CMD_58}}\n\t\tObserve que podemos colocar um {{MATH_59}} em evidência em cada termo para reescrever essa soma como\n\t\t{{MATH_60}}\n\t\tIsso significa que estamos somando {{MATH_61}} vezes cada número entre {{MATH_62}} e {{MATH_63}}.  Se usarmos {{MATH_64}} como índice, a notação de somatório pode ser\n\t\t{{MATH_65}}\n\t\tNão é obrigatório usar {{MATH_66}} como variável índice.  Poderíamos muito bem ter usado {{MATH_67}} ou {{MATH_68}} no lugar dela.\n\t\t{{MATH_69}}\n\t\tObserve que essas somas NÃO são iguais a\n\t\t{{MATH_70}}\n\t{{CMD_71}}\n{{CMD_72}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 7,
+  "hash": "aabb4d7f5b6d569907e2bd0e08826fd205400c11c0c4e5473a3361bf4966d936",
+  "traducao": "\tEscreva a soma a seguir em notação de somatório.\n\t{{MATH_73}}\n\t{{CMD_74}}\n\t\tEsta é um pouco mais complicada.  Vamos nos preocupar com os sinais depois; primeiro, cuidamos dos números em si.  Você percebe algum padrão nos termos?\n\t\tClaro: passamos de um termo para o seguinte dividindo por 2.  Isto é:\n\t\t{{ENV_75}}\n\t\tSe chamarmos nossa variável índice de {{MATH_76}}, então {{MATH_77}} deve ir de {{MATH_78}} até {{MATH_79}}, e os números em si são simplesmente {{MATH_80}}.  Agora precisamos cuidar dos sinais.\n\t\tVimos acima que {{MATH_81}} alterna entre {{MATH_82}} e {{MATH_83}}.  Isso significa que, se multiplicarmos os termos que acabamos de encontrar por {{MATH_84}}, eles vão alternar entre {{MATH_85}} e {{MATH_86}}.\n\t\tEstamos começando com {{MATH_87}}, então {{MATH_88}} nos dá a alternância começando com o sinal que queremos.\n\t\t{{MATH_89}}\n\t{{CMD_90}}\n{{CMD_91}}\n\n\nTente uma por conta própria.\n{{CMD_92}}\n \tEscreva a soma a seguir em notação de somatório.\n \t{{MATH_93}}\n        {{CMD_94}}\n          Escrevemos:\n\t  {{MATH_95}}\n        {{CMD_96}}\n{{CMD_97}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 8,
+  "hash": "d583a27924e97e0f95f0d53265ce9850cdaf57ab554aa85489bc7532e646dbc1",
+  "traducao": "Calculando com a notação de somatório{{CMD_98}}\n Queremos usar a notação de somatório para simplificar nossos cálculos.  Para isso, precisamos conhecer algumas somas básicas.\n Primeiro, vamos falar da soma de uma constante.  (Observe que, aqui, nosso limite superior do somatório é {{MATH_99}}.  Neste caso, {{MATH_100}} não é a variável\n índice, mas sim o maior valor que a variável índice vai assumir.)\n {{MATH_101}}\n Esta é uma soma de {{MATH_102}} termos, cada um deles com valor {{MATH_103}}.  Isto é, estamos somando {{MATH_104}} cópias de {{MATH_105}}.  Essa soma é simplesmente {{MATH_106}}.\n As outras somas básicas de que precisamos são bem mais complicadas de deduzir.  Em vez de explicar de onde elas vêm, vamos apenas dar a você\n uma lista das fórmulas finais, que você pode usar.\n\n {{ENV_107}}\n{{ENV_108}}\n{{ENV_109}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 9,
+  "hash": "6cd1470767e5ed87ec4417ab6f069389795278dd3b7afa7da1109d93e97c38c3",
+  "traducao": "Agora que temos essa lista, vamos usá-la para calcular.\n{{CMD_110}}\n\tDetermine o valor da soma {{MATH_111}}.\n\t{{CMD_112}}\n\t\tEsta é simplesmente a soma de uma constante, com {{MATH_113}} e {{MATH_114}}.  O valor é {{MATH_115}}.\n\t{{CMD_116}}\n{{CMD_117}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 10,
+  "hash": "81a1db8a62e57624ad7a954baf31517de3c6097cb9510a6addac508f39c9e3a1",
+  "traducao": "\tDetermine o valor da soma {{MATH_118}}.\n\t{{CMD_119}}\n\t\tEsta é a soma {{MATH_120}}.  De acordo com a Fórmula 2 acima (com {{MATH_121}}), ela vale {{MATH_122}}.\n\t{{CMD_123}}\n{{CMD_124}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 11,
+  "hash": "0a46bfe8f48478eae6d10f39af6682b904642fc37e2e547eb2d33de30d2a236e",
+  "traducao": " Como a notação de somatório é apenas uma nova maneira de escrever uma adição, as propriedades usuais da adição continuam valendo, mas algumas das mais importantes ficam com uma aparência um pouco diferente.\n {{CMD_125}}\n {{CMD_126}}\n   {{MATH_127}}\n {{CMD_128}}\n   {{MATH_129}}\n {{CMD_130}}\n\n{{CMD_131}}\n  Determine o valor da soma:\n  {{MATH_132}}\n  {{CMD_133}}\n    Primeiro, usamos as propriedades acima para separar isso em duas somas e, em seguida, colocamos o {{MATH_134}} em evidência na primeira soma.\n    {{ENV_135}}\n    As duas somas que restaram podem ser calculadas usando as fórmulas 1 e 3\n    acima!\n    Vemos que:\n    {{MATH_136}}\n    Analogamente:\n    {{MATH_137}}\n    Juntando tudo isso, {{MATH_138}}.\n  {{CMD_139}}\n{{CMD_140}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 12,
+  "hash": "745be222e0bc34c1f605aff56a41b1713fbae81af57f53c8beefe7a9eef11408",
+  "traducao": "  Determine o valor da soma:\n  {{MATH_141}}\n  {{CMD_142}}\n    Vamos usar a mesma abordagem do exemplo anterior.  Primeiro, usamos as propriedades para separar isso em somas individuais e, em seguida, colocamos os coeficientes em evidência.\n    Depois disso, usamos as fórmulas acima para calcular o resultado.\n    {{ENV_143}}\n    Os números deste exemplo eram horrivelmente feios, mas conseguimos\n    calcular a soma sem precisar de fato calcular todos os 200\n    termos e depois somá-los.  Em {{MATH_144}} linhas curtas, conseguimos\n    somar {{MATH_145}} números.\n  {{CMD_146}}\n{{CMD_147}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInSigmaNotation.tex",
+  "ordem": 13,
+  "hash": "12b3256a4e0da479b67459b25cea41e534c1f514dd2fc9b284cb42112dcc99c5",
+  "traducao": "Tente uma por conta própria.\n{{CMD_148}}\n\tDetermine o valor da soma {{MATH_149}}\n\t{{CMD_150}}\n          {{MATH_151}}\n        {{CMD_152}}\n{{CMD_153}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 0,
+  "hash": "105c514619487ec129e749a55dedb5268d0f1042f99ea1997a799d6567a6943c",
+  "traducao": "Aproximando a área com retângulos{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Apresentamos a ideia básica de usar retângulos para aproximar a\n  área sob uma curva.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 1,
+  "hash": "f99946738ff9b0a97e64d1d2e01d8f0e13926521557239d58c0c1dc601c99d0b",
+  "traducao": "Retângulos e áreas{{CMD_7}}\nSabemos calcular a área de muitas figuras diferentes: retângulos, triângulos, trapézios, círculos etc. E a\nárea de algo como a região sob o gráfico de uma função?"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 2,
+  "hash": "48339be06c11aba68b4e4efe0855bfc2bc5ad25cb06624a65d7a38d65e4bac70",
+  "traducao": "Queremos calcular a área entre a curva {{MATH_8}} e o\neixo horizontal no intervalo {{MATH_9}}:\n{{CMD_10}}\n  {{ENV_11}}\n{{CMD_12}}\nUma maneira de fazer isso seria aproximar a área com\nretângulos. Com um retângulo, obtemos uma aproximação grosseira:\n{{CMD_13}}\n  {{ENV_14}}\n{{CMD_15}}\nDois retângulos talvez deem uma aproximação melhor:\n{{CMD_16}}\n  {{ENV_17}}\n{{CMD_18}}\nCom ainda mais retângulos, obtemos uma aproximação cada vez melhor:\n{{CMD_19}}\n  {{ENV_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 3,
+  "hash": "bc6f80fc52f6bd421d7f5b88cc46cbd4360fd90340911da70cf88854ddd68759",
+  "traducao": "  Se estamos aproximando a área entre uma curva e o eixo {{MATH_22}}\n  em {{MATH_23}} com {{MATH_24}} retângulos de largura {{MATH_25}}, então\n  {{MATH_26}}\n{{CMD_27}}\n{{CMD_28}}\n  {{ENV_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 4,
+  "hash": "64d677180d2207bfee1719c63145c7424b96580333e6a96b3ae18e6088d3f80d",
+  "traducao": "\t  Suponha que queiramos aproximar a área entre a curva {{MATH_31}}\n\t  e o eixo {{MATH_32}} no intervalo {{MATH_33}}, com {{MATH_34}} retângulos. Quanto vale {{MATH_35}}?\n\t  {{CMD_36}}\n\t    {{MATH_37}}\n\t  {{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 5,
+  "hash": "a5b3d68af5e06087539b46c6e4aede223aca16d0209faeed0212be945d453f82",
+  "traducao": "À medida que acrescentamos retângulos, aproximamos cada vez melhor a área que nos interessa:\n{{CMD_40}}\n  {{ENV_41}}\n{{CMD_42}}\nPoderíamos encontrar a área exata se conseguíssemos calcular o limite quando a largura dos retângulos tende a zero e o\nnúmero de retângulos tende a infinito."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 6,
+  "hash": "e0b8b6ed5a4c8a4a34053d13923cf5a126a9d3e0a25bbecfb5813eacde6c0392",
+  "traducao": "Vamos estabelecer alguma notação para ajudar nesses cálculos:"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 7,
+  "hash": "b130dad9702d2688a1ab6ebb1723e8c15a62834ab8f30a86c78c60388bd6eb48",
+  "traducao": "  Ao aproximar uma área com {{MATH_43}} retângulos, os {{CMD_44}}\n  {{MATH_45}}\n  são as coordenadas {{MATH_46}} que determinam os lados dos retângulos. No gráfico abaixo, numeramos os retângulos para\n  ajudar você a ver a relação entre os índices dos pontos da malha e o {{MATH_47}}-ésimo retângulo.\n{{CMD_48}}\n  {{ENV_49}}\n{{CMD_50}}\nObserve que, se estamos aproximando a área entre uma curva e o eixo horizontal em {{MATH_51}} com {{MATH_52}} retângulos, então sempre\nvale que\n{{MATH_53}}\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 8,
+  "hash": "b4169b3cf629e1969952d7a1dd83bb3b220f438220ec9f8b6008b078531e1d7f",
+  "traducao": "  Se estamos aproximando a área entre uma curva e o eixo\n  horizontal com {{MATH_55}} retângulos, quantos pontos da malha teremos?\n  {{CMD_56}}\n    Você pode desenhar!\n  {{CMD_57}}\n  {{CMD_58}}\n    Teremos {{MATH_59}} pontos da malha.\n  {{CMD_60}}\n{{CMD_61}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 9,
+  "hash": "7ee9d900cdaebd9c50c3e1a44c16fe0c47dd29aa16e3272352cacfbe5dfbd25c",
+  "traducao": "Mas qual conjunto de retângulos?{{CMD_62}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 10,
+  "hash": "b1de5fa3d15a669115a8bdcd2827c7b12c79723ed521dcdc72021b9c46f67b70",
+  "traducao": "Quando usamos {{MATH_63}} retângulos para calcular a área sob uma curva, a largura de cada retângulo é\n{{MATH_64}}. É claro que {{MATH_65}}, para {{MATH_66}}."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 11,
+  "hash": "7887d5eb23f3f7579043ef55900d80c4f530584a675b53d2893f39fe6fbbcbf4",
+  "traducao": "Isso significa que:\n{{ENV_67}}\nIsso nos dá uma fórmula para o {{MATH_68}} ponto da malha\n{{MATH_69}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 12,
+  "hash": "f1f3628c55d7e9b37f2c93ef329d120ecd0ebd1a2459ec4e8bda412870d6fe0b",
+  "traducao": "Isso nos informa sobre os lados dos retângulos, mas como determinamos {{CMD_70}}a altura{{CMD_71}} do retângulo?"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 13,
+  "hash": "84901e9f1613abcff7991231af2f6cf71849444037f9d4fdfe61774f72fe2e7f",
+  "traducao": "Escolhemos um {{CMD_72}}ponto amostral{{CMD_73}} {{MATH_74}} em {{MATH_75}} e calculamos a função nesse ponto. O valor {{MATH_76}} determina a altura de um retângulo.\n{{CMD_77}}\n  {{ENV_78}}\n{{CMD_79}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 14,
+  "hash": "1c608051b2cec39b8c4c0d6e373de9d84ce38a82c6ae569ec62dfb8bc2ddeba5",
+  "traducao": "  Ao aproximar uma área com retângulos, um {{CMD_80}} é a coordenada {{MATH_81}} que determina a altura do {{MATH_82}}\n  retângulo. Para {{MATH_83}}, denotamos um ponto amostral por:\n  {{MATH_84}}\n  que está no subintervalo {{MATH_85}}, e o valor\n   {{MATH_86}}\n  é a altura do {{MATH_87}} retângulo.\n{{CMD_88}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 15,
+  "hash": "2051be3d3e16b0a7dc951700336b1f2b0964e7d4f4dcc59d7c71156aa37490e8",
+  "traducao": "Há dois tipos diferentes de pontos cujas notações se parecem muito.\nOs pontos da malha, {{MATH_89}}, e os pontos amostrais, {{MATH_90}}.\nOs pontos da malha nos dizem onde ficam os lados esquerdo e direito dos retângulos que estamos construindo. Os pontos amostrais são substituídos\nna função para encontrar as alturas dos retângulos. Temos uma fórmula para os pontos da malha, {{MATH_91}},\nmas nem sempre temos uma fórmula para os pontos amostrais."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 16,
+  "hash": "2358a690669f18afbaa383c7aa010af12fb8095287dfff8f16e6c725bdc3e04c",
+  "traducao": " Qual é a área do {{MATH_92}} retângulo mostrado na figura acima?\n  {{CMD_93}}\n    {{CMD_94}}{{MATH_95}}{{CMD_96}}\n     {{CMD_97}}{{MATH_98}}{{CMD_99}}\n       {{CMD_100}}{{MATH_101}}{{CMD_102}}\n    {{CMD_103}}{{MATH_104}}{{CMD_105}}\n    {{CMD_106}}{{MATH_107}}{{CMD_108}}\n     {{CMD_109}}{{MATH_110}}{{CMD_111}}\n       {{CMD_112}}{{MATH_113}}{{CMD_114}}\n  {{CMD_115}}\n{{CMD_116}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 17,
+  "hash": "1745d88a415926929b67709629e6da82b2c085ddc8683f2e0938a13c8e1a8249",
+  "traducao": "Os pontos amostrais {{MATH_117}} podem ser qualquer ponto do subintervalo {{MATH_118}}, mas há algumas escolhas padrão que podemos fazer para\nfacilitar nossos cálculos. Aqui estão três opções de pontos amostrais que consideramos com frequência:"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 18,
+  "hash": "debc585fc30988f38df5c8ea33b7c5894785d84709afb8149227f8db5b27ae41",
+  "traducao": "Retângulos definidos pelas extremidades esquerdas{{CMD_119}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 19,
+  "hash": "171511ea6e445491219f171b7c08119c76bad9e068171bb08e38e3ffa1bfc915",
+  "traducao": "Podemos montar os retângulos de modo que o ponto amostral seja a extremidade esquerda, {{MATH_120}}."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 20,
+  "hash": "4805aa2c328abf43b1dea01780a76181f51738e50e95caa96a817d92249a243a",
+  "traducao": "No gráfico acima, a extremidade esquerda do {{MATH_121}} retângulo determina a altura do retângulo."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 21,
+  "hash": "a6e36964c3b2ce5b8bff0ae9e0622b959a13a70cf9fd709cad7a18a9069fec49",
+  "traducao": "Retângulos definidos pelas extremidades direitas{{CMD_122}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 22,
+  "hash": "8647944607a69ed4e078f224d3a6a5f24c3c442ba10a190817a2b1632c80b6e2",
+  "traducao": "Podemos montar os retângulos de modo que a extremidade direita determine a altura, {{MATH_123}}."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 23,
+  "hash": "2409cafffc00e80c9fc4c139fe6dd767fb3a570356160b878dd1256066dea70f",
+  "traducao": "No gráfico acima, a extremidade direita da base do {{MATH_124}} retângulo determina a altura."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 24,
+  "hash": "3967516d0210f794e56e95d3d456fddc4b0c362731641fa395a9039fa9c70dc6",
+  "traducao": "Retângulos definidos pelos pontos médios{{CMD_125}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 25,
+  "hash": "26b572a5340d47213960d3146eb2c3bee90fe3c31e48b54a9e14d999c519775d",
+  "traducao": "Podemos montar os retângulos de modo que o ponto médio da base determine a altura, {{MATH_126}}."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 26,
+  "hash": "ba180898833cb912a2e8f8ff1245e7e831f42ca95a5f19434be0a52cf8972247",
+  "traducao": "No gráfico acima, o ponto médio da base do {{MATH_127}} retângulo determina a altura."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 27,
+  "hash": "0283299ff6947d3312949bc2a71f48cdbafd8540b04d5073dd7d98f6e8137981",
+  "traducao": "Somas de Riemann e aproximação de áreas{{CMD_128}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 28,
+  "hash": "fdbb7ab8dda3bdc656c5b11b63489bb3b3b40d990fbea19dc916cedf58bd26b5",
+  "traducao": "Uma vez que sabemos identificar nossos retângulos, podemos calcular aproximações de algumas\n áreas. Se estamos aproximando uma área com {{MATH_129}} retângulos, então\n{{ENV_130}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 29,
+  "hash": "7055e424639c6b8cd77ede2f44d430d38ac413f898c1447c669729a0f1edbb9a",
+  "traducao": "  Uma soma da forma:\n  {{MATH_131}}\n  é chamada de {{CMD_132}}, pronuncia-se ``ríman''.\n{{CMD_133}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 30,
+  "hash": "784a0153524148dfe671b6a1174b377df3062722849bb0eab92026896f9b4d17",
+  "traducao": "Uma soma de Riemann calcula uma aproximação da área entre uma curva\ne o eixo {{MATH_134}} no intervalo {{MATH_135}}. Ela pode ser definida de várias\nmaneiras diferentes. No nosso curso, ela será definida por extremidades esquerdas,\nextremidades direitas ou pontos médios. Aqui vemos a conexão explícita\nentre uma soma de Riemann definida por extremidades esquerdas e a área entre uma curva\ne o eixo {{MATH_136}} no intervalo {{MATH_137}}:\n{{CMD_138}}\n  {{ENV_139}}\n{{CMD_140}}\ne aqui está a soma de Riemann associada\n{{MATH_141}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 31,
+  "hash": "8f9104eebec977d65484d52f3e74e3310e278d2bf10037375ee5ab55bc7b6aa4",
+  "traducao": "Somas de Riemann à esquerda{{CMD_142}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 32,
+  "hash": "1eb0c1d0e9d8560ff6d5341ddf8eb8d61d141a94928499b2ca7176d0263e4abd",
+  "traducao": "  Considere {{MATH_143}}. Aproxime a área entre a curva {{MATH_144}} e\n  o eixo {{MATH_145}} no intervalo {{MATH_146}} usando uma soma de Riemann por {{CMD_147}}extremidades esquerdas{{CMD_148}}\n  com {{MATH_149}} retângulos.\n\n  {{CMD_150}}\n    Primeiro, observe que a largura de cada retângulo é\n    {{MATH_151}}\n    Os pontos da malha definem os lados dos retângulos e podem ser vistos abaixo:\n{{CMD_152}}\n  {{ENV_153}}\n{{CMD_154}}\nPor outro lado, os pontos amostrais indicam quais extremidades usamos:\n{{CMD_155}}\n  {{ENV_156}}\n{{CMD_157}}\nÉ útil reunir todos esses dados em uma tabela:\n{{MATH_158}}\nAgora podemos escrever uma soma de Riemann à esquerda\n{{MATH_159}}\nque resulta em\n{{ENV_160}}\ne obtemos\n{{MATH_161}}\n  {{CMD_162}}\n{{CMD_163}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 33,
+  "hash": "524e006ce63dfd40c520d7fe10e3ccebefa3c6315f89553cee42c8cfb7720192",
+  "traducao": "Somas de Riemann à direita{{CMD_164}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 34,
+  "hash": "af159a72c56e287b8e32e7c7d3ca047fa0b96bac4e4287e22a9f7cd28191a9e4",
+  "traducao": "  Considere {{MATH_165}}. Aproxime a área entre o gráfico de {{MATH_166}} e\n  o eixo {{MATH_167}} no intervalo {{MATH_168}} usando uma soma de Riemann por {{CMD_169}}extremidades direitas{{CMD_170}}\n  com {{MATH_171}} retângulos.\n\n  {{CMD_172}}\n    Primeiro, observe que a largura de cada retângulo é\n    {{MATH_173}}\n    Os pontos da malha definem os lados dos retângulos e podem ser vistos abaixo:\n{{CMD_174}}\n  {{ENV_175}}\n{{CMD_176}}\nPor outro lado, os pontos amostrais indicam quais extremidades usamos:\n{{CMD_177}}\n  {{ENV_178}}\n{{CMD_179}}\nÉ útil reunir todos esses dados em uma tabela:\n{{MATH_180}}\nAgora podemos escrever uma soma de Riemann à direita\n{{MATH_181}}\nque resulta em\n{{ENV_182}}\ne obtemos\n{{MATH_183}}\n  {{CMD_184}}\n{{CMD_185}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 35,
+  "hash": "d94525c4c759b0e3cf44b1612d9bc6dff675358d3d006d9eafc34252561637d9",
+  "traducao": "Somas de Riemann do ponto médio{{CMD_186}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 36,
+  "hash": "263d93fe11aba62fa79ca30d9cf39f36364377bb5a25d86d611ba1be41cc2c20",
+  "traducao": "  Considere {{MATH_187}}. Aproxime a área entre o gráfico de {{MATH_188}} e\n  o eixo {{MATH_189}} no intervalo {{MATH_190}} usando uma soma de Riemann do {{CMD_191}}ponto médio {{CMD_192}}\n  com {{MATH_193}} retângulos.\n\n  {{CMD_194}}\n    Primeiro, observe que a largura de cada retângulo é\n    {{MATH_195}}\n    Os pontos da malha definem os lados dos retângulos e podem ser vistos abaixo:\n{{CMD_196}}\n  {{ENV_197}}\n{{CMD_198}}\nPor outro lado, os pontos amostrais indicam quais pontos usamos:\n{{CMD_199}}\n  {{ENV_200}}\n{{CMD_201}}\nÉ útil reunir todos esses dados em uma tabela:\n{{MATH_202}}\nAgora podemos escrever uma soma de Riemann do ponto médio\n{{MATH_203}}\nque resulta em\n{{ENV_204}}\ne obtemos\n{{MATH_205}}\n  {{CMD_206}}\n{{CMD_207}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 37,
+  "hash": "5310386ee08360016a838b9ebefae71aed6a05e8a917e4c45c78f6798632a4d9",
+  "traducao": "Considere a função\n{{MATH_208}}\nno intervalo {{MATH_209}}. Vamos aproximar a área entre o gráfico de {{MATH_210}} e o eixo {{MATH_211}} no intervalo {{MATH_212}}. Veja a figura abaixo."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 38,
+  "hash": "b5a10bc9d43ac9d8b60ba5285f8ca7023b3e3715ada26e3afcd10a46087954c2",
+  "traducao": "A imagem mostra uma soma de Riemann {{CMD_213}}{{CMD_214}}à esquerda{{CMD_215}}{{CMD_216}}à direita{{CMD_217}}{{CMD_218}}do ponto médio{{CMD_219}}{{CMD_220}} com {{MATH_221}} subintervalos."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 39,
+  "hash": "211a5ed312501c68b3685959f479dae3bbfa5aa0b20a0db6ad4f0729dea160f6",
+  "traducao": "Há mais área sob o gráfico da função que não foi incluída na coleção de retângulos. Isso significa que\nessa aproximação é uma {{CMD_222}}{{CMD_223}}estimativa por excesso{{CMD_224}}{{CMD_225}}estimativa por falta{{CMD_226}}{{CMD_227}}.\n{{CMD_228}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 40,
+  "hash": "1cbd4d5b2e119fa89fbbe57fde503d9dbcf98cce441e1dddc9274b5717e7f17d",
+  "traducao": "Considere a função\n{{MATH_229}}\nno intervalo {{MATH_230}}. Vamos aproximar a área entre o gráfico de {{MATH_231}} e o eixo {{MATH_232}} no intervalo {{MATH_233}} usando uma soma de Riemann {{CMD_234}}à direita {{CMD_235}}\n  com {{MATH_236}} retângulos.\n Primeiro, determine a largura de cada retângulo.\n  {{MATH_237}}\nEm seguida, vamos determinar os pontos da malha."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 41,
+  "hash": "d651026f7608a106253ada1156f37c4586f3cd77c8433511d4d9982ffa8f0eb2",
+  "traducao": "Para uma soma de Riemann à direita, para {{MATH_238}}, determinamos os pontos amostrais da seguinte forma:\n{{MATH_239}}\nAgora podemos aproximar a área com uma soma de Riemann à direita.\n{{ENV_240}}\nPodemos simplificar a última soma usando as propriedades distributiva, comutativa e associativa de uma soma.\n{{ENV_241}}\nNa última soma, a constante {{MATH_242}} é um fator comum, então podemos aplicar novamente a propriedade distributiva e obter o seguinte\n{{MATH_243}}\nNa primeira soma acima, a constante {{MATH_244}} é somada {{MATH_245}} vezes, e temos uma fórmula para a segunda soma. Lembre-se: {{MATH_246}}. Portanto,\n{{MATH_247}}\nPodemos simplificar essa expressão e obter\n{{MATH_248}}\nEssa aproximação é uma {{CMD_249}}{{CMD_250}}estimativa por excesso{{CMD_251}}{{CMD_252}}estimativa por falta{{CMD_253}}{{CMD_254}}."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 42,
+  "hash": "6b0e73b108bb140ca6062d9b6dfa039c2c05b35f8aa87153e520a1bd80b56177",
+  "traducao": "No exemplo anterior, calculamos uma soma de Riemann à direita para\n{{MATH_255}}. Verifique se o seu resultado estava correto substituindo {{MATH_256}} na\nfórmula acima.\n{{CMD_257}}\nAgora podemos tomar o limite das somas de Riemann quando {{MATH_258}} para encontrar o valor exato da área da região sob a curva {{MATH_259}} no intervalo {{MATH_260}}. Isto é,\n{{MATH_261}}\ne, portanto,\n{{MATH_262}}\n{{CMD_263}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 43,
+  "hash": "71641b03c556dde460eef68171c5fdf766ef0d3c08b855630d9743dd08c0a6de",
+  "traducao": "Resumo{{CMD_264}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles.tex",
+  "ordem": 44,
+  "hash": "a2efdd47454a8acd8c69f720adf4a4c54d83d8f793814faf2adc8d387a121af5",
+  "traducao": "As somas de Riemann aproximam a área entre curvas e o eixo {{MATH_265}} por meio de\nretângulos.  Ao calcular essa área com retângulos, há\nvárias coisas que precisamos saber:\n{{CMD_266}}\n{{CMD_267}} Em que intervalo estamos? Na discussão acima, chamamos esse intervalo de\n    {{MATH_268}}.\n  {{CMD_269}} Quantos retângulos serão usados? Na discussão acima,\n    chamamos esse número de {{MATH_270}}.\n  {{CMD_271}} Qual é a largura de cada retângulo? Na discussão acima,\n    chamamos essa largura de {{MATH_272}}.\n  {{CMD_273}} Que pontos determinarão a altura do retângulo? Na\n    discussão acima, chamamos esses pontos de pontos amostrais, {{MATH_274}}, e eles\n    podem ser extremidades esquerdas, extremidades direitas ou pontos médios.\n  {{CMD_275}} Qual é, de fato, a altura do retângulo? Ela será sempre\n    {{MATH_276}}.\n      {{CMD_277}} Aproximamos a área {{MATH_278}} por uma soma de Riemann\n\n      {{MATH_279}}.\n      {{CMD_280}} À medida que {{MATH_281}} fica cada vez maior, {{MATH_282}} fica cada vez menor, e a aproximação fica cada vez melhor.\n      Calculamos o valor exato de {{MATH_283}} tomando o limite das somas de Riemann\n\n\n     {{MATH_284}}.\n{{CMD_285}}\n{{CMD_286}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/05_03_ex_05.tex",
+  "ordem": 0,
+  "hash": "c1dbcba6caff32529055bc9f4435ed30e5f7154bf7e985388e82f5781d687db9",
+  "traducao": "Calcule\n{{MATH_1}}\n{{CMD_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/05_03_ex_06.tex",
+  "ordem": 0,
+  "hash": "a6ca835298113b977279756e32e19458269e04243929cadefb5472d995a6e72c",
+  "traducao": "Calcule\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/05_03_ex_07.tex",
+  "ordem": 0,
+  "hash": "a6ca835298113b977279756e32e19458269e04243929cadefb5472d995a6e72c",
+  "traducao": "Calcule\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/05_03_ex_08.tex",
+  "ordem": 0,
+  "hash": "a6ca835298113b977279756e32e19458269e04243929cadefb5472d995a6e72c",
+  "traducao": "Calcule\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/05_03_ex_09.tex",
+  "ordem": 0,
+  "hash": "a6ca835298113b977279756e32e19458269e04243929cadefb5472d995a6e72c",
+  "traducao": "Calcule\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/05_03_ex_10.tex",
+  "ordem": 0,
+  "hash": "a6ca835298113b977279756e32e19458269e04243929cadefb5472d995a6e72c",
+  "traducao": "Calcule\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/05_03_ex_16.tex",
+  "ordem": 0,
+  "hash": "a6ca835298113b977279756e32e19458269e04243929cadefb5472d995a6e72c",
+  "traducao": "Calcule\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/05_03_ex_17.tex",
+  "ordem": 0,
+  "hash": "8ea536fc64840f25f8c987265dda9f4e868eec9327aaab97891b5732b749eebc",
+  "traducao": "Agora aplique as fórmulas para {{MATH_1}} e {{MATH_2}}.\n{{MATH_3}}\n{{MATH_4}}\n{{CMD_5}}\nCalcule\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/05_03_ex_25.tex",
+  "ordem": 0,
+  "hash": "7abecdf871e0e4f1321f44f1ae8ab07308ec5cceb8cd94c7e24890cedb1db679",
+  "traducao": "Calcule\n{{CMD_1}}\n{{MATH_2}}\n{{CMD_3}}\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/limitOfRiemannSums.tex",
+  "ordem": 0,
+  "hash": "274f5524a86d385fb1015d74397675453eb12912119105f5ec6b0a29ddbbb764",
+  "traducao": "Responda ao que se pede, sabendo que é um fato bem conhecido que\n{{MATH_1}} e {{MATH_2}}.\n{{CMD_3}}\n{{CMD_4}} Determine a soma de Riemann à direita para {{MATH_5}} no intervalo {{MATH_6}} usando {{MATH_7}} retângulos.\n{{CMD_8}}\n{{MATH_9}}\n{{CMD_10}}\n{{CMD_11}}\nVamos determinar os pontos da malha, para {{MATH_12}}\n{{MATH_13}}\n{{CMD_14}}\n{{CMD_15}}\n{{MATH_16}}\n{{MATH_17}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/limitOfRiemannSums.tex",
+  "ordem": 1,
+  "hash": "d7f8735edc5693b410e4180a983f5de051e48c42a03629d8dff0aa6938f0d631",
+  "traducao": "Agora, vamos escrever a soma de Riemann à direita\n{{MATH_18}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/limitOfRiemannSums.tex",
+  "ordem": 2,
+  "hash": "951c0dd7deb94ac17626f771116a89d7f7999340a0e59de8201326fb50e4d0e0",
+  "traducao": "Agora, vamos simplificar a soma\n{{MATH_19}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/limitOfRiemannSums.tex",
+  "ordem": 3,
+  "hash": "804172580800c6315b06dfc775227918e24bacb229a3b36f1e0518743d775211",
+  "traducao": "Agora, vamos simplificar mais um pouco\n{{MATH_20}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/limitOfRiemannSums.tex",
+  "ordem": 4,
+  "hash": "f82284c7922e1623a3302aa6461a1cc5e92051720977d7f2996756db4f8eaf96",
+  "traducao": "Agora, aplique as fórmulas dadas\n{{MATH_21}}\n{{CMD_22}}\n{{CMD_23}}\n{{MATH_24}}\n{{CMD_25}}\n{{CMD_26}} Calcule o limite da sua resposta acima quando {{MATH_27}}.\n {{CMD_28}}\n{{MATH_29}}\n{{CMD_30}}\n{{CMD_31}} Calcule a área entre a curva {{MATH_32}} e o intervalo {{MATH_33}} usando geometria.\n{{CMD_34}}\n{{CMD_35}}\n  {{ENV_36}}\n{{CMD_37}}\n{{CMD_38}}\n{{CMD_39}}\n {{MATH_40}}\n{{CMD_41}}\n{{CMD_42}}\n{{CMD_43}}\n{{CMD_44}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/q14596v1.tex",
+  "ordem": 0,
+  "hash": "fa0f2b223a1802e53a960bf2f46a89d7803b1e5e103c8a20dcbf2376d14bd059",
+  "traducao": "Estime a área sob a curva {{MATH_1}} entre {{MATH_2}} e\n{{MATH_3}} usando {{MATH_4}} retângulos e tomando os pontos médios como pontos amostrais."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/q14596v1.tex",
+  "ordem": 1,
+  "hash": "37a3c0c2b7ecc66e77c410af6e7888824b839369917aaf6939f39061670777f1",
+  "traducao": "\tEste é um cálculo de soma de Riemann com um número pequeno de retângulos. Escreva os intervalos\n\te os pontos amostrais e, em seguida, calcule.\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/q14596v1.tex",
+  "ordem": 2,
+  "hash": "50a4086e88a64720fcb2ee0b9bae367c1bb932e86c3f65729e8ba53a9efc94d3",
+  "traducao": "\tEstamos calculando uma soma de Riemann com {{MATH_6}} no\n\tintervalo {{MATH_7}}. Portanto, os subintervalos são:\n\t{{MATH_8}} Os pontos médios desses subintervalos são {{MATH_9}}, {{MATH_10}}\n\te {{MATH_11}}.\n\tA soma de Riemann é:\n\t{{ENV_12}}\n{{COMMENT_13}}\n{{COMMENT_14}}\n{{COMMENT_15}}\n{{COMMENT_16}}\n{{COMMENT_17}}\n{{COMMENT_18}}\n{{COMMENT_19}}\n{{COMMENT_20}}\n{{COMMENT_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/q15551v1.tex",
+  "ordem": 0,
+  "hash": "b319419824b8712d693b9ebd6f355a38f669cdd5a11be208b640e4a31d27a17c",
+  "traducao": "A função {{MATH_1}} é contínua para todos os valores de {{MATH_2}}."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/q15551v1.tex",
+  "ordem": 1,
+  "hash": "442e16128a6f8099ac5b5c9186f67dbb24b9baff7ee4bfc6842e9c7fd3c54b92",
+  "traducao": "Verdadeiro ou falso: {{MATH_3}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/q15551v1.tex",
+  "ordem": 2,
+  "hash": "618ea27907de9f79d348da605e4b508dee220d7ce30b7057a9900fe4f8043a5f",
+  "traducao": "Qual é a definição de continuidade?\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/q15551v1.tex",
+  "ordem": 3,
+  "hash": "e00b87550fc1a0895648771493b9d1cba2f14f72fd272415e3deaad5e3d0294b",
+  "traducao": "Pela definição de continuidade, {{MATH_5}} para cada\nvalor de {{MATH_6}}, então a afirmação é verdadeira.\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/q15551v1.tex",
+  "ordem": 4,
+  "hash": "b5141e3b371bf2197c8d84229d1cde13c53b199d6197e75e0b178731ab795a4f",
+  "traducao": "Verdadeiro{{CMD_8}}\n{{CMD_9}}Falso{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/q8_1_SP17.tex",
+  "ordem": 0,
+  "hash": "46d0560c6aad521d4c82abef710201d5200de32b25dc09b82702bbd05c146abd",
+  "traducao": "Seja {{MATH_1}} no intervalo {{MATH_2}}.\n{{CMD_3}}\n  {{ENV_4}}\n{{CMD_5}}\nVamos calcular a soma de Riemann do {{CMD_6}}ponto médio{{CMD_7}} com {{MATH_8}} retângulos.\n{{CMD_9}}\n  Primeiro, calcule a largura de cada um dos {{MATH_10}} retângulos:\n  {{MATH_11}}\n  {{COMMENT_12}}\n  {{CMD_13}}\n  Selecione a figura que mostra a soma de Riemann do {{CMD_14}}ponto médio{{CMD_15}} correspondente.\n  {{CMD_16}}\n  {{CMD_17}}{{ENV_18}}\n  {{CMD_19}}\n    {{CMD_20}}{{ENV_21}}\n  {{CMD_22}}\n    {{CMD_23}}{{ENV_24}}\n  {{CMD_25}}\n    {{CMD_26}}{{ENV_27}}\n  {{CMD_28}}\n      {{CMD_29}}{{ENV_30}}\n  {{CMD_31}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/q8_1_SP17.tex",
+  "ordem": 1,
+  "hash": "3fef6a59155fe5d6e2f025c4d238ad31f40f92dde05ffa8aeef0b2fcf57657d5",
+  "traducao": "    Agora preencha a tabela a seguir, em que {{MATH_32}} denota a {{MATH_33}}-ésima extremidade de um retângulo e {{MATH_34}} denota o ponto médio do retângulo no intervalo {{MATH_35}} (talvez você precise montar a sua própria tabela em uma avaliação escrita!):\n    {{MATH_36}}\n   {{CMD_37}}\n    Por fim, calcule a soma de Riemann do {{CMD_38}}ponto médio{{CMD_39}} com {{MATH_40}} retângulos.\n    {{MATH_41}}\n    {{CMD_42}}\n  {{CMD_43}}\n {{CMD_44}}\n{{CMD_45}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum1-copy-copy.tex",
+  "ordem": 0,
+  "hash": "36cb6038293b44bdd5109431ebd185c04c2d760c7fd49db3d9dcff366f3b42d3",
+  "traducao": "Considere a função\n{{MATH_1}}\nno intervalo {{MATH_2}}.  Vamos aproximar a área da região limitada pelo gráfico de {{MATH_3}} e pelo eixo {{MATH_4}}.  Veja a figura abaixo."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum1-copy-copy.tex",
+  "ordem": 1,
+  "hash": "f34d58860de1c3c2954ab0ad1e3452c2c7035033e7e24962c3028f58f6c21056",
+  "traducao": "A imagem mostra uma soma de Riemann {{CMD_5}}{{CMD_6}}à esquerda{{CMD_7}}{{CMD_8}}à direita{{CMD_9}}{{CMD_10}}do ponto médio{{CMD_11}}{{CMD_12}} com {{MATH_13}} subintervalos."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum1.tex",
+  "ordem": 0,
+  "hash": "36cb6038293b44bdd5109431ebd185c04c2d760c7fd49db3d9dcff366f3b42d3",
+  "traducao": "Considere a função\n{{MATH_1}}\nno intervalo {{MATH_2}}.  Vamos aproximar a área da região limitada pelo gráfico de {{MATH_3}} e pelo eixo {{MATH_4}}.  Veja a figura abaixo."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum1.tex",
+  "ordem": 1,
+  "hash": "eab750d8429dc8915fada501e497b2579e4f33d2350e0320df42c48ffbbfa0dd",
+  "traducao": "A imagem mostra uma soma de Riemann {{CMD_5}}{{CMD_6}}à esquerda{{CMD_7}}{{CMD_8}}à direita{{CMD_9}}{{CMD_10}}do ponto médio{{CMD_11}}{{CMD_12}} com {{MATH_13}} retângulos."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum1.tex",
+  "ordem": 2,
+  "hash": "11caaa54661ff6a0939a9895042e0ea9908d5c4582d66f480de3ecd92853bcf4",
+  "traducao": "A aproximação da área dada por essa soma de Riemann é uma {{CMD_14}}{{CMD_15}}estimativa por excesso{{CMD_16}}{{CMD_17}}estimativa por falta{{CMD_18}}{{CMD_19}} porque\n{{CMD_20}}\n\t{{CMD_21}}os retângulos contêm mais área do que a região.{{CMD_22}}\n\t{{CMD_23}}há mais área na região do que a contida nos retângulos.{{CMD_24}}\n\t{{CMD_25}}é impossível dizer.{{CMD_26}}\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum2.tex",
+  "ordem": 0,
+  "hash": "a6b1b2c00940d6dffb9b98c3c33d166fdc545d9033c704463ffb7e3b8580e23c",
+  "traducao": "Considere a função\n{{MATH_1}}\nno intervalo {{MATH_2}}."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum2.tex",
+  "ordem": 1,
+  "hash": "21b221f773aa7769a1455988c299357d1cc24d6bf46c8900a86d3472121c75e8",
+  "traducao": "Considere aproximar a área entre o gráfico de {{MATH_3}} e o eixo {{MATH_4}} usando uma soma de Riemann do ponto médio com {{MATH_5}} subintervalos.  Nesse caso,\n{{ENV_6}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum2.tex",
+  "ordem": 2,
+  "hash": "002cd36613351bf9e3a1e1d70b0ef895ed2b7dbeabd6da143f55d0e8db011840",
+  "traducao": "Isso nos dá que a nossa soma de Riemann do ponto médio é\n{{MATH_7}}\nAproximando com duas casas decimais, isso dá {{MATH_8}}."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum2.tex",
+  "ordem": 3,
+  "hash": "a65b606b57e787b7dfa20504437a5dd8c4266fec6101008655fad2e677db63d5",
+  "traducao": "Agora considere aproximar a mesma área com uma soma de Riemann à esquerda com {{MATH_9}} subintervalos.  Nesse caso,\n{{ENV_10}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum2.tex",
+  "ordem": 4,
+  "hash": "3a4e2ad348591af16cd7af11bfb4c27beae6f6d42064a69f2948bbbaf0f3abf4",
+  "traducao": "Isso nos dá que a nossa soma de Riemann à esquerda é\n{{MATH_11}}\nAproximando com duas casas decimais, isso dá {{MATH_12}}."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum2.tex",
+  "ordem": 5,
+  "hash": "88f45beec07b9bb38e82cb019aac255336974bf68161f2cc2b4dd527429d1c54",
+  "traducao": "Por fim, a área exata entre o gráfico de {{MATH_13}} e o eixo {{MATH_14}} no intervalo {{MATH_15}} é\n{{MATH_16}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum2.tex",
+  "ordem": 6,
+  "hash": "27ed8d78baed4b98fbd71e9a1dddca4d889cb97832d279764c992440bbbabf35",
+  "traducao": "Esboce o gráfico de {{MATH_17}}. Que forma tem esse gráfico?\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum3.tex",
+  "ordem": 0,
+  "hash": "36cb6038293b44bdd5109431ebd185c04c2d760c7fd49db3d9dcff366f3b42d3",
+  "traducao": "Considere a função\n{{MATH_1}}\nno intervalo {{MATH_2}}.  Vamos aproximar a área da região limitada pelo gráfico de {{MATH_3}} e pelo eixo {{MATH_4}}.  Veja a figura abaixo."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum3.tex",
+  "ordem": 1,
+  "hash": "eab750d8429dc8915fada501e497b2579e4f33d2350e0320df42c48ffbbfa0dd",
+  "traducao": "A imagem mostra uma soma de Riemann {{CMD_5}}{{CMD_6}}à esquerda{{CMD_7}}{{CMD_8}}à direita{{CMD_9}}{{CMD_10}}do ponto médio{{CMD_11}}{{CMD_12}} com {{MATH_13}} retângulos."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum3.tex",
+  "ordem": 2,
+  "hash": "cc1fb09c17903b8d75dd349a7935b032b6a6777bb6fbb91230dfabd5dd927958",
+  "traducao": "A aproximação da área dada por essa soma de Riemann é uma {{CMD_14}}{{CMD_15}}estimativa por excesso{{CMD_16}}{{CMD_17}}estimativa por falta{{CMD_18}}{{CMD_19}} porque\n{{CMD_20}}\n\t{{CMD_21}}os retângulos contêm mais área do que há na região.{{CMD_22}}\n\t{{CMD_23}}há mais área na região do que a contida nos retângulos.{{CMD_24}}\n\t{{CMD_25}}é impossível dizer.{{CMD_26}}\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum3.tex",
+  "ordem": 3,
+  "hash": "d2bb2a5cdeb7f84905a334abcbbeb7098d74074fdda0fb6b214ef739b984e877",
+  "traducao": "Considere a função\n{{MATH_28}}\nno intervalo {{MATH_29}}.  Vamos aproximar a área da região limitada pelo gráfico de {{MATH_30}} e pelo eixo {{MATH_31}}.  Veja a figura abaixo."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum3.tex",
+  "ordem": 4,
+  "hash": "390ffb90ef762d095455c5255ceefaf5d9d1d0ed74c7466e7755a7ff4f46cc24",
+  "traducao": "A imagem mostra uma soma de Riemann {{CMD_32}}{{CMD_33}}à esquerda{{CMD_34}}{{CMD_35}}à direita{{CMD_36}}{{CMD_37}}do ponto médio{{CMD_38}}{{CMD_39}} com {{MATH_40}} subintervalos."
+ },
+ {
+  "arquivo": "approximatingTheAreaUnderACurve/exercises/riemannSum3.tex",
+  "ordem": 5,
+  "hash": "37cc4e88e5a3885c4a07278e00b59a801bc0fb4aa707daffc1a5cf4d5b1da616",
+  "traducao": "A aproximação da área dada por essa soma de Riemann é uma {{CMD_41}}{{CMD_42}}estimativa por excesso{{CMD_43}}{{CMD_44}}estimativa por falta{{CMD_45}}{{CMD_46}} porque\n{{CMD_47}}\n\t{{CMD_48}}os retângulos contêm mais área do que a contida na região.{{CMD_49}}\n\t{{CMD_50}}há mais área na região do que a contida nos retângulos.{{CMD_51}}\n\t{{CMD_52}}é impossível dizer.{{CMD_53}}\n{{CMD_54}}"
+ }
+]
