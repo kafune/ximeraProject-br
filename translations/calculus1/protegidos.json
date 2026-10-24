@@ -1,0 +1,1238 @@
+[
+ {
+  "original": "\\dfn{ infinity}",
+  "traducao": "\\dfn{ infinito}"
+ },
+ {
+  "original": "\\dfn{ line tangent to the curve}",
+  "traducao": "\\dfn{ reta tangente à curva}"
+ },
+ {
+  "original": "\\dfn{ negative infinity}",
+  "traducao": "\\dfn{ menos infinito}"
+ },
+ {
+  "original": "\\dfn{Euler's number}",
+  "traducao": "\\dfn{número de Euler}"
+ },
+ {
+  "original": "\\dfn{Intervals of Continuity}",
+  "traducao": "\\dfn{Intervalos de continuidade}"
+ },
+ {
+  "original": "\\dfn{Riemann sum}",
+  "traducao": "\\dfn{soma de Riemann}"
+ },
+ {
+  "original": "\\dfn{absolute extrema}",
+  "traducao": "\\dfn{extremos absolutos}"
+ },
+ {
+  "original": "\\dfn{acceleration}",
+  "traducao": "\\dfn{aceleração}"
+ },
+ {
+  "original": "\\dfn{accumulation function}",
+  "traducao": "\\dfn{função acumulação}"
+ },
+ {
+  "original": "\\dfn{antiderivative}",
+  "traducao": "\\dfn{antiderivada}"
+ },
+ {
+  "original": "\\dfn{area function}",
+  "traducao": "\\dfn{função área}"
+ },
+ {
+  "original": "\\dfn{average rate of change}",
+  "traducao": "\\dfn{taxa de variação média}"
+ },
+ {
+  "original": "\\dfn{average value}",
+  "traducao": "\\dfn{valor médio}"
+ },
+ {
+  "original": "\\dfn{average velocity}",
+  "traducao": "\\dfn{velocidade média}"
+ },
+ {
+  "original": "\\dfn{base}",
+  "traducao": "\\dfn{base}"
+ },
+ {
+  "original": "\\dfn{coefficients}",
+  "traducao": "\\dfn{coeficientes}"
+ },
+ {
+  "original": "\\dfn{continuous at a point}",
+  "traducao": "\\dfn{contínua em um ponto}"
+ },
+ {
+  "original": "\\dfn{continuous on a closed interval}",
+  "traducao": "\\dfn{contínua em um intervalo fechado}"
+ },
+ {
+  "original": "\\dfn{continuous on a half-closed interval}",
+  "traducao": "\\dfn{contínua em um intervalo semifechado}"
+ },
+ {
+  "original": "\\dfn{continuous on an open interval}",
+  "traducao": "\\dfn{contínua em um intervalo aberto}"
+ },
+ {
+  "original": "\\dfn{critical point}",
+  "traducao": "\\dfn{ponto crítico}"
+ },
+ {
+  "original": "\\dfn{definite integral}",
+  "traducao": "\\dfn{integral definida}"
+ },
+ {
+  "original": "\\dfn{degree}",
+  "traducao": "\\dfn{grau}"
+ },
+ {
+  "original": "\\dfn{derivative}",
+  "traducao": "\\dfn{derivada}"
+ },
+ {
+  "original": "\\dfn{determinate form}",
+  "traducao": "\\dfn{forma determinada}"
+ },
+ {
+  "original": "\\dfn{differentiable}",
+  "traducao": "\\dfn{derivável}"
+ },
+ {
+  "original": "\\dfn{differential equation}",
+  "traducao": "\\dfn{equação diferencial}"
+ },
+ {
+  "original": "\\dfn{displacement}",
+  "traducao": "\\dfn{deslocamento}"
+ },
+ {
+  "original": "\\dfn{distance}",
+  "traducao": "\\dfn{distância}"
+ },
+ {
+  "original": "\\dfn{domain}",
+  "traducao": "\\dfn{domínio}"
+ },
+ {
+  "original": "\\dfn{even}",
+  "traducao": "\\dfn{par}"
+ },
+ {
+  "original": "\\dfn{exponential function}",
+  "traducao": "\\dfn{função exponencial}"
+ },
+ {
+  "original": "\\dfn{force}",
+  "traducao": "\\dfn{força}"
+ },
+ {
+  "original": "\\dfn{function}",
+  "traducao": "\\dfn{função}"
+ },
+ {
+  "original": "\\dfn{general solution}",
+  "traducao": "\\dfn{solução geral}"
+ },
+ {
+  "original": "\\dfn{global extremum}",
+  "traducao": "\\dfn{extremo global}"
+ },
+ {
+  "original": "\\dfn{global maximum}",
+  "traducao": "\\dfn{máximo global}"
+ },
+ {
+  "original": "\\dfn{global minimum}",
+  "traducao": "\\dfn{mínimo global}"
+ },
+ {
+  "original": "\\dfn{greatest integer function}",
+  "traducao": "\\dfn{função maior inteiro}"
+ },
+ {
+  "original": "\\dfn{grid points}",
+  "traducao": "\\dfn{pontos da malha}"
+ },
+ {
+  "original": "\\dfn{horizontal asymptote}",
+  "traducao": "\\dfn{assíntota horizontal}"
+ },
+ {
+  "original": "\\dfn{horizontal line test}",
+  "traducao": "\\dfn{teste da reta horizontal}"
+ },
+ {
+  "original": "\\dfn{indefinite integral}",
+  "traducao": "\\dfn{integral indefinida}"
+ },
+ {
+  "original": "\\dfn{indeterminate form}",
+  "traducao": "\\dfn{forma indeterminada}"
+ },
+ {
+  "original": "\\dfn{infinity}",
+  "traducao": "\\dfn{infinito}"
+ },
+ {
+  "original": "\\dfn{inflection point}",
+  "traducao": "\\dfn{ponto de inflexão}"
+ },
+ {
+  "original": "\\dfn{initial condition}",
+  "traducao": "\\dfn{condição inicial}"
+ },
+ {
+  "original": "\\dfn{initial value problem}",
+  "traducao": "\\dfn{problema de valor inicial}"
+ },
+ {
+  "original": "\\dfn{instantaneous rate of change}",
+  "traducao": "\\dfn{taxa de variação instantânea}"
+ },
+ {
+  "original": "\\dfn{instantaneous velocity}",
+  "traducao": "\\dfn{velocidade instantânea}"
+ },
+ {
+  "original": "\\dfn{inverses}",
+  "traducao": "\\dfn{inversas}"
+ },
+ {
+  "original": "\\dfn{joule}",
+  "traducao": "\\dfn{joule}"
+ },
+ {
+  "original": "\\dfn{kinetic energy}",
+  "traducao": "\\dfn{energia cinética}"
+ },
+ {
+  "original": "\\dfn{left continuous}",
+  "traducao": "\\dfn{contínua à esquerda}"
+ },
+ {
+  "original": "\\dfn{limit at infinity}",
+  "traducao": "\\dfn{limite no infinito}"
+ },
+ {
+  "original": "\\dfn{limit at negative infinity}",
+  "traducao": "\\dfn{limite em menos infinito}"
+ },
+ {
+  "original": "\\dfn{limit from the left}",
+  "traducao": "\\dfn{limite à esquerda}"
+ },
+ {
+  "original": "\\dfn{limit from the right}",
+  "traducao": "\\dfn{limite à direita}"
+ },
+ {
+  "original": "\\dfn{limit}",
+  "traducao": "\\dfn{limite}"
+ },
+ {
+  "original": "\\dfn{local extremum}",
+  "traducao": "\\dfn{extremo local}"
+ },
+ {
+  "original": "\\dfn{local maximum}",
+  "traducao": "\\dfn{máximo local}"
+ },
+ {
+  "original": "\\dfn{local minimum}",
+  "traducao": "\\dfn{mínimo local}"
+ },
+ {
+  "original": "\\dfn{logarithmic function}",
+  "traducao": "\\dfn{função logarítmica}"
+ },
+ {
+  "original": "\\dfn{marginal cost}",
+  "traducao": "\\dfn{custo marginal}"
+ },
+ {
+  "original": "\\dfn{marginal revenue}",
+  "traducao": "\\dfn{receita marginal}"
+ },
+ {
+  "original": "\\dfn{multiplying by the\n    conjugate}",
+  "traducao": "\\dfn{multiplicação pelo\n    conjugado}"
+ },
+ {
+  "original": "\\dfn{net area}",
+  "traducao": "\\dfn{área líquida}"
+ },
+ {
+  "original": "\\dfn{newton}",
+  "traducao": "\\dfn{newton}"
+ },
+ {
+  "original": "\\dfn{non-differentiable}",
+  "traducao": "\\dfn{não derivável}"
+ },
+ {
+  "original": "\\dfn{odd}",
+  "traducao": "\\dfn{ímpar}"
+ },
+ {
+  "original": "\\dfn{one-to-one}",
+  "traducao": "\\dfn{injetora}"
+ },
+ {
+  "original": "\\dfn{optimization problem}",
+  "traducao": "\\dfn{problema de otimização}"
+ },
+ {
+  "original": "\\dfn{polynomial function}",
+  "traducao": "\\dfn{função polinomial}"
+ },
+ {
+  "original": "\\dfn{position}",
+  "traducao": "\\dfn{posição}"
+ },
+ {
+  "original": "\\dfn{range}",
+  "traducao": "\\dfn{imagem}"
+ },
+ {
+  "original": "\\dfn{rational function}",
+  "traducao": "\\dfn{função racional}"
+ },
+ {
+  "original": "\\dfn{relative extrema}",
+  "traducao": "\\dfn{extremos relativos}"
+ },
+ {
+  "original": "\\dfn{right continuous}",
+  "traducao": "\\dfn{contínua à direita}"
+ },
+ {
+  "original": "\\dfn{root}",
+  "traducao": "\\dfn{raiz}"
+ },
+ {
+  "original": "\\dfn{sample point}",
+  "traducao": "\\dfn{ponto amostral}"
+ },
+ {
+  "original": "\\dfn{second\n  derivative}",
+  "traducao": "\\dfn{segunda\n  derivada}"
+ },
+ {
+  "original": "\\dfn{slant asymptote}",
+  "traducao": "\\dfn{assíntota oblíqua}"
+ },
+ {
+  "original": "\\dfn{speed}",
+  "traducao": "\\dfn{velocidade escalar}"
+ },
+ {
+  "original": "\\dfn{tangent line}",
+  "traducao": "\\dfn{reta tangente}"
+ },
+ {
+  "original": "\\dfn{third derivative}",
+  "traducao": "\\dfn{terceira derivada}"
+ },
+ {
+  "original": "\\dfn{trigonometric function}",
+  "traducao": "\\dfn{função trigonométrica}"
+ },
+ {
+  "original": "\\dfn{velocity}",
+  "traducao": "\\dfn{velocidade}"
+ },
+ {
+  "original": "\\dfn{vertical asymptote}",
+  "traducao": "\\dfn{assíntota vertical}"
+ },
+ {
+  "original": "\\dfn{vertical line test}",
+  "traducao": "\\dfn{teste da reta vertical}"
+ },
+ {
+  "original": "\\dfn{work}",
+  "traducao": "\\dfn{trabalho}"
+ },
+ {
+  "original": "\\item[Commutativity and Associativity:]",
+  "traducao": "\\item[Comutatividade e associatividade:]"
+ },
+ {
+  "original": "\\item[Constant function]",
+  "traducao": "\\item[Função constante]"
+ },
+ {
+  "original": "\\item[Determine your goal.]",
+  "traducao": "\\item[Determine seu objetivo.]"
+ },
+ {
+  "original": "\\item[Deyvn]",
+  "traducao": "\\item[Devyn]"
+ },
+ {
+  "original": "\\item[Distribution:]",
+  "traducao": "\\item[Distributividade:]"
+ },
+ {
+  "original": "\\item[Draw a picture.]",
+  "traducao": "\\item[Faça um desenho.]"
+ },
+ {
+  "original": "\\item[Exponential function]",
+  "traducao": "\\item[Função exponencial]"
+ },
+ {
+  "original": "\\item[Find constraints.]",
+  "traducao": "\\item[Encontre as restrições.]"
+ },
+ {
+  "original": "\\item[First derivative:]",
+  "traducao": "\\item[Primeira derivada:]"
+ },
+ {
+  "original": "\\item[Identity function]",
+  "traducao": "\\item[Função identidade]"
+ },
+ {
+  "original": "\\item[Logarithmic function]",
+  "traducao": "\\item[Função logarítmica]"
+ },
+ {
+  "original": "\\item[Power function]",
+  "traducao": "\\item[Função potência]"
+ },
+ {
+  "original": "\\item[Product Law]",
+  "traducao": "\\item[Lei do produto]"
+ },
+ {
+  "original": "\\item[Quotient Law]",
+  "traducao": "\\item[Lei do quociente]"
+ },
+ {
+  "original": "\\item[Second derivative:]",
+  "traducao": "\\item[Segunda derivada:]"
+ },
+ {
+  "original": "\\item[Sine and cosine]",
+  "traducao": "\\item[Seno e cosseno]"
+ },
+ {
+  "original": "\\item[Solve for a single variable.]",
+  "traducao": "\\item[Expresse tudo em uma única variável.]"
+ },
+ {
+  "original": "\\item[Sum/Difference Law]",
+  "traducao": "\\item[Lei da soma/diferença]"
+ },
+ {
+  "original": "\\item[Third derivative:]",
+  "traducao": "\\item[Terceira derivada:]"
+ },
+ {
+  "original": "\\item[Use calculus to find the extreme values.]",
+  "traducao": "\\item[Use cálculo para encontrar os valores extremos.]"
+ },
+ {
+  "original": "\\item[\\textbf{Differentiate with respect to t.}]",
+  "traducao": "\\item[\\textbf{Derive em relação a t.}]"
+ },
+ {
+  "original": "\\item[\\textbf{Draw a picture.}]",
+  "traducao": "\\item[\\textbf{Faça um desenho.}]"
+ },
+ {
+  "original": "\\item[\\textbf{Evaluate and solve.}]",
+  "traducao": "\\item[\\textbf{Substitua e resolva.}]"
+ },
+ {
+  "original": "\\item[\\textbf{Find equations.}]",
+  "traducao": "\\item[\\textbf{Encontre as equações.}]"
+ },
+ {
+  "original": "\\textcolor{blue!70!green}{change in kinetic energy}",
+  "traducao": "\\textcolor{blue!70!green}{variação da energia cinética}"
+ },
+ {
+  "original": "\\textcolor{blue!70!green}{rate}",
+  "traducao": "\\textcolor{blue!70!green}{taxa}"
+ },
+ {
+  "original": "\\textcolor{green!70!black!70!blue}{accumulated area}",
+  "traducao": "\\textcolor{green!70!black!70!blue}{área acumulada}"
+ },
+ {
+  "original": "\\textcolor{green!70!black!70!blue}{accumulated}",
+  "traducao": "\\textcolor{green!70!black!70!blue}{acumulada}"
+ },
+ {
+  "original": "\\textcolor{green!70!black!70!blue}{accumulation}",
+  "traducao": "\\textcolor{green!70!black!70!blue}{acumulação}"
+ },
+ {
+  "original": "\\textcolor{green!70!black!70!blue}{over distance}",
+  "traducao": "\\textcolor{green!70!black!70!blue}{ao longo da distância}"
+ },
+ {
+  "original": "\\textcolor{purple!50!blue!90!black}{change in the amount}",
+  "traducao": "\\textcolor{purple!50!blue!90!black}{variação da quantidade}"
+ },
+ {
+  "original": "\\textcolor{purple!50!blue!90!black}{curve}",
+  "traducao": "\\textcolor{purple!50!blue!90!black}{curva}"
+ },
+ {
+  "original": "\\textcolor{purple!50!blue!90!black}{force}",
+  "traducao": "\\textcolor{purple!50!blue!90!black}{força}"
+ },
+ {
+  "original": "and",
+  "traducao": "e"
+ },
+ {
+  "original": "av",
+  "traducao": "méd"
+ },
+ {
+  "original": "finish",
+  "traducao": "fim"
+ },
+ {
+  "original": "start",
+  "traducao": "início"
+ },
+ {
+  "original": "displacement",
+  "traducao": "deslocamento"
+ },
+ {
+  "original": "ft/s.",
+  "traducao": "pés/s."
+ },
+ {
+  "original": "ft/s",
+  "traducao": "pés/s"
+ },
+ {
+  "original": "ft",
+  "traducao": "pés"
+ },
+ {
+  "original": "Form",
+  "traducao": "Forma"
+ },
+ {
+  "original": "change in time",
+  "traducao": "variação do tempo"
+ },
+ {
+  "original": "if ",
+  "traducao": "se "
+ },
+ {
+  "original": "or",
+  "traducao": "ou"
+ },
+ {
+  "original": "units",
+  "traducao": "unidades"
+ },
+ {
+  "original": "On ",
+  "traducao": "Em "
+ },
+ {
+  "original": "change in position",
+  "traducao": "variação da posição"
+ },
+ {
+  "original": "height",
+  "traducao": "altura"
+ },
+ {
+  "original": "if $x<0$,",
+  "traducao": "se $x<0$,"
+ },
+ {
+  "original": " and ",
+  "traducao": " e "
+ },
+ {
+  "original": " for ",
+  "traducao": " para "
+ },
+ {
+  "original": "Differentiate both sides.",
+  "traducao": "Derive ambos os lados."
+ },
+ {
+  "original": "Implicit differentiation.",
+  "traducao": "Derivação implícita."
+ },
+ {
+  "original": "The domain of $f$ is ",
+  "traducao": "O domínio de $f$ é "
+ },
+ {
+  "original": "but",
+  "traducao": "mas"
+ },
+ {
+  "original": "hypotenuse",
+  "traducao": "hipotenusa"
+ },
+ {
+  "original": "hyp",
+  "traducao": "hip"
+ },
+ {
+  "original": "opp",
+  "traducao": "op"
+ },
+ {
+  "original": "if $x<1$,",
+  "traducao": "se $x<1$,"
+ },
+ {
+  "original": "rate",
+  "traducao": "taxa"
+ },
+ {
+  "original": "small",
+  "traducao": "pequeno"
+ },
+ {
+  "original": "equal",
+  "traducao": "igual"
+ },
+ {
+  "original": "distance",
+  "traducao": "distância"
+ },
+ {
+  "original": "if $x\\ge 3$.",
+  "traducao": "se $x\\ge 3$."
+ },
+ {
+  "original": "nonnegative",
+  "traducao": "não negativo"
+ },
+ {
+  "original": "opposite",
+  "traducao": "cateto oposto"
+ },
+ {
+  "original": "adjacent",
+  "traducao": "cateto adjacente"
+ },
+ {
+  "original": "so",
+  "traducao": "logo"
+ },
+ {
+  "original": "time",
+  "traducao": "tempo"
+ },
+ {
+  "original": "width",
+  "traducao": "largura"
+ },
+ {
+  "original": "    , when    ",
+  "traducao": "    , quando    "
+ },
+ {
+  "original": " and",
+  "traducao": " e"
+ },
+ {
+  "original": " if ",
+  "traducao": " se "
+ },
+ {
+  "original": "(miles West of Columbus)",
+  "traducao": "(milhas a oeste de Columbus)"
+ },
+ {
+  "original": "Solve for $\\theta'$.",
+  "traducao": "Isole $\\theta'$."
+ },
+ {
+  "original": "average rate of change of $f$ on $[1,4]$",
+  "traducao": "taxa de variação média de $f$ em $[1,4]$"
+ },
+ {
+  "original": "by the rule for $f$",
+  "traducao": "pela regra de $f$"
+ },
+ {
+  "original": "change in distance",
+  "traducao": "variação da distância"
+ },
+ {
+  "original": "elapsed time",
+  "traducao": "tempo decorrido"
+ },
+ {
+  "original": "for $x$ in $(-\\infty, \\infty)$.",
+  "traducao": "para $x$ em $(-\\infty, \\infty)$."
+ },
+ {
+  "original": "for $x$ in $(-\\infty, \\infty)$,",
+  "traducao": "para $x$ em $(-\\infty, \\infty)$,"
+ },
+ {
+  "original": "for $x$ in  $(-\\infty, \\infty)$,",
+  "traducao": "para $x$ em  $(-\\infty, \\infty)$,"
+ },
+ {
+  "original": "if  $x > 1$.",
+  "traducao": "se  $x > 1$."
+ },
+ {
+  "original": "if $0<x\\le 2$.",
+  "traducao": "se $0<x\\le 2$."
+ },
+ {
+  "original": "if $0\\le x$.",
+  "traducao": "se $0\\le x$."
+ },
+ {
+  "original": "if $1\\le x< 3$,",
+  "traducao": "se $1\\le x< 3$,"
+ },
+ {
+  "original": "if $x \\leq 1$,",
+  "traducao": "se $x \\leq 1$,"
+ },
+ {
+  "original": "if $x\\ge 0$",
+  "traducao": "se $x\\ge 0$"
+ },
+ {
+  "original": "large",
+  "traducao": "grande"
+ },
+ {
+  "original": "means that",
+  "traducao": "significa que"
+ },
+ {
+  "original": "negative",
+  "traducao": "negativo"
+ },
+ {
+  "original": "slope",
+  "traducao": "inclinação"
+ },
+ {
+  "original": "then",
+  "traducao": "então"
+ },
+ {
+  "original": "velocity",
+  "traducao": "velocidade"
+ },
+ {
+  "original": "not",
+  "traducao": "não"
+ },
+ {
+  "original": "acceleration",
+  "traducao": "aceleração"
+ },
+ {
+  "original": "force",
+  "traducao": "força"
+ },
+ {
+  "original": "mass",
+  "traducao": "massa"
+ },
+ {
+  "original": "           DOES NOT EXIST!",
+  "traducao": "           NÃO EXISTE!"
+ },
+ {
+  "original": "     and     ",
+  "traducao": "     e     "
+ },
+ {
+  "original": " is contained in or equal to ",
+  "traducao": " está contido em ou é igual a "
+ },
+ {
+  "original": " is undefined!",
+  "traducao": " não está definido!"
+ },
+ {
+  "original": " on ",
+  "traducao": " em "
+ },
+ {
+  "original": " or",
+  "traducao": " ou"
+ },
+ {
+  "original": "$f'(a)$ does not exist.",
+  "traducao": "$f'(a)$ não existe."
+ },
+ {
+  "original": "$y$ such that $y = f(x)$, should it exist.",
+  "traducao": "$y$ tal que $y = f(x)$, caso exista."
+ },
+ {
+  "original": "(DE)",
+  "traducao": "(ED)"
+ },
+ {
+  "original": "(IC)",
+  "traducao": "(CI)"
+ },
+ {
+  "original": "(constant)",
+  "traducao": "(constante)"
+ },
+ {
+  "original": "(feet above the ground)",
+  "traducao": "(pés acima do solo)"
+ },
+ {
+  "original": ", and ",
+  "traducao": ", e "
+ },
+ {
+  "original": "Area",
+  "traducao": "Área"
+ },
+ {
+  "original": "Area of Sector",
+  "traducao": "Área do setor"
+ },
+ {
+  "original": "Area of Triangle $A$",
+  "traducao": "Área do triângulo $A$"
+ },
+ {
+  "original": "Area of Triangle $B$",
+  "traducao": "Área do triângulo $B$"
+ },
+ {
+  "original": "Cost",
+  "traducao": "Custo"
+ },
+ {
+  "original": "Domain of ",
+  "traducao": "Domínio de "
+ },
+ {
+  "original": "Horizontal Aymptotes",
+  "traducao": "Assíntotas horizontais"
+ },
+ {
+  "original": "Horizontal Lines",
+  "traducao": "Retas horizontais"
+ },
+ {
+  "original": "Limit Law.",
+  "traducao": "Lei dos limites."
+ },
+ {
+  "original": "Note, $\\mathrm{hyp}=1$.",
+  "traducao": "Observe que $\\mathrm{hip}=1$."
+ },
+ {
+  "original": "Slant Asymptotes",
+  "traducao": "Assíntotas oblíquas"
+ },
+ {
+  "original": "Slant Lines",
+  "traducao": "Retas oblíquas"
+ },
+ {
+  "original": "Solve for $\\dd[y]{x}$.",
+  "traducao": "Isole $\\dd[y]{x}$."
+ },
+ {
+  "original": "The domain of $f^{-1}$ is ",
+  "traducao": "O domínio de $f^{-1}$ é "
+ },
+ {
+  "original": "To minimize",
+  "traducao": "A minimizar"
+ },
+ {
+  "original": "Vertical Asymptotes",
+  "traducao": "Assíntotas verticais"
+ },
+ {
+  "original": "Vertical Lines",
+  "traducao": "Retas verticais"
+ },
+ {
+  "original": "``a class of functions whose derivative is $f$''",
+  "traducao": "``uma classe de funções cuja derivada é $f$''"
+ },
+ {
+  "original": "``a function $F$ whose derivative is $f$''",
+  "traducao": "``uma função $F$ cuja derivada é $f$''"
+ },
+ {
+  "original": "``the signed area between the $x$-axis and $f$''",
+  "traducao": "``a área com sinal entre o eixo $x$ e $f$''"
+ },
+ {
+  "original": "a number near $13$",
+  "traducao": "um número próximo de $13$"
+ },
+ {
+  "original": "a number near $6$",
+  "traducao": "um número próximo de $6$"
+ },
+ {
+  "original": "a number near $7$",
+  "traducao": "um número próximo de $7$"
+ },
+ {
+  "original": "and so",
+  "traducao": "e então"
+ },
+ {
+  "original": "at $x=0$.",
+  "traducao": "em $x=0$."
+ },
+ {
+  "original": "at $x=1$.",
+  "traducao": "em $x=1$."
+ },
+ {
+  "original": "average rate of change  ",
+  "traducao": "taxa de variação média  "
+ },
+ {
+  "original": "average rate of change of  $f$ ",
+  "traducao": "taxa de variação média de  $f$ "
+ },
+ {
+  "original": "bottom",
+  "traducao": "fundo"
+ },
+ {
+  "original": "top",
+  "traducao": "tampa"
+ },
+ {
+  "original": "sides",
+  "traducao": "lateral"
+ },
+ {
+  "original": "by Difference Law",
+  "traducao": "pela lei da diferença"
+ },
+ {
+  "original": "by Quotient Law",
+  "traducao": "pela lei do quociente"
+ },
+ {
+  "original": "by the definition of inverse\n      functions.",
+  "traducao": "pela definição de funções\n      inversas."
+ },
+ {
+  "original": "dollars",
+  "traducao": "dólares"
+ },
+ {
+  "original": "exactly when",
+  "traducao": "exatamente quando"
+ },
+ {
+  "original": "for ",
+  "traducao": "para "
+ },
+ {
+  "original": "for $-4\\le x<0$.",
+  "traducao": "para $-4\\le x<0$."
+ },
+ {
+  "original": "for $0<x<2$.",
+  "traducao": "para $0<x<2$."
+ },
+ {
+  "original": "for $x > 0$,",
+  "traducao": "para $x > 0$,"
+ },
+ {
+  "original": "for $x > 0$.",
+  "traducao": "para $x > 0$."
+ },
+ {
+  "original": "for $|x|>1$",
+  "traducao": "para $|x|>1$"
+ },
+ {
+  "original": "height of $k^{th}$ rectangle",
+  "traducao": "altura do $k$-ésimo retângulo"
+ },
+ {
+  "original": "here $y$ is \\textbf{implicitly} a function of $x$.",
+  "traducao": "aqui $y$ é \\textbf{implicitamente} uma função de $x$."
+ },
+ {
+  "original": "how far one can drive with $g$ gallons of gas.",
+  "traducao": "a distância que se pode dirigir com $g$ galões de gasolina."
+ },
+ {
+  "original": "if",
+  "traducao": "se"
+ },
+ {
+  "original": "if  $x<3$,",
+  "traducao": "se  $x<3$,"
+ },
+ {
+  "original": "if  $x>1$.",
+  "traducao": "se  $x>1$."
+ },
+ {
+  "original": "if $-2<x<0$,",
+  "traducao": "se $-2<x<0$,"
+ },
+ {
+  "original": "if $-2<x\\le 0$",
+  "traducao": "se $-2<x\\le 0$"
+ },
+ {
+  "original": "if $3\\le x $",
+  "traducao": "se $3\\le x $"
+ },
+ {
+  "original": "if $x < 0$,",
+  "traducao": "se $x < 0$,"
+ },
+ {
+  "original": "if $x = 0$,",
+  "traducao": "se $x = 0$,"
+ },
+ {
+  "original": "if $x > 0$",
+  "traducao": "se $x > 0$"
+ },
+ {
+  "original": "if $x \\ge 0$.",
+  "traducao": "se $x \\ge 0$."
+ },
+ {
+  "original": "if $x \\geq 0$",
+  "traducao": "se $x \\geq 0$"
+ },
+ {
+  "original": "if $x \\geq 3$.",
+  "traducao": "se $x \\geq 3$."
+ },
+ {
+  "original": "if $x \\ne 0$,",
+  "traducao": "se $x \\ne 0$,"
+ },
+ {
+  "original": "if $x<0$",
+  "traducao": "se $x<0$"
+ },
+ {
+  "original": "if $x<3$",
+  "traducao": "se $x<3$"
+ },
+ {
+  "original": "if $x<3$,",
+  "traducao": "se $x<3$,"
+ },
+ {
+  "original": "if $x<4$ and $x\\ne -3$",
+  "traducao": "se $x<4$ e $x\\ne -3$"
+ },
+ {
+  "original": "if $x=-2$",
+  "traducao": "se $x=-2$"
+ },
+ {
+  "original": "if $x=-3$",
+  "traducao": "se $x=-3$"
+ },
+ {
+  "original": "if $x=0$,",
+  "traducao": "se $x=0$,"
+ },
+ {
+  "original": "if $x> 0$",
+  "traducao": "se $x> 0$"
+ },
+ {
+  "original": "if $x>1$.",
+  "traducao": "se $x>1$."
+ },
+ {
+  "original": "if $x>4$",
+  "traducao": "se $x>4$"
+ },
+ {
+  "original": "incorrect",
+  "traducao": "incorreto"
+ },
+ {
+  "original": "is of the form ",
+  "traducao": "é da forma "
+ },
+ {
+  "original": "land cost",
+  "traducao": "custo em terra"
+ },
+ {
+  "original": "land distance",
+  "traducao": "distância em terra"
+ },
+ {
+  "original": "length",
+  "traducao": "comprimento"
+ },
+ {
+  "original": "means $x=\\pm 3$",
+  "traducao": "significa $x=\\pm 3$"
+ },
+ {
+  "original": "miles",
+  "traducao": "milhas"
+ },
+ {
+  "original": "miles per minute",
+  "traducao": "milhas por minuto"
+ },
+ {
+  "original": "miles/hour",
+  "traducao": "milhas/hora"
+ },
+ {
+  "original": "n terms",
+  "traducao": "n termos"
+ },
+ {
+  "original": "on",
+  "traducao": "em"
+ },
+ {
+  "original": "otherwise",
+  "traducao": "caso contrário"
+ },
+ {
+  "original": "plugging in",
+  "traducao": "substituindo"
+ },
+ {
+  "original": "radius",
+  "traducao": "raio"
+ },
+ {
+  "original": "slope = ",
+  "traducao": "inclinação = "
+ },
+ {
+  "original": "so ",
+  "traducao": "logo "
+ },
+ {
+  "original": "something",
+  "traducao": "algo"
+ },
+ {
+  "original": "something else",
+  "traducao": "outra coisa"
+ },
+ {
+  "original": "something very large and\n  negative",
+  "traducao": "algo muito grande e\n  negativo"
+ },
+ {
+  "original": "something very small",
+  "traducao": "algo muito pequeno"
+ },
+ {
+  "original": "the amount of gas one can buy with $m$ dollars,",
+  "traducao": "a quantidade de gasolina que se pode comprar com $m$ dólares,"
+ },
+ {
+  "original": "the domain of $f$",
+  "traducao": "o domínio de $f$"
+ },
+ {
+  "original": "the inverse function of $f$ evaluated at $x$.",
+  "traducao": "a função inversa de $f$ calculada em $x$."
+ },
+ {
+  "original": "the range of $g$",
+  "traducao": "a imagem de $g$"
+ },
+ {
+  "original": "undefined",
+  "traducao": "indefinido"
+ },
+ {
+  "original": "water cost",
+  "traducao": "custo na água"
+ },
+ {
+  "original": "water distance",
+  "traducao": "distância na água"
+ },
+ {
+  "original": "when",
+  "traducao": "quando"
+ },
+ {
+  "original": "where",
+  "traducao": "onde"
+ },
+ {
+  "original": "where $0<c<1/2$.",
+  "traducao": "onde $0<c<1/2$."
+ },
+ {
+  "original": "where $y$ is \\textbf{explicitly} a function of $x$",
+  "traducao": "onde $y$ é \\textbf{explicitamente} uma função de $x$"
+ },
+ {
+  "original": "width of $k^{th}$ rectangle",
+  "traducao": "largura do $k$-ésimo retângulo"
+ },
+ {
+  "original": "working with $x$",
+  "traducao": "trabalhando com $x$"
+ },
+ {
+  "original": " (First Fundamental Theorem of Calculus)",
+  "traducao": " (Primeiro Teorema Fundamental do Cálculo)"
+ },
+ {
+  "original": " (Second Fundamental Theorem of Calculus)",
+  "traducao": " (Segundo Teorema Fundamental do Cálculo)"
+ },
+ {
+  "original": " algebra",
+  "traducao": " álgebra"
+ },
+ {
+  "original": " l'H\\^{o}pital's Rule",
+  "traducao": " regra de l'H\\^{o}pital"
+ },
+ {
+  "original": "l'H\\^{o}pital's Rule",
+  "traducao": "regra de l'H\\^{o}pital"
+ },
+ {
+  "original": "avg",
+  "traducao": "méd"
+ }
+]

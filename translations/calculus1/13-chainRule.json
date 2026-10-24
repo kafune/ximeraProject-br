@@ -1,0 +1,554 @@
+[
+ {
+  "arquivo": "chainRule/titlePage.tex",
+  "ordem": 0,
+  "hash": "f45e2dec40f783bcb54f203af9806edabd19dfa6903e680ba4471727ece37e65",
+  "traducao": "Regra da cadeia{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "chainRule/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "chainRule/titlePage.tex",
+  "ordem": 2,
+  "hash": "02bf2ca3a909036831b671c3ed38f7bd6a177c0ebf9ba285a49ed4e14e23ff7c",
+  "traducao": " Reconhecer uma composição de funções.\n\t{{CMD_4}} Calcular derivadas de composições de funções usando a regra da cadeia.\n\t{{CMD_5}} Calcular derivadas que exigem o uso de várias regras de derivação.\n\t{{CMD_6}} Usar a regra da cadeia para calcular derivadas a partir de uma tabela de valores.\n\t{{CMD_7}} Entender a taxa de variação quando as quantidades dependem umas das outras.\n\t{{CMD_8}} Usar a ordem das operações em situações que exigem várias regras de derivação.\n      {{COMMENT_9}}\n        {{CMD_10}} Aplicar a regra da cadeia para relacionar quantidades expressas em unidades diferentes.\n        {{CMD_11}} Calcular derivadas de funções trigonométricas.\n        {{CMD_12}} Usar várias regras de derivação para calcular derivadas a partir de uma tabela de valores.\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "chainRule/breakGround.tex",
+  "ordem": 0,
+  "hash": "336f046562893f790f973d12077b31d32aab16f0a093b144223c65abaa514b66",
+  "traducao": "Uma composição despercebida{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem a regra da cadeia.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "chainRule/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "chainRule/breakGround.tex",
+  "ordem": 2,
+  "hash": "eac904974e004de42e4d87dc03bb6b64fec16455698a62c91164aa5a06074f11",
+  "traducao": " Riley! Tem uma coisa me incomodando.\n{{CMD_7}} O que é?\n{{CMD_8}} Eu quebrei o cálculo.\n{{CMD_9}} Como assim?\n{{CMD_10}} Olha só, sabemos que:\n  {{MATH_11}}\n{{CMD_12}} Certo.\n{{CMD_13}} Mas eu também sei que a derivada {{CMD_14}}é{{CMD_15}} a inclinação\n  da reta tangente em um ponto.\n{{CMD_16}} Certo!\n{{CMD_17}} Mas olha este gráfico de {{MATH_18}} ampliado em torno de zero:\n  {{CMD_19}}\n    {{ENV_20}}\n  {{CMD_21}}\n{{CMD_22}} Ok{{CMD_23}}\n{{CMD_24}} Bem, {{MATH_25}}, mas a inclinação desta reta definitivamente\n  {{CMD_26}}não é um{{CMD_27}}! O que está acontecendo aqui?\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "chainRule/breakGround.tex",
+  "ordem": 3,
+  "hash": "a63d14387c36bda4a895dc39a2e1477a412470f593dfa24f9a3050914f07797c",
+  "traducao": "O problema que Riley e Devyn estão enfrentando é um tanto sutil."
+ },
+ {
+  "arquivo": "chainRule/breakGround.tex",
+  "ordem": 4,
+  "hash": "3a48af4aa738261c65a831a95152f50ac41eeaf4caac94be667f401db55112d0",
+  "traducao": "  Que erro está sendo cometido?"
+ },
+ {
+  "arquivo": "chainRule/breakGround.tex",
+  "ordem": 5,
+  "hash": "5fe5037655f537981ddd82bf21d21a248f584bd914f988c28deb68b0cd099575",
+  "traducao": "Riley não traçou o gráfico de {{MATH_29}}.{{CMD_30}}\n{{CMD_31}}Riley não calculou a derivada corretamente.{{CMD_32}}\n{{CMD_33}}Riley estava trabalhando em graus, e não em radianos.{{CMD_34}}\n{{CMD_35}}{{MATH_36}}{{CMD_37}}\n{{CMD_38}}Riley calculou a inclinação incorretamente.{{CMD_39}}\n{{CMD_40}}\n{{CMD_41}}\n  Em cálculo, trabalhamos com radianos. Trabalhar em graus produz\n  respostas erradas.\n{{CMD_42}}\n{{CMD_43}}"
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 0,
+  "hash": "d9477dc4deee3599345082b835a37922a5f9c2d21c27b10631e59f160c18ba78",
+  "traducao": "A regra da cadeia{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Aqui calculamos derivadas de composições de funções\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 1,
+  "hash": "593ee8993db63e00f3f88f403035b396728177977e0b38e8df71e1e64ce71516",
+  "traducao": "Até agora vimos como calcular a derivada de uma função construída\na partir de outras funções por adição, subtração, multiplicação e\ndivisão. Há outra maneira muito importante de combinar\nfunções: a composição. A {{CMD_7}}regra da cadeia{{CMD_8}} nos permite lidar com\nesse caso. Considere\n{{MATH_9}}\nEmbora existam várias maneiras diferentes de derivar essa função,\nse fizermos {{MATH_10}} e {{MATH_11}}, então podemos escrever\n{{MATH_12}}. A pergunta é: podemos calcular a derivada de uma\ncomposição de funções usando as derivadas das funções que a compõem,\n{{MATH_13}} e {{MATH_14}}? Para isso, precisamos da {{CMD_15}}regra da cadeia{{CMD_16}}."
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 2,
+  "hash": "2d708e6579a7e5b383b763bb37b44f9008358d65e9c17dac9be5b257a3508774",
+  "traducao": "\tSe {{MATH_17}} e {{MATH_18}} são deriváveis, então\n\t{{MATH_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 3,
+  "hash": "f9e714f025b27663881c5a5baf80446e3c8ef8c6176bda2339980a315f5ce67d",
+  "traducao": "Vai ser preciso um pouco de prática para que o uso da regra da cadeia se torne\nnatural; ela é mais complicada do que as regras de derivação\nque vimos até aqui. Vamos voltar ao nosso exemplo motivador."
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 4,
+  "hash": "557aba95f19998de5eba4a3b105d64f133f6e90f144b9c4f2ba35672794ff51c",
+  "traducao": "\tCalcule:\n\t{{MATH_21}}\n\n\t{{CMD_22}}\n\t\tFaça {{MATH_23}} e {{MATH_24}}; então\n\t\t{{MATH_25}}\n\t\tLogo\n\t\t{{ENV_26}}\n\t{{CMD_27}}\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 5,
+  "hash": "19a1203e22a5090c8e5834bbc4f67205b3d3fd62dbcf055a6203fcbbccf845e5",
+  "traducao": "Vamos ver uma cadeia de composições mais complicada."
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 6,
+  "hash": "347a293158a21017bdda9caf67c0b8c4499da968c55f589cc2d63a57a67ccd39",
+  "traducao": "\tCalcule:\n\t{{MATH_29}}\n\n\t{{CMD_30}}\n\t\tFaça {{MATH_31}} e {{MATH_32}}. Logo,\n\t\t{{MATH_33}}\n\t\te, pela regra da cadeia, sabemos que\n\t\t{{MATH_34}}\n\t\tComo\n\t\t{{MATH_35}}\n\t\ttemos que\n\t\t{{MATH_36}}\n\t{{CMD_37}}\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 7,
+  "hash": "09655d5f58db4105e1dbc34e9ad317e0e0d2234bccd2ce57f21e3c8136819d60",
+  "traducao": "A regra da cadeia nos permite derivar composições de funções que,\nde outra forma, seriam difíceis de tratar."
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 8,
+  "hash": "1eb7746eb5999397b5477e2aa5b45bb76b4205605697aaed95627e8f50f77f1a",
+  "traducao": "\tCalcule:\n\t{{MATH_39}}\n\n\t{{CMD_40}}\n\t\tFaça {{MATH_41}}, {{MATH_42}} e {{MATH_43}},\n\t\tde modo que {{MATH_44}}. Agora\n\t\t{{ENV_45}}\n\t{{CMD_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 9,
+  "hash": "687fd8f025bb746454912a57bcb1101c705ea68726eec3de41aed855795717f2",
+  "traducao": "Usando a regra da cadeia, a regra da potência e a regra do produto, é\npossível evitar completamente o uso da regra do quociente."
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 10,
+  "hash": "5e49c2976eaa6866339ed1209e419fd8c69b89db83eb13a46b0245b2de75ad84",
+  "traducao": "\tCalcule:\n\t{{MATH_48}}\n\n\t{{CMD_49}}\n\t\tReescrevendo isso como\n\t\t{{MATH_50}}\n\t\tfaça {{MATH_51}} e {{MATH_52}}, de modo que {{MATH_53}}. Agora\n\t\t{{MATH_54}}\n\t\te, pelas regras do produto e da cadeia,\n\t\t{{MATH_55}}\n\t\tComo {{MATH_56}} e {{MATH_57}}, escrevemos\n\t\t{{MATH_58}}\n\t{{CMD_59}}\n{{CMD_60}}"
+ },
+ {
+  "arquivo": "chainRule/digInChainRule.tex",
+  "ordem": 11,
+  "hash": "61b292e82162e1029f4ba4ada8496d2e8f5bbfb521d388ad3cf1f65e155224df",
+  "traducao": "Agora que estamos nos acostumando com a regra da cadeia, tente mais um.\n{{CMD_61}}\n\tSuponha que {{MATH_62}} é uma função cujos valores são dados na tabela a seguir.\n\t{{CMD_63}}\n\t\t{{ENV_64}}\n\t{{CMD_65}}\n\n\tDetermine {{MATH_66}}\n\t{{CMD_67}}\n\tNo nível mais externo, esta é um produto de {{MATH_68}} por {{MATH_69}}, então começamos pela regra do produto.\n\t\t{{ENV_70}}\n\t\tAvaliando em {{MATH_71}}, obtemos:\n\t\t{{ENV_72}}\n\t{{CMD_73}}\n{{CMD_74}}"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 0,
+  "hash": "fcd07132223b3068ab61942d5a1b97113e6b0654949a99b0dd0973cace0f7b40",
+  "traducao": "Derivadas das funções trigonométricas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Usamos a regra da cadeia para desvendar as derivadas das\n  funções trigonométricas.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 1,
+  "hash": "0a6bff076c9b1b556cd66042dc9ad350715ffa4e45942b0ae8549f9511addef1",
+  "traducao": "Até este ponto do curso, estivemos ignorando uma grande classe\nde funções: as funções trigonométricas além de {{MATH_7}}. Sabemos\nque\n{{MATH_8}}"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 2,
+  "hash": "2864676be2fd0e65fa88a2276f48ed7d1eea58432d7ab62e6a45a40ddb67bad9",
+  "traducao": "Munidos desse fato, vamos descobrir as derivadas de todas as\nfunções trigonométricas usuais."
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 3,
+  "hash": "af0996d838538934a049627404a9a57843d0d27abf60819f6835a0acad203f0d",
+  "traducao": "\t\tLembre-se de que\n\t\t{{CMD_9}}\n\t\t\t{{CMD_10}} {{MATH_11}}, e\n\t\t\t{{CMD_12}} {{MATH_13}}.\n\t\t{{CMD_14}}\n\t\tAgora\n\t\t{{ENV_15}}\n\t{{CMD_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 4,
+  "hash": "0dda895d7c91c6634b353c193d80a3710b26efc2f892b8ae57410f676e55235c",
+  "traducao": "\tCalcule:\n\t{{MATH_18}}\n\t{{CMD_19}}\n\t\tAgora que conhecemos a derivada do cosseno, podemos combiná-la com a\n\t\tregra da cadeia, de modo que\n\t\t{{MATH_20}}\n\t\te, portanto,"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 5,
+  "hash": "0c639891f687d421f164ee14476011ebe7d50e690d2b47a10e0aef6eca2cff20",
+  "traducao": "Em seguida, temos:"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 6,
+  "hash": "c6a3496e87c9e20cc448414df462b2d7691e88da77abfe9113e1cc3cdd57a140",
+  "traducao": "\t\tVamos reescrever {{MATH_21}} como {{MATH_22}} e usar a\n\t\tregra do quociente. Escreva comigo:\n\t\t{{ENV_23}}\n\t{{CMD_24}}\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 7,
+  "hash": "7d6165b61ff9930583d4a82a7efea9e36290a97bb782b4b514b22896482ce2ac",
+  "traducao": "Calcule:\n{{MATH_26}}\n{{CMD_27}}\nAplicando a regra do quociente, a regra do produto e a derivada\nda tangente:\n{{ENV_28}}\n{{CMD_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 8,
+  "hash": "2b3751787f00c7565b640e89a8a6cb5d5e6c78d794830f1f51086512be9beb3c",
+  "traducao": "Por fim, temos:"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 9,
+  "hash": "e67602f5266636ff32d3ede54324799ed7c65cbe22b92d2377629f17af44861a",
+  "traducao": "Vamos reescrever {{MATH_31}} como {{MATH_32}} e usar a regra da potência e a regra da cadeia. Escreva\n{{ENV_33}}\n{{CMD_34}}\n{{CMD_35}}"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 10,
+  "hash": "f6e3040d911e0ed5e5c1f6507557633417ea2e8222086d45a86ebfa23d15d208",
+  "traducao": "As derivadas da cotangente e da cossecante são semelhantes e ficam como\nexercícios.  Juntando tudo isso, temos:"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 11,
+  "hash": "8183948ce9e7bd3929c883e2a46d6153bdee913a06c1404a1034a3aff1b72069",
+  "traducao": ".\n\t\t{{CMD_36}} {{MATH_37}}.\n\t\t{{CMD_38}} {{MATH_39}}.\n\t\t{{CMD_40}} {{MATH_41}}.\n\t\t{{CMD_42}} {{MATH_43}}.\n\t\t{{CMD_44}} {{MATH_45}}.\n\t{{CMD_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 12,
+  "hash": "31ed8aeefe2e6787475d5ee2b22a98f44484ee70ad79e2e5c6db83ddcb4ab33f",
+  "traducao": "Calcule:\n{{MATH_48}}\n{{CMD_49}}\nAplicando a regra do produto e os fatos acima, sabemos que\n{{MATH_50}}\ne, portanto,\n{{MATH_51}}\n{{ENV_52}}\n{{CMD_53}}\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "chainRule/digInDerivativesOfTrigonometricFunctions.tex",
+  "ordem": 13,
+  "hash": "878e1740c9453fa79ae40cbf3bc854c79d31af89248144954d411cb2f3000d39",
+  "traducao": "Ao trabalhar com derivadas de funções trigonométricas, sugerimos que\nvocê use {{CMD_55}}radianos{{CMD_56}} como medida de ângulo. Por exemplo, embora\n{{MATH_57}}\né preciso ter cuidado com as derivadas, pois\n{{MATH_58}}\nAlternativamente, poderíamos interpretar {{MATH_59}} como significando\n{{MATH_60}}, já que então {{MATH_61}}. Nesse caso,\n{{MATH_62}}\n{{CMD_63}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/AU_14_Q6.tex",
+  "ordem": 0,
+  "hash": "8a786f7936f049de8ffd86bf8fadf625761f195d596c1a2569fa9255c97ae233",
+  "traducao": "Compreender as propriedades das funções trigonométricas.{{CMD_1}}\n{{CMD_2}}Calcular expressões e resolver equações envolvendo funções trigonométricas e funções trigonométricas inversas.{{CMD_3}}\n{{CMD_4}}Compreender a taxa de variação quando as grandezas dependem umas das outras.{{CMD_5}}\n{{CMD_6}}Aplicar a regra da cadeia para relacionar grandezas expressas em unidades diferentes.{{CMD_7}}\n{{CMD_8}}\nUm barco navega {{CMD_9}}diretamente{{CMD_10}} em direção a um arranha-céu de {{MATH_11}} que fica à beira de um porto. Um observador está em pé na proa do barco. Seja {{MATH_12}} o ângulo formado pelas retas que ligam o topo e a base do arranha-céu à cabeça do observador (para todos os efeitos, você pode supor que a reta que parte da base do arranha-céu e o contorno do arranha-céu são perpendiculares entre si). Seja {{MATH_13}} a distância horizontal do barco ao prédio. Expresse o ângulo {{MATH_14}} como função de {{MATH_15}}.\n{{MATH_16}}\n{{CMD_17}}\nAgora suponha que o barco esteja navegando diretamente em direção ao arranha-céu a {{MATH_18}}. Isso significa que\n{{MATH_19}}\n{{CMD_20}}\nUsando suas respostas anteriores, determine {{MATH_21}} quando o barco está a {{MATH_22}} do prédio.\n{{MATH_23}}\n{{CMD_24}}\n{{CMD_25}}\n{{CMD_26}}\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/AU_14_TH_Q6.tex",
+  "ordem": 0,
+  "hash": "00a4ebaba75bd72fba10e90319be9eff1649fae0e90cd1c4d83f27b19fdea214",
+  "traducao": "Compreender as propriedades das funções trigonométricas.{{CMD_1}}\n{{CMD_2}}Calcular expressões e resolver equações envolvendo funções trigonométricas e funções trigonométricas inversas.{{CMD_3}}\n{{CMD_4}}Compreender a taxa de variação quando as grandezas dependem umas das outras.{{CMD_5}}\n{{CMD_6}}Aplicar a regra da cadeia para relacionar grandezas expressas em unidades diferentes.{{CMD_7}}\n{{CMD_8}}\nUm meteorito esférico entra na atmosfera da Terra e se consome radialmente a uma taxa proporcional à sua área de superfície, com constante de proporcionalidade {{MATH_9}}. Vamos mostrar que seu raio diminui a uma taxa constante."
+ },
+ {
+  "arquivo": "chainRule/exercises/AU_14_TH_Q6.tex",
+  "ordem": 1,
+  "hash": "0780a216d1d6a61fef115c4e2a94111fbe45b4c67185fe9a7058a39f7b66b507",
+  "traducao": "Primeiro, dada uma esfera de raio {{MATH_10}}, lembre-se da fórmula para seu volume, {{MATH_11}}.\n{{MATH_12}}\n{{CMD_13}}\nDe modo semelhante, lembre-se de que a área de superfície {{MATH_14}} de uma esfera de raio {{MATH_15}} é dada por\n{{MATH_16}}\n{{CMD_17}}\nComo o meteorito se consome radialmente a uma taxa proporcional à sua área de superfície {{MATH_18}}, com constante de proporcionalidade {{MATH_19}},\n{{MATH_20}}\n{{CMD_21}}\nAgora calcule {{MATH_22}} e expresse o resultado em termos da área de superfície {{MATH_23}} e de {{MATH_24}}. (Se você {{CMD_25}}precisar{{CMD_26}} digitar a derivada da função {{MATH_27}} em relação ao tempo, escreva simplesmente {{MATH_28}}, e não {{MATH_29}}.)\n{{MATH_30}}\n{{CMD_31}}\nIgualando essas duas expressões obtidas para {{MATH_32}}, concluímos que {{MATH_33}}. Se o meteorito ainda está se consumindo em um instante {{MATH_34}}, então {{MATH_35}}. Portanto, para tal {{MATH_36}},\n{{MATH_37}}\nAssim, {{MATH_38}} é constante.\n{{CMD_39}}\n{{CMD_40}}\n{{CMD_41}}\n{{CMD_42}}\n{{CMD_43}}\n{{CMD_44}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule10.tex",
+  "ordem": 0,
+  "hash": "fb318d85d1f0ecd82343acb95696ce48c1bae7fd94f3dbfaf8820dcbf932dfa4",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule11.tex",
+  "ordem": 0,
+  "hash": "fb318d85d1f0ecd82343acb95696ce48c1bae7fd94f3dbfaf8820dcbf932dfa4",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule12.tex",
+  "ordem": 0,
+  "hash": "fb318d85d1f0ecd82343acb95696ce48c1bae7fd94f3dbfaf8820dcbf932dfa4",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule2.tex",
+  "ordem": 0,
+  "hash": "1b83c98c51e1824bb095f2e24543aed942e1772aa7403d0213efed95f87742da",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{COMMENT_2}}\n{{COMMENT_3}}\n{{COMMENT_4}}\n{{COMMENT_5}}\n{{COMMENT_6}}\n{{MATH_7}}\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule3.tex",
+  "ordem": 0,
+  "hash": "fb318d85d1f0ecd82343acb95696ce48c1bae7fd94f3dbfaf8820dcbf932dfa4",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule4.tex",
+  "ordem": 0,
+  "hash": "fb318d85d1f0ecd82343acb95696ce48c1bae7fd94f3dbfaf8820dcbf932dfa4",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule5.tex",
+  "ordem": 0,
+  "hash": "b341be0bb3ed0f01e8d849ca5b12763f10c2b20ccbbba6418b5ee22d97157aa1",
+  "traducao": "Seja {{MATH_1}}. Calcule {{MATH_2}}.{{CMD_3}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule5.tex",
+  "ordem": 1,
+  "hash": "8ee107c2862b2d2c5ee6b6c84bae604b09e41a6bc553feb8b6c9d876740e8efe",
+  "traducao": "Lembrete: aqui temos uma {{CMD_4}}composição{{CMD_5}} de duas funções, a tangente e um polinômio, então usamos a {{CMD_6}}regra da cadeia{{CMD_7}}.\n{{COMMENT_8}}\n{{COMMENT_9}}\n{{COMMENT_10}}\n{{COMMENT_11}}\n{{COMMENT_12}}\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule5.tex",
+  "ordem": 2,
+  "hash": "9d138d0322ebb3a5a6419f77bc20bc55e23e495f5dbcfc1711243fcaec181f59",
+  "traducao": "Seja {{MATH_14}}. Calcule {{MATH_15}}.{{CMD_16}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule5.tex",
+  "ordem": 3,
+  "hash": "7083d92a17a83c6e85c435022e574deebc21ebe8a6408db8b59a973717284f96",
+  "traducao": "Lembrete: aqui temos um {{CMD_17}}produto{{CMD_18}} de duas funções, a tangente e um polinômio, então usamos a{{CMD_19}} regra do produto{{CMD_20}}.\n{{COMMENT_21}}\n{{COMMENT_22}}\n{{COMMENT_23}}\n{{COMMENT_24}}\n{{COMMENT_25}}\n{{MATH_26}}\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule6.tex",
+  "ordem": 0,
+  "hash": "1b83c98c51e1824bb095f2e24543aed942e1772aa7403d0213efed95f87742da",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{COMMENT_2}}\n{{COMMENT_3}}\n{{COMMENT_4}}\n{{COMMENT_5}}\n{{COMMENT_6}}\n{{MATH_7}}\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule7.tex",
+  "ordem": 0,
+  "hash": "fb318d85d1f0ecd82343acb95696ce48c1bae7fd94f3dbfaf8820dcbf932dfa4",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRule8.tex",
+  "ordem": 0,
+  "hash": "fb318d85d1f0ecd82343acb95696ce48c1bae7fd94f3dbfaf8820dcbf932dfa4",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "chainRule/exercises/basicChainRuleTrig.tex",
+  "ordem": 0,
+  "hash": "25e2669ee6e2b7d12d5a04b13df7900d0f4cc5b0dd71fde4b7d87cc95a920ca8",
+  "traducao": "Determine as seguintes derivadas:"
+ },
+ {
+  "arquivo": "chainRule/exercises/chainRuleTable1.tex",
+  "ordem": 0,
+  "hash": "9665d0fe2e1100d0ab4236cc1ffdda79de83b7f3a370ef7cba1d8661a750579c",
+  "traducao": "Seja {{MATH_1}}, onde {{MATH_2}} é uma função com as propriedades mostradas na tabela abaixo.  Calcule {{MATH_3}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/chainRuleTable3.tex",
+  "ordem": 0,
+  "hash": "9665d0fe2e1100d0ab4236cc1ffdda79de83b7f3a370ef7cba1d8661a750579c",
+  "traducao": "Seja {{MATH_1}}, onde {{MATH_2}} é uma função com as propriedades mostradas na tabela abaixo.  Calcule {{MATH_3}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/chainRuleTable4.tex",
+  "ordem": 0,
+  "hash": "9665d0fe2e1100d0ab4236cc1ffdda79de83b7f3a370ef7cba1d8661a750579c",
+  "traducao": "Seja {{MATH_1}}, onde {{MATH_2}} é uma função com as propriedades mostradas na tabela abaixo.  Calcule {{MATH_3}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/chainRuleTable5.tex",
+  "ordem": 0,
+  "hash": "21c660e8b801f59c480c680f9ce64aa48ae675ee1ece953d899de288c7a57f00",
+  "traducao": "Seja {{MATH_1}}, onde {{MATH_2}} e {{MATH_3}} são funções com as propriedades mostradas na tabela abaixo.  Calcule {{MATH_4}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/chainRuleTable7.tex",
+  "ordem": 0,
+  "hash": "21c660e8b801f59c480c680f9ce64aa48ae675ee1ece953d899de288c7a57f00",
+  "traducao": "Seja {{MATH_1}}, onde {{MATH_2}} e {{MATH_3}} são funções com as propriedades mostradas na tabela abaixo.  Calcule {{MATH_4}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/harderChainRule1.tex",
+  "ordem": 0,
+  "hash": "46e11f851f8e7c3146958ab33edd8b49e0bb3ef43ab29bbe6ad02a5be8183a16",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{COMMENT_2}}\n{{COMMENT_3}}\n{{COMMENT_4}}\n{{COMMENT_5}}\n{{COMMENT_6}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/harderChainRule2.tex",
+  "ordem": 0,
+  "hash": "fb318d85d1f0ecd82343acb95696ce48c1bae7fd94f3dbfaf8820dcbf932dfa4",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "chainRule/exercises/harderChainRule3.tex",
+  "ordem": 0,
+  "hash": "fb318d85d1f0ecd82343acb95696ce48c1bae7fd94f3dbfaf8820dcbf932dfa4",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "chainRule/exercises/harderChainRule4.tex",
+  "ordem": 0,
+  "hash": "fb318d85d1f0ecd82343acb95696ce48c1bae7fd94f3dbfaf8820dcbf932dfa4",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "chainRule/exercises/harderChainRule5.tex",
+  "ordem": 0,
+  "hash": "1b83c98c51e1824bb095f2e24543aed942e1772aa7403d0213efed95f87742da",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{COMMENT_2}}\n{{COMMENT_3}}\n{{COMMENT_4}}\n{{COMMENT_5}}\n{{COMMENT_6}}\n{{MATH_7}}\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/harderChainRule6.tex",
+  "ordem": 0,
+  "hash": "1b83c98c51e1824bb095f2e24543aed942e1772aa7403d0213efed95f87742da",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{COMMENT_2}}\n{{COMMENT_3}}\n{{COMMENT_4}}\n{{COMMENT_5}}\n{{COMMENT_6}}\n{{MATH_7}}\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview1.tex",
+  "ordem": 0,
+  "hash": "deb21c73dcca796d65caabde1df0fa14e4a7ec2ba71a4ad2b17294f9529f200d",
+  "traducao": "Calcule\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview1.tex",
+  "ordem": 1,
+  "hash": "1ae68284564be06b9ffed135aa6358cf6c30c1fbd2d487578dea3eec994a8705",
+  "traducao": "não definido{{CMD_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview2.tex",
+  "ordem": 0,
+  "hash": "4985512f10d0e894a28f98ca2640ad6e9888181a678fa305e38fe54f9dac2058",
+  "traducao": "Suponha que {{MATH_1}} seja um ângulo tal que {{MATH_2}} e {{MATH_3}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview2.tex",
+  "ordem": 1,
+  "hash": "4c099d53d910c01ef9e3001c0c322b9c97a4b8488d4971e5c9e21bce66746b56",
+  "traducao": "Com base nesses dados, {{MATH_4}} está no quadrante {{CMD_5}}{{CMD_6}}I{{CMD_7}}{{CMD_8}}II{{CMD_9}}{{CMD_10}}III{{CMD_11}}{{CMD_12}}IV{{CMD_13}}{{CMD_14}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview2.tex",
+  "ordem": 2,
+  "hash": "50b0217141ec05d03143eae85858049cbc050c030b4eb8e84e2a8516c57cb7aa",
+  "traducao": "O sinal de {{MATH_15}} é {{CMD_16}}{{CMD_17}}positivo{{CMD_18}}{{CMD_19}}negativo{{CMD_20}}{{CMD_21}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview2.tex",
+  "ordem": 3,
+  "hash": "1422d3a488028abfb7b95fb0bfa6e2508d57a0f80eaaf2b36d052ad5900ff003",
+  "traducao": "Selecione abaixo o valor de {{MATH_22}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview2.tex",
+  "ordem": 4,
+  "hash": "df2f043b2b958d7674f13055d82fba5acffa4d8960ba98e2b51f8197ca9003da",
+  "traducao": "O sinal de {{MATH_23}} é {{CMD_24}}{{CMD_25}}positivo{{CMD_26}}{{CMD_27}}negativo{{CMD_28}}{{CMD_29}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview2.tex",
+  "ordem": 5,
+  "hash": "742ad0a01c30484478eb635397f48c5cf1711b671def06a192e5f82117a6d4bd",
+  "traducao": "Selecione abaixo o valor de {{MATH_30}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview3.tex",
+  "ordem": 0,
+  "hash": "7b2d8616e7aef48df0b6294992218c0ec455a518a3fff7e68493a1cbdaac7e53",
+  "traducao": "Para cada uma das expressões abaixo, determine o valor exato ou escreva {{CMD_1}}|ND| se o valor da expressão não estiver definido."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview4.tex",
+  "ordem": 0,
+  "hash": "1ba0bfb85d79c9c310bbea0c612e07c14fa9ca1bf7fe3a3339f2b29dd4f31f65",
+  "traducao": "No exercício a seguir, não use calculadora e preencha com um valor exato sempre que um valor for solicitado."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview4.tex",
+  "ordem": 1,
+  "hash": "612f026337a026eb86a126bd4689174b8ff492cdae95a48606f465de7dd4895d",
+  "traducao": "Suponha que {{MATH_1}} seja um ângulo com {{MATH_2}} e {{MATH_3}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview4.tex",
+  "ordem": 2,
+  "hash": "c9ea73022d4e8e4e44c8ecd5e97cbe2d1cf18ccb9e6587b363287d9748749bf0",
+  "traducao": "Com base nesses dados, {{MATH_4}} está no quadrante {{CMD_5}}{{CMD_6}}I{{CMD_7}}{{CMD_8}}II{{CMD_9}}{{CMD_10}}III{{CMD_11}}{{CMD_12}}IV{{CMD_13}}{{CMD_14}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview4.tex",
+  "ordem": 3,
+  "hash": "5a0dcab00c010f3c9d555e3e64d47093d62edc7e8fea00d39efe1bba207437b2",
+  "traducao": "Calcule os valores abaixo.\n{{ENV_15}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview5.tex",
+  "ordem": 0,
+  "hash": "48e9555113a261f9093ff38c08bc85a461bed6831adc716093a8c51bbc9df634",
+  "traducao": "Considere as fórmulas de adição e subtração de ângulos para {{MATH_1}} e {{MATH_2}}.\n{{ENV_3}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview5.tex",
+  "ordem": 1,
+  "hash": "e6235e20ca51b3f078bd9f2657b0ee41d84e7169dc35a931465a41f146d2a655",
+  "traducao": "Usando uma dessas fórmulas, selecione abaixo a expressão que é igual a {{CMD_4}}   {{MATH_5}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview5.tex",
+  "ordem": 2,
+  "hash": "657be1f5357146b0a6691c30f6c6e620c571ed9b73b67652acf101f44477aa54",
+  "traducao": "Selecione abaixo a expressão que é igual a {{MATH_6}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview5.tex",
+  "ordem": 3,
+  "hash": "524f1344447ec2c1b727b358b04457ab897ec9734ba4b21d37004df62b96447b",
+  "traducao": "Observando que {{MATH_7}}, calcule os valores exatos das expressões abaixo.\n{{ENV_8}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview6.tex",
+  "ordem": 0,
+  "hash": "87f1e5a9abbb9e3a5e3134e57a6109cc40af3a9f5932eb7886a0f99dc1b2a339",
+  "traducao": "O gráfico de um período completo de uma curva cosseno é dado abaixo.  Sabemos que o período é 12."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview6.tex",
+  "ordem": 1,
+  "hash": "d312a9ba6e6e3f3529446afd5d054fda6f690369b8f082cfdffb861c6899e078",
+  "traducao": "Uma equação para essa curva é dada por\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview6.tex",
+  "ordem": 2,
+  "hash": "e9b466b4aa2a1e5571640230bc9e3527bfc0efbbaccebbd35d4ceb68268423ac",
+  "traducao": "Preencha as lacunas abaixo.\n{{ENV_2}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview7.tex",
+  "ordem": 0,
+  "hash": "428f97761abb2f86f53948b3f56fd54ce2f5c2303d803229a6bfec121af91183",
+  "traducao": "Seja {{MATH_1}} um ângulo com {{MATH_2}} que está no quadrante III.  Calcule os valores exatos das expressões a seguir.\n{{ENV_3}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview8.tex",
+  "ordem": 0,
+  "hash": "286537a3f79af48411dad9af10de28b4746c498144e4658301413fec5357b78a",
+  "traducao": "Determine os valores exatos das expressões a seguir ou digite {{CMD_1}}|ND| se a expressão não estiver definida."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview9.tex",
+  "ordem": 0,
+  "hash": "f000ae90ffde398960a1674e9b38a1f5992098d1eeef55853e19ca2553c3c6eb",
+  "traducao": "O ângulo de elevação do sol é {{MATH_1}}.  Um homem de 6 pés de altura está em pé na sombra de uma árvore de 76 pés de altura, de modo que as pontas das duas sombras coincidem.  Esboce a situação.  Determine a distância entre o homem e a árvore, arredondada para o pé mais próximo."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview9.tex",
+  "ordem": 1,
+  "hash": "ee26fc9e947e0e1ec45efed979a2ade0510dbb764e682bd68360fbf58669b90d",
+  "traducao": "PASSO 1\nIntroduza uma variável {{MATH_2}} que denote a distância entre o homem e a árvore. Em seguida, esboce e rotule a figura."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview9.tex",
+  "ordem": 2,
+  "hash": "068f79ee8d37a6b0e56f06eb10ea3301ac750bce9d6a3c5c259bd21aae826b58",
+  "traducao": "PASSO 2\nExpresse o ângulo de elevação em radianos\n{{MATH_3}}\nPASSO 3\nIntroduza uma nova variável, {{MATH_4}}, que denote o comprimento da sombra do homem. Calcule {{MATH_5}}."
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview9.tex",
+  "ordem": 3,
+  "hash": "e07956bfb76b0ec2c5f4c57b34686455e71d365269a51bf6e9eba4cfc8af6430",
+  "traducao": "PASSO 4"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview9.tex",
+  "ordem": 4,
+  "hash": "270bd1eef0f2526327adab052c586de5f27af6947fe23d151f719ea043d7b504",
+  "traducao": "A figura mostra dois triângulos retângulos semelhantes, logo segue que\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview9.tex",
+  "ordem": 5,
+  "hash": "4eb5bad36643a34769c44fa726f389a0d687a08f9251f15b6a282340819dc466",
+  "traducao": "PASSO 5"
+ },
+ {
+  "arquivo": "chainRule/exercises/trigReview9.tex",
+  "ordem": 6,
+  "hash": "be7271b15de72b7f8c4e965d9f5ec68dc62310c46bdb64ef47c9cb074b1d98e9",
+  "traducao": "Determine {{MATH_7}}, arredondado para o pé mais próximo.\n{{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}"
+ }
+]

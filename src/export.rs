@@ -1,4 +1,9 @@
-use crate::{db, models::Segment, parser};
+use crate::{
+    db,
+    models::Segment,
+    parser,
+    translations::{self, ProtectedMap},
+};
 use anyhow::{bail, Context, Result};
 use std::{fs, path::Path};
 use walkdir::WalkDir;
@@ -31,6 +36,7 @@ pub fn export_tree(
         }
     }
     let mut report = ExportReport::default();
+    let protected = db::protected_translations(&conn)?;
     for file in db::file_records(&conn)? {
         let segs = db::segments_for_file(&conn, file.id)?;
         for seg in &segs {
@@ -46,7 +52,8 @@ pub fn export_tree(
                 bail!("segmento pendente {} em {}", seg.id, file.path)
             };
         }
-        let result = translated_source(&file.source, &segs).map_err(anyhow::Error::msg)?;
+        let result =
+            translated_source(&file.source, &segs, &protected).map_err(anyhow::Error::msg)?;
         let target = output.join(&file.path);
         if let Some(p) = target.parent() {
             fs::create_dir_all(p)?
@@ -59,7 +66,13 @@ pub fn export_tree(
 
 /// Rebuilds a stored file with its completed translations. Drafts and pending
 /// segments keep the original prose, so the export and the reader always agree.
-pub fn translated_source(source: &str, segments: &[Segment]) -> Result<String, String> {
+/// Protected snippets inside completed segments receive their registered
+/// translations (see `translations::localize_protected`).
+pub fn translated_source(
+    source: &str,
+    segments: &[Segment],
+    protected: &ProtectedMap,
+) -> Result<String, String> {
     let mut result = source.to_owned();
     for segment in segments.iter().rev() {
         let original = parser::reconstruct(&segment.original, &segment.placeholders)?;
@@ -71,7 +84,9 @@ pub fn translated_source(source: &str, segments: &[Segment]) -> Result<String, S
         }
         if segment.is_complete() {
             let translation = preserve_edge_whitespace(&segment.original, &segment.translated);
-            let translated = parser::reconstruct(&translation, &segment.placeholders)?;
+            let placeholders =
+                translations::localized_placeholders(&segment.placeholders, protected);
+            let translated = parser::reconstruct(&translation, &placeholders)?;
             result.replace_range(segment.start..segment.end, &translated);
         }
     }
@@ -124,6 +139,9 @@ mod tests {
             start: 0,
             end: source.len(),
         };
-        assert_eq!(translated_source(source, &[segment]).unwrap(), source);
+        assert_eq!(
+            translated_source(source, &[segment], &ProtectedMap::new()).unwrap(),
+            source
+        );
     }
 }

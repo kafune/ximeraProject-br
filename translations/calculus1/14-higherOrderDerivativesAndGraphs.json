@@ -1,0 +1,848 @@
+[
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/titlePage.tex",
+  "ordem": 0,
+  "hash": "6dc028ec1d6a99b37aae9fa5155fa039fe3169a61113da6d71de87cf833d2a0c",
+  "traducao": "Derivadas de ordem superior e gráficos{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/titlePage.tex",
+  "ordem": 2,
+  "hash": "2b2523ce48e1e3bd656c895b50b6b1e99574ab9b0e22ae70c3bcf6811a6ad3cc",
+  "traducao": " Usar a primeira derivada para determinar se uma função é crescente ou decrescente.\n{{CMD_4}} Definir derivadas de ordem superior.\n{{CMD_5}} Comparar as diferentes notações para derivadas de ordem superior.\n{{CMD_6}} Identificar as relações entre a função e suas primeira e segunda derivadas.\n{{CMD_7}} Esboçar o gráfico da segunda derivada, dada a função original.\n{{CMD_8}} Esboçar o gráfico da função original, dado o gráfico de sua primeira ou segunda derivada.\n{{CMD_9}} Esboçar o gráfico de uma função que satisfaça certas restrições sobre suas derivadas de ordem superior.\n{{CMD_10}} Enunciar a relação entre a concavidade e a segunda derivada.\n{{CMD_11}} Interpretar a segunda derivada de uma função posição como aceleração.\n{{CMD_12}} Calcular derivadas de ordem superior.\n{{CMD_13}} Dado o gráfico de uma função posição, determinar os intervalos de tempo em que a velocidade é positiva/negativa\n{{CMD_14}} Dado o gráfico de uma função posição, determinar os intervalos de tempo em que a velocidade é crescente/decrescente"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/breakGround.tex",
+  "ordem": 0,
+  "hash": "7511894fe97b0e2f75524d17618504108829daf212d97fe7341501460d770fd0",
+  "traducao": "Taxas de taxas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos olham o gráfico de uma função, de sua primeira derivada e de sua segunda derivada.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma\nhistória real):"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/breakGround.tex",
+  "ordem": 2,
+  "hash": "c75b749f4e0b8d52910f021be663d065864fedca9514f6f3183b0261ac06acb9",
+  "traducao": " Riley, olha só este gráfico:\n  {{CMD_7}}\n      {{ENV_8}}\n  {{CMD_9}}\n{{CMD_10}} Uau, que legal!\n{{CMD_11}} Eu sei! Enfim, alguém me disse que este era o gráfico\n  de uma função, da sua derivada e da derivada da\n  derivada.  Qual é qual?\n{{CMD_12}} Hmmmmm. Não tenho certeza.\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/breakGround.tex",
+  "ordem": 3,
+  "hash": "f88b6d2d50f2571b349f94c806624a18dcaac63327d45ed7e0566d6c9e2327c3",
+  "traducao": "Qual das alternativas a seguir é verdadeira?\n{{CMD_14}}\n  {{CMD_15}}A curva {{MATH_16}} é crescente quando a curva {{MATH_17}} é positiva.{{CMD_18}}\n  {{CMD_19}}A curva {{MATH_20}} é crescente quando a curva {{MATH_21}} é positiva.{{CMD_22}}\n  {{CMD_23}}Nenhuma das anteriores.{{CMD_24}}\n{{CMD_25}}\n{{CMD_26}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/breakGround.tex",
+  "ordem": 4,
+  "hash": "2ab8104357ce7b99a229d335ef637142134355f92e6cab5626d1363dbe4a9ccd",
+  "traducao": "Qual das alternativas a seguir é verdadeira?\n{{CMD_27}}\n  {{CMD_28}}A curva {{MATH_29}} é crescente quando a curva {{MATH_30}} é positiva.{{CMD_31}}\n  {{CMD_32}}A curva {{MATH_33}} é crescente quando a curva {{MATH_34}} é positiva.{{CMD_35}}\n  {{CMD_36}}Nenhuma das anteriores.{{CMD_37}}\n{{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/breakGround.tex",
+  "ordem": 5,
+  "hash": "9a1bd9f602ab155777d0589a37e999b2de327dd72fc0f959898eea2de41aaabb",
+  "traducao": "Qual das alternativas a seguir é verdadeira?\n{{CMD_40}}\n  {{CMD_41}}A curva {{MATH_42}} é crescente quando a curva {{MATH_43}} é positiva.{{CMD_44}}\n  {{CMD_45}}A curva {{MATH_46}} é crescente quando a curva {{MATH_47}} é positiva.{{CMD_48}}\n  {{CMD_49}}Nenhuma das anteriores.{{CMD_50}}\n{{CMD_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 0,
+  "hash": "3c4b42fcd0b6fe2329a1d6535606ba01d9106082375f17c703c939e9a50c7e86",
+  "traducao": "Derivadas de ordem superior e gráficos{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n Aqui fazemos uma conexão entre o gráfico de uma função, sua derivada e suas derivadas de ordem superior.\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}{{CMD_8}}{{CMD_9}}\nDizemos que uma função {{MATH_10}} é {{CMD_11}}crescente{{CMD_12}} em um intervalo {{MATH_13}} se {{MATH_14}} para todos os pares de números {{MATH_15}}, {{MATH_16}} em {{MATH_17}} tais que {{MATH_18}}.{{CMD_19}}\nDizemos que uma função {{MATH_20}} é {{CMD_21}}decrescente{{CMD_22}} em um intervalo {{MATH_23}} se {{MATH_24}} para todos os pares de números {{MATH_25}}, {{MATH_26}} em {{MATH_27}} tais que {{MATH_28}}.{{CMD_29}}\n {{CMD_30}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 1,
+  "hash": "4a2ee1f2e309efa5c03bf37da587248f416e289b0a1dc88ba18e5c7c78489cb0",
+  "traducao": "\tQuais das funções famosas a seguir são crescentes em {{MATH_31}}?\n\t{{CMD_32}}\n\t\t{{CMD_33}}{{MATH_34}}{{CMD_35}}\n\t\t{{CMD_36}}{{MATH_37}}{{CMD_38}}\n\t\t{{CMD_39}}{{MATH_40}}{{CMD_41}}\n\t\t{{CMD_42}}{{MATH_43}}{{CMD_44}}\n\t\t{{CMD_45}}{{MATH_46}}{{CMD_47}}\n\t\t{{CMD_48}}{{MATH_49}}{{CMD_50}}\n\t\t{{CMD_51}}{{MATH_52}}{{CMD_53}}\n\t{{CMD_54}}\n\t{{CMD_55}}\n\t\tA função {{MATH_56}} não é crescente em {{MATH_57}}, porque, se tomarmos um par de números em {{MATH_58}}, digamos,\n\t\t{{MATH_59}} e {{MATH_60}}, então {{MATH_61}}, mas {{CMD_62}}{{MATH_63}}, já que\n\t\t{{MATH_64}} e {{MATH_65}}.\n\t {{CMD_66}}\n{{CMD_67}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 2,
+  "hash": "04de81c5a32b207d13acbc9078cbd1a81cc0281187fc9b170adabe8e5b08566f",
+  "traducao": "\tConsidere o gráfico da função {{MATH_68}} abaixo:\n\t{{CMD_69}}\n          {{ENV_70}}\n        {{CMD_71}}\n\tEm quais dos intervalos a seguir {{MATH_72}} é crescente?\n\t{{CMD_73}}\n\t\t{{CMD_74}}{{MATH_75}}{{CMD_76}}\n\t\t{{CMD_77}}{{MATH_78}}{{CMD_79}}\n\t\t{{CMD_80}}{{MATH_81}}{{CMD_82}}\n\t\t{{CMD_83}}{{MATH_84}}{{CMD_85}}\n\t\t{{CMD_86}}{{MATH_87}}{{CMD_88}}\n\t{{CMD_89}}\n\t{{CMD_90}} {{CMD_91}}\t\tA função {{MATH_92}} não é crescente no intervalo {{MATH_93}}, porque, se escolhermos um par de números em {{MATH_94}},\n\t\tdigamos, {{MATH_95}} e {{MATH_96}}, então {{MATH_97}}, mas  {{MATH_98}}.\n\t{{CMD_99}}\n{{CMD_100}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 3,
+  "hash": "d5bc31ac2a74a9f951d39f2d69bd5c829cf7a9b4a6a1830fa7fb5dad45b31a73",
+  "traducao": "Pense nas retas tangentes ao gráfico da função nos intervalos que você encontrou nesta pergunta.\nHá algo que as inclinações de todas essas retas tangentes têm em comum?\nTodas são POSITIVAS!  Olhe para o intervalo {{MATH_101}}.  Nesse intervalo, as inclinações das retas tangentes são todas NEGATIVAS.\nPercebeu que as inclinações positivas apareceram quando a função era crescente e as inclinações negativas apareceram\nquando a função era decrescente?  Isso não foi por acaso."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 4,
+  "hash": "e4a5b00e9c07ff6a36215c8d5e8f1d6a8ee3d321b8fc44da9b91aa004cd91be8",
+  "traducao": "Como a derivada nos dá uma fórmula para a inclinação da reta tangente\na uma curva, podemos obter informações sobre uma função apenas a partir\ndo sinal da derivada.  Em particular, temos o seguinte teorema\n{{CMD_102}}{{CMD_103}}\n\tUma função {{MATH_104}} é {{CMD_105}}crescente{{CMD_106}} em qualquer intervalo {{MATH_107}} em que {{MATH_108}} para todo {{MATH_109}} em {{MATH_110}}.{{CMD_111}}\n\tUma função {{MATH_112}}  é {{CMD_113}}decrescente{{CMD_114}} em qualquer intervalo {{MATH_115}} em que {{MATH_116}} para todo {{MATH_117}} em {{MATH_118}}.{{CMD_119}}\n {{CMD_120}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 5,
+  "hash": "d1b4c7c630fafb68703508ebc69ae2b73e78aacff888a972abcf92023ccd7664",
+  "traducao": "  Abaixo esboçamos o gráfico de {{MATH_121}}:\n  {{CMD_122}}\n  {{ENV_123}}\n  {{CMD_124}}\n  A primeira derivada é positiva ou negativa no intervalo {{MATH_125}}?\n  {{CMD_126}}\n    {{CMD_127}}\n      {{CMD_128}}Positiva{{CMD_129}}\n      {{CMD_130}}Negativa{{CMD_131}}\n    {{CMD_132}}\n  {{CMD_133}}\n{{CMD_134}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 6,
+  "hash": "900b518046d9a9e65dfd50aa133aeb051188a4c9398d20b6968a488e2c23614c",
+  "traducao": "  Abaixo esboçamos o gráfico de {{MATH_135}}:\n  {{CMD_136}}\n  {{ENV_137}}\n  {{CMD_138}}\n  A função {{MATH_139}} é crescente ou decrescente no\n  intervalo {{MATH_140}}?\n  {{CMD_141}}\n    {{CMD_142}}\n      {{CMD_143}}Crescente{{CMD_144}}\n      {{CMD_145}}Decrescente{{CMD_146}}\n    {{CMD_147}}\n  {{CMD_148}}\n  {{CMD_149}} Pelo gráfico de  {{MATH_150}} podemos ver que {{MATH_151}} para todo {{MATH_152}} em {{MATH_153}}. Então, o teorema acima implica que a função {{MATH_154}} é crescente nesse intervalo.\n      {{CMD_155}}\n{{CMD_156}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 7,
+  "hash": "efb2e8f8c1b5c44b555702f5dca31f339f7e285b776e47bdbb875ba39dc6f742",
+  "traducao": "Chamamos a derivada da derivada de {{CMD_157}}, a derivada da segunda derivada (a derivada da derivada da derivada) de\n{{CMD_158}}, e assim por diante. Temos uma notação especial para\nas derivadas de ordem superior, confira:\n{{CMD_159}}\n{{CMD_160}} {{MATH_161}}.\n{{CMD_162}} {{MATH_163}}.\n{{CMD_164}} {{MATH_165}}.\n{{CMD_166}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 8,
+  "hash": "bcd4b89a72068af9aef8fce28347aa4257ad3471124b1de76fe4aa43fde192a5",
+  "traducao": "Usamos os fatos acima em nosso próximo exemplo."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 9,
+  "hash": "8d12b7284ebce5c24950cfdfd931c6e4ae078dabfa9879399afc81e5affa3329",
+  "traducao": "  Aqui temos os gráficos, sem rótulos, de {{MATH_167}}, {{MATH_168}} e {{MATH_169}}:\n  {{CMD_170}}\n  {{ENV_171}}\n  {{CMD_172}}\n  Identifique cada curva acima como o gráfico de {{MATH_173}}, {{MATH_174}} ou {{MATH_175}}.\n  {{CMD_176}}\n    Aqui vemos três curvas, {{MATH_177}}, {{MATH_178}} e {{MATH_179}}. Como {{MATH_180}} é\n    {{CMD_181}}{{CMD_182}}positiva{{CMD_183}} {{CMD_184}}negativa{{CMD_185}}\n      {{CMD_186}}crescente{{CMD_187}} {{CMD_188}}decrescente{{CMD_189}}{{CMD_190}} quando {{MATH_191}} é\n    positiva e\n    {{CMD_192}}{{CMD_193}}positiva{{CMD_194}}{{CMD_195}}negativa{{CMD_196}}{{CMD_197}}crescente{{CMD_198}}{{CMD_199}}decrescente{{CMD_200}}{{CMD_201}}\n    quando {{MATH_202}} é negativa, vemos que\n    {{MATH_203}}\n    Como {{MATH_204}} é crescente quando {{MATH_205}} é\n    {{CMD_206}}{{CMD_207}}positiva{{CMD_208}}{{CMD_209}}negativa{{CMD_210}}{{CMD_211}}crescente{{CMD_212}}\n      {{CMD_213}}decrescente{{CMD_214}}{{CMD_215}} e decrescente quando {{MATH_216}} é\n    {{CMD_217}}{{CMD_218}}positiva{{CMD_219}}{{CMD_220}}negativa{{CMD_221}}{{CMD_222}}crescente{{CMD_223}}{{CMD_224}}decrescente{{CMD_225}}{{CMD_226}}, vemos que\n    {{MATH_227}}\n    Logo, {{MATH_228}}, {{MATH_229}} e {{MATH_230}}.\n  {{CMD_231}}\n{{CMD_232}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 10,
+  "hash": "3a6802ada7ece2bc5dfab4cb5a76bac4d816d68f0e6c364fea8e6a4e1c8dcc19",
+  "traducao": "    Aqui temos os gráficos, sem rótulos, de {{MATH_233}}, {{MATH_234}} e {{MATH_235}}:\n    {{CMD_236}}\n      {{ENV_237}}\n{{CMD_238}}\n    Identifique cada curva acima como o gráfico de {{MATH_239}}, {{MATH_240}} ou {{MATH_241}}.\n      {{CMD_242}}\n        Aqui vemos três curvas, {{MATH_243}}, {{MATH_244}} e {{MATH_245}}. Como {{MATH_246}} é\n        {{CMD_247}}{{CMD_248}}positiva{{CMD_249}}{{CMD_250}}negativa{{CMD_251}}{{CMD_252}}crescente{{CMD_253}}{{CMD_254}}decrescente{{CMD_255}}{{CMD_256}} quando {{MATH_257}}\n        é positiva e\n        {{CMD_258}}{{CMD_259}}positiva{{CMD_260}}{{CMD_261}}negativa{{CMD_262}}{{CMD_263}}crescente{{CMD_264}}{{CMD_265}}decrescente{{CMD_266}}{{CMD_267}} quando {{MATH_268}}\n        é negativa, vemos que\n        {{MATH_269}}\n        Como {{MATH_270}} é crescente quando {{MATH_271}} é\n        {{CMD_272}}{{CMD_273}}positiva{{CMD_274}}{{CMD_275}}negativa{{CMD_276}}{{CMD_277}}crescente{{CMD_278}}{{CMD_279}}decrescente{{CMD_280}}{{CMD_281}}\n          e decrescente quando {{MATH_282}} é\n          {{CMD_283}}{{CMD_284}}positiva{{CMD_285}}{{CMD_286}}negativa{{CMD_287}}{{CMD_288}}crescente{{CMD_289}}{{CMD_290}}decrescente{{CMD_291}}{{CMD_292}}, vemos\n          que\n        {{MATH_293}}\n        Logo, {{MATH_294}}, {{MATH_295}} e\n        {{MATH_296}}.\n      {{CMD_297}}\n{{CMD_298}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs.tex",
+  "ordem": 11,
+  "hash": "f1de3bb12a4952b08c9328ed0904be187abbb72505e4831a9b482f26e045cf6e",
+  "traducao": "  Aqui temos os gráficos, sem rótulos, de {{MATH_299}}, {{MATH_300}} e {{MATH_301}}:\n  {{CMD_302}}\n  {{ENV_303}}\n  {{CMD_304}}\n  Identifique cada curva acima como o gráfico de {{MATH_305}}, {{MATH_306}} ou {{MATH_307}}.\n  {{COMMENT_308}}\n  {{COMMENT_309}}\n    {{CMD_310}} {{COMMENT_311}}\n    Aqui vemos três curvas, {{MATH_312}}, {{MATH_313}} e {{MATH_314}}. Como {{MATH_315}} é\n    {{CMD_316}}{{CMD_317}}positiva{{CMD_318}}{{CMD_319}}negativa{{CMD_320}}{{CMD_321}}crescente{{CMD_322}}{{CMD_323}}decrescente{{CMD_324}}{{CMD_325}} quando {{MATH_326}} é\n    positiva e {{CMD_327}}{{CMD_328}}positiva{{CMD_329}}{{CMD_330}}negativa{{CMD_331}}{{CMD_332}}crescente{{CMD_333}}{{CMD_334}}decrescente{{CMD_335}}{{CMD_336}}\n    quando {{MATH_337}} é negativa, vemos que\n    {{MATH_338}}\n    Como {{MATH_339}} é crescente quando {{MATH_340}} é\n    {{CMD_341}}{{CMD_342}}positiva{{CMD_343}}{{CMD_344}}negativa{{CMD_345}}{{CMD_346}}crescente{{CMD_347}}{{CMD_348}}decrescente{{CMD_349}}{{CMD_350}} e\n    decrescente quando {{MATH_351}} é\n    {{CMD_352}}{{CMD_353}}positiva{{CMD_354}}{{CMD_355}}negativa{{CMD_356}}{{CMD_357}}crescente{{CMD_358}}{{CMD_359}}decrescente{{CMD_360}}{{CMD_361}}, vemos que\n    {{MATH_362}}\n    Logo, {{MATH_363}}, {{MATH_364}} e\n    {{MATH_365}}.\n  {{CMD_366}}\n{{CMD_367}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInConcavity.tex",
+  "ordem": 0,
+  "hash": "301e3a619f232f2990f7c82dadee8ac745ca9b41686aaa66a84518beeeab3bf4",
+  "traducao": "Concavidade{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Aqui examinamos o que a segunda derivada nos diz sobre a\n  geometria das funções.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInConcavity.tex",
+  "ordem": 1,
+  "hash": "f948801ff9c7a9de380d1e20492ee2ebc2179791bd269f0ddf10c8b188dbbf29",
+  "traducao": "Até agora, sabemos determinar se uma função é crescente ou decrescente olhando para o sinal de sua\nderivada.  Se tudo o que sabemos sobre {{MATH_7}} é onde ela cresce e onde decresce, não temos\ninformação suficiente para descrever com precisão como {{MATH_8}} está se comportando.  Considere as quatro possibilidades a seguir:"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInConcavity.tex",
+  "ordem": 2,
+  "hash": "cd95062723091a710c6c33042633026e073b8db97f82509d351b2bc6be49dbe8",
+  "traducao": "Nos dois gráficos da coluna da esquerda, {{MATH_9}} é decrescente.  Nos dois gráficos da coluna da direita,\n{{MATH_10}} é crescente.  Qual é a diferença entre as duas fileiras?  A concavidade.\n{{CMD_11}}{{CMD_12}}{{CMD_13}}\n\tSeja {{MATH_14}} uma função derivável em um intervalo aberto {{MATH_15}}.{{CMD_16}}\n\t\tDizemos que o gráfico de  {{MATH_17}} tem {{CMD_18}}concavidade para cima{{CMD_19}} em {{MATH_20}} se  {{MATH_21}}, a derivada de {{MATH_22}}, é {{CMD_23}}crescente{{CMD_24}} em {{MATH_25}}.{{CMD_26}}\n\t\tDizemos que o gráfico de  {{MATH_27}} tem {{CMD_28}}concavidade para baixo{{CMD_29}} em {{MATH_30}} se {{MATH_31}}, a derivada de {{MATH_32}}, é {{CMD_33}}decrescente{{CMD_34}} em {{MATH_35}}.\n{{CMD_36}}\nIsto é, o gráfico de {{MATH_37}} tem concavidade para cima se, localmente, ele fica acima de suas retas tangentes, e tem concavidade para baixo se, localmente, ele fica abaixo de suas retas tangentes."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInConcavity.tex",
+  "ordem": 3,
+  "hash": "41a56f6745d12925a1856fee30fb570d62f91193c0fb516372447ed59dceea90",
+  "traducao": "Os gráficos de duas funções, {{MATH_38}} e {{MATH_39}}, ambas crescentes no intervalo dado, são apresentados abaixo.\n{{CMD_40}}\n  {{ENV_41}}\n{{CMD_42}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInConcavity.tex",
+  "ordem": 4,
+  "hash": "27c4c91ea9a97a3e8717de17af82cf2bd3deabc0df0cbaae5cd411a80ea33e19",
+  "traducao": "Abaixo é dado o gráfico de {{MATH_43}}, com domínio {{MATH_44}}.\n        {{CMD_45}}\n    {{ENV_46}}\n  {{CMD_47}}\nEm quais intervalos {{MATH_48}} tem concavidade para cima?  Em quais intervalos {{MATH_49}} tem concavidade para baixo?\n{{CMD_50}}\n\tVamos desenhar algumas retas tangentes no gráfico.\n\t        {{CMD_51}}\n    {{ENV_52}}\n  {{CMD_53}}\n\n  O gráfico está acima das retas tangentes para {{MATH_54}} em {{MATH_55}}, e abaixo das retas tangentes que esboçamos em {{MATH_56}}.\n\n  Portanto, {{MATH_57}} tem concavidade para cima em {{MATH_58}} e concavidade para baixo em {{MATH_59}}.\n{{CMD_60}}\n{{CMD_61}}\nNesse exemplo, examine o intervalo em que {{MATH_62}} tinha concavidade para cima.  No início desse intervalo, {{MATH_63}} era decrescente e, no fim, {{MATH_64}} era crescente.\nAs inclinações nesse intervalo aumentaram de um valor negativo para um valor positivo.  No intervalo em que {{MATH_65}} tinha concavidade para baixo, as inclinações começaram positivas\ne terminaram negativas.  As inclinações nesse intervalo eram decrescentes."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInConcavity.tex",
+  "ordem": 5,
+  "hash": "9d450dff7565a829434dfa5db1642a9ec3e8776beebce3be68453526f995d316",
+  "traducao": "Sabemos que o sinal da derivada nos diz se uma função é crescente ou decrescente em um certo ponto. Da mesma forma, o sinal da\nsegunda derivada {{MATH_66}} nos diz se {{MATH_67}} é crescente ou decrescente em {{MATH_68}}.  Vamos usar isso para acrescentar mais detalhes ao quadro acima."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInConcavity.tex",
+  "ordem": 6,
+  "hash": "ca62c79943a7e0b435a08d1e443a554e3e7cfc60cf1e237929ce1df16600ab93",
+  "traducao": "Se estamos tentando entender a forma do gráfico de uma função,\nsaber onde ele tem concavidade para cima e onde tem concavidade para baixo nos ajuda a obter uma\nimagem mais precisa. Vale a pena resumir o que já vimos\nem um único teorema."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInConcavity.tex",
+  "ordem": 7,
+  "hash": "18067cde1ef5490281998aaf97763cb189fb8d09962c12c54de54566f8365f65",
+  "traducao": "\tSeja {{MATH_69}} um intervalo aberto.\n\t{{CMD_70}}\n\t\t{{CMD_71}} Se {{MATH_72}} para todo {{MATH_73}} em {{MATH_74}}, então o gráfico de {{MATH_75}} tem  concavidade para cima em {{MATH_76}}.\n\t\t{{CMD_77}} Se {{MATH_78}} para todo {{MATH_79}} em {{MATH_80}}, então o gráfico de {{MATH_81}} tem  concavidade para baixo em {{MATH_82}}.\n\t{{CMD_83}}\n{{CMD_84}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInConcavity.tex",
+  "ordem": 8,
+  "hash": "ff0f4ab98387a2a361587b6ae464623c83d05662c75835ef70c2e754ee508cd5",
+  "traducao": "Vamos começar com informações sobre onde uma função é crescente/decrescente/côncava para cima/côncava para baixo e ver se conseguimos usá-las para entender\no comportamento da função.\n{{CMD_85}}\n  Seja {{MATH_86}} uma função contínua e suponha que:\n  {{CMD_87}}\n  {{CMD_88}} {{MATH_89}} para {{MATH_90}}.\n  {{CMD_91}} {{MATH_92}} para {{MATH_93}} e {{MATH_94}}.\n  {{CMD_95}} {{MATH_96}} para {{MATH_97}} e {{MATH_98}}.\n  {{CMD_99}} {{MATH_100}} para {{MATH_101}}.\n  {{CMD_102}}\n  Esboce um possível gráfico de {{MATH_103}}.\n  {{CMD_104}}\n    Comece marcando onde a derivada muda de sinal e indique\n    os intervalos em que {{MATH_105}} é crescente e os intervalos em que {{MATH_106}} é\n    decrescente. A função {{MATH_107}} tem derivada negativa de {{MATH_108}}\n    a {{MATH_109}}. Isso significa que {{MATH_110}} é\n    {{CMD_111}}{{CMD_112}}crescente{{CMD_113}}{{CMD_114}}decrescente{{CMD_115}}{{CMD_116}} nesse\n    intervalo. A função {{MATH_117}} tem derivada positiva de\n    {{MATH_118}} a {{MATH_119}}. Isso significa que\n    {{MATH_120}} é\n    {{CMD_121}}{{CMD_122}}crescente{{CMD_123}}{{CMD_124}}decrescente{{CMD_125}}{{CMD_126}} nesse\n    intervalo. Finalmente, a função {{MATH_127}} tem derivada negativa\n    de {{MATH_128}} a {{MATH_129}}. Isso significa que {{MATH_130}} é\n    {{CMD_131}}{{CMD_132}}crescente{{CMD_133}}{{CMD_134}}decrescente{{CMD_135}}{{CMD_136}} nesse\n    intervalo.\n  {{CMD_137}}\n    {{ENV_138}}\n  {{CMD_139}}\n  Agora devemos esboçar a concavidade: {{CMD_140}}{{CMD_141}}concavidade para cima{{CMD_142}}{{CMD_143}}concavidade para baixo{{CMD_144}}{{CMD_145}} quando a segunda\n  derivada é positiva, {{CMD_146}}{{CMD_147}}concavidade para cima{{CMD_148}}{{CMD_149}}concavidade para baixo{{CMD_150}}{{CMD_151}} quando a segunda derivada é\n  negativa.\n    {{CMD_152}}\n    {{ENV_153}}\n    {{CMD_154}}\n    Finalmente, podemos esboçar nossa curva:\n        {{CMD_155}}\n    {{ENV_156}}\n  {{CMD_157}}\n  {{CMD_158}}\n{{CMD_159}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInPositionVelocityAndAcceleration.tex",
+  "ordem": 0,
+  "hash": "ced06e334c4e940aaa1ef9d1a8fce108d23707288ce61c21adda662248ff9ba6",
+  "traducao": "Posição, velocidade e aceleração{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Aqui discutimos como posição, velocidade e aceleração se relacionam com\n  as derivadas de ordem superior.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInPositionVelocityAndAcceleration.tex",
+  "ordem": 1,
+  "hash": "238bfe0b67dcdd3aaee0ea955f0616f6ad6b4bf853edaf6d6e17fc28e4c5c287",
+  "traducao": "Estudar funções e suas derivadas pode parecer algo um tanto\nabstrato. No entanto, considere esta passagem de um livro de física:\n{{CMD_7}}\n  Supondo que a aceleração {{MATH_8}} seja constante, podemos escrever a velocidade e a\n  posição como\n  {{ENV_9}}\n  onde {{MATH_10}} é a aceleração (constante), {{MATH_11}} é a velocidade no\n  instante zero e {{MATH_12}} é a posição no instante zero.\n{{CMD_13}}\nEssas equações modelam a posição e a velocidade de qualquer objeto com\naceleração constante. Em particular, essas equações podem ser usadas para\nmodelar o movimento de um objeto em queda, já que a aceleração devida à\ngravidade é constante."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInPositionVelocityAndAcceleration.tex",
+  "ordem": 2,
+  "hash": "6f49f6f2c7d789392e9d02b3c60cde55385c1d6e5a6e975b569cd968532844ac",
+  "traducao": "O cálculo nos permite ver a conexão entre essas\nequações. Primeiro, observe que a derivada da fórmula da posição em relação ao tempo é a fórmula da velocidade em relação ao\ntempo.\n{{MATH_14}}\nAlém disso, a derivada da fórmula da velocidade em relação ao tempo\né simplesmente {{MATH_15}}, a aceleração."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInPositionVelocityAndAcceleration.tex",
+  "ordem": 3,
+  "hash": "4a8abefb4e7b38828f5acbe7d68f4d0846a81d96038cd8e70cac9d05ae471135",
+  "traducao": "  Uma bola foi lançada no instante {{MATH_16}}.  Suponha que {{MATH_17}} represente a posição da bola no instante {{MATH_18}}.\n  Lembrando que a aceleração para {{MATH_19}} se deve apenas à\n  gravidade, e sabendo que a aceleração devida à gravidade é\n  {{MATH_20}}, quanto vale {{MATH_21}}?\n  {{CMD_22}}\n    {{MATH_23}}\n  {{CMD_24}}\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/digInPositionVelocityAndAcceleration.tex",
+  "ordem": 4,
+  "hash": "89f29c165cfddec9f4553d90d43a49506ad8befba83955603d779ce634ef28a2",
+  "traducao": "Você fez recentemente uma viagem de carro de Columbus, Ohio, até Urbana-Champaign,\nIllinois. A distância percorrida a partir de Columbus, Ohio, é modelada aproximadamente\npor:\n{{MATH_26}}\nonde {{MATH_27}} é medido em horas e está entre {{MATH_28}} e {{MATH_29}}. Determine uma\nfórmula para a sua aceleração.\n  {{CMD_30}}\n    Aqui precisamos apenas encontrar a segunda derivada:\n    {{MATH_31}}\n    Logo, nossa aceleração é {{MATH_32}}.\n  {{CMD_33}}\n{{CMD_34}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/14_Q4-1151_ex_1.tex",
+  "ordem": 0,
+  "hash": "95e45d8346c85dcff6ea5aa41333f4a7c8190bdbbc4bfbd5765a27494476f72e",
+  "traducao": "No planeta {{MATH_1}}, uma pedra é lançada verticalmente para cima com velocidade inicial de {{MATH_2}}. A altura {{MATH_3}} (em pés) da pedra acima do solo após {{MATH_4}} segundos é\n{{MATH_5}}\n{{CMD_6}}\n{{CMD_7}} Determine a função velocidade {{MATH_8}} e a função aceleração {{MATH_9}}.\n{{ENV_10}}\n{{CMD_11}} Com que velocidade escalar a pedra atingirá o solo?\n{{CMD_12}}\nDetermine o instante, {{MATH_13}}, em que a pedra atinge o solo.\n{{CMD_14}}\n{{CMD_15}}\nDetermine o instante, {{MATH_16}}, em que a pedra atinge o solo, resolvendo a equação\n{{MATH_17}}\ne calcule  {{MATH_18}}."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/14_Q4-1151_ex_1.tex",
+  "ordem": 1,
+  "hash": "71aca92d469a18ada7cfaa1a0ea34148a58c9b21102dd97e160a821a03f121fb",
+  "traducao": "RESPOSTA: A pedra atingirá o solo com velocidade escalar\n{{MATH_19}} {{COMMENT_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityGraphical1.tex",
+  "ordem": 0,
+  "hash": "c0fbc23291e312c71dc59792b3aee692a66268ebf785a357f3f5ace973ddbb45",
+  "traducao": "Se a coordenada {{MATH_1}} do ponto azul é {{MATH_2}}, qual das alternativas a seguir é verdadeira?"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityGraphical1.tex",
+  "ordem": 1,
+  "hash": "6d0a7c3795ebea51be3743aa09f60c2da91648854e1d7d93c9a81816f6a130a7",
+  "traducao": " e {{MATH_3}}{{CMD_4}}\n{{CMD_5}}{{MATH_6}} e {{MATH_7}}{{CMD_8}}\n{{CMD_9}}{{MATH_10}} e {{MATH_11}}{{CMD_12}}\n{{CMD_13}}{{MATH_14}} e {{MATH_15}}{{CMD_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityGraphical2.tex",
+  "ordem": 0,
+  "hash": "c0fbc23291e312c71dc59792b3aee692a66268ebf785a357f3f5ace973ddbb45",
+  "traducao": "Se a coordenada {{MATH_1}} do ponto azul é {{MATH_2}}, qual das alternativas a seguir é verdadeira?"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityGraphical2.tex",
+  "ordem": 1,
+  "hash": "6d0a7c3795ebea51be3743aa09f60c2da91648854e1d7d93c9a81816f6a130a7",
+  "traducao": " e {{MATH_3}}{{CMD_4}}\n{{CMD_5}}{{MATH_6}} e {{MATH_7}}{{CMD_8}}\n{{CMD_9}}{{MATH_10}} e {{MATH_11}}{{CMD_12}}\n{{CMD_13}}{{MATH_14}} e {{MATH_15}}{{CMD_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityGraphical3.tex",
+  "ordem": 0,
+  "hash": "c0fbc23291e312c71dc59792b3aee692a66268ebf785a357f3f5ace973ddbb45",
+  "traducao": "Se a coordenada {{MATH_1}} do ponto azul é {{MATH_2}}, qual das alternativas a seguir é verdadeira?"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityGraphical3.tex",
+  "ordem": 1,
+  "hash": "6d0a7c3795ebea51be3743aa09f60c2da91648854e1d7d93c9a81816f6a130a7",
+  "traducao": " e {{MATH_3}}{{CMD_4}}\n{{CMD_5}}{{MATH_6}} e {{MATH_7}}{{CMD_8}}\n{{CMD_9}}{{MATH_10}} e {{MATH_11}}{{CMD_12}}\n{{CMD_13}}{{MATH_14}} e {{MATH_15}}{{CMD_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityGraphical4.tex",
+  "ordem": 0,
+  "hash": "c0fbc23291e312c71dc59792b3aee692a66268ebf785a357f3f5ace973ddbb45",
+  "traducao": "Se a coordenada {{MATH_1}} do ponto azul é {{MATH_2}}, qual das alternativas a seguir é verdadeira?"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityGraphical4.tex",
+  "ordem": 1,
+  "hash": "6d0a7c3795ebea51be3743aa09f60c2da91648854e1d7d93c9a81816f6a130a7",
+  "traducao": " e {{MATH_3}}{{CMD_4}}\n{{CMD_5}}{{MATH_6}} e {{MATH_7}}{{CMD_8}}\n{{CMD_9}}{{MATH_10}} e {{MATH_11}}{{CMD_12}}\n{{CMD_13}}{{MATH_14}} e {{MATH_15}}{{CMD_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityNumerical1.tex",
+  "ordem": 0,
+  "hash": "98333fe7840bc12cfa974af20ed0ae43537ce207d25b22595b0a914dcb10f040",
+  "traducao": "Qual das opções abaixo é mais consistente com os dados disponíveis na tabela de valores?"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityNumerical1.tex",
+  "ordem": 1,
+  "hash": "a2f15f79f7724c85a0eac7b163d224a5f49aedb5eaef42203981de12637188da",
+  "traducao": " e {{MATH_1}}{{CMD_2}}\n{{CMD_3}}{{MATH_4}} e {{MATH_5}}{{CMD_6}}\n{{CMD_7}}{{MATH_8}} e {{MATH_9}}{{CMD_10}}\n{{CMD_11}}{{MATH_12}} e {{MATH_13}}{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityNumerical2.tex",
+  "ordem": 0,
+  "hash": "98333fe7840bc12cfa974af20ed0ae43537ce207d25b22595b0a914dcb10f040",
+  "traducao": "Qual das opções abaixo é mais consistente com os dados disponíveis na tabela de valores?"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityNumerical2.tex",
+  "ordem": 1,
+  "hash": "a2f15f79f7724c85a0eac7b163d224a5f49aedb5eaef42203981de12637188da",
+  "traducao": " e {{MATH_1}}{{CMD_2}}\n{{CMD_3}}{{MATH_4}} e {{MATH_5}}{{CMD_6}}\n{{CMD_7}}{{MATH_8}} e {{MATH_9}}{{CMD_10}}\n{{CMD_11}}{{MATH_12}} e {{MATH_13}}{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityNumerical3.tex",
+  "ordem": 0,
+  "hash": "98333fe7840bc12cfa974af20ed0ae43537ce207d25b22595b0a914dcb10f040",
+  "traducao": "Qual das opções abaixo é mais consistente com os dados disponíveis na tabela de valores?"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/concavityNumerical3.tex",
+  "ordem": 1,
+  "hash": "a2f15f79f7724c85a0eac7b163d224a5f49aedb5eaef42203981de12637188da",
+  "traducao": " e {{MATH_1}}{{CMD_2}}\n{{CMD_3}}{{MATH_4}} e {{MATH_5}}{{CMD_6}}\n{{CMD_7}}{{MATH_8}} e {{MATH_9}}{{CMD_10}}\n{{CMD_11}}{{MATH_12}} e {{MATH_13}}{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/exponentialReview1.tex",
+  "ordem": 0,
+  "hash": "0e20fa5239eb917b81d9172750b3edeb38b12464b117e75459d13fda4d33c54b",
+  "traducao": "Encontre as soluções exatas das equações exponenciais a seguir."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/exponentialReview2.tex",
+  "ordem": 0,
+  "hash": "abc11a7ec95d6867f03c5e61e9307127b49082890f52e0aef1642a5dc4f4111a",
+  "traducao": "Calcule as expressões a seguir.\n{{ENV_1}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/exponentialReview3.tex",
+  "ordem": 0,
+  "hash": "e5dd82343fc753c4c40bbddf1648648e5b001211f489c0d9a8c51803e42c937c",
+  "traducao": "Seja {{MATH_1}}."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/exponentialReview3.tex",
+  "ordem": 1,
+  "hash": "5868069c81a4e2f0453217713bfdf5d37a878b4619056113b2c1d9d7cfa2962d",
+  "traducao": "O domínio de {{MATH_2}} é\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/exponentialReview3.tex",
+  "ordem": 2,
+  "hash": "f948371002c835ddcc69dc191039a076fa9cee53e20254ea3c2fb9ac40d849af",
+  "traducao": "A taxa de variação média de {{MATH_4}} entre {{MATH_5}} e {{MATH_6}} é {{MATH_7}}."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/exponentialReview3.tex",
+  "ordem": 3,
+  "hash": "2cbcac0de9cfcbd86d2971fed089a84e215f2bc01496c8edd4133b10b16117c2",
+  "traducao": "O domínio de {{MATH_8}} é\n{{MATH_9}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/exponentialReview3.tex",
+  "ordem": 4,
+  "hash": "10ba75f71d89e59e37359f72ce090663953404c81d86594f4886c79e7a4b9a86",
+  "traducao": "A função inversa de {{MATH_10}} é\n{{MATH_11}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/exponentialReview3.tex",
+  "ordem": 5,
+  "hash": "765c7bf75e338f5568c4841e67e5efae5a21dc1780b566519eb80c806e8844fd",
+  "traducao": "Sejam {{MATH_12}} e {{MATH_13}}."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/exponentialReview3.tex",
+  "ordem": 6,
+  "hash": "3525ddc645f948b158aeed78976a102cbb7d2a99e4effededce09bdf4a77a116",
+  "traducao": "Determine o valor:\n{{MATH_14}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/exponentialReview4.tex",
+  "ordem": 0,
+  "hash": "808bf8f7d69241c24f319bc60ed863d906097bab654b8512286043f0c1767959",
+  "traducao": "Determine a base {{MATH_1}} em cada uma das equações a seguir.\n{{ENV_2}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview1.tex",
+  "ordem": 0,
+  "hash": "c00c2faeac9ea3fcc859057b445158561fb3d0f2dd90dfc2215e47784ef16b1e",
+  "traducao": "O gráfico (completo) de {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview1.tex",
+  "ordem": 1,
+  "hash": "ae8743338685255132730d8ac4988d734fa04ea51bb4be1287d4b65886e1f7e8",
+  "traducao": "O domínio de {{MATH_2}}, em notação de intervalos (da esquerda para a direita), é\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview1.tex",
+  "ordem": 2,
+  "hash": "e955c58db47b44fb96ef2813c86e82fd94cf705ae3dc0c2e6c49c16b2968b544",
+  "traducao": "A imagem de {{MATH_4}}, em notação de intervalos (de baixo para cima), é\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview1.tex",
+  "ordem": 3,
+  "hash": "eea941db29adf030881bc8a84d6759121678c51085a13963ecdeaf4b713f5312",
+  "traducao": "O domínio de {{MATH_6}}, em notação de intervalos (da esquerda para a direita), é\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview2.tex",
+  "ordem": 0,
+  "hash": "c69bfc82cbbaa5386f17244e94da2488fbae6530e46aebfd6420523288caa521",
+  "traducao": "O gráfico (completo) de uma função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview2.tex",
+  "ordem": 1,
+  "hash": "b2b5b66d4458a795a77ce17a2ef10a5418a75e0cff73b4f39a91dafb5fae2fd3",
+  "traducao": "O domínio de {{MATH_2}} é\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview2.tex",
+  "ordem": 2,
+  "hash": "22b20df27df5d6293a28344c858606ad65e7a85b720bf111d4f3bc303b484e56",
+  "traducao": "A imagem de {{MATH_4}} (de baixo para cima) é\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview2.tex",
+  "ordem": 3,
+  "hash": "a49b2ae18c87d87d165a1354c42c14403988c0aee5646760c5cb2455a13f3a13",
+  "traducao": " é injetora.\n{{CMD_6}}\n{{CMD_7}}Verdadeiro{{CMD_8}}\n{{CMD_9}}Falso{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview2.tex",
+  "ordem": 4,
+  "hash": "5de5765f79fef789bf5cc3d02f0bc6f91e8241392c8ca8a08f275a726260f997",
+  "traducao": "O domínio de {{MATH_12}} (da esquerda para a direita) é\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview2.tex",
+  "ordem": 5,
+  "hash": "40afd29578013624d6a359f921b3da4c65014b5fb18d070b78e0ea2f0132751d",
+  "traducao": "A imagem de {{MATH_14}} é\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview3.tex",
+  "ordem": 0,
+  "hash": "091af933dcdf9be7f5cc8cedb9e9993aa7c8f4e82941e8c54e47a060d144a4b1",
+  "traducao": "Considere a função {{MATH_1}}.  A inversa de {{MATH_2}} é\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview3.tex",
+  "ordem": 1,
+  "hash": "bf150d3cfbe2fe9c69b9dc66587b343ca5c0eba1bf8050638b6b158dd1b77883",
+  "traducao": "Considere a função {{MATH_4}}. A inversa de {{MATH_5}} é\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview4.tex",
+  "ordem": 0,
+  "hash": "b6f120e0c035ecee3f056ac5197b8df0d9d95b324cdd6d86a4f08a03292badd9",
+  "traducao": "O gráfico (completo) de uma função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview4.tex",
+  "ordem": 1,
+  "hash": "77f4ed47e409d332ecf603b1d14ed0ff7e5ffd6a6cb5b983f4864a2c73a1a007",
+  "traducao": "Responda às perguntas abaixo. Escreva DNE para indicar que um determinado valor não existe.\nO domínio de {{MATH_2}} (da esquerda para a direita) é\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/functionReview4.tex",
+  "ordem": 2,
+  "hash": "ed89072319a59f1ee26b1c56737345c0ce2216b87352ba73c9d64bc3024af412",
+  "traducao": "A imagem de {{MATH_4}} é\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/higherOrderDerivatives1.tex",
+  "ordem": 0,
+  "hash": "f9ec529ad5dd1a952c44f6c7335a360c7b49eb8710314fbddc42dc01cbbea025",
+  "traducao": "  Seja {{MATH_1}}.  Calcule as derivadas a seguir.\n  {{ENV_2}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/higherOrderDerivatives1.tex",
+  "ordem": 1,
+  "hash": "659267633a98ec59fdac1ce3d158ffc7cd0cf8130d531d4e062623f3d567f4e5",
+  "traducao": "    Seja {{MATH_3}}.  Calcule as derivadas a seguir.\n    {{ENV_4}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/higherOrderDerivatives1.tex",
+  "ordem": 2,
+  "hash": "b8f0dd9e1a5a66858b10c93f84cdca57f26c1600575baaa87110c0d2b23492f9",
+  "traducao": "      Seja {{MATH_5}}.  Calcule as derivadas a seguir.\n      {{ENV_6}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/orderDerivatives1.tex",
+  "ordem": 0,
+  "hash": "fc9933ce5c4e4e6ab8d58322538712b1be60f5264cd7ea59e7dbef6654660cf8",
+  "traducao": "  A imagem abaixo mostra os gráficos de {{MATH_1}}, {{MATH_2}} e {{MATH_3}}.  Determine qual gráfico corresponde a qual função."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/orderDerivatives1.tex",
+  "ordem": 1,
+  "hash": "1b7983cd0c18ac4d967edb4d87e8d315c7f9707fd90792f7dde12322f980be77",
+  "traducao": " O gráfico {{MATH_4}} corresponde ao gráfico de {{MATH_5}}.\n    {{CMD_6}} O gráfico {{MATH_7}} corresponde ao gráfico de {{MATH_8}}.\n    {{CMD_9}} O gráfico {{MATH_10}} corresponde ao gráfico de {{MATH_11}}.\n    {{CMD_12}}\n  {{CMD_13}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/orderDerivatives2.tex",
+  "ordem": 0,
+  "hash": "fc9933ce5c4e4e6ab8d58322538712b1be60f5264cd7ea59e7dbef6654660cf8",
+  "traducao": "  A imagem abaixo mostra os gráficos de {{MATH_1}}, {{MATH_2}} e {{MATH_3}}.  Determine qual gráfico corresponde a qual função."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/orderDerivatives2.tex",
+  "ordem": 1,
+  "hash": "c72b830f9e7b1e8a9fbc19dac17a48e8698193afbe9cb1b6c5bfd99ddce62d48",
+  "traducao": " O gráfico {{MATH_4}} corresponde ao gráfico de {{MATH_5}}.\n    {{CMD_6}} O gráfico {{MATH_7}} corresponde ao gráfico de {{MATH_8}}.\n    {{CMD_9}} O gráfico {{MATH_10}} corresponde ao gráfico de {{MATH_11}}.\n    {{CMD_12}}\n  {{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/orderDerivatives3.tex",
+  "ordem": 0,
+  "hash": "fc9933ce5c4e4e6ab8d58322538712b1be60f5264cd7ea59e7dbef6654660cf8",
+  "traducao": "  A imagem abaixo mostra os gráficos de {{MATH_1}}, {{MATH_2}} e {{MATH_3}}.  Determine qual gráfico corresponde a qual função."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/orderDerivatives3.tex",
+  "ordem": 1,
+  "hash": "c72b830f9e7b1e8a9fbc19dac17a48e8698193afbe9cb1b6c5bfd99ddce62d48",
+  "traducao": " O gráfico {{MATH_4}} corresponde ao gráfico de {{MATH_5}}.\n    {{CMD_6}} O gráfico {{MATH_7}} corresponde ao gráfico de {{MATH_8}}.\n    {{CMD_9}} O gráfico {{MATH_10}} corresponde ao gráfico de {{MATH_11}}.\n    {{CMD_12}}\n  {{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/orderDerivatives4.tex",
+  "ordem": 0,
+  "hash": "6faf346bc383ed01e141b99864f3b845aca837b5801600185d592ec63735c516",
+  "traducao": "  A imagem abaixo mostra os gráficos de {{MATH_1}}, {{MATH_2}} e {{MATH_3}}.  Determine qual gráfico corresponde a qual função."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/orderDerivatives4.tex",
+  "ordem": 1,
+  "hash": "c72b830f9e7b1e8a9fbc19dac17a48e8698193afbe9cb1b6c5bfd99ddce62d48",
+  "traducao": " O gráfico {{MATH_4}} corresponde ao gráfico de {{MATH_5}}.\n    {{CMD_6}} O gráfico {{MATH_7}} corresponde ao gráfico de {{MATH_8}}.\n    {{CMD_9}} O gráfico {{MATH_10}} corresponde ao gráfico de {{MATH_11}}.\n    {{CMD_12}}\n  {{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/rateOfChange1.tex",
+  "ordem": 0,
+  "hash": "76563d0ed6acdeab3cc9878c07268bf8bb6d49d4607f1b8eed8e16bc82183cb3",
+  "traducao": "Um tanque de óleo será esvaziado para limpeza.  Restam {{MATH_1}} galões de óleo no tanque {{MATH_2}} minutos após o início do esvaziamento, onde\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/rateOfChange1.tex",
+  "ordem": 1,
+  "hash": "78a85168685251293175eb3a86185ac151d167a5b2f4214d0c60ed5fe452be90",
+  "traducao": "A taxa média com que o óleo escoa no intervalo de tempo {{MATH_4}} é\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/rateOfChange1.tex",
+  "ordem": 2,
+  "hash": "7d43d372e575fef879f6b0b4548a06f59b54ebaf8311a32f250ac80db72c878b",
+  "traducao": "A taxa média com que o óleo escoa no intervalo de tempo {{MATH_6}} é\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/rateOfChange1.tex",
+  "ordem": 3,
+  "hash": "4f9a244a53a38a17a7da037b6e8e44925a626b98ad75b73c518a04bb00947a89",
+  "traducao": "A taxa com que o óleo escoa 15 minutos após o início do esvaziamento é\n{{MATH_8}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/rateOfChange1.tex",
+  "ordem": 4,
+  "hash": "d3928e9f57cf54f931f0689fa0982c2db5446adad19428c2648639f070203d19",
+  "traducao": "A taxa média com que o óleo escoa durante o intervalo de tempo {{MATH_9}}, para {{MATH_10}}, ou o intervalo {{MATH_11}}, para {{MATH_12}}, é\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/rateOfChange1.tex",
+  "ordem": 5,
+  "hash": "ad29259f44d2ddbbd601ec79933ce7103bc88fb067651de2f63982a6fd1564cb",
+  "traducao": "O limite da taxa média acima quando {{MATH_14}} tende a zero é\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/trigReview1.tex",
+  "ordem": 0,
+  "hash": "cf7108aef7abe97d3ba87cab60ccac5bab130f7cdd5b6c3407e0f76450beca26",
+  "traducao": "Use um triângulo retângulo para simplificar a expressão abaixo.  Suponha que {{MATH_1}}.\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph1.tex",
+  "ordem": 0,
+  "hash": "305990f3182c52ddc5e65157b9c66a7093c387ce7fed08f654bbe03e00613b6a",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta vertical no instante {{MATH_1}}s e para no instante {{MATH_2}}s.  Sua altura em relação ao solo no instante {{MATH_3}} é dada por {{MATH_4}}, representada no gráfico abaixo, onde {{MATH_5}} é medida em metros."
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph1.tex",
+  "ordem": 1,
+  "hash": "183d4b3af8152d7c28a9a447051a9a58e03eb9a6a642b4d2332f22afdbf52534",
+  "traducao": "A velocidade média do objeto no intervalo {{MATH_6}} é\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph1.tex",
+  "ordem": 2,
+  "hash": "d7ecb730c13c09b9a92a27e734801fbe47e872db3fea39951eb5d20ad633e0fa",
+  "traducao": "Escolha a melhor descrição do formato do gráfico no intervalo de tempo {{MATH_8}}.\n{{CMD_9}}\n{{CMD_10}}Crescente e com concavidade para cima{{CMD_11}}\n{{CMD_12}}Crescente e com concavidade para baixo{{CMD_13}}\n{{CMD_14}}Decrescente e com concavidade para cima{{CMD_15}}\n{{CMD_16}}Decrescente e com concavidade para baixo{{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph1.tex",
+  "ordem": 3,
+  "hash": "57e515d1d2ef0e2666a3defe8d45ea70371803c2b3f137ab2b440ec96bfb5c48",
+  "traducao": "O objeto está mais próximo do solo em\n{{MATH_19}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph1.tex",
+  "ordem": 4,
+  "hash": "f402b35e4a19fbb543d8a38e8027717bde9634b56133efdf35bf5972b7f50af5",
+  "traducao": "A velocidade no instante em que o objeto está mais próximo do solo é\n{{MATH_20}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph1.tex",
+  "ordem": 5,
+  "hash": "66b66af9f5fc786b67b8dc32e4675e2621a4aeae5bf7055f889bdf4710d2790d",
+  "traducao": "Em que instante a velocidade é máxima?\n{{CMD_21}}\n{{CMD_22}}0s{{CMD_23}}\n{{CMD_24}}2s{{CMD_25}}\n{{CMD_26}}3s{{CMD_27}}\n{{CMD_28}}4s{{CMD_29}}\n{{CMD_30}}6s{{CMD_31}}\n{{CMD_32}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph1.tex",
+  "ordem": 6,
+  "hash": "4d655a72da155cc8101140271867b939a41e58391c47cbb9a51c43977a9c03da",
+  "traducao": "Estimada como um número inteiro, a velocidade máxima é\n{{MATH_33}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph1.tex",
+  "ordem": 7,
+  "hash": "6fbf80ecab6547184301c7b8d7f3fd2e98722fb8d36ec787314ff07891110a79",
+  "traducao": "Seja {{MATH_34}} a velocidade do objeto no instante {{MATH_35}}.  Escolha o maior valor entre as alternativas a seguir.\n{{CMD_36}}\n{{CMD_37}}{{MATH_38}}{{CMD_39}}\n{{CMD_40}}{{MATH_41}}{{CMD_42}}\n{{CMD_43}}{{MATH_44}}{{CMD_45}}\n{{CMD_46}}{{MATH_47}}{{CMD_48}}\n{{CMD_49}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph1.tex",
+  "ordem": 8,
+  "hash": "5db21ae925436e8fda5601659a8bf76042c34f5a463b64df0b50b039465dd9d1",
+  "traducao": "O intervalo de tempo em que a velocidade é crescente é\n{{MATH_50}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph1.tex",
+  "ordem": 9,
+  "hash": "cd1ce6c070eec2de95e536b23532072a8b78eafca86966f4ef49504e810056b0",
+  "traducao": "Em qual dos instantes a seguir a velocidade escalar é máxima?\n{{CMD_51}}\n{{CMD_52}}1s{{CMD_53}}\n{{CMD_54}}2s{{CMD_55}}\n{{CMD_56}}3s{{CMD_57}}\n{{CMD_58}}4s{{CMD_59}}\n{{CMD_60}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 0,
+  "hash": "3848228e7f4fe9850b7d608bff932219366a156c71a06a2dd91837c55d35ebb5",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_1}}s e para no instante {{MATH_2}}s.  Sua posição em relação à origem no instante {{MATH_3}} é dada por {{MATH_4}}, representada no gráfico abaixo, onde {{MATH_5}} é medida em metros.\n{{CMD_6}}\n  {{ENV_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 1,
+  "hash": "06de39df6df1081cf9e43839388f904c54faf94a3e26b630b8592123834955d5",
+  "traducao": "A velocidade média do objeto no intervalo {{MATH_9}} é\n{{MATH_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 2,
+  "hash": "03e994636b8da3b8cb3a5bd0fd1e552bf512dc38a128e46b101d6cf260e7aa81",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_12}}s e para no instante {{MATH_13}}s.  Sua posição em relação à origem no instante {{MATH_14}} é dada por {{MATH_15}}, representada no gráfico abaixo, onde {{MATH_16}} é medida em metros.\n{{CMD_17}}\n  {{ENV_18}}\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 3,
+  "hash": "80c1df994a5719253faa2b8c35aaf8b8f20a4ee70513f1e5f2053b882ce4592c",
+  "traducao": "Escolha a melhor descrição do formato do gráfico de {{MATH_20}} no intervalo de tempo {{MATH_21}}.\n{{CMD_22}}\n{{CMD_23}}Crescente e com concavidade para cima{{CMD_24}}\n{{CMD_25}}Crescente e com concavidade para baixo{{CMD_26}}\n{{CMD_27}}Decrescente e com concavidade para cima{{CMD_28}}\n{{CMD_29}}Decrescente e com concavidade para baixo{{CMD_30}}\n{{CMD_31}}\n{{CMD_32}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 4,
+  "hash": "9b5f190b7ccfc2589a0b21146b8f1be5a5be662db12a832cf5915b987d61f0d3",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_33}}s e para no instante {{MATH_34}}s.  Sua posição em relação à origem no instante {{MATH_35}} é dada por {{MATH_36}}, representada no gráfico abaixo, onde {{MATH_37}} é medida em metros.\n{{CMD_38}}\n  {{ENV_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 5,
+  "hash": "b77fcb9076581dd492f8e9547aab98a01dfbc08d4dcaf59cab472327c20c9e66",
+  "traducao": "Escolha a alternativa que completa a afirmação sobre a velocidade.{{CMD_41}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 6,
+  "hash": "fa906807c3b9d52ffdff18c95c9b5269d0475a03f2ef05bb9b1a782fff938620",
+  "traducao": "No intervalo {{MATH_42}}, a velocidade é\n{{CMD_43}}\n{{CMD_44}}crescente, porque a função {{MATH_45}} é crescente nesse intervalo{{CMD_46}}\n{{CMD_47}}decrescente, porque a função {{MATH_48}} é decrescente nesse intervalo{{CMD_49}}\n{{CMD_50}}crescente, porque o gráfico de {{MATH_51}} tem concavidade para cima nesse intervalo{{CMD_52}}\n{{CMD_53}}decrescente, porque o gráfico de {{MATH_54}} tem concavidade para cima nesse intervalo{{CMD_55}}\n{{CMD_56}}crescente, porque o gráfico de {{MATH_57}} tem concavidade para baixo nesse intervalo{{CMD_58}}\n{{CMD_59}}decrescente, porque o gráfico de {{MATH_60}} tem concavidade para baixo nesse intervalo{{CMD_61}}\n{{CMD_62}}zero{{CMD_63}}\n{{CMD_64}}positiva e constante{{CMD_65}}\n{{CMD_66}}\n{{CMD_67}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 7,
+  "hash": "d6d8426036b04aec24635f44fe1072a7a54e384c78a4967ad745ebafa630f06f",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_68}}s e para no instante {{MATH_69}}s.  Sua posição em relação à origem no instante {{MATH_70}} é dada por {{MATH_71}}, representada no gráfico abaixo, onde {{MATH_72}} é medida em metros.\n{{CMD_73}}\n  {{ENV_74}}\n{{CMD_75}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 8,
+  "hash": "ca3e95e3d76df5417e158842b54dcf3547adfe510a27431379c3bd39020257ba",
+  "traducao": "Escolha a alternativa que completa a afirmação sobre a velocidade.{{CMD_76}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 9,
+  "hash": "58056771a0fd59010741551ae8def27bf03001dd5b3e2a4469e7f1581ad4972d",
+  "traducao": "No intervalo {{MATH_77}}, a velocidade é\n{{CMD_78}}\n{{CMD_79}}crescente, porque a função {{MATH_80}} é crescente nesse intervalo{{CMD_81}}\n{{CMD_82}}decrescente, porque a função  {{MATH_83}} é decrescente nesse intervalo{{CMD_84}}\n{{CMD_85}}crescente, porque o gráfico de {{MATH_86}} tem concavidade para cima nesse intervalo{{CMD_87}}\n{{CMD_88}}decrescente, porque o gráfico de {{MATH_89}} tem concavidade para cima nesse intervalo{{CMD_90}}\n{{CMD_91}}crescente, porque o gráfico de {{MATH_92}} tem concavidade para baixo nesse intervalo{{CMD_93}}\n{{CMD_94}}decrescente, porque o gráfico de {{MATH_95}} tem concavidade para baixo nesse intervalo{{CMD_96}}\n{{CMD_97}}zero{{CMD_98}}\n{{CMD_99}}positiva e constante{{CMD_100}}\n{{CMD_101}}\n{{CMD_102}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 10,
+  "hash": "218d2c0bb44ea907cdde7abe3e922e16c7ea71801f7b0a846ebc35582b98dd91",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_103}}s e para no instante {{MATH_104}}s.  Sua posição em relação à origem no instante {{MATH_105}} é dada por {{MATH_106}}, representada no gráfico abaixo, onde {{MATH_107}} é medida em metros.\n{{CMD_108}}\n  {{ENV_109}}\n{{CMD_110}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 11,
+  "hash": "c4ba0e47e21e79d597a6ec05d6299dcb7cf9cbc2d7ea65cc33983c50f1fece3c",
+  "traducao": "Escolha a alternativa que completa a afirmação sobre a velocidade.{{CMD_111}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 12,
+  "hash": "7a387b888239ac31495b41a7acfe7acbe6ed6993bc26597c4c41a09f5483ed81",
+  "traducao": "No intervalo {{MATH_112}}, a velocidade é\n{{CMD_113}}\n{{CMD_114}}crescente, porque a função {{MATH_115}} é crescente nesse intervalo{{CMD_116}}\n{{CMD_117}}decrescente, porque a função  {{MATH_118}} é decrescente nesse intervalo{{CMD_119}}\n{{CMD_120}}crescente, porque o gráfico de {{MATH_121}} tem concavidade para cima nesse intervalo{{CMD_122}}\n{{CMD_123}}decrescente, porque o gráfico de {{MATH_124}} tem concavidade para cima nesse intervalo{{CMD_125}}\n{{CMD_126}}crescente, porque o gráfico de {{MATH_127}} tem concavidade para baixo nesse intervalo{{CMD_128}}\n{{CMD_129}}decrescente, porque o gráfico de {{MATH_130}} tem concavidade para baixo nesse intervalo{{CMD_131}}\n{{CMD_132}}zero{{CMD_133}}\n{{CMD_134}}positiva e constante{{CMD_135}}\n{{CMD_136}}\n{{CMD_137}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 13,
+  "hash": "99cd3af1acf77cf43e072c3783c4d1735814dbae455b732e3380fb341b47150d",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_138}}s e para no instante {{MATH_139}}s.  Sua posição em relação à origem no instante {{MATH_140}} é dada por {{MATH_141}}, representada no gráfico abaixo, onde {{MATH_142}} é medida em metros.\n{{CMD_143}}\n  {{ENV_144}}\n{{CMD_145}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 14,
+  "hash": "ad0c162de7b0d74b775a27f9cba0f2fb1667f763aa47e13d1deff97a63e47fcd",
+  "traducao": "Escolha a alternativa que completa a afirmação sobre a velocidade.{{CMD_146}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 15,
+  "hash": "754779b133534963083d73302434de84d0e0fa5fa6cae1662aefffa68873f8a2",
+  "traducao": "No intervalo {{MATH_147}}, a velocidade é\n{{CMD_148}}\n{{CMD_149}}crescente, porque a função {{MATH_150}} é crescente nesse intervalo{{CMD_151}}\n{{CMD_152}}decrescente, porque a função  {{MATH_153}} é decrescente nesse intervalo{{CMD_154}}\n{{CMD_155}}crescente, porque o gráfico de {{MATH_156}} tem concavidade para cima nesse intervalo{{CMD_157}}\n{{CMD_158}}decrescente, porque o gráfico de {{MATH_159}} tem concavidade para cima nesse intervalo{{CMD_160}}\n{{CMD_161}}crescente, porque o gráfico de {{MATH_162}} tem concavidade para baixo nesse intervalo{{CMD_163}}\n{{CMD_164}}decrescente, porque o gráfico de {{MATH_165}} tem concavidade para baixo nesse intervalo{{CMD_166}}\n{{CMD_167}}zero{{CMD_168}}\n{{CMD_169}}positiva e constante{{CMD_170}}\n{{CMD_171}}\n{{CMD_172}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 16,
+  "hash": "4d8ce9096c7e51b01a68ccd5b0fe2f28f1b9a2c7835cf58c9957e5474ab51afc",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_173}}s e para no instante {{MATH_174}}s.  Sua posição em relação à origem no instante {{MATH_175}} é dada por {{MATH_176}}, representada no gráfico abaixo, onde {{MATH_177}} é medida em metros.\n{{CMD_178}}\n  {{ENV_179}}\n{{CMD_180}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 17,
+  "hash": "bd21aa81acd4f6dc0e54a44793b6c12c01f67696b92294bfc5522c387d4f8cac",
+  "traducao": "Escolha a alternativa que completa a afirmação sobre a aceleração.{{CMD_181}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 18,
+  "hash": "bef188da42651db5bace41ac9f535cefbf1d710262de31d70cbff8dd7aa26ba4",
+  "traducao": "No intervalo {{MATH_182}}, a aceleração\n{{CMD_183}}\n{{CMD_184}}é positiva.{{CMD_185}}\n{{CMD_186}}é negativa.{{CMD_187}}\n{{CMD_188}}é zero.{{CMD_189}}\n{{CMD_190}}assume valores tanto positivos quanto negativos.{{CMD_191}}\n{{CMD_192}}é inconclusiva, pois a partir do gráfico de s não podemos concluir nada sobre a aceleração. {{CMD_193}}\n{{CMD_194}}\n{{CMD_195}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 19,
+  "hash": "9864b906b3f8f0870477540c3810ab2fb7486e43f994efde6a556c41777e12c4",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_196}}s e para no instante {{MATH_197}}s.  Sua posição em relação à origem no instante {{MATH_198}} é dada por {{MATH_199}}, representada no gráfico abaixo, onde {{MATH_200}} é medida em metros.\n{{CMD_201}}\n  {{ENV_202}}\n{{CMD_203}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 20,
+  "hash": "da71d6b75e14d75fe9778f47ee0d5d53df24d5e782e4d32618fd6c97dc284a48",
+  "traducao": "Escolha a alternativa que completa a afirmação sobre a aceleração.{{CMD_204}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 21,
+  "hash": "2ee64d2affb996411a867109d8bc036a08f65fd86adba16da66373f1e2b1a927",
+  "traducao": "No intervalo {{MATH_205}}, a aceleração\n{{CMD_206}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 22,
+  "hash": "c0c5d8aee813e69e6345093b7f9c8059b4ac0e5f3c8aeb0f517d592e0422b5e0",
+  "traducao": "é positiva.{{CMD_207}}\n{{CMD_208}}é negativa.{{CMD_209}}\n{{CMD_210}}é zero.{{CMD_211}}\n{{CMD_212}}assume valores tanto positivos quanto negativos.{{CMD_213}}\n{{CMD_214}}é inconclusiva, pois a partir do gráfico de s não podemos concluir nada sobre a aceleração. {{CMD_215}}\n{{CMD_216}}\n{{CMD_217}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 23,
+  "hash": "d2e48cafc83ce57c3cf868059dce970a11585e82b8a1657a8db269b0c0be92ef",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_218}}s e para no instante {{MATH_219}}s.  Sua posição em relação à origem no instante {{MATH_220}} é dada por {{MATH_221}}, representada no gráfico abaixo, onde {{MATH_222}} é medida em metros.\n{{CMD_223}}\n  {{ENV_224}}\n{{CMD_225}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 24,
+  "hash": "996499f7f1473f7bd16a35c0389c9bcfbdb68485968a44e876f6d52a88e24c81",
+  "traducao": "Escolha a alternativa que completa a afirmação sobre a aceleração.{{CMD_226}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 25,
+  "hash": "fdbc34ed7074c7444feac7b55b41842698f11e716bd1ce332bb65d369a059926",
+  "traducao": "No intervalo {{MATH_227}}, a aceleração\n{{CMD_228}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 26,
+  "hash": "de02bb09fc443bd980910c0dd3ed620779ec57209f587e93325fa60ee21b0aa3",
+  "traducao": "é positiva.{{CMD_229}}\n{{CMD_230}}é negativa.{{CMD_231}}\n{{CMD_232}}é zero.{{CMD_233}}\n{{CMD_234}}assume valores tanto positivos quanto negativos.{{CMD_235}}\n{{CMD_236}}é inconclusiva, pois a partir do gráfico de s não podemos concluir nada sobre a aceleração. {{CMD_237}}\n{{CMD_238}}\n{{CMD_239}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 27,
+  "hash": "bff44f5d7d4830cf8a78f7c154baff32946e04a2a26903b679b69de7b2a235e9",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_240}}s e para no instante {{MATH_241}}s.  Sua posição em relação à origem no instante {{MATH_242}} é dada por {{MATH_243}}, representada no gráfico abaixo, onde {{MATH_244}} é medida em metros.\n{{CMD_245}}\n  {{ENV_246}}\n{{CMD_247}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 28,
+  "hash": "3e5e4f14b9fa7b5e4d4b5a19fe196336d13f34fd60fb6573acf74da0eba626d1",
+  "traducao": "Escolha a alternativa que completa a afirmação sobre a aceleração.{{CMD_248}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 29,
+  "hash": "0fd22e68dc18875a8f42ec77c36d1ab853dd607fec43a7b934949b4588efde72",
+  "traducao": "No intervalo {{MATH_249}}, a aceleração\n{{CMD_250}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 30,
+  "hash": "cdf0fe1843f9bc2d5910e607de8993ac3356d5999ff8db40bf760d925214c9d4",
+  "traducao": "é positiva.{{CMD_251}}\n{{CMD_252}}é negativa.{{CMD_253}}\n{{CMD_254}}é zero.{{CMD_255}}\n{{CMD_256}}assume valores tanto positivos quanto negativos.{{CMD_257}}\n{{CMD_258}}é inconclusiva, pois a partir do gráfico de s não podemos concluir nada sobre a aceleração. {{CMD_259}}\n{{CMD_260}}\n{{CMD_261}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 31,
+  "hash": "b01e8879afde3148ebd15bfd9df4f6cf25c71a103b9480f3cccc097472649b3f",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_262}}s e para no instante {{MATH_263}}s.  Sua posição em relação à origem no instante {{MATH_264}} é dada por {{MATH_265}}, representada no gráfico abaixo, onde {{MATH_266}} é medida em metros.\n{{CMD_267}}\n  {{ENV_268}}\n{{CMD_269}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 32,
+  "hash": "76e0a59438a1cd4b4241d338c403cd0657a55f66102c826b8864b2db05e7d523",
+  "traducao": "Seja {{MATH_270}} a velocidade do objeto no instante {{MATH_271}}.  Escolha o maior valor entre as alternativas a seguir.\n{{CMD_272}}\n{{CMD_273}}{{MATH_274}}{{CMD_275}}\n{{CMD_276}}{{MATH_277}}{{CMD_278}}\n{{CMD_279}}{{MATH_280}}{{CMD_281}}\n{{CMD_282}}{{MATH_283}}{{CMD_284}}\n{{CMD_285}}\n{{CMD_286}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 33,
+  "hash": "a2995f474d80638e6eec3034050a15c38f02b809214fc4e668cccac197473e0b",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_287}}s e para no instante {{MATH_288}}s.  Sua posição em relação à origem no instante {{MATH_289}} é dada por {{MATH_290}}, representada no gráfico abaixo, onde {{MATH_291}} é medida em metros.\n{{CMD_292}}\n  {{ENV_293}}\n{{CMD_294}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 34,
+  "hash": "b64c0059759c3435972e84ef21adfecda5f46a81c08f5b0c45eb630257d01388",
+  "traducao": "Em qual dos instantes a seguir a velocidade escalar é máxima?\n{{CMD_295}}\n{{CMD_296}}1s{{CMD_297}}\n{{CMD_298}}3s{{CMD_299}}\n{{CMD_300}}4s{{CMD_301}}\n{{CMD_302}}5s{{CMD_303}}\n{{CMD_304}}\n{{CMD_305}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 35,
+  "hash": "b0c50b7f0a7d985ee97b3502e7819c273968b8dfecc5e6d0565343edcceb50b5",
+  "traducao": "Um objeto começa a se mover ao longo de uma reta horizontal no instante {{MATH_306}}s e para no instante {{MATH_307}}s.  Sua posição em relação à origem no instante {{MATH_308}} é dada por {{MATH_309}}, representada no gráfico abaixo, onde {{MATH_310}} é medida em metros.\n{{CMD_311}}\n  {{ENV_312}}\n{{CMD_313}}"
+ },
+ {
+  "arquivo": "higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2.tex",
+  "ordem": 36,
+  "hash": "bd893fb4bcce8f00707043faafbd68984acbca678b3658da647cae868a7cf547",
+  "traducao": "Em que instante o objeto está mais distante da origem e a que distância da origem ele está nesse instante?\n{{CMD_314}}\n{{CMD_315}}1s, 1m{{CMD_316}}\n{{CMD_317}}1s, 3m{{CMD_318}}\n{{CMD_319}}4s, 6m{{CMD_320}}\n{{CMD_321}}4s, 2m{{CMD_322}}\n{{CMD_323}}6s, 6m{{CMD_324}}\n{{CMD_325}}6s, 4m{{CMD_326}}\n{{CMD_327}}6s, {{MATH_328}}m{{CMD_329}}\n{{CMD_330}}\n{{CMD_331}}\n{{CMD_332}}"
+ }
+]

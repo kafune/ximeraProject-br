@@ -10,6 +10,7 @@ use crate::{
     export,
     models::{FileRecord, Placeholder, Segment},
     parser,
+    translations::ProtectedMap,
 };
 use sha2::{Digest, Sha256};
 use std::{
@@ -49,9 +50,13 @@ pub fn metadata(translation: &str, placeholders: &[Placeholder]) -> ActivityMeta
     }
 }
 
-pub fn render(file: &FileRecord, segments: &[Segment]) -> Result<String, String> {
+pub fn render(
+    file: &FileRecord,
+    segments: &[Segment],
+    protected: &ProtectedMap,
+) -> Result<String, String> {
     ensure_safe_translations(segments)?;
-    let source = export::translated_source(&file.source, segments)?;
+    let source = export::translated_source(&file.source, segments, protected)?;
     let signature = signature(file, &source);
     let cache_root = env::var_os("TRADUZ_XIMERA_CACHE")
         .map(PathBuf::from)

@@ -1,0 +1,608 @@
+[
+ {
+  "arquivo": "limitLaws/titlePage.tex",
+  "ordem": 0,
+  "hash": "db98e0085b201e7c02e9d7f433d0c4714b09c382a1ed4dfc8de64a2cfe9dfa65",
+  "traducao": "Leis dos limites{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "limitLaws/titlePage.tex",
+  "ordem": 1,
+  "hash": "8bc167ba335523cc0722852870e89a14ad8828047ae5decd6e970b00bcededda",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "limitLaws/titlePage.tex",
+  "ordem": 2,
+  "hash": "91cbe376fc558e55f1ff05619a940ec23ff41222ca22816c1822f89b0ad48aa2",
+  "traducao": " Calcular limites usando as leis dos limites.\n {{CMD_4}} Calcular limites substituindo uma função por uma função\n  contínua que tem o mesmo limite.\n{{CMD_5}} Compreender o teorema do confronto e como ele pode ser usado para determinar valores de limites.\n{{CMD_6}} Calcular limites usando o teorema do confronto.\n{{CMD_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "limitLaws/breakGround.tex",
+  "ordem": 0,
+  "hash": "05063780f061774a71b46ce2242981e72cc9d36e25583db01f6ba25d7ef71763",
+  "traducao": "Iguais ou não?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nAqui vemos um diálogo em que estudantes discutem como combinar limites com\noperações aritméticas.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "limitLaws/breakGround.tex",
+  "ordem": 1,
+  "hash": "0f2aac58fcb16f42a8b27f76b3396277671806c8ba40497491979af0a2346f9b",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma\nhistória real):"
+ },
+ {
+  "arquivo": "limitLaws/breakGround.tex",
+  "ordem": 2,
+  "hash": "dbe6b56921acb13326a5a8d461a2cb59c41abfce92840ad72ab4652d9f5ac57b",
+  "traducao": " Riley, eu andei pensando em limites.\n{{CMD_7}} Que demais!\n{{CMD_8}} Pense em\n  {{MATH_9}}\n  Esse é o número do qual {{MATH_10}} fica cada vez mais perto, à medida que {{MATH_11}} fica cada vez mais perto de {{MATH_12}}. \n{{CMD_13}} Pode apostar!\n{{CMD_14}} Então eu acho que isso é o mesmo que\n  {{MATH_15}}\n{{CMD_16}} É, isso faz sentido, porque quando você soma dois\n  números, digamos\n  {{MATH_17}}\n  você obtém\n  {{MATH_18}}\n{{CMD_19}} Isso! E eu acho que o mesmo raciocínio vai funcionar para a\n  multiplicação! Então deveríamos poder dizer que\n  {{MATH_20}}\n{{CMD_21}} Sim, acho que está certo! Mas e a\n  {{CMD_22}}divisão{{CMD_23}}? Podemos usar um raciocínio parecido para concluir que\n  {{MATH_24}}\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "limitLaws/breakGround.tex",
+  "ordem": 3,
+  "hash": "e48e408fc1aa082caa572a61a1562e598d2e045939f83040ba9a562cd46fddf3",
+  "traducao": "  Dê um argumento (semelhante ao anterior) que apoie a ideia de que\n  {{MATH_26}}\n  {{CMD_27}}\n  {{CMD_28}}\n{{CMD_29}}"
+ },
+ {
+  "arquivo": "limitLaws/breakGround.tex",
+  "ordem": 4,
+  "hash": "c5d83387bad4102573faeff6c899c1138d6dfd207e50bf360261bc747f93d275",
+  "traducao": "Nos próximos problemas, usamos {{MATH_30}} para representar números positivos grandes e {{MATH_31}} para representar\nvalores positivos pequenos, próximos de {{MATH_32}}."
+ },
+ {
+  "arquivo": "limitLaws/breakGround.tex",
+  "ordem": 5,
+  "hash": "6b2955e9df3059a0dc710492dd711baecfb20b5eaf3264139151bfd7f6ac1cd0",
+  "traducao": "  Usando o contexto acima, \n  {{MATH_33}}\n  {{CMD_34}}\n  {{CMD_35}}``grande''{{CMD_36}}\n  {{CMD_37}}``pequeno''{{CMD_38}}\n  {{CMD_39}}impossível dizer{{CMD_40}}\n  {{CMD_41}}\n{{CMD_42}}"
+ },
+ {
+  "arquivo": "limitLaws/breakGround.tex",
+  "ordem": 6,
+  "hash": "5ca40b5d50c5a373bf1a862fd629ae043e6e0643df3724a71e3adc315756f3a2",
+  "traducao": "  Usando o contexto acima, \n  {{MATH_43}}\n  {{CMD_44}}\n  {{CMD_45}}``grande''{{CMD_46}}\n  {{CMD_47}}``pequeno''{{CMD_48}}\n  {{CMD_49}}impossível dizer{{CMD_50}}\n  {{CMD_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 0,
+  "hash": "a49f1888c94e7fe11bcf616e3ec7da9f68a9f6032a99fb99541e8263856db90c",
+  "traducao": "As leis dos limites{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nApresentamos as leis básicas para trabalhar com limites.\n{{CMD_5}}\n{{CMD_6}}\nNa seção anterior, conseguimos calcular os limites"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 1,
+  "hash": "f134b08e149b102c57c67d72604e04b23d19373737cc2d9ca019181247a7a649",
+  "traducao": "usando a continuidade das funções {{MATH_7}}, {{MATH_8}} e {{MATH_9}} em\n{{MATH_10}}.  Isso significa que podemos calcular os limites\n{{ENV_11}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 2,
+  "hash": "a2e497e91d3bb2240471449e435fd411aee5ef2ae14455f81f079aaf3690e8b9",
+  "traducao": "Bem, não podemos usar a continuidade aqui, porque não sabemos se as\nfunções {{MATH_12}}, {{MATH_13}}, {{MATH_14}} e {{MATH_15}} são contínuas em {{MATH_16}}, e"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 3,
+  "hash": "866e5a2ea99b2d2f4f1f0ace3eda00d58813e54114c7aa9eb037e92d937f5763",
+  "traducao": " não temos nenhuma outra ferramenta disponível, já que gráficos e tabelas não são confiáveis. Evidentemente, precisamos de mais ferramentas para nos ajudar no cálculo de limites."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 4,
+  "hash": "65df86cf1e2abbabb1f6c44217816abf26690f0d52b1f242dacdc18b10701664",
+  "traducao": "Nesta seção, apresentamos um punhado de regras, chamadas {{CMD_17}}Leis dos Limites{{CMD_18}},\nque nos permitem determinar limites de várias combinações de funções."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 5,
+  "hash": "a910f046fd67db232f770476b46c5b08a6f2f1d03a8fa4e0d60883ad02ea5a02",
+  "traducao": "Suponha que {{MATH_19}} e {{MATH_20}}.\n{{CMD_21}}\n{{COMMENT_22}}\n{{CMD_23}} {{MATH_24}}.\n{{CMD_25}}  {{MATH_26}}.\n{{CMD_27}}  {{MATH_28}}, se\n  {{MATH_29}}.\n{{CMD_30}}\n{{CMD_31}}\n{{CMD_32}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 6,
+  "hash": "5a4b153edc2d49c6e1b5142a62bad9a0a8812713929daa139c66267983364c8f",
+  "traducao": "Em linguagem simples, ``o limite de uma soma é igual à soma dos limites'', ``o limite de um produto é igual ao produto dos limites'', etc."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 7,
+  "hash": "b4f744eeec6b3d78dc738ee3f720c1eaa546f06137cf518baac500451199f84d",
+  "traducao": "Vamos examinar como as Leis dos Limites podem ser usadas no cálculo de limites.\n{{COMMENT_33}}\n  {{COMMENT_34}}\n  {{COMMENT_35}}\n  {{COMMENT_36}}\n   {{COMMENT_37}}\n  {{COMMENT_38}}\n {{COMMENT_39}}\n {{COMMENT_40}}\n    {{COMMENT_41}}\n {{COMMENT_42}}\n{{COMMENT_43}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 8,
+  "hash": "e81cb0fb7c71da926428ac2641787de0ff0f6ef51b76f6f09d288a5b900b6d29",
+  "traducao": "  Calcule os limites a seguir usando as Leis dos Limites:\n  {{CMD_44}}\n  {{CMD_45}}{{CMD_46}} {{MATH_47}}\n  {{CMD_48}}{{CMD_49}} {{MATH_50}}\n  {{CMD_51}}{{CMD_52}} {{MATH_53}}\n  {{CMD_54}}{{CMD_55}} {{MATH_56}}\n  {{CMD_57}}\n  {{CMD_58}}\n    Para {{MATH_59}}, escreva:\n    {{ENV_60}}\n    Para {{MATH_61}}, escreva:\n    {{ENV_62}}\n    Para {{MATH_63}}, usando a Lei do Produto, podemos escrever:\n    {{MATH_64}}\n    {{ENV_65}}\n    Para {{MATH_66}}, escreva:\n    {{MATH_67}}\n    A função {{MATH_68}} é uma combinação das funções\n    {{MATH_69}} e {{MATH_70}}, mas não é uma soma/diferença, nem um\n    produto, nem um quociente dessas duas funções, de modo que não podemos aplicar\n    nenhuma das Leis dos Limites. Essa função é uma composição das duas\n    funções {{MATH_71}} e {{MATH_72}}.\n  {{CMD_73}}\n{{CMD_74}}\n{{CMD_75}}\n{{CMD_76}}\n{{CMD_77}}  Calcule o limite a seguir usando as leis dos limites:\n{{MATH_78}}\n{{CMD_79}}\n  Bem, pegue seu lápis e escreva comigo:\n  {{MATH_80}}\n  pela Lei da Soma/Diferença. Então, agora,\n  {{MATH_81}}\n  pela Lei do Produto. Finalmente, pela continuidade de {{MATH_82}} e {{MATH_83}},\n  {{MATH_84}}\n  {{CMD_85}}\n    Podemos verificar nossa resposta observando o gráfico de {{MATH_86}}:\n    {{MATH_87}}\n  {{CMD_88}}\n{{CMD_89}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 9,
+  "hash": "08e298c19261af3b69d7238f8e0529cab2c6c8463cb26b1b848fc844003b685f",
+  "traducao": " Use a definição de continuidade para determinar se a função polinomial  {{MATH_90}} é contínua em {{MATH_91}}.\n{{CMD_92}}\nVamos usar a lista de verificação da continuidade que foi mencionada logo abaixo da definição de continuidade."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 10,
+  "hash": "fb30b2eed12b6b4914263a77c151fb4b8ac4abb32f1b0afab9314f4f716018b0",
+  "traducao": "Começamos com o primeiro item da nossa lista de verificação da continuidade: {{MATH_93}} existe? Sabemos que {{MATH_94}}, então sim. {{MATH_95}} existe."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 11,
+  "hash": "9fdb479b5d56cbc887ddafbd8e89579255bd86e699ace7f16e79b453b14c1e0c",
+  "traducao": "O próximo item da nossa lista de verificação da continuidade pergunta se {{MATH_96}}.\nComo acabamos de calcular que {{MATH_97}},  sabemos que esse limite existe."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 12,
+  "hash": "df29634eaac616a7390ae9c136f57cd7ae54392763dd05164e766b53ddc34808",
+  "traducao": "O último item da nossa lista de verificação da continuidade pergunta se o valor que encontramos para {{MATH_98}} coincide com o valor que encontramos para {{MATH_99}}. Como ambos foram iguais a {{MATH_100}}, essa condição também é satisfeita."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 13,
+  "hash": "c7957cd602d7f490d70acd0a0e89157e856f8b607486f3d9a323cf2dcab3322d",
+  "traducao": "Portanto, a função polinomial {{MATH_101}} é contínua em {{MATH_102}}."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 14,
+  "hash": "b6fe3aa8a8eeec5694bcfba91f32542e305a7a28059debc4f508d9da7fede9c7",
+  "traducao": "Mas e quanto à continuidade em qualquer outro valor {{MATH_103}}? A função {{MATH_104}} é contínua em todo o seu domínio?"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 15,
+  "hash": "2379ba8c66c6baf09b8f1818dfb88ba1d86beee854d0c3bbee78f95148355e0e",
+  "traducao": "E quanto a qualquer outra função polinomial?"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 16,
+  "hash": "f28bad45d21ab834ec688d2ddc7f0229c41d61a409e4e1277afc9fe94b17a1c6",
+  "traducao": "Os polinômios são contínuos em seus domínios?\n{{CMD_105}}\n{{CMD_106}}\n{{CMD_107}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 17,
+  "hash": "869c6dc8b2b33392240dcd9815b3b0a58e8e86ef1c055dde01b530819fbe4214",
+  "traducao": "Podemos generalizar o exemplo acima para obter os teoremas a seguir."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 18,
+  "hash": "e8659c1c3d486c25187bc5ad8d1f43c6d9711cc402b0ae3508c19284ff350394",
+  "traducao": "Todas as funções polinomiais{{CMD_108}}, isto é, as funções da forma\n  {{MATH_109}}\n  em que {{MATH_110}} é um inteiro positivo  e cada coeficiente {{MATH_111}}, {{MATH_112}}, é um número real, são\n  {{CMD_113}}contínuas para todos os números reais{{CMD_114}}.\n  {{CMD_115}}\n  Para mostrar que qualquer polinômio, {{MATH_116}}, é contínuo em qualquer número real, {{MATH_117}}, temos que mostrar que\n  {{MATH_118}}\n  Escreva comigo:\n  {{MATH_119}}\n  Agora, pela Lei da Soma,\n  {{MATH_120}}\n  e, pela Lei do Produto,\n  {{ENV_121}}\n  e, pela continuidade,\n  {{MATH_122}}\n  E isso é igual a{{CMD_123}}\n  {{MATH_124}}\n  Como mostramos que {{MATH_125}}, mostramos\n  que {{MATH_126}} é contínua em {{MATH_127}}.\n{{CMD_128}}\n{{CMD_129}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 19,
+  "hash": "14e25a8672b0c939e532a16ef58f404cab061b5a1518d0b7ec4c58ec1d5ff625",
+  "traducao": "   Uma {{CMD_130}}função racional{{CMD_131}} h, isto é, uma função da forma\n  {{MATH_132}}\n  em que {{MATH_133}}e {{MATH_134}} são polinômios, é {{CMD_135}}contínua{{CMD_136}} para todos os números reais, exceto onde {{MATH_137}}.  Isto é,\n  as funções racionais são contínuas onde quer que estejam definidas.\n{{CMD_138}}\n      Seja {{MATH_139}} um número real tal que {{MATH_140}}.  Então, como\n      {{MATH_141}} é contínua em {{MATH_142}}, {{MATH_143}}.\n      Portanto, escreva comigo,\n      {{MATH_144}}\n      e agora, pela Lei do Quociente,\n      {{MATH_145}}\n      e, pela continuidade dos polinômios, podemos agora fazer {{MATH_146}}\n      {{MATH_147}}\n      Como mostramos que {{MATH_148}}, mostramos\n      que {{MATH_149}} é contínua em {{MATH_150}}.\n{{CMD_151}}\n{{CMD_152}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 20,
+  "hash": "49596fc78b3976f45770abdabbe31874b4d4cc6f327851c0f11768adc577da89",
+  "traducao": "  Onde {{MATH_153}} é contínua?\n  {{CMD_154}}\n  {{CMD_155}}\n    {{CMD_156}}para todos os números reais{{CMD_157}}\n    {{CMD_158}}em {{MATH_159}}{{CMD_160}}\n    {{CMD_161}}para todos os números reais, exceto {{MATH_162}}{{CMD_163}}\n    {{CMD_164}}impossível dizer{{CMD_165}}\n  {{CMD_166}}\n  {{CMD_167}}\n{{CMD_168}}\n{{CMD_169}}\n  Verdadeiro ou falso: se {{MATH_170}} e {{MATH_171}} são funções contínuas em um\n  intervalo {{MATH_172}}, então {{MATH_173}} é contínua em {{MATH_174}}.\n  {{CMD_175}}\n  {{CMD_176}}\n    {{CMD_177}}Verdadeiro{{CMD_178}}\n    {{CMD_179}}Falso{{CMD_180}}\n  {{CMD_181}}\n  {{CMD_182}}\n     Vamos supor que {{MATH_183}} é um intervalo aberto e que {{MATH_184}} é um número em {{MATH_185}}. Lembre-se de que, como {{MATH_186}} e {{MATH_187}} são ambas contínuas em {{MATH_188}}, ambas são contínuas em {{MATH_189}}.\n\n     Isso significa que {{MATH_190}} e {{MATH_191}}.\n\n      Agora, defina uma nova função, {{MATH_192}}, em que {{MATH_193}}, para todo {{MATH_194}} em {{MATH_195}}. Temos que mostrar que {{MATH_196}} é contínua em {{MATH_197}}, ou seja, que\n\n    {{MATH_198}}\n    Vamos começar com\n\n    {{MATH_199}}\n    e, portanto,\n\n     {{MATH_200}}\nProvamos que {{MATH_201}} é contínua em  qualquer número {{MATH_202}} em {{MATH_203}}. Portanto, {{MATH_204}} é contínua em {{MATH_205}}.\nDe modo semelhante, podemos provar que {{MATH_206}} é contínua em qualquer intervalo {{MATH_207}}, mostrando que ela é contínua à esquerda ou à direita nas extremidades.\nPodemos adaptar a demonstração para a função {{MATH_208}}.\n  {{CMD_209}}\n  {{CMD_210}}\n{{CMD_211}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 21,
+  "hash": "198ed2d5497ceb5ec9faf8046e888be5fb1b6287f0b1a3f9a8c6d6514b686c38",
+  "traducao": "  Verdadeiro ou falso: se {{MATH_212}} e {{MATH_213}} são funções contínuas em um\n  intervalo {{MATH_214}}, então {{MATH_215}} é contínua em {{MATH_216}}.\n  {{CMD_217}}\n  {{CMD_218}}\n    {{CMD_219}}Verdadeiro{{CMD_220}}\n    {{CMD_221}}Falso{{CMD_222}}\n  {{CMD_223}}\n  {{CMD_224}}\n    Nesse caso, {{MATH_225}} não será contínua nos valores de {{MATH_226}} em que {{MATH_227}}.\n  {{CMD_228}}\n  {{CMD_229}}\n{{CMD_230}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 22,
+  "hash": "2958f0d56dde78f9bf91c4a92a65d02da83ab5f96cd6a5f82b6048eff34f9370",
+  "traducao": "Ainda não sabemos como calcular o limite de uma composição de duas funções.\nNosso próximo teorema fornece regras básicas sobre como os limites interagem com a composição\nde funções."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 23,
+  "hash": "46db0fd265f1aa5848a1cdcd45499459bc3506ebe75da5211b5ef27053050d0e",
+  "traducao": "  Se {{MATH_231}} é contínua em {{MATH_232}}, então\n  {{MATH_233}}\n{{CMD_234}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 24,
+  "hash": "d99e727ca4232e41c62870a38b4c8ac22c78332a380e474f5274daaea0c25526",
+  "traducao": "Como o limite de uma função contínua é igual ao valor da função,\nagora podemos passar os limites para dentro de funções contínuas."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 25,
+  "hash": "f0eb4d7dbcd006a15800ef8c8d75775f5c4231a2dfb2f07695431e62e0cc6448",
+  "traducao": "Se {{MATH_235}} é contínua em {{MATH_236}} e se {{MATH_237}} é contínua em {{MATH_238}},  então {{MATH_239}} é contínua em {{MATH_240}}."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 26,
+  "hash": "72374fefa6be49f5c5458b61a654b547377e2d9e93b1685a3c303ebf6c205e26",
+  "traducao": "Usando a Lei do Limite da Composição, podemos calcular o último exemplo do início desta seção.\n{{CMD_241}}\n  Calcule o limite a seguir usando as leis dos limites:\n  {{MATH_242}}\n  {{CMD_243}}\n  Vamos usar a Lei do Limite da Composição.\nSeja\n {{MATH_244}}\n em que {{MATH_245}} e {{MATH_246}}.\n  Agora, a continuidade de {{MATH_247}} implica que {{MATH_248}}.\n    A continuidade de {{MATH_249}} implica que {{MATH_250}} é contínua em {{MATH_251}}.\n     Agora, a Lei do Limite da Composição implica que\n    {{MATH_252}}\n\n  {{CMD_253}}\n    Podemos confirmar nossos resultados conferindo o gráfico de {{MATH_254}}:\n    {{MATH_255}}\n  {{CMD_256}}\n  {{CMD_257}}\n{{CMD_258}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 27,
+  "hash": "595c7f9677d271b1c571844a6018ba9103c5fb94ff1e4ba5c7b296193bf8a412",
+  "traducao": "Muitas das Leis dos Limites e dos teoremas sobre continuidade desta seção\npodem parecer óbvios.  Você pode estar se perguntando por que\ndedicamos uma seção inteira a esses teoremas.  A resposta é que esses\nteoremas lhe dirão exatamente quando é fácil determinar o valor de um\nlimite, e exatamente o que fazer nesses casos."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 28,
+  "hash": "db4700ce5effd85f3d7211eee1e02038b86cb344cc72bdd3ec1e1175d81f53bc",
+  "traducao": "A coisa mais importante a aprender nesta seção é saber se as\nleis dos limites podem ser aplicadas a um determinado problema e quando precisamos\nfazer algo mais interessante.  Começaremos a discutir esses casos mais\ninteressantes na próxima seção.\n{{CMD_259}}Uma lista de perguntas{{CMD_260}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 29,
+  "hash": "3859d3ce9400e082154dbd304153f9cd1e9e7264ee1942edfad8eb45df835c17",
+  "traducao": "Vamos testar isso."
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 30,
+  "hash": "072d1aa41cbc9f4d53be9f033344ca433e6bda6b07fbe05f1bf57765097ccff5",
+  "traducao": "  Este limite pode ser calculado diretamente pelas leis dos limites?\n  {{MATH_261}}\n  {{CMD_262}}\n  {{CMD_263}}\n    {{CMD_264}}sim{{CMD_265}}\n    {{CMD_266}}não{{CMD_267}}\n  {{CMD_268}}\n  {{CMD_269}}\n    Calcule:\n    {{MATH_270}}\n    {{CMD_271}}\n      Como {{MATH_272}} é uma função racional e\n      o denominador não é igual a {{MATH_273}}, vemos que {{MATH_274}} é\n      contínua em {{MATH_275}}.  Assim, para determinar esse limite, basta\n      substituir {{MATH_276}} em {{MATH_277}}.\n    {{CMD_278}}\n  {{CMD_279}}\n  {{CMD_280}}\n{{CMD_281}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 31,
+  "hash": "c569187c90dc9e64fdf130d14bed42bcadb679315a6a63f28507e65d092d7180",
+  "traducao": "  Este limite pode ser calculado diretamente pelas leis dos limites?\n  {{MATH_282}}\n  {{CMD_283}}\n  {{CMD_284}}\n    {{CMD_285}}sim{{CMD_286}}\n    {{CMD_287}}não{{CMD_288}}\n  {{CMD_289}}\n  {{CMD_290}}\n    {{MATH_291}} é uma função racional, mas o\n    denominador {{MATH_292}} é igual a {{MATH_293}} quando {{MATH_294}}. Nenhum dos nossos\n    teoremas atuais trata da situação em que o denominador de uma fração\n    tende a {{MATH_295}}.\n  {{CMD_296}}\n  {{CMD_297}}\n{{CMD_298}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 32,
+  "hash": "efde2bfab69e93c47be13dd7e0c470443294ff53b0e6bdd16e38d9b86b2b6a44",
+  "traducao": "  Este limite pode ser calculado diretamente pelas leis dos limites?\n  {{MATH_299}}\n  {{CMD_300}}\n  {{CMD_301}}\n    {{CMD_302}}sim{{CMD_303}}\n    {{CMD_304}}não{{CMD_305}}\n  {{CMD_306}}\n  {{CMD_307}}\n    Se tentássemos usar as leis dos limites para calcular este limite, teríamos\n    primeiro que usar a Lei do Produto para dizer que\n    {{MATH_308}}\n    Só podemos usar essa lei se ambos os limites existirem, então\n    precisamos verificar isso primeiro.  Sabemos, pela continuidade, que\n    {{MATH_309}}\n    Entretanto, também sabemos que {{MATH_310}} oscila ``descontroladamente'' quando\n    {{MATH_311}} tende a {{MATH_312}}, e por isso o limite\n    {{MATH_313}}não existe.  Portanto, não podemos usar a\n    Lei do Produto.\n  {{CMD_314}}\n  {{CMD_315}}\n{{CMD_316}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 33,
+  "hash": "720d5b7cea6e55e6fb8dbc0fa6dbee48f03ab45d0a017c61909ec6e016b084fd",
+  "traducao": "  Este limite pode ser calculado diretamente pelas leis dos limites?\n  {{MATH_317}}\n  {{CMD_318}}\n  {{CMD_319}}\n    {{CMD_320}}sim{{CMD_321}}\n    {{CMD_322}}não{{CMD_323}}\n  {{CMD_324}}\n  {{CMD_325}}\n    Observe que\n    {{MATH_326}}\n    Se tentássemos usar as leis dos limites para calcular este limite, gostaríamos\n    de usar a Lei do Quociente para dizer que\n    {{MATH_327}}\n    Só podemos usar essa lei se ambos os limites existirem e o\n    denominador não for {{MATH_328}}. Suspeitamos que o limite do\n    denominador pode ser igual a {{MATH_329}}, então verificamos esse limite.\n    {{ENV_330}}\n  Isso significa que o denominador é zero e, portanto, não podemos usar a\n  Lei do Quociente.\n  {{CMD_331}}\n  {{CMD_332}}\n{{CMD_333}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 34,
+  "hash": "b5e12a8fbac5f30c80d7d81775f17a4c41850f84d55daaf085c2722e94a9507c",
+  "traducao": "  Este limite pode ser calculado diretamente pelas leis dos limites?\n  {{MATH_334}}\n  {{CMD_335}}\n  {{CMD_336}}\n    {{CMD_337}}sim{{CMD_338}}\n    {{CMD_339}}não{{CMD_340}}\n  {{CMD_341}}\n  {{CMD_342}}\n    Calcule:\n    {{MATH_343}}\n    {{CMD_344}}\n      Observe que\n      {{MATH_345}}\n      Se tentássemos usar as Leis dos Limites para calcular este limite,\n      teríamos agora que usar a Lei do Quociente para dizer que\n      {{MATH_346}}\n      Só podemos usar essa lei se ambos os limites existirem e o\n      denominador não for {{MATH_347}}.  Vamos verificar o denominador e o numerador\n      separadamente. Primeiro, calculamos o limite do denominador:\n      {{ENV_348}}\n      Portanto, o limite do denominador existe e não é\n      igual a {{MATH_349}}. Podemos usar a Lei do Quociente, então vamos calcular o limite do numerador:\n      {{MATH_350}}\n      Logo,\n      {{MATH_351}}\n    {{CMD_352}}\n  {{CMD_353}}\n  {{CMD_354}}\n{{CMD_355}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 35,
+  "hash": "2be3a91a7f18e0779373058b5ce9ca2c6e2c432e0d780959ee4d2336c4c1b771",
+  "traducao": "  Este limite pode ser calculado diretamente pelas leis dos limites?\n  {{MATH_356}}\n  {{CMD_357}}\n  {{CMD_358}}\n    {{CMD_359}}sim{{CMD_360}}\n    {{CMD_361}}não{{CMD_362}}\n  {{CMD_363}}\n  {{CMD_364}}\n    Se tentássemos usar as leis dos limites para calcular este limite, teríamos que usar a Lei do Produto para dizer que\n    {{MATH_365}}\n    Só podemos usar essa lei se ambos os limites existirem.  Vamos\n    verificar cada limite separadamente.\n    {{ENV_366}}\n   Logo, esse limite existe. Agora verificamos o outro fator.\n   Observe que\n   {{MATH_367}}\n   Se tentássemos usar as leis dos limites para calcular este limite, teríamos agora que usar a Lei do Quociente para dizer que\n   {{MATH_368}}\n   Só podemos usar essa lei se ambos os limites existirem e o\n   denominador não for igual a {{MATH_369}}.  O limite do numerador certamente\n   existe, então vamos verificar o limite do denominador.\n   {{ENV_370}}\n  Como o denominador é {{MATH_371}}, não podemos aplicar a Lei do Quociente.\n  {{CMD_372}}\n  {{CMD_373}}\n{{CMD_374}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 36,
+  "hash": "643627974879ca4ce1b7c9fabf3c2397c3ed30a783c78af5a73073f0495b2493",
+  "traducao": "  Este limite pode ser calculado diretamente pelas leis dos limites?\n  {{MATH_375}}\n  {{CMD_376}}\n  {{CMD_377}}\n    {{CMD_378}}sim{{CMD_379}}\n    {{CMD_380}}não{{CMD_381}}\n  {{CMD_382}}\n  {{CMD_383}}\n  Se tentássemos usar as leis dos limites para calcular este limite, teríamos\n  que usar a Lei do Produto para dizer que\n  {{MATH_384}}\n  Só podemos usar essa lei se ambos os limites existirem.  Sabemos que\n  {{MATH_385}}, mas e quanto a {{MATH_386}}?  Não\n  sabemos como determinar {{MATH_387}} usando as leis dos limites, porque {{MATH_388}}\n  não está no domínio de {{MATH_389}}.\n  {{CMD_390}}\n  {{CMD_391}}\n{{CMD_392}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 37,
+  "hash": "471c742457675bde1f5b26471b8478024485ff7b13ea7b3fc97037053d61cb83",
+  "traducao": "  Este limite pode ser calculado diretamente pelas leis dos limites?\n  {{MATH_393}}\n  {{CMD_394}}\n  {{CMD_395}}\n    {{CMD_396}}sim{{CMD_397}}\n    {{CMD_398}}não{{CMD_399}}\n  {{CMD_400}}\n  {{CMD_401}}\n    Calcule:\n    {{MATH_402}}\n    {{CMD_403}}\n      Se tentássemos usar as leis dos limites para calcular este limite,\n      teríamos que usar a Lei do Quociente para dizer que\n      {{MATH_404}}\n      Só podemos usar essa lei se ambos os limites existirem e o\n      denominador não for igual a {{MATH_405}}.  Vamos verificar cada limite\n      separadamente, começando pelo denominador\n      {{ENV_406}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 38,
+  "hash": "1027f61449043ffc2f1e51984fbf7a8e07ad9ab65c30c414ee85eb1bf3fc3fe2",
+  "traducao": "      Por outro lado, o limite do numerador é\n      {{ENV_407}}\n      Os limites do numerador e do denominador existem, e o\n      limite do denominador não é igual a {{MATH_408}}, então podemos usar a\n      Lei do Quociente.  Obtemos:\n      {{MATH_409}}\n    {{CMD_410}}\n  {{CMD_411}}\n  {{CMD_412}}\n{{CMD_413}}"
+ },
+ {
+  "arquivo": "limitLaws/digInLimitLaws.tex",
+  "ordem": 39,
+  "hash": "99655d1bfddbead590ef082cbd73298d50fee4952731af9436bd65e305d8cb07",
+  "traducao": "  Este limite pode ser calculado diretamente pelas leis dos limites?\n  {{MATH_414}}\n  {{CMD_415}}\n  {{CMD_416}}\n    {{CMD_417}}sim{{CMD_418}}\n    {{CMD_419}}não{{CMD_420}}\n  {{CMD_421}}\n  {{CMD_422}}\n  Não temos nenhuma lei dos limites para funções da forma {{MATH_423}}, então não conseguimos calcular este limite.\n  {{CMD_424}}\n  {{CMD_425}}\n{{CMD_426}}"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 0,
+  "hash": "abad54b9c6d7e58e8f0a8ffcf5cacf45800b7b349c853998b4f333283e811f6b",
+  "traducao": "O teorema do confronto{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nO teorema do confronto nos permite calcular o limite de uma função difícil ``espremendo-a'' entre duas funções fáceis.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 1,
+  "hash": "17798f08c1368719459f850e9574579438ac84a0be3e523180884569cfa54f31",
+  "traducao": "Em matemática, às vezes podemos estudar funções complicadas relacionando-as\na funções mais simples. O {{CMD_7}}teorema do confronto{{CMD_8}} nos mostra uma\nsituação em que isso é possível."
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 2,
+  "hash": "390c409dc19995ebeb51ba06ae0a83c90ae957b471c31355a3a951eb3544947b",
+  "traducao": "  Suponha que\n  {{MATH_9}}\n  para todo {{MATH_10}} próximo de {{MATH_11}}, mas não necessariamente igual a {{MATH_12}}. Se\n  {{MATH_13}}\n  então {{MATH_14}}.\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 3,
+  "hash": "c60e6dda30b95826d8c8d21938063bb21d98c9728a2306480363c53a84bd75d0",
+  "traducao": "Tenha cuidado com a notação ao usar o teorema do confronto{{CMD_16}}. Não existe uma ``desigualdade de três lados'' envolvendo valores de limites no teorema do confronto.\nPara usar o teorema do confronto, você calcula os limites das duas funções que estão nas extremidades da desigualdade. Se eles forem iguais, então você conhece\no limite da função que está no meio."
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 4,
+  "hash": "99eb0904d32fe52dce2c7b9ee2de218aa02d1ed05d2bfff90ceff15bc49811e7",
+  "traducao": "  Estou pensando em uma função {{MATH_17}}. Sei que, para todo {{MATH_18}},\n  {{MATH_19}}\n  Quanto vale {{MATH_20}}?\n  {{CMD_21}}\n  {{CMD_22}}\n    {{CMD_23}}{{MATH_24}}{{CMD_25}}\n    {{CMD_26}}{{MATH_27}}{{CMD_28}}\n    {{CMD_29}}{{MATH_30}}{{CMD_31}}\n    {{CMD_32}}impossível dizer{{CMD_33}}\n  {{CMD_34}}\n  {{CMD_35}}\n{{CMD_36}}"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 5,
+  "hash": "5c869155e088ee8669bab1c2d00ff29fcf7be829137404db583baf3e0bbe7f4e",
+  "traducao": "Uma função contínua {{MATH_37}} satisfaz a propriedade {{MATH_38}}.\nQuanto vale {{MATH_39}}?\n\t{{CMD_40}}\n\t\t{{MATH_41}}\n\t\t{{MATH_42}}\n\t\tEntão {{MATH_43}}\n\t{{CMD_44}}\n{{CMD_45}}"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 6,
+  "hash": "414ae0ec7ce0633a70b5c18cca054e44cf6705880123048744785c20d8e4f834",
+  "traducao": "Considere a função\n{{MATH_46}}\n{{CMD_47}}\n{{ENV_48}}\n{{COMMENT_49}}\n{{COMMENT_50}}\n{{COMMENT_51}}\n{{COMMENT_52}}\n{{COMMENT_53}}\n{{COMMENT_54}}\n{{COMMENT_55}}\n{{COMMENT_56}}\n{{COMMENT_57}}\n{{CMD_58}}\nEssa função é contínua em {{MATH_59}}?\n{{CMD_60}}\nDevemos mostrar que {{MATH_61}}. Primeiro, vamos supor que {{MATH_62}} e pequeno. Como\n{{MATH_63}}"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 7,
+  "hash": "9a9c918f14ffe4f96d44ee264475566a7d1e043eca88c1a278df24b76ba91ae4",
+  "traducao": "multiplicando essas desigualdades por {{MATH_64}}\n, obtemos\n{{MATH_65}}\no que pode ser escrito como"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 8,
+  "hash": "d3272bfe3e775a8750e838b538a7795a31b4c86710814125d2a7acb126e979e5",
+  "traducao": "e, portanto, como\n{{MATH_66}}\n{{COMMENT_67}}\n{{COMMENT_68}}"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 9,
+  "hash": "56e5c0d1c0d39f43bcdd28092ff5cf7a03fdb8981adde7216fc14a769b45fa93",
+  "traducao": "Agora, vamos supor que {{MATH_69}} e pequeno.\nComo\n{{MATH_70}}\nmultiplicando essas desigualdades por {{MATH_71}}\n, obtemos\n{{MATH_72}}                              {{COMMENT_73}}\no que pode ser escrito como\n{{MATH_74}}"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 10,
+  "hash": "f8fb795edf745118b461b26350532b2a10a5dd48c88767e3f9d1247e923381f5",
+  "traducao": "Lembre-se de que\n{{MATH_75}}\nPortanto, para todos os valores pequenos de x,\n{{MATH_76}}"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 11,
+  "hash": "d8cdf638e0842b3ef38b0a023ab84446c4828bfd031da82ae0932c55ef0b698a",
+  "traducao": "Como\n{{MATH_77}}\n aplicamos o teorema do confronto e obtemos que"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 12,
+  "hash": "4c715d5e1644daf0a837d58f312f96c0d816f588a01fc510f5e42d01fb29c03d",
+  "traducao": ". Logo, {{MATH_78}} é contínua."
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 13,
+  "hash": "9cd3f999daa99706465f6f05cc6c96cadf3f1aae5bcc96c1e1bb1332206eca95",
+  "traducao": "Aqui vemos como a definição informal de continuidade, segundo a qual você\nconsegue ``desenhar o gráfico'' sem ``tirar o lápis do papel'', difere da\ndefinição formal."
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 14,
+  "hash": "e2fa3949dc5cbfabd0830efe7e14ad5dbaacb47603c06b5aa5a4fd37af4932d7",
+  "traducao": "Calcule:\n{{MATH_79}}\n{{CMD_80}}\nPara calcular esse limite, use o teorema do confronto. Primeiro, observe que\nsó precisamos examinar {{MATH_81}}\ne, por enquanto, vamos supor que {{MATH_82}} é positivo. Considere\nos diagramas abaixo:"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 15,
+  "hash": "3ccd897597f3edc236a9e8f8ab25ecc3b00e59a09723140f71210c6eccea9152",
+  "traducao": "A partir dos diagramas acima, vemos que\n{{MATH_83}}\ne, calculando essas áreas, encontramos\n{{MATH_84}}\nMultiplicando tudo por {{MATH_85}} e lembrando que {{MATH_86}}, obtemos\n{{MATH_87}}\nDividindo tudo por {{MATH_88}} e tomando os recíprocos\n(o que inverte as desigualdades), encontramos\n{{MATH_89}}\nObserve que {{MATH_90}} e {{MATH_91}}, de modo que essas desigualdades valem para todo {{MATH_92}}.  Além disso, sabemos que\n{{MATH_93}}\ne assim concluímos, pelo teorema do confronto, que {{MATH_94}}.\n{{CMD_95}}\n{{CMD_96}}"
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 16,
+  "hash": "eaf4d35bf3dbe740f1c578149b9d8a0129e81034b5709817e928f08bfdea15ac",
+  "traducao": "Ao resolver um problema com o teorema do confronto, é preciso escrever uma espécie\nde poema matemático. Você tem que dizer ao seu amigável leitor exatamente\nquais funções está usando para ``espremer'' o seu limite."
+ },
+ {
+  "arquivo": "limitLaws/digInTheSqueezeTheorem.tex",
+  "ordem": 17,
+  "hash": "7c91731387886b334fbc44882cd7be7043a131add60889d54b922bbde1fbbd4b",
+  "traducao": "  Calcule:\n  {{MATH_97}}\n  {{CMD_98}}\n    Vamos traçar o gráfico dessa função para ver o que está acontecendo:\n    {{CMD_99}}\n      {{ENV_100}}\n    {{CMD_101}}\n  Observação: como\n    {{MATH_102}}\nsegue que\n  {{MATH_103}}\n\n  Essa observação é muito importante, pois a função {{MATH_104}} tem dois fatores:\n    {{CMD_105}}\n      {{ENV_106}}\n    {{CMD_107}}\n    Logo, temos que, quando {{MATH_108}},\n    {{MATH_109}}\n    e vemos que\n    {{MATH_110}}\n    e assim, pelo teorema do confronto,\n    {{MATH_111}}\n    De modo análogo, quando {{MATH_112}},\n    {{MATH_113}}\n    e assim\n    {{MATH_114}}\n    e, novamente pelo teorema do confronto, {{MATH_115}}. Logo, vemos que\n    {{MATH_116}}\n\n         {{CMD_117}}\n      {{ENV_118}}\n    {{CMD_119}}\n  {{CMD_120}}\n{{CMD_121}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/Q1SP17REDUX.tex",
+  "ordem": 0,
+  "hash": "2ac9dcd9963abaa961d8b1160cc09eb8ba1f8ca03c005c1cf486e6caecad6333",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}}. Escolha o gráfico de {{MATH_3}} e {{MATH_4}} esboçado e rotulado corretamente no intervalo {{MATH_5}}.\n{{CMD_6}}\n{{CMD_7}}{{ENV_8}}\n{{CMD_9}}\n{{CMD_10}}{{ENV_11}}\n{{CMD_12}}\n{{CMD_13}}{{ENV_14}}\n{{CMD_15}}\n{{CMD_16}}{{ENV_17}}\n{{CMD_18}}\n{{CMD_19}}\n{{CMD_20}}\nSeja {{MATH_21}} uma função definida em {{MATH_22}} tal que {{MATH_23}} para todo {{MATH_24}} com {{MATH_25}}, exceto possivelmente em {{MATH_26}}. Então\n{{MATH_27}}\n{{CMD_28}}{{CMD_29}}pelas leis dos limites{{CMD_30}}{{CMD_31}}pela continuidade{{CMD_32}}{{CMD_33}}pela lei da\n    diferença{{CMD_34}}{{CMD_35}}pela lei do quociente{{CMD_36}}{{CMD_37}}pelo teorema do confronto{{CMD_38}}{{CMD_39}}.\n{{CMD_40}}\nCalcule o limite.\n{{MATH_41}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/exerciseList.tex",
+  "ordem": 0,
+  "hash": "8568f934114c023b1ae930ec478bf3c617677eea66d84072c2f5dc255e63fd2c",
+  "traducao": "Lista de exercícios{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitFromTable2.tex",
+  "ordem": 0,
+  "hash": "119ddec2b3dce36c39e817d927ad229b1fed19fa7e843078f5ee31a3a78db2a9",
+  "traducao": "Complete a tabela a seguir.  Use valores {{CMD_1}}exatos{{CMD_2}}."
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitFromTable2.tex",
+  "ordem": 1,
+  "hash": "1ef037385e07436df012d3e44b778915d93d335535d159522142de1c82034e03",
+  "traducao": "Com base na tabela acima, faça uma conjectura sobre {{MATH_3}}.  Esse limite existe? Explique.\n{{COMMENT_4}}\n{{COMMENT_5}}\n{{COMMENT_6}}\n{{CMD_7}}\n{{CMD_8}}O limite parece existir e valer {{MATH_9}}.{{CMD_10}}\n{{CMD_11}}O limite parece existir e valer {{MATH_12}}.{{CMD_13}}\n{{CMD_14}}O limite parece existir e valer {{MATH_15}}.{{CMD_16}}\n{{CMD_17}}O limite parece não existir.{{CMD_18}}\n{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitFromTable2.tex",
+  "ordem": 2,
+  "hash": "8e6403af26d4b71bc59fc2776d10100eae245d97d65d70499b1e58d620d05270",
+  "traducao": "Complete a tabela a seguir usando valores {{CMD_21}}exatos{{CMD_22}}.\n{{MATH_23}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitFromTable2.tex",
+  "ordem": 3,
+  "hash": "9024442d80574b82ad490f8eb0ad6d29fc200810115c3b7ade034591fba2c8bd",
+  "traducao": "Com base na tabela acima, faça uma conjectura sobre {{MATH_24}}.  Esse limite existe?  Explique.\n{{COMMENT_25}}\n{{COMMENT_26}}\n{{COMMENT_27}}\n{{CMD_28}}\n{{CMD_29}}O limite parece existir e valer {{MATH_30}}.{{CMD_31}}\n{{CMD_32}}O limite parece existir e valer {{MATH_33}}.{{CMD_34}}\n{{CMD_35}}O limite parece existir e valer {{MATH_36}}.{{CMD_37}}\n{{CMD_38}}O limite parece não existir.{{CMD_39}}\n{{CMD_40}}\n{{CMD_41}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitFromTable2.tex",
+  "ordem": 4,
+  "hash": "3a0cdfb2c546019c7c73ba7fb4c49eaa4b2f1eb5ddb78992420602269b626cdc",
+  "traducao": "É possível usar a lei do produto para limites a fim de calcular {{MATH_42}}?\n{{CMD_43}}\n{{CMD_44}}Sim{{CMD_45}}\n{{CMD_46}}Não{{CMD_47}}\n{{CMD_48}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitFromTable2.tex",
+  "ordem": 5,
+  "hash": "50d1693602145521ca155a2d8b34e50c60e0055589589ccd4a475ea3ac80026a",
+  "traducao": "Explique por que é ou não é possível usar a lei do produto para limites para calcular o limite acima.\n{{COMMENT_49}}\n{{COMMENT_50}}\n{{COMMENT_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitFromTable2.tex",
+  "ordem": 6,
+  "hash": "0725f3edb8cecc6d536f1f96d30dc3f54875b4878437a03bd209093dfd2eace5",
+  "traducao": "Use o teorema do confronto para determinar {{MATH_53}} seguindo os passos abaixo.{{CMD_54}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitFromTable2.tex",
+  "ordem": 7,
+  "hash": "51cf15c966395c984a04c18f1b6e6dea2f8b317e18568e11abe0329a24f51c6a",
+  "traducao": "As desigualdades a seguir são verdadeiras para todo x.\n{{MATH_55}}\n{{CMD_56}}\n{{CMD_57}} Multiplique todos os lados por {{MATH_58}}.\n{{MATH_59}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitFromTable2.tex",
+  "ordem": 8,
+  "hash": "c17d77627a5f74e9ebff4b3d10c0f1aa7bca9c0efbffabc2f2c95f592a1a735a",
+  "traducao": " Como {{MATH_60}}, segue do teorema do confronto que{{CMD_61}}  {{MATH_62}}.\n{{CMD_63}}\n{{CMD_64}}\n{{CMD_65}}\n{{CMD_66}}\n{{CMD_67}}\n{{CMD_68}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitLaw2.tex",
+  "ordem": 0,
+  "hash": "60adb6398747563f91a5a09893e946acc463fb78d38485739683a62fbbccd27a",
+  "traducao": "\tA tentativa de um estudante de calcular o limite {{MATH_1}} usando as leis dos limites está registrada abaixo.  De uma linha para a seguinte, apenas uma lei dos limites deve ser utilizada.  Qual das alternativas a seguir descreve melhor o trabalho do estudante?\n\n\t{{ENV_2}}\n\n\t{{CMD_3}}\n\t\t{{CMD_4}}O desenvolvimento está totalmente correto.{{CMD_5}}\n\t\t{{CMD_6}}A resposta está correta, mas o estudante pulou alguns passos ou cometeu algum erro no caminho{{CMD_7}}\n\t\t{{CMD_8}}A resposta está incorreta{{CMD_9}}\n\t{{CMD_10}}\n\n\t{{CMD_11}}\n\t  Esse desenvolvimento está completamente correto.  Você deve ser capaz de\n          reproduzir uma sequência de passos como essa, mesmo sabendo\n          que, para funções polinomiais, basta\n          calcular o valor da função no ponto do limite para obter o limite\n          (isto é,{{CMD_12}}funções polinomiais são ``contínuas'').\n\t{{CMD_13}}\n\n{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitLaw4.tex",
+  "ordem": 0,
+  "hash": "f6670f7d5d550ebf349431e05fa48309e3d3e3a1898501e66d65d79a1ce6dac6",
+  "traducao": "\tAplique as leis dos limites passo a passo para calcular o limite: {{MATH_1}}."
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitLaw5.tex",
+  "ordem": 0,
+  "hash": "c78162a7e13a407fd9878c19bdf5e1be50e84dc838fdf12b2d2be9ff189fc9c9",
+  "traducao": "\t\tUse as leis dos limites para separar a função complicada em limites de funções mais simples. Comece com a lei da soma para limites.\n\t{{CMD_1}}\n\tSabendo que {{MATH_2}} e {{MATH_3}}, calcule o limite a seguir:\n\n\t{{MATH_4}}\n\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitLaw7.tex",
+  "ordem": 0,
+  "hash": "a6ac0faa223bef4b2352d5b8d6dc56ff9ee63580b8e165f025804e065063dfab",
+  "traducao": "Calcule os limites a seguir."
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitLaw9.tex",
+  "ordem": 0,
+  "hash": "f01b79f1c392329cfbfb66834799adebff8abe2b2db80605b2308fafc4d40af7",
+  "traducao": "\tSabendo que {{MATH_1}} e {{MATH_2}}, calcule o limite a seguir:\n\n\t{{CMD_3}}\n\t\tMultiplique o numerador e o denominador por {{MATH_4}}.\n\t{{CMD_5}}\n\n\t{{MATH_6}}\n\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitLaw9.tex",
+  "ordem": 1,
+  "hash": "576e6a1827049120b05fa506f73a613d8f7ab1cd06ee3e2168b1b04e3fcfc906",
+  "traducao": "\tSabendo que {{MATH_8}} e {{MATH_9}}, calcule o limite a seguir:\n\n\t{{CMD_10}}\n\t\tMultiplique {{MATH_11}} por {{MATH_12}}.\n\t{{CMD_13}}\n\n\t{{MATH_14}}\n\t{{CMD_15}}\n\t{{CMD_16}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitLaw9.tex",
+  "ordem": 2,
+  "hash": "0a421ba03785945bf9f9c0aeb74bdf2b9b534a12d813008521efbcb62af1dd50",
+  "traducao": "\tSabendo que {{MATH_17}} e {{MATH_18}}, calcule o limite a seguir:\n\n\t{{CMD_19}}\n\t\tUse o resultado do exercício anterior.\n\t{{CMD_20}}\n\n\t{{MATH_21}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitLaw9.tex",
+  "ordem": 3,
+  "hash": "bb33a6f170218044fa0a02623737902595c13189e41b2d5bbc34a34931bb2472",
+  "traducao": "\tSabendo que {{MATH_22}} e {{MATH_23}}, calcule o limite a seguir:\n\n\t{{MATH_24}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitOfCompositionOfFunctions1.tex",
+  "ordem": 0,
+  "hash": "3ad01b62a16ed7642fb796f06f94382f7427a09baa8e9b0a9bdaf621f11af6e1",
+  "traducao": "Calcule o limite e justifique sua resposta.{{CMD_1}}\n{{CMD_2}}\n{{CMD_3}}\n {{MATH_4}}\nJustificativa:{{CMD_5}}\nObserve que {{MATH_6}}, em que\n{{MATH_7}}\ne ambas as funções, {{MATH_8}} e {{MATH_9}},  são {{CMD_10}}{{CMD_11}}não contínuas{{CMD_12}}{{CMD_13}}contínuas{{CMD_14}}{{CMD_15}}  em {{MATH_16}}.{{CMD_17}}\nPortanto, podemos aplicar a lei\n{{CMD_18}}{{CMD_19}}da composição{{CMD_20}}{{CMD_21}}do produto{{CMD_22}}{{CMD_23}}  para limites\n {{MATH_24}}\nComo {{MATH_25}} é {{CMD_26}}{{CMD_27}}não contínua{{CMD_28}}{{CMD_29}}contínua{{CMD_30}}{{CMD_31}}  em {{MATH_32}}, temos\n {{MATH_33}}\ne, portanto,\n{{MATH_34}}\n{{CMD_35}}{{CMD_36}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitOfCompositionOfFunctions1.tex",
+  "ordem": 1,
+  "hash": "b14d5792483ea0120a5d13677bec6c2926a1805f18de39f4700b08faef0a40c5",
+  "traducao": "Justificativa:{{CMD_37}}\nObserve que {{MATH_38}}, em que\n{{MATH_39}}\ne ambas as funções, {{MATH_40}} e {{MATH_41}},  são {{CMD_42}}{{CMD_43}}não contínuas{{CMD_44}}{{CMD_45}}contínuas{{CMD_46}}{{CMD_47}}  em {{MATH_48}}.{{CMD_49}}\nPortanto, podemos aplicar a lei\n{{CMD_50}}{{CMD_51}}da composição{{CMD_52}}{{CMD_53}}do produto{{CMD_54}}{{CMD_55}}  para limites\n {{MATH_56}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitOfCompositionOfFunctions1.tex",
+  "ordem": 2,
+  "hash": "990fd01c11749ac321c24789f611bd7cbbbd05b4b007bef9bde505c11ec6afad",
+  "traducao": "Como {{MATH_57}} é {{CMD_58}}{{CMD_59}}não contínua{{CMD_60}}{{CMD_61}}contínua{{CMD_62}}{{CMD_63}}  em {{MATH_64}}, temos\n {{MATH_65}}\ne, portanto,\n{{MATH_66}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/limitOfCompositionOfFunctions1.tex",
+  "ordem": 3,
+  "hash": "53a941d49df25c676efaa24b417683c592eb3e3a0f0cdb7e329e784371a8eeae",
+  "traducao": "Justificativa: Observe que {{MATH_67}}, em que\n{{MATH_68}}\nA função {{MATH_69}} é {{CMD_70}}{{CMD_71}}não contínua{{CMD_72}}{{CMD_73}}contínua{{CMD_74}}{{CMD_75}}  em {{MATH_76}}.{{CMD_77}}\nA função {{MATH_78}} é  {{CMD_79}}{{CMD_80}}um produto{{CMD_81}}{{CMD_82}}uma soma{{CMD_83}}{{CMD_84}} de duas funções contínuas, {{MATH_85}} e {{MATH_86}}.\nPortanto, {{MATH_87}} é  {{CMD_88}}{{CMD_89}}não contínua{{CMD_90}}{{CMD_91}}contínua{{CMD_92}}{{CMD_93}} em seu domínio {{MATH_94}}.{{CMD_95}}\nLogo, podemos aplicar a lei\n{{CMD_96}}{{CMD_97}}da composição{{CMD_98}}{{CMD_99}}do produto{{CMD_100}}{{CMD_101}}  para limites\n {{MATH_102}}\nComo {{MATH_103}} é {{CMD_104}}{{CMD_105}}não contínua{{CMD_106}}{{CMD_107}}contínua{{CMD_108}}{{CMD_109}}  em {{MATH_110}}, temos\n {{MATH_111}}\ne, portanto,\n{{MATH_112}}\n{{CMD_113}}{{CMD_114}}\n{{CMD_115}}\n{{CMD_116}}\n{{CMD_117}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/squeezeTheorem1.tex",
+  "ordem": 0,
+  "hash": "cccee137f788b03259509193476dfb13bec375e46418e73cab807a52f253dc94",
+  "traducao": "Dada uma função {{MATH_1}} tal que, para todo {{MATH_2}},\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/squeezeTheorem1.tex",
+  "ordem": 1,
+  "hash": "fbae28e3bdf116b254537cfb6076e736a5a4f366216817fd2debfc45c1f30b3c",
+  "traducao": "Então {{MATH_4}}."
+ },
+ {
+  "arquivo": "limitLaws/exercises/squeezeTheorem1.tex",
+  "ordem": 2,
+  "hash": "5d27c04b44f69838c27758b66b963718d3c59af7d3cf4df48f0e3395c6daf078",
+  "traducao": "Use o teorema do confronto.\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/squeezeTheorem2.tex",
+  "ordem": 0,
+  "hash": "c13ba448ca8b6acb6cd324c6c15f31bd57af388c405fca75fe033277244a2617",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}}.\n{{CMD_3}}\n{{CMD_4}} Calcule os limites a seguir.{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}{{MATH_8}}{{CMD_9}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/squeezeTheorem2.tex",
+  "ordem": 1,
+  "hash": "42dc098f9f769c4832b6ecf361b642911cb6bb2fed787c6863056a72be55adda",
+  "traducao": " Encontre a expressão de {{MATH_10}}, se {{MATH_11}}.{{CMD_12}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/squeezeTheorem2.tex",
+  "ordem": 2,
+  "hash": "b0a545ee11d1db7557546810fc74107dd021bc215277faf1f55f66459d24ae84",
+  "traducao": ",  se {{MATH_13}}. {{CMD_14}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/squeezeTheorem2.tex",
+  "ordem": 3,
+  "hash": "b3692ae54570a99005ad4555f6767e92934fa554bfdb41723faf920babcae49a",
+  "traducao": "  Encontre a expressão de {{MATH_15}}, se {{MATH_16}}.{{CMD_17}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/squeezeTheorem2.tex",
+  "ordem": 4,
+  "hash": "fa6c4091d8e5c3ce854901387387c07a77c97e4ff71c7e69e073b21b7b622f23",
+  "traducao": ", se {{MATH_18}}.{{CMD_19}}"
+ },
+ {
+  "arquivo": "limitLaws/exercises/squeezeTheorem2.tex",
+  "ordem": 5,
+  "hash": "c47ec57988631bc33dc9cc5d00de5d4172020b83415dda42ef3a0cb8147fdcf7",
+  "traducao": " Faça a escolha correta. {{CMD_20}}\nA desigualdade dada,   {{MATH_21}},    é {{CMD_22}}{{CMD_23}}verdadeira{{CMD_24}}{{CMD_25}}falsa{{CMD_26}}{{CMD_27}} para todos os valores de {{MATH_28}}.{{CMD_29}}\n             {{COMMENT_30}}\n         {{COMMENT_31}}\n    {{COMMENT_32}}\n    {{COMMENT_33}}\n     {{COMMENT_34}}\n    {{COMMENT_35}}\n    {{COMMENT_36}}\n\n{{CMD_37}} Seja {{MATH_38}} uma função tal que {{MATH_39}} para todo {{MATH_40}}."
+ },
+ {
+  "arquivo": "limitLaws/exercises/squeezeTheorem2.tex",
+  "ordem": 6,
+  "hash": "c8df6a264c06e6aa48a54819587a058d4a999d42dfc5b8289d6d68a02cc35ef0",
+  "traducao": "Então {{MATH_41}}, {{CMD_42}}{{CMD_43}}pelas leis dos limites{{CMD_44}}{{CMD_45}}pela continuidade{{CMD_46}}{{CMD_47}}pela lei da\n    diferença{{CMD_48}}{{CMD_49}}pela lei do quociente{{CMD_50}}{{CMD_51}}pelo teorema do confronto{{CMD_52}}{{CMD_53}}."
+ }
+]

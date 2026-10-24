@@ -1,0 +1,596 @@
+[
+ {
+  "arquivo": "reviewOfFamousFunctions/titlePage.tex",
+  "ordem": 0,
+  "hash": "713dedbef7f65637e8314f67a1d325dbf1b4d46388e8f043da85921074145cbb",
+  "traducao": "Revisão de funções famosas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}} \n{{COMMENT_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/titlePage.tex",
+  "ordem": 1,
+  "hash": "8bc167ba335523cc0722852870e89a14ad8828047ae5decd6e970b00bcededda",
+  "traducao": "Ao concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/titlePage.tex",
+  "ordem": 2,
+  "hash": "3078e0bfa3a7b9bc9d454f30b766c2a3af976bd8a3035645f55152a22a85f27d",
+  "traducao": " Conhecer os gráficos e as propriedades das funções ``famosas''.\n\t{{CMD_7}} Conhecer e usar as propriedades das funções exponenciais e logarítmicas.\n\t{{CMD_8}} Compreender a relação entre funções exponenciais e logarítmicas.\n        {{CMD_9}} Compreender a definição de função racional.\n\t{{CMD_10}} Compreender as propriedades das funções trigonométricas.\n\t{{CMD_11}} Calcular expressões e resolver equações envolvendo\n          funções trigonométricas e funções trigonométricas inversas.\n{{CMD_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/breakGround.tex",
+  "ordem": 0,
+  "hash": "26d6aed8ea129c2c61a77a34ddac420efd0b324d24d1e55923fa94176d9ec891",
+  "traducao": "Quão maluco isso pode ficar?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Dois jovens matemáticos pensam sobre os gráficos de funções.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/breakGround.tex",
+  "ordem": 2,
+  "hash": "c9db8d1cc02024ac99ac88c573ec2eb5e2a8f50243dd802d8071d53c7caf45ea",
+  "traducao": " Riley, você lembra de quando começamos a traçar gráficos de\n  funções? Com uma ``tabela de valores''?\n{{CMD_7}} Eu lembro de tudo.\n{{CMD_8}} Era tão empolgante traçar gráficos! Eu ficava pensando:\n  ``Que curva maluca vai aparecer desta vez? Que figura maluca\n  eu vou ver?''\n{{CMD_9}} Depois aprendemos a forma reduzida da equação da\n  reta. A boa e velha\n  {{MATH_10}}\n{{CMD_11}} Sim, mas retas são muito sem graça. E os\n  polinômios? O que você conseguiria me dizer sobre\n  {{MATH_12}}\n  só de olhar para a equação?\n{{CMD_13}} Hmmmm. Não tenho certeza{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/breakGround.tex",
+  "ordem": 3,
+  "hash": "84d2a344e861a4a2e527d57eb79ad3bb73cc5d61526a0c6e620848ece4b73e74",
+  "traducao": "  Quando {{MATH_16}} é um número grande (bem longe de zero), qual termo de\n  {{MATH_17}} é o maior (mais distante de zero)?\n  {{CMD_18}}\n    {{CMD_19}}{{MATH_20}}{{CMD_21}}\n    {{CMD_22}}{{MATH_23}}{{CMD_24}}\n    {{CMD_25}}{{MATH_26}}{{CMD_27}}\n    {{CMD_28}}{{MATH_29}}{{CMD_30}}\n    {{CMD_31}}{{MATH_32}}{{CMD_33}}\n    {{CMD_34}}{{MATH_35}}{{CMD_36}}\n  {{CMD_37}}\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/breakGround.tex",
+  "ordem": 4,
+  "hash": "c7fef48ca1c2eb5689fd9c65b16c7bd406a196423982487f1a7122b58730ee8a",
+  "traducao": "  Quando {{MATH_39}} é um número pequeno (perto de zero), qual termo de\n  {{MATH_40}} é o maior (mais distante de zero)?\n  {{CMD_41}}\n    {{CMD_42}}{{MATH_43}}{{CMD_44}}\n    {{CMD_45}}{{MATH_46}}{{CMD_47}}\n    {{CMD_48}}{{MATH_49}}{{CMD_50}}\n    {{CMD_51}}{{MATH_52}}{{CMD_53}}\n    {{CMD_54}}{{MATH_55}}{{CMD_56}}\n    {{CMD_57}}{{MATH_58}}{{CMD_59}}\n  {{CMD_60}}\n{{CMD_61}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/breakGround.tex",
+  "ordem": 5,
+  "hash": "136e07ce12f3fe8a2184498d80e24de0b06ee329e33507c5e4e353ae8ab22f12",
+  "traducao": "  De modo bem aproximado, como é o gráfico de\n  {{MATH_62}}?\n  {{CMD_63}}\n    {{CMD_64}}O gráfico começa no canto inferior esquerdo e termina no canto superior\n      direito do plano.{{CMD_65}}\n    {{CMD_66}}O gráfico começa no canto inferior direito e termina no canto superior\n      esquerdo do plano.{{CMD_67}}\n    {{CMD_68}}O gráfico se parece com a letra ``U''.{{CMD_69}}\n    {{CMD_70}}O gráfico se parece com a letra ``U'' de cabeça para baixo.{{CMD_71}}\n  {{CMD_72}}\n{{CMD_73}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 0,
+  "hash": "ca1ca1f494a343bcf1e4c9ea2500811cdcb22037986ba071377bc472e63da829",
+  "traducao": "Funções polinomiais{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Os polinômios estão entre as nossas funções favoritas. \n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 1,
+  "hash": "59273dc477230f0105a78fea9cd005511c42f0576089337fd791f8f87d32f37f",
+  "traducao": "As funções com que você tem mais familiaridade provavelmente são as funções\npolinomiais."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 2,
+  "hash": "0f7bfd1f84a137f26db6ac72d2872b1d18ca4abe9142994bf7938917bcae4e8c",
+  "traducao": "O que são funções polinomiais?{{CMD_7}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 3,
+  "hash": "72aa3194ce31666bc833a20031d1906daa8d1bba4b0dc48c4cacdfa1cf57efa1",
+  "traducao": "  Uma {{CMD_8}} na variável {{MATH_9}} é uma função\n  {{CMD_10}}que pode ser escrita{{CMD_11}} na forma\n  {{MATH_12}}\n  em que os {{MATH_13}} são todos constantes (chamados de {{CMD_14}})\n  e {{MATH_15}} é um número natural (chamado de {{CMD_16}} quando {{MATH_17}}). O domínio de uma função polinomial é {{MATH_18}}.\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 4,
+  "hash": "e88a86ebc0785b50fddc8982eac2db04ed89adfa42495d8f3f5d3eb17bf837d1",
+  "traducao": "Isso significa que a função {{MATH_20}} é um polinômio de grau {{MATH_21}}, com {{MATH_22}} e {{MATH_23}}. A função {{MATH_24}} é um polinômio com {{MATH_25}} e {{MATH_26}}. Do mesmo modo, toda função constante é uma função polinomial. No entanto, {{MATH_27}} não é um polinômio, pois o expoente {{MATH_28}} não é um número natural.\n\t\n{{CMD_29}}\n  Quais das funções a seguir são funções polinomiais?\n  {{CMD_30}}\n    {{CMD_31}}{{MATH_32}}{{CMD_33}}\n    {{CMD_34}}{{MATH_35}}{{CMD_36}}\n    {{CMD_37}}{{MATH_38}}{{CMD_39}}\n    {{CMD_40}}{{MATH_41}}{{CMD_42}}\n    {{CMD_43}}{{MATH_44}}{{CMD_45}}\n    {{CMD_46}}{{MATH_47}}{{CMD_48}}\n    {{CMD_49}}{{MATH_50}}{{CMD_51}}\n    {{CMD_52}}{{MATH_53}}{{CMD_54}}\n  {{CMD_55}}\n{{CMD_56}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 5,
+  "hash": "f6c2872f5f625574b3cfeade386cb3f33204b5d861a63dc1efdae8a100268699",
+  "traducao": "A expressão acima, ``na variável {{MATH_57}}'', pode na verdade mudar.\n{{MATH_58}}\né um polinômio em {{MATH_59}}, e\n{{MATH_60}}\né um polinômio em {{MATH_61}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 6,
+  "hash": "cbc8ddbb9a51e7b23da6dfa1589b874f85271ba9ed0a2b75290bd44c7de15c98",
+  "traducao": "Como podem ser os gráficos?{{CMD_62}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 7,
+  "hash": "b6b7646ca55a68aeb14c20462485564038ef6a38d4069e42c785701a69f1557a",
+  "traducao": "Curiosidade:"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 8,
+  "hash": "1e836c5b303ee9ca4b2214c33e4f1940a469ac7f1da360df66f03f840645b354",
+  "traducao": "  Todo polinômio da forma\n  {{MATH_63}}\n  em que os {{MATH_64}} são números reais (ou até complexos!) e {{MATH_65}} tem exatamente\n  {{MATH_66}} raízes complexas (possivelmente repetidas).\n{{CMD_67}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 9,
+  "hash": "fc5cabfa357e42f4c96c6ffec469a6181cd84e1485fe837a3639a027c2bc7efd",
+  "traducao": "Lembre-se: uma {{CMD_68}} é um ponto em que o polinômio se anula. O teorema\nacima é um fato profundo da matemática. O grande matemático Gauss\n{{COMMENT_69}}\ndemonstrou o teorema em 1799, em sua tese de doutorado."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 10,
+  "hash": "1a0769516c57213e451fb7a9e41892ac40384d81585fe9fbc4ac204e1315d553",
+  "traducao": "Para nós, a consequência disso é que, quando traçamos o gráfico de um\npolinômio de grau {{MATH_70}}, ele cruza o eixo {{MATH_71}} {{CMD_72}}no máximo{{CMD_73}}\n{{MATH_74}} vezes. Cada cruzamento corresponde a uma raiz real desse polinômio.  (Raízes complexas não produzem cruzamentos!)"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 11,
+  "hash": "e7316a07493ec6ed88adad09e929ae2ff0c4dbf2624adaf100fcbe6874d5cf67",
+  "traducao": "\tEsboce um gráfico aproximado da função {{MATH_75}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 12,
+  "hash": "5bda9109fa27dfaa600e2d4a3775dfa081f878aa21621c7433b9a51d12a8f2f1",
+  "traducao": "\t\tRecebemos {{MATH_76}} na forma fatorada, então reconhecemos que {{MATH_77}} é um zero de multiplicidade {{MATH_78}} e {{MATH_79}} é um zero de multiplicidade {{MATH_80}}.\n\t\tIsso significa que nosso gráfico terá interceptos com o eixo {{MATH_81}} nesses pontos.\n\t\t\n\t\tNesses interceptos com o eixo {{MATH_82}}, o gráfico vai atravessar o eixo {{MATH_83}} como uma reta faz, ou vai tocar o eixo e dar meia-volta,\n\t\tcomo uma parábola faz em seu vértice?  Para responder a isso, observe um quadro de sinais de {{MATH_84}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 13,
+  "hash": "659dba4cd89b8011a7d43c1d415d4fe9ab98c11d1cf896201379d2594c6168f9",
+  "traducao": "\t\t\n\t\tObserve que, em torno de {{MATH_85}}, apenas o fator {{MATH_86}} muda de sinal.  Isso significa que {{MATH_87}} vai mudar de sinal, então o gráfico atravessa o eixo {{MATH_88}} em {{MATH_89}}.\n\t\tEm {{MATH_90}}, porém, o fator {{MATH_91}} NÃO muda de sinal (por causa do expoente par).  Isso significa que {{MATH_92}} vai dar meia-volta nesse intercepto com o eixo {{MATH_93}}.  \n\t\tObservamos também que, para {{MATH_94}} no intervalo {{MATH_95}}, a função {{MATH_96}} é negativa e, para {{MATH_97}} em {{MATH_98}}, a função {{MATH_99}} é positiva.\n\t\t(Como {{MATH_100}} é um polinômio de grau ímpar, suas `pontas' vão em direções opostas.) Juntando tudo isso, obtemos o gráfico a seguir.\n\t\t\n\t\t{{CMD_101}}\n\t\t{{ENV_102}}\n\t\t{{CMD_103}}\n\t{{CMD_104}}\n{{CMD_105}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInPolynomialFunctions.tex",
+  "ordem": 14,
+  "hash": "b24b290d049fa2bf1beabdc5a364620b3f8d5f6a7c127aa4c793d8051278db37",
+  "traducao": "  Aqui vemos os gráficos de quatro funções polinomiais.\n  {{CMD_106}}\n    {{ENV_107}}\n  {{CMD_108}}\n  Para cada uma das curvas, determine se o polinômio tem grau\n  {{CMD_109}}par{{CMD_110}} ou {{CMD_111}}ímpar{{CMD_112}}, e se o coeficiente líder\n  (aquele que acompanha a maior potência de {{MATH_113}}) do polinômio é\n  {{CMD_114}}positivo{{CMD_115}} ou {{CMD_116}}negativo{{CMD_117}}.\n  {{CMD_118}}{{CMD_119}}\n    {{CMD_120}}\n    {{CMD_121}} A curva {{MATH_122}} é definida por um\n      polinômio de grau {{CMD_123}}{{CMD_124}}par{{CMD_125}}{{CMD_126}}ímpar{{CMD_127}}{{CMD_128}}\n      com termo líder {{CMD_129}}{{CMD_130}}positivo{{CMD_131}}{{CMD_132}}negativo{{CMD_133}}{{CMD_134}}.\n    {{CMD_135}} A curva {{MATH_136}} é definida por um\n      polinômio de grau {{CMD_137}}{{CMD_138}}par{{CMD_139}}{{CMD_140}}ímpar{{CMD_141}}{{CMD_142}}\n      com termo líder\n      {{CMD_143}}{{CMD_144}}positivo{{CMD_145}}{{CMD_146}}negativo{{CMD_147}}{{CMD_148}}.\n    {{CMD_149}} A curva {{MATH_150}} é definida por um\n      polinômio de grau {{CMD_151}}{{CMD_152}}par{{CMD_153}}{{CMD_154}}ímpar{{CMD_155}}{{CMD_156}}\n      com termo líder {{CMD_157}}{{CMD_158}}positivo{{CMD_159}}{{CMD_160}}negativo{{CMD_161}}{{CMD_162}}.\n    {{CMD_163}} A curva {{MATH_164}} é definida por um\n      polinômio de grau {{CMD_165}}{{CMD_166}}par{{CMD_167}}{{CMD_168}}ímpar{{CMD_169}}{{CMD_170}}\n      com termo líder {{CMD_171}}{{CMD_172}}positivo{{CMD_173}}{{CMD_174}}negativo{{CMD_175}}{{CMD_176}}.\n    {{CMD_177}}\n  {{CMD_178}}\n{{CMD_179}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 0,
+  "hash": "a6a430dff4b92e9dce088027f16fe6b3844588fe4fe9775632c9a1a9be4e9965",
+  "traducao": "Funções racionais{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Funções racionais são funções definidas por frações de\n  polinômios.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 1,
+  "hash": "0197a34ef9d15bcdaa10ca618f67ef017d85cd1b7132d792029a249029837653",
+  "traducao": "O que são funções racionais?{{CMD_7}}\nNa álgebra e no cálculo, os polinômios desempenham o mesmo papel que os inteiros desempenham na aritmética.  Nós os somamos, subtraímos, multiplicamos e fatoramos.  Não podemos\ndividi-los, porém, se só admitirmos resultados inteiros.  (Como {{MATH_8}} não é um fator de {{MATH_9}}, o quociente {{MATH_10}} não é um inteiro.)  Se quisermos ser capazes de\ndividir inteiros, acabamos chegando aos {{CMD_11}}números racionais{{CMD_12}}, que são frações {{MATH_13}} em que {{MATH_14}} e {{MATH_15}} são inteiros e {{MATH_16}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 2,
+  "hash": "10040f5d09c248b11d4da6d15c6f059e892a9b1382da50f7d79155743b4a0542",
+  "traducao": "A mesma ideia vale para os polinômios.  Podemos somá-los, subtraí-los, multiplicá-los e fatorá-los.  No entanto, para dividi-los precisamos começar a\nconsiderar as funções racionais."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 3,
+  "hash": "51f71f734733143027961aefa61d097cff5b127a3f37af003a4a1b34626805e1",
+  "traducao": "  Uma {{CMD_17}} na variável {{MATH_18}} é uma função {{CMD_19}}que pode ser escrita{{CMD_20}} na forma\n  {{MATH_21}}\n  em que {{MATH_22}} e {{MATH_23}} são funções polinomiais. O domínio de uma função\n  racional é o conjunto de todos os números reais, exceto aqueles em que o denominador é\n  igual a zero.\n{{CMD_24}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 4,
+  "hash": "2d1ff9852807229f68ae40f2633cb719d5c9a5d31478cb1e9c036da201f6c7dd",
+  "traducao": "Se {{MATH_25}} é uma função polinomial, então ela pode ser escrita na forma {{MATH_26}}, o que mostra que toda função polinomial é\ntambém uma função racional. Como uma função racional só tem zeros onde o polinômio do numerador tem zeros\n(desde que a fração esteja escrita na forma irredutível), funções como {{MATH_27}}, que têm infinitos zeros, não podem ser funções racionais."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 5,
+  "hash": "b94f2ffa9c906809099acf16fd60c77dcfe98845261788188f728e075e893ef6",
+  "traducao": "  Quais das alternativas a seguir são funções racionais?\n  {{CMD_28}}\n    {{CMD_29}}{{MATH_30}}{{CMD_31}}\n    {{CMD_32}}{{MATH_33}}{{CMD_34}}\n    {{CMD_35}}{{MATH_36}}{{CMD_37}}\n    {{CMD_38}}{{MATH_39}}{{CMD_40}}\n    {{CMD_41}}{{MATH_42}}{{CMD_43}}\n    {{CMD_44}}{{MATH_45}}{{CMD_46}}\n    {{CMD_47}}{{MATH_48}}{{CMD_49}}\n  {{CMD_50}}\n  {{CMD_51}}\n    Todos os polinômios podem ser vistos como funções racionais.\n  {{CMD_52}}\n{{CMD_53}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 6,
+  "hash": "6e81098091b40d54853a891d1bedccc37f687937b2976c72580bbe72cd6b7e00",
+  "traducao": "Como podem ser os gráficos?{{CMD_54}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 7,
+  "hash": "2187283ab1e1b83959d98ffc05a5d6fe1e6cf5d8d6082eec49bea10f9f9bff4e",
+  "traducao": "Há uma variedade razoavelmente grande nos gráficos das funções\nracionais."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 8,
+  "hash": "b6a92842c550feea9fa6b1b2e33f5854450969eaf42ef152448d2019b84f3fc9",
+  "traducao": "    Aqui vemos os gráficos de quatro funções racionais.\n{{CMD_55}}\n  {{ENV_56}}\n{{CMD_57}}\nAssocie as curvas {{MATH_58}}, {{MATH_59}}, {{MATH_60}} e {{MATH_61}} às funções\n  {{ENV_62}}\n{{CMD_63}}\n  Considere {{MATH_64}}. Essa função não está definida apenas em\n  {{MATH_65}}. Entre as curvas que vemos acima, {{MATH_66}} é a que\n  não está definida exatamente em {{MATH_67}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 9,
+  "hash": "8c0b40e332a6cff9ab4e768067a5dcec426117478321c36291c297ab784f4a98",
+  "traducao": "  Agora considere {{MATH_68}}. Essa função não está definida apenas\n  em {{MATH_69}}. A única função acima que não está definida exatamente em {{MATH_70}}\n  é a curva {{MATH_71}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 10,
+  "hash": "ede122a52b5a050c3b2e84162abd5001a7c1b496b5b57904bedc1fbb39bb5262",
+  "traducao": "  Agora considere {{MATH_72}}. Essa função não está definida nas\n  raízes de\n  {{MATH_73}}\n  Logo, ela não está definida em {{MATH_74}} e em {{MATH_75}}. Parece que tanto a curva\n  {{MATH_76}} quanto a curva {{MATH_77}} serviriam. Distinguir entre essas duas curvas é\n  bem fácil se calcularmos o valor da função em {{MATH_78}}. Confira.\n  {{ENV_79}}\n  Como esse valor é negativo, vemos que {{MATH_80}}\n  corresponde à curva {{MATH_81}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInRationalFunctions.tex",
+  "ordem": 11,
+  "hash": "e944e38e15e35086a852599dad8893e5ba05cb52642377e5c4040a9a563b8c75",
+  "traducao": "  Finalmente, só pode ser que a curva {{MATH_82}}\n  corresponda a {{MATH_83}}. Vale observar que, se essa\n  função for calculada em {{MATH_84}}, a saída é zero, e isso\n  confirma o nosso trabalho acima.\n{{CMD_85}}\n{{CMD_86}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 0,
+  "hash": "0807bc8a38e4a972cec3bfe36e8309129a6bece7135d869c7094d2ada20adc37",
+  "traducao": "Funções trigonométricas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Revisamos as funções trigonométricas.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 1,
+  "hash": "87a0f3a52972c1b52eadefd99ccc5e76c00e0bf8575d9cdafeb3fe3582722019",
+  "traducao": "O que são funções trigonométricas?{{CMD_7}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 2,
+  "hash": "401af6ab20023b5bd86bafc228900c839454098de5198b022704355f57a75e51",
+  "traducao": "  Uma {{CMD_8}} é uma função que relaciona a medida\n  de um ângulo de um triângulo retângulo a uma razão entre os lados do triângulo.\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 3,
+  "hash": "9dfdc702a1b40bcdb73953cd5223b06e66da28d614a89eaeae9d12b5fa16e102",
+  "traducao": "As funções trigonométricas básicas são o cosseno e o seno. Elas são chamadas\n``trigonométricas'' porque relacionam medidas de ângulos a\nmedidas de triângulos. Dado um triângulo retângulo\n{{CMD_10}}\n  {{ENV_11}}\n{{CMD_12}}\ndefinimos\n{{MATH_13}}\nObserve que os valores de seno e cosseno não dependem da escala do\ntriângulo. Sendo bem explícitos, se ampliarmos ou reduzirmos um triângulo por um fator\nde escala {{MATH_14}},"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 4,
+  "hash": "3b5bc64c74a9d1c7e913268ffbd41fc371732f43eb00d4822aeddf3e32c35003",
+  "traducao": "e\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 5,
+  "hash": "230e3ca0ecfaf36fa2531ccfe9e395f29292673723e77073e51de6d2568b1290",
+  "traducao": "A esta altura, poderíamos simplesmente supor que, sempre que desenharmos um triângulo\npara calcular seno e cosseno, a hipotenusa será {{MATH_16}}. Podemos\nfazer isso porque estamos apenas mudando a escala do triângulo e, como vimos\nacima, isso não faz absolutamente nenhuma diferença no cálculo de seno e\ncosseno. Logo, quando a hipotenusa é {{MATH_17}}, descobrimos que uma maneira conveniente\nde pensar em seno e cosseno é por meio do círculo unitário:\n{{CMD_18}}\n{{ENV_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 6,
+  "hash": "b3c546975d5898a11e8784a2fc981fd023db21992bafe9b2cf91d778aa4af206",
+  "traducao": "Se considerarmos todas as combinações possíveis de razões entre\n{{CMD_21}}\n  cateto adjacente, {{CMD_22}} cateto oposto, {{CMD_23}} hipotenusa,\n{{CMD_24}}\n(permitindo que o cateto adjacente e o cateto oposto sejam negativos, como no círculo\nunitário), obtemos todas as funções trigonométricas."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 7,
+  "hash": "f002615e462e43bff04b12ab53608b3202da3bd1d0dbf4263774aacfaaf38711",
+  "traducao": "  As funções trigonométricas{{CMD_25}} são:\n  {{MATH_26}}\n  em que o domínio de seno e cosseno é o conjunto de todos os números reais, e as\n  outras funções trigonométricas estão definidas precisamente quando seus\n  denominadores são diferentes de zero.\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 8,
+  "hash": "d3489b27726142a65a9b04cbf241b887d42002a821414ddc4f6ca81be0e73466",
+  "traducao": "  Quais das expressões a seguir são iguais a {{MATH_28}}?\n  {{CMD_29}}\n    {{CMD_30}}{{MATH_31}}{{CMD_32}}\n    {{CMD_33}}{{MATH_34}}{{CMD_35}}\n    {{CMD_36}}{{MATH_37}}{{CMD_38}}\n    {{CMD_39}}{{MATH_40}}{{CMD_41}}\n    {{CMD_42}}{{MATH_43}}{{CMD_44}}\n    {{CMD_45}}{{MATH_46}}{{CMD_47}}\n  {{CMD_48}}\n  {{CMD_49}}\n    Observe que {{MATH_50}} e que\n    {{MATH_51}}, pois\n    elas diferem quando {{MATH_52}}.\n  {{CMD_53}}\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 9,
+  "hash": "c6276b558912aabdab9c1da02dc24928f99c0ae52f01afeba935535254b77e0b",
+  "traducao": "Nem todos os ângulos vêm de triângulos.{{CMD_55}}\nDado um triângulo retângulo como\n{{CMD_56}}\n  {{ENV_57}}\n{{CMD_58}}\no ângulo {{MATH_59}} não pode ser negativo e não pode ultrapassar {{MATH_60}} radianos.  Isso significa que, para falar das funções trigonométricas de {{CMD_61}}outros{{CMD_62}} ângulos, precisamos ser capazes\nde descrever as funções trigonométricas de um modo um pouco mais geral.  Para isso, usamos o círculo unitário da seção anterior.  Dado um ângulo {{MATH_63}},\nconstruímos o ângulo com lado inicial sobre o semieixo {{MATH_64}} positivo e vértice na origem."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 10,
+  "hash": "803ea2c580b575485dbd17b48f90a56ebed52f6ff097dbb23251d70d504aaa07",
+  "traducao": "À medida que o ângulo {{MATH_65}} cresce cada vez mais, o lado terminal desse ângulo gira em torno do círculo.\nAs funções trigonométricas do ângulo {{MATH_66}} são definidas em termos do lado terminal.\n{{CMD_67}}\n\tSuponha que {{MATH_68}} seja o ponto em que o lado terminal do ângulo de medida {{MATH_69}} intersecta o círculo unitário.\n\tEntão as funções trigonométricas são definidas por\n\t{{MATH_70}}\n\tdesde que esses valores existam.\n{{CMD_71}}\nPela figura, você vê que isso concorda com o que você já sabe sobre a trigonometria dos triângulos, mas nos permite estender a definição de seno e cosseno a\ntodos os números reais, em vez de apenas ao intervalo {{MATH_72}}\n\n{{CMD_73}}Conexões com funções inversas{{CMD_74}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 11,
+  "hash": "95c311d6fb1a4a3146e7410a41511608980e2df9af0cca7e98bcc0c1ba4cd32e",
+  "traducao": "As funções trigonométricas aparecem com frequência em problemas, e muitas vezes estamos\ninteressados em encontrar medidas específicas de ângulos.  Por exemplo, você pode\nquerer encontrar algum ângulo {{MATH_75}} tal que\n{{MATH_76}}\nLogo, queremos ser capazes de ``desfazer'' as funções trigonométricas. No entanto, como\nas funções trigonométricas não são injetoras, ou seja, há\ninfinitos ângulos com {{MATH_77}}, é impossível\nencontrar uma verdadeira função inversa para {{MATH_78}}. Mesmo assim, é\nútil ter algo parecido com uma inversa dessas funções, por mais\nimperfeita que seja. A abordagem usual é escolher uma coleção de ângulos\nque produza todos os valores possíveis exatamente uma vez. Se ``descartarmos'' todos\nos outros ângulos, a função resultante tem uma inversa de verdade.  Em outras\npalavras, estamos restringindo o domínio da função trigonométrica para\npoder encontrar uma inversa.  A função {{MATH_79}} assume todos os\nvalores entre {{MATH_80}} e {{MATH_81}} exatamente uma vez no intervalo {{MATH_82}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 12,
+  "hash": "9e42de3a25e2733d9c7c1ceeca511b08005be7fe858b400fe9cf43d6e573cf40",
+  "traducao": "Se restringirmos o domínio de {{MATH_83}} a esse intervalo, então essa\nfunção restrita é injetora e, portanto, tem uma inversa."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 13,
+  "hash": "3f73b2845151161f3b03fcf59f79cfe5136b9f9d428f1f596d0c38a19a7c870b",
+  "traducao": "  Qual arco do círculo unitário corresponde ao domínio restrito\n  de {{MATH_84}} descrito acima?\n  {{CMD_85}}\n    {{CMD_86}}{{ENV_87}}{{CMD_88}}\n    {{CMD_89}}{{ENV_90}}{{CMD_91}}\n    {{CMD_92}}{{ENV_93}}{{CMD_94}}\n    {{CMD_95}}{{ENV_96}}{{CMD_97}}\n  {{CMD_98}}\n{{CMD_99}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 14,
+  "hash": "641a518eab31a94343128d765ccd388803699a0ed45356735cb1588e6c44db1e",
+  "traducao": "De modo semelhante, precisamos restringir o domínio do seno para poder\ntomar uma inversa. A função {{MATH_100}} assume todos os valores\nentre {{MATH_101}} e {{MATH_102}} exatamente uma vez no intervalo {{MATH_103}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 15,
+  "hash": "0497b1dc3c65c649ee4417d51659039e714239519a90cc78eb1ca78eba65c155",
+  "traducao": "Se restringirmos o domínio de {{MATH_104}} a esse intervalo, então essa função\nrestrita é injetora e, assim, tem uma inversa."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 16,
+  "hash": "3f4acc50858a0904d033b96a4ccdf2324eefa124c5b5e25dead84a0d00ce5a34",
+  "traducao": "  Qual arco do círculo unitário corresponde ao domínio restrito de\n  {{MATH_105}} descrito acima?\n  {{CMD_106}}\n    {{CMD_107}}{{ENV_108}}{{CMD_109}}\n    {{CMD_110}}{{ENV_111}}{{CMD_112}}\n    {{CMD_113}}{{ENV_114}}{{CMD_115}}\n    {{CMD_116}}{{ENV_117}}{{CMD_118}}\n  {{CMD_119}}\n{{CMD_120}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 17,
+  "hash": "dd57af56cabd5ee5d6e14f8cd45177e461c20f01be38b4092a79ff7ee7946564",
+  "traducao": "Examinando tanto o seno quanto o cosseno em domínios restritos, podemos agora produzir as funções arco seno e arco cosseno:"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 18,
+  "hash": "d038f2209ea53d34cdcd5df9c0744f38f8556d639ea561aca94257fb317987d6",
+  "traducao": "As funções\n{{MATH_121}}\nsão chamadas ``arco'' porque fornecem o ângulo que o cosseno ou o seno\nusou para produzir o seu valor.  É bastante comum escrever\n{{MATH_122}}\nNo entanto, essa notação é enganosa, pois {{MATH_123}} e\n{{MATH_124}} não são verdadeiras funções inversas do cosseno e do seno.\nLembre-se de que uma função e sua inversa desfazem uma à outra em qualquer\nordem; por exemplo,\n{{MATH_125}}\nComo o arco seno é a inversa do seno restrito ao intervalo\n{{MATH_126}}, isso não funciona com o seno e o arco seno; por\nexemplo,\n{{MATH_127}}\nembora seja verdade que\n{{MATH_128}}\n{{CMD_129}}\n   Qual das afirmações a seguir é verdadeira?\n   {{CMD_130}}\n     {{CMD_131}}{{MATH_132}} é a função inversa de {{MATH_133}}{{CMD_134}} {{COMMENT_135}}\n     {{CMD_136}}{{MATH_137}}{{CMD_138}}\n     {{CMD_139}}{{MATH_140}}{{CMD_141}}\n     {{CMD_142}}{{MATH_143}}{{CMD_144}}\n   {{CMD_145}}\n{{CMD_146}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 19,
+  "hash": "34e6bc9423d32c51e6767cfaf4bca2b5c0506eb523d236d9d7970a1ea93702af",
+  "traducao": "  Calcule:\n  {{MATH_147}}\n  {{CMD_148}}\n    A questão aqui é que {{MATH_149}} pode não estar na imagem do\n    arco cosseno. Para encontrar o número que procuramos, vamos consultar um círculo\n    unitário que decoramos com o domínio do arco cosseno:\n{{CMD_150}}\n{{ENV_151}}\n{{CMD_152}}\nComo os pontos {{MATH_153}} e {{MATH_154}} têm a mesma coordenada {{MATH_155}},\n{{MATH_156}}. Logo,\n{{MATH_157}}\n  {{CMD_158}}\n{{CMD_159}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 20,
+  "hash": "bd0932ad3eadd87be75a9f5c101fe388c7616160c0dc40dae645fae094e07e4f",
+  "traducao": "Agora que você tem uma noção de como {{MATH_160}} e {{MATH_161}} se comportam, vamos examinar a tangente."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 21,
+  "hash": "e5df291449638c612410355b69d953da6cfd6f6b99b8260e20b2ae44f0d6361c",
+  "traducao": "  Qual arco do círculo unitário corresponde ao domínio restrito de\n  {{MATH_162}} descrito acima?\n  {{CMD_163}}\n    {{CMD_164}}{{ENV_165}}{{CMD_166}}\n    {{CMD_167}}{{ENV_168}}{{CMD_169}}\n    {{CMD_170}}{{ENV_171}}{{CMD_172}}\n    {{CMD_173}}{{ENV_174}}{{CMD_175}}\n  {{CMD_176}}\n{{CMD_177}}\nMais uma vez, trabalhando apenas em um domínio restrito da tangente, podemos produzir\numa função inversa, o arco tangente. Aqui vemos o gráfico de {{MATH_178}},\na função inversa de {{MATH_179}} quando seu domínio é restrito ao\nintervalo {{MATH_180}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 22,
+  "hash": "55061aacdb47c4b3d13ff7648ed342983192abeee1e3245fd6d3eaada979f1f3",
+  "traducao": "  Calcule:\n  {{MATH_181}}\n  {{CMD_182}}\n    A questão aqui é que {{MATH_183}} pode não estar na imagem do\n    arco tangente. Para encontrar o número que procuramos, vamos consultar um círculo\n    unitário que decoramos com o domínio do arco tangente:\n{{CMD_184}}\n{{ENV_185}}\n{{CMD_186}}\nComo os pontos {{MATH_187}} e {{MATH_188}} têm as mesmas coordenadas {{MATH_189}} e {{MATH_190}},\n{{MATH_191}}\n  {{CMD_192}}\n{{CMD_193}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 23,
+  "hash": "fd3f8bf346b6991f5276583abdc4527bf0b61f7971aa305e1bf3b9badfdecb74",
+  "traducao": "Agora apresentamos alguns fatos sobre as outras funções trigonométricas e\ntrigonométricas ``inversas''."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 24,
+  "hash": "3b10bd6a5bfca919348454fd484b7660fbdf0c8fe6355112f089584bf639675c",
+  "traducao": " significa que {{MATH_194}} e\n      que {{MATH_195}} está em {{MATH_196}}. O domínio de {{MATH_197}} é {{MATH_198}}.\n    {{CMD_199}} {{MATH_200}} significa que {{MATH_201}} e\n      que {{MATH_202}} está em {{MATH_203}}. O domínio de\n      {{MATH_204}} é {{MATH_205}}.\n    {{CMD_206}} {{MATH_207}} significa que {{MATH_208}} e\n      que {{MATH_209}} está em {{MATH_210}}. O domínio de\n      {{MATH_211}} é {{MATH_212}}.\n    {{CMD_213}} {{MATH_214}} significa que {{MATH_215}} e que\n      {{MATH_216}} está em {{MATH_217}}. O domínio de {{MATH_218}} é\n      {{MATH_219}}.\n    {{CMD_220}} {{MATH_221}} significa que {{MATH_222}} e\n     que {{MATH_223}} está no intervalo {{MATH_224}}, exceto {{MATH_225}}, o que se escreve em notação de intervalo como {{MATH_226}}.\n     O domínio de\n      {{MATH_227}} é o conjunto de todos os {{MATH_228}} com valor absoluto maior ou igual a {{MATH_229}}, o que se escreve em notação de intervalo como {{MATH_230}}.\n    {{CMD_231}} {{MATH_232}} significa que {{MATH_233}} e\n      que {{MATH_234}} está em {{MATH_235}}. O\n      domínio de {{MATH_236}} é {{MATH_237}}.\n  {{CMD_238}}\n{{CMD_239}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 25,
+  "hash": "c054a29eb2ab1d9cbe3c48b72e233bf03ca6dec7a18f4817beb488a521130f9e",
+  "traducao": "O poder do teorema de Pitágoras{{CMD_240}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 26,
+  "hash": "3110d5249347bff086a093ba29dbb111f36d3a153a561d775c126f5a2afc6511",
+  "traducao": "O teorema de Pitágoras é provavelmente o teorema mais famoso de toda a\nmatemática."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 27,
+  "hash": "024a5ce89bd23e99626ec7bbd64114a3d1fcb858e5491ee41d97a2b0856e1216",
+  "traducao": "Dado um triângulo retângulo:\n{{CMD_241}}\n  {{ENV_242}}\n{{CMD_243}}\nTemos que:\n{{MATH_244}}\n{{CMD_245}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 28,
+  "hash": "e864d4c20816aa512290118f70ad55ae4158766c9973e585187a5775c8b25143",
+  "traducao": "O teorema de Pitágoras fornece várias identidades trigonométricas fundamentais."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 29,
+  "hash": "d07e2d5a24c92d4af2a141da9285953d171eb315e2678b2e41d2b28a140af250",
+  "traducao": "  Valem as seguintes identidades:\n  {{MATH_246}}\n  {{CMD_247}}\n    A partir do círculo unitário, podemos ver\n    {{CMD_248}}\n{{ENV_249}}\n    {{CMD_250}}\n    pelo teorema de Pitágoras que\n    {{MATH_251}}\n    Se dividirmos essa expressão por {{MATH_252}}, obtemos\n    {{MATH_253}}\n    e, se dividirmos {{MATH_254}} por {{MATH_255}}, obtemos\n    {{MATH_256}}\n  {{CMD_257}}\n{{CMD_258}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 30,
+  "hash": "5df252745427e25ae6af56efa7c143ffdc3985748b32e3804702a0766142636c",
+  "traducao": "Podemos simplificar expressões usando o teorema de Pitágoras"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 31,
+  "hash": "99e464e9912624d0f1c0ab1b6cacf61ed0cf8a1c1b216420d17cd79645304d09",
+  "traducao": "  Suponha que {{MATH_259}}. Calcule {{MATH_260}}.\n  {{CMD_261}}\n    Se {{MATH_262}}, então\n    {{ENV_263}}\n    Agora vamos usar o teorema de Pitágoras para deduzir\n    {{MATH_264}}. Se {{MATH_265}}, o triângulo em questão deve\n    ser semelhante a este triângulo:\n    {{CMD_266}}\n      {{ENV_267}}\n    {{CMD_268}}\n    A partir desse triângulo e do nosso trabalho acima, vemos que\n    {{MATH_269}}\n  {{CMD_270}}\n{{CMD_271}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 32,
+  "hash": "d03c19ddb05f3beb9a99243ba0170b746ea40b3352c986216f14b4f17a0dba33",
+  "traducao": "Também usaremos o teorema de Pitágoras para nos ajudar a simplificar expressões\nabstratas, transformando-as em expressões que podemos calcular com facilidade."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInTrigonometricFunctions.tex",
+  "ordem": 33,
+  "hash": "0786618080bae41f0a181583c2a00554eb634516be35be13c98d0f3123e22554",
+  "traducao": "  Simplifique\n  {{MATH_272}}\n  {{CMD_273}}\n    Comece escrevendo\n    {{MATH_274}}\n    Isso significa que {{MATH_275}}. Aplique o cosseno a ambos os\n    lados da equação acima:\n    {{ENV_276}}\n    Agora vamos usar o teorema de Pitágoras para deduzir\n    {{MATH_277}}. Se {{MATH_278}}, o triângulo em questão deve\n    ser semelhante a este triângulo:\n    {{CMD_279}}\n      {{ENV_280}}\n    {{CMD_281}}\n    A partir desse triângulo e do nosso trabalho acima, vemos que\n    {{MATH_282}}\n  {{CMD_283}}\n{{CMD_284}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 0,
+  "hash": "870f84db9c142a1178947262063d0fecc8333fae24d2a70b3088c44d4e37beec",
+  "traducao": "Funções exponenciais e logarítmicas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Funções exponenciais e logarítmicas sob uma nova luz.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 1,
+  "hash": "79a08557f13f81a3db5288d2bd21d8cca713fa185ee625607f8a340c69bae236",
+  "traducao": "As funções exponenciais e logarítmicas podem parecer um tanto esotéricas à\nprimeira vista, mas elas modelam muitos fenômenos do mundo real."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 2,
+  "hash": "8b1a5cae2c79eade1395f292cdee5beacdcc0023e8cef719797392309e1d6069",
+  "traducao": "O que são funções exponenciais e logarítmicas?{{CMD_7}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 3,
+  "hash": "b982147991703fecf2004bd4f76c07018cf5d236b64290d11fad09d72fef7130",
+  "traducao": "  Uma {{CMD_8}} é uma função da forma\n  {{MATH_9}}\n  em que {{MATH_10}} é um número real positivo. O domínio de uma\n  função exponencial é {{MATH_11}}.\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 4,
+  "hash": "4a59ae9f14d7dcfb695d5ecc995844ce6a52c591f2fc6f016e5f28838daeb41b",
+  "traducao": "  {{MATH_13}} é uma função exponencial?\n  {{CMD_14}}\n  {{CMD_15}}\n    {{CMD_16}}sim{{CMD_17}}\n    {{CMD_18}}não{{CMD_19}}\n  {{CMD_20}}\n  {{CMD_21}}\n  {{CMD_22}}\n    Observe que\n    {{MATH_23}}\n  {{CMD_24}}\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 5,
+  "hash": "279ad270a6fad93d93e4e31ee46b139a35fb6f0d841b3e2ef4478b3a1d8c12b5",
+  "traducao": "  Uma {{CMD_26}} é uma função definida da seguinte forma\n  {{MATH_27}}\n  em que {{MATH_28}} é um número real positivo. O domínio de uma\n  função logarítmica é {{MATH_29}}.\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 6,
+  "hash": "cc20b52db023bd3fec9233ac4af1366ec88966209f8021f351e284f7c5e7260a",
+  "traducao": "Em ambas as definições acima, {{MATH_31}} é chamado de {{CMD_32}}."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 7,
+  "hash": "3b75e4044728bd1de911589f480e9d0b464852e21db62a92f93f9377f75cd5f3",
+  "traducao": "Lembre-se de que, no caso das funções exponenciais e logarítmicas, existe uma base\nmuito especial:\n{{MATH_33}}\nEsse é um número irracional que você verá com frequência.  A exponencial de base {{MATH_34}},\n{{MATH_35}}, costuma ser chamada de função `exponencial natural'.  Para o logaritmo de base {{MATH_36}},\ntemos uma notação especial: {{MATH_37}} é a função `logaritmo natural'."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 8,
+  "hash": "096dc7c8b6a9923bbcdd82500c441d1e0fa9c881965b84122282cbe1fe36cb04",
+  "traducao": "Conexões entre funções exponenciais e logaritmos{{CMD_38}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 9,
+  "hash": "bcee18e8204cdb7974b4e8a9238a63e6a5ff03067ce5e65e138782d0994c37a0",
+  "traducao": "Seja {{MATH_39}} um número real positivo com {{MATH_40}}.\n{{CMD_41}}\n{{CMD_42}} {{MATH_43}} para todo {{MATH_44}} positivo\n{{CMD_45}} {{MATH_46}} para todo {{MATH_47}} real\n{{CMD_48}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 10,
+  "hash": "abec6f8bbc5f4db54cd2749b2e6d02c265e7200ea499938defa94f481727c482",
+  "traducao": "  Que expoente torna verdadeira a expressão a seguir?\n  {{MATH_49}}\n{{CMD_50}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 11,
+  "hash": "a719986e13c5ee285cd1128f213e5849a3edabc2d8d37e5a6e484be4fd965732",
+  "traducao": "Como podem ser os gráficos?{{CMD_51}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 12,
+  "hash": "14cdfde21da4a700d7a2a67b5ab9d2e9d0aa3607dfba5a36f0eb33a8a72a7b27",
+  "traducao": "Gráficos de funções exponenciais{{CMD_52}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 13,
+  "hash": "95ad61f47435b03567291549182d68d4bdb375aa5d62d29a10fd5628ac36abf6",
+  "traducao": "  Aqui vemos os gráficos de quatro funções exponenciais.\n  {{CMD_53}}\n    {{ENV_54}}\n  {{CMD_55}}\n  Associe as curvas {{MATH_56}}, {{MATH_57}}, {{MATH_58}} e {{MATH_59}} às funções\n  {{MATH_60}}\n  {{CMD_61}}\n    Uma maneira de resolver esse tipo de problema é comparar essas funções\n    ao longo da reta vertical {{MATH_62}},\n    {{CMD_63}}\n      {{ENV_64}}\n    {{CMD_65}}\n    Observe que\n    {{MATH_66}}\n    Logo, vemos que:\n    {{CMD_67}}\n    {{CMD_68}} {{MATH_69}} corresponde a\n      {{MATH_70}}.\n    {{CMD_71}} {{MATH_72}} corresponde a {{MATH_73}}.\n    {{CMD_74}} {{MATH_75}} corresponde a {{MATH_76}}.\n    {{CMD_77}} {{MATH_78}} corresponde a {{MATH_79}}.\n    {{CMD_80}}\n  {{CMD_81}}\n{{CMD_82}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 14,
+  "hash": "9c0f5b9dafff0fc3d9fc725239b491cc4ba88dcf8734aa645eef0047a36ae863",
+  "traducao": "Gráficos de funções logarítmicas{{CMD_83}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 15,
+  "hash": "74cce8d1fe4292c3b62bcc9b15c10e976271b7f08162feadcbeec2248b760954",
+  "traducao": "  Aqui vemos os gráficos de quatro funções logarítmicas.\n  {{CMD_84}}\n    {{ENV_85}}\n  {{CMD_86}}\n  Associe as curvas {{MATH_87}}, {{MATH_88}}, {{MATH_89}} e {{MATH_90}} às funções\n  {{MATH_91}}\n  {{CMD_92}}\n    Primeiro, lembre-se do que {{MATH_93}} significa:\n    {{MATH_94}}\n    Além disso, {{MATH_95}}, em que {{MATH_96}}.  Agora\n    examine cada uma dessas funções ao longo da reta horizontal {{MATH_97}}\n    {{CMD_98}}\n      {{ENV_99}}\n    {{CMD_100}}\n    Observe novamente (isso vem da definição de logaritmo)\n    {{MATH_101}}\n    Logo, vemos que:\n    {{CMD_102}}\n    {{CMD_103}} {{MATH_104}} corresponde a {{MATH_105}}.\n    {{CMD_106}} {{MATH_107}} corresponde a {{MATH_108}}.\n    {{CMD_109}} {{MATH_110}} corresponde a {{MATH_111}}.\n    {{CMD_112}} {{MATH_113}} corresponde a {{MATH_114}}.\n    {{CMD_115}}\n  {{CMD_116}}\n{{CMD_117}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 16,
+  "hash": "905eed6dbddd3c08a4cf6f6431339856eedc46edb84859ccfb038ae0b932777c",
+  "traducao": "Propriedades das funções exponenciais e dos logaritmos{{CMD_118}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 17,
+  "hash": "99b2c87171f7e1b057fb8f64e030a2b73c54d675f34587512d905237d3edeefc",
+  "traducao": "Trabalhar com funções exponenciais e logarítmicas muitas vezes fica mais simples quando\naplicamos as propriedades dessas funções.  Essas propriedades vão aparecer\nao longo de todo o nosso trabalho."
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 18,
+  "hash": "bdad565915e518ab4a06d71f99779104f444515f10a9590195486a5a87c3e5b2",
+  "traducao": "Propriedades dos expoentes{{CMD_119}}\nSeja {{MATH_120}} um número real positivo com {{MATH_121}}.\n{{CMD_122}}\n  {{CMD_123}} {{MATH_124}}\n  {{CMD_125}} {{MATH_126}}\n  {{CMD_127}} {{MATH_128}}\n{{CMD_129}}\n{{CMD_130}}\n  Que expoente torna verdadeira a igualdade a seguir?\n  {{MATH_131}}\n  {{CMD_132}}\n    {{MATH_133}}\n  {{CMD_134}}\n{{CMD_135}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 19,
+  "hash": "7ba4ead64b5427369ca55ececa0db9fb05be3d0264b5c508fad513284cde3fad",
+  "traducao": "Propriedades dos logaritmos{{CMD_136}}\nSeja {{MATH_137}} um número real positivo com {{MATH_138}}.\n{{CMD_139}}\n{{CMD_140}} {{MATH_141}}\n{{CMD_142}} {{MATH_143}}\n{{CMD_144}} {{MATH_145}}\n{{CMD_146}} {{MATH_147}}\n{{CMD_148}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 20,
+  "hash": "dd48b53291afc34378a46f4d1074292ad7d94f4bc6df845a7ce9c93b120e37c4",
+  "traducao": "  Que valor torna verdadeira a expressão a seguir?\n  {{MATH_149}}\n{{CMD_150}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 21,
+  "hash": "4e82c30883cbcfdc96b0ad38893d7ad13fce0b709fb49dcd4a0083ca0d696b6f",
+  "traducao": "  O que torna verdadeira a expressão a seguir?\n  {{MATH_151}}\n{{CMD_152}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 22,
+  "hash": "a2a85f68d64ea0d6207e871513998700272593f739b2d2577010cafb2eba4fa4",
+  "traducao": "\tResolva a equação: {{MATH_153}}.\n\t{{CMD_154}}\n\t\tComo não conseguimos reescrever facilmente os dois lados como exponenciais de mesma base, vamos usar logaritmos.  Acima dissemos que\n\t\t{{MATH_155}} significa que {{MATH_156}}.  Essa afirmação quer dizer que toda equação exponencial tem uma forma logarítmica equivalente,\n\t\te vice-versa.  Vamos converter para uma equação logarítmica e resolver a partir daí.\n\t\t{{ENV_157}}\n\t\tA partir daqui, podemos isolar {{MATH_158}} diretamente.\n\t\t{{ENV_159}}\n\t{{CMD_160}} \n{{CMD_161}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions.tex",
+  "ordem": 23,
+  "hash": "b67c46ad46ae1a9613822cc5eb31fb54ce3e6d252f5d66d19f16e0d8cdcd6d40",
+  "traducao": "\tResolva a equação: {{MATH_162}}. \n\t{{CMD_163}}\n\t\tAplicar logaritmos imediatamente aos dois lados não vai ajudar aqui, pois o lado direito tem mais de um termo.  Sabemos que os logaritmos\n\t\tse comportam bem com produtos e quocientes, mas não com somas. \n\t\tObserve que {{MATH_164}}. (Esse é um truque comum que você provavelmente verá muitas vezes.)  \n\t\t{{ENV_165}}\n\t\tNossa equação é, na verdade, uma equação quadrática em {{MATH_166}}.  \n\t\tO lado esquerdo se fatora como {{MATH_167}}, de modo que estamos lidando\n\t\tcom {{MATH_168}}\n\t\tDo primeiro fator:\n\t\t{{ENV_169}}\n\t\t\n\t\tDo segundo fator: {{MATH_170}}.  Lembre-se de que vimos acima que a imagem da função exponencial é {{MATH_171}}. \n\t\tNão existe entrada que torne a saída um número\n\t\tnegativo, então {{MATH_172}} não tem soluções. \n\t\t\n\t\tA solução de {{MATH_173}} é {{MATH_174}}.\n\t{{CMD_175}}\n{{CMD_176}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInAWordOnNotation.tex",
+  "ordem": 0,
+  "hash": "94871331cff7938965d88ddbe405c365c2b8f419b2e6c375166c2efed1580770",
+  "traducao": "Uma palavra sobre notação{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Discutimos a notação usada para funções.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInAWordOnNotation.tex",
+  "ordem": 1,
+  "hash": "6b50b450c7cb6f7f060b66261330cab4b58eb65f60e365820c9b6cc8a2f94c41",
+  "traducao": "Dada uma função {{MATH_7}}, temos uma maneira de escrever uma inversa de {{MATH_8}},\nsupondo que ela exista. Dado um ponto {{MATH_9}}, \n{{MATH_10}}\nPor outro lado, dado {{MATH_11}}\n{{MATH_12}}\n{{CMD_13}}\nEm geral, não é verdade que \n{{MATH_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInAWordOnNotation.tex",
+  "ordem": 2,
+  "hash": "4f1edd4fc0bcb96f246f53cdaa04e15d7d9f5531b391cc956fc197ef0431522a",
+  "traducao": "Essa notação confusa muitas vezes é agravada pelo fato de que \n{{MATH_16}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/digInAWordOnNotation.tex",
+  "ordem": 3,
+  "hash": "15ed71748cc6ec996d50375cc4c63d6468febeba87ee5b0af5c311888e53fc27",
+  "traducao": "  Observe que \n  {{MATH_17}}\n  No caso das funções trigonométricas, essa confusão pode ser evitada\n  usando-se a notação {{MATH_18}}, e assim por diante para as outras funções\n  trigonométricas.\n{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "reviewOfFamousFunctions/exercises/exerciseList.tex",
+  "ordem": 0,
+  "hash": "8568f934114c023b1ae930ec478bf3c617677eea66d84072c2f5dc255e63fd2c",
+  "traducao": "Lista de exercícios{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ }
+]

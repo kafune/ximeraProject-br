@@ -1,0 +1,188 @@
+[
+ {
+  "arquivo": "anApplicationOfLimits/titlePage.tex",
+  "ordem": 0,
+  "hash": "cae504d54bd5fe9eb3dbcbd5a43add22aafe9937fca4d6fb3fae43ab67f14587",
+  "traducao": "Uma aplicação de limites{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "anApplicationOfLimits/titlePage.tex",
+  "ordem": 2,
+  "hash": "aaf673a8be081c7e7e0bb7b2d445453fc8c49705c8264bb2398de7de2db94180",
+  "traducao": " Calcular a velocidade média.\n{{CMD_4}} Aproximar a velocidade instantânea.\n{{CMD_5}} Comparar a velocidade média e a velocidade instantânea.\n{{CMD_6}} Calcular a velocidade instantânea.\n{{COMMENT_7}}\n  {{COMMENT_8}}\n{{COMMENT_9}}\n{{COMMENT_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/breakGround.tex",
+  "ordem": 0,
+  "hash": "f271ae8e9182c89674fad3b7878c4df7f96edb8bd6bba3f210c601d8d6835692",
+  "traducao": "Limites e velocidade{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem limites e velocidade instantânea.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/breakGround.tex",
+  "ordem": 2,
+  "hash": "4774e5e2df3a4dde5f1546b7fc299780bd2f8a37bae74c9d3e4e4835f91fc9d3",
+  "traducao": " Ei, Riley, andei pensando sobre limites.\n{{CMD_7}} Que incrível.\n{{CMD_8}} Pois é! Sabe, limites me lembram de uma coisa{{CMD_9}}\n  De como um GPS ou um celular calcula a velocidade!\n{{CMD_10}} Hum. Um GPS consegue calcular a nossa localização. Então, para calcular a velocidade\na partir da posição, ele deve olhar para\n  {{MATH_11}}\n{{CMD_12}} E então estudamos isso conforme a variação do tempo fica cada vez\n  mais perto de zero.\n{{CMD_13}} Exatamente como nos limites em zero: podemos estudar algo\n  olhando {{CMD_14}}perto{{CMD_15}} de um ponto, mas {{CMD_16}}não exatamente no{{CMD_17}} ponto.\n{{CMD_18}} Meu Deus.{{CMD_19}}A vida é uma rica tapeçaria.\n{{CMD_20}} Poeta, você sabe o que diz.\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/breakGround.tex",
+  "ordem": 3,
+  "hash": "6922d9ff61af88e809b143a48fedc7fb0947d2816669aba480808c46e16a1670",
+  "traducao": "Suponha que você faça uma viagem de carro de Columbus, Ohio, até Urbana-Champaign,\nIllinois. Suponha ainda que sua posição seja modelada por\n{{MATH_22}}\nem que {{MATH_23}} é medido em horas e varia de {{MATH_24}} a {{MATH_25}} horas."
+ },
+ {
+  "arquivo": "anApplicationOfLimits/breakGround.tex",
+  "ordem": 4,
+  "hash": "b6c87237ddb9e7608bd0350f0198dbedf121dba755151315ae5d3024ffeca416",
+  "traducao": "  Qual é a velocidade média da viagem inteira?\n  {{CMD_26}}\n    Lembre-se:\n    {{MATH_27}}\n  {{CMD_28}}\n  {{CMD_29}}\n    Logo,\n    {{MATH_30}}\n  {{CMD_31}}\n  {{CMD_32}}\n    Logo,\n    {{MATH_33}}\n  {{CMD_34}}\n  {{CMD_35}}\n    A velocidade média é de {{MATH_36}} milhas por hora.\n  {{CMD_37}}\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/breakGround.tex",
+  "ordem": 5,
+  "hash": "a8ce2bbf3e74108d0f444168d600025b14af355790e7aa2646764d9bcea85223",
+  "traducao": "  Use uma calculadora para estimar a velocidade instantânea em {{MATH_39}}.\n  {{CMD_40}}\n    Lembre-se:\n    {{MATH_41}}\n  {{CMD_42}}\n  {{CMD_43}}\n    Logo,\n    {{MATH_44}}\n  {{CMD_45}}\n  {{CMD_46}}\n    Calcule\n    {{MATH_47}}\n   para {{MATH_48}} cada vez mais perto de {{MATH_49}}.\n  {{CMD_50}}\n  {{CMD_51}}\n    A velocidade instantânea (arredondada para o décimo mais próximo) é de {{MATH_52}} milhas por hora.\n  {{CMD_53}}\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/breakGround.tex",
+  "ordem": 6,
+  "hash": "524bcbdbe81b60ee67696ad9bc1850c6241dfb5d6114470c9900f6bb238a7922",
+  "traducao": "  Considerando o trabalho acima, quando queremos calcular a velocidade\n  instantânea, precisamos calcular\n  {{MATH_55}}\n  quando (selecione todas as alternativas que se aplicam):\n {{CMD_56}}\n    {{CMD_57}}A ``variação do tempo'' é zero.{{CMD_58}}\n    {{CMD_59}}A ``variação do tempo'' fica cada vez mais perto de zero.{{CMD_60}}\n    {{CMD_61}}A ``variação do tempo'' se aproxima de zero.{{CMD_62}}\n    {{CMD_63}}A ``variação do tempo'' está perto de zero.{{CMD_64}}\n    {{CMD_65}}A ``variação do tempo'' tende a zero.{{CMD_66}}\n {{CMD_67}}\n{{CMD_68}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/breakGround.tex",
+  "ordem": 7,
+  "hash": "b52f3f179d0b6eff48b1a48970c19707331811abd9511cdefd72dda04715ffae",
+  "traducao": "Calcular velocidades médias para valores cada vez menores de\n{{MATH_69}}, como fizemos acima, é tedioso. Mesmo assim, é exatamente\nassim que um GPS determina a velocidade a partir da posição! Para evitar esses cálculos\ntediosos, gostaríamos muito de ter uma fórmula."
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 0,
+  "hash": "087d4ede9c78f8c0ff011667d83ceacc7cbfd1df8cdfc2a7a06e81646a12015e",
+  "traducao": "Velocidade instantânea{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nUsamos limites para calcular a velocidade instantânea.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 1,
+  "hash": "8b2abdd66eae9535872d09ac5ba4cc8d6d8ddabb45eb8eb064c974c42fc889cd",
+  "traducao": "Quando calculamos a velocidade média, olhamos para\n{{MATH_7}}\nPara obter a velocidade (instantânea), queremos que a variação do tempo\n``vá para'' zero. A esta altura, já devemos saber que ``vai para'' é\numa expressão-chave para um {{CMD_8}}limite{{CMD_9}}. A variação do tempo costuma ser dada como\no comprimento de um intervalo de tempo, e esse comprimento vai para zero."
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 2,
+  "hash": "248d28283c8d09b929469fd9860a14dbd8d4ef6840bd06c5191eeddc4a408307",
+  "traducao": "\tA {{CMD_10}} no intervalo (de tempo) {{MATH_11}} é dada por\n\t{{MATH_12}}\n\tAqui {{MATH_13}} denota a posição, no instante {{MATH_14}}, de um objeto que se move ao longo de uma reta.\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 3,
+  "hash": "03cf5851ab78ab1769c9ef00d40ff67516982222242ee43669ca0975124f235d",
+  "traducao": "Vamos juntar tudo isso resolvendo um exemplo."
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 4,
+  "hash": "dce64577eef681c5beb9db765dfd5ee54a2a5bb27ab95c3619a827827b281b62",
+  "traducao": "Um jovem matemático lança uma bola verticalmente para cima com\nvelocidade de 40 pés/s. Sua altura (em pés) após {{MATH_16}} segundos\né dada por\n{{MATH_17}}\nAqui está o gráfico de {{MATH_18}}.\n{{CMD_19}}\n{{ENV_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 5,
+  "hash": "53942f480263fd514938f87eef3ab72cc432c6f284cd05b3bb25bcda07e12102",
+  "traducao": "\tQuando a bola vai atingir o chão?\n\n\t\t{{CMD_22}}\n\t\t\tPara determinar quando a bola atinge o chão, precisamos resolver a equação\n\t\t\t{{MATH_23}}\n\t\t\tpara t.  Isto é,\n\t\t\t{{ENV_24}}\n\t\t\tEssa equação tem duas soluções; uma delas é {{MATH_25}}\n\t\t\tsegundos.\n\n\t\t\t   Como a bola atinge\n\t\t\to chão algum tempo depois de ser\n\t\t\tlançada, concluímos que a bola atinge o chão em um instante em que {{MATH_26}}.\n\n\t\t\tA bola atingirá o chão no instante\n\t\t\t{{MATH_27}}\n\t\t{{CMD_28}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 6,
+  "hash": "78162cbf26484a16d3f5dc62e2c75099e9b57357c8549d3357d3ca1219a407f6",
+  "traducao": "\tQual é a altura da bola após {{MATH_29}} segundos?\n\n\t{{CMD_30}}\n\t\tPara encontrar a altura da bola após {{MATH_31}} segundos, basta\n\t\tsubstituir {{MATH_32}} na equação de {{MATH_33}}.\n\n\t\tA altura da bola após {{MATH_34}} segundos é\n\t\t{{MATH_35}}\n\t{{CMD_36}}\n{{CMD_37}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 7,
+  "hash": "284aaff8e133743dcfbadda0b86d0ede926eddd114deda078c844ee8b17f68e7",
+  "traducao": " Considere os pontos a seguir, situados sobre o eixo {{MATH_38}}.\n{{CMD_39}}\n\t{{ENV_40}}\n{{CMD_41}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 8,
+  "hash": "b94f2c466c5938bbf36262c4a76043c902003a9d6c3633b5d8adabc2d826edb0",
+  "traducao": "\t Quais pontos correspondem à altura da bola nos instantes {{MATH_42}}, {{MATH_43}} e {{MATH_44}}  segundos?\n\tFaça as escolhas corretas!"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 9,
+  "hash": "9e72f53ba6979ff089e63a0a0c0eb0de5abb8a4a1ad2afe1cf8632f4091f0dca",
+  "traducao": " O ponto que corresponde a {{MATH_45}}, a posição (altura) da\n\t\tbola em {{MATH_46}}, é\n\t\t\t{{CMD_47}}\n\t\t\t\t{{CMD_48}}A{{CMD_49}}\n\t\t\t\t{{CMD_50}}B{{CMD_51}}\n\t\t\t\t{{CMD_52}}C{{CMD_53}}\n\t\t\t\t{{CMD_54}}D{{CMD_55}}\n\t\t\t{{CMD_56}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 10,
+  "hash": "c18a068f5f29b89db4dad8563ad55b265783a605b1befb0857db966eeb384250",
+  "traducao": " O ponto que corresponde a {{MATH_57}}, a posição (altura) da\n\t\tbola em {{MATH_58}}, é\n\t\t\t{{CMD_59}}\n\t\t\t\t{{CMD_60}}A{{CMD_61}}\n\t\t\t\t{{CMD_62}}B{{CMD_63}}\n\t\t\t\t{{CMD_64}}C{{CMD_65}}\n\t\t\t\t{{CMD_66}}D{{CMD_67}}\n\t\t\t{{CMD_68}}\n\n\n\t\t{{CMD_69}} O ponto que corresponde a {{MATH_70}}, a posição (altura) da\n\t\tbola em {{MATH_71}}, é\n\t\t\t{{CMD_72}}\n\t\t\t\t{{CMD_73}}A{{CMD_74}}\n\t\t\t\t{{CMD_75}}B{{CMD_76}}\n\t\t\t\t{{CMD_77}}C{{CMD_78}}\n\t\t\t\t{{CMD_79}}D{{CMD_80}}\n\t\t\t{{CMD_81}}\n\t{{CMD_82}}\n{{CMD_83}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 11,
+  "hash": "1758ae28a7469d7b571d37f1f4778fa0d3306b37844ec94b81fc6f732332ed8c",
+  "traducao": "Em seguida, vamos considerar a velocidade média da bola.\n{{CMD_84}}\n\t Qual é a velocidade média da bola no intervalo de tempo {{MATH_85}}?\n\n\n\t{{CMD_86}}\n\t\tPara encontrar a velocidade média da bola no intervalo {{MATH_87}}, lembramos que a velocidade média no\n\t\tintervalo de tempo {{MATH_88}} é dada por\n\t\t{{MATH_89}}\n\t\tAgora basta substituir {{MATH_90}} e {{MATH_91}}.\n\n\t\t{{MATH_92}}\n\n\t\tConfira a figura abaixo.\n\t\t{{CMD_93}}{{ENV_94}}{{CMD_95}}\n\t{{CMD_96}}\n\n{{CMD_97}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 12,
+  "hash": "f74ce705434fabbb3f8a2f9d26b4da960c96180832fe6cf77a06d7d1f2a63bab",
+  "traducao": "\t Qual é a velocidade média da bola no intervalo de tempo {{MATH_98}}, para {{MATH_99}}?\n\n\t{{CMD_100}}\n\t\tUsamos a fórmula da velocidade média.\n\t\t{{ENV_101}}\n\t\tpara {{MATH_102}}.\n\t\tConfira a figura abaixo.\n\t\t{{CMD_103}}{{ENV_104}}{{CMD_105}}\n\t{{CMD_106}}\n{{CMD_107}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 13,
+  "hash": "58916253b63f456eb863584891f2d935a5e9c1807aa74b43d163fb8311fc091c",
+  "traducao": "\tQual é a velocidade média da bola no intervalo {{MATH_108}}, para {{MATH_109}}?"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 14,
+  "hash": "fc8af625d35b4499271522193d2681f92651ac6bde55d022a58931943b646b3a",
+  "traducao": "\t\tA velocidade média no intervalo {{MATH_110}}, para {{MATH_111}}, é\n\t\t{{MATH_112}}\n\t\tObserve que essa é exatamente a mesma expressão que obtivemos ao calcular\n\t\ta velocidade média no intervalo {{MATH_113}} para {{MATH_114}}.\n\n\n\t\tA velocidade média no intervalo {{MATH_115}}, para {{MATH_116}}, é dada por\n\t\t{{MATH_117}}\n\t{{CMD_118}}\n{{CMD_119}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 15,
+  "hash": "fd11fd23348b2e69e13e520e57906b2556b756c7e4c7c1c89027451c95c8fc24",
+  "traducao": "\t Usando os resultados das Perguntas 5 e 6,  calcule a velocidade média no intervalo\n\t{{CMD_120}}\n\t\t{{CMD_121}} {{MATH_122}}\n\t\t\t{{MATH_123}}\n\t\t{{CMD_124}} {{MATH_125}}\n\t\t\t{{MATH_126}}\n\t{{CMD_127}}\n{{CMD_128}}\n{{CMD_129}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 16,
+  "hash": "843b1f8a5afea57832c7fc4eaf54bce8fc2d30b12099c00bcc2e375a059f776c",
+  "traducao": "No exemplo anterior, calculamos a {{CMD_130}}velocidade média{{CMD_131}} em\nvários intervalos diferentes.\nPor exemplo, a velocidade média no intervalo de tempo  {{MATH_132}} é  {{MATH_133}}.\nObserve que o tamanho, ou comprimento, desse intervalo de tempo é {{MATH_134}}."
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 17,
+  "hash": "24b4a5ad3e50738f17895686b5e33b2e3b7b56474076856ddfcad3888d43ec7a",
+  "traducao": "Se fizermos {{MATH_135}}, o tamanho do intervalo vai para {{MATH_136}}.\nÀ medida que {{MATH_137}} se aproxima de {{MATH_138}},  estamos calculando a velocidade média em intervalos de tempo cada vez\nmenores, e o limite dessas velocidades médias é chamado de\n{{CMD_139}}velocidade instantânea{{CMD_140}} em {{MATH_141}}.\nOs limites nos permitirão calcular a velocidade instantânea.\n\n {{CMD_142}}{{CMD_143}}{{CMD_144}}\n \tComo antes, suponha que {{MATH_145}} denote a posição, no instante {{MATH_146}}, de um objeto que se move ao longo de uma reta.\n \tSeja {{MATH_147}} a velocidade média no intervalo {{MATH_148}} se {{MATH_149}} e no intervalo {{MATH_150}} se {{MATH_151}}.\n\n \tA {{CMD_152}} no instante {{MATH_153}} é dada por\n\t{{MATH_154}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/digInInstantaneousVelocity.tex",
+  "ordem": 18,
+  "hash": "af5077b1635679bb30b630523155d09b29949ae1a0ab284b244dc8c42acf7b7f",
+  "traducao": "A velocidade instantânea é dada como um limite, {{MATH_155}}. Qual é a forma desse limite?\nO numerador {{MATH_156}} se aproxima de {{MATH_157}} quando {{MATH_158}} (já que a função deslocamento {{MATH_159}} é contínua) e o denominador {{MATH_160}}\ntambém se aproxima de {{MATH_161}}. Esse limite tem a forma {{CMD_162}}, uma forma indeterminada.\n\nVamos usar a mesma situação de antes para trabalhar com essa definição.\n{{CMD_163}}\n\tA altura de uma bola acima do chão durante o intervalo de tempo  {{MATH_164}}, com {{MATH_165}} em segundos e {{MATH_166}} em pés,\n\té dada por\n\t{{MATH_167}}\n\tDetermine {{MATH_168}}, a velocidade instantânea da bola {{MATH_169}} segundos após ela ser lançada.\n\n\t{{CMD_170}}\n\t\tDo exemplo anterior, sabemos que a velocidade média da\n\t\tbola no intervalo {{MATH_171}}, para {{MATH_172}}, e a velocidade média\n\t\tno intervalo {{MATH_173}}, para {{MATH_174}}, são ambas dadas por\n\t\t{{MATH_175}}\n\t\tPara encontrar a velocidade instantânea {{MATH_176}},\n\t\ttomamos o limite quando {{MATH_177}} tende a {{MATH_178}}.\n\t\t{{ENV_179}}\n\t{{CMD_180}}\n{{CMD_181}}"
+ },
+ {
+  "arquivo": "anApplicationOfLimits/exercises/exerciseList.tex",
+  "ordem": 0,
+  "hash": "8568f934114c023b1ae930ec478bf3c617677eea66d84072c2f5dc255e63fd2c",
+  "traducao": "Lista de exercícios{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ }
+]

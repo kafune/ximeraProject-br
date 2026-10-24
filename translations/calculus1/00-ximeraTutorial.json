@@ -1,0 +1,194 @@
+[
+ {
+  "arquivo": "ximeraTutorial/titlePage.tex",
+  "ordem": 0,
+  "hash": "a62763fda56841069261e8a6b54001249e097b68247c49a859567291f9e12664",
+  "traducao": "Tutorial do Ximera{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "ximeraTutorial/titlePage.tex",
+  "ordem": 2,
+  "hash": "21fb5464cce3bd4376e13a9a8d96fcd151284e02d93878852f9b15a97c693db8",
+  "traducao": " Digitar respostas no Ximera.\n{{CMD_4}} Atualizar atividades do Ximera.\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 0,
+  "hash": "382b577f9568f28fe284c9777ed8dd32d5e771c6dab661566abf8fa1c9caff79",
+  "traducao": "Como usar o Ximera{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Este curso foi construído no Ximera.\n{{CMD_5}}{{CMD_6}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 1,
+  "hash": "d1be9316ee898ff9a1c1fb4d93f1d66dc0f2b7d3609483e5ba2f5d105cfe7005",
+  "traducao": "A matemática não pode ser aprendida passivamente: ela precisa ser ativamente\n{{CMD_7}}construída{{CMD_8}}\npor quem a está aprendendo.  Com isso em mente, este curso foi construído\nem torno da resolução de problemas!"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 2,
+  "hash": "3bedbabec2bed94349b00c52b4e86fa3db39ac1b358dfc29960e7e646a771a8a",
+  "traducao": "Aqui vão alguns exemplos.  Brinque com eles, erre, experimente as\ndicas.  Não tenha medo de falhar: {{CMD_9}}errar uma resposta\n  nunca prejudica você.{{CMD_10}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 3,
+  "hash": "c6afa68d3300af8a340316baf4913f2814ceba5bd45a82bf3454a64693349bcc",
+  "traducao": "  Alguns problemas são de múltipla escolha:\n  {{CMD_11}}\n    {{CMD_12}}Não me escolha.{{CMD_13}}\n    {{CMD_14}}Nem eu.{{CMD_15}}\n    {{CMD_16}}Me escolha!{{CMD_17}}\n    {{CMD_18}}Também uma alternativa incorreta{{CMD_19}}\n  {{CMD_20}}\n  {{CMD_21}}\n    Clique na alternativa que diz ``Me escolha!''\n  {{CMD_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 4,
+  "hash": "7c8776eb1d4530c4347104ce6da630e6737ad6c04b492074e551a4d2e917f999",
+  "traducao": "  Alguns problemas pedem para selecionar todas as alternativas corretas:\n  {{CMD_24}}\n    {{CMD_25}}Não me escolha.{{CMD_26}}\n    {{CMD_27}}Me escolha!{{CMD_28}}\n    {{CMD_29}}Me escolha também!{{CMD_30}}\n    {{CMD_31}}Eu também sou uma alternativa correta.{{CMD_32}}\n  {{CMD_33}}\n  {{CMD_34}}\n    Clique nas alternativas ``Me escolha!'' ``Me escolha também!'' e ``Eu também sou uma alternativa correta.''\n  {{CMD_35}}\n{{CMD_36}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 5,
+  "hash": "9aa98cb1d6aaa8b0bc73de2f2704b192876dcd25cb3c6396acaa4cd477944ee7",
+  "traducao": " é o número de objetos em {{MATH_37}} grupos de {{MATH_38}} objetos\n  {{CMD_39}}\n  {{CMD_40}}\n    Olhe para esta figura:\n    {{CMD_41}}\n      {{ENV_42}}\n    {{CMD_43}}\n  {{CMD_44}}\n  {{CMD_45}}\n    {{MATH_46}}\n  {{CMD_47}}\n{{CMD_48}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 6,
+  "hash": "ad4982387734a9ada355733f0c91fed158f29ab74f2175c7070f1de798cf46bc",
+  "traducao": "Neste curso, você deve ter sempre papel e lápis à mão\npara fazer anotações, rabiscar figuras ou resolver equações complicadas.\nRecomendamos {{CMD_49}}fortemente{{CMD_50}} que você realmente {{CMD_51}}lute{{CMD_52}} com um\nproblema antes de pedir uma dica ou seguir adiante.  A diferença entre\no que você aprende batalhando sozinho com um problema e o que aprende\nexaminando a solução de outra pessoa é impressionante."
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 7,
+  "hash": "ec79adcede283acf79a916db54fc2bea4d2830f5a6d6cd8f43abb174eea5fe11",
+  "traducao": "Dito isso, mesmo que você acerte uma resposta, você deve\n{{CMD_53}}sempre{{CMD_54}} experimentar as dicas depois.  Elas podem explicar o\nconceito de um novo ponto de vista, ou desafiar você a pensar de um\njeito diferente daquele com que resolveu o problema."
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 8,
+  "hash": "27d4e995bc8d3871b75064ad2aa47be15df0249834f583aa6662403fcb2d4ee9",
+  "traducao": "Aceitamos alguns tipos diferentes de resposta. Aqui estão alguns exemplos de\nproblemas com os diferentes tipos de resposta que aceitamos:"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 9,
+  "hash": "0c6ee5c887839d04079585ceef4264ee59772a0fd3475a6e24e8cddc9fd38a73",
+  "traducao": "    Digite {{MATH_55}}\n  {{CMD_56}}\n{{CMD_57}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 10,
+  "hash": "fc38c735f6184a052b5e86e18dee22eea1cb0ffe1e766fdc64264847bd7269d5",
+  "traducao": "    Digite {{MATH_58}}\n  {{CMD_59}}\n{{CMD_60}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 11,
+  "hash": "b55abf8df7aacacad30d1ae655dc93396e01601054fb7fa3328a8567f616d19b",
+  "traducao": "    Digite {{MATH_61}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 12,
+  "hash": "fd76686021154ebc08bfcd7863e890bd74072d00dd2cf66c2c2978ccee6aac12",
+  "traducao": "    Observe que digitar {{MATH_62}} não funciona.\n  {{CMD_63}}\n{{CMD_64}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 13,
+  "hash": "dbe0790e2428436c6c21bb11cd8b340b69348a91b57f02bb0e4b79cfcb05ddf1",
+  "traducao": "    Você pode digitar {{MATH_65}} ou {{MATH_66}}, mas\n    {{MATH_67}} pode ser preferível porque é mais fácil de interpretar\n    corretamente.\n  {{CMD_68}}\n{{CMD_69}}\n{{CMD_70}}\n  {{MATH_71}}\n  {{CMD_72}}\n    Você poderia digitar {{MATH_73}} ou {{MATH_74}}\n  {{CMD_75}}\n{{CMD_76}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 14,
+  "hash": "8e6875baa822c89bb251e9e995a7079420f84c31831eb3de1c33cf0da91d28e4",
+  "traducao": "    Digite {{MATH_77}}\n  {{CMD_78}}\n{{CMD_79}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 15,
+  "hash": "bd8e1a7bd2a31618df8088560239d38f6fff109240d747c27551bf8c61e7b0eb",
+  "traducao": "    Digite {{MATH_80}}\n  {{CMD_81}}\n{{CMD_82}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 16,
+  "hash": "84c8a5e746561c7a9242828329f1fd1536183ce556918015e95a5c3f27c33399",
+  "traducao": "    Digite {{MATH_83}}\n  {{CMD_84}}\n{{CMD_85}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 17,
+  "hash": "e58045dbc3947f2c2c137f425ce013690798976e861a2587860ed31c9c7992dc",
+  "traducao": "    Digite {{MATH_86}}\n  {{CMD_87}}\n  {{CMD_88}}\n    Também funcionaria digitar {{MATH_89}}\n  {{CMD_90}}\n{{CMD_91}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 18,
+  "hash": "a0c1cdf5eb110b3b93674eca44d54bd43d381b77062daa221f5af347a04c72f0",
+  "traducao": "    Não temos um jeito ``elegante'' de digitar isso, então você deve simplesmente\n    digitar {{MATH_92}}, que é equivalente.\n  {{CMD_93}}\n{{CMD_94}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 19,
+  "hash": "ee8b3792b9dda8d230f4c08882416c598ae48059e829eb135ae246acf14214bd",
+  "traducao": "    Digite {{MATH_95}}.\n  {{CMD_96}}\n{{CMD_97}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 20,
+  "hash": "b44fb85b38fde0549e4ebfeede9cecb17594f10f37bb7263c682f84480336d2c",
+  "traducao": "    Digite {{MATH_98}}, {{MATH_99}} ou {{MATH_100}}.\n  {{CMD_101}}\n{{CMD_102}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 21,
+  "hash": "863bbad027a3ff84d81ef9365ffa5a634eea0b57f80d5c989c710120c2fa9081",
+  "traducao": "À medida que você completa as atividades, a ``barra de conclusão'' verde avança no\ntopo da página.  Ela mostra o quão perto você está de terminar\numa atividade."
+ },
+ {
+  "arquivo": "ximeraTutorial/howToUseXimera.tex",
+  "ordem": 22,
+  "hash": "7b3b9a7f3722496bc45a2ab2791ef60c009bf337981662bb236132f3986ea5bb",
+  "traducao": "Você avança pelas páginas completando-as e clicando no botão\n``próxima atividade'', ou navegando pela pequena barra de rolagem no\ntopo da página."
+ },
+ {
+  "arquivo": "ximeraTutorial/howIsMyWorkScored.tex",
+  "ordem": 0,
+  "hash": "c288f116497ee4dd16b54c8b2c3501433a9ec16a7ee057fee423a610cfced163",
+  "traducao": "Como meu trabalho é avaliado?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Explicamos como seu trabalho é avaliado.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "ximeraTutorial/howIsMyWorkScored.tex",
+  "ordem": 1,
+  "hash": "640c0244c4365c4d95d850d0568a6e5668e8d39129453883815d35b102b41286",
+  "traducao": "Queremos que você aprenda com este texto. Por isso, fazemos perguntas para\n``provocar'' seu raciocínio e deixamos lacunas nos exemplos para garantir que você esteja\nacompanhando. Incentivamos você a {{CMD_7}}manter um caderno{{CMD_8}} em que\nescreva cada pergunta e suas respostas, junto com cada teorema e exemplo\nimportante. Em essência, queremos que você imagine que {{CMD_9}}estamos\n  escrevendo matemática juntos{{CMD_10}} e, assim, explorando juntos um novo\nmundo da matemática."
+ },
+ {
+  "arquivo": "ximeraTutorial/howIsMyWorkScored.tex",
+  "ordem": 2,
+  "hash": "c871ac31426de5865bcbea80f952dc1179bf86fcca8df597896eef9b85578420",
+  "traducao": "Com isso em mente, seu trabalho é avaliado com base em ter sido\n{{CMD_11}}concluído{{CMD_12}} corretamente. A barra verde acima\n{{CMD_13}}\n  {{CMD_14}}\n{{CMD_15}}  \nindica o quão perto você está da conclusão. Esperamos que você consiga\ncompletar cada atividade e ver uma barra verde cheia:\n{{CMD_16}}\n  {{CMD_17}}\n{{CMD_18}}\nNo entanto, às vezes há um bug que impede uma ``barra verde cheia.''\nNesse caso, não se desespere, pois levamos esses bugs em conta na hora de\navaliar. Além disso, por favor, {{CMD_19}}avise-nos{{CMD_20}} sobre qualquer problema que você estiver\nenfrentando. Se possível, {{CMD_21}}corrigiremos o problema{{CMD_22}}."
+ },
+ {
+  "arquivo": "ximeraTutorial/howIsMyWorkScored.tex",
+  "ordem": 3,
+  "hash": "90a193d9fa3b2d453844a4c3ebb748598c9e4ee3ca303e969517e10e2fa080f7",
+  "traducao": "Se uma correção for feita, podemos publicar uma atualização. Nesse caso, um botão laranja aparecerá no topo da tela:\n{{CMD_23}}\n  {{CMD_24}}\n{{CMD_25}}\nSe você clicar no botão ``atualizar'', uma caixa de diálogo aparecerá:\n{{CMD_26}}\n  {{CMD_27}}\n{{CMD_28}}\nSe você atualizar seu trabalho, a atividade atual será substituída por uma\nnova atividade. Como seu trabalho anterior se referia à versão\nanterior da atividade, ele será\napagado. No entanto, se você já tinha concluído a atividade, {{CMD_29}}seu\n  registro de conclusão permanece{{CMD_30}}. Você pode verificar isso selecionando\noutra atividade e observando a barra verde da atividade\natualizada.  Infelizmente, se a sua atividade não estava concluída antes de você\natualizar e você quiser uma barra verde cheia na atividade atualizada,\nterá que completar a atividade de novo."
+ },
+ {
+  "arquivo": "ximeraTutorial/howIsMyWorkScored.tex",
+  "ordem": 4,
+  "hash": "e65cfb7b4495024f5fe93b0458c501936823660bd15cd975f9334c021fdf232a",
+  "traducao": "Queremos simplesmente que você aprenda, e oferecer a você a melhor experiência de\naprendizagem possível."
+ },
+ {
+  "arquivo": "ximeraTutorial/howIsMyWorkScored.tex",
+  "ordem": 5,
+  "hash": "2dd3c098b3cdbaded9e31592e515723b92eb83e6778ee6e42b72e43d68bcac3c",
+  "traducao": "  Você está pronto para começar a aprender um pouco de Cálculo!?!\n  {{CMD_31}}\n    {{CMD_32}}Sim, estou!{{CMD_33}}\n  {{CMD_34}}\n  {{CMD_35}}\n    Prometemos que o curso de verdade não será tão bobo assim.\n  {{CMD_36}}\n{{CMD_37}}"
+ }
+]

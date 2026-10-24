@@ -354,3 +354,26 @@ pub fn delete_glossary(conn: &Connection, original: &str) -> Result<()> {
     conn.execute("DELETE FROM glossary WHERE termo_original=?1", [original])?;
     Ok(())
 }
+/// Translations of protected snippets (`\dfn{...}`, `\text{...}` inside
+/// mathematics), keyed by the exact original text. See `translations`.
+pub fn protected_translations(
+    conn: &Connection,
+) -> Result<std::collections::HashMap<String, String>> {
+    let mut st = conn.prepare("SELECT original, traduzido FROM protected_translations")?;
+    let map = st
+        .query_map([], |r| Ok((r.get(0)?, r.get(1)?)))?
+        .collect::<rusqlite::Result<_>>()?;
+    Ok(map)
+}
+pub fn upsert_protected_translation(
+    conn: &Connection,
+    original: &str,
+    translated: &str,
+) -> Result<()> {
+    conn.execute(
+        "INSERT INTO protected_translations(original, traduzido) VALUES (?1, ?2)
+         ON CONFLICT(original) DO UPDATE SET traduzido = excluded.traduzido",
+        params![original, translated],
+    )?;
+    Ok(())
+}
