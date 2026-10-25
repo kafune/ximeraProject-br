@@ -1,0 +1,192 @@
+<!-- traduz-render: e6d16b42bed2fb8f2619191f22c59a7391e2943ef13e11f43c4558293ae2e608 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Usamos limites para calcular a velocidade instantânea. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Quando calculamos a velocidade média, olhamos para \[ \frac {\text {variação da posição}}{\text {variação do tempo}}. \] Para obter a velocidade
+(instantânea), queremos que a variação do tempo “vá para” zero. A esta altura, já
+devemos saber que “vai para” é uma expressão-chave para um <em>limite</em>. A variação do
+tempo costuma ser dada como o comprimento de um intervalo de tempo, e esse
+comprimento vai para zero.
+</p>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-2r1'></a> A <strong>velocidade média</strong> no intervalo (de tempo) \([a,b]\) é dada por \[ v_{\text {méd}} = \frac {\text {variação da posição}}{\text {variação do tempo}} = \frac {s(b)-s(a)}{b-a}.\] Aqui \(s(t)\) denota
+a posição, no instante \(t\), de um objeto que se move ao longo de uma reta.
+</div>
+<p class='noindent'>Vamos juntar tudo isso resolvendo um exemplo.
+</p>
+<div class='theorem-like problem-environment example' id='problem2' titletext=' example'><a id='x1-3r2'></a>Um jovem matemático lança uma bola verticalmente para cima com velocidade
+de 40 pés/s. Sua altura (em pés) após \(t\) segundos é dada por \[ s(t) = 40t-16t^2 \qquad \text {(pés acima do solo)} . \] Aqui está o
+gráfico de \(s\). <div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/anApplicationOfLimits/digInInstantaneousVelocity-92d701069f04ce7becbd0626ecbe5d0d.svg" />
+</div>
+<div class='problem-environment question' id='problem3' numbered='' role='article' titletext=' Question'>  Quando a bola vai atingir o chão?
+<div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-4r3'></a>Para determinar quando a bola atinge o chão, precisamos resolver a equação \[ s(t)=0 \] para t.
+Isto é, \begin{align*}  40t-16t^2 &amp;= 0\\ t(40-16t) &amp;= 0.  \end{align*}
+<p class='noindent'>Essa equação tem duas soluções; uma delas é \(t=0\) segundos.
+</p><p class='noindent'>Como a bola atinge o chão algum tempo depois de ser lançada, concluímos que a
+bola atinge o chão em um instante em que \(t&gt;0\).
+                                                                  
+
+                                                                  
+</p><p class='noindent'>A bola atingirá o chão no instante \[ t=\class{xm-given}{2.5} \unit {seconds.} \] </p></div>
+</div>
+<div class='problem-environment question' id='problem5' numbered='' role='article' titletext=' Question'>  Qual é a altura da bola após \(2\) segundos?
+<div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-5r4'></a>Para encontrar a altura da bola após \(2\) segundos, basta substituir \(2\) na equação de
+\(s(t)\).
+<p class='noindent'>A altura da bola após \(2\) segundos é \[ s(2) = 40\cdot \class{xm-given}{2} - 16\cdot \class{xm-given}{2}^2 = \class{xm-given}{16}\unit {ft.} \] </p></div>    </div>
+<p class='noindent'>Considere os pontos a seguir, situados sobre o eixo \(s\). </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/anApplicationOfLimits/digInInstantaneousVelocity-4a225f71c5d4222ec5546d814c2af860.svg" /> </div>
+<div class='problem-environment question' id='problem7' numbered='' role='article' titletext=' Question'>  Quais pontos correspondem à altura da bola nos instantes \(t=0\), \(t=1\) e \(t=2\) segundos? Faça as
+escolhas corretas!
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-7x1'>
+     <p class='noindent'>O ponto que corresponde a \(s(0)\), a posição (altura) da bola em \(t=0\), é </p><div class='multiple-choice' id='problem8' titletext=' Multiple Choice'><span class='choice  ' id='choice1'>A </span><span class='choice correct ' id='choice2'>B </span><span class='choice  ' id='choice3'>C </span><span class='choice  ' id='choice4'>D</span> </div>
+     </li>
+<li class='enumerate' id='x1-9x2'>
+     <p class='noindent'>O ponto que corresponde a \(s(1)\), a posição (altura) da bola em \(t=1\), é </p><div class='multiple-choice' id='problem9' titletext=' Multiple Choice'><span class='choice  ' id='choice5'>A </span><span class='choice  ' id='choice6'>B </span><span class='choice  ' id='choice7'>C </span><span class='choice correct ' id='choice8'>D</span> </div>
+     </li>
+<li class='enumerate' id='x1-11x3'>
+     <p class='noindent'>O ponto que corresponde a \(s(2)\), a posição (altura) da bola em \(t=2\), é </p><div class='multiple-choice' id='problem10' titletext=' Multiple Choice'><span class='choice  ' id='choice9'>A </span><span class='choice  ' id='choice10'>B </span><span class='choice correct ' id='choice11'>C </span><span class='choice  ' id='choice12'>D</span> </div></li></ol>
+                                                                  
+
+                                                                  
+</div>
+<p class='noindent'>Em seguida, vamos considerar a velocidade média da bola.   </p><div class='problem-environment question' id='problem11' numbered='' role='article' titletext=' Question'>   Qual é a velocidade
+média da bola no intervalo de tempo \([1,2]\)?
+<div class='theorem-like problem-environment explanation' id='problem12' titletext=' explanation'><a id='x1-12r5'></a>Para encontrar a velocidade média da bola no intervalo \([1,2]\), lembramos que a
+velocidade média no intervalo de tempo \([a,b]\) é dada por \[ v_{\text {méd}} = \frac {s(b) - s\left ({a}\right )}{b-a}.\] Agora basta substituir \(a=1\) e
+\(b=2\).
+<p class='noindent'>\[v_{\text {méd}} = \frac {s(2)-s(1)}{2-1} = \frac {\class{xm-given}{16} - \class{xm-given}{24}}{1} = \class{xm-given}{-8}\unit {ft}/\unit {s}.\]
+</p><p class='noindent'>Confira a figura abaixo. </p><div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/anApplicationOfLimits/digInInstantaneousVelocity-70266d153d7ec2326fafa5c9ee5d8fe2.svg" /></div> </div>
+</div>
+<div class='problem-environment question' id='problem13' numbered='' role='article' titletext=' Question'>  Qual é a velocidade média da bola no intervalo de tempo \([t,2]\), para \(0&lt;t&lt;2\)?
+<div class='theorem-like problem-environment explanation' id='problem14' titletext=' explanation'><a id='x1-13r6'></a>Usamos a fórmula da velocidade média. \begin{align*}  v_{\text {méd}} &amp;= \frac {s(2)-s\left ({t}\right )}{{2}-{t}}\\ &amp;= \frac {16 - (40t-16t^2)}{2-t}\\ &amp;= \frac {8(2t^2-5t+2)}{2-t}\\ &amp;= \frac {8(2t-1)\cancel {(t-2)}}{-\cancel {(t-2)}}\\ &amp;= -8(2t-1)\\ &amp;= 8-16t \hspace {0.06in}\unit {ft}/\unit {s},  \end{align*}
+<p class='noindent'>para \(0&lt;t&lt;2\). Confira a figura abaixo. </p><div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/anApplicationOfLimits/digInInstantaneousVelocity-03753b5aa6fcbdf1df708e6c497628e5.svg" /></div> </div>   </div>
+<div class='problem-environment question' id='problem15' numbered='' role='article' titletext=' Question'>  Qual é a velocidade média da bola no intervalo \([2,t]\), para \(2&lt;t&lt;2.5\)?
+<div class='theorem-like problem-environment explanation' id='problem16' titletext=' explanation'><a id='x1-14r7'></a>A velocidade média no intervalo \([2,t]\), para \(2&lt;t&lt;2.5\), é \[ v_{\text {méd}} = \frac {s(t)-s(2)}{t-2} = \frac {s(2)-s(t)}{2-t}. \] Observe que essa é exatamente a mesma
+expressão que obtivemos ao calcular a velocidade média no intervalo \([t,2]\) para
+\(0&lt;t&lt;2\).
+<p class='noindent'>A velocidade média no intervalo \([2,t]\), para \(2&lt;t&lt;2.5\), é dada por \[ v_{\text {méd}} =\class{xm-given}{8-16t}\hspace {0.06in}\unit {ft}/\unit {s}. \] </p></div>    </div>
+<div class='problem-environment question' id='problem17' numbered='' role='article' titletext=' Question'>  Usando os resultados das Perguntas 5 e 6, calcule a velocidade média no
+intervalo
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-16x1'>\([2, 2.1]\) \[ v_{\text {méd}} = 8-16(\class{xm-given}{2.1})=-25.6 \hspace {0.06in}\unit {ft}/\unit {s}\]
+     </li>
+<li class='enumerate' id='x1-18x2'>\([1.9,2]\) \[ v_{\text {méd}} = 8-16(\class{xm-given}{1.9})=-22.4 \hspace {0.06in}\unit {ft}/\unit {s}\]</li></ol>
+</div> </div>
+<p class='noindent'>No exemplo anterior, calculamos a <em>velocidade média</em> em vários intervalos diferentes.
+Por exemplo, a velocidade média no intervalo de tempo \([2,t]\) é \(v_{\text {méd}}=8-16t\). Observe que o tamanho,
+ou comprimento, desse intervalo de tempo é \(t-2\).
+</p><p class='noindent'>Se fizermos \(t\to 2\), o tamanho do intervalo vai para \(0\). À medida que \(t\) se aproxima de \(2\),
+estamos calculando a velocidade média em intervalos de tempo cada vez menores, e o
+limite dessas velocidades médias é chamado de <em>velocidade instantânea</em> em \(t=2\). Os limites
+nos permitirão calcular a velocidade instantânea.
+</p>
+<div class='theorem-like problem-environment definition' id='problem18' titletext=' definition'><a id='x1-19r8'></a> Como antes, suponha que \(s(t)\) denote a posição, no instante \(t\), de um objeto que se move
+ao longo de uma reta. Seja \(v_{\text {méd}}(t)\) a velocidade média no intervalo \([a, t]\) se \(t&gt;a\) e no intervalo \([t, a]\) se
+\(t&lt;a\).
+<p class='noindent'>A <strong>velocidade instantânea</strong> no instante \(t=a\) é dada por \[ v(a) = \lim _{t\to a} v_{\text {méd}}(t) = \lim _{t\to a}\dfrac {s(t)-s(a)}{t-a}.\]
+</p>
+</div><p> A velocidade instantânea é dada como um limite, \(v(a) = \lim _{t\to a}\dfrac {s(t)-s(a)}{t-a}\). Qual é a forma desse limite? O
+numerador \(s(t)-s(a)\) se aproxima de \(0\) quando \(t\to a\) (já que a função deslocamento \(s(t)\) é contínua) e o
+denominador \(t-a\) também se aproxima de \(0\). Esse limite tem a forma \(\relax \boldsymbol {\tfrac {0}{0}}\), uma forma
+indeterminada.
+</p><p class='noindent'>Vamos usar a mesma situação de antes para trabalhar com essa definição. </p><div class='theorem-like problem-environment example' id='problem19' titletext=' example'><a id='x1-20r9'></a>A altura
+de uma bola acima do chão durante o intervalo de tempo \([0,2.5]\), com \(t\) em segundos e \(s(t)\) em
+pés, é dada por \[ s(t) = 40t - 16t^2.\] Determine \(v(2)\), a velocidade instantânea da bola \(2\) segundos após ela ser
+lançada.
+                                                                  
+
+                                                                  
+<div class='theorem-like problem-environment explanation' id='problem20' titletext=' explanation'><a id='x1-21r10'></a>Do exemplo anterior, sabemos que a velocidade média da bola no intervalo \([t,2]\),
+para \(0&lt;t&lt;2\), e a velocidade média no intervalo \([2,t]\), para \(2&lt;t&lt;2.5\), são ambas dadas por \[ v_{\text {méd}}(t) = \frac {s(t)-s(2)}{t-2}= 8-16t \hspace {0.06in}\unit {ft}/\unit {s}. \] Para
+encontrar a velocidade instantânea \(v(2)\), tomamos o limite quando \(t\) tende a \(\class{xm-given}{2}\).
+\begin{align*}  v (2) &amp;= \lim _{t\to 2}v_{\text {méd}}(t)\\ &amp;=\lim _{t\to 2} \frac {s(t)-s(2)}{t-2} \\ &amp;= \lim _{t\to 2}(8-16t)\\ &amp;= \class{xm-given}{-24}\unit {ft}/\unit {s}.  \end{align*}
+</div> </div>
+<script type="application/json" class="xm-answers">{}</script>

@@ -1,0 +1,304 @@
+<!-- traduz-render: 15877aec097980c0d83b8da3c386de0330cb39b77bb60adbd729133ef18926a7 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class="abstract">
+Apresentamos mais contextos para entender integrais. 
+</div>
+<div class="maketitle"></div>
+<h3 class="sectionHead"><span class="titlemark">1   </span> <a 
+ id="x1-10001"></a>Velocidade e deslocamento, velocidade escalar e distância</h3>
+<p class="noindent" >Algumas grandezas incluem uma “direção” que é relativa a algum ponto
+fixo.
+</p>
+     <ul class="itemize1">
+     <li class="itemize">
+     <p class="noindent" >\(v(t)\) é a <strong>velocidade</strong> de um objeto no instante \(t\). Ela representa a “variação da
+     posição” no instante \(t\).
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(s(t)\) é a <strong>posição</strong> de um objeto no instante \(t\). Ela dá a localização em relação
+     à origem. \[ s(t) = s(a)+\int _a^t v(z) \d z. \]
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(s(b) - s(a)\) é o <strong>deslocamento</strong>, a distância entre a localização inicial e a localização
+     final.</p></li></ul>
+<p class="noindent" >Por outro lado, <em>velocidade escalar</em> e <em>distância</em> são grandezas sem “direção”.
+</p>
+     <ul class="itemize1">
+     <li class="itemize">
+     <p class="noindent" >\(|v(t)|\) é a <strong>velocidade escalar</strong>.
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\int _a^b |v(t)| \d t\) é a <strong>distância</strong> percorrida.</p></li></ul>
+<div role="article" class="problem-environment question" id="problem1" numbered="" titletext=" Question">  Considere uma partícula cuja velocidade no instante \(t\) é dada por \(v(t) = \sin (t)\).
+                                                                  
+
+                                                                  
+<div class="image-environment" role="img" aria-labelledby="image-alt-1"> <img 
+src="/rendered/applicationsOfIntegrals/digInApplicationsOfIntegrals-62c7f7bc1950ba99f6406374d269303a.svg" alt="[Picture]"  /> </div> Qual é o deslocamento da partícula de \(t=0\) a \(t=\pi \)? Isto é, calcule: \[ \int _0^\pi \sin (t) \d t \begin{prompt}= \class{xm-given}{2}\end{prompt} \] Qual é o deslocamento
+da partícula de \(t=0\) a \(t=2\pi \)? Isto é, calcule: \[ \int _0^{2\pi } \sin (t) \d t \begin{prompt}= \class{xm-given}{0}\end{prompt} \] Qual é a distância percorrida pela partícula de \(t=0\)
+a \(t=\pi \)? Isto é, calcule: \[ \int _0^\pi \left | \sin (t) \right | \d t \begin{prompt}= \class{xm-given}{2}\end{prompt} \] Qual é a distância percorrida pela partícula de \(t=0\) a \(t=2\pi \)? Isto é,
+calcule: \[ \int _0^{2\pi } \left | \sin (t) \right | \d t \begin{prompt}=\class{xm-given}{4}\end{prompt} \]    </div>
+
+<h3 class="sectionHead"><span class="titlemark">2   </span> <a 
+ id="x1-20002"></a> Variação líquida de uma quantidade </h3>
+<p class="noindent" >Podemos aplicar os teoremas fundamentais do cálculo a uma variedade de problemas
+em que tanto a acumulação quanto a taxa de variação desempenham papéis
+importantes. Por exemplo, podemos considerar um tanque que está sendo abastecido
+com combustível a uma certa taxa. Dada a taxa, podemos perguntar qual é a
+quantidade de combustível no tanque em um certo instante. Ou um tanque que está
+sendo esvaziado a uma taxa dada, ou uma cultura de bactérias crescendo em uma
+placa de Petri, ou a população de uma cidade, etc. Isso nos leva ao nosso próximo
+teorema.
+</p>
+<div class="theorem-like problem-environment theorem" id="problem2" titletext=" theorem"><a 
+ id="x1-2001r1"></a>            Seja \(A(t)\) a quantidade de alguma substância/população no instante
+\(t\).
+<p class="noindent" >Suponha que a função \(A\) seja contínua e derivável e que sua derivada, \(A'\), seja contínua
+em algum intervalo de tempo \([a,b]\).
+</p><p class="noindent" >Então a <strong>variação líquida</strong>, \(\Delta A\), da quantidade \(A\) ao longo do intervalo de tempo \([a,b]\) é dada
+por \[ \Delta A = A(b)-A(a)=\int _a^b A'(t)dt. \] </p></div> <div class="theorem-like problem-environment explanation" id="problem3" titletext=" explanation"><a 
+ id="x1-2002r2"></a>Isso vem do segundo teorema fundamental do cálculo. É claro que \(\Delta A = A(b)-A(a)\), o que dá a
+variação da quantidade \(A\) ao longo do intervalo de tempo \([a,b]\). É a diferença entre a
+quantidade no fim do intervalo de tempo e a quantidade no início do intervalo de
+                                                                  
+
+                                                                  
+tempo.
+<p class="noindent" >O lado direito da equação, a integral definida, dá a “acumulação de uma taxa”. Você
+pode pensar nessa integral definida como o limite de somas de Riemann, em que cada
+soma de Riemann é a “soma das variações da quantidade em pequenos intervalos de
+tempo”. </p></div>
+<div class="theorem-like problem-environment example" id="problem4" titletext=" example"><a 
+ id="x1-2003r3"></a>Um experimento é conduzido no qual uma cultura de bactérias é cultivada em uma
+placa de Petri. A população inicial foi estimada em 1200 células. A taxa de
+crescimento da população é estimada em \(P'(t)=100e^{-0.2 t}\) células/dia.
+     <ol  class="enumerate1" >
+<li 
+  class="enumerate" id="x1-2005x1">
+     <p class="noindent" >Quanto a população cresceu durante os três primeiros dias do experimento? </p><div class="theorem-like problem-environment explanation" id="problem5" titletext=" explanation"><a 
+ id="x1-2006r4"></a>O
+     crescimento da população durante os três primeiros dias do experimento é dado
+     por: \begin{align*}  P(3)-P(0) &amp;=\int _0^3 P'(t)\d t\\ &amp;=\int _0^3 100 e^{-0.2 t}\d t\\ &amp;=\eval {\frac {100}{-0.2}e^{-0.2 t}}_0^3\approx 226  \end{align*}
+     <p class="noindent" >Durante os três primeiros dias, a população cresceu aproximadamente 226
+     células. </p></div>
+     </li>
+<li 
+  class="enumerate" id="x1-2008x2">
+     <p class="noindent" >Calcule a soma de Riemann à direita da função \(P'\) no intervalo \([0,3]\) com \(n=3\). O que essa
+     soma de Riemann aproxima? Essa aproximação é uma estimativa por falta ou
+     por excesso, e por quê?
+</p>
+     <div class="theorem-like problem-environment explanation" id="problem6" titletext=" explanation"><a 
+ id="x1-2009r5"></a>Essa soma de Riemann aproxima a variação da população durante os três
+     primeiros dias do experimento. Esperamos que ela seja uma estimativa por
+     falta, porque a função \(P'\) é decrescente e esta é uma soma de Riemann à
+     direita.
+     <p class="noindent" >Como \(n=3\), \(\Delta t=\dfrac {3-0}{3}=1\). Como estamos usando uma soma de Riemann à direita, nossos pontos
+     amostrais serão \(x_k^* = a + k \Delta t = 0 + k \cdot 1 = k\). \begin{align*}  P(3)-P(0) &amp;= \int _0^3 P'(t) \d t\\ &amp;\approx \sum _{k=1}^3P'(k)\\ &amp;=P'(1)+P'(2)+P'(3)\\ &amp;=100e^{-0.2 }+100e^{-0.4}+100e^{-0.6}\\ &amp;\approx 204  \end{align*}
+</p>
+     </div>
+     </li>
+<li 
+  class="enumerate" id="x1-2011x3">
+     <p class="noindent" >Determine a população em um instante qualquer \(t\ge 0\). </p><div class="theorem-like problem-environment explanation" id="problem7" titletext=" explanation"><a 
+ id="x1-2012r6"></a>\begin{align*}  P(t)-P(0)&amp;=\int _0^t P'(z)\d z\\ &amp;=\int _0^t 100 e^{-0.2 z}\d z\\ &amp;=\eval {\frac {100}{-0.2}e^{-0.2 z}}_0^t\\ &amp;=500\left (1-e^{-0.2 t}\right )  \end{align*}
+     <p class="noindent" >Portanto, para \(t\ge 0\), \[ P(t)=P(0)+500\left (1-e^{-0.2 t}\right )=1700 -500e^{-0.2 t} \] </p></div></li></ol>
+</div>
+                                                                  
+
+                                                                  
+
+<h3 class="sectionHead"><span class="titlemark">3   </span> <a 
+ id="x1-30003"></a>Valor médio de uma função contínua</h3>
+<p class="noindent" >Pensar em integrais definidas como “área com sinal” funciona muito bem
+enquanto for possível de fato visualizar a “área”. Em alguns casos, uma
+metáfora melhor para integrais vem da ideia de <em>valor médio</em>. Olhando para trás,
+para a sua época de matemático ainda mais jovem, você talvez se lembre
+da ideia de <em>média</em>: \[ \frac {f_1+f_2+\dots +f_n}{n} = \frac {1}{n}\sum _{k=1}^n f_k \] Se quisermos conhecer \(\overline {f}\), o valor médio de uma função
+no intervalo \([a,b]\), uma abordagem ingênua seria introduzir \(n+1\) pontos igualmente
+espaçados no intervalo \([a,b]\) \[ a=x_0 &lt; x_1 &lt; \dots &lt; x_{n}=b \] e escolher um ponto amostral \(x_k^*\) em cada intervalo \([x_k,x_{k+1}]\),
+\(k=1,\dots ,n\).
+</p><p class="noindent" >Vamos aproximar o valor médio de \(f\) no intervalo \([a,b]\) pela média de \(f(x_1^*)\), \(f(x_2^*)\), …e \(f(x_n^*)\): \[ \overline {f}\approx \frac {f(x_1^*) + f(x_2^*) + \dots + f(x_n^*)}{n} = \frac 1n\sum _{k=1}^n f(x_k^*). \]
+Multiplicando essa última expressão por \(1 = \frac {(b-a)}{(b-a)}\): \begin{align*}  \frac 1n \sum _{k=1}^n f(x_k^*)\frac {(b-a)}{(b-a)} &amp;= \sum _{k=1}^n f(x_k^*)\frac 1n \frac {(b-a)}{(b-a)} \\ &amp;= \frac {1}{b-a} \sum _{k=1}^n f(x_k^*)\frac {b-a}n \\ &amp;=\frac {1}{b-a} \sum _{k=1}^n f(x_k^*)\Delta x  \end{align*}
+</p><p class="noindent" >em que \(\Delta x = (b-a)/n\). Ah! No lado direito temos uma soma de Riemann!
+</p><p class="noindent" >O que acontecerá quando \(n\to \infty \)?
+</p><p class="noindent" >Tomamos o limite quando \(n\to \infty \): \[ \overline {f}=\lim _{n\to \infty } \frac {1}{b-a} \sum _{k=1}^n f(x_k^*)\Delta x = \frac {1}{b-a} \int _a^b f(x)\d x. \] Isso nos leva à nossa próxima definição:
+</p>
+<div class="theorem-like problem-environment definition" id="problem8" titletext=" definition"><a 
+ id="x1-3001r7"></a> Seja \(f\) contínua em \([a,b]\). O <strong>valor médio</strong> de \(f\) em \([a,b]\) é dado por \[ \overline {f}= \frac {1}{b-a}\int _a^b f(x)\d x. \] </div> Multiplicando
+essa equação por \((b-a)\), obtemos que \[ \overline {f}(b-a)= \int _a^b f(x)\d x. \] Se \(f\) for positiva, o valor médio
+da função dá a altura de um único retângulo cuja área é igual a \[ \int _a^b f(x) \d x. \] <div class="image-environment" role="img" aria-labelledby="image-alt-2">
+<img 
+src="/rendered/applicationsOfIntegrals/digInApplicationsOfIntegrals-b336b4b9e5acb6aa743ba3c7f7902284.svg" alt="[Picture]"  /> </div>
+<p class="noindent" >Uma aplicação dessa definição é dada no próximo exemplo.
+</p>
+<div class="theorem-like problem-environment example" id="problem9" titletext=" example"><a 
+ id="x1-3002r8"></a>Um objeto se move para a frente e para trás ao longo de uma reta com velocidade
+dada por \(v(t) = (t-1)^2\) em \([0,3]\), em que \(t\) é medido em segundos e \(v(t)\) em pés/s.
+<p class="noindent" >Qual é a velocidade média do objeto? </p><div class="theorem-like problem-environment explanation" id="problem10" titletext=" explanation"><a 
+ id="x1-3003r9"></a>Pela definição, a velocidade média é:
+                                                                  
+
+                                                                  
+\begin{align*}  \overline {v}&amp;=\frac {1}{3-0}\int _0^3v(t)\d t\\ &amp;=\frac {1}{3}\int _0^3 (t-1)^2\d t \\ &amp;=\frac 13 \int _0^3 (t^2-2t+1)\d t\\ &amp;= \frac 13\eval {\frac {t^3}{3}-t^2+t}_0^3\\ &amp;= 1\text { ft/s}.  \end{align*}
+</div> </div>   <div role="article" class="problem-environment question" id="problem11" numbered="" titletext=" Question">   Escolha <strong>todas</strong> as expressões corretas para \(\overline {v}\), a velocidade média de um objeto
+que se move ao longo de uma reta no intervalo de tempo \([a,b]\).
+<p class="noindent" >(Lembrete: \(s\) é a função posição e \(a\) é a aceleração.) </p><div class="select-all" id="problem12" titletext=" Select All"><a 
+ id="x1-3004r10"></a> <span class="choice  "   id="choice1">\(\overline {v}=\frac {1}{b-a}\int _a^b s(t)\d t\)</span>
+<span class="choice correct "   id="choice2">\(\overline {v}=\frac {1}{b-a}\int _a^b v(t)\d t\)</span>
+<span class="choice  "   id="choice3">\(\overline {v}=\frac {1}{b-a}\int _a^b a(t)\d t\)</span>
+<span class="choice  "   id="choice4">\(\overline {v}=\frac {a(b)-a(a)}{b-a}\)</span>
+<span class="choice  "   id="choice5">\(\overline {v}=\frac {v(b)-v(a)}{b-a}\)</span> <span class="choice correct "   id="choice6">\(\overline {v}=\frac {s(b)-s(a)}{b-a}\)</span>
+<p class="noindent" ></div> </p><div class="feedback" data-feedback="attempt" id="feedback13" titletext=" Feedback (attempt)">Já sabemos que \[ \overline {v}=\frac {s(b)-s(a)}{b-a}. \] Também sabemos que a função posição é dada por \[ s(t)=s(a)+\int _a^tv(z)\d z. \] Portanto, \[ \overline {v}=\frac {s(b)-s(a)}{b-a}=\frac {s(a)+\int _a^bv(t)\d t-s(a)}{b-a}=\frac {1}{b-a}\int _a^bv(t)\d t. \]
+Logo, podemos calcular a velocidade média usando tanto a função posição quanto a
+função velocidade. </div>    </div>
+<p class="noindent" >Quando calculamos a média de um conjunto finito de valores, não importa em que
+ordem colocamos esses valores. Quando calculamos o valor médio de uma função,
+porém, precisamos ter mais cuidado.
+</p><p class="noindent" >Por exemplo, há pelo menos duas maneiras diferentes de dar sentido a uma
+frase vaga como “A altura média de um ponto do semicírculo unitário” </p><div class="image-environment" role="img" aria-labelledby="image-alt-3">
+<img 
+src="/rendered/applicationsOfIntegrals/digInApplicationsOfIntegrals-60d2dbf59df81663153f43b9cf0a3269.svg" alt="[Picture]"  /> </div> Uma maneira de dar sentido a “A altura média de um ponto do semicírculo
+unitário” é calcular o valor médio da função \[ f(x) =\sqrt {1-x^2} \] no intervalo \([-1,1]\).
+<div class="theorem-like problem-environment example" id="problem14" titletext=" example"><a 
+ id="x1-3005r11"></a>Calcule o valor médio da função \[ f(x) =\sqrt {1-x^2} \] no intervalo \([-1,1]\). <div class="theorem-like problem-environment explanation" id="problem15" titletext=" explanation"><a 
+ id="x1-3006r12"></a>Pela definição, queremos calcular \[ \frac {1}{2}\int _{-1}^1 \sqrt {1-x^2} \d x. \]
+                                                                  
+
+                                                                  
+Calculando essa integral geometricamente, encontramos que o valor médio é \(\class{xm-given}{\frac {\pi }{4}}\). </div> </div> Outra
+maneira de dar sentido a “A altura média de um ponto do semicírculo unitário” é o
+valor médio da função \[ g(\theta ) =\sin (\theta ) \] em \([0,\pi ]\), já que \(\sin (\theta )\) é a altura do ponto do círculo unitário no
+ângulo \(\theta \). <div class="theorem-like problem-environment example" id="problem16" titletext=" example"><a 
+ id="x1-3007r13"></a>Calcule o valor médio da função \[ g(\theta ) =\sin (\theta ) \] no intervalo \([0,\pi ]\). <div class="theorem-like problem-environment explanation" id="problem17" titletext=" explanation"><a 
+ id="x1-3008r14"></a>Pela definição, queremos
+calcular \[ \frac {1}{\pi } \int _0^\pi \sin (\theta ) \d \theta . \] Calculando essa integral geometricamente, encontramos que o valor médio é
+\(\class{xm-given}{\frac {2}{\pi }}\). </div> </div>
+<p class="noindent" >Veja se você consegue entender intuitivamente por que a média usando \(f\) deve ser
+maior do que a média usando \(g\).
+</p>
+<h3 class="sectionHead"><span class="titlemark">4   </span> <a 
+ id="x1-40004"></a>Teorema do valor médio para integrais</h3>
+<p class="noindent" >Assim como temos um teorema do valor médio para derivadas, também temos um
+teorema do valor médio para integrais.
+</p>
+<div class="theorem-like problem-environment theorem" id="problem18" titletext=" theorem"><a 
+ id="x1-4001r15"></a><span class="theorem-like-title">Teorema do valor médio para integrais</span> Seja \(f\) contínua em \([a,b]\). Existe um valor \(c\) em \((a,b)\) tal
+que \[ \int _a^bf(x)\d x = f(c)(b-a). \] </div>
+<p class="noindent" >Assim como o teorema do valor intermediário e o teorema do valor médio para
+derivadas, esta é uma afirmação <em>existencial</em>. Ela nos diz que tal número \(c\) existe. Ela
+não nos diz como calculá-lo. Se quisermos calcular o valor de \(c\), teremos de recorrer às
+nossas habilidades algébricas.
+</p><p class="noindent" >O teorema do valor médio para integrais nos diz:
+     </p><blockquote class="quote">
+     <p class="noindent" ><strong>O valor médio de uma função contínua pertence à imagem
+     da função.</strong></p></blockquote>
+<div class="proof">
+<p class="noindent" ><span class="head"><a 
+ id="x1-4002r16"></a></span>Defina uma função acumulação (de área), \(F\), \[ F(x)= \int _a^x f(t)\d t \] Como \(F\) é contínua no intervalo \([a,b]\) e
+derivável no intervalo \((a,b)\), podemos aplicar o teorema do valor médio à função \(F\) no
+intervalo \([a,b]\). Portanto, existe um número \(c\) em \((a,b)\) tal que \[ F'(c)=\frac {F(b)-F(a)}{b-a} \] Mas sabemos que \(F'(c)=f(c)\) e que \(F(b)-F(a)=\int _a^bf(t)\d t =\int _a^bf(x)\d x \).
+Portanto, \[ f(c)=\frac {1}{b-a}\int _a^bf(x)\d x \] </p></div>
+<p class="noindent" >Ilustramos os princípios envolvidos nessa versão do teorema do valor médio no
+exemplo a seguir.
+</p>
+<div class="theorem-like problem-environment example" id="problem19" titletext=" example"><a 
+ id="x1-4003r17"></a>Seja \(f(x)=\sin (x)\). Considere \(\int _0^\pi \sin (x) \d x\). Determine um valor \(c\) garantido pelo teorema do valor médio.
+<div class="theorem-like problem-environment explanation" id="problem20" titletext=" explanation"><a 
+ id="x1-4004r18"></a>Primeiro precisamos calcular \(\int _0^\pi \sin (x)\d x\). \[ \int _0^\pi \sin (x)\d x =\eval {-\cos (x)}_0^\pi = 2. \] Assim, procuramos um valor \(c\) em \([0,\pi ]\) tal que \(\pi \sin (c) =2\). \[ \pi \sin (c) = 2\ \ \Rightarrow \ \ \sin (c) = 2/\pi \ \ \Rightarrow \ \ c_1 = \arcsin (2/\pi ) \approx 0.69. \] Há outro
+ponto desse tipo: \(c_2=\pi -0.69\). De fato, \[ f( \pi -0.69)=\sin {(\pi -0.69)}=\sin {(0.69)}=\frac {2}{\pi }=\overline {f}. \] Um gráfico de \(\sin (x)\), junto com um retângulo de
+                                                                  
+
+                                                                  
+altura \(\sin (0.69)\), é mostrado abaixo. A área do retângulo é a mesma que a área sob \(\sin (x)\)
+em \([0,\pi ]\). Os dois pontos \(c_1\) e \(c_2\) também aparecem na figura. Lembre-se de que \(f(c_1)=f(c_2)=\overline {f}\). <div class="image-environment" role="img" aria-labelledby="image-alt-4">
+<img 
+src="/rendered/applicationsOfIntegrals/digInApplicationsOfIntegrals-979c5e01e8e408ffa5a624514e8ea3d4.svg" alt="[Picture]"  /> </div> </div> </div>
+<script type="application/json" class="xm-answers">{}</script>

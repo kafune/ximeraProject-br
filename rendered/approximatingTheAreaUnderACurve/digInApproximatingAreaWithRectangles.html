@@ -1,0 +1,315 @@
+<!-- traduz-render: 233404e163a7530dab46dd8caa3d54a1c1c4f1a60990df09e2c0bd47601e39b3 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Apresentamos a ideia básica de usar retângulos para aproximar a área sob uma
+curva. 
+</div>
+<div class='maketitle'></div>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Retângulos e áreas</h3>
+<p class='noindent'>Sabemos calcular a área de muitas figuras diferentes: retângulos, triângulos,
+trapézios, círculos etc. E a área de algo como a região sob o gráfico de uma
+função?
+</p><p class='noindent'>Queremos calcular a área entre a curva \(y=f(x)\) e o eixo horizontal no intervalo \([a,b]\): </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-df940f92faaabdf16e5f19ffb8c38ebf.svg" /> </div><p> Uma maneira de fazer isso seria aproximar a área com retângulos.
+Com um retângulo, obtemos uma aproximação grosseira: </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-57a0ff5857d2e4aedb1d0158b0ec02c6.svg" /> </div><p> Dois retângulos talvez deem uma aproximação melhor: </p><div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-62a8d4fb5f93bdd90097f7bba761694a.svg" /> </div><p> Com ainda mais retângulos, obtemos uma aproximação cada vez melhor: </p><div aria-labelledby='image-alt-4' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-50a1db5fc34d8b5596ace84978c42eb6.svg" /> </div>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-1001r1'></a>Se estamos aproximando a área entre uma curva e o eixo \(x\) em \([a,b]\) com \(n\) retângulos de largura \(\Delta x\), então \[ \Delta x = \frac {b-a}{n}. \] </div> <div aria-labelledby='image-alt-5' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-5b6cf0a943a3ad437077eab689a9007c.svg" /> </div>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Suponha que queiramos aproximar a área entre a curva \(y=x^2+1\) e o eixo \(x\) no intervalo \([-1,1]\),
+com \(8\) retângulos. Quanto vale \(\Delta x\)?  \[ \Delta x = \class{xm-given}{1/4} \]     </div>
+<p class='noindent'>À medida que acrescentamos retângulos, aproximamos cada vez melhor a área que nos interessa: </p><div aria-labelledby='image-alt-6' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-7aadf0b93f2d6cce5b0b3725dc80cccf.svg" /> </div><p> Poderíamos encontrar a área exata se conseguíssemos calcular o limite quando
+a largura dos retângulos tende a zero e o número de retângulos tende a
+infinito.
+</p><p class='noindent'>Vamos estabelecer alguma notação para ajudar nesses cálculos:
+</p>
+<div class='theorem-like problem-environment definition' id='problem3' titletext=' definition'><a id='x1-1002r2'></a> Ao aproximar uma área com \(n\) retângulos, os <strong>pontos da malha</strong> \[ x_0,x_1,x_2,\dots ,x_n \] são as coordenadas \(x\)
+que determinam os lados dos retângulos. No gráfico abaixo, numeramos os retângulos para
+ajudar você a ver a relação entre os índices dos pontos da malha e o \(k\)-ésimo retângulo. <div aria-labelledby='image-alt-7' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-3a3246c3f13d959b605845fecb3d3911.svg" /> </div> Observe que, se estamos aproximando a área entre uma curva e o eixo horizontal em
+\([a,b]\) com \(n\) retângulos, então sempre vale que \[ x_0=a\qquad \text {e}\qquad x_n = b. \] </div>
+<div class='problem-environment question' id='problem4' numbered='' role='article' titletext=' Question'>  Se estamos aproximando a área entre uma curva e o eixo horizontal com \(11\)
+retângulos, quantos pontos da malha teremos? <div class='foldable' data-original='expandable' id='foldable5'>xmhintVocê pode desenhar!</div> Teremos \(\class{xm-given}{12}\)
+pontos da malha.     </div>
+                                                                  
+
+                                                                  
+
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Mas qual conjunto de retângulos?</h3>
+<p class='noindent'>Quando usamos \(n\) retângulos para calcular a área sob uma curva, a largura de cada
+retângulo é \(\Delta x=\frac {b-a}{n}\). É claro que \(\Delta x=x_k-x_{k-1}\), para \(k=1,\dots , n\).
+</p><p class='noindent'>Isso significa que: \begin{align*}  x_0 &amp;= a\\ x_1 &amp;= a + \Delta x\\ x_2 &amp;= a + 2\Delta x\\ x_3 &amp;= a + 3 \Delta x\\ ... &amp; ...\\ x_n &amp;= a + n\Delta x = b  \end{align*}
+</p><p class='noindent'>Isso nos dá uma fórmula para o \(k^{th}\) ponto da malha \[ x_k = a + k\Delta x. \]
+</p><p class='noindent'>Isso nos informa sobre os lados dos retângulos, mas como determinamos <em>a altura</em> do
+retângulo?
+</p><p class='noindent'>Escolhemos um <em>ponto amostral</em> \(x_k^*\) em \([x_{k-1}, x_k]\) e calculamos a função
+nesse ponto. O valor \(f(x_k^*)\) determina a altura de um retângulo. </p><div aria-labelledby='image-alt-8' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-b7af1190e0292957089d7e19475b5a29.svg" /> </div>
+<div class='theorem-like problem-environment definition' id='problem6' titletext=' definition'><a id='x1-2001r3'></a> Ao aproximar uma área com retângulos, um <strong>ponto amostral</strong> é a coordenada \(x\) que
+determina a altura do \(k^{th}\) retângulo. Para \(k=1,\dots , n\), denotamos um ponto amostral por: \[ x_k^* \] que está
+no subintervalo \([x_{k-1}, x_k]\), e o valor \[ f( x_k^*) \] é a altura do \(k^{th}\) retângulo. </div>
+<p class='noindent'>Há dois tipos diferentes de pontos cujas notações se parecem muito. Os pontos da
+malha, \(x_0, x_1, \dots , x_n\), e os pontos amostrais, \(x^*_1, x^*_2, \dots , x^*_n\). Os pontos da malha nos dizem onde ficam os lados
+esquerdo e direito dos retângulos que estamos construindo. Os pontos amostrais são
+substituídos na função para encontrar as alturas dos retângulos. Temos uma fórmula
+para os pontos da malha, \(x_k = a + k \Delta x\), mas nem sempre temos uma fórmula para os pontos
+amostrais.
+</p>
+<div class='problem-environment question' id='problem7' numbered='' role='article' titletext=' Question'>  Qual é a área do \(k^{th}\) retângulo mostrado na figura acima? <div class='select-all' id='problem8' titletext=' Select All'><a id='x1-2002r4'></a> <span class='choice  ' id='choice1'>\(A=\Delta x \) </span><span class='choice  ' id='choice2'>\(A=f(x)\Delta x \) </span><span class='choice  ' id='choice3'>\(A= f( x_k^*)x_k^*\) </span><span class='choice correct ' id='choice4'>\(A= f( x_k^*)\Delta x\) </span><span class='choice  ' id='choice5'>\(A=f(x)x\) </span><span class='choice  ' id='choice6'>\(A=k\Delta k\) </span><span class='choice correct ' id='choice7'>\(A= f( x_k^*)(x_k-x_{k-1})\)</span> </div>
+                                                                  
+
+                                                                  
+</div>
+<p class='noindent'>Os pontos amostrais \(x_k^*\) podem ser qualquer ponto do subintervalo \([x_{k-1}, x_k]\), mas há algumas
+escolhas padrão que podemos fazer para facilitar nossos cálculos. Aqui estão três
+opções de pontos amostrais que consideramos com frequência:
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>2.1   </span> <a id='x1-30002.1'></a>Retângulos definidos pelas extremidades esquerdas</h4>
+<p class='noindent'>Podemos montar os retângulos de modo que o ponto amostral seja a extremidade
+esquerda, \(x_k^* = x_{k-1}\).
+</p>
+<div aria-labelledby='image-alt-9' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-3dbedbd1f2400f3865b57bb26f76982d.svg" /> </div><p> No gráfico acima, a extremidade esquerda do \(k^{th}\) retângulo determina a altura do
+retângulo.
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>2.2   </span> <a id='x1-40002.2'></a>Retângulos definidos pelas extremidades direitas</h4>
+<p class='noindent'>Podemos montar os retângulos de modo que a extremidade direita determine a
+altura, \(x_k^* = x_{k}\).
+</p>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-10' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-2a0a740f1973a8bc6d87a62ad67911fe.svg" /> </div><p> No gráfico acima, a extremidade direita da base do \(k^{th}\) retângulo determina a
+altura.
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>2.3   </span> <a id='x1-50002.3'></a>Retângulos definidos pelos pontos médios</h4>
+<p class='noindent'>Podemos montar os retângulos de modo que o ponto médio da base determine a
+altura, \(x_k^* = \dfrac {x_{k-1}+x_k}{2}\).
+</p>
+<div aria-labelledby='image-alt-11' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-d0142d067beb216271f1cc4b51223881.svg" /> </div><p> No gráfico acima, o ponto médio da base do \(k^{th}\) retângulo determina a altura.
+                                                                  
+
+                                                                  
+</p>
+<h3 class='sectionHead'><span class='titlemark'>3   </span> <a id='x1-60003'></a>Somas de Riemann e aproximação de áreas</h3>
+<p class='noindent'>Uma vez que sabemos identificar nossos retângulos, podemos calcular aproximações
+de algumas áreas. Se estamos aproximando uma área com \(n\) retângulos, então
+\begin{align*}  \text {Área} &amp;\approx \sum _{k=1}^n (\text {altura do $k$-ésimo retângulo})\times (\text {largura do $k$-ésimo retângulo}) \\ &amp;=\sum _{k=1}^n f(x_k^*)\Delta x \\ &amp;= f(x_1^*)\Delta x + f(x_2^*)\Delta x + f(x_3^*)\Delta x + \dots + f(x_n^*)\Delta x.  \end{align*}
+</p>
+<div class='theorem-like problem-environment definition' id='problem9' titletext=' definition'><a id='x1-6001r5'></a>Uma soma da forma: \[ \sum _{k=1}^n f(x_k^*)\Delta x = f(x_1^*)\Delta x + f(x_2^*)\Delta x + \dots + f(x_n^*)\Delta x \] é chamada de <strong>soma de Riemann</strong>, pronuncia-se “ríman”.
+</div>
+<p class='noindent'>Uma soma de Riemann calcula uma aproximação da área entre uma curva e o eixo \(x\)
+no intervalo \([a,b]\). Ela pode ser definida de várias maneiras diferentes. No nosso curso, ela
+será definida por extremidades esquerdas, extremidades direitas ou pontos médios.
+Aqui vemos a conexão explícita entre uma soma de Riemann definida por
+extremidades esquerdas e a área entre uma curva e o eixo \(x\) no intervalo \([a,b]\): </p><div aria-labelledby='image-alt-12' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-baf572c50bbe5f4c613d2777db54957f.svg" /> </div><p> e aqui está a soma de Riemann associada \[ \sum _{k=1}^5 f(x_k^*)\Delta x = f(x_1^*)\Delta x + f(x_2^*)\Delta x + f(x_3^*)\Delta x + f(x_4^*)\Delta x + f(x_5^*)\Delta x. \]
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>3.1   </span> <a id='x1-70003.1'></a>Somas de Riemann à esquerda</h4>
+<div class='theorem-like problem-environment example' id='problem10' titletext=' example'><a id='x1-7001r6'></a>Considere \(f(x) = x^3/8-x+2\). Aproxime a área entre a curva \(y=f(x)\) e o eixo \(x\) no intervalo \([-1,3]\) usando uma soma
+de Riemann por <strong>extremidades esquerdas</strong> com \(n=5\) retângulos.
+<div class='theorem-like problem-environment explanation' id='problem11' titletext=' explanation'><a id='x1-7002r7'></a>Primeiro, observe que a largura de cada retângulo é \[ \Delta x = \frac {3-(-1)}{5} = \class{xm-given}{4/5}. \] Os pontos da
+malha definem os lados dos retângulos e podem ser vistos abaixo: <div aria-labelledby='image-alt-13' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-7a136e101002e7ba2991a14dd0a335ae.svg" /> </div> Por outro lado, os pontos amostrais indicam quais extremidades usamos: <div aria-labelledby='image-alt-14' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-7921a7b22b387d41ecbd7cbacd0f2642.svg" /> </div> É útil reunir todos esses dados em uma tabela: \[ \begin{array}{c|c|c|c} k &amp; x_k &amp; x^*_k &amp; f(x^*_k) \\ \hline 0 &amp; \class{xm-given}{-1} &amp; \text {NA} &amp; \text {NA} \\ 1 &amp; \class{xm-given}{-0.2} &amp; \class{xm-given}{-1} &amp; \class{xm-given}{2.875} \\ 2 &amp; \class{xm-given}{0.6} &amp; \class{xm-given}{-0.2} &amp; \class{xm-given}{2.199} \\ 3 &amp; \class{xm-given}{1.4} &amp; \class{xm-given}{0.6} &amp; \class{xm-given}{1.427} \\ 4 &amp; \class{xm-given}{2.2} &amp; \class{xm-given}{1.4} &amp; \class{xm-given}{0.943} \\ 5 &amp; \class{xm-given}{3} &amp; \class{xm-given}{2.2} &amp; \class{xm-given}{1.131} \\ \end{array} \] Agora podemos escrever uma soma
+de Riemann à esquerda \[ f(x_1^*)\Delta x + f(x_2^*)\Delta x + f(x_3^*)\Delta x +f(x_4^*)\Delta x+ f(x_5^*)\Delta x, \] que resulta em \begin{align*}  = 2.875 \cdot (4/5) &amp;+ 2.199 \cdot (4/5) + 1.427 \cdot (4/5)\\ &amp;+ 0.943 \cdot (4/5) + 1.131 \cdot (4/5)  \end{align*}
+<p class='noindent'>e obtemos \[ = \class{xm-given}{6.86}. \] </p></div> </div>
+
+<h4 class='subsectionHead'><span class='titlemark'>3.2   </span> <a id='x1-80003.2'></a>Somas de Riemann à direita</h4>
+<div class='theorem-like problem-environment example' id='problem12' titletext=' example'><a id='x1-8001r8'></a>Considere \(f(x) = x^3/8-x+2\). Aproxime a área entre o gráfico de \(f\) e o eixo \(x\) no intervalo \([-1,3]\) usando uma
+                                                                  
+
+                                                                  
+soma de Riemann por <strong>extremidades direitas</strong> com \(n=5\) retângulos.
+<div class='theorem-like problem-environment explanation' id='problem13' titletext=' explanation'><a id='x1-8002r9'></a>Primeiro, observe que a largura de cada retângulo é \[ \Delta x = \frac {3-(-1)}{5} = \class{xm-given}{4/5}. \] Os pontos da
+malha definem os lados dos retângulos e podem ser vistos abaixo: <div aria-labelledby='image-alt-15' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-b5077da2bcde3335fad3d689ea7192d2.svg" /> </div> Por outro lado, os pontos amostrais indicam quais extremidades usamos: <div aria-labelledby='image-alt-16' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-61ef11c768d9811dc6bd26f912c9334c.svg" /> </div> É útil reunir todos esses dados em uma tabela: \[ \begin{array}{c|c|c|c} k &amp; x_k &amp; x^*_k &amp; f(x^*_k) \\ \hline 0 &amp; \class{xm-given}{-1} &amp; \text {NA} &amp; \text {NA} \\ 1 &amp; \class{xm-given}{-0.2} &amp; \class{xm-given}{-0.2} &amp; \class{xm-given}{2.199} \\ 2 &amp; \class{xm-given}{0.6} &amp; \class{xm-given}{0.6} &amp; \class{xm-given}{1.427} \\ 3 &amp; \class{xm-given}{1.4} &amp; \class{xm-given}{1.4} &amp; \class{xm-given}{0.943} \\ 4 &amp; \class{xm-given}{2.2} &amp; \class{xm-given}{2.2} &amp; \class{xm-given}{1.131} \\ 5 &amp; \class{xm-given}{3} &amp; \class{xm-given}{3} &amp; \class{xm-given}{2.375} \\ \end{array} \] Agora podemos escrever uma soma
+de Riemann à direita \[ f(x_1^*)\Delta x + f(x_2^*)\Delta x + f(x_3^*)\Delta x +f(x_4^*)\Delta x+ f(x_5^*)\Delta x, \] que resulta em \begin{align*}  = 2.199 \cdot (4/5) &amp;+ 1.427 \cdot (4/5) + 0.943 \cdot (4/5)\\ &amp;+ 1.131 \cdot (4/5) + 2.375 \cdot (4/5)  \end{align*}
+<p class='noindent'>e obtemos \[ = \class{xm-given}{6.46}. \] </p></div> </div>
+
+                                                                  
+
+                                                                  
+<h4 class='subsectionHead'><span class='titlemark'>3.3   </span> <a id='x1-90003.3'></a>Somas de Riemann do ponto médio</h4>
+<div class='theorem-like problem-environment example' id='problem14' titletext=' example'><a id='x1-9001r10'></a>Considere \(f(x) = x^3/8-x+2\). Aproxime a área entre o gráfico de \(f\) e o eixo \(x\) no intervalo \([-1,3]\) usando uma
+soma de Riemann do <strong>ponto médio </strong> com \(n=5\) retângulos.
+<div class='theorem-like problem-environment explanation' id='problem15' titletext=' explanation'><a id='x1-9002r11'></a>Primeiro, observe que a largura de cada retângulo é \[ \Delta x = \frac {3-(-1)}{5} = \class{xm-given}{4/5}. \] Os pontos da
+malha definem os lados dos retângulos e podem ser vistos abaixo: <div aria-labelledby='image-alt-17' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-bde68ac6d29d7ecf2e9940b5ea89f3e3.svg" /> </div> Por outro lado, os pontos amostrais indicam quais pontos usamos: <div aria-labelledby='image-alt-18' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-28c9b343a67c2053eb2c98a506a861f2.svg" /> </div> É útil reunir todos esses dados em uma tabela: \[ \begin{array}{c|c|c|c} k &amp; x_k &amp; x^*_k &amp; f(x^*_k) \\ \hline 0 &amp; \class{xm-given}{-1} &amp; \text {NA} &amp; \text {NA} \\ 1 &amp; \class{xm-given}{-0.2} &amp; \class{xm-given}{-0.6} &amp; \class{xm-given}{2.573} \\ 2 &amp; \class{xm-given}{0.6} &amp; \class{xm-given}{0.2} &amp; \class{xm-given}{1.801} \\ 3 &amp; \class{xm-given}{1.4} &amp; \class{xm-given}{1} &amp; \class{xm-given}{1.125} \\ 4 &amp; \class{xm-given}{2.2} &amp; \class{xm-given}{1.8} &amp; \class{xm-given}{0.929} \\ 5 &amp; \class{xm-given}{3} &amp; \class{xm-given}{2.6} &amp; \class{xm-given}{1.597} \\ \end{array} \] Agora podemos escrever uma soma
+de Riemann do ponto médio \[ f(x_1^*)\Delta x + f(x_2^*)\Delta x + f(x_3^*)\Delta x+ f(x_4^*)\Delta x + f(x_5^*)\Delta x, \] que resulta em \begin{align*}  = 2.573 \cdot (4/5) &amp;+ 1.801\cdot (4/5) + 1.125 \cdot (4/5) \\ &amp;+ 0.929 \cdot (4/5) + 1.597\cdot (4/5)  \end{align*}
+<p class='noindent'>e obtemos \[ = \class{xm-given}{6.42}. \] </p></div> </div>
+<div class='theorem-like problem-environment example' id='problem16' titletext=' example'><a id='x1-9003r12'></a>
+<p class='noindent'>Considere a função \[ f(x) = 16 - x^2 \] no intervalo \([0,4]\). Vamos aproximar a área entre o gráfico de \(f\) e o
+                                                                  
+
+                                                                  
+eixo \(x\) no intervalo \([0,4]\). Veja a figura abaixo.
+</p>
+<div aria-labelledby='image-alt-19' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-324b5c8d3ee618ee76be84ace1311438.svg" /> </div>
+<p class='noindent'>A imagem mostra uma soma de Riemann <span class='word-choice' id='word-choice17'><a id='x1-9004r13'></a><span class='choice  ' id='choice8'>à esquerda</span><span class='choice correct ' id='choice9'>à direita</span><span class='choice  ' id='choice10'>do ponto médio</span></span>
+com \(n=\class{xm-given}{8}\) subintervalos.
+</p><p class='noindent'>\begin{align*}  x_1^* &amp;= \class{xm-given}{0.5}\\ f(x_1^*) &amp;= \class{xm-given}{15.75}\\ x_6^* &amp;= \class{xm-given}{3}\\ f(x_6^*) &amp;= \class{xm-given}{7}\\ x_n^* &amp;= \class{xm-given}{4}\\ f(x_n^*) &amp;= \class{xm-given}{0}\\ \Delta x &amp;= \class{xm-given}{\frac {1}{2}}\\ \sum _{k=1}^n f(x_k^*)\Delta x &amp;= \class{xm-given}{38.5}  \end{align*}
+</p><p class='noindent'>Há mais área sob o gráfico da função que não foi incluída na coleção de retângulos.
+Isso significa que essa aproximação é uma <span class='word-choice' id='word-choice18'><a id='x1-9005r14'></a><span class='choice  ' id='choice11'>estimativa por excesso</span><span class='choice correct ' id='choice12'>estimativa por
+falta</span></span>. </p></div>
+<div class='theorem-like problem-environment example' id='problem19' titletext=' example'><a id='x1-9006r15'></a>
+<p class='noindent'>Considere a função \[ f(x) = 16 - x^2 \] no intervalo \([0,4]\). Vamos aproximar a área entre o gráfico de \(f\) e o
+eixo \(x\) no intervalo \([0,4]\) usando uma soma de Riemann <strong>à direita </strong> com \(n\) retângulos.
+Primeiro, determine a largura de cada retângulo. \[ \Delta x = \class{xm-given}{\frac {4}{n}}\\ \] Em seguida, vamos determinar os
+pontos da malha.
+</p><p class='noindent'>\begin{align*}  x_0 &amp;= \class{xm-given}{0}\\ x_1 &amp;=0+\Delta x=\frac {4}{n}\\ x_2 &amp;= x_1+\Delta x=\class{xm-given}{2}\frac {4}{n}\\ x_3 &amp;= x_2+\Delta x= \class{xm-given}{3}\frac {4}{n}\\ &amp;\vdots \\ x_{k-1}&amp;= x_{k-2}+\Delta x=(\class{xm-given}{k-1})\frac {4}{n}\\ x_k&amp;= x_{k-1}+\Delta x=\class{xm-given}{k}\frac {4}{n}\\ &amp;\vdots \\ x_n&amp;=\class{xm-given}{4}.  \end{align*}
+</p><p class='noindent'>Para uma soma de Riemann à direita, para \(k=1,\dots ,n\), determinamos os pontos amostrais da
+seguinte forma: \[ x_k^* = x_k=\class{xm-given}{k}\frac {4}{n}. \] Agora podemos aproximar a área com uma soma de Riemann à
+direita. \begin{align*}  A\approx \sum _{k=1}^n f(x_k^*)\Delta x &amp;= \sum _{k=1}^n f(x_k)\frac {4}{n} \\ &amp;= \sum _{k=1}^n f\left (k\frac {4}{n}\right )\frac {4}{n} \\ &amp;= \sum _{k=1}^n \left (16-k^2\frac {16}{n^2}\right )\frac {4}{n}  \end{align*}
+</p><p class='noindent'>Podemos simplificar a última soma usando as propriedades distributiva, comutativa e
+associativa de uma soma. \begin{align*}  A\approx \sum _{k=1}^n \left (16-k^2\frac {16}{n^2}\right )\frac {4}{n} &amp;=\frac {4}{n} \sum _{k=1}^n \left (16-k^2\frac {16}{n^2}\right )\\ &amp;=\frac {4}{n}\left ( \sum _{k=1}^n 16-\sum _{k=1}^n k^2\frac {16}{n^2}\right )  \end{align*}
+</p><p class='noindent'>Na última soma, a constante \(\frac {16}{n^2}\) é um fator comum, então podemos aplicar novamente a
+propriedade distributiva e obter o seguinte \[ A\approx \frac {4}{n}\left ( \sum _{k=1}^n 16-\frac {16}{n^2}\sum _{k=1}^n k^2\right ) \] Na primeira soma acima, a constante \(16\) é
+somada \(n\) vezes, e temos uma fórmula para a segunda soma. Lembre-se: \(\sum _{k=1}^n k^2=\frac {n(n+1)(2n+1)}{6}\). Portanto, \[ A\approx \frac {4}{n}\left ( n(16)-\frac {16}{n^2}\cdot \frac {n(n+1)(2n+1)}{6}\right ) \]
+Podemos simplificar essa expressão e obter \[ A\approx 64-\frac {32(n+1)(2n+1)}{3n^2} \] Essa aproximação é uma <span class='word-choice' id='word-choice20'><a id='x1-9007r16'></a><span class='choice  ' id='choice13'>estimativa
+por excesso</span><span class='choice correct ' id='choice14'>estimativa por falta</span></span>.
+</p>
+<div class='theorem-like problem-environment remark' id='problem21' titletext=' remark'><a id='x1-9008r17'></a>No exemplo anterior, calculamos uma soma de Riemann à direita para \(n=8\). Verifique
+se o seu resultado estava correto substituindo \(n=8\) na fórmula acima. </div> Agora
+podemos tomar o limite das somas de Riemann quando \(n\to \infty \) para encontrar o valor
+exato da área da região sob a curva \(y=f(x)\) no intervalo \([0,4]\). Isto é, \[ A=\lim _{n\to \infty }\sum _{k=1}^n f(x_k^*)\Delta x, \] e, portanto, \[ A=\lim _{n\to \infty }\left (64-\frac {32(n+1)(2n+1)}{3n^2}\right )=\class{xm-given}{\frac {128}{3}}. \]
+                                                                  
+
+                                                                  
+</div>
+
+<h4 class='subsectionHead'><span class='titlemark'>3.4   </span> <a id='x1-100003.4'></a>Resumo</h4>
+<p class='noindent'>As somas de Riemann aproximam a área entre curvas e o eixo \(x\) por meio de
+retângulos. Ao calcular essa área com retângulos, há várias coisas que precisamos
+saber: </p>
+     <ul class='itemize1'>
+     <li class='itemize'>Em que intervalo estamos? Na discussão acima, chamamos esse intervalo
+     de \([a,b]\).
+     </li>
+     <li class='itemize'>Quantos retângulos serão usados? Na discussão acima, chamamos esse
+     número de \(n\).
+     </li>
+     <li class='itemize'>Qual é a largura de cada retângulo? Na discussão acima, chamamos essa
+     largura de \(\Delta x\).
+     </li>
+     <li class='itemize'>Que  pontos  determinarão  a  altura  do  retângulo?  Na  discussão  acima,
+     chamamos  esses  pontos  de  pontos  amostrais,  \(x_k^*\),  e  eles  podem  ser
+     extremidades esquerdas, extremidades direitas ou pontos médios.
+     </li>
+     <li class='itemize'>Qual é, de fato, a altura do retângulo? Ela será sempre \(f(x_k^*)\).
+     </li>
+     <li class='itemize'>
+     <p class='noindent'>Aproximamos a área \(A\) por uma soma de Riemann
+     </p><p class='noindent'>\(A\approx \sum _{k=1}^n f(x_k^*)\Delta x\).
+     </p></li>
+     <li class='itemize'>
+                                                                  
+
+                                                                  
+     <p class='noindent'>À medida que \(n\) fica cada vez maior, \(\Delta x\) fica cada vez menor, e a aproximação
+     fica cada vez melhor. Calculamos o valor exato de \(A\) tomando o limite das
+     somas de Riemann
+     </p><p class='noindent'>\(A= \lim _{n\to \infty }\sum _{k=1}^n f(x_k^*)\Delta x\).</p></li></ul>
+<script type="application/json" class="xm-answers">{}</script>

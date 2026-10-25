@@ -1,0 +1,184 @@
+<!-- traduz-render: 69b39118b9dbc5bbd28dc49c633059d282a91b51e5771355c850ddc4d41c43be -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Exploramos funções que se comportam como retas horizontais quando a entrada
+cresce indefinidamente. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Vamos começar com um exemplo: </p><div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-2r1'></a>Considere a função: \[ g(x) = \frac {1}{x} \] com a tabela abaixo
+\[ \begin{array}{c|c} x &amp; g(x)=\frac {1}{x} \\\hline 10 &amp; \class{xm-given}{0.1} \\ 100 &amp; \class{xm-given}{0.01} \\ 1000 &amp; \class{xm-given}{0.001} \\ 10000 &amp; \class{xm-given}{0.0001} \\ 100000 &amp; \class{xm-given}{0.00001}\end{array} \]
+<p class='noindent'>O que a tabela nos diz sobre \(g(x)\) quando \(x\) cresce cada vez mais? </p><div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>
+<p class='noindent'>Quando \(x\) cresce cada vez mais, parece que \(g(x)\) se aproxima de \(0\). Parece que deveríamos
+escrever \[ \lim _{x\to \infty }\frac {1}{x}=0 \] </p></div> </div>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-4r3'></a>Agora considere uma função diferente: \[ f(x) = \frac {6x-9}{x-1} \] <div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/asymptotesAsLimits/digInHorizontalAsymptotes-b0862c0d1e678bf107ddb6b657d63db4.svg" /> </div> Preencha a tabela abaixo, arredondando para \(5\) casas decimais. \[ \begin{array}{c|c} x &amp; f(x)=\frac {6x-9}{x-1} \\ \hline 10 &amp; \class{xm-given}{5.66667}\\ 100 &amp; \class{xm-given}{5.96970}\\ 1000 &amp; \class{xm-given}{5.99700}\\ 10000 &amp; \class{xm-given}{5.99970}\\ 100000 &amp; \class{xm-given}{5.99997}\\ \end{array} \] O que a
+tabela nos diz sobre \(f(x)\) quando \(x\) cresce cada vez mais? <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-5r4'></a>Quando \(x\) cresce cada
+vez mais, parece que \(f(x)\) se aproxima de \(6\). Parece que deveríamos escrever \[ \lim _{x\to \infty }\frac {6x-9}{x-1}=6 \] </div>
+</div>
+<div class='theorem-like problem-environment definition' id='problem5' titletext=' definition'><a id='x1-6r5'></a><a class='ximera-label' id='def:limitAtInfty'></a> Se \(f(x)\) fica arbitrariamente próximo de um valor específico \(L\) quando tomamos \(x\)
+suficientemente grande, escrevemos \[ \lim _{x\to \infty } f(x) = L \] e dizemos que o <strong>limite no infinito</strong> de \(f(x)\) é
+\(L\).
+<p class='noindent'>Se \(f(x)\) fica arbitrariamente próximo de um valor específico \(L\) quando tomamos \(x\)
+suficientemente grande e negativo, escrevemos \[ \lim _{x\to -\infty } f(x) = L \] e dizemos que o <strong>limite em menos
+infinito</strong> de \(f(x)\) é \(L\). </p></div>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-7r6'></a>Calcule o limite. \[ \lim _{x\to \infty } \frac {6x-9}{x-1}. \] Vamos confirmar o que havíamos conjecturado antes calculando o
+limite no infinito.<br class='newline' />Podemos assumir que todas as leis dos limites também valem para limites no infinito.
+<div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-8r7'></a>Escreva \begin{align*}  \lim _{x\to \infty }\frac {6x-9}{x-1} &amp;= \lim _{x\to \infty }\frac {6x-9}{x-1}\cdot \frac {1/x}{1/x}\\ &amp;=\lim _{x\to \infty }\frac {\frac {6x}{x} - \frac {9}{x}}{\frac {x}{x} - \frac {1}{x}}\\ &amp;=\frac {\lim _{x\to \infty }\Bigl (6- \frac {9}{x}\Bigr )}{\lim _{x\to \infty }\Bigl (1- \frac {1}{x}\Bigr )}\\ &amp;=\frac {6-9\lim _{x\to \infty } \frac {1}{x}}{1-\lim _{x\to \infty } \frac {1}{x}}\\ &amp;=\frac {6-9(0)}{1-0}\\ &amp;= \frac {6}{1}\\ &amp;= 6.  \end{align*}
+</div> </div>
+                                                                  
+
+                                                                  
+<p class='noindent'>Observe que, no primeiro passo desse cálculo, dividimos o numerador e o
+denominador por \(x\) (multiplicando-os por \(1/x\)). Este é um “truque” que frequentemente
+ajuda no cálculo de limites quando \(x\to \pm \infty \), se a função é uma fração. O ponto importante
+ao usar \(x\) aqui é que o denominador tem grau \(1\). Quando dividimos o denominador por \(x\),
+o denominador se aproxima de uma constante não nula. (Estamos dividindo o
+numerador e o denominador pelo tipo de termo de maior ordem de crescimento <strong>do
+denominador</strong>.)
+</p><p class='noindent'>Às vezes é preciso ter cuidado ao tentar aplicar esse truque. Considere este exemplo
+de uma função não racional.
+</p>
+<div class='theorem-like problem-environment example' id='problem8' titletext=' example'><a id='x1-9r8'></a>
+<p class='noindent'>\[ \lim _{x\to -\infty } \frac {x^3+1}{\sqrt {x^6+5}} \] </p><div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-10r9'></a>
+<p class='noindent'>O truque que aplicamos acima à função racional vai funcionar aqui, mas observe que
+o denominador está dentro de um radical. Para determinar o fator correto pelo qual
+dividir, precisaremos reescrever o radical.
+</p><p class='noindent'>\begin{align*}  \sqrt {x^6 + 5} &amp;= \sqrt { x^6\left (\dfrac {x^6}{x^6} + \dfrac {5}{x^6}\right )}\\ &amp;= \sqrt { x^6\left ( 1 + \dfrac {5}{x^6}\right ) }\\ &amp;= \sqrt {x^6} \sqrt {1 + \dfrac {5}{x^6} }\\ &amp;= \sqrt {(x^3)^2} \sqrt {1 + \dfrac {5}{x^6} }\\ &amp;= |x^3|\sqrt {1 + \dfrac {5}{x^6} }\\  \end{align*}
+</p><p class='noindent'>Para este último passo, lembre-se de que \(\sqrt {a^2} = |a|\) quando \(a\) pode assumir um valor negativo.
+Como estamos olhando para \(x\to -\infty \), sabemos que, a partir de certo ponto, \(x\) será negativo, e \(x^3\)
+também.
+</p><p class='noindent'>Essa simplificação significa que o denominador, no limite quando \(x\to -\infty \), vai se comportar
+como \(-x^3\sqrt {1+\dfrac {5}{x^6}}\). Como o fator com a raiz quadrada aqui tem limite \(\displaystyle \lim _{x\to -\infty } \sqrt {1 + \dfrac {5}{x^6} } = \sqrt {1 + \lim _{x\to \infty } \dfrac {5}{x^6}} = \sqrt {1+0}=1\), o crescimento do
+denominador é controlado pelo fator \(-x^3\). Nesse caso, dividimos o numerador e o
+denominador por \(x^3\),
+</p><p class='noindent'>\begin{align*}  \lim _{x\to -\infty } \dfrac {x^3+1}{\sqrt {x^6+5}} &amp;= \lim _{x\to -\infty } \frac {x^3+1}{-x^3 \sqrt {1 + \dfrac {5}{x^6} }} \cdot \frac {1/x^3}{1/x^3}\\ &amp;= \lim _{x\to -\infty } \dfrac {1+\dfrac {1}{x^3}}{\dfrac {-x^3}{x^3}\cdot \sqrt {1+\dfrac {5}{x^6}}}\\ &amp;= \lim _{x\to -\infty } \dfrac {1+\dfrac {1}{x^3}}{-1\cdot \sqrt {1+\dfrac {5}{x^6}}} \\ &amp;= \dfrac { \lim _{x\to -\infty }\left (1+\dfrac {1}{x^3}\right )}{\lim _{x\to -\infty }-1\cdot \sqrt {1+\dfrac {5}{x^6}}}\\ &amp;= \dfrac {1}{-1\cdot 1} = -1.  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>No exemplo anterior, usamos o fato de que \(|x^3|= -x^3\) quando \(x\) é negativo. Se o limite fosse
+quando \(x\to \infty \), então \(x\) e \(x^3\) acabariam assumindo valores positivos. Isso teria resultado em \(|x^3|=x^3\).
+Repita o cálculo do exemplo anterior, determinando o limite \(\displaystyle \lim _{x\to \infty } \frac {x^3+1}{\sqrt {x^6+5}}\) e tomando o cuidado de
+usar \(|x^3|=x^3\) na simplificação. Você vai descobrir que os dois limites (quando \(x\to \infty \) e quando \(x \to -\infty \))
+têm valores diferentes.
+</p><p class='noindent'>Observe que, como \[ \lim _{x\to \infty } f(x) = \lim _{x\to 0^+} f\left (\frac {1}{x}\right ) \] e \[ \lim _{x\to -\infty } f(x) = \lim _{x\to 0^-} f\left (\frac {1}{x}\right ) \] também podemos aplicar o teorema do confronto ao calcular
+limites no infinito. Aqui está um exemplo de limite no infinito que usa o teorema do
+confronto e mostra que as funções podem, de fato, cruzar suas assíntotas
+horizontais.
+</p>
+                                                                  
+
+                                                                  
+<div class='theorem-like problem-environment example' id='problem10' titletext=' example'><a id='x1-11r10'></a>Calcule: \[ \lim _{x\to \infty } \frac {\sin (7x)+4x}{x} \] <div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/asymptotesAsLimits/digInHorizontalAsymptotes-217e0e65398e45389cd1e902389501f7.svg" />
+</div>
+<div class='theorem-like problem-environment explanation' id='problem11' titletext=' explanation'><a id='x1-12r11'></a>Podemos limitar nossa função: \[ \frac {-1+4x}{x} \le \frac {\sin (7x)+4x}{x} \le \frac {1+4x}{x}. \] Agora escreva comigo \begin{align*}  \lim _{x\to \infty }\frac {-1+4x}{x} \cdot \frac {1/x}{1/x} &amp;= \lim _{x\to \infty }\frac {-1/x+4}{1}\\ &amp;=4.  \end{align*}
+<p class='noindent'>E também temos \begin{align*}  \lim _{x\to \infty }\frac {1+4x}{x} \cdot \frac {1/x}{1/x} &amp;= \lim _{x\to \infty }\frac {1/x+4}{1}\\ &amp;=4.  \end{align*}
+</p><p class='noindent'>Como \[ \lim _{x\to \infty } \frac {-1+4x}{x} = 4 = \lim _{x\to \infty }\frac {1+4x}{x} \] concluímos, pelo teorema do confronto, que \(\lim _{x\to \infty }\frac {\sin (7x)}{x}+4 = 4\). </p></div> </div>
+<div class='theorem-like problem-environment definition' id='problem12' titletext=' definition'><a id='x1-13r12'></a><a class='ximera-label' id='def:horiz asymptote'></a> Se \[ \lim _{x\to \infty } f(x) = L \qquad \text {ou}\qquad \lim _{x\to -\infty } f(x) = L, \] então a reta \(y=L\) é uma <strong>assíntota horizontal</strong> de \(f(x)\). </div>
+<div class='theorem-like problem-environment example' id='problem13' titletext=' example'><a id='x1-14r13'></a>Dê as assíntotas horizontais de \[ f(x) = \frac {6x-9}{x-1} \] <div class='theorem-like problem-environment explanation' id='problem14' titletext=' explanation'><a id='x1-15r14'></a>Pelo nosso trabalho anterior, vemos que \(\lim _{x\to \infty } f(x) = 6\) e,
+examinando com mais cuidado, vemos que \(\lim _{x\to -\infty } f(x) = 6\). Logo, a assíntota horizontal de \(f(x)\) é a reta \(y=6\).
+</div> </div>
+<p class='noindent'>É um equívoco comum pensar que uma função não pode cruzar uma assíntota.
+Como mostra o próximo exemplo, uma função pode cruzar uma assíntota horizontal
+e, no exemplo, isso acontece infinitas vezes!
+</p>
+<div class='theorem-like problem-environment example' id='problem15' titletext=' example'><a id='x1-16r15'></a>Dê uma assíntota horizontal de \[ f(x) = \frac {\sin (7x)+4x}{x}. \] <div class='theorem-like problem-environment explanation' id='problem16' titletext=' explanation'><a id='x1-17r16'></a>Novamente pelo trabalho anterior, vemos que \(\lim _{x\to \infty } f(x) = \class{xm-given}{4}\).
+Logo, \(y=\class{xm-given}{4}\) é uma assíntota horizontal de \(f(x)\). </div> </div>
+<p class='noindent'>Concluímos com um limite infinito no infinito.
+</p>
+                                                                  
+
+                                                                  
+<div class='theorem-like problem-environment example' id='problem17' titletext=' example'><a id='x1-18r17'></a>Calcule \[ \lim _{x\to \infty } \ln (x) \] <div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/asymptotesAsLimits/digInHorizontalAsymptotes-03f5712e5b2eaf1e5309a327d26cadac.svg" /> </div> <div class='theorem-like problem-environment explanation' id='problem18' titletext=' explanation'><a id='x1-19r18'></a>A função \(\ln (x)\)
+cresce muito lentamente e parece que poderia ter uma assíntota horizontal; veja o
+gráfico acima. No entanto, se considerarmos a definição do logaritmo natural como a
+inversa da função exponencial
+     <blockquote class='quote'>
+     <p class='noindent'>\(\ln (x) = y\) significa que \(e^y =x\) e que \(x\) é positivo.</p></blockquote>
+<p class='noindent'>vemos que podemos elevar \(e\) a valores cada vez maiores para obter números cada vez
+maiores. Isso significa que \(\ln (x)\) é ilimitada e, portanto, \(\lim _{x\to \infty }\ln (x)=\infty \). </p></div> </div>
+<script type="application/json" class="xm-answers">{}</script>

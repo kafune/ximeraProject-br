@@ -1,0 +1,277 @@
+<!-- traduz-render: ddc02ad4a90e1834e06841407316ceb084f971601a25d5710923f4959541648d -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Agora vamos pôr em prática nossas habilidades de otimização. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Nesta seção, apresentaremos vários exemplos resolvidos de problemas de
+otimização. Nosso método para resolver esses problemas é, essencialmente, o
+seguinte:
+     </p><dl class='description'><dt class='description'>
+Faça um desenho. </dt><dd class='description'>
+     <p class='noindent'>Se possível, desenhe um esquema com todas as informações relevantes.
+     </p></dd><dt class='description'>
+Determine seu objetivo. </dt><dd class='description'>
+     <p class='noindent'>Precisamos identificar a quantidade que deve ser otimizada.
+     </p></dd><dt class='description'>
+Encontre as restrições. </dt><dd class='description'>
+     <p class='noindent'>Que limitações são impostas à nossa otimização?
+     </p></dd><dt class='description'>
+Expresse tudo em uma única variável. </dt><dd class='description'>
+     <p class='noindent'>Agora você deve ter uma função a otimizar.
+     </p></dd><dt class='description'>
+Use cálculo para encontrar os valores extremos. </dt><dd class='description'>
+     <p class='noindent'>Não deixe de verificar sua resposta!</p></dd></dl>
+<div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-2r1'></a>Você está fabricando recipientes cilíndricos para conter um volume dado. Suponha
+que a tampa e o fundo sejam feitos de um material que é \(N\) vezes mais caro (custo
+por unidade de área) do que o material usado para a superfície lateral do
+cilindro. Determine (em termos de \(N\)) a razão entre a altura e o raio da base do
+cilindro que minimiza o custo de fabricação dos recipientes. <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Primeiro fazemos
+                                                                  
+
+                                                                  
+um desenho: <div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/appliedOptimization/digInAppliedOptimization-6da87aa8462497e45ac20d1bc7e1df2d.svg" /> </div> Chamando
+de \(c\) o custo da superfície lateral, podemos escrever uma expressão para o
+custo dos materiais: \[ C = 2\pi c r h+2\pi r^{2}\class{xm-given}{Nc}. \] Como sabemos que \(V=\pi r^2h\), podemos usar essa relação para
+eliminar \(h\) (poderíamos eliminar \(r\), mas é um pouco mais fácil se eliminarmos \(h\),
+que aparece em apenas um lugar na fórmula acima para o custo). Obtemos
+\begin{align*}  C(r)&amp;=2c\pi r\frac {V}{\pi r^2}+2Nc\pi r^2\\ &amp;=\frac {2cV}{r}+2Nc\pi r^2.  \end{align*}
+<p class='noindent'>Como expressamos o custo como função de uma única variável, o problema se torna
+um “problema de cálculo”: determinar o mínimo da função \(C\) no intervalo
+\((0,\infty )\).
+</p><p class='noindent'>Embora a função \(C\) seja contínua em seu domínio, esse domínio é um intervalo
+aberto e ilimitado, e o Teorema do Valor Extremo não se aplica; não há
+garantia nem mesmo de que o mínimo exista. Mas não desistimos! Nossa
+estratégia será procurar um ponto crítico e verificar se o mínimo é atingido
+ali. Resolvendo a equação \[ C'(r)=-2cV/r^2+4Nc\pi \class{xm-given}{r} =0 \] descobrimos que o ponto onde \(r=\sqrt [3]{V/(2N\pi )}\) é o único ponto
+crítico de \(C\). Como \(C''(r)=4cV/r^3+4Nc\pi \) é positiva quando \(r\) é positivo, há um mínimo local no
+ponto crítico e, portanto, um mínimo global, já que há apenas um ponto
+crítico.
+</p><p class='noindent'>Outra maneira de chegar a essa conclusão é examinar o sinal da derivada \(C'(r)\) no
+intervalo \((0,\infty )\): \[ C'(r)=-2cV/r^2+4Nc\pi r=\frac {4Nc\pi (r^3-\frac {V}{2N\pi })}{r^2}. \] A partir dessa fatoração fica claro que \(C'(r)&lt;0\) em \((0,\sqrt [3]{V/(2N\pi )})\) e \(C'(r)&gt;0\) em \((\sqrt [3]{V/(2N\pi )}, \infty )\). Isso significa que a
+função \(C\) é decrescente em \((0,\sqrt [3]{V/(2N\pi )})\) e crescente em \((\sqrt [3]{V/(2N\pi )}, \infty )\) e, portanto, tem um mínimo global no
+ponto crítico.
+</p><p class='noindent'>Finalmente, como \(h=V/(\pi r^2)\), \begin{align*}  \frac {h}{r}&amp;=\frac {V}{\pi r^3}\\ &amp;=\frac {V}{\pi (V/(2N\pi ))}\\ &amp;=\class{xm-given}{2N},  \end{align*}
+</p><p class='noindent'>de modo que o custo mínimo ocorre quando a altura \(h\) é \(2N\) vezes o raio. Se, por
+exemplo, não houver diferença no custo dos materiais, a altura é o dobro do raio. </p></div>
+</div>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-4r3'></a>Você quer vender uma certa quantidade \(n\) de itens de modo a maximizar seu lucro.
+Uma pesquisa de mercado indica que, se você fixar o preço em $\(1.50\), conseguirá vender \(5000\)
+itens, e que, para cada \(10\) centavos que você baixar o preço abaixo de $\(1.50\), conseguirá
+vender mais \(1000\) itens. Suponha que seus custos fixos (“custos iniciais”) somem $\(2000\) e que o
+custo de produção por item (“custo marginal”) seja $\(0.50\). Determine o preço a
+fixar por item e a quantidade de itens vendidos para maximizar o lucro, e
+                                                                  
+
+                                                                  
+determine também o lucro máximo que você pode obter. <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-5r4'></a>O primeiro passo é
+converter o problema em um problema de maximização de uma função. A
+receita pela venda de \(n\) itens a \(x\) dólares é dada por \[ r(x) = n(x)x \] e o custo de produzir \(n\)
+itens é dado por \[ c(x) = 2000+0.5 n(x). \] No entanto, pelo enunciado vemos que a quantidade de
+itens vendidos é ela própria uma função de \(x\), \[ n(x) =5000+\frac {1000(1.5-x)}{0.10} \] Assim, o lucro é dado por:
+\begin{align*}  P(x) &amp;= r(x) - c(x)\\ &amp;= nx - (2000+0.5 n)\\ &amp;=-10000x^2+25000x-12000.  \end{align*}
+<p class='noindent'>Queremos saber o valor máximo da função \(P\) no intervalo \([0,1.5]\). O Teorema do
+Valor Extremo agora garante que o máximo é atingido, pois a função \(P\) é
+contínua no intervalo fechado \([0,1.5]\). Precisamos encontrar os pontos críticos: \[ P'(x)=0, \] ou
+seja, \[ -20000x+25000=0, \] o que implica que o único ponto crítico ocorre em \(x=1.25\). Agora precisamos
+calcular a função no ponto crítico e nas duas extremidades, e comparar os
+valores:
+</p><p class='noindent'>\(P(0)=-12000\), \(P(1.25)=3625\) e \(P(1.5)=3000\). Observe que \(P(1.25)\) é o maior desses valores. Portanto, o lucro máximo é de $\(3625\),
+atingido quando fixamos o preço em $\(1.25\) e vendemos \(7500\) itens.
+</p><p class='noindent'>Alternativamente, poderíamos aplicar o Teste da Segunda Derivada no ponto crítico
+e concluir que deve haver um máximo local ali, pois \(P''(x)=-20000&lt;0\). Como esse é o único ponto
+crítico, ele deve ser também um máximo global.  Podemos confirmar nossos
+resultados olhando o gráfico de \(y=P(x)\): \[ \graph [xmin=0,xmax=3,ymin=-4000,ymax=6000]{y=-10000x^2+25000x-12000} \]  </p></div> </div>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-6r5'></a>Se você encaixar o maior cone circular reto possível dentro de uma esfera, que fração do
+volume da esfera é ocupada pelo cone? <div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/appliedOptimization/digInAppliedOptimization-925b25477b60009799dda05e4b7f90e1.svg" /> </div> <div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-7r6'></a>Seja \(R\) o raio da esfera, e sejam \(r\) e \(h\) o raio da base e a altura do cone dentro da esfera.
+Nosso objetivo é maximizar o volume do cone: \(V_c=\pi r^2h/3\). O maior valor possível de \(r\) é \(R\), e o
+maior valor possível de \(h\) é \(2R\).
+<p class='noindent'>Observe que a função que queremos maximizar, \(\pi r^2h/3\), depende de <em>duas</em> variáveis. Nosso
+próximo passo é encontrar a relação entre \(r\) e \(h\) e usá-la para escrever uma das
+variáveis em termos da outra, de modo a ter uma função de apenas uma
+variável para maximizar. Neste problema, a condição fica evidente na figura
+abaixo.
+</p>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/appliedOptimization/digInAppliedOptimization-da5fe76bad9ac33b993b1554027ac0a1.svg" /> </div>
+<p class='noindent'>Aplique o Teorema de Pitágoras ao triângulo retângulo da figura acima para
+obter
+</p><p class='noindent'>\[ r^2 + (h-R)^2=R^2. \] Isole \(r^2\), já que \(r^2\) aparece na fórmula do volume do cone, e obtenha \[ r^2=R^2-(h-R)^2=2hR-h^2. \] Substitua isso na
+fórmula do volume do cone para obter \[ V_{\text {c}}(h)=\pi (R^2-(h-R)^2)h/3. \] Simplificando, conseguimos expressar o
+volume do cone como função de uma única variável, \(h\), \[ V_{\text {c}}(h)=-{\pi \over 3}h^3+{2\over 3}\pi h^2R. \]
+</p><p class='noindent'>Queremos maximizar a função \(V_{\text {c}}\) no intervalo \([0,2R]\). Como se trata de uma função contínua
+em um intervalo fechado, o máximo é atingido em um ponto crítico ou em uma
+extremidade. Resolvendo a equação \[ V_{\text {c}}'(h)=-\pi h^2+(4/3)\pi h R=0, \] descobrimos que a função tem em \(h=4R/3\) seu único
+ponto crítico, já que \(h=0\) é uma extremidade. Calculamos a função em todos os pontos
+críticos e extremidades, \[ V_{\text {c}}(0)=V_{\text {c}}(2R)=0, \]
+</p><p class='noindent'>\[ V_{\text {c}}(4R/3)=(32/81)\pi R^3. \]
+</p><p class='noindent'>O máximo é obviamente atingido em \(h=4R/3\). Como o volume da esfera é \((4/3)\pi R^3\), a fração da
+esfera ocupada pelo cone é \[ \frac {(32/81)\pi R^3}{(4/3)\pi R^3}=\frac {8}{27}\approx 30\%. \] </p></div> </div>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-8r7'></a>Uma linha de energia precisa ser estendida de uma usina localizada na praia até uma
+instalação no mar. <div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/appliedOptimization/digInAppliedOptimization-4d0db467af994c04d28665965b86ace0.svg" /> </div> Custa $50
+por pé estender a linha por terra e $130 por pé estendê-la por baixo da água.
+Que extensão da linha deve ser estendida por terra para minimizar o custo
+total? Qual é o custo mínimo? <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-9r8'></a>Há duas soluções imediatas que poderíamos
+considerar, e vamos rejeitar cada uma delas com base no “bom senso”. Primeiro,
+poderíamos minimizar a distância ligando diretamente os dois locais por uma
+linha reta. No entanto, isso exige que todo o cabo seja instalado debaixo
+d’água, a opção mais cara. Segundo, poderíamos minimizar a extensão
+submersa estendendo o cabo pelos 5000 pés ao longo da praia, até o ponto
+exatamente em frente à instalação no mar. Isso tem o efeito indesejado de
+produzir a maior distância de todas, o que provavelmente garante um custo não
+                                                                  
+
+                                                                  
+mínimo.
+<p class='noindent'>A solução ótima provavelmente tem a linha estendida por terra durante um trecho e
+depois debaixo d’água, como sugere a figura. Precisamos rotular nossas distâncias
+desconhecidas: a distância percorrida por terra e a distância percorrida debaixo
+d’água. Reconhecendo que a distância submersa pode ser medida como a
+hipotenusa de um triângulo retângulo, podemos rotular nossa figura da
+seguinte forma </p><div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/appliedOptimization/digInAppliedOptimization-757cb83101233725cb9faa14c2f1dcee.svg" /> </div> Ao
+escolher \(x\) como fizemos, tornamos simples a expressão dentro da raiz quadrada.
+Agora criamos a função custo: \[ \begin{array}{ccc} \text {Custo} = &amp; &amp; \\ \text {custo em terra} &amp; + &amp; \text {custo na água} \\ \text {\$50}\times \text {distância em terra} &amp;+&amp; \text {\$130}\times \text {distância na água} \\ 50(5000-x) &amp;+&amp; 130\sqrt {x^2+1000^2}.\\ \end{array} \] Assim, temos \[ c(x) = 50(5000-x)+ 130\sqrt {x^2+1000^2}. \] Essa função só faz sentido no
+intervalo \([0,5000]\). Embora tenhamos bastante certeza de que as extremidades não
+darão o custo mínimo, ainda assim calculamos \(c(x)\) em cada uma delas para
+verificar. \[ c(0) = 380000 \quad \quad c(5000) \approx 662873. \] Agora encontramos os pontos críticos de \(c(x)\). Calculamos \(c'(x)\) como \[ c'(x) = -50+\frac {\class{xm-given}{130x}}{\sqrt {x^2+1000^2}}. \] Note
+que essa expressão nunca é indefinida. Fazendo \(c'(x)=0\) e resolvendo para \(x\), temos:
+\begin{align*}  -50+\frac {130x}{\sqrt {x^2+1000^2}} &amp;= 0 \\ \frac {130x}{\sqrt {x^2+1000^2}} &amp;= 50\\ \frac {130^2x^2}{x^2+1000^2} &amp;= 50^2\\ 130^2x^2 &amp;= 50^2(x^2+1000^2) \\ 130^2x^2-50^2x^2 &amp;= 50^2\cdot 1000^2\\ (130^2-50^2)x^2 &amp;= 50000^2\\ x^2 &amp;= \frac {50000^2}{130^2-50^2}\\ x &amp;= \frac {50000}{\sqrt {130^2-50^2}}\\ x &amp;= \frac {50000}{120},  \end{align*}
+<p class='noindent'>Calculando \(c(x)\) em \(x=416.67\), obtemos um custo de cerca de \(\$370000\). A distância em que a linha é
+instalada por terra é \(5000-416.67 = 4583.33\unit {ft}\), e a distância submersa é \(\sqrt {416.67^2+1000^2} \approx 1083\unit {ft}\).  Podemos confirmar nossos
+resultados olhando o gráfico de \(y=c(x)\): \[ \graph [xmin=0, xmax=5000, ymin=0, ymax=800000]{y=50(5000-x)+130\sqrt {x^2+1000000}} \]  </p></div> </div>
+<p class='noindent'>Agora resolvemos um problema semelhante sem números concretos.
+</p>
+<div class='theorem-like problem-environment example' id='problem9' titletext=' example'><a id='x1-10r9'></a><a class='ximera-label' id='exam:sand and road'></a> Suponha que você queira chegar a um ponto \(A\) localizado do outro lado de uma faixa de
+areia, a partir de uma estrada próxima. <div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/appliedOptimization/digInAppliedOptimization-4e247786c3a49ba974019963d742c659.svg" /> </div> Suponha que a estrada seja reta e que \(b\) seja a distância de \(A\) ao ponto \(C\) da estrada
+mais próximo dele. Seja \(v\) sua velocidade na estrada, e seja \(w\), que é menor que \(v\), sua
+velocidade na areia. Neste momento você está no ponto \(D\), que está a uma distância \(a\)
+de \(C\). Em que ponto \(B\) você deve sair da estrada e atravessar a areia para minimizar o
+tempo de viagem até \(A\)? <div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-11r10'></a>Seja \(x\) a distância que falta até \(C\) quando você sai da estrada,
+isto é, a distância de \(B\) a \(C\). Queremos minimizar o tempo total de viagem. Lembre-se de
+                                                                  
+
+                                                                  
+que, quando se viaja a velocidade constante, o tempo é a distância dividida pela
+velocidade.
+<p class='noindent'>Você percorre a distância de \(D\) a \(B\) com velocidade \(v\) e, em seguida, a distância de
+\(B\) a \(A\) com velocidade \(w\). A distância de \(D\) a \(B\) é \(a-x\). Pelo teorema de Pitágoras, a
+distância de \(B\) a \(A\) é \[ \sqrt {x^2+b^2}. \] Logo, o tempo total da viagem é \[ T(x)=\frac {a-x}{v}+\frac {\sqrt {x^2+b^2}}{w}. \] Queremos encontrar o
+valor mínimo de \(T\) quando \(x\) está entre 0 e \(a\). Como de costume, fazemos \(T'(x)=0\) e
+resolvemos para \(x\). Escreva \[ T'(x)=\class{xm-given}{-1/v+\frac {x}{w\sqrt {x^2+b^2}}} =0. \] Encontramos \[ x=\frac {wb}{\sqrt {v^2-w^2}} \] Observe que \(a\) não aparece na última
+expressão, mas \(a\) não é irrelevante, pois só nos interessam os valores críticos
+que estão em \([0,a]\), e \(wb/\sqrt {v^2-w^2}\) ou está nesse intervalo ou não está. Se estiver, podemos
+usar a segunda derivada para testá-lo: \[ T''(x) = \class{xm-given}{\frac {b^2}{(x^2+b^2)^{3/2}w}}. \] Como isso é sempre positivo, há
+um mínimo local no ponto crítico e, portanto, ele é também um mínimo
+global.
+</p><p class='noindent'>Se o valor crítico não está em \([0,a]\), ele é maior que \(a\). Nesse caso, o mínimo deve ocorrer
+em uma das extremidades. Podemos calcular \begin{align*}  T(0)&amp;={a\over v}+{b\over w} \\ T(a)&amp;={\sqrt {a^2+b^2}\over w}  \end{align*}
+</p><p class='noindent'>mas é difícil determinar qual desses valores é o menor por comparação direta. Se,
+como é provável na prática, conhecermos os valores de \(v\), \(w\), \(a\) e \(b\), então é fácil determinar
+isso. Com um pouco de astúcia, porém, podemos determinar o mínimo em geral.
+Vimos que \(T''(x)\) é sempre positiva, de modo que a derivada \(T'(x)\) é sempre crescente. Sabemos
+que em \(wb/\sqrt {v^2-w^2}\) a derivada é zero, portanto, para valores de \(x\) menores que esse valor crítico,
+a derivada é negativa. Isso significa que \(T(0)&gt;T(a)\), e então o mínimo ocorre quando
+\(x=a\).
+</p><p class='noindent'>Portanto, a conclusão é esta: se você começa a uma distância de \(C\) maior que \(wb/\sqrt {v^2-w^2}\), então
+sempre convém cortar pela areia quando estiver a uma distância \(wb/\sqrt {v^2-w^2}\) do ponto \(C\). Se você
+começa mais perto de \(C\) do que isso, deve cortar diretamente pela areia. </p></div>
+</div>
+<p class='noindent'>Nos problemas de otimização você verá uma variedade de situações que exigem
+combinar habilidades de resolução de problemas com cálculo. Concentre-se no
+<em>processo</em>. É preciso aprender a montar, a partir das situações, equações que
+possam ser manipuladas até chegar ao que você precisa. Esqueça a ideia de
+memorizar como resolver “este tipo de problema” em oposição a “aquele tipo de
+problema”.
+     </p><blockquote class='quote'>
+     <p class='noindent'><strong>Aprender  um  processo  é  muito  mais  vantajoso  do  que
+     memorizar uma técnica específica.</strong></p></blockquote>
+<script type="application/json" class="xm-answers">{}</script>

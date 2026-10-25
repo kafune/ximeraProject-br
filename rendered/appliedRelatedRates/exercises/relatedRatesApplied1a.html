@@ -1,0 +1,125 @@
+<!-- traduz-render: 9491c27f0eae222579469902a03b1e4b44ef25738907bbf9359179f7d9b5166e -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>
+É tarde. Com que rapidez o comprimento da sombra de uma árvore de 72 pés de
+altura está variando quando \( \theta \), o ângulo de elevação do sol, é \(\frac {\pi }{6}\)? Suponha que a taxa
+com que o ângulo de elevação está diminuindo é 0.25 rad/h.
+<p class='noindent'>ETAPA 1
+</p><p class='noindent'>Introduza uma variável \(x\) que denote o comprimento da sombra da árvore. Em seguida,
+esboce e rotule a figura.
+</p>
+<div class='foldable' data-original='expandable' id='foldable2'>xmhint<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/appliedRelatedRates/exercises/relatedRatesApplied1a-25b110c8d25de08ea11e82d6f8744425.svg" />
+</div></div>
+<p class='noindent'>ETAPA 2
+</p><p class='noindent'>Complete as afirmações a seguir.
+</p><p class='noindent'>A taxa conhecida é \[ \dd t \theta =\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \text { rad}/hr \]
+</p><p class='noindent'>A taxa a ser determinada é \[ \dd t \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \text { , quando } \theta =\frac {\pi }{6} \]
+</p><p class='noindent'>ETAPA 3
+</p><p class='noindent'>Escreva uma equação que relacione todas as variáveis relevantes.
+</p><p class='noindent'>\[ \tan (\theta )=\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \]
+</p><p class='noindent'>ETAPA 4
+</p><p class='noindent'>Derive ambos os lados da equação acima em relação a \(t\) (derive primeiro o lado
+esquerdo).
+</p><p class='noindent'>\[ \class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}\cdot \dd t \class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}} =\class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}} \cdot \dd t \class{xm-answer}{\cssId{xm-answer-7}{\phantom{\rule{7em}{1.5em}}}} \]
+</p><p class='noindent'>ETAPA 5
+</p><p class='noindent'>Calcule. Agora, para calcular a equação no instante em que \(\theta =\frac {\pi }{6}\), temos que encontrar o
+valor de \(x\) nesse instante!
+                                                                  
+
+                                                                  
+</p>
+<div class='foldable' data-original='expandable' id='foldable3'>xmhint<div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/appliedRelatedRates/exercises/relatedRatesApplied1a-9acaf63b70346841067f82d47c9dc092.svg" />
+</div></div>
+<p class='noindent'>\[ \left [x\right ]_{\theta =\frac {\pi }{6}}=\frac {\class{xm-answer}{\cssId{xm-answer-8}{\phantom{\rule{7em}{1.5em}}}}}{\tan {\left (\frac {\pi }{6}\right )}} \]
+</p><p class='noindent'>\[ \class{xm-answer}{\cssId{xm-answer-9}{\phantom{\rule{7em}{1.5em}}}}\cdot \class{xm-answer}{\cssId{xm-answer-10}{\phantom{\rule{7em}{1.5em}}}} =\frac {-\tan ^2{\left (\frac {\pi }{6}\right )}}{\class{xm-answer}{\cssId{xm-answer-11}{\phantom{\rule{7em}{1.5em}}}}}\cdot \left [\dd t {x} \right ]_{\theta =\frac {\pi }{6}} \]
+</p><p class='noindent'>ETAPA 6
+</p><p class='noindent'>Resolva para \( \left [\dd t {x} \right ]_{\theta =\frac {\pi }{6}}\).
+</p><p class='noindent'>\[ \left [\dd t {x} \right ]_{\theta =\frac {\pi }{6}}=\class{xm-answer}{\cssId{xm-answer-12}{\phantom{\rule{7em}{1.5em}}}}\text { ft/hr}. \]   </p></div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":" - 0.25","format":"expression","given":false,"antiderivative":false},"xm-answer-10":{"answer":"-0.25","format":"expression","given":false,"antiderivative":false},"xm-answer-11":{"answer":"72","format":"expression","given":false,"antiderivative":false},"xm-answer-12":{"answer":"72","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"x","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"72/x","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"\\sec ^{2}{(\\theta )}","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"\\theta ","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"-72/x^{2}","format":"expression","given":false,"antiderivative":false},"xm-answer-7":{"answer":"x","format":"expression","given":false,"antiderivative":false},"xm-answer-8":{"answer":"72","format":"expression","given":false,"antiderivative":false},"xm-answer-9":{"answer":"\\sec ^{2}{\\left (\\frac {\\pi }{6}\\right )}","format":"expression","given":false,"antiderivative":false}}</script>

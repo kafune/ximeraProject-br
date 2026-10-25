@@ -1,0 +1,261 @@
+<!-- traduz-render: 5e74731cb501d6c600f7db96b51314a3633a7d353223f936d0d08e310578f61c -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class="abstract">
+Apresentamos uma interpretação alternativa da integral definida e estabelecemos
+uma conexão entre áreas e antiderivadas. 
+</div>
+<div class="maketitle"></div>
+<p class="noindent" >Temos uma interpretação geométrica da derivada como a inclinação da reta tangente
+em um ponto. Ainda não encontramos uma interpretação geométrica para as
+antiderivadas.
+</p>
+<h3 class="sectionHead"><span class="titlemark">1   </span> <a 
+ id="x1-10001"></a>Mais de uma perspectiva</h3>
+<p class="noindent" >Vamos começar com uma pergunta:
+</p>
+<div role="article" class="problem-environment question" id="problem1" numbered="" titletext=" Question">  Suponha que você esteja em um trânsito lento, movendo-se a \(4\) milhas por
+hora das \(2\) da tarde às \(5\) da tarde. Que distância você percorreu?  \[ \text {deslocamento}= \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\ \text {milhas}. \]  <div class="feedback" data-feedback="attempt" id="feedback2" titletext=" Feedback (attempt)">Como a
+velocidade (constante) em um intervalo de tempo é dada por \[ \text {velocidade}=\frac {\text {deslocamento}}{\text {tempo decorrido}}, \] segue que o
+deslocamento do objeto em um intervalo de tempo é dado por \[ \text {deslocamento}=\text {velocidade}\cdot (\text {tempo decorrido}), \] O gráfico
+da função velocidade (constante) \(v\) no intervalo \([2,5]\) é mostrado na figura. <div class="image-environment" role="img" aria-labelledby="image-alt-1">
+<img 
+src="/rendered/antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas-ba42983bd32824b43666a0a3933c2b5a.svg" alt="[Picture]"  /> </div>
+<p class="noindent" >Portanto, o deslocamento de um objeto é dado pelo produto da velocidade pelo
+tempo decorrido, e é representado pela área do retângulo sombreado na figura. </div>    </p></div>
+Como o deslocamento de um objeto que se move com velocidade constante em um
+intervalo de tempo pode ser representado pela área de um retângulo, podemos
+aproximar o deslocamento de um objeto que se move com velocidade não constante
+usando somas de Riemann. Explicamos esse processo em detalhes no nosso próximo
+exemplo.
+<div class="theorem-like problem-environment example" id="problem3" titletext=" example"><a 
+ id="x1-1001r1"></a>Suponha que um objeto se move ao longo de uma reta com velocidade \(v(t)=\frac {t^2}{4}+1\), para \(0\le t\le 4\), em
+que \(t\) é medido em segundos e \(v\) em \(\frac {\unit {ft}}{\unit {s}}\).
+<p class="noindent" >Determine o deslocamento do objeto no intervalo de tempo \([0,4]\). </p><div class="theorem-like problem-environment explanation" id="problem4" titletext=" explanation"><a 
+ id="x1-1002r2"></a>Como sabemos calcular
+o deslocamento quando a velocidade é constante, começaremos supondo que a
+                                                                  
+
+                                                                  
+velocidade é constante e igual a \(v(0)\), a velocidade inicial, durante todo o intervalo de
+tempo de quatro segundos, \(\Delta t=4\).
+<p class="noindent" >Esse cenário nos dará uma aproximação bem grosseira do deslocamento, mas é
+um bom ponto de partida. \[ \text {deslocamento}\approx v(0)\cdot \Delta t=1\cdot (4-0)=4 \unit {ft}/\unit {s} \] Esse cenário está ilustrado na figura abaixo. </p><div class="image-environment" role="img" aria-labelledby="image-alt-2">
+<img 
+src="/rendered/antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas-f1e4d3cadc1046cdf7442e1144a39661.svg" alt="[Picture]"  /> </div> A partir do
+gráfico acima, vemos que a hipótese de velocidade constante não é muito precisa. A
+velocidade está mudando, então devemos permitir que a nossa velocidade mude
+também. Em vez de supor que a velocidade é constante durante todo o intervalo de
+quatro segundos, continuaremos aproximando a velocidade por uma constante em
+intervalos de tempo cada vez menores.
+<p class="noindent" >No próximo passo, vamos supor que a velocidade é constante durante os
+intervalos de tempo de dois segundos \([0,2]\) e \([2,4]\). Em cada um desses dois intervalos,
+supomos que a velocidade é igual à velocidade no início do intervalo de
+tempo.
+</p><p class="noindent" >Nesse caso, o objeto se deslocaria \(v(0)\cdot 2 \unit {ft}\) durante o intervalo de tempo \([0,2]\) e, nos dois segundos
+seguintes, o objeto se deslocaria \(v(2)\cdot 2 \unit {ft}\).
+</p><p class="noindent" >Se denotarmos por \(\Delta t\) o comprimento do intervalo de tempo, podemos aproximar o
+deslocamento e escrever
+</p><p class="noindent" >\[ \text {displacement}\approx v(0)\cdot \Delta t+v(2)\cdot \Delta t=1\cdot 2+2\cdot 2=\class{xm-given}{6} \unit {ft}/\unit {s} \] Usando a notação de somatório, escrevemos \[ \text {deslocamento}\approx \sum _{k=1}^2v((k-1)\cdot \Delta t)\Delta t \] Como calculamos a velocidade nos
+pontos amostrais \(t_{k}^*=(k-1)\cdot \Delta t\), \(k=1,2\), também podemos escrever
+</p><p class="noindent" >\[ \text {displacement}\approx \sum _{k=1}^2v(t_{k}^*)\Delta t. \] Esta é uma soma de Riemann à esquerda para a função \(v\) no
+intervalo \([0,4]\), quando \(n=2\). Esse cenário está ilustrado na figura abaixo. </p><div class="image-environment" role="img" aria-labelledby="image-alt-3">
+                                                                  
+
+                                                                  
+<img 
+src="/rendered/antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas-1da865ce49550fefe439bed36451ebd9.svg" alt="[Picture]"  /> </div> Em seguida,
+aproximamos o deslocamento do objeto supondo que a velocidade é constante
+durante intervalos de tempo de um segundo e que essa velocidade é igual à
+velocidade no início de cada intervalo de tempo.
+<p class="noindent" >Sob essa hipótese, durante o primeiro segundo, o objeto se deslocaria \(v(0)\cdot 1 \unit {ft}\); durante o
+segundo intervalo de tempo de um segundo, o objeto se deslocaria \(v(1)\cdot 1 \unit {ft}\); durante o terceiro
+segundo, o objeto se deslocaria \(v(2)\cdot 1 \unit {ft}\); e, durante o último segundo, se deslocaria
+\(v(3)\cdot 1 \unit {ft}\).
+</p><p class="noindent" >Durante todo o intervalo de tempo, o objeto se deslocaria \begin{align*}  \text {deslocamento} &amp;\approx v(0)\cdot \Delta t+v(1)\cdot \Delta t+v(2)\cdot \Delta t+v(3)\cdot \Delta t\\ &amp;=\frac {\class{xm-given}{30}}{4} \unit {ft}/\unit {s}  \end{align*}
+</p><p class="noindent" >Usando a notação de somatório e o fato de que \(\Delta t=\frac {4-0}{4}=1\), podemos escrever \[ \text {deslocamento}\approx \sum _{k=1}^4v((k-1)\cdot \Delta t)\Delta t \] Novamente,
+denotamos os pontos amostrais por \(t_{k}^*=(k-1)\cdot \Delta t\), \(k=1,2,3,4\), e escrevemos \[ \text {deslocamento}\approx \sum _{k=1}^4v(t_{k}^*)\Delta t \] Esta é uma soma de Riemann à
+esquerda para a função \(v\) no intervalo \([0,4]\), quando \(n=4\). Esse cenário está ilustrado na figura
+                                                                  
+
+                                                                  
+abaixo. </p><div class="image-environment" role="img" aria-labelledby="image-alt-4"> <img 
+src="/rendered/antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas-857e543c1d2625ebbf56741ef54a26dc.svg" alt="[Picture]"  /> </div> Agora,
+aproximamos o deslocamento do objeto supondo que a velocidade é constante
+durante intervalos de tempo de meio segundo e que essa velocidade é igual à
+velocidade no início de cada intervalo de tempo.
+<p class="noindent" >Sob essa hipótese, durante o primeiro meio segundo, o objeto se deslocaria \(v(0)\cdot \frac {1}{2} \unit {ft}\); durante
+o segundo intervalo de tempo de meio segundo, o objeto se deslocaria \(v\left (\frac {1}{2}\right )\cdot \frac {1}{2} \unit {ft}\); durante
+o terceiro intervalo de meio segundo, o objeto se deslocaria \(v(1)\cdot \frac {1}{2} \unit {ft}\), e assim por
+diante.
+</p><p class="noindent" >Durante todo o intervalo de tempo, o objeto se deslocaria \begin{align*}  \text {deslocamento} &amp;\approx v(0)\Delta t+v\left (\frac {1}{2}\right )\Delta t+ \cdots +v\left (\frac {7}{2}\right )\Delta t\\ &amp;=\class{xm-given}{8.375} \unit {ft}  \end{align*}
+</p><p class="noindent" >Usando a notação de somatório e o fato de que \(\Delta t=\frac {4-0}{8}=\frac {1}{2}\), podemos escrever
+</p><p class="noindent" >\[ \text {displacement}\approx \sum _{k=1}^8v((k-1)\cdot \Delta t)\Delta t \] Usando a notação padrão para os pontos amostrais, podemos escrever \[ \text {deslocamento}\approx \sum _{k=1}^8v(t_{k}^*)\Delta t \]
+</p><p class="noindent" >Esta é uma soma de Riemann à esquerda para a função \(v\) no intervalo \([0,4]\), quando \(n=8\). Esse
+cenário está ilustrado na figura abaixo.
+</p>
+                                                                  
+
+                                                                  
+<div class="image-environment" role="img" aria-labelledby="image-alt-5"> <img 
+src="/rendered/antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas-b9a3f1c94db9eca92e64612a3316c870.svg" alt="[Picture]"  /> </div>
+Fazemos uma pausa aqui para ilustrar o \(k\)-ésimo retângulo no cálculo
+de uma soma de Riemann à esquerda da função \(v\) no intervalo \([0,4]\). <div class="image-environment" role="img" aria-labelledby="image-alt-6">
+<img 
+src="/rendered/antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas-bfb1ccd05e0a75fa96d89b7088700c1a.svg" alt="[Picture]"  /> </div>
+<p class="noindent" >Continuamos aproximando o deslocamento do objeto supondo que a velocidade é
+constante durante intervalos de tempo de \(4/n\) segundos, com velocidade igual à
+velocidade no início de cada intervalo de tempo.
+</p><p class="noindent" >Sob essa hipótese, durante o primeiro intervalo de \(\frac {4}{n}\) segundos, o objeto se deslocaria \(v(0)\cdot \frac {4}{n} \unit {ft}\);
+                                                                  
+
+                                                                  
+durante o segundo intervalo de tempo desse tipo, o objeto se deslocaria \(v\left (\frac {4}{n}\right )\cdot \frac {4}{n} \unit {ft}\); durante o
+terceiro intervalo de tempo, o objeto se deslocaria
+</p><p class="noindent" >\(v\left (2\frac {4}{n}\right )\cdot \frac {4}{n} \unit {ft}\), e assim por diante.
+</p><p class="noindent" >Durante todo o intervalo de tempo, o objeto se deslocaria \begin{align*}  \text {deslocamento} \approx v(0)\cdot \Delta t &amp;+v\left (\frac {4}{n}\right )\cdot \Delta t+v\left (2\frac {4}{n}\right )\cdot \Delta t+\cdots \\ &amp;+v\left ((n-1)\frac {4}{n}\right )\cdot \Delta t  \end{align*}
+</p><p class="noindent" >Usando a notação de somatório, a notação para o comprimento de cada intervalo de
+tempo, \(\Delta t=\frac {4-0}{n}=\frac {4}{n}\), e a notação para os pontos amostrais, escrevemos
+</p><p class="noindent" >\[ \text {displacement}\approx \sum _{k=1}^nv((k-1)\cdot \Delta t)\Delta t \] e \[ \text {deslocamento}\approx \sum _{k=1}^nv(t_{k}^*)\Delta t. \] Esta é uma soma de Riemann à esquerda para a função \(v\) no intervalo
+\([0,4]\).
+</p><p class="noindent" >O que acontece quando fazemos \(n\to \infty \)?
+</p><p class="noindent" >As aproximações ficam cada vez melhores, porque aproximamos a velocidade por
+uma constante em intervalos de tempo cada vez menores. Portanto, parece razoável
+escrever
+</p><p class="noindent" >\[ \text {displacement}=\lim _{n\to \infty }\sum _{k=1}^nv(t_k^*)\Delta t \]
+</p><p class="noindent" >Pela definição de integral definida, podemos escrever
+</p><p class="noindent" >\[ \text {displacement}=\int _{0}^{4}v(t)\d t. \]
+</p><p class="noindent" >Isso nos dá outra interpretação da integral definida. A saber,
+</p><p class="noindent" >“integral definida da velocidade em \([a,b]\) = deslocamento em \([a,b]\).”
+</p><p class="noindent" >Por outro lado, o deslocamento de um objeto durante o intervalo de tempo \([0,4]\) é dado
+por \[ \text {deslocamento}=\text {variação da posição} \]
+</p><p class="noindent" >A variação da posição pode ser escrita em termos de \(s\), a função posição do objeto \[ \text {deslocamento}=s(4)-s(0). \]
+Mas sabemos que \(s\) é uma antiderivada de \(v\). Portanto, \[ s(t)=\int v(t)\d t=\int \left (\frac {t^2}{4}+1\right )\d t=\frac {t^3}{\class{xm-given}{12}}+\class{xm-given}{t}+C \] Se \(t=0\), obtemos \[ s(0)=C \] Assim,
+a função posição é dada por \[ s(t)=\frac {t^3}{\class{xm-given}{12}}+\class{xm-given}{t}+s(0). \] Agora podemos calcular o deslocamento \[ \text {deslocamento}=s(4)-s(0)=\frac {\class{xm-given}{28}}{3}. \] </p></div>
+</div>
+<p class="noindent" >Muito mais importante do que esse cálculo é o fato de que conseguimos expressar o
+deslocamento como uma integral definida e calcular a integral definida de \(v\) usando a
+antiderivada de \(v\).
+</p><p class="noindent" >\[ \int _{0}^{4}v(t)\d t=s(4)-s(0) \]
+</p>
+<div class="theorem-like problem-environment theorem" id="problem5" titletext=" theorem"><a 
+ id="x1-1003r3"></a><a class="ximera-label" id="thm:Disp"></a> Suponha que \(v\) é a função velocidade (contínua) de um objeto que se desloca ao
+longo de uma reta durante o intervalo \([a, b]\), com função posição \(s\). O deslocamento do
+objeto pode ser obtido de duas maneiras:
+     <ul class="itemize1">
+     <li class="itemize">
+     <p class="noindent" >Como \(\Delta s = s(b)-s(a)\) e
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >Como a integral definida \(\displaystyle \int _a^b v(t) \d t\).</p></li></ul>
+                                                                  
+
+                                                                  
+<p class="noindent" >Em particular, a integral definida de uma função velocidade pode ser calculada
+determinando-se a função posição: \[ \int _a^b v(t) \d t = s(b) - s(a) \] </p></div>
+<p class="noindent" >Isso significa que conseguimos calcular a integral definida <strong>de funções velocidade</strong>
+calculando integrais indefinidas.
+</p>
+<div class="theorem-like problem-environment example" id="problem6" titletext=" example"><a 
+ id="x1-1004r4"></a>Suponha que \(v(t) = 3\sin (t)+e^t\) é a função velocidade (em metros/segundo) de um objeto que se
+desloca ao longo de uma reta durante o intervalo \([0, \pi ]\) (em segundos). Calcule: \[ \int _0^\pi v(t) \d t.\]
+<div class="theorem-like problem-environment explanation" id="problem7" titletext=" explanation"><a 
+ id="x1-1005r5"></a>Começamos determinando uma antiderivada de \(v(t)\).
+<p class="noindent" >\begin{align*}  s(t) &amp;= \int v(t) \d t\\ &amp;= \int \left ( 3\sin (t) + e^t\right ) \d t \\ &amp;= 3\cos (t) + e^t + C  \end{align*}
+</p><p class="noindent" >Não nos foi dada uma condição inicial que nos permitisse calcular o valor de \(C\), então
+vamos deixá-lo como está.
+</p><p class="noindent" >Substituindo \(\pi \) e \(0\) e subtraindo, obtemos: \begin{align*}  s(\pi )-s(0) &amp;= \left (3\cos (\pi )+e^\pi + C\right ) - \left (3\cos (0)-e^0+C \right ) \\ &amp;= (-3+e^\pi + C) - (3-1+C)\\ &amp;= \class{xm-given}{-5+e^\pi }  \end{align*}
+</p><p class="noindent" >Assim, \[ \int _0^\pi v(t) \d t = -5+e^\pi \unit {meters}\] Observe que o valor real de \(C\) não importou. O termo \(+C\) em \(s(\pi )\) foi cancelado pelo
+termo \(+C\) em \(s(0)\) após a subtração. </p></div>
+</div>
+<p class="noindent" >Agora sabemos que podemos calcular a integral definida <strong>de funções velocidade</strong>
+determinando antiderivadas. Nas próximas seções, veremos se isso pode ser estendido
+a integrais definidas de outras funções.
+</p>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"12","format":"expression","given":false,"antiderivative":false}}</script>
