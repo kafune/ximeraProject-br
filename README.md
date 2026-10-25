@@ -22,6 +22,29 @@ A tradução completa do curso Calculus 1 (3588 segmentos, 793 arquivos) está e
 
 Para reimportar arquivos que mudaram, use `--replace`: trechos idênticos mantêm a tradução, e o que não puder ser reaproveitado é listado e fica no backup criado antes da alteração. Rascunhos não entram na exportação; para exigir que tudo esteja concluído, acrescente `--require-complete`.
 
+## Leitura no estilo Ximera
+
+`GET /read/files/:id` mostra a atividade traduzida com a mesma apresentação do Ximera: barra superior, faixa de atividades do curso, trilha de navegação, conteúdo, Anterior/Próxima e rodapé. A faixa, o título do curso e os capítulos vêm do arquivo xourse do curso (`calculus1.tex`), como no servidor original.
+
+O HTML da atividade é produzido pelo próprio compilador do Ximera, o ximeraLatex (`pdflatex` + `make4ht` com a configuração `ximera`, os mesmos passos do `xmlatex texHtml`), a partir da fonte com as traduções concluídas reinjetadas. O resultado fica em `rendered/<caminho>.html` com as figuras ao lado e é versionado: o servidor web só serve esses arquivos e não precisa de TeX. A página guarda a assinatura da fonte traduzida; se uma tradução mudar e não houver compilador na máquina, a versão anterior é mostrada com um aviso.
+
+```sh
+cargo run --release --bin render -- --db data/traduz.sqlite3            # tudo que ainda não está atual
+cargo run --release --bin render -- --db data/traduz.sqlite3 --only chainRule/ --force
+```
+
+Para compilar é preciso o TeX Live com `tex4ht`/`make4ht` e o ximeraLatex no `texmf` local, ou o Docker com a imagem oficial (`TRADUZ_XIMERA_RENDERER=docker`). No Ubuntu:
+
+```sh
+sudo apt install texlive-latex-extra texlive-pictures texlive-science texlive-extra-utils \
+  texlive-plain-generic texlive-fonts-recommended texlive-fonts-extra dvisvgm pdf2svg
+git clone --depth 1 https://github.com/XimeraProject/ximeraLatex ~/texmf/tex/latex/ximeraLatex
+```
+
+Variáveis: `TRADUZ_XIMERA_SOURCE` (árvore do curso; padrão `courses/ximera-calculus-1-calculus1`), `TRADUZ_XIMERA_RENDERED` (saída; padrão `rendered`), `TRADUZ_XIMERA_RENDERER` (`local`, `docker` ou `none`) e `TRADUZ_XIMERA_IMAGE`.
+
+A folha de estilo, as fontes, o MathJax e a biblioteca de comparação de respostas ficam em `static/ximera/` (origens e licenças em `static/ximera/NOTICE.md`; `deploy/build-ximera-assets.sh` regenera). A interatividade (dicas, múltipla escolha, caixas de resposta, comentários) é reimplementada em `static/ximera/reader.js` e guarda as respostas no navegador.
+
 ## Deploy
 
 Na VPS, dentro do clone, rode `deploy/redeploy.sh`. O script lê o binário, `--db` e `--listen` do `traduz.service` (do sistema ou de `systemctl --user`), avança para `origin/main`, roda os testes, compila em release, guarda banco e binário atuais em `data/backups/` e reinicia o serviço. Se o serviço não responder, volta ao commit e ao binário anteriores. As variáveis opcionais estão no topo do script.

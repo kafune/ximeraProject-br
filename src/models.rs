@@ -73,4 +73,15 @@ pub struct ReaderFile {
     /// The first translated segment normally contains the activity title.
     pub title_translation: Option<String>,
     pub title_placeholders: Vec<Placeholder>,
+    /// A standalone activity (`\documentclass{ximera}`), as opposed to a
+    /// xourse, the preamble or an exercise list that other files `\input`.
+    pub is_activity: bool,
+}
+
+/// A xourse file of a course: the manifest Ximera builds its navigation from.
+#[derive(Debug, Clone)]
+pub struct XourseSource {
+    pub id: i64,
+    pub path: String,
+    pub source: String,
 }

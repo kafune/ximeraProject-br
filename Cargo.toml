@@ -23,6 +23,10 @@ path = "src/bin/export.rs"
 name = "apply"
 path = "src/bin/apply.rs"
 
+[[bin]]
+name = "render"
+path = "src/bin/render.rs"
+
 [dependencies]
 anyhow = "1.0"
 askama = "0.12"

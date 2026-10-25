@@ -5,39 +5,4 @@
 @media(min-width:1600px){main{max-width:2048px;padding-left:32px;padding-right:32px}.progress{margin-left:-32px;margin-right:-32px;padding-left:32px;padding-right:32px}.workspace{grid-template-columns:300px minmax(0,1fr);gap:32px}.translator{gap:32px}.source,.translation{padding:28px}.pager{max-width:calc(100% - 332px)}}
 
 .progress{display:flex;justify-content:space-between;gap:16px;align-items:center}.progress a{font-size:.9rem}
-
-/* Reader: Ximera's base CSS is loaded only by reader.html.  These additions
-   stay under .reader-page so the translation workspace retains its own UI. */
-.reader-page{background:#fff;color:#292b2c;font-family:MJX_Main,"Times New Roman",serif;font-size:16px;line-height:1.5}
-.reader-page a{color:#0275d8}
-.reader-page main{margin:0;padding:0}
-.reader-page .reader-navbar{align-items:center;display:flex;height:auto;justify-content:space-between;min-height:48px;padding:.5rem 1rem;position:relative;z-index:1;border:0;background:#f7f7f9;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
-.reader-page .navbar-brand{align-items:center;color:#292b2c;display:flex;gap:.55rem;font-weight:600;text-decoration:none}
-.reader-page .navbar-brand img{max-height:1.1rem;opacity:.6}
-.reader-page .navbar-brand span{font-size:.9rem;letter-spacing:.03em}
-.reader-page .reader-translate-link{color:#0275d8;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:.85rem;text-decoration:none}
-.reader-course-navigation{background:#fff;border-bottom:1px solid #eceeef;border-top:1px solid #eceeef;display:flex;flex-wrap:nowrap;overflow-x:auto;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
-.reader-activity-card{color:#292b2c;display:flex;flex:0 0 12rem;flex-direction:column;gap:.25rem;justify-content:center;min-height:82px;padding:.75rem 1rem;border-right:1px solid #ddd;text-decoration:none}
-.reader-activity-card:hover{background:#f7f7f9;color:#292b2c;text-decoration:none}
-.reader-activity-card strong{font-size:.9rem;line-height:1.2}
-.reader-activity-card span{color:#636c72;font-size:.72rem;line-height:1.25}
-.reader-activity-card.reader-current-card{background:#292b2c;color:#fff}
-.reader-activity-card.reader-current-card:hover{background:#292b2c;color:#fff}
-.reader-activity-card.reader-current-card span{color:#cfd3d6}
-.reader-page .breadcrumb{border-radius:0;margin:0;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:.875rem}
-.reader-page .breadcrumb a{color:#0275d8}
-.reader-page .reader-container{padding-bottom:3rem;padding-top:1.5rem}
-.reader-page .reader-activity{max-width:none}
-.reader-page .reader-activity-body{margin:0;max-width:none}
-.reader-page .reader-activity-body{overflow-wrap:anywhere}
-.reader-page .image-environment{max-width:100%;overflow-x:auto}
-.reader-page .image-environment img{display:block;height:auto;max-width:100%;width:auto}
-.reader-page .reader-block{font-size:1rem;line-height:1.62;margin:0 0 1rem;white-space:pre-wrap}
-.reader-page .reader-math{white-space:nowrap}
-.reader-page .reader-empty{margin-top:1rem;padding:1rem 1.25rem;background:#eceeef;border-left:4px solid #5bc0de;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
-.reader-page .reader-pager{display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 1rem;padding-top:1rem;border-top:1px solid #eceeef;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
-.reader-page .reader-pager a{text-decoration:none}
-.reader-page .reader-footer{background:#292b2c;color:#cfd3d6;display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;justify-content:space-between;padding:2rem max(15px,calc((100vw - 1140px)/2));font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:.85rem}
-.reader-page .reader-footer a{color:#fff;text-decoration:none}
-.reader-page .MathJax{font-size:1em!important}
-@media(max-width:575px){.reader-page .reader-navbar{padding:.5rem .75rem}.reader-page .reader-activity-card{flex-basis:10rem}.reader-page .reader-container{padding:1rem .9rem 2rem}.reader-page .reader-block{font-size:1rem;line-height:1.65}.reader-page .reader-pager{margin-top:2rem}.reader-page .reader-footer{padding:1.5rem .9rem}}
+.chapter h3 .read-link{font-size:.8rem;font-weight:500;margin-left:8px}.sidebar p a{font-size:.8rem;margin-left:4px}
