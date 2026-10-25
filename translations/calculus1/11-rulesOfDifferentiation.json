@@ -1,0 +1,668 @@
+[
+ {
+  "arquivo": "rulesOfDifferentiation/titlePage.tex",
+  "ordem": 0,
+  "hash": "fdfde62eeb60060d5651a089831184bf424e80099dd5b389f7daac6edf44ceec",
+  "traducao": "Regras de derivação{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Ao concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/titlePage.tex",
+  "ordem": 2,
+  "hash": "da96f441dcf5c71e9507a597dacc634e4f0a2de3f7925e0aa56683a32d453c9f",
+  "traducao": " Usar a definição da derivada para desenvolver regras práticas para encontrar as derivadas de constantes e de múltiplos constantes.\n\t{{CMD_4}} Usar a definição da derivada para desenvolver regras práticas para encontrar as derivadas de potências de {{MATH_5}}.\n\t{{CMD_6}} Usar a definição da derivada para desenvolver regras práticas para encontrar as derivadas de somas e diferenças de funções.\n        {{CMD_7}} Calcular a derivada de polinômios.\n        {{CMD_8}} Reconhecer diferentes notações para a derivada.\n        {{CMD_9}} Enunciar a derivada da função exponencial natural.\n\t{{CMD_10}} Enunciar a derivada da função seno.\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/breakGround.tex",
+  "ordem": 0,
+  "hash": "76a06d9540ca61b5fd216ebc29a2069da742f51daf88f24b3ca72b4d699716e8",
+  "traducao": "Padrões nas derivadas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos pensam em ``atalhos'' para derivar.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma\nhistória real):"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/breakGround.tex",
+  "ordem": 2,
+  "hash": "700debb9de8e3440b4fbc613efe86f3a38ba5d1271360679e20f16d23142af15",
+  "traducao": " Eu odeio a definição de derivada por limite. Queria que\n  houvesse um jeito mais curto.\n{{CMD_7}} Acho que encontrei um padrão para calcular\n  derivadas.\n{{CMD_8}} Sério? Eu adoro padrões!\n{{CMD_9}} Eu sei! Olha só, montei uma tabela\n{  {{CMD_10}}\n  {{MATH_11}}\n  }\n  Então talvez, se tivermos uma função\n  {{MATH_12}}\n{{CMD_13}} Hmmm, será que funciona com raízes quadradas?\n{{CMD_14}} Ah, é verdade, uma raiz quadrada é uma potência, basta escrever\n  {{MATH_15}}\n  Então uma raiz quadrada é da forma {{MATH_16}}.\n{{CMD_17}} Vamos verificar. Se {{MATH_18}},\n  {{ENV_19}}\n{{CMD_20}} Minha nossa! Funciona! Nesse caso {{MATH_21}}.\n  {{CMD_22}} Será que {{CMD_23}}sempre{{CMD_24}} funciona? Se sim, eu quero\n    saber {{CMD_25}}por que{{CMD_26}} funciona! Que outros padrões será que conseguimos\n    encontrar?\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/breakGround.tex",
+  "ordem": 3,
+  "hash": "10289bf8f8d61be1686936f51876b205d27de1b2d0ccb7e6b6176faaf8479d8a",
+  "traducao": "O padrão\n{{MATH_28}}\nvale sempre que {{MATH_29}} é uma constante. Explicar por que ele funciona em\ngeral vai levar algum tempo. Por enquanto, vamos ver se conseguimos usar esse\npadrão para resolver algumas derivadas com facilidade."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/breakGround.tex",
+  "ordem": 4,
+  "hash": "0761a462e1275e77cae0fc8966c02717c3d00a737273acee990418dad0f4540a",
+  "traducao": "  Usando o padrão encontrado acima, calcule:\n  {{MATH_30}}\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/breakGround.tex",
+  "ordem": 5,
+  "hash": "2ae5f0bb427a78c8f555dbd1cd3a71f9a761997e90feb34ff4a3f83ffafac8b9",
+  "traducao": "  Usando o padrão encontrado acima, calcule:\n  {{MATH_32}}\n{{CMD_33}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/breakGround.tex",
+  "ordem": 6,
+  "hash": "7451121bca629de4a02bc2baa533bab76fc55ebdb7420e2d9c53df2396678370",
+  "traducao": "  Usando o padrão encontrado acima, calcule:\n  {{MATH_34}}\n{{CMD_35}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/breakGround.tex",
+  "ordem": 7,
+  "hash": "3538ec8a25a89b84e47982faa385d15fa570327d83a2250b6a8ebfc145d521da",
+  "traducao": "  Usando o padrão encontrado acima, calcule:\n  {{MATH_36}}\n{{CMD_37}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 0,
+  "hash": "8c6887afe3463d2317fe0acb34e63a50316a09dfb8b808af23dfe76d5600c518",
+  "traducao": "Regras básicas de derivação{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Deduzimos a regra da constante, a regra da potência e a regra da soma.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 1,
+  "hash": "4ccdfb9d5e5f6744a2e2f107b63f3f29ea1ab223086f31a75ad7313c17dfb598",
+  "traducao": "É tedioso calcular um limite toda vez que precisamos conhecer a\nderivada de uma função. Felizmente, podemos desenvolver uma pequena\ncoleção de exemplos e regras que nos permitem calcular rapidamente a\nderivada de quase qualquer função que provavelmente encontraremos. Vamos\ncomeçar de forma simples e avançar até exemplos mais complicados."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 2,
+  "hash": "be7766e3959184214cddc094364249b97be75f4f1398780fc943687ba4c5a4c4",
+  "traducao": "Primeiro, apresentamos uma notação diferente para a derivada, que às vezes pode ser mais conveniente.\n{{CMD_7}}{{CMD_8}}\n\t  Há várias notações diferentes para a derivada. As duas que usaremos principalmente são\n\t   {{MATH_9}}\n\t  O valor da derivada em {{MATH_10}} também pode ser escrito usando duas notações diferentes\n\t  {{MATH_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 3,
+  "hash": "8f188e1aa33ca0d9534bb7eda56cbc9d91674f1d4797e7e65a57031e15d06d94",
+  "traducao": "A regra da constante{{CMD_13}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 4,
+  "hash": "59e1aa43357b5a1086e3ebb21e90fa5218d22ac43def43a6ece548ac3a17705c",
+  "traducao": "Os exemplos mais simples de funções, e portanto o melhor lugar para começar nossa\ninvestigação, são as funções constantes. Lembre-se de que as derivadas\nmedem a taxa de variação de uma função em um dado ponto. Isso significa que a\nderivada de uma função constante é zero. Aqui estão algumas maneiras de pensar\nnessa situação.\n{{CMD_14}}\n\t{{CMD_15}} O gráfico de uma função constante é uma reta horizontal, então a inclinação\n\t\t  da reta tangente é {{MATH_16}}.\n\t{{CMD_17}} Se {{MATH_18}} representa a posição de um objeto em relação ao\n\t\t  tempo e {{MATH_19}} é constante, então o objeto não está se movendo, de modo que sua velocidade é zero. Logo, {{MATH_20}}.\n\t{{CMD_21}} Se {{MATH_22}} representa a velocidade de um objeto em relação ao\n\t\t  tempo e {{MATH_23}} é constante, então a aceleração do objeto é zero. Logo, {{MATH_24}}.\n{{CMD_25}}\nOs exemplos acima nos levam ao nosso próximo teorema.\nPara ganhar intuição, você deveria calcular a derivada de {{MATH_26}} usando a definição de derivada por limite."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 5,
+  "hash": "1ff275812cbb92163d030711c528091cc64baf1a885067c3da8ea620f1c0cc17",
+  "traducao": "\tDada uma constante {{MATH_27}},\n\t{{MATH_28}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 6,
+  "hash": "dd69254774a61f9006a92721af6136bedffc840949765cfc2c9c6e19c74b6bd1",
+  "traducao": "\t\tPela definição de derivada por limite, escreva\n\t\t{{ENV_29}}\n\t{{CMD_30}}\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 7,
+  "hash": "9bbeeaf5d8b0ac0abcb912fbde6cc40498067149404bc748bcc0e74dea0933bf",
+  "traducao": "  A quanto é igual\n  {{MATH_32}}\n  ?\n  {{CMD_33}}\n    Lembre-se,\n    {{MATH_34}}\n  {{CMD_35}}\n  {{CMD_36}}\n    É igual a {{MATH_37}}.\n  {{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 8,
+  "hash": "ed1d166234e7ef29f85d3d5b8fcafc349ac93b2263f5f168dd5d47aedeeb7f61",
+  "traducao": "A regra da potência{{CMD_40}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 9,
+  "hash": "863d6c4327eb9a6718f9f667d12b411b800e069683c44f752687289f280249b2",
+  "traducao": "Em seguida, vamos examinar derivadas de potências de uma única variável.\nPara ganhar intuição, você deveria calcular a\nderivada de {{MATH_41}} usando a definição de derivada por\nlimite. Antes de calcular essa derivada, devemos lembrar\no {{CMD_42}}Teorema Binomial{{CMD_43}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 10,
+  "hash": "df6e4c4ab455a12200ad7a68a20b3e972b193583f019c13f702fdfc0ca894424",
+  "traducao": "\tSe {{MATH_44}} é um inteiro não negativo, então\n\t{{MATH_45}}\n\tonde\n\t{{MATH_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 11,
+  "hash": "7f9d4fe5e6a2ffb5226cd255f93b4fcd30665ecbfe20b68d4814fc58873474e2",
+  "traducao": "O Teorema Binomial nos dá o padrão dos coeficientes na\nforma expandida de\n{{MATH_48}}\no que nos ajudará a demonstrar nossa próxima regra de derivação."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 12,
+  "hash": "59c1da388e7eaf020ddc3adef26274065950c21a85fbdcdf8dd54c8e3cbe02cc",
+  "traducao": "\tExpanda {{MATH_49}} usando o Teorema Binomial.\n\t{{CMD_50}}\n\t\tAplicamos o Teorema Binomial à expressão em questão e, em seguida, simplificamos.\n\t\t{{ENV_51}}\n\t{{CMD_52}}\n{{CMD_53}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 13,
+  "hash": "57bcbac516f430264e13cfbb73184a2ea8b7ce87c5edc6608fbf6ce28ab8bb94",
+  "traducao": "\tPara qualquer número real {{MATH_54}},\n\t{{MATH_55}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 14,
+  "hash": "993f28388eb6221d5ae113f1f847533efa4c70bd4b235446e8e45dccf8e28d49",
+  "traducao": "\t\tNeste momento, vamos demonstrar este teorema apenas para valores de {{MATH_56}} que\n\t\tsão inteiros positivos. Mais adiante daremos a explicação completa.\n\t\tPela definição de derivada por limite, escreva comigo\n\t\t{{MATH_57}}\n\t\tExpanda o termo {{MATH_58}}:\n\t\t{{CMD_59}}\n\t\t    {{ENV_60}}\n\t\t{{CMD_61}}\n\t\tObserve que estamos usando o Teorema Binomial para escrever {{MATH_62}}\n\t\tpara os coeficientes. Cancelando os termos {{MATH_63}} e {{MATH_64}}, e notando que\n\t\t{{MATH_65}}, escreva comigo\n\t\t{{CMD_66}}{{ENV_67}}{{CMD_68}}\n\n\t\tjá que todos os termos, exceto o primeiro, têm um fator {{MATH_69}}. Portanto,\n\t\t{{MATH_70}}\n\t{{CMD_71}}\n{{CMD_72}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 15,
+  "hash": "782f06846e0be882fb36d905b863afd822d3860eca4368b49cf410f4ea089f89",
+  "traducao": "Vamos considerar vários exemplos. Começamos com algo básico."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 16,
+  "hash": "8a6b26b614816e2c70bf50ccfe565690e04c80c3f7d659a650d3fca4c702404c",
+  "traducao": "\tCalcule:\n\t{{MATH_73}}\n\t{{CMD_74}}\n\t\tAplicando a regra da potência, escrevemos\n\t\t{{MATH_75}}\n\t{{CMD_76}}\n{{CMD_77}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 17,
+  "hash": "7379c1772d0716bd141ab16d5323540e4e3d9047073298f49a5d59a1e6fb69be",
+  "traducao": "Às vezes, não é tão óbvio que se deva aplicar a regra da potência."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 18,
+  "hash": "8e7a4500392b7eb55bd8db8804b8f636a2e7196a823b520b34f65f73e371d471",
+  "traducao": "\tCalcule:\n\t{{MATH_78}}\n\t{{CMD_79}}\n\t\tAplicando a regra da potência, escrevemos\n\t\t{{MATH_80}}\n\t{{CMD_81}}\n{{CMD_82}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 19,
+  "hash": "517270937f4dfefdff92b2733b502470c09b9ccc98266ca4fd8f245b2a144838",
+  "traducao": "A regra da potência também se aplica a radicais, desde que os reescrevamos como expoentes."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 20,
+  "hash": "b6573ee549e8a26a38f8b6fd679378a5b19386f6c38cc4c284c70d040561610a",
+  "traducao": "\tCalcule:\n\t{{MATH_83}}\n\t{{CMD_84}}\n\t\tAplicando a regra da potência, escrevemos\n\t\t{{MATH_85}}\n\t{{CMD_86}}\n{{CMD_87}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 21,
+  "hash": "62b8717b6fd3df5eb3b7e03239e4b6a0045d18909af0d51ad7f1efce4533e03e",
+  "traducao": "A regra da soma{{CMD_88}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 22,
+  "hash": "51ebcb2a5ffb7f75580d3b12f26cf7c88aec71ac01afe30169da249e68bdf648",
+  "traducao": "Queremos ser capazes de calcular derivadas de funções ``um pedaço de cada\nvez''. A {{CMD_89}}regra da soma{{CMD_90}} nos permite fazer exatamente isso. A regra da soma diz\nque podemos somar as taxas de variação de duas funções para obter a\ntaxa de variação da soma das duas funções. Por exemplo, vendo a\nderivada como a velocidade de um objeto, a regra da soma afirma que, para encontrar a\nvelocidade de uma pessoa caminhando dentro de um ônibus em movimento, somamos a\nvelocidade do ônibus e a velocidade da pessoa caminhando."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 23,
+  "hash": "50f276ed50e4e867a182686d469ad729d6f975083850c205f1887dc5b1b596f1",
+  "traducao": "\tSe {{MATH_91}} e {{MATH_92}} são deriváveis e {{MATH_93}} é uma constante, então\n\t{{CMD_94}}\n\t\t{{CMD_95}}{{CMD_96}} {{MATH_97}},\n\t\t{{CMD_98}} {{MATH_99}},\n\t\t{{CMD_100}} {{MATH_101}}.\n\t{{CMD_102}}\n\n\t{{CMD_103}}\n\t\tVamos demonstrar apenas o item~{{CMD_104}} acima; os demais são semelhantes. Escreva comigo\n\t\t{{CMD_105}}\n\t\t  {{ENV_106}}\n\t\t{{CMD_107}}\n\t{{CMD_108}}\n{{CMD_109}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 24,
+  "hash": "d288e984be04b5801667e84bf1f636aa493306816d558ac8693e62126c81f80f",
+  "traducao": "  Usar notações diferentes para a derivada pode ser confuso. Quais das\n  alternativas a seguir são o mesmo que o item (a) da Regra da Soma?\n  {{CMD_110}}\n  \t{{CMD_111}}{{MATH_112}}{{CMD_113}}\n\t{{CMD_114}}{{MATH_115}}{{CMD_116}}\n\t{{CMD_117}}{{MATH_118}}{{CMD_119}}\n\t{{CMD_120}}{{MATH_121}}{{CMD_122}}\n  {{CMD_123}}\n{{CMD_124}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 25,
+  "hash": "1f7a473f890005f51ae2431f0f0422924ac90bbde765ef7a3989820f46920e71",
+  "traducao": "  Suponha que temos duas funções, {{MATH_125}} e {{MATH_126}}, e sabemos que {{MATH_127}} e {{MATH_128}}.\n  Qual é a inclinação da reta tangente ao gráfico de {{MATH_129}} em {{MATH_130}}?\n  {{CMD_131}}\n  \t A inclinação da reta tangente ao gráfico da função {{MATH_132}} em {{MATH_133}} é a derivada {{MATH_134}}.\n  \t Pela Regra da Soma, essa derivada é dada por {{MATH_135}}.   Neste caso, temos {{MATH_136}}.\n  {{CMD_137}}\n{{CMD_138}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 26,
+  "hash": "8f9270ecbcd4d656f38bfbadedaccd56ac7ee3db41f9b6e2d85ae5cf9106e21d",
+  "traducao": "Agora temos as ferramentas para resolver alguns exemplos mais complicados."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 27,
+  "hash": "37b9df227be2a2a642a0972192697da03deb837ee9c59c1f620b26914064981b",
+  "traducao": "\tCalcule:\n\t{{MATH_139}}\n\t{{CMD_140}}\n\t\tEscreva comigo\n\t\t{{ENV_141}}\n\t{{CMD_142}}\n{{CMD_143}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInBasicRulesOfDifferentiation.tex",
+  "ordem": 28,
+  "hash": "c0234711a0015d144b3813a165c7f7b3a6aada2581eca65bcd3a451882a96dde",
+  "traducao": "\tCalcule:\n\t{{MATH_144}}\n\t{{CMD_145}}\n\t\tEscreva comigo\n\t\t{{ENV_146}}\n\t{{CMD_147}}\n{{CMD_148}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfEToTheX.tex",
+  "ordem": 0,
+  "hash": "6fdba1bab5c12c2af12ea3e874a80a2f8c01023b9393c91228d2503a3b4ec310",
+  "traducao": "A derivada da função exponencial natural{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Deduzimos a derivada da função exponencial natural.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfEToTheX.tex",
+  "ordem": 1,
+  "hash": "55988c8feafc7cc705e98934fcfa7eddc9354f34e904edfe6e4760ca0909b0e2",
+  "traducao": "Não sabemos nada sobre derivadas que nos permita calcular as\nderivadas de funções exponenciais sem colocar a mão na\nmassa. Vamos trabalhar um pouco com a definição de derivada:\n{{CMD_7}}\n\t{{ENV_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfEToTheX.tex",
+  "ordem": 2,
+  "hash": "982bd88a39f6386eeb722260347f0cb1798ade2dd8dbd252f383cbc2ed6f9b4a",
+  "traducao": "Há duas coisas interessantes a observar aqui: ficamos com um\nlimite que envolve {{MATH_10}}, mas não {{MATH_11}}, o que significa que, seja lá o que\n{{MATH_12}} for, desde que exista, sabemos que é um número ou, em outras palavras, uma constante.\nIsso significa que {{MATH_13}} tem uma propriedade notável:\n{{CMD_14}}\n  {{CMD_15}}A derivada de uma função exponencial é uma constante\n    vezes ela mesma.{{CMD_16}}\n{{CMD_17}}\nInfelizmente, está além do escopo deste texto calcular o limite\n{{MATH_18}}\nNo entanto, podemos olhar alguns exemplos. Considere {{MATH_19}} e {{MATH_20}}:"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfEToTheX.tex",
+  "ordem": 3,
+  "hash": "1503b2a0e7f1dc72c9480b61afd4ea8a32aeac081f9a7dca858acc76edae835e",
+  "traducao": "Embora essas tabelas não provem que temos um padrão, acontece que\n{{MATH_21}}\nAlém disso, se você fizer mais exemplos, escolhendo outros valores para a\nbase {{MATH_22}}, verá que o limite varia\nno mesmo sentido que o valor de {{MATH_23}}: {{MATH_24}} maior, limite maior; {{MATH_25}} menor,\nlimite menor. Como já podemos ver, alguns desses limites serão\nmenores que {{MATH_26}} e outros maiores que {{MATH_27}}. Em algum lugar entre {{MATH_28}} e {{MATH_29}}\no limite será exatamente {{MATH_30}}. Isso acontece quando\n{{MATH_31}}\nVamos definir o número {{MATH_32}} por essa propriedade na próxima definição:\n{{CMD_33}}{{CMD_34}}\n\tO número denotado por {{MATH_35}}, chamado {{CMD_36}}, é definido\n  \tcomo o número que satisfaz a seguinte relação\n  \t{{MATH_37}}\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfEToTheX.tex",
+  "ordem": 4,
+  "hash": "f7db741dc70a041c671719e8be1cf69aa1bc387b966ffac2bcc464fe72ca8fa4",
+  "traducao": "Usando essa definição, vemos que a função {{MATH_39}} tem a seguinte propriedade realmente notável."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfEToTheX.tex",
+  "ordem": 5,
+  "hash": "ed89f6265b1d9ebbca050983a4c59d0ae219effc37c903647ed8a2576a84e3e2",
+  "traducao": "\tA derivada da função exponencial natural é a própria função exponencial natural. Em outras palavras,\n\t{{MATH_40}}\n\t{{CMD_41}}\n\t\tPela definição de derivada por limite, escreva\n\t\t{{ENV_42}}\n\t{{CMD_43}}\n{{CMD_44}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfEToTheX.tex",
+  "ordem": 6,
+  "hash": "582f9845520c10bd49e135a5ec29177df3a3e2497e477170c0ba0bee35cf1059",
+  "traducao": "Logo, {{MATH_45}} é a sua própria derivada. Em outras palavras, a inclinação do\ngráfico de {{MATH_46}} é igual à sua altura, ou seja, à sua segunda\ncoordenada. Dito de outro modo, a função {{MATH_47}} passa pelo ponto {{MATH_48}}\ne tem inclinação {{MATH_49}} nesse ponto, seja qual for o valor de {{MATH_50}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfEToTheX.tex",
+  "ordem": 7,
+  "hash": "886d3851d369477e7d16e600c361266acac5c8bc74dff33d1b133c5a291b200a",
+  "traducao": "  Qual é a inclinação da reta tangente ao gráfico da função {{MATH_51}} em {{MATH_52}}?\n  {{CMD_53}}\n    A inclinação é {{MATH_54}}.\n  {{CMD_55}}\n{{CMD_56}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfEToTheX.tex",
+  "ordem": 8,
+  "hash": "e639337c8305df05eb739be4b2f2c1ef381f12c2c35f1c5a4a2cdd53297d2936",
+  "traducao": "\tCalcule:\n\t{{MATH_57}}\n\t{{CMD_58}}\n\t\tEscreva comigo:\n\t\t{{ENV_59}}\n\t{{CMD_60}}\n{{CMD_61}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 0,
+  "hash": "b55fecd25061ed58d20f58d7606d55c314906f9140097afa751b011030f6f45a",
+  "traducao": "A derivada do seno{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Deduzimos a derivada do seno.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 1,
+  "hash": "2a313875367f8efd033b505c578d042e9a316eaa1f29a650aee45ae49430dfe4",
+  "traducao": "Chegou a hora de visitar nossos dois amigos que se ocupam\nperiodicamente de triângulos e círculos. Em particular, queremos mostrar que\n{{MATH_7}}\nAntes de enfrentarmos esse monstro, vamos lembrar um fato e deduzir um fato\nnovo. Você pode se sentir desconfortável no começo, por não conseguir enxergar bem por que precisamos\ndesses resultados, mas esse estilo de exposição é uma realidade da escrita técnica;\né melhor se acostumar com ele."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 2,
+  "hash": "199516d5e5fb8f1e2edc0885597a8ff1b3350a2d18d9945ef5090d8357b4052a",
+  "traducao": "Primeiro, lembre-se do fato de que\n{{MATH_8}}\nEm seguida, vamos usar esse fato para deduzir nosso fato novo:\n{{CMD_9}}\n  {{MATH_10}}\n  {{CMD_11}}\n    Escreva comigo:\n{{ENV_12}}\n  {{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 3,
+  "hash": "2a169b0080b8126b72856c0b502e95ccf7df5ae4f31059c447db35ba58981d1c",
+  "traducao": "Depois dessas deliciosas entradas, estamos prontos para o prato principal."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 4,
+  "hash": "29826f0cb5502086d09c461d3d2bc0f0c0918de0cd923a5ac6885448562fe123",
+  "traducao": "Para qualquer ângulo {{MATH_15}} medido em radianos, a derivada de {{MATH_16}} em relação a {{MATH_17}} é {{MATH_18}}. Em outras palavras,\n{{MATH_19}}\n{{CMD_20}}\nUsando a definição de derivada, escreva comigo\n{{MATH_21}}\nAgora usamos um truque e aplicamos a fórmula de adição de arcos para o seno, que diz que {{MATH_22}}, para escrever\n{{ENV_23}}\n{{CMD_24}}\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 5,
+  "hash": "7a82654c55b8c56ba017fc95205f25b2fb0f3ea73ef10885e16b92887b9ccaf2",
+  "traducao": "  Qual é a inclinação da reta tangente ao gráfico de {{MATH_26}} em {{MATH_27}}?\n  {{CMD_28}}\n    {{MATH_29}}\n  {{CMD_30}}\n  {{CMD_31}}\n  A inclinação da reta tangente ao gráfico de {{MATH_32}} em {{MATH_33}} é dada por\n  {{MATH_34}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 6,
+  "hash": "389bb0eaacae45b9a225f878e0f60ed96dd26e4af2ecd16e9f5f97af8b38804a",
+  "traducao": "Para seu estímulo intelectual, considere a seguinte interpretação\ngeométrica da derivada de {{MATH_35}}.\n{{COMMENT_36}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 7,
+  "hash": "be4a1a6ce91ffd3cb717421e2c47f340de1c1b1208cac2c9f121c09a77251a29",
+  "traducao": "A partir deste diagrama, vemos que aumentar {{MATH_37}} em uma pequena\nquantidade {{MATH_38}} aumenta {{MATH_39}} em aproximadamente\n{{MATH_40}}. Logo,\n{{MATH_41}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 8,
+  "hash": "4d7d2e77fa1ba2e248b38da8fac787dc838312f3edeacf63f33a2927eafd0828",
+  "traducao": "Dito tudo isso, a derivada de uma função mede a inclinação\ndo gráfico de uma função. Se examinarmos os gráficos do seno e do\ncosseno lado a lado, deve ficar claro que o segundo parece\ndescrever com precisão a inclinação do primeiro, e de fato isso é verdade.\n{{CMD_42}}\n{{ENV_43}}\n{{COMMENT_44}}\n{{COMMENT_45}}\n{{COMMENT_46}}\n{{COMMENT_47}}\n{{COMMENT_48}}\n{{COMMENT_49}}\n{{CMD_50}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 9,
+  "hash": "0a4c2f8f29968520c662d0865937a9437e5403ce3b08fbd88d56aa4db3be776b",
+  "traducao": " Usando o gráfico acima, qual é o valor de {{MATH_51}} no intervalo {{MATH_52}} em que a tangente ao gráfico de {{MATH_53}} tem inclinação {{MATH_54}}?\n {{CMD_55}}\n   A reta tangente ao gráfico da função {{MATH_56}} tem inclinação {{MATH_57}} em {{MATH_58}}.\n {{CMD_59}}\n{{CMD_60}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/digInTheDerivativeOfSine.tex",
+  "ordem": 10,
+  "hash": "e844900c16fb590ab353abc292319e48e1d90bdb8db94bd244dcad6d66d7e9e5",
+  "traducao": "Dica de especialista: ao trabalhar com funções trigonométricas, você deve sempre\nter em mente as representações gráficas delas."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/basicDerivativeRulesAtAPoint1.tex",
+  "ordem": 0,
+  "hash": "b35d481aad1e34739ce9310011a54739ba423b7809546693006e79c826eecebd",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/basicDerivativeRulesAtAPoint2.tex",
+  "ordem": 0,
+  "hash": "b35d481aad1e34739ce9310011a54739ba423b7809546693006e79c826eecebd",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/basicDerivativeRulesAtAPoint3.tex",
+  "ordem": 0,
+  "hash": "b35d481aad1e34739ce9310011a54739ba423b7809546693006e79c826eecebd",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/basicDerivativeRulesFunction10.tex",
+  "ordem": 0,
+  "hash": "b35d481aad1e34739ce9310011a54739ba423b7809546693006e79c826eecebd",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/basicDerivativeRulesFunction11.tex",
+  "ordem": 0,
+  "hash": "b35d481aad1e34739ce9310011a54739ba423b7809546693006e79c826eecebd",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/basicDerivativeRulesFunction2.tex",
+  "ordem": 0,
+  "hash": "b35d481aad1e34739ce9310011a54739ba423b7809546693006e79c826eecebd",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/basicDerivativeRulesFunction3.tex",
+  "ordem": 0,
+  "hash": "b35d481aad1e34739ce9310011a54739ba423b7809546693006e79c826eecebd",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/basicDerivativeRulesFunction7.tex",
+  "ordem": 0,
+  "hash": "b35d481aad1e34739ce9310011a54739ba423b7809546693006e79c826eecebd",
+  "traducao": "Seja {{MATH_1}}. Calcule:"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeFromGraph3.tex",
+  "ordem": 0,
+  "hash": "dc7766d20dd0f3b84dcaa7ad2257de32c57c3af8ea0cdfe24d9231a8a1643b7d",
+  "traducao": "Um objeto se move ao longo de uma reta horizontal. Seja {{MATH_1}} a função posição do objeto, em que {{MATH_2}} é medida em metros e {{MATH_3}} é medido em segundos. O gráfico de {{MATH_4}} é dado abaixo."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeFromGraph3.tex",
+  "ordem": 1,
+  "hash": "fbedb1d8c84d162b824b1199deb300f1d32d03df40c66dc3d77034523412468a",
+  "traducao": "Use o gráfico para responder às perguntas a seguir."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeFromGraph3.tex",
+  "ordem": 2,
+  "hash": "928e64a940aeb7d957cb858f058b684da045a7b92b234ce6db1ca5f596e63900",
+  "traducao": "O objeto está na origem em {{MATH_5}} e {{MATH_6}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeFromGraph3.tex",
+  "ordem": 3,
+  "hash": "6a08127b805a11e93f5533b709fd0db98c31783860d74029643272ace7ed0c3c",
+  "traducao": "O objeto está mais distante da origem nos instantes {{MATH_7}} e {{MATH_8}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeFromGraph3.tex",
+  "ordem": 4,
+  "hash": "a40f1950f9a4689f8d6a9bb1d2bb88141c48af3177c72ce830ab0d5654e44958",
+  "traducao": "A velocidade média do objeto durante o intervalo de tempo {{MATH_9}} é\n{{MATH_10}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeFromGraph3.tex",
+  "ordem": 5,
+  "hash": "02acec7f6c41c0f830cee2c16cea1319d4e9f9e14bed696b7159e58c8c1c2519",
+  "traducao": "Para os problemas a seguir, lembre-se de que a velocidade instantânea do objeto em um dado {{MATH_11}} é igual à inclinação da reta tangente ao gráfico de {{MATH_12}} no ponto {{MATH_13}}. Seja {{MATH_14}} a velocidade instantânea do objeto no instante {{MATH_15}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeFromGraph3.tex",
+  "ordem": 6,
+  "hash": "d82fb0590bdbb3d5e212ec22ce6c7f9bf5d0071f8725d2dac73c90843533c2c5",
+  "traducao": "Para cada um dos pares a seguir, selecione o maior dos dois."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeFromGraph3.tex",
+  "ordem": 7,
+  "hash": "2cb9727afe7e9b19eec061510c46a9a75613901202473d95a0641e60a7ea951e",
+  "traducao": "Selecione cada intervalo em que o objeto tem velocidade instantânea positiva."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeFromPoints2.tex",
+  "ordem": 0,
+  "hash": "4475dcbfe0e491a428e90c318b35def430438e0d486f52713678e4e6a5f3e8ce",
+  "traducao": "Seja {{MATH_1}} uma função tal que\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeFromPoints2.tex",
+  "ordem": 1,
+  "hash": "b1f33ebdd369b081f8c77c03a52adaa4140a5be09e8887024185cb6c5c91cd7f",
+  "traducao": "Determine os valores a seguir ou digite {{CMD_3}}|CBD| se o valor não puder ser determinado.\n{{ENV_4}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeGraphs1.tex",
+  "ordem": 0,
+  "hash": "9fa7869f0bbda2b3b33a6b93e8f011380ae5625becdbe687d56b4555b283e0c7",
+  "traducao": "A figura abaixo mostra os gráficos de {{MATH_1}}, {{MATH_2}} e de outra função {{MATH_3}}. Qual curva é qual?"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeGraphs1.tex",
+  "ordem": 1,
+  "hash": "f6a37824ba778334cb4236b9d0041d17a78df8dedfcdf9275ea64af0a4d26fb0",
+  "traducao": "Digite a curva correta para cada função.\n{{ENV_4}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeIntersectionOfTangentLines.tex",
+  "ordem": 0,
+  "hash": "2d55d3b1b631d215c26310f2b2a94f8103d3563e5b4f008b012ed56676d92d7f",
+  "traducao": "O gráfico da função {{MATH_1}}, definida por {{MATH_2}}, e dois pontos do gráfico de {{MATH_3}}, {{MATH_4}} e {{MATH_5}}, são dados na figura abaixo."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeIntersectionOfTangentLines.tex",
+  "ordem": 1,
+  "hash": "f813af082ec788727e7cd5a31f72174380c2538281e4a4666a03884f5509a238",
+  "traducao": "  Determine uma equação da reta tangente à curva {{MATH_6}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeIntersectionOfTangentLines.tex",
+  "ordem": 2,
+  "hash": "9bd867f09b6c87df7ea786d5658f8b74a68fa85d00d90d93879184de1d9eae2e",
+  "traducao": " no ponto {{MATH_7}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeIntersectionOfTangentLines.tex",
+  "ordem": 3,
+  "hash": "0a872b5c2704dcf9474e3b2bb688998d6b17acffa50c81dfd0ee3186cf154cb2",
+  "traducao": "Primeiro, as coordenadas do ponto {{MATH_8}} são\n{{MATH_9}}\nPara encontrar uma equação dessa reta tangente, precisamos determinar a inclinação, {{MATH_10}}.\n{{MATH_11}}\njá que\n{{MATH_12}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeIntersectionOfTangentLines.tex",
+  "ordem": 4,
+  "hash": "a4d7eb28002e7a9462fb1ae1ee1029045ad56bdaff5fdc6f4efc07bae1f8c8db",
+  "traducao": "Portanto, a equação da reta tangente à curva {{MATH_13}} no ponto {{MATH_14}} é dada por\n{{MATH_15}}\n{{CMD_16}}  Determine uma equação da reta tangente à curva {{MATH_17}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeIntersectionOfTangentLines.tex",
+  "ordem": 5,
+  "hash": "132da3dff86ab4a106de7ecd323a500d549c6704a6d214ffce6907f5c62e057a",
+  "traducao": " no ponto {{MATH_18}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeIntersectionOfTangentLines.tex",
+  "ordem": 6,
+  "hash": "4e50c08e7a5ee874b911e08ebbd40e0e3dfce9ecacafd6f4dc69138694810de3",
+  "traducao": "Primeiro, as coordenadas do ponto {{MATH_19}} são\n{{MATH_20}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeIntersectionOfTangentLines.tex",
+  "ordem": 7,
+  "hash": "28f0cc33af8e8fb4c7b24eba700d8814234f65a6c9d7b8ad6eb6542029c13374",
+  "traducao": "Para encontrar uma equação dessa reta tangente, precisamos determinar a inclinação, {{MATH_21}}.\n{{MATH_22}}\nPortanto, a equação da reta tangente à curva {{MATH_23}} no ponto {{MATH_24}} é dada por\n{{MATH_25}}\n{{CMD_26}} As duas retas tangentes, definidas no item (a) e no item (b), são mostradas na figura abaixo."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeIntersectionOfTangentLines.tex",
+  "ordem": 8,
+  "hash": "1509d06b128eab3d8062ad3f33303e4da11e3663664f95562e6989483b408545",
+  "traducao": " Determine o ponto de interseção dessas duas retas ou mostre que tal ponto NÃO existe."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeIntersectionOfTangentLines.tex",
+  "ordem": 9,
+  "hash": "7a9c7e6110b72823ae92b72edaa0cb630828c3d0f57632443cdb10d64266eae7",
+  "traducao": "Para encontrar o ponto de interseção dessas duas retas tangentes, temos que resolver o seguinte sistema de equações:\n{{MATH_27}}\n{{MATH_28}}\nA solução desse sistema de equações e, portanto, o ponto de interseção das duas retas tangentes é o ponto\n{{MATH_29}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 0,
+  "hash": "5c5babdc6707a530a99c080982b1f2ccfeb731f38de16065bd914db4b9279627",
+  "traducao": "A figura abaixo mostra o gráfico da função {{MATH_1}}, em que {{MATH_2}}, e o ponto {{MATH_3}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 1,
+  "hash": "dfba6518f389cacabfbfaed78097a6ca3c59a2bf53102ca5fad8259f3b35d4a7",
+  "traducao": " Determine as equações de todas as retas tangentes à curva {{MATH_4}} que passam pelo ponto {{MATH_5}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 2,
+  "hash": "f470343f327476dfbd447236989e7140dbc104d35e1206f9b671393dee5bba2c",
+  "traducao": "Vamos resolver este problema em várias etapas."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 3,
+  "hash": "f08bae9af3e171963d7fe7cfcb94067539daf72377c374f0b0b24d84d9fbe89c",
+  "traducao": "ETAPA 1"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 4,
+  "hash": "d685897370316389f24a5ddbe37245c0721b085ad34d3a4bc84f0b6682a973d7",
+  "traducao": "Qualquer reta tangente desse tipo passa pelo ponto {{MATH_6}} e tem uma inclinação, que chamaremos de {{MATH_7}}. Portanto, sua equação é dada por\n{{MATH_8}}\nETAPA 2"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 5,
+  "hash": "054e9857cf96b5feaac412844b5a551045ac29c6457617c860ee6daaf6ed99c2",
+  "traducao": "Agora precisamos encontrar uma expressão para a inclinação {{MATH_9}}.\n{{CMD_10}}\n  {{ENV_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 6,
+  "hash": "c6c69343be6761622b360fb59b1d90bda001fc36ae9fc5adef57183b330f77ff",
+  "traducao": " A reta é tangente à curva {{MATH_13}} em algum ponto da curva, digamos {{MATH_14}}.  Portanto, a inclinação da reta tangente, m, é dada por\n{{MATH_15}}\ne, expressando {{MATH_16}} em termos de {{MATH_17}}, obtemos que\n{{MATH_18}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 7,
+  "hash": "24074899bff5dbd2cbee28ea5a3e123af84e347678d8ba173b4ae0fc7a1e68b5",
+  "traducao": "Portanto, uma equação da reta tangente é dada por\n{{MATH_19}}\nem que {{MATH_20}} ainda precisa ser determinado."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 8,
+  "hash": "e785a6b3b73036fa3f8e1e0878c94ea856555a7a6a412be21015a5823b88cd54",
+  "traducao": "Observe que o ponto {{MATH_21}} pertence tanto à reta tangente quanto à curva {{MATH_22}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 9,
+  "hash": "24212c5b2bf46a229354751c78d08b38737ca95d5700c7b2f49015474518ca45",
+  "traducao": "Portanto, o ponto {{MATH_23}} satisfaz a equação da reta tangente!"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 10,
+  "hash": "521e3b28e6183817265cf020675ef85a22703b9d95c163f7636cd8ba5f5d6faa",
+  "traducao": "Substituindo {{MATH_24}} e {{MATH_25}} na equação da reta, obtemos a equação\n{{MATH_26}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 11,
+  "hash": "225deb0af9476488d3bb536e119ad44002f4a1c6a34466a8c18bc253700d9b91",
+  "traducao": "Resolva essa equação do segundo grau para {{MATH_27}}!\n{{CMD_28}}\nEncontramos duas soluções para {{MATH_29}} (escritas em ordem crescente)"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 12,
+  "hash": "42c59c1f4f6c72817f4a8b234873f7c5e2a8b3caa268e87054cd9d6df40c9cd1",
+  "traducao": "Isso significa que há duas retas tangentes passando pelo ponto {{MATH_30}},"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 13,
+  "hash": "ec5fb1b2ccbbb8fa4f87bd9e9ce8062e6ab5c4b2df4edb28b8dad86a711399e1",
+  "traducao": " uma com inclinação (escritas em ordem crescente) {{MATH_31}} e a outra com inclinação {{MATH_32}}.\n\nConfira a figura!\n{{CMD_33}}\n  {{ENV_34}}\n{{CMD_35}}\nETAPA 3"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint.tex",
+  "ordem": 14,
+  "hash": "e734cd31001af9fdaeaff0320f1aa67dbbda5560c153233df30a2d2773b8898e",
+  "traducao": "Existem exatamente duas retas que são tangentes à curva {{MATH_36}} e passam pelo ponto {{MATH_37}}. A primeira reta tem inclinação positiva e a segunda tem inclinação negativa, e suas equações, escritas nessa ordem, são:\n{{ENV_38}}\n{{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeWeird5.tex",
+  "ordem": 0,
+  "hash": "bad4553fb22dbe042d88123596f153ea84a5b6029a9c0a6d71306a54ee807671",
+  "traducao": "Considere"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/derivativeWeird5.tex",
+  "ordem": 1,
+  "hash": "6f8cee0b6913e9717b5417743e11fbe18ac2fa4cf84b840e145817e6e3148eca",
+  "traducao": "É possível encontrar outra função {{MATH_1}} com {{MATH_2}}?  Se sim, encontre tal função.  Se não, explique por quê."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/flashcards.tex",
+  "ordem": 0,
+  "hash": "f099308c82077efa8920830484e1982313e30c14f09c295ad111afd9cfef6102",
+  "traducao": "Cartões de derivadas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Pratique o cálculo de derivadas.\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/flashcards.tex",
+  "ordem": 1,
+  "hash": "681425fcde646d533e2429f6a6fa0a639460415b1913f881c9e6141fa34d3c70",
+  "traducao": "  Suponha que {{MATH_8}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/flashcards.tex",
+  "ordem": 2,
+  "hash": "92526e733bf65f9358dbbfd1bc09aaaf51e4c7edf40b4a9f3c7986cbe0c69827",
+  "traducao": "  Então {{MATH_9}}."
+ },
+ {
+  "arquivo": "rulesOfDifferentiation/exercises/sqrtReview2.tex",
+  "ordem": 0,
+  "hash": "0e7abfec7e24f00c5bdc240fd2b6cae30411dfebc100078312f73d61a44ac560",
+  "traducao": "Selecione a afirmação correta abaixo."
+ }
+]

@@ -1,0 +1,464 @@
+[
+ {
+  "arquivo": "conceptsOfGraphingFunctions/titlePage.tex",
+  "ordem": 0,
+  "hash": "43eca9ab5b9fa2b980f90338dcad5b2d786ea018bf353494aff79ad316e343d6",
+  "traducao": "Conceitos sobre gráficos de funções{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Ao concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/titlePage.tex",
+  "ordem": 2,
+  "hash": "2ebf5c44a04ca23b9ac5c09ef706d33cadb4d730bffefdc755ea586d55d66dce",
+  "traducao": " Entender que informação a derivada fornece sobre quando\n  uma função é crescente ou decrescente.\n{{CMD_4}} Entender que informação a segunda derivada fornece\n  sobre a concavidade do gráfico de uma função.\n{{CMD_5}} Interpretar limites como fonte de informação sobre funções.\n{{CMD_6}} Determinar a aparência do gráfico de uma função a partir de uma descrição\n  analítica da função.\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/breakGround.tex",
+  "ordem": 0,
+  "hash": "895847cc9d1ae008fa69ee56f29994bd13254b71ec1f4be5ba6c08af77b56715",
+  "traducao": "Como é o gráfico?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem como esboçar os gráficos de funções.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma\nhistória real):"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/breakGround.tex",
+  "ordem": 2,
+  "hash": "5d8fde4531f87c06373d42a59519d3624ada2b4f8654ba34f0011067c8409a82",
+  "traducao": " Riley, eu estava pensando na derivada.\n{{CMD_7}} É tudo uma questão de variação. Ela é uma espécie de ``detector de variação''\n  da matemática.\n{{CMD_8}} Eu sei! O mais incrível é que dá para usá-la como ferramenta\n  para desencavar os segredos das funções.\n{{CMD_9}} Primeiro, {{MATH_10}} nos diz se ela é crescente ou decrescente.\n{{CMD_11}} Depois, {{MATH_12}} nos diz a concavidade.\n{{CMD_13}} Só com isso já conhecemos todos os máximos e mínimos locais.\n{{CMD_14}} E, se usarmos limites, podemos encontrar as assíntotas!\n{{CMD_15}} Sabe, eu gostaria de montar um procedimento baseado em todos\n  esses fatos, que me dissesse como seria o gráfico de qualquer função.\n{{CMD_16}} Eu também! Mãos à obra!\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/breakGround.tex",
+  "ordem": 3,
+  "hash": "5eaced839b800ddaae4c447052df74283dc07dbd2fe394a42a9ade872ace703d",
+  "traducao": "  Em certo intervalo, sabemos que {{MATH_18}} é positiva e {{MATH_19}} é positiva.\n  Qual das alternativas a seguir é a melhor opção para a forma do gráfico nesse\n  intervalo?\n  {{CMD_20}}{{COMMENT_21}}\n    {{CMD_22}}{{ENV_23}}{{CMD_24}}\n\t{{CMD_25}}{{ENV_26}}{{CMD_27}}\n\t{{CMD_28}}{{ENV_29}}{{CMD_30}}\n\t{{CMD_31}}{{ENV_32}}{{CMD_33}}\n  {{CMD_34}}\n{{CMD_35}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/breakGround.tex",
+  "ordem": 4,
+  "hash": "f9e09b4508d7f92222b4990a02acfbdc508694c5bd01d859124f461b391bf46e",
+  "traducao": "  Em certo intervalo, sabemos que {{MATH_36}} é negativa e {{MATH_37}} é positiva.\n  Qual das alternativas a seguir é a melhor opção para a forma do gráfico nesse\n  intervalo?\n  {{CMD_38}}{{COMMENT_39}}\n  \t{{CMD_40}}{{ENV_41}}{{CMD_42}}\n\t{{CMD_43}}{{ENV_44}}{{CMD_45}}\n\t{{CMD_46}}{{ENV_47}}{{CMD_48}}\n\t{{CMD_49}}{{ENV_50}}{{CMD_51}}\n  {{CMD_52}}\n{{CMD_53}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions.tex",
+  "ordem": 0,
+  "hash": "ceb0a981b94f3401798ebe6444dc9e9e482c0ea017492d15a802986e0e069d9c",
+  "traducao": "Conceitos para esboçar gráficos de funções{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Usamos a linguagem do cálculo para descrever gráficos de funções.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions.tex",
+  "ordem": 1,
+  "hash": "5604c94fd4f8f2661388cdf3926a1ecc8024cf0119588d789588536159843c1d",
+  "traducao": "Nesta seção, revisamos as implicações gráficas dos limites e do\nsinal da primeira e da segunda derivada.  Você já sabe tudo\nisso: é que o assunto é importante o bastante para ser visto mais de uma vez,\njuntando todas as peças."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions.tex",
+  "ordem": 2,
+  "hash": "e1a88dc287f50835dd496f46f982fa34cbd7644902352a95842cf578d4032df4",
+  "traducao": "  Esboce o gráfico de uma função {{MATH_7}} que tenha as seguintes propriedades:\n  {{CMD_8}}\n  {{CMD_9}} {{MATH_10}}\n  {{CMD_11}} {{MATH_12}}\n  {{CMD_13}} {{MATH_14}}\n  {{CMD_15}} {{MATH_16}} em {{MATH_17}}\n  {{CMD_18}} {{MATH_19}} em {{MATH_20}}\n  {{CMD_21}} {{MATH_22}} em {{MATH_23}}\n  {{CMD_24}} {{MATH_25}} em {{MATH_26}}\n  {{CMD_27}}\n  {{CMD_28}}\n    Tente primeiro por conta própria e depois confira com um colega ou\n    veja a versão online.\n    \n    {{CMD_29}}\n      A primeira coisa que faremos é marcar o ponto {{MATH_30}} e\n      indicar a assíntota vertical apropriada, decorrente das condições\n      sobre os limites.  Também marcamos todos os lugares em que {{MATH_31}} ou {{MATH_32}}\n      mudam de sinal.\n      \n      {{CMD_33}}\n        {{ENV_34}}\n      {{CMD_35}}\n      \n    {{CMD_36}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions.tex",
+  "ordem": 3,
+  "hash": "472e7706215fb69e77020cbf8ad778c550883a3515cdf0b50e73a469ae3a81c8",
+  "traducao": "      Agora classificamos o comportamento em cada um dos intervalos:\n      \n\t{{CMD_37}}\n\t{{CMD_38}} Em {{MATH_39}}, {{MATH_40}} é {{CMD_41}}{{CMD_42}}crescente{{CMD_43}} {{CMD_44}}decrescente{{CMD_45}}{{CMD_46}} e tem concavidade para {{CMD_47}}{{CMD_48}}cima{{CMD_49}}{{CMD_50}}baixo{{CMD_51}}{{CMD_52}} \n\t{{CMD_53}} Em {{MATH_54}}, {{MATH_55}} é {{CMD_56}}{{CMD_57}}crescente{{CMD_58}} {{CMD_59}}decrescente{{CMD_60}}{{CMD_61}} e tem concavidade para {{CMD_62}}{{CMD_63}}cima{{CMD_64}}{{CMD_65}}baixo{{CMD_66}}{{CMD_67}}\n\t{{CMD_68}} Em {{MATH_69}}, {{MATH_70}} é {{CMD_71}}{{CMD_72}}crescente{{CMD_73}} {{CMD_74}}decrescente{{CMD_75}}{{CMD_76}} e tem concavidade para {{CMD_77}}{{CMD_78}}cima{{CMD_79}}{{CMD_80}}baixo{{CMD_81}}{{CMD_82}}\n\t{{CMD_83}} Em {{MATH_84}}, {{MATH_85}} é {{CMD_86}}{{CMD_87}}crescente{{CMD_88}} {{CMD_89}}decrescente{{CMD_90}}{{CMD_91}} e tem concavidade para {{CMD_92}}{{CMD_93}}cima{{CMD_94}}{{CMD_95}}baixo{{CMD_96}}{{CMD_97}}\n\t{{CMD_98}} Em {{MATH_99}}, {{MATH_100}} é {{CMD_101}}{{CMD_102}}crescente{{CMD_103}} {{CMD_104}}decrescente{{CMD_105}}{{CMD_106}} e tem concavidade para {{CMD_107}}{{CMD_108}}cima{{CMD_109}}{{CMD_110}}baixo{{CMD_111}}{{CMD_112}}\n\t{{CMD_113}} Em {{MATH_114}}, {{MATH_115}} é {{CMD_116}}{{CMD_117}}crescente{{CMD_118}} {{CMD_119}}decrescente{{CMD_120}}{{CMD_121}} e tem concavidade para {{CMD_122}}{{CMD_123}}cima{{CMD_124}}{{CMD_125}}baixo{{CMD_126}}{{CMD_127}}\n\t{{CMD_128}}\n    {{CMD_129}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions.tex",
+  "ordem": 4,
+  "hash": "5109c192f4164a4967996b01feab62ef7cbb5197ef2d5c13476094354f6d21c1",
+  "traducao": "      Usando todas essas informações, somos levados a esboçar algo como o seguinte:\n      \n\t{{CMD_130}}\n          {{ENV_131}}\n        {{CMD_132}}\n    {{CMD_133}}    \n  {{CMD_134}}\n{{CMD_135}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions.tex",
+  "ordem": 5,
+  "hash": "e7889aed5c8fddc54f2ed654b7449ab0ec8ec5939e737f6231fa7cd988d6ed1f",
+  "traducao": "  Esboce o gráfico de uma função {{MATH_136}} que tenha as seguintes propriedades:\n  {{CMD_137}}\n  {{CMD_138}} {{MATH_139}}\n  {{CMD_140}} {{MATH_141}}\n  {{CMD_142}} {{MATH_143}}\n  {{CMD_144}} {{MATH_145}}\n  {{CMD_146}} {{MATH_147}} em {{MATH_148}}\n  {{CMD_149}} {{MATH_150}} em {{MATH_151}}\n  {{CMD_152}} {{MATH_153}} em {{MATH_154}}\n  {{CMD_155}} {{MATH_156}} em {{MATH_157}}\n  {{CMD_158}} {{MATH_159}} em {{MATH_160}}\n  {{CMD_161}}\n  \n  {{CMD_162}}\n    Tente primeiro por conta própria e depois confira com um colega ou\n    veja a versão online.\n    \n    {{CMD_163}}\n      A primeira coisa que faremos é marcar os pontos {{MATH_164}} e {{MATH_165}}, e os ``buracos'' em {{MATH_166}} e {{MATH_167}} decorrentes das condições sobre os limites.  Podemos desenhar imediatamente como {{MATH_168}} fica em {{MATH_169}}, já que ali ela é linear com inclinação {{MATH_170}} e precisa se conectar ao buraco em {{MATH_171}}.  Também marcamos todos os lugares em que {{MATH_172}} ou {{MATH_173}} mudam de sinal.\n      \n\t{{CMD_174}}\n          {{ENV_175}}\n        {{CMD_176}}\n        \n    {{CMD_177}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions.tex",
+  "ordem": 6,
+  "hash": "0fb0bc30675b198e2190dd936d8c36a920ce9fe710bd5a99f61164adb7c94b49",
+  "traducao": "  Agora classificamos o comportamento em cada um dos intervalos:\n\t{{CMD_178}}\n\t{{CMD_179}} Em {{MATH_180}}, {{MATH_181}} é {{CMD_182}}{{CMD_183}}crescente{{CMD_184}} {{CMD_185}}decrescente{{CMD_186}}{{CMD_187}} e tem concavidade para {{CMD_188}}{{CMD_189}}cima{{CMD_190}}{{CMD_191}}baixo{{CMD_192}}{{CMD_193}} \n\t{{CMD_194}} Em {{MATH_195}}, {{MATH_196}} é {{CMD_197}}{{CMD_198}}crescente{{CMD_199}} {{CMD_200}}decrescente{{CMD_201}}{{CMD_202}} e tem concavidade para {{CMD_203}}{{CMD_204}}cima{{CMD_205}}{{CMD_206}}baixo{{CMD_207}}{{CMD_208}}\n\t{{CMD_209}} Em {{MATH_210}}, {{MATH_211}} é {{CMD_212}}{{CMD_213}}crescente{{CMD_214}} {{CMD_215}}decrescente{{CMD_216}}{{CMD_217}} e tem concavidade para {{CMD_218}}{{CMD_219}}cima{{CMD_220}}{{CMD_221}}baixo{{CMD_222}}{{CMD_223}}\n\t{{CMD_224}} Em {{MATH_225}}, {{MATH_226}} é {{CMD_227}}{{CMD_228}}crescente{{CMD_229}} {{CMD_230}}decrescente{{CMD_231}}{{CMD_232}} e tem concavidade para {{CMD_233}}{{CMD_234}}cima{{CMD_235}}{{CMD_236}}baixo{{CMD_237}}{{CMD_238}}\n\t{{CMD_239}}\n{{CMD_240}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions.tex",
+  "ordem": 7,
+  "hash": "cccb1b2b22976b5cb7db6ffc57485402f4e20ed18fe6342e184e676cc41d5493",
+  "traducao": "  Usando todas essas informações, somos levados a desenhar algo como o seguinte:\n  \n  {{CMD_241}}\n    {{ENV_242}}\n  {{CMD_243}}\n{{CMD_244}}\n{{CMD_245}}\n{{CMD_246}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions.tex",
+  "ordem": 8,
+  "hash": "e48549faa6db6778e5ee5f83d1df0c3c4853a33fceb30d45c6a3a88e76d0bd26",
+  "traducao": "  O gráfico de {{MATH_247}} (a derivada de {{MATH_248}}) é mostrado abaixo. \n  \n  Suponha que {{MATH_249}} é contínua em todos os números reais.\n  \n  {{CMD_250}}\n    {{ENV_251}}\n  {{CMD_252}}\n  \n  \n  {{CMD_253}}\n    Em quais dos intervalos a seguir {{MATH_254}} é crescente? \n    {{CMD_255}}\n      {{CMD_256}}{{MATH_257}}{{CMD_258}}\n      {{CMD_259}}{{MATH_260}}{{CMD_261}}\n      {{CMD_262}}{{MATH_263}}{{CMD_264}}\n      {{CMD_265}}{{MATH_266}}{{CMD_267}}\n      {{CMD_268}}{{MATH_269}}{{CMD_270}}\n    {{CMD_271}}\n    {{CMD_272}}\n      {{MATH_273}} é crescente onde {{MATH_274}}, isto é, nos intervalos\n      {{MATH_275}} e {{MATH_276}}.\n    {{CMD_277}}\n  {{CMD_278}}\n  \n  {{CMD_279}}\n    Quais dos pontos a seguir são pontos críticos de {{MATH_280}}?\n    {{CMD_281}}\n      {{CMD_282}}{{MATH_283}}{{CMD_284}}\n      {{CMD_285}}{{MATH_286}}{{CMD_287}}\n      {{CMD_288}}{{MATH_289}}{{CMD_290}}\n      {{CMD_291}}{{MATH_292}}{{CMD_293}}\n    {{CMD_294}}\n    \n    {{CMD_295}}\n      {{MATH_296}} tem pontos críticos nos zeros de {{MATH_297}} e nos lugares em que {{MATH_298}} não existe.  Neste caso, {{MATH_299}}, {{MATH_300}} e {{MATH_301}}.\n    {{CMD_302}}\n  {{CMD_303}}\n  \n  {{CMD_304}}\n    Onde ocorrem os máximos locais?\n    {{CMD_305}}\n      {{CMD_306}}{{MATH_307}}{{CMD_308}}\n      {{CMD_309}}{{MATH_310}}{{CMD_311}}\n      {{CMD_312}}{{MATH_313}}{{CMD_314}}\n      {{CMD_315}}{{MATH_316}}{{CMD_317}}\n    {{CMD_318}}\n    {{CMD_319}}\n      Um máximo local ocorre em um ponto crítico no qual a função\n      passa de crescente a decrescente, isto é, a derivada\n      passa de positiva a negativa.  Neste caso, vemos que os\n      máximos locais ocorrem em {{MATH_320}} e {{MATH_321}}.\n    {{CMD_322}}\n  {{CMD_323}}\n  \n  {{CMD_324}}\n    Onde ocorre um ponto de inflexão?\n    {{CMD_325}}\n      {{CMD_326}}{{MATH_327}}{{CMD_328}}\n      {{CMD_329}}{{MATH_330}}{{CMD_331}}\n      {{CMD_332}}{{MATH_333}}{{CMD_334}}\n      {{CMD_335}}{{MATH_336}}{{CMD_337}}\n{{CMD_338}}\n    \n    {{CMD_339}}\n      Um ponto de inflexão ocorre quando a concavidade de {{MATH_340}} muda.  Isso se reflete na mudança de sinal de {{MATH_341}}.  Neste gráfico, isso só acontece em um ponto, a saber, {{MATH_342}}.\n    {{CMD_343}}\n    \n  {{CMD_344}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions.tex",
+  "ordem": 9,
+  "hash": "acafb867326c94f2637b4495f83995a36183b6717d23cc01cd2e82fc9c534dc3",
+  "traducao": "    Em quais dos intervalos a seguir {{MATH_345}} tem concavidade para baixo?\n    {{CMD_346}}\n      {{CMD_347}}{{MATH_348}}{{CMD_349}}\n      {{CMD_350}}{{MATH_351}}{{CMD_352}}\n      {{CMD_353}}{{MATH_354}}{{CMD_355}}\n      {{CMD_356}}{{MATH_357}}{{CMD_358}}\n      {{CMD_359}}{{MATH_360}}{{CMD_361}}\n    {{CMD_362}}\n    \n    {{CMD_363}}\n      {{MATH_364}} tem concavidade para baixo quando {{MATH_365}}.  Neste gráfico, isso ocorre para {{MATH_366}}.  Portanto, a resposta correta é selecionar tanto {{MATH_367}} quanto {{MATH_368}}. \n    {{CMD_369}}\n  {{CMD_370}}\n  \n  \n{{CMD_371}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions1.tex",
+  "ordem": 0,
+  "hash": "ed14ae9e06464f650a22582a9089ccc5737292424ba4dcbcf8515767a42addfa",
+  "traducao": "Suponha que a função {{MATH_1}} é contínua em {{MATH_2}}. O gráfico de {{MATH_3}}, a derivada de {{MATH_4}}, é mostrado na figura abaixo."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions1.tex",
+  "ordem": 1,
+  "hash": "dd00b2dc2832e36353c2c1ed9d7b884fce1a263b6e094523a205356268495462",
+  "traducao": " é crescente nos intervalos (da esquerda para a direita) {{MATH_5}} e {{MATH_6}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions1.tex",
+  "ordem": 2,
+  "hash": "6a99ea3ad46d0ba36f7707b20f643e29ab12cd3aa6e5f8789b029ff97785873d",
+  "traducao": "Chame os pontos críticos de {{MATH_7}} de {{MATH_8}}, {{MATH_9}} e {{MATH_10}}, com {{MATH_11}}.  Então\n{{ENV_12}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions1.tex",
+  "ordem": 3,
+  "hash": "b6e430aad96464512a537f6feee04b5a16d61efb1439157637b1a155b77ee196",
+  "traducao": "O ponto crítico {{MATH_13}} corresponde a um {{CMD_14}}{{CMD_15}}máximo local{{CMD_16}} {{CMD_17}}mínimo local{{CMD_18}} {{CMD_19}}ponto que não é nem máximo local nem mínimo local{{CMD_20}}{{CMD_21}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions1.tex",
+  "ordem": 4,
+  "hash": "408ed4c57a92da08827baf5c05b9adad25c02463099a6204f604ca2369b25eee",
+  "traducao": "O ponto crítico {{MATH_22}} corresponde a um {{CMD_23}}{{CMD_24}}máximo local{{CMD_25}} {{CMD_26}}mínimo local{{CMD_27}} {{CMD_28}}ponto que não é nem máximo local nem mínimo local{{CMD_29}}{{CMD_30}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions1.tex",
+  "ordem": 5,
+  "hash": "ba13742a9c2656d9d6303803068c9ec69a480b6cc0fb3da6c509b303aa395e5a",
+  "traducao": "O ponto crítico {{MATH_31}} corresponde a um {{CMD_32}}{{CMD_33}}máximo local{{CMD_34}} {{CMD_35}}mínimo local{{CMD_36}} {{CMD_37}}ponto que não é nem máximo local nem mínimo local{{CMD_38}}{{CMD_39}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions1.tex",
+  "ordem": 6,
+  "hash": "8c47fbc0dce9aca1beac32fb72d8611a5965547c8784987a7bb91f24b8effc49",
+  "traducao": " tem concavidade para baixo no intervalo {{MATH_40}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions1.tex",
+  "ordem": 7,
+  "hash": "508bd7cb6de18a55aa7f36989535a7dfc7ee63f5353e7602bc310d384289f342",
+  "traducao": " tem um ponto de inflexão em {{MATH_41}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions2.tex",
+  "ordem": 0,
+  "hash": "c526be4733c496d01d2cbe2266d95fdbf2ad76cac057906b1fd3f6e0696924b1",
+  "traducao": "Considere uma função {{MATH_1}} que satisfaz as seguintes condições.\n{{CMD_2}}\n{{CMD_3}} O domínio de {{MATH_4}} é {{MATH_5}}, {{MATH_6}}.  {{MATH_7}} é contínua em seu domínio e derivável em todos os pontos do domínio, exceto em {{MATH_8}}.\n{{CMD_9}} {{MATH_10}} e {{MATH_11}}.\n{{CMD_12}} {{MATH_13}} e {{MATH_14}}.\n{{CMD_15}} {{MATH_16}} em {{MATH_17}} e em {{MATH_18}}.\n{{CMD_19}} {{MATH_20}} em {{MATH_21}}.\n{{CMD_22}} {{MATH_23}} em {{MATH_24}} e em {{MATH_25}}.\n{{CMD_26}} {{MATH_27}} em {{MATH_28}} e em {{MATH_29}}.\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions2.tex",
+  "ordem": 1,
+  "hash": "7b8907c1d2642ad595f3cb7a14c48385542715d14391b05de22bfc8299d5ee1e",
+  "traducao": " é crescente e tem concavidade para baixo no intervalo {{MATH_31}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions2.tex",
+  "ordem": 2,
+  "hash": "e1dbdbf1f02768f6d75445a174a827d5b4dd4abc9b1d56245f231a2fd383247c",
+  "traducao": " é crescente e tem concavidade para cima no intervalo {{MATH_32}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions2.tex",
+  "ordem": 3,
+  "hash": "3b349a3435005302c182a8ace4a553c612e99a7a31918baaa9474f7b616cc069",
+  "traducao": " é decrescente e tem concavidade para baixo no intervalo {{MATH_33}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions2.tex",
+  "ordem": 4,
+  "hash": "6ee8bc2b065550a46ecf5aebfe35decb3c47b0141709d0c9323c9f4b9c70aec2",
+  "traducao": " é decrescente e tem concavidade para cima no intervalo {{MATH_34}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions2.tex",
+  "ordem": 5,
+  "hash": "2e3b6c5bdb6c8dbb08431350ad9dbc6ad8c401b3ac8a46dcaa1d345b22aafced",
+  "traducao": " tem {{MATH_35}} mínimos locais."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions2.tex",
+  "ordem": 6,
+  "hash": "6cd07842587ba50e1394ed02ede68ff0780cb42dcdcbbe1139f7595866878672",
+  "traducao": " tem 1 máximo local em {{MATH_36}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions2.tex",
+  "ordem": 7,
+  "hash": "b78d3a1bd1de7a1630aa46c58f05773e8b46c0a39aee913afbaf5031f8ce57f1",
+  "traducao": " tem 1 ponto de inflexão em {{MATH_37}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions2.tex",
+  "ordem": 8,
+  "hash": "820b9afd2ae7e54318e39d3ad55b8e98f4041e34c390d9567dee5753bbfff8ec",
+  "traducao": "  \nQual diagrama mostra o gráfico de uma função que tem todas as propriedades acima?\n{{CMD_38}}\n{{CMD_39}}{{MATH_40}}{{CMD_41}}\n{{CMD_42}}{{MATH_43}}{{CMD_44}}\n{{CMD_45}}{{MATH_46}}{{CMD_47}}\n{{CMD_48}}{{MATH_49}}{{CMD_50}}\n{{CMD_51}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3.tex",
+  "ordem": 0,
+  "hash": "62ba5923ff29fe460a324db6a14a3c02b86b3adedb1ebc4dfeadcc049f8cb6e7",
+  "traducao": "Suponha que {{MATH_1}} é uma função contínua no domínio {{MATH_2}}.  O gráfico de {{MATH_3}} é dado abaixo."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3.tex",
+  "ordem": 1,
+  "hash": "2c7b3e99a0537a15838a8066e6a4fea239680558d8fb5aa155598bf147c71197",
+  "traducao": " tem pontos críticos nos valores de {{MATH_4}} (da esquerda para a direita) {{MATH_5}}, {{MATH_6}} e {{MATH_7}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3.tex",
+  "ordem": 2,
+  "hash": "8f65be92898a8ba12eeaa10b7639888e2cb9b8b4b284893f15f4c46bde1c4c39",
+  "traducao": " tem um máximo local em {{MATH_8}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3.tex",
+  "ordem": 3,
+  "hash": "25bb7dec8dc99486d9b7898c9d8c8d6670ea9de61e952b78c446b689ec134746",
+  "traducao": " tem um mínimo local em {{MATH_9}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3.tex",
+  "ordem": 4,
+  "hash": "f4a90c89bfeae49925477b53c8e8bb5f3bdc561504e8a69fdfbc24afef4971e1",
+  "traducao": " é decrescente em {{MATH_10}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3.tex",
+  "ordem": 5,
+  "hash": "a5ce659eab5803b126c758778f09652708952198c5d723a19633c7e4d30804f4",
+  "traducao": " tem concavidade para cima em {{MATH_11}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3.tex",
+  "ordem": 6,
+  "hash": "e549d73dc8435c06c85925cb0a6a66e25f2485a6c59d3df6876f639c4dbad511",
+  "traducao": " tem pontos de inflexão nos valores de {{MATH_12}} (da esquerda para a direita) {{MATH_13}} e {{MATH_14}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 0,
+  "hash": "5c247c833f5a05cea48af8b7b53020996d1cc418c5c449b1c37525b247ee6424",
+  "traducao": " O gráfico de uma função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 1,
+  "hash": "a0c382acef8d62ceaf0851a4ef5f5ff45856f4dfa39b8b6b3816bccc3e583fce",
+  "traducao": "Com base no gráfico de {{MATH_2}}, responda à pergunta abaixo.{{CMD_3}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 2,
+  "hash": "b3f6e2f9ce7b81aeb77405ccd8c24aab3861ed64777b02bf863e2a4e4db0f734",
+  "traducao": " tem pontos críticos nos valores de {{MATH_4}} (da esquerda para a direita) {{MATH_5}}, {{MATH_6}}, {{MATH_7}} e {{MATH_8}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 3,
+  "hash": "d6301080e0984f77931c2cb24c07b314ec23bd7df16c6f5ece09fe22bfa93163",
+  "traducao": " tem ponto crítico com {{MATH_9}} em {{MATH_10}}.{{CMD_11}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 4,
+  "hash": "e4b71808765b400897c41b62a580c5f744ba72948984c6aa0252f8a4a8050be6",
+  "traducao": " tem pontos críticos em que {{MATH_12}} {{CMD_13}}não está definida{{CMD_14}} nos valores de {{MATH_15}} (da esquerda para a direita) {{MATH_16}}, {{MATH_17}} e {{MATH_18}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 5,
+  "hash": "d0699a42627ec4c910eef2f71224eb43ee01a29f3e406a01e06a9a8d1fcc558d",
+  "traducao": " tem máximo local em {{MATH_19}} e em {{MATH_20}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 6,
+  "hash": "702a293056524fdf1e438b172f9a31575d6c6f231e9b83d3cc028f4dc69c4bc7",
+  "traducao": " tem um mínimo local em {{MATH_21}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 7,
+  "hash": "6d8c53e3c1184b6ee1e5e2934783e32da877756d5f1c9d0c3243d9ca67f3cdee",
+  "traducao": " é decrescente e tem concavidade para baixo em {{MATH_22}} e em {{MATH_23}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 8,
+  "hash": "bd07626efebdf9ce7904ead328b0d0f4ab0659bc15bd49993444e2958f67d288",
+  "traducao": " é crescente e tem concavidade para baixo em {{MATH_24}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 9,
+  "hash": "ecd7627dd2e6229037b8414fa679cc86e5c436aee800019cb76e49351d187a52",
+  "traducao": " é decrescente e tem concavidade para cima em {{MATH_25}} e em {{MATH_26}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions3A.tex",
+  "ordem": 10,
+  "hash": "5432d08bfb7f29072b1039181e2b6efb32286502166321a63e897a91c3b31110",
+  "traducao": " tem pontos de inflexão nos valores de {{MATH_27}} (da esquerda para a direita) {{MATH_28}} e {{MATH_29}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions4.tex",
+  "ordem": 0,
+  "hash": "62ba5923ff29fe460a324db6a14a3c02b86b3adedb1ebc4dfeadcc049f8cb6e7",
+  "traducao": "Suponha que {{MATH_1}} é uma função contínua no domínio {{MATH_2}}.  O gráfico de {{MATH_3}} é dado abaixo."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions4.tex",
+  "ordem": 1,
+  "hash": "16cb7cfe4ceb50db99e665b2f11faf2c06dbf43c9957310a8fa6e0f3de18b37f",
+  "traducao": " tem pontos críticos nos valores de {{MATH_4}} (da esquerda para a direita) {{MATH_5}} e {{MATH_6}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions4.tex",
+  "ordem": 2,
+  "hash": "b11d200ba36757b9765644949eecc03738bb222776b7b47eb0a1ceaeb3b1bd11",
+  "traducao": " tem um mínimo local em {{MATH_7}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions4.tex",
+  "ordem": 3,
+  "hash": "a94ab40fce7a187ae028416253034908e1f4cf2d10ebf1b32cafc7d6f5940c41",
+  "traducao": " tem concavidade para baixo em {{MATH_8}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 0,
+  "hash": "e2d3e48de0f77b0a02b7d4804fd2b3afa7e3f9c2277f96426a45b5c44ce6033e",
+  "traducao": "Desenhe um possível gráfico de {{MATH_1}}, sabendo que ela satisfaz todas as condições a seguir."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 1,
+  "hash": "5983d60c3b8d8421cd38c9378af2a35b0bafa9555f3ccec451804787ab58ed4c",
+  "traducao": "(a) Domínio de {{MATH_2}},"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 2,
+  "hash": "7ace3a7e2d17ddc3847935c070a9a40268b6be49fc197b03d302a0d6a08db7b5",
+  "traducao": "(b) f é contínua em seu domínio e derivável em todos os pontos do domínio, exceto em {{MATH_3}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 3,
+  "hash": "a43c3273e5d236d7430bf99d3dc21f274c018d961099063adf29baacf20343d7",
+  "traducao": "(c) {{MATH_4}},"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 4,
+  "hash": "60de41bd8d36d38a49606f1c341b43c77ef573cdae227d65dbaee6996013fe78",
+  "traducao": "(d) {{MATH_5}}, {{MATH_6}}, {{MATH_7}},"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 5,
+  "hash": "ef97024730ffaaf965e368af18dc3ca731ab2c9d2f3c9a5ec846ebe6d13168cb",
+  "traducao": "(e) {{MATH_8}} em {{MATH_9}} e em {{MATH_10}},"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 6,
+  "hash": "cc43e37697401f58bb4e9a1def8d609be7f8686af72eaf72968201d131eb1332",
+  "traducao": "(f) {{MATH_11}} em {{MATH_12}},"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 7,
+  "hash": "cc635197cec0a4340df57088e688b549a5c80811988237b905c1e39f8c1459fe",
+  "traducao": "(g) {{MATH_13}} em {{MATH_14}} e em {{MATH_15}},"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 8,
+  "hash": "bdca0bd01cbeb31e013b38db9eeb335df7e3e3bb2527a67a13fd71bea6f741f6",
+  "traducao": "(h) {{MATH_16}} em {{MATH_17}} e em {{MATH_18}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 9,
+  "hash": "0154a9a0d70355c8b5eef30b7d9c37323eb4a0b2da16a4f59e09225adc506619",
+  "traducao": "Quando terminar, selecione `Concluído' e compare sua resposta com a que é mostrada"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions5.tex",
+  "ordem": 10,
+  "hash": "85892882f1a10a5acad095c729a976a62c23d6f278b6ad434a6eee8e597646ca",
+  "traducao": "Concluído{{CMD_19}}\n{{CMD_20}}\n{{CMD_21}}\n{{CMD_22}}\n{{ENV_23}}\n{{CMD_24}}\n{{CMD_25}}\n{{CMD_26}}\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions6.tex",
+  "ordem": 0,
+  "hash": "cd3c199ecf84a9041b74997a4ae77adaf6d79821d77e70adff3ff7fa133eea3c",
+  "traducao": "Considere uma função {{MATH_1}} que satisfaz as seguintes condições.\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}} e {{MATH_5}}.\n{{CMD_6}} {{MATH_7}}.\n{{CMD_8}} {{MATH_9}} em {{MATH_10}} e em {{MATH_11}}.\n{{CMD_12}} {{MATH_13}} em {{MATH_14}}.\n{{CMD_15}} {{MATH_16}} em {{MATH_17}} e em {{MATH_18}}.\n{{CMD_19}} {{MATH_20}} em {{MATH_21}} e em {{MATH_22}}.\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions6.tex",
+  "ordem": 1,
+  "hash": "aa72857620a73e36f5f733789b6fef5c8d5a4ca5dc26cb4182e7997bf96f1af0",
+  "traducao": " é crescente e tem concavidade para baixo no intervalo {{MATH_24}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions6.tex",
+  "ordem": 2,
+  "hash": "27b5eca498e1baeb3aadca364e56ad44bd4cd29cb1cac7e36c5eaff809e87794",
+  "traducao": " é crescente e tem concavidade para cima em NENHUM intervalo."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions6.tex",
+  "ordem": 3,
+  "hash": "9878404cc516f327eb73a46e6175548e16e91322d6c4d449632b0e138a3731e4",
+  "traducao": " é decrescente e tem concavidade para baixo nos intervalos (da esquerda para a direita) {{MATH_25}} e {{MATH_26}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions6.tex",
+  "ordem": 4,
+  "hash": "326393d74ed6cf4540c72a263e7569f0b3d8771f1b641e806be58a3f5c12fe32",
+  "traducao": " é decrescente e tem concavidade para cima nos intervalos (da esquerda para a direita) {{MATH_27}} e {{MATH_28}}"
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions6.tex",
+  "ordem": 5,
+  "hash": "40b8c847e6db3b50893dd46c621affa6e571407c80f1a11b1db46e4951a539ad",
+  "traducao": " tem {{MATH_29}} mínimos locais."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions6.tex",
+  "ordem": 6,
+  "hash": "77477aa5a0a9d772c51319b36c8ca65a9d1cb412bf343276164f0d7b274e973d",
+  "traducao": " tem um máximo local em {{MATH_30}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions6.tex",
+  "ordem": 7,
+  "hash": "531eac1c4ebd715965b7f1d62b4c99b20bd9ade73b84f947e7274eed1970c72c",
+  "traducao": " tem pontos de inflexão (da esquerda para a direita) em {{MATH_31}} e {{MATH_32}}."
+ },
+ {
+  "arquivo": "conceptsOfGraphingFunctions/exercises/graphingFunctions6.tex",
+  "ordem": 8,
+  "hash": "2ff95dc570b057c91e73f93aa6bdd8d9232758d60db8ac20c1d5b7a5ec11c3f9",
+  "traducao": "  \nQual diagrama mostra o gráfico de uma função que tem todas as propriedades acima?\n{{CMD_33}}\n{{CMD_34}}{{MATH_35}}{{CMD_36}}\n{{CMD_37}}{{MATH_38}}{{CMD_39}}\n{{CMD_40}}{{MATH_41}}{{CMD_42}}\n{{CMD_43}}{{MATH_44}}{{CMD_45}}\n{{CMD_46}}"
+ }
+]

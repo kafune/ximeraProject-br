@@ -1,0 +1,554 @@
+[
+ {
+  "arquivo": "moreThanOneRate/titlePage.tex",
+  "ordem": 0,
+  "hash": "812d76df23c238f4aec711f6cfe244a6532fd453bc883705173c67ee55df93a0",
+  "traducao": "Mais de uma taxa{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após completar esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "moreThanOneRate/titlePage.tex",
+  "ordem": 2,
+  "hash": "c6372b4e64bd538d8b92192e4094e937dbf0f38e851915502dc8f1e54d51149c",
+  "traducao": " Resolver problemas básicos de taxas relacionadas.\n{{CMD_4}} Compreender o processo de resolução de problemas de taxas relacionadas.\n{{CMD_5}} Calcular implicitamente derivadas de expressões com várias variáveis.\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/breakGround.tex",
+  "ordem": 0,
+  "hash": "602d55a348195cea7a6da6bfd5323187d2cff90aa6b2a353b551229232b01a46",
+  "traducao": "Um círculo que muda{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem um círculo que está mudando.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "moreThanOneRate/breakGround.tex",
+  "ordem": 2,
+  "hash": "2cc9d38df21dbb0c254dea7c7c8b78fa7b3c52daa923359ca6640db20d420044",
+  "traducao": " Riley, eu estava pensando sobre cálculo.\n  {{CMD_7}} YOLO.\n  {{CMD_8}} Considere um círculo de raio {{MATH_9}}.\n  {{CMD_10}} Ha! De que outro jeito a gente chamaria o ``raio?''\n  {{CMD_11}} Exatamente. Agora, qual é a fórmula do perímetro de\n    um círculo?\n  {{CMD_12}} {{MATH_13}}, moleza.\n  {{CMD_14}} E a área?\n  {{CMD_15}} Você sabe que é {{MATH_16}}.\n  {{CMD_17}} Certo, mas é isto que está me incomodando: se eu conheço\n    {{MATH_18}}, quanto vale {{MATH_19}}? E {{MATH_20}}?\n  {{CMD_21}} Oooh. Ai. Hmmm. Eu quero dizer que é\n    {{MATH_22}}\n    mas não tenho certeza de que isso esteja certo.\n  {{CMD_23}} Pois é{{CMD_24}} eu também. Mas também não tenho certeza de que\n    esteja certo. Será que estamos esquecendo alguma coisa?\n{{CMD_25}}\n\n{{CMD_26}}\n  Você acha que nossos jovens matemáticos acima estão certos?\n  {{CMD_27}}\n    {{CMD_28}}Sim. {{MATH_29}} e {{MATH_30}}.{{CMD_31}}\n    {{CMD_32}}Não. Embora  {{MATH_33}},  {{MATH_34}}.{{CMD_35}}\n    {{CMD_36}}Não. Embora  {{MATH_37}}, {{MATH_38}}.{{CMD_39}}\n    {{CMD_40}}Não. {{MATH_41}} e  {{MATH_42}}.{{CMD_43}}\n    {{CMD_44}}Não há como saber.{{CMD_45}}\n  {{CMD_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/breakGround.tex",
+  "ordem": 3,
+  "hash": "69a9ca86a675d1cda1d251e1761471ef095aeb3a0b90415e69ad89ef5a974c62",
+  "traducao": "  Tome {{MATH_48}}. Quanto vale {{MATH_49}} quando {{MATH_50}}?\n  {{CMD_51}}\n    {{MATH_52}}\n  {{CMD_53}}\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/breakGround.tex",
+  "ordem": 4,
+  "hash": "a58cc94fc326e4f1e76696c3c91bf5211e970d96bb709a62e1dd718d25566940",
+  "traducao": "  Tome {{MATH_55}}. Agora {{MATH_56}}. Quanto vale\n  {{MATH_57}} quando {{MATH_58}}?\n  {{CMD_59}}\n    {{MATH_60}}\n  {{CMD_61}}\n{{CMD_62}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/breakGround.tex",
+  "ordem": 5,
+  "hash": "042a46be2ac0f95dc0e752c6e4427d55a3e9acf74dfd48706ec1d695878a6907",
+  "traducao": "  Descreva o que {{MATH_63}} significa neste contexto.\n  {{CMD_64}}\n    Ela descreve a rapidez com que o perímetro está variando em um determinado\n    instante de tempo.\n  {{CMD_65}}\n{{CMD_66}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/breakGround.tex",
+  "ordem": 6,
+  "hash": "110d050ac63320d5a42daa1983c7466ff2ce1626bdfd6b32f0275321d1481542",
+  "traducao": "  Tome {{MATH_67}}. Agora {{MATH_68}}. Quanto vale\n  {{MATH_69}} quando {{MATH_70}}?\n  {{CMD_71}}\n    {{MATH_72}}\n  {{CMD_73}}\n{{CMD_74}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/breakGround.tex",
+  "ordem": 7,
+  "hash": "02f62de0a78434b03dfc2ab48bf2d6124142aad9ae210fe4960977583c4e4156",
+  "traducao": "  Descreva o que {{MATH_75}} significa neste contexto.  Faz sentido que\n  {{MATH_76}} seja positiva?\n  {{CMD_77}}\n    Ela descreve a rapidez com que a área está variando.  Faz sentido, sim, que\n    {{MATH_78}} seja positiva, pois, à medida que o raio aumenta, a área também\n    deve aumentar.\n  {{CMD_79}}\n{{CMD_80}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/breakGround.tex",
+  "ordem": 8,
+  "hash": "95de0a9b927d3b70453892ed85866d447fe5aa991cc1a9373eff6919cf652daf",
+  "traducao": "  O que, se é que algo, nossos dois jovens matemáticos esqueceram acima?\n  {{CMD_81}}\n Eles esqueceram a regra da cadeia.\n  {{CMD_82}}\n{{CMD_83}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 0,
+  "hash": "b0a82eda373188aef05db580606e1285100f71d7b33688701aa7cf9044b94ded",
+  "traducao": "Mais de uma taxa{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Aqui resolvemos problemas abstratos de taxas relacionadas.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 1,
+  "hash": "d89b3631395943ae6cd62e37b4c86fb5beba255939b06862927514d1d8ab9dc2",
+  "traducao": "Suponha que temos duas variáveis {{MATH_7}} e {{MATH_8}}, ambas variando em\nrelação ao tempo.  Um problema de {{CMD_9}}taxas relacionadas{{CMD_10}} é um problema em que\nconhecemos uma taxa, digamos {{MATH_11}}, em um dado instante, e queremos determinar a outra (a taxa desconhecida está \"relacionada\" à taxa conhecida)."
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 2,
+  "hash": "3ea7b1aa4256de5c24d179a22e15453b00b72dd38e9571e0601b61af29234b18",
+  "traducao": "Aqui, a regra da cadeia é a chave: se {{MATH_12}} está escrito em termos de {{MATH_13}} e nos\né dada {{MATH_14}}, então é fácil determinar {{MATH_15}} usando a\nregra da cadeia:\n{{MATH_16}}\n{{MATH_17}}\nEm muitos casos, particularmente nos mais interessantes, nossas funções estarão\nrelacionadas de alguma outra maneira. Mesmo assim, em cada caso usaremos a\n regra da cadeia para nos ajudar a determinar a taxa desejada. Nesta\nseção, resolveremos vários exemplos abstratos para enfatizar\nos conceitos matemáticos envolvidos. Em cada um dos exemplos abaixo,\nseguiremos essencialmente o mesmo plano de ataque:"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 3,
+  "hash": "274c32eac69da7ea6c29b15c299da82976402e012c98df4ceaf3b6da0090f0c6",
+  "traducao": "               Atribua uma variável a cada quantidade que varia no tempo.\n{{CMD_18}} Se possível, desenhe um esquema com todas as informações relevantes.\n{{CMD_19}} Escreva equações que relacionem todas\n  as variáveis relevantes.\n{{CMD_20}} Aqui usaremos com frequência\n  derivação implícita e obteremos uma equação que relaciona a taxa dada e a taxa desconhecida.\n{{CMD_21}} Calcule\ncada quantidade no instante relevante e resolva para a taxa desconhecida."
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 4,
+  "hash": "38c05e963c462312a59032bbc16c6ed1e9dc1f46134de3a4ee6e5b620fa550c6",
+  "traducao": "Fórmulas{{CMD_22}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 5,
+  "hash": "f742f944aff0749195c5f0e2c8142406297f7ed8ef567c223a62e123683fbef2",
+  "traducao": "Para relacionar várias variáveis, podemos usar fórmulas conhecidas."
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 6,
+  "hash": "c69c993ec72e7c14bf1f1265d6a850d727f46ef22f61e0644fb69f70588086a5",
+  "traducao": "No próximo exemplo, consideramos um círculo em expansão e usamos as fórmulas do perímetro e da área de um círculo."
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 7,
+  "hash": "63adfa01adc2ec844be5724af087396e6e21402769118ad2b65d19bb03ae7936",
+  "traducao": "  Imagine um círculo em expansão. Se sabemos que o perímetro está\n  aumentando a uma taxa de {{MATH_23}} m/s, a que taxa a área está variando\n  quando o raio é {{MATH_24}} metros?\n  {{CMD_25}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 8,
+  "hash": "c2011ab47c66933114c3e7babf28e81d8327e02a8fe60b0a2a15b3d855a3de60",
+  "traducao": "   Primeiro, {{CMD_26}}introduzimos as variáveis{{CMD_27}} {{MATH_28}}, {{MATH_29}} e {{MATH_30}}, que denotam o perímetro, o raio e a área do círculo, nessa ordem.\n\n   {{CMD_31}}Identificamos{{CMD_32}} a taxa dada, {{MATH_33}} m/s, e a taxa desconhecida, {{MATH_34}}, no instante em que {{MATH_35}}.\n\n    Em seguida, {{CMD_36}}desenhamos uma figura{{CMD_37}}.\n    {{CMD_38}}\n      {{ENV_39}}\n    {{CMD_40}}\n   Agora precisamos {{CMD_41}}encontrar equações{{CMD_42}} que relacionem\n   as variáveis {{MATH_43}}, {{MATH_44}} e {{MATH_45}}.\n\n   Naturalmente, pensamos nas fórmulas do perímetro e da área de um círculo\n    {{MATH_46}}\n   Sabemos que o perímetro do círculo está aumentando. Isso implica que o raio e a área do círculo também estão variando no tempo.\n    Assim, observamos que {{MATH_47}}, {{MATH_48}} e {{MATH_49}} são funções do tempo\n    {{MATH_50}}\n    {{CMD_51}}Derivamos{{CMD_52}} ambos os lados de cada equação em relação ao tempo, {{MATH_53}}.  Usando derivação\n    implícita, obtemos\n\n    {{MATH_54}}\n\n    Essas duas equações valem em algum intervalo de tempo. Em particular, ambas são verdadeiras no instante em que {{MATH_55}}."
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 9,
+  "hash": "2300b9c0d6365a6cf8939f5733a2841e697affe31e7d24f5ce234a9a2d40c15c",
+  "traducao": "   Sabemos que nesse instante {{MATH_56}} e {{MATH_57}}.\n\n    Agora {{CMD_58}}calculamos{{CMD_59}} as duas equações no instante em que {{MATH_60}}.\n\n        {{MATH_61}}\n\n\n   Da primeira equação, obtemos\n    {{ENV_62}}\n\n  Usando esse resultado e a equação da direita, obtemos, no instante em que {{MATH_63}},\n\n    {{ENV_64}}\n    Logo, a área está aumentando a uma taxa de {{MATH_65}} {{MATH_66}} no instante em que {{MATH_67}} m.\n  {{CMD_68}}\n{{CMD_69}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 10,
+  "hash": "94345113f55ff74b5bc75ff14f95210e81f5b5149d5d3db828dbc227f9693e28",
+  "traducao": "Triângulos retângulos{{CMD_70}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 11,
+  "hash": "ee7d3469419d106bdc927ed67f89abff09779200c7d8db708efb25019d597135",
+  "traducao": "No próximo exemplo, consideramos um triângulo retângulo em expansão e usamos o Teorema de Pitágoras para relacionar as variáveis relevantes.\n {{CMD_71}}\n      {{ENV_72}}\n    {{CMD_73}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 12,
+  "hash": "062bc78435c64c38a5302f7f2c560ace88c7fe6190efafdc2dc52ea7c754e70d",
+  "traducao": "  Imagine um triângulo retângulo em expansão. Se um cateto tem comprimento fixo\n  de {{MATH_74}} m, o outro cateto está aumentando a uma taxa de {{MATH_75}} m/s e a\n  hipotenusa está crescendo para acompanhar o cateto que aumenta, a que\n  taxa a hipotenusa está crescendo quando ambos os catetos medem {{MATH_76}} m?\n  {{CMD_77}}\n Primeiro, {{CMD_78}}introduzimos as variáveis{{CMD_79}}  {{MATH_80}}, {{MATH_81}} e {{MATH_82}}, que denotam o comprimento fixo, o comprimento do cateto que está aumentando\n e o comprimento da hipotenusa, nessa ordem. Em seguida, {{CMD_83}}identificamos{{CMD_84}} a taxa dada {{MATH_85}} m/s e a taxa desconhecida {{MATH_86}}, quando {{MATH_87}}.\n   Agora, {{CMD_88}}desenhamos uma figura{{CMD_89}}.\n    {{CMD_90}}\n      {{ENV_91}}\n    {{CMD_92}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 13,
+  "hash": "8863828df2d945834fa34eb75f11504fc415235df896d9bb51c7140064885375",
+  "traducao": "    Em seguida, {{CMD_93}}encontramos equações{{CMD_94}} que relacionem as variáveis\n    relevantes. Aqui usamos o Teorema de Pitágoras.\n    {{MATH_95}}\n   Observe que {{MATH_96}} é uma constante, e {{MATH_97}} e {{MATH_98}} são funções do tempo, {{MATH_99}}.\n    Então, {{CMD_100}}derivamos{{CMD_101}} ambos os lados da equação em relação a {{MATH_102}}, usando derivação implícita\n\n       {{MATH_103}}\n    Agora, {{CMD_104}}calculamos{{CMD_105}} todas as quantidades no instante em que {{MATH_106}}, observando que\n    {{MATH_107}} e que {{MATH_108}}. Portanto,\n    {{MATH_109}}\n    Precisamos calcular {{MATH_110}}, o comprimento da hipotenusa no instante em que {{MATH_111}}. Aqui usamos\n    o Teorema de Pitágoras\n    {{ENV_112}}\n    Assim, vemos que {{MATH_113}}, quando {{MATH_114}}. {{CMD_115}}\n    Então, {{CMD_116}}resolvemos{{CMD_117}} para a taxa no instante em que {{MATH_118}},{{CMD_119}}\n    {{ENV_120}}\n    Portanto, a hipotenusa está crescendo a uma taxa de {{MATH_121}} m/s quando ambos os catetos medem {{MATH_122}}.\n  {{CMD_123}}\n{{CMD_124}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 14,
+  "hash": "06ea3beb95152e46f1e26359d4fd2447f76e942e2f6bfe9dd936b699598e92bb",
+  "traducao": "Taxas angulares{{CMD_125}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 15,
+  "hash": "c71d56465a015f239945e8216a0462e1e3b8ea1ce3316b64bcee2557e04f3067",
+  "traducao": "Também podemos investigar problemas envolvendo taxas angulares."
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 16,
+  "hash": "b77e19f33ecb30016b57311b74d99bcd0a33dbb1d612b345c8cb81b16ae624a9",
+  "traducao": "  Imagine um triângulo retângulo em expansão. Se um cateto tem comprimento fixo\n  de {{MATH_126}} m, o outro cateto está aumentando a uma taxa de {{MATH_127}} m/s e a\n  hipotenusa está crescendo para acompanhar o cateto que aumenta, a que\n  taxa o ângulo oposto ao cateto fixo está variando quando ambos os catetos\n  medem {{MATH_128}} m?\n  {{CMD_129}}\n  Primeiro, {{CMD_130}}introduzimos as variáveis{{CMD_131}}  {{MATH_132}}, {{MATH_133}}, {{MATH_134}}, como no exemplo anterior, e {{MATH_135}}, que denota\n  o ângulo oposto ao cateto de comprimento fixo.\n\n\n  {{CMD_136}}Identificamos{{CMD_137}} a taxa dada {{MATH_138}} m/s e a taxa desconhecida {{MATH_139}}, quando {{MATH_140}}.\n\n\n    Em seguida, {{CMD_141}}desenhamos uma figura{{CMD_142}}.\n     {{CMD_143}}\n      {{ENV_144}}\n    {{CMD_145}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 17,
+  "hash": "00495edfc60404bbd320c7b7cdeccbef7d653c98bd78a2695afb283c018e1287",
+  "traducao": "    Agora {{CMD_146}}encontramos equações{{CMD_147}} que combinem as variáveis\n    relevantes. Aqui observamos que\n    {{MATH_148}}\n    Como {{MATH_149}} e {{MATH_150}} são funções do tempo,\n      {{CMD_151}}derivamos{{CMD_152}}  ambos os lados da equação usando\n    derivação implícita"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 18,
+  "hash": "e454561785412591f99c1e46c4248ee91194fc01ad8747d5705177fe5ffd1a55",
+  "traducao": "    Agora, {{CMD_153}}calculamos{{CMD_154}} todas as quantidades no instante em que {{MATH_155}}, lembrando que\n    {{MATH_156}} e {{MATH_157}},\n {{MATH_158}}\n    Está claro que ainda precisamos calcular {{MATH_159}} no instante em que {{MATH_160}}. Uma figura vai ajudar.\n     {{CMD_161}}\n      {{ENV_162}}\n    {{CMD_163}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 19,
+  "hash": "d2aeece16c13415c25b530c23243bd05751c7b3b4a28e1a328d427251c045fbb",
+  "traducao": "     Como conhecemos os comprimentos dos dois catetos do triângulo retângulo, é mais fácil calcular\n\n  {{MATH_164}} do que  {{MATH_165}}. Lembre-se da identidade trigonométrica:  {{MATH_166}}.\n    {{ENV_167}}\n   Agora {{CMD_168}}resolvemos{{CMD_169}} para a taxa desconhecida, quando {{MATH_170}},\n    {{ENV_171}}\n    Assim, quando {{MATH_172}}, o ângulo está variando a {{MATH_173}}\n    radianos por segundo.\n  {{CMD_174}}\n{{CMD_175}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 20,
+  "hash": "00a74bae6fcac9dfc98bc2f6c20e22716929959afe8d04d2f59aef8828da4c25",
+  "traducao": "Triângulos semelhantes{{CMD_176}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 21,
+  "hash": "f25b286fb2b6bfe5d5449b9324795ce7c3c354bb8a4a77ac6a91ec18f6f7048f",
+  "traducao": "Por fim, fatos sobre triângulos semelhantes costumam ser úteis na resolução de\nproblemas de taxas relacionadas."
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 22,
+  "hash": "93bd4294601806b3714e2c14b8805cac193c6a67eb45f12bddb6ac3e1732d329",
+  "traducao": "  A figura mostra dois triângulos retângulos que compartilham um ângulo (agudo).\n  {{CMD_177}}\n    {{ENV_178}}\n  {{CMD_179}}\n  Se {{MATH_180}} está crescendo a partir do vértice a uma taxa de {{MATH_181}} m/s, a que taxa\n  a área do triângulo menor está variando quando {{MATH_182}} m?\n  {{CMD_183}}\n  Primeiro, {{CMD_184}}introduzimos as variáveis{{CMD_185}} {{MATH_186}} e {{MATH_187}}, que denotam a altura e a área do triângulo menor, nessa ordem.\nEm seguida, {{CMD_188}}identificamos{{CMD_189}} a taxa dada {{MATH_190}} m/s e a taxa desconhecida {{MATH_191}}, quando {{MATH_192}}.\n    Apesar de já termos uma bela figura, devemos fazer o que\n    sempre fazemos e {{CMD_193}}desenhar uma figura{{CMD_194}}. Observe que acrescentamos\n    informações à figura:\n    {{CMD_195}}\n      {{ENV_196}}\n  {{CMD_197}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/digInMoreThanOneRate.tex",
+  "ordem": 23,
+  "hash": "2166e472a88d1f6913c9ae96c66e03287035b5acac4e257d3f6ce6b4b158deb9",
+  "traducao": "    Em seguida, {{CMD_198}}encontramos equações{{CMD_199}} que combinem as variáveis\n    relevantes. Neste caso, há duas. A primeira é a fórmula\n    da área de um triângulo:\n    {{MATH_200}}\n    A segunda usa o fato de que o triângulo maior é semelhante ao\n    triângulo menor, o que significa que as razões entre os lados correspondentes dos dois triângulos\n    são iguais,\n    {{MATH_201}}\n   Neste ponto, poderíamos {{CMD_202}}derivar{{CMD_203}} as duas equações, mas\n    escolhemos um caminho mais simples e expressamos  {{MATH_204}} em termos de {{MATH_205}}\n     {{ENV_206}}\n\n     Portanto,\n     {{MATH_207}}\n       Como {{MATH_208}} e {{MATH_209}} são ambas funções do tempo, {{CMD_210}}derivamos{{CMD_211}} ambos os lados desta equação em relação a {{MATH_212}}\n\n        {{MATH_213}}\nEm particular, quando {{MATH_214}},\n      {{MATH_215}}\n\n    Logo, a área está variando a uma taxa de {{MATH_216}} {{MATH_217}} quando {{MATH_218}} m.\n\n  {{CMD_219}}\n{{CMD_220}}\n{{CMD_221}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple1.tex",
+  "ordem": 0,
+  "hash": "e247a248d66bcfddded52b9be4dfb722f602ae06040cc345626e86c031071a87",
+  "traducao": "Uma esfera está se expandindo com o tempo a uma taxa constante de {{MATH_1}}.  Em certo instante, o raio é {{MATH_2}}.  Com que rapidez a área da superfície está crescendo nesse instante?"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple1.tex",
+  "ordem": 1,
+  "hash": "2dac5716705fe1eaaff6daa24abbf57ea0dbad3f6ee1e17d6e9e4bca36d8b607",
+  "traducao": "SOLUÇÃO:"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple1.tex",
+  "ordem": 2,
+  "hash": "61fedc90c3412eab1bd5ff87f5ed3c98b93ba47e5f3116a051e2a17ba903f6eb",
+  "traducao": "Seja {{MATH_3}} a variável que denota o volume da esfera, {{MATH_4}} o raio da esfera e {{MATH_5}} a área da superfície da esfera."
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple1.tex",
+  "ordem": 3,
+  "hash": "fc87e3c56f571e347c69774b913bc3cf199d3ecab46776d9fb4056030f13da9f",
+  "traducao": "A taxa dada é\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple1.tex",
+  "ordem": 4,
+  "hash": "f4ec77e4541bc82d238f26c2f589179688063da2ff331aaa2e890c7f5eca6e38",
+  "traducao": "A taxa a ser determinada é\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple1.tex",
+  "ordem": 5,
+  "hash": "740ae8e7066d958caf8347b24a44ada74152244f8012871bc9a78c2c316e39d4",
+  "traducao": "  O volume de uma esfera é {{MATH_8}}, e sua área de superfície é {{MATH_9}}.\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple1.tex",
+  "ordem": 6,
+  "hash": "0fc0f5d168de99d82b822bfd9486be1b89fc6661f7371bde617a73327de8f73b",
+  "traducao": "  Derivando implicitamente as duas equações em relação a {{MATH_11}}, obtemos\n{{ENV_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple1.tex",
+  "ordem": 7,
+  "hash": "8e9d6697f6004184a935a896cae126a1181b0fa96a521efcda9c33a89e330d3e",
+  "traducao": "\tSubstituindo o que sabemos sobre essas quantidades, temos\n{{ENV_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple1.tex",
+  "ordem": 8,
+  "hash": "7b8d06ae6c04beaf588e1e0be8ac5824d514c1cd2dd1999d994d5af0c3f751b7",
+  "traducao": "  A primeira equação nos permite ver que {{MATH_16}}, o que então implica, pela segunda equação,\n  que {{MATH_17}}.\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple2.tex",
+  "ordem": 0,
+  "hash": "fd298039f38e4d4ce0da26e9d92118a198dd6ec316007639673b4431dcd47778",
+  "traducao": "A hipotenusa de um triângulo retângulo isósceles está aumentando a uma taxa\nde {{MATH_1}}."
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple2.tex",
+  "ordem": 1,
+  "hash": "292c5146eeecf0548a7bee5a7a6baf3a7c15c8ef862629ddaf23ec80f45bd395",
+  "traducao": "A que taxa a área desse triângulo está aumentando quando a\nhipotenusa tem comprimento {{MATH_2}}?"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple2.tex",
+  "ordem": 2,
+  "hash": "fb58333c123423ef45256f5032ad9bfafedf29cdf842c0973d9683b4b7723d3c",
+  "traducao": "SOLUÇÃO:"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple2.tex",
+  "ordem": 3,
+  "hash": "01562ba67712673b9c068223f76944e735d26178fd50046907c01c20db9d4d12",
+  "traducao": "  Seja {{MATH_3}} o comprimento dos catetos, {{MATH_4}} o comprimento da\n  hipotenusa e {{MATH_5}} a área."
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple2.tex",
+  "ordem": 4,
+  "hash": "082f3ffcaef91369598ef0f7c9b95433c888ca9a00441ebc19addc95fd9ebaf9",
+  "traducao": "A taxa dada é"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple2.tex",
+  "ordem": 5,
+  "hash": "01534f2883bbc3871301d265e3ea9cccd09e74db0b9f14b90d697fcffb00eabe",
+  "traducao": "A taxa a ser determinada é"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple2.tex",
+  "ordem": 6,
+  "hash": "66f64b287926229df7fe31461024311677927014cee33f0ebf2cf4c8340b7435",
+  "traducao": " Sabemos que\n{{ENV_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple2.tex",
+  "ordem": 7,
+  "hash": "c22d6087836e8e9d9d897207527e6ab73542e27ff0e9f9223c7cc671c98fb080",
+  "traducao": "  Há muitas maneiras de prosseguir.  Poderíamos simplesmente derivar\n  sem pensar, mas um pouco de álgebra antes pode simplificar as coisas.  Em\n  particular, podemos notar que as duas equações implicam que\n{{MATH_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple2.tex",
+  "ordem": 8,
+  "hash": "994ad6d19fee1cfd282f20c0a1d728d2f5a2a646a408646c65ab8ba50a055773",
+  "traducao": "  Derivando isso implicitamente em relação a {{MATH_10}}, temos\n{{MATH_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple2.tex",
+  "ordem": 9,
+  "hash": "b246c65b6cf0452ca089ee7fdb40916f2381178eaa3a1b5ad7e50fb492254d9b",
+  "traducao": "  Substituindo o que sabemos sobre essas quantidades no instante em\n  questão, temos\n  {{MATH_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple3.tex",
+  "ordem": 0,
+  "hash": "d18bea7700785e5cf1624be6246ea88e0101aee105e791270ece6471d4025cfd",
+  "traducao": "Um círculo está se expandindo.  No instante {{MATH_1}}, seu raio é {{MATH_2}}\ne está crescendo a uma taxa de {{MATH_3}}.  A\nque taxa sua área está crescendo no instante {{MATH_4}}?"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple3.tex",
+  "ordem": 1,
+  "hash": "19e4e87190d00e69347837581b28abd9e0a7c8f5b0dae9bd58c1b23245c22460",
+  "traducao": "SOLUÇÃO:"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple3.tex",
+  "ordem": 2,
+  "hash": "0b806e6cd8feae89f2d733df3e042b83ddf9c249c36c615bc9ae77a5231fbce9",
+  "traducao": "  Seja {{MATH_5}} a área e {{MATH_6}} o raio do círculo.\n\n  A taxa dada é\n\n   {{MATH_7}}\n\n\n  A taxa a ser determinada é\n\n   {{MATH_8}}\n\n   A equação que relaciona {{MATH_9}} e {{MATH_10}} é\n\n\n  {{MATH_11}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple3.tex",
+  "ordem": 3,
+  "hash": "5036254cf68f678a596142cf7e7f134950675f2001946cfd8a45c53a33c4d2b9",
+  "traducao": "  Derivando em relação ao tempo, temos\n  {{MATH_12}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple3.tex",
+  "ordem": 4,
+  "hash": "608647cf5d4dbfeb98f144eca9ee1ca39de3a661177e5e19d4321793a8a251cf",
+  "traducao": "  Assim, no instante {{MATH_13}},\n  {{MATH_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple4.tex",
+  "ordem": 0,
+  "hash": "edcf71cf17c7dbe9d7597890262ecfd1da2292dfcc9eda423dacb4eaa9d31be7",
+  "traducao": "Um triângulo isósceles tem lados de comprimentos {{MATH_1}}, {{MATH_2}} e {{MATH_3}}.  O ângulo\nentre os lados de comprimento {{MATH_4}} é {{MATH_5}}.  Se {{MATH_6}} está aumentando a\numa taxa de {{MATH_7}} quando {{MATH_8}}, então a\nque taxa o ângulo está variando nesse instante?"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple4.tex",
+  "ordem": 1,
+  "hash": "d21f1977673804ed21e59362242a0a43065169da15f55141c6f3dec60526b059",
+  "traducao": "SOLUÇÃO:"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple4.tex",
+  "ordem": 2,
+  "hash": "ceb987e0506f60f64e38159ecf97799ebcbf2c6c39edb740f2bb1b06e87b3e86",
+  "traducao": "A taxa dada é"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple4.tex",
+  "ordem": 3,
+  "hash": "f76f4dcc53e4c58ac594889b13a772798505415349117ce8202a47d9f55ca0f1",
+  "traducao": "A taxa a ser determinada é"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple4.tex",
+  "ordem": 4,
+  "hash": "e4fe6f981f0b20c7e5b3ce540b97f9589ab498eaeb48decbed00a3b01b090291",
+  "traducao": "  Desenhe uma figura.\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple4.tex",
+  "ordem": 5,
+  "hash": "8cd103bcea9aea692e63d96ee6d5bf465bbf2400327a38d208e9b6a1e53eb627",
+  "traducao": "  Deve ficar claro a partir da sua figura que {{MATH_10}} e {{MATH_11}} satisfazem a relação\n  {{MATH_12}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple4.tex",
+  "ordem": 6,
+  "hash": "42c06d985e07b6925f83d9ffc967e2266b7959815a9fb40374f07ffc9f831f77",
+  "traducao": "  Derivando implicitamente em relação ao tempo,\n  {{MATH_13}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple4.tex",
+  "ordem": 7,
+  "hash": "dd02a0486b8f388ea516624912fc3bd6ee8fbb7e49e21f7660ec6a5a0a73b9d2",
+  "traducao": "  Observe que no instante em que {{MATH_14}},\n\n  {{MATH_15}}\n  , então\n  {{MATH_16}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple4.tex",
+  "ordem": 8,
+  "hash": "3c453806256a288c0318b27353f78f833a9900803fc6b348788b88903775e36c",
+  "traducao": "  Resolvendo para {{MATH_17}}, temos\n  {{MATH_18}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5.tex",
+  "ordem": 0,
+  "hash": "f09f448d06be7e145428e39b0171a8f5f7f6b05fb5d9dc09e853a1a20111c53a",
+  "traducao": "Um cone circular reto está crescendo.  Enquanto cresce, sua altura permanece\nigual ao seu diâmetro. O diâmetro está crescendo a uma taxa constante de\n{{MATH_1}}. A que taxa seu volume está\ncrescendo no instante em que o diâmetro é {{MATH_2}}?"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5.tex",
+  "ordem": 1,
+  "hash": "06545256c82a713044a1ec5d0fd159a5e84be545aca34e38e19089e17a57a36e",
+  "traducao": "SOLUÇÃO:"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5.tex",
+  "ordem": 2,
+  "hash": "279087c025a7ffe910dbe27aae01a463349961492c3e99590f6be9cfa39b2204",
+  "traducao": " Seja {{MATH_3}} o volume, {{MATH_4}} o raio, {{MATH_5}} o diâmetro e {{MATH_6}} a altura do cone."
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5.tex",
+  "ordem": 3,
+  "hash": "082f3ffcaef91369598ef0f7c9b95433c888ca9a00441ebc19addc95fd9ebaf9",
+  "traducao": "A taxa dada é"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5.tex",
+  "ordem": 4,
+  "hash": "1b1c3ba6447b5794aab14aea083f1c2b9c4ecb16ec832f33fdfd424eec5c148f",
+  "traducao": "  A taxa a ser determinada é\n\n   {{MATH_7}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5.tex",
+  "ordem": 5,
+  "hash": "1474312a510bf9f8b86a382833108569dc4bf43bf728ff0f7cf83f3f30262eff",
+  "traducao": "Sabemos que\n{{ENV_8}}\n{{CMD_9}}\n{{CMD_10}}\n  Embora pudéssemos derivar sem pensar, e tudo daria\n  certo, vale a pena fazer um pouco de álgebra antes, já que só nos interessa\n  a relação entre o volume e o diâmetro.  Um pouco de\n  manipulação fornece\n{{MATH_11}}\nAssim,\n{{MATH_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5.tex",
+  "ordem": 6,
+  "hash": "5f868a41ce5b1a673b191e78efd05e370aef00bba522fb30c366f7bf46b2d23a",
+  "traducao": "  Derivando em relação ao tempo, obtemos\n  {{MATH_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5.tex",
+  "ordem": 7,
+  "hash": "2bc4d89dc368b8e956060f78d59e0f93d8ca1406247b50ac2db3610a85500e62",
+  "traducao": "  No instante de interesse, temos\n  {{MATH_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
+  "ordem": 0,
+  "hash": "69bc094f60de5b0be49ac4dd419faae73c65b1497d049d8033bdc5ed13e21a67",
+  "traducao": "Um cone circular reto tem {{CMD_1}}geratriz fixa{{CMD_2}} de 9 pés.  Sua altura está diminuindo\na uma taxa de 0.5 pés/s. A que taxa a {{CMD_3}}área da base circular{{CMD_4}} está variando\nquando a altura é 6 pés?"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
+  "ordem": 1,
+  "hash": "5fd2cd06b1999eb51573d756b85da99fb60cb65fbdc94b89ad236cb38ef1a10c",
+  "traducao": "ETAPA 1"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
+  "ordem": 2,
+  "hash": "6d386af5db0633ae1d015616782580ace3c487a2250ee8f8869b038309a41ba7",
+  "traducao": " Seja  {{MATH_5}} o raio, {{MATH_6}} a altura e {{MATH_7}} a área da base circular do cone."
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
+  "ordem": 3,
+  "hash": "d8dc23e2649f81af2ec114840c3558d09427201573fcf40ee1adf4d4c9737945",
+  "traducao": "A taxa dada é\n{{MATH_8}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
+  "ordem": 4,
+  "hash": "ee1dd9dd059e8c1736ae98eab5c9314ab4bfde95ca9a6c1ab374d1aaf5169378",
+  "traducao": "A taxa a ser determinada é\n{{MATH_9}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
+  "ordem": 5,
+  "hash": "30bbcced6e9ce9035cd8403207b7af50d7bf44c9f231474c7267385dec9a612a",
+  "traducao": "ETAPA 2"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
+  "ordem": 6,
+  "hash": "73391cc811af556717481872a799cea8e11bcc66119687170d596e4980d9d8f7",
+  "traducao": " ETAPA 3\n\n Expresse {{MATH_10}} em termos de {{MATH_11}}.\n\n  {{MATH_12}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
+  "ordem": 7,
+  "hash": "ffe953608121dbd9812aec32addc6c187928776c31ae6b7bb9cc83181f75941c",
+  "traducao": "ETAPA 3"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
+  "ordem": 8,
+  "hash": "a74b32285968d81b509eac10dbb7af0f8a5a90e679e4530857d71f4b5f350f6a",
+  "traducao": "Expresse {{MATH_13}} como função de {{MATH_14}}."
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple5a.tex",
+  "ordem": 9,
+  "hash": "276220050faaa42adddb03fd6d7ffb80c89962ade04bf644f3d25e0bd7a1304c",
+  "traducao": " ETAPA 4\n\n Derive ambos os lados da equação do ETAPA 3 em relação a {{MATH_15}}.\n\n  {{MATH_16}}\n\n\n ETAPA 5\n\n Calcule.\n\n  {{MATH_17}}\n\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple6.tex",
+  "ordem": 0,
+  "hash": "2da70030dbaa0002d072d0da4648a098e3e5b57a8cbd78f1f8b81bc1b7233ebe",
+  "traducao": "Um prisma retangular (uma caixa) com base quadrada está se deformando de modo a manter\no volume constante.  No instante em que sua altura é {{MATH_1}},\n o lado de sua base mede {{MATH_2}} e esse lado está {{CMD_3}}diminuindo{{CMD_4}} a uma taxa de {{MATH_5}},\n qual é a taxa de\nvariação da altura da caixa?"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple6.tex",
+  "ordem": 1,
+  "hash": "4a95ff69c6ad4003051068201e33d62041a3cb3256173a7bfa90e97d9cc65b14",
+  "traducao": "Se {{MATH_6}} e {{MATH_7}} denotam o lado da base e a altura da\ncaixa, respectivamente, então sabemos que\n{{MATH_8}}\njá que a caixa tem volume constante.\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple6.tex",
+  "ordem": 2,
+  "hash": "33f102ed95de0692f9c819b3f0fa771fbfdb24ced62a49bac3d64025c903fef4",
+  "traducao": "  Derivando implicitamente em relação ao tempo, obtemos\n{{MATH_10}}\npara todo {{MATH_11}}.\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple6.tex",
+  "ordem": 3,
+  "hash": "34b95406093cc211a18f3ab3f22e29ebccc6f92d202aa1ced2cc1b5d4b12542c",
+  "traducao": "  No instante em questão, digamos {{MATH_13}}, temos\n{{MATH_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "moreThanOneRate/exercises/relatedRatesSimple6.tex",
+  "ordem": 4,
+  "hash": "afa4f29c344fd81cb6273afbf4c128390996e415e39180678ecda8557c0239a2",
+  "traducao": "  Resolvendo para {{MATH_16}}, obtemos {{MATH_17}}\n{{CMD_18}}"
+ }
+]

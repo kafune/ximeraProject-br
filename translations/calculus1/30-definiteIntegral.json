@@ -1,0 +1,500 @@
+[
+ {
+  "arquivo": "definiteIntegral/titlePage.tex",
+  "ordem": 0,
+  "hash": "9dd925c8540478833f68a733f67027f88126760f021c1d40ecd54477696c145a",
+  "traducao": "Integrais definidas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "definiteIntegral/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Ao concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "definiteIntegral/titlePage.tex",
+  "ordem": 2,
+  "hash": "3e3aaaa17490749004c7af02ecfd8fe30ba2bef6ac559cdb400352ff3d2a7110",
+  "traducao": " Usar a notação de integral tanto para antiderivadas quanto para integrais definidas.\n{{COMMENT_4}}\n{{CMD_5}} Calcular integrais definidas usando geometria.\n{{CMD_6}} Calcular integrais definidas usando as propriedades das integrais.\n{{CMD_7}} Justificar as propriedades das integrais definidas usando álgebra ou geometria.\n{{CMD_8}} Entender como as somas de Riemann são usadas para encontrar a área exata.\n{{COMMENT_9}}\n{{CMD_10}} Definir área líquida.\n{{CMD_11}} Aproximar a área líquida.\n{{COMMENT_12}}\n{{CMD_13}} Dividir a área sob uma curva em várias partes para facilitar os cálculos.\n{{CMD_14}} Usar simetria para calcular integrais definidas.\n{{CMD_15}} Explicar geometricamente por que a simetria de uma função simplifica o cálculo de algumas integrais definidas.\n  {{COMMENT_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "definiteIntegral/breakGround.tex",
+  "ordem": 0,
+  "hash": "332705db3856d94521739d2f8c5de10f2d7112729f9e3524907b294d6e3934a5",
+  "traducao": "Calculando áreas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem como recortar áreas.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "definiteIntegral/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "definiteIntegral/breakGround.tex",
+  "ordem": 2,
+  "hash": "5c3d38aae2285288738bba47f3696e6f106733160859892a67d99243b715788b",
+  "traducao": " Somas de Riemann já me cansaram.\n{{CMD_7}} Não podemos usar a geometria do ensino médio para calcular integrais?\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "definiteIntegral/breakGround.tex",
+  "ordem": 3,
+  "hash": "73a2e7f66f73c579d1347148b14cef05f58dda9c1c34ffb6cde5291f20519387",
+  "traducao": "  Quais curvas são boas para se usar a geometria do ensino médio no cálculo da área?\n  {{CMD_9}}\n    As respostas podem variar.\n  {{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "definiteIntegral/breakGround.tex",
+  "ordem": 4,
+  "hash": "e3a2e0784fd42ed52a1f66e3feb8b24939f99d3d025b25d20c6ae0b716415b30",
+  "traducao": "  Quais curvas são boas para se usar somas de Riemann no cálculo da área?\n  {{CMD_12}}\n    As respostas podem variar.\n  {{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 0,
+  "hash": "baa2787aeb634064438e465df52546c88c672c5d4922dd3f3db4b9762968c26f",
+  "traducao": "A integral definida{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Integrais definidas calculam a área líquida.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 1,
+  "hash": "0c559c8ed1f6e0ffca549ef08972f9917ec09f339b4e07d136b69ab7eaa31b92",
+  "traducao": "O processo de aproximar áreas sob curvas nos levou à noção de soma de Riemann\n{{MATH_7}}\nem que {{MATH_8}} é uma função contínua e não negativa no intervalo {{MATH_9}}, e\n {{MATH_10}} é um ponto amostral do {{MATH_11}} retângulo, {{MATH_12}}.\n\nO limite das somas de Riemann, quando {{MATH_13}}, dá a área exata entre a curva {{MATH_14}} e o intervalo no eixo {{MATH_15}}:\n\n{{MATH_16}}\nNão importa se consideramos apenas somas de Riemann à direita, ou à esquerda, ou do ponto médio, ou outras: o limite de qualquer tipo de soma de Riemann quando {{MATH_17}}  é igual à área, desde que {{MATH_18}} seja não negativa e contínua em {{MATH_19}}."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 2,
+  "hash": "cf95e74e2a702fdef3dbb86b302085a7d6ffc71ec85869cd13eff16008bf326f",
+  "traducao": "O que acontece quando uma função contínua {{MATH_20}} assume valores negativos  no intervalo {{MATH_21}}?"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 3,
+  "hash": "ff08fd03d9c4bd0e2c0d8701a49cd7efa2d26243133b2e71e20178f53e17fcab",
+  "traducao": "Ainda podemos formar somas de Riemann e tomar o limite."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 4,
+  "hash": "c9397aabf225727703bdb19fb743f96dc2cd3282871230c0432ed21c2bc2142d",
+  "traducao": "A pergunta é: qual é o significado de uma soma de Riemann nesse caso?"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 5,
+  "hash": "2659fba47a41dbe1f6feeeffda19e8018730818f1b9797304a0718907d8399fd",
+  "traducao": "O gráfico da função {{MATH_22}} no intervalo {{MATH_23}} é dado na figura abaixo."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 6,
+  "hash": "b52322c003f7a207d989f7c3bb96053389ac4c04eb61baed3f8c39ebd467898c",
+  "traducao": " A figura ilustra uma soma de Riemann à direita com {{MATH_24}} retângulos para {{MATH_25}} em {{MATH_26}}.\n{{MATH_27}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 7,
+  "hash": "fc9588fdbba18e44f35e3d7ca515783a6a879166fe1e0a9629d5a71ae23e6d4f",
+  "traducao": "Portanto, a soma de Riemann é a soma das {{CMD_28}}áreas com sinal{{CMD_29}} dos retângulos:\nos retângulos que ficam acima do eixo {{MATH_30}} contribuem com valores positivos, e\nos retângulos que ficam abaixo do eixo {{MATH_31}} contribuem com valores negativos para\na soma de Riemann.\n{{ENV_32}}\n {{CMD_33}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 8,
+  "hash": "168f760bb4e7df07df14a1ffd5969400e2fa0a9b25c955fddfb997b203bc5d4e",
+  "traducao": " Quando tomamos o limite das somas de Riemann, parece que deveríamos obter\n\n {{MATH_34}}\nem que as áreas {{MATH_35}} e {{MATH_36}} estão representadas na figura abaixo."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 9,
+  "hash": "c7a9dad1b92f5d071ef8bb8e0595bd39173c4bf9e73a437480930930ea97c471",
+  "traducao": "Em outras palavras, o limite das somas de Riemann parece ser igual à soma das áreas com sinal das regiões que ficam inteiramente acima  ou abaixo  do eixo {{MATH_37}}.\nA área com sinal das  regiões que ficam acima do eixo {{MATH_38}} é positiva, e a área com sinal das regiões que ficam abaixo do eixo {{MATH_39}} é negativa."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 10,
+  "hash": "966f54ff3c6183dac315acf2fac68358ddf22be1f6ac1d383eb6bc94456fd4d2",
+  "traducao": "\tEssa soma de áreas com sinal é chamada de {{CMD_40}} da região  entre o gráfico de {{MATH_41}} e o intervalo no eixo {{MATH_42}} .\n{{CMD_43}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 11,
+  "hash": "f1c3c3769ef0ed5e1e0484de0502e809785498784e76bf8d495130225a16fe40",
+  "traducao": "\tCalcule a área líquida limitada pelo gráfico de {{MATH_44}} e pelo eixo {{MATH_45}} entre {{MATH_46}} e {{MATH_47}}.\n\t{{CMD_48}}\n\t\tVamos olhar o gráfico.\n\t\t{{CMD_49}}\n\t\t\t{{ENV_50}}\n\t\t{{CMD_51}}\n\t\tA área acima do eixo {{MATH_52}} e a área abaixo do eixo {{MATH_53}} são exatamente iguais.  Isso significa que a\n\t\tárea líquida é {{MATH_54}}.\n\t{{CMD_55}}\n{{CMD_56}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 12,
+  "hash": "a78d4f14e5151999d542d47c010d73030cab1faefbed42665221e9e0b51c2686",
+  "traducao": "O limite das somas de Riemann existe para qualquer função contínua no intervalo {{MATH_57}}, mesmo que {{MATH_58}} assuma valores negativos em {{MATH_59}}.\nO limite das somas de Riemann  dá a  {{CMD_60}}área líquida{{CMD_61}} da região entre o gráfico de {{MATH_62}} e um intervalo no eixo {{MATH_63}}."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 13,
+  "hash": "049951fa70060874f14ae90fdfb0172e442170f22ef6015967b2e0283c904467",
+  "traducao": "Isso nos leva à seguinte definição.\n{{CMD_64}}{{CMD_65}}{{CMD_66}}\n\tSeja {{MATH_67}} uma função contínua no intervalo {{MATH_68}}. Definimos a {{CMD_69}} de {{MATH_70}} em {{MATH_71}} por\n\t{{MATH_72}}\n{{CMD_73}}\nA integral definida é um número que dá a área líquida da região entre a curva {{MATH_74}} e o eixo {{MATH_75}} no intervalo {{MATH_76}}.\n\n{{CMD_77}} O gráfico de uma função {{MATH_78}} no intervalo {{MATH_79}} é dado na figura. As áreas das  quatro regiões que ficam acima ou abaixo do eixo {{MATH_80}} estão indicadas na figura."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 14,
+  "hash": "d25fb6b6816a798af5efc6d250bf7a292456f91dfc953376e50e89f4bdc11365",
+  "traducao": "Considere a integral\n{{MATH_81}}\nExpresse a integral em termos das áreas {{MATH_82}}, {{MATH_83}}, {{MATH_84}} e {{MATH_85}}.\n{{CMD_86}}\n{{ENV_87}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 15,
+  "hash": "6016724fcbc1d2a51c37315692d76558474b43750a89b2b426cef4362c422ee4",
+  "traducao": "Considere a integral\n{{MATH_88}}\nCalcule a integral de duas maneiras:\n{{CMD_89}}\n{{CMD_90}} interpretando a integral como a área líquida da região entre a curva {{MATH_91}} e o intervalo {{MATH_92}} no  eixo {{MATH_93}};\n{{CMD_94}} usando a definição de integral definida, isto é, calculando o limite das somas de Riemann.\n{{CMD_95}}\n{{CMD_96}}\n{{CMD_97}}\n{{CMD_98}} A  área entre o eixo {{MATH_99}} e a curva pode ser calculada facilmente, pois é a área de um triângulo.\n{{CMD_100}}\n  {{ENV_101}}\n{{CMD_102}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 16,
+  "hash": "fe5e3aaa8f2884baa34c4dea983d63bb60800624ac76ac7a3b3da60cfe708178",
+  "traducao": "Então, segue que"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 17,
+  "hash": "1fe67f39b161c5d836a760297bd775bae10f4a1859aeb3b160dc28502254908b",
+  "traducao": " Usamos a {{CMD_103}}definição de integral definida{{CMD_104}} e escrevemos\n{{MATH_105}}\nNão importa que  tipo de soma de Riemann usamos, então escolhemos uma soma de Riemann à direita."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 18,
+  "hash": "67637e7b6394c69fe2ac26a2d88e6be79ef65908dd8257fe11e57e67da266bc2",
+  "traducao": "Uma soma de Riemann à direita com {{MATH_106}} está ilustrada na figura abaixo.\n{{CMD_107}}\n  {{ENV_108}}\n{{CMD_109}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 19,
+  "hash": "53b888713430f8b8ae2e129eb1273324b0880cbc5c729d2f76883216bf515d3c",
+  "traducao": "Podemos aplicar a regra do múltiplo constante para somas e limites:\n{{ENV_110}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 20,
+  "hash": "e7f99c3c05cea4482e9a509a700f4b30734b8d234290fbcc0d8a495e943b2566",
+  "traducao": "Agora podemos concluir nosso cálculo do limite das somas de Riemann à direita.\n{{ENV_111}}\n{{CMD_112}}\n{{CMD_113}}\n{{CMD_114}}\n{{CMD_115}}\n{{CMD_116}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 21,
+  "hash": "f2acea79d55d7e92a86e1d883d39028f9a49139ef3e106faf60da3a5b8181a07",
+  "traducao": " Expresse o limite como uma integral definida.\n {{MATH_117}}\n  {{CMD_118}} Calcule este limite:\n  {{MATH_119}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 22,
+  "hash": "f6fed26e861b7fb448cc51bc9a40d5de54d80e1a786b86607e7dbd3923a0b606",
+  "traducao": "  Isto é um limite de somas de Riemann!  Mais especificamente, é um limite de\n    somas de Riemann com {{MATH_120}} retângulos, em que\n    {{MATH_121}}\n\n    {{MATH_122}}\n    {{MATH_123}}\n    e\n     {{MATH_124}}\n    Logo, podemos reescrever isso como\n    {{MATH_125}}\n  {{CMD_126}} O limite  calcula a área entre o eixo {{MATH_127}} e\n    a curva\n\n     {{MATH_128}}. Vamos ver:\n    {{CMD_129}}\n  {{ENV_130}}\n    {{CMD_131}}\n    Pela geometria, sabemos que esse semicírculo tem área {{MATH_132}}. Logo\n    {{MATH_133}}\n     {{CMD_134}}\n  {{CMD_135}}\n  {{CMD_136}}\n{{CMD_137}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 23,
+  "hash": "b864a8842437da429db16e89a5c4be52a7a0a6b4c68de3712bf3faf300f69057",
+  "traducao": "A integral definida calcula a área líquida (soma das áreas com sinal) entre {{MATH_138}} e o eixo {{MATH_139}} no\nintervalo {{MATH_140}}.\n{{COMMENT_141}}\n {{COMMENT_142}}\n   {{COMMENT_143}}\n  {{COMMENT_144}}\n  {{COMMENT_145}}\n{{COMMENT_146}}\n{{CMD_147}}\nConsidere o gráfico de  uma função {{MATH_148}} no intervalo {{MATH_149}}.\n{{CMD_150}}\n  {{ENV_151}}\n{{CMD_152}}\nCalcule a integral definida\n{{MATH_153}}\n{{CMD_154}}\nA área líquida na figura acima é dada por\n{{MATH_155}}\n\nAs áreas {{MATH_156}} e {{MATH_157}} são calculadas facilmente, pois ambas são  áreas de triângulos. Portanto,\n{{MATH_158}}\n{{CMD_159}}\n{{CMD_160}}\nEste exemplo tem mais a nos dizer do que apenas o valor da integral."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 24,
+  "hash": "8b604b20ea3b95c27288bc4a1765e51b744b13c983cba87cfcddc9fbbaf62fb8",
+  "traducao": "Observe que\n{{MATH_161}}\n {{MATH_162}}\ne\n{{MATH_163}}\nSegue que\n {{MATH_164}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 25,
+  "hash": "19a86f01121e34eb7bf43eac6eac5147c59212ddff4dcbc4d9711ec376b9337e",
+  "traducao": "Isso parece uma propriedade da integral definida. Existem outras propriedades?"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 26,
+  "hash": "22776fa8ad735850ad7d3c45b90c3adcf3f82cf06ddb69edf1d9f773098e67ff",
+  "traducao": "Sejam {{MATH_165}} e {{MATH_166}} definidas em um intervalo fechado {{MATH_167}} que contém o\nvalor {{MATH_168}}, e seja {{MATH_169}} uma constante. Valem as seguintes\npropriedades:\n{{CMD_170}}\n{{CMD_171}} {{MATH_172}}\n{{CMD_173}} {{MATH_174}}\n{{CMD_175}} {{MATH_176}}\n{{CMD_177}} {{MATH_178}}\n{{CMD_179}} {{MATH_180}}\n{{CMD_181}}\n{{CMD_182}}\n  Vamos tratar de cada propriedade, uma por vez:\n{{CMD_183}}\n{{CMD_184}} Aqui, não há ``área sob a curva'' quando a região não\n  tem largura; logo, essa integral definida é {{MATH_185}}.\n{{CMD_186}} Isso afirma que a área total é a soma das áreas das\n  sub-regiões. Aqui, uma imagem vale mais que mil palavras:\n  {{CMD_187}}\n    {{ENV_188}}\n  {{CMD_189}}\n  É importante notar que isso continua valendo mesmo que\n  {{MATH_190}}. Discutiremos isso no próximo item.\n\n{{CMD_191}} Por enquanto, essa propriedade pode ser vista apenas como uma convenção para\n  fazer as outras propriedades funcionarem bem. Porém, mais adiante veremos que essa\n  propriedade tem uma justificativa própria."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 27,
+  "hash": "7d3c6c32768879021229cf5ea6bf28546b165419974c56c8cba9facdcc459d0c",
+  "traducao": " Isso afirma que, quando multiplicamos uma função por um fator, digamos, {{MATH_192}},\n  a área da região delimitada também fica multiplicada por um fator de\n  {{MATH_193}}.\n{{CMD_194}} Isso afirma que a integral da soma é a soma das\n  integrais.\n{{CMD_195}}\n{{CMD_196}}\n{{CMD_197}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 28,
+  "hash": "07623b8f285294cf97ca2327dbdb23e8c2ef0ad2501211329b62855a780cb6eb",
+  "traducao": "Devido à natureza geométrica da integração, propriedades geométricas das\nfunções podem nos ajudar a calcular integrais."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 29,
+  "hash": "627ed34116cdf992d974ece43ae5030653acb9fdd7d64127d64cf44b42abb59b",
+  "traducao": "  Calcule:\n  {{MATH_198}}\n  {{CMD_199}}\n    Isso pode parecer difícil à primeira vista. Talvez a primeira coisa a fazer seja\n    olhar o gráfico de {{MATH_200}}:\n  {{CMD_201}}\n  {{ENV_202}}\n    {{CMD_203}}\n        Agora podemos esboçar o gráfico de {{MATH_204}}:\n    {{CMD_205}}\n  {{ENV_206}}\n    {{CMD_207}}\n    Lembre-se de que  {{MATH_208}} é, na verdade,  uma função definida por partes\n\n     {{MATH_209}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 30,
+  "hash": "ca507e3c09a8f7b3654b1140fb3843caa6769e8d5b605246e90d3182df855f9d",
+  "traducao": "    Agora vemos que, na realidade, temos dois triângulos, cada um com base {{MATH_210}}\n    e altura {{MATH_211}}.  Logo\n    {{ENV_212}}\n  {{CMD_213}}\n{{CMD_214}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 31,
+  "hash": "6f0c63846445b9495574bb084a0ec0ef38a58b59b292d5ac5194cc0c195b2880",
+  "traducao": "  Uma função {{MATH_215}} é uma função {{CMD_216}} se\n  {{MATH_217}}\n  e uma função {{MATH_218}} é uma função {{CMD_219}} se\n  {{MATH_220}}\n{{CMD_221}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 32,
+  "hash": "03cd72cc8c965f7243bdfafa006e454c337c00fa2cefe2dd69db36425b49b408",
+  "traducao": "Os nomes {{CMD_222}}ímpar{{CMD_223}} e {{CMD_224}}par{{CMD_225}} vêm do fato de que essas\npropriedades são compartilhadas pelas funções da forma {{MATH_226}} em que {{MATH_227}} é\nímpar ou par. Por exemplo, se {{MATH_228}}, então\n{{MATH_229}}\ne se {{MATH_230}}, então\n{{MATH_231}}\nGeometricamente, as funções pares têm\n  simetria em relação ao eixo {{MATH_232}}\n  . O cosseno é uma função par:\n{{CMD_233}}\n {{ENV_234}}\n{{CMD_235}}\nPor outro lado, as funções ímpares têm {{MATH_236}} de {{CMD_237}}simetria rotacional{{CMD_238}}\nem torno da origem. O seno é uma função ímpar:\n{{CMD_239}}\n{{ENV_240}}\n{{CMD_241}}\n{{CMD_242}}\n  Seja {{MATH_243}} uma função ímpar definida para todos os números reais. Calcule:\n  {{MATH_244}}\n  {{CMD_245}}\n    Como nossa função é ímpar, ela deve se parecer com algo assim:\n    {{CMD_246}}\n      {{ENV_247}}\n    {{CMD_248}}\n  {{CMD_249}}\n  {{CMD_250}}\n    A integral acima calcula a seguinte área líquida:\n    {{CMD_251}}\n      {{ENV_252}}\n    {{CMD_253}}\n  {{CMD_254}}\n{{CMD_255}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 33,
+  "hash": "0610b4ad8dbc4485255323e56672559a656bab1dd168cdb6dbf073d74c78c2a7",
+  "traducao": "  Seja {{MATH_256}} uma função ímpar definida para todos os números reais. Quais das\n  alternativas a seguir são iguais a\n  {{MATH_257}}\n  {{CMD_258}}\n    {{CMD_259}}{{MATH_260}}{{CMD_261}}\n    {{CMD_262}}{{MATH_263}}{{CMD_264}}\n    {{CMD_265}}{{MATH_266}}{{CMD_267}}\n    {{CMD_268}}{{MATH_269}}{{CMD_270}}\n    {{CMD_271}}{{MATH_272}}{{CMD_273}}\n    {{CMD_274}}{{MATH_275}}{{CMD_276}}\n    {{CMD_277}}{{MATH_278}}{{CMD_279}}\n    {{CMD_280}}{{MATH_281}}{{CMD_282}}\n    {{CMD_283}}{{MATH_284}}{{CMD_285}}\n  {{CMD_286}}\n{{CMD_287}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 34,
+  "hash": "ec27dc6df415f394797904ea02bdafac80f4b6a01a51e311d6d22634e431bf30",
+  "traducao": "Área líquida versus área geométrica{{CMD_288}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 35,
+  "hash": "a34f2dd34276d52a5c02ca55d61bd88c3bf673833fba80536f240bea02450545",
+  "traducao": "Sabemos que a área líquida da região entre uma curva {{MATH_289}} e o eixo {{MATH_290}}\nem {{MATH_291}} é dada por\n{{MATH_292}}\nPor outro lado, se quisermos saber a {{CMD_293}}área geométrica{{CMD_294}},\nou seja, a área ``de verdade'', calculamos\n{{MATH_295}}\n{{CMD_296}}\nO gráfico de uma função {{MATH_297}} é dado na figura abaixo.\n {{CMD_298}}\n  {{ENV_299}}\n{{CMD_300}}\n{{CMD_301}}\n{{CMD_302}} Expresse a  área geométrica  da região entre a curva {{MATH_303}} e o eixo {{MATH_304}} no intervalo {{MATH_305}} como uma integral definida.\n{{CMD_306}} Expresse a  área geométrica  da região entre a curva {{MATH_307}} e o eixo {{MATH_308}} no intervalo {{MATH_309}} em termos de  integrais definidas de {{MATH_310}}.\n{{CMD_311}} Expresse a  área geométrica  da região entre a curva {{MATH_312}} e o eixo {{MATH_313}} no intervalo {{MATH_314}} em termos das áreas {{MATH_315}}, {{MATH_316}}, {{MATH_317}} e {{MATH_318}}."
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 36,
+  "hash": "98ae9f73d3dbb4129c583b6a3d5210f13c8d74f19ef326a1a8abaa845c0932e4",
+  "traducao": " A área geométrica é dada pela  integral\n {{MATH_319}}\nA figura abaixo mostra o gráfico de {{MATH_320}}.\n {{CMD_321}}\n  {{ENV_322}}\n{{CMD_323}}\n{{CMD_324}} Usando as propriedades das integrais definidas, podemos escrever\n{{ENV_325}}\nReescrevendo os módulos:\n{{ENV_326}}\nColocando os sinais negativos para fora:\n{{ENV_327}}\n  {{CMD_328}}\n   {{MATH_329}}"
+ },
+ {
+  "arquivo": "definiteIntegral/digInTheDefiniteIntegral.tex",
+  "ordem": 37,
+  "hash": "6b6b95d398c2955994e548bb318328d000e8dd0b1b1b62f8ec0cf10c1fbdfc82",
+  "traducao": "  Verdadeiro ou falso:\n  {{MATH_330}}\n  {{CMD_331}}\n  {{CMD_332}}\n    {{CMD_333}}verdadeiro{{CMD_334}}\n    {{CMD_335}}falso{{CMD_336}}\n  {{CMD_337}}\n  {{CMD_338}}\n    Considere {{MATH_339}} no intervalo {{MATH_340}}. Aqui\n    {{MATH_341}}\n  {{CMD_342}}\n  {{CMD_343}}\n{{CMD_344}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/05_03_ex_35.tex",
+  "ordem": 0,
+  "hash": "c187d17b0d2b5f3e0bd2c374e6dd154f2add974f49718bdd1ce8c623a6afa5b3",
+  "traducao": "Responda ao que se pede, sabendo que é um fato bem conhecido que"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/05_03_ex_35.tex",
+  "ordem": 1,
+  "hash": "89be900d445c6f9bc89a23cef72a512cf1652d8de3a63486b0e519516f0dba13",
+  "traducao": ".\n{{CMD_1}}\n{{CMD_2}} Determine uma soma de Riemann à direita para {{MATH_3}} com {{MATH_4}} subintervalos no intervalo {{MATH_5}}.\n{{CMD_6}}\nLembre-se: {{MATH_7}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/05_03_ex_35.tex",
+  "ordem": 2,
+  "hash": "4a368e6a32be5c9906e72396e3359c7fe8629f05aa4b0184a6749a85e10325cf",
+  "traducao": ", para {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{MATH_11}}\nem que {{MATH_12}}.\n{{CMD_13}}\n{{CMD_14}}\n{{MATH_15}}\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/05_03_ex_35.tex",
+  "ordem": 3,
+  "hash": "1acf507d8378dec44b45ffb52f922c16383d2974825a667190d9298d2a13b674",
+  "traducao": " Calcule o limite, quando {{MATH_17}}, da sua resposta acima. Aqui {{MATH_18}}.\n{{CMD_19}}\nUse as propriedades das somas e a fórmula dada para calcular a soma de Riemann à direita. Depois tome o limite quando {{MATH_20}}.\n{{CMD_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/05_03_ex_35.tex",
+  "ordem": 4,
+  "hash": "01a98c619aa7250b7da928bacc9fc05b491367fa9f7a53e9e783de7571fb399d",
+  "traducao": " A resposta acima coincide com o valor da integral\n{{CMD_23}}\nUse geometria para calcular a integral definida.\n{{CMD_24}}\n  {{MATH_25}}? {{CMD_26}}\n  {{CMD_27}}Sim{{CMD_28}} {{CMD_29}}Não{{CMD_30}}\n{{CMD_31}}\n{{CMD_32}}\n{{CMD_33}}\n{{CMD_34}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/05_04_ex_07.tex",
+  "ordem": 0,
+  "hash": "2f1ac5c7e5446936ae51f1e150ac946c0dced38ad03e1551a576ebe3605e9c86",
+  "traducao": "Determine\n{{MATH_1}}\n{{CMD_2}}\nAmbas as funções são ímpares. Portanto, a diferença entre elas também é ímpar.\n{{CMD_3}}\n{{CMD_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/06_02_ex_08.tex",
+  "ordem": 0,
+  "hash": "7fc65158576bf68fcffd787bf8f58caf1d2f53520d4706af1eb4284053dc6c24",
+  "traducao": "Determine a integral indefinida de {{MATH_1}} em relação a {{MATH_2}}.\n{{CMD_3}}\nVocê está calculando"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/06_02_ex_08.tex",
+  "ordem": 1,
+  "hash": "f9ecadc3ffb19a2ced3d0115b812a5b111f20bdd9d43e3806d9116b8b1a0ba15",
+  "traducao": "a integral indefinida = família de antiderivadas = família de funções."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/06_02_ex_08.tex",
+  "ordem": 2,
+  "hash": "093cfe0d6a272929c0bec61185aa917ec8518dabff2be15f3efd82bf41ecc78f",
+  "traducao": "Não confunda isso com"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/06_02_ex_08.tex",
+  "ordem": 3,
+  "hash": "98423f756f3c01a59e1bb13f0fd2b3b73fb4ceae6ceb2c101e97a19e1b5b4acc",
+  "traducao": " a integral definida = um número = área líquida = o limite das somas de Riemann.\n{{CMD_4}}\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/OSU_SampleMidterm3_3III.tex",
+  "ordem": 0,
+  "hash": "acb96c6f0bdfe0f0c8f6222fda825a66538670ac3ecc899c5792e251f579f677",
+  "traducao": "Determine a integral indefinida {{MATH_1}}."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/OSU_SampleMidterm3_3III.tex",
+  "ordem": 1,
+  "hash": "2f8228acfadde9987fa63e8197ad67a9799115ad44ec0ffc67452e64bb1f84fc",
+  "traducao": "Nenhuma das respostas anteriores{{CMD_2}}\n{{CMD_3}}\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/OSU_SampleMidterm3_3V.tex",
+  "ordem": 0,
+  "hash": "e18317dad88f238ae3bd5921c6fb69cb3877e0388d949362ecf1f116c618a962",
+  "traducao": "Sabendo que {{MATH_1}}, calcule a integral {{MATH_2}}."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeBasic2.tex",
+  "ordem": 0,
+  "hash": "806eff37a8d1d26d24476de596744c8d11d8f680f35f7c26243473f7a4eb8005",
+  "traducao": "Quais das alternativas a seguir são antiderivadas de {{MATH_1}} em relação a {{MATH_2}}?  Marque todas as que se aplicam."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeBasic2.tex",
+  "ordem": 1,
+  "hash": "38849ba699a757ee8334a71a490d9c0edc1bbc3aeec0fd69d6c6bdd1834d97ae",
+  "traducao": "Isso contradiz nosso resultado de que antiderivadas diferem entre si por uma constante?  Se não, por quê?"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeTrueFalse5.tex",
+  "ordem": 0,
+  "hash": "7386ffa2aa26de0a6ab13c415051277a70624c338dcf7bf8978d4170315b2a55",
+  "traducao": "Verdadeiro ou falso: se {{MATH_1}}, então {{MATH_2}} é uma antiderivada de {{MATH_3}}."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeTrueFalse5.tex",
+  "ordem": 1,
+  "hash": "84534faa64740a03e83fb8b3a2d49b532628ec76eac85e05b4dd523786a42d61",
+  "traducao": "Verdadeiro{{CMD_4}}\n\t\t{{CMD_5}}Falso{{CMD_6}}\n\t{{CMD_7}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeTrueFalse6.tex",
+  "ordem": 0,
+  "hash": "d6d9e0b874502edd365f4cd99936627261a4dcb9e8ce27c3d40f99785749b281",
+  "traducao": "Verdadeiro ou falso: {{MATH_1}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeTrueFalse6.tex",
+  "ordem": 1,
+  "hash": "44e91a8a0e6b0cf1d698a1cc29eeb51185dc9a2d5e090e9844002121b8d70721",
+  "traducao": "\tVamos verificar o que acontece se usarmos {{MATH_2}}.\n\n\tEntão {{MATH_3}}\n\n\tCalcule o lado esquerdo da \"igualdade\".\n\t{{MATH_4}}\n\n\tCalcule o lado direito da \"igualdade\".\n\t{{MATH_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeTrueFalse6.tex",
+  "ordem": 2,
+  "hash": "8049de909c8e167a8e8413747c0ddc2111fa6e9a08ff2ac0c78dc6b5ac9502d3",
+  "traducao": "Verdadeiro{{CMD_7}}\n\t\t{{CMD_8}}Falso{{CMD_9}}\n\t{{CMD_10}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeTrueFalse7.tex",
+  "ordem": 0,
+  "hash": "ae46032da8e4cc50ff2efa4fdc6d1a7524bc69423c0fbdf6d9ac81fcd97d59f3",
+  "traducao": "A antiderivada de uma função constante é uma função linear."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeTrueFalse7.tex",
+  "ordem": 1,
+  "hash": "ab18c39908c19ef024625642c7afb71b0a771402694b8075e806c4a2f43fc573",
+  "traducao": "Verdadeiro{{CMD_1}}\n\t\t{{CMD_2}}Falso{{CMD_3}}\n\t{{CMD_4}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeTrueFalse8.tex",
+  "ordem": 0,
+  "hash": "cdb730917febe2f6f7bd614c948ed63c248d1e7debb3d03900730abc51d9740c",
+  "traducao": "Verdadeiro ou falso: se {{MATH_1}} é uma antiderivada de {{MATH_2}}, que está definida em toda a reta real, então {{MATH_3}} é contínua."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/antiderivativeTrueFalse8.tex",
+  "ordem": 1,
+  "hash": "84534faa64740a03e83fb8b3a2d49b532628ec76eac85e05b4dd523786a42d61",
+  "traducao": "Verdadeiro{{CMD_4}}\n\t\t{{CMD_5}}Falso{{CMD_6}}\n\t{{CMD_7}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/definiteIntegral1.tex",
+  "ordem": 0,
+  "hash": "c5ed8546e6a2465e8ea73219d8ef2b69ccfec004050a3279597aafa0e8972738",
+  "traducao": "O gráfico de cada função abaixo é formado por um quarto de círculo e dois segmentos de reta.  Usando geometria, calcule as integrais a seguir."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/definiteIntegral1.tex",
+  "ordem": 1,
+  "hash": "0c95a34342a38ca214326c35637d237884b71c0efd9149fa082e36de30868c74",
+  "traducao": "=Área(1/4 de círculo)+Área(triângulo)+Área (quadrado)"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/definiteIntegral2.tex",
+  "ordem": 0,
+  "hash": "f22ad9a3d0b0e41ccbe611466a5723a9b12e22908a5cdbe841a30c8a39c6600c",
+  "traducao": "Considere números fixos {{MATH_1}} e {{MATH_2}} com {{MATH_3}}."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/definiteIntegral2.tex",
+  "ordem": 1,
+  "hash": "85899a0794785abc98fb131194c8de104c58d55363a78e775f7fd35dd2aed249",
+  "traducao": " Dado que {{MATH_4}} e {{MATH_5}}, calcule as integrais a seguir ou escreva {{CMD_6}}|NEI| se não houver informação suficiente para responder à pergunta.\n{{CMD_7}}\nUse as propriedades das integrais definidas!\n{{CMD_8}}\n{{ENV_9}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/definiteIntegral3.tex",
+  "ordem": 0,
+  "hash": "6bd27d9d3d577a0daf9e846962c63595d8841fbe20bfda66393d30bc99522cc1",
+  "traducao": "Dado que {{MATH_1}} e {{MATH_2}} e que"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/definiteIntegral3.tex",
+  "ordem": 1,
+  "hash": "8e98802cecf94f0c9dcf03ac3d15c1acbc7ef3d3de32b06b517640797ddb6605",
+  "traducao": " em {{MATH_3}} e {{MATH_4}} em {{MATH_5}}, calcule as integrais a seguir ou escreva {{CMD_6}}|NEI| se não houver informação suficiente para calcular a integral."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/definiteIntegral4.tex",
+  "ordem": 0,
+  "hash": "0bfee74201e5451d11b3f55009f88ff5406ec0556a69b5ff8eb4b4a5ce259aa1",
+  "traducao": "Calcule as integrais a seguir. Use geometria e as propriedades da integral definida.\n{{CMD_1}}\nUse geometria, as propriedades das integrais definidas e/ou simetria."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/definiteIntegral4.tex",
+  "ordem": 1,
+  "hash": "74df96a29d84344e1ecb72131fa13cce0d37b896b3ce77226ad3e9f67a5afc90",
+  "traducao": "Lembre-se: {{MATH_2}}!\n{{CMD_3}}\n{{ENV_4}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/definiteIntegral5.tex",
+  "ordem": 0,
+  "hash": "6c51b6feacf8d200805772d2930ae705911b02f639b8b1e18c6c68ff9b5df3e9",
+  "traducao": "Calcule os seguintes limites de somas de Riemann nos intervalos indicados.\n{{CMD_1}}\nLembre-se: {{CMD_2}}Em {{CMD_3}}{{MATH_4}}, {{MATH_5}}.\nEssa integral fornece a área líquida da região entre a curva {{MATH_6}} e o eixo {{MATH_7}}."
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/definiteIntegral5.tex",
+  "ordem": 1,
+  "hash": "781859291b0fa0ee6d69f709e95748dd79a4e575ede3c9d6ded5fe2caf32e5b4",
+  "traducao": "Expresse o limite como uma integral definida. Em seguida, use as propriedades das integrais definidas, simetria e geometria.\n{{CMD_8}}\n{{ENV_9}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/q14435v1.tex",
+  "ordem": 0,
+  "hash": "5b1d39ac39afcfd79129c42958806e6e69a7c8ac3db37cade05650c335e56bec",
+  "traducao": "Calcule {{MATH_1}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/q14435v1.tex",
+  "ordem": 1,
+  "hash": "3cc94dc32284ce42f9ab2a7b69b66c9474e94540fcb48f44ee28ddc5ba9a859b",
+  "traducao": "Este é um problema que usa o teorema fundamental do cálculo. O\nteorema fundamental do cálculo diz que, se {{MATH_2}} é\numa antiderivada qualquer de {{MATH_3}}, então {{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "definiteIntegral/exercises/q14435v1.tex",
+  "ordem": 2,
+  "hash": "83ce67d0364f6206661d05bd85aa055bf5b04e31a4c343e8a5bf55e77a4d9015",
+  "traducao": "Aplicando isso ao problema em questão, vemos que\n{{MATH_6}} de modo que podemos escolher\n{{MATH_7}} com {{MATH_8}}. Então, {{ENV_9}}\n{{CMD_10}}"
+ }
+]

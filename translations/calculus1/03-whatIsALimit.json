@@ -1,0 +1,644 @@
+[
+ {
+  "arquivo": "whatIsALimit/titlePage.tex",
+  "ordem": 0,
+  "hash": "64312296052b88780eec579ef26f021c7c658ebdf8b50cc4bab2493d556d1f1b",
+  "traducao": "O que é um limite?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "whatIsALimit/titlePage.tex",
+  "ordem": 1,
+  "hash": "8bc167ba335523cc0722852870e89a14ad8828047ae5decd6e970b00bcededda",
+  "traducao": "Ao concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "whatIsALimit/titlePage.tex",
+  "ordem": 2,
+  "hash": "ff67a20418249ee992aa2d3701743a51d33f840ab2047652fc9adac5545f18fa",
+  "traducao": " Considerar valores de uma função em entradas que se aproximam de um ponto dado.\n\t{{CMD_4}} Compreender o conceito de limite.\n        {{CMD_5}} Usar limites para compreender o comportamento local de funções.\n\t{{CMD_6}} Calcular limites a partir de um gráfico (ou afirmar que o limite não existe).\n\t{{CMD_7}} Compreender possíveis problemas ao estimar limites usando\n          valores próximos.\n\t{{CMD_8}} Definir limite lateral.\n\t{{CMD_9}} Explicar a relação entre limites laterais e limites bilaterais.\n\t{{CMD_10}} Distinguir valores de limite de valores da função.\n\t{{CMD_11}} Identificar quando um limite não existe.\n\t{{CMD_12}} Definir continuidade em termos de limites.\n\t{{CMD_13}} Usar a continuidade das funções famosas (em seus domínios) ao calcular limites. \n     \n{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "whatIsALimit/breakGround.tex",
+  "ordem": 0,
+  "hash": "e0e54337ecba87c09dd9d7b28532143cafdea2f9f4cdd21c75403d1b5e4072f5",
+  "traducao": "Estrelas e funções{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem estrelas e funções.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "whatIsALimit/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma\nhistória real):"
+ },
+ {
+  "arquivo": "whatIsALimit/breakGround.tex",
+  "ordem": 2,
+  "hash": "0d48dfc7a38d996ac6563e120c4b80542063a7f73b9f5dbcc239594b09fed0dc",
+  "traducao": " Riley, você sabia que eu gosto de olhar as estrelas à noite?\n{{CMD_7}} Estrelas são bolas de fogo nuclear absurdamente incríveis, cuja\n  luz levou milhares de anos para chegar até nós.\n{{CMD_8}} Eu sei! Mas você sabia que a melhor maneira de ver uma estrela bem\n  fraquinha é olhar {{CMD_9}}perto{{CMD_10}} dela, mas {{CMD_11}}não exatamente para{{CMD_12}} ela? É\n  porque assim você usa os ``bastonetes'' do seu olho, que funcionam melhor\n  com pouca luz do que os ``cones''.\n{{CMD_13}} Que incrível! Ei, isso me lembra de quando estávamos conversando sobre as duas funções\n  {{MATH_14}}\n  que agora sabemos que são funções completamente diferentes.\n{{CMD_15}} Uau. Como você está vendo uma conexão aqui?\n{{CMD_16}} Se queremos entender o que acontece com a\n  função\n  {{MATH_17}}\n  em {{MATH_18}}, não podemos fazer isso tomando {{MATH_19}}. Em vez disso, precisamos olhar\n  {{CMD_20}}perto{{CMD_21}} de {{MATH_22}}, mas {{CMD_23}}não exatamente em{{CMD_24}} {{MATH_25}}.\n  {{CMD_26}} Ah, entendi! Porque, se {{CMD_27}}não estamos exatamente em{{CMD_28}} {{MATH_29}},\n    então\n    {{MATH_30}}\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "whatIsALimit/breakGround.tex",
+  "ordem": 3,
+  "hash": "369e25ff8c81dbfbde05fedf74785be5ed707eea1cbb4ff751522348643c4a22",
+  "traducao": "  Sejam {{MATH_32}} e {{MATH_33}}. Qual das alternativas a seguir é verdadeira?\n  {{CMD_34}}\n  {{CMD_35}}{{MATH_36}}  para todo valor de {{MATH_37}}.{{CMD_38}}\n  {{CMD_39}}Não existe valor de {{MATH_40}} para o qual {{MATH_41}}.{{CMD_42}}\n  {{CMD_43}}{{MATH_44}} quando {{MATH_45}}.{{CMD_46}}\n  {{CMD_47}}\n{{CMD_48}}"
+ },
+ {
+  "arquivo": "whatIsALimit/breakGround.tex",
+  "ordem": 4,
+  "hash": "6f27bb3a7b128666f65726b9df891a4d78bfb0a4156b0a7b0df32fd40b172b4e",
+  "traducao": "  Quando você calcula\n  {{MATH_49}}\n  em valores de {{MATH_50}} que se aproximam de (mas não são iguais a) {{MATH_51}}, o que acontece com o valor de {{MATH_52}}?\n  {{CMD_53}}\n    O valor de {{MATH_54}} se aproxima de {{MATH_55}}.\n  {{CMD_56}}\n  {{CMD_57}}\n    Apenas verificando alguns valores, você pode ter certeza absoluta de que sua\n    resposta ao problema anterior está correta?\n    {{CMD_58}}\n    {{CMD_59}}\n      {{CMD_60}}sim{{CMD_61}}\n      {{CMD_62}}não{{CMD_63}}\n    {{CMD_64}}\n    {{CMD_65}}\n    {{CMD_66}}\n      Aqui você só tem informação sobre alguns pontos específicos do\n      gráfico.  Existem infinitos valores de {{MATH_67}} próximos de\n      {{MATH_68}}, mas diferentes dele. Logo, não podemos ter certeza completa.\n    {{CMD_69}}\n  {{CMD_70}}\n{{CMD_71}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 0,
+  "hash": "ef98af7a10991ae50351f3f1cd1c7a33736b809981dfb13a0fb8280e1cf424ba",
+  "traducao": "O que é um limite?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Apresentamos os limites.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 1,
+  "hash": "a36257838a277d433fea1a20fd41ee98228f0bd285dffb831beb420c26d0d39e",
+  "traducao": "A ideia básica{{CMD_7}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 2,
+  "hash": "256217437d1a24278ee0c5a2f539cd416f9188d8e58c2b379cdde7c49c40e37b",
+  "traducao": "Considere a função\n{{MATH_8}}\nEmbora {{MATH_9}} não esteja definida em {{MATH_10}}, ainda podemos traçar {{MATH_11}} em outros\nvalores próximos de {{MATH_12}}.\n{{CMD_13}}\n  {{ENV_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 3,
+  "hash": "ec50d9d7c6aa2b5ad294b2684bb16e6489ffd89615f5f7a7d13a2100ccbdfe6a",
+  "traducao": "  Use o gráfico de {{MATH_16}} acima para responder à\n  pergunta a seguir: Quanto vale {{MATH_17}}?\n  {{CMD_18}}\n    {{CMD_19}}{{MATH_20}}{{CMD_21}}\n    {{CMD_22}}{{MATH_23}}{{CMD_24}}\n    {{CMD_25}}{{MATH_26}}{{CMD_27}}\n    {{CMD_28}}{{MATH_29}} não está definido{{CMD_30}}\n    {{CMD_31}}é impossível dizer{{CMD_32}}\n  {{CMD_33}}\n{{CMD_34}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 4,
+  "hash": "4eef8678ed97741dad98486875a7a949eaf8a64ec895ab1cae2ba3d1aa6e2e29",
+  "traducao": "Mesmo assim, podemos ver que, à medida que {{MATH_35}} se aproxima de zero, {{MATH_36}}\nse aproxima de um. É a partir dessa situação que chegamos à nossa definição de\nlimite."
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 5,
+  "hash": "10f0cf2d459f4be3d7f5b4adf8a3571dd568403ee75f344a0d278256112ed636",
+  "traducao": "  Intuitivamente,\n  {{CMD_37}}\n    o {{CMD_38}} de {{MATH_39}} quando {{MATH_40}} se aproxima de {{MATH_41}} é {{MATH_42}},\n  {{CMD_43}}\n  e escrevemos\n  {{MATH_44}}\n  se o valor de {{MATH_45}} fica tão próximo de {{MATH_46}} quanto se queira para\n  todo {{MATH_47}} suficientemente próximo de {{MATH_48}}, mas diferente dele.\n{{CMD_49}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 6,
+  "hash": "b10be460c9b8075766e114cc6f2968cf9142efd0d288141a83eb0cea0de84c5a",
+  "traducao": "  Use o gráfico de {{MATH_50}} acima para completar a afirmação a seguir: ``Um bom palpite é que{{CMD_51}}''\n  {{CMD_52}}\n    {{CMD_53}}{{MATH_54}}.{{CMD_55}}\n    {{CMD_56}}{{MATH_57}}.{{CMD_58}}\n    {{CMD_59}}{{MATH_60}}.{{CMD_61}}\n    {{CMD_62}}{{MATH_63}}.{{CMD_64}}\n  {{CMD_65}}\n{{CMD_66}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 7,
+  "hash": "17296f2d3bbec9a5b09944c17c976c1ec478fc59471c1396b4c0529e44021017",
+  "traducao": "  Considere o gráfico de {{MATH_67}} a seguir\n{{CMD_68}}\n\n{{ENV_69}}\n{{CMD_70}}\n  Use o gráfico para calcular os valores a seguir. Escreva DNE se o valor não\n  existir.\n  {{CMD_71}}\n    {{CMD_72}} {{MATH_73}}\n    {{CMD_74}} {{MATH_75}}\n    {{CMD_76}} {{MATH_77}}\n    {{CMD_78}} {{MATH_79}}\n    {{CMD_80}} {{MATH_81}}\n    {{CMD_82}} {{MATH_83}}\n    {{CMD_84}} {{MATH_85}}\n    {{CMD_86}} {{MATH_87}}\n  {{CMD_88}}\n{{CMD_89}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 8,
+  "hash": "d5a767bbbb0e42fd3714b205c230ebb9e76d1ea431cfbf4f8001e2f5c8647b7f",
+  "traducao": "Limites podem não existir{{CMD_90}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 9,
+  "hash": "84fae135ccf51054262a8c7be7bdc4c4edc2c50a75ec7eed976a2803c21123ce",
+  "traducao": "Limites podem não existir. Vamos ver como isso acontece."
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 10,
+  "hash": "db95a151d8729022312918f4ff5d9300a483211e92db49f6bd1c1643a780ea09",
+  "traducao": "  Considere o gráfico de {{MATH_91}}.\n{{CMD_92}}\n{{ENV_93}}\n{{COMMENT_94}}\n{{COMMENT_95}}\n{{COMMENT_96}}\n{{COMMENT_97}}\n{{COMMENT_98}}\n{{CMD_99}}\nExplique por que o limite\n{{MATH_100}}\nnão existe.\n{{CMD_101}}\nA função {{MATH_102}} é a função que retorna o\nmaior inteiro menor ou igual a {{MATH_103}}. Lembre-se de que\n{{MATH_104}}\nse {{MATH_105}} pode ficar arbitrariamente próximo de {{MATH_106}} tomando\n{{MATH_107}} suficientemente próximo de {{MATH_108}}, mas diferente dele. Então vamos examinar {{MATH_109}}\npróximo de {{MATH_110}}, mas diferente dele. Agora a pergunta é: Quanto vale {{MATH_111}}?"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 11,
+  "hash": "e2eb44e4d717dc358ecc244bd4d91849446f7348a2c8c98cfabbed2d6049f4ce",
+  "traducao": "Se esse limite existe, então deveríamos conseguir olhar suficientemente\nperto de {{MATH_112}}, mas não exatamente nesse ponto, e ver que {{MATH_113}} se aproxima de algum número.\nVamos olhar um gráfico:\n{{CMD_114}}\n{{ENV_115}}\n{{CMD_116}}\nSe olharmos o que acontece para valores de {{MATH_117}} cada vez mais próximos de {{MATH_118}}, mas ficando à esquerda de 2, vemos\nque {{MATH_119}}. No entanto, se deixarmos os valores de {{MATH_120}} ficarem cada vez mais próximos de {{MATH_121}}, mas ficando à direita de 2,\n vemos\n{{CMD_122}}\n{{ENV_123}}\n{{CMD_124}}\nIsto é, para valores de {{MATH_125}} próximos de {{MATH_126}}, mas maiores que {{MATH_127}}, {{MATH_128}}. Não conseguimos encontrar um único\nnúmero do qual {{MATH_129}} se aproxime quando {{MATH_130}} se aproxima de 2, e por isso o\nlimite não existe.\n{{CMD_131}}\n{{CMD_132}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 12,
+  "hash": "bdca696c7ef8e1b850562da06b76909c6ffabdc2802efb782b59bd78cff2f581",
+  "traducao": "Tabelas podem ajudar a fazer palpites sobre valores de limites, mas é preciso ter cuidado."
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 13,
+  "hash": "1df40420e548e2a4a742c596aedf6fe4c3aef372d6bdb4da60ec6b75afd33dcc",
+  "traducao": "  Considere {{MATH_133}}. Preencha as tabelas\n  abaixo {{CMD_134}}arredondando para três casas decimais{{CMD_135}}:\n  {{MATH_136}}\n  Podemos nos apressar e dizer que, com base na tabela acima,\n   {{MATH_137}}\n  Mas lembre-se da definição de limite: {{MATH_138}} é o limite se o valor de {{MATH_139}} fica tão próximo de {{MATH_140}} quanto se queira para\n  {{CMD_141}}todo{{CMD_142}} {{MATH_143}} suficientemente próximo de {{MATH_144}}, mas diferente dele.\n\n  A partir dessa tabela, podemos ver que {{MATH_145}} fica tão próximo de {{MATH_146}} quanto se queira para {{CMD_147}}alguns{{CMD_148}} valores de {{MATH_149}} suficientemente próximos de {{MATH_150}}.\n  Mas isso não satisfaz a definição de limite, pelo menos, ainda não.\n\nMas, espere! Preencha outra tabela, {{CMD_151}}arredondando para três casas decimais{{CMD_152}}.\n  {{MATH_153}}\n  O que essas duas tabelas nos dizem sobre\n  {{MATH_154}}\n  {{CMD_155}}\n    {{CMD_156}}{{MATH_157}}{{CMD_158}}\n    {{CMD_159}}{{MATH_160}}{{CMD_161}}\n    {{CMD_162}}{{MATH_163}}{{CMD_164}}\n    {{CMD_165}}{{MATH_166}}{{CMD_167}}\n    {{CMD_168}}O limite não existe.{{CMD_169}}\n  {{CMD_170}}\n  {{CMD_171}}\n   O limite não existe."
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 14,
+  "hash": "c133ae239b5b9b2c7f333860f230eaa974283f3cbc744899ddbba9f4cff2cf4e",
+  "traducao": " A primeira tabela mostra que sempre podemos encontrar um valor de {{MATH_172}} tão próximo de {{MATH_173}} quanto quisermos tal que {{MATH_174}}.\n   No entanto, o limite não é igual a {{MATH_175}}, pois a segunda tabela mostra que também podemos encontrar um valor de {{MATH_176}} tão próximo de {{MATH_177}} quanto quisermos tal que {{MATH_178}}.\n   Na verdade, para qualquer número {{MATH_179}}, {{MATH_180}}, podemos encontrar um valor de {{MATH_181}} tão próximo de {{MATH_182}} quanto quisermos tal que {{MATH_183}}. Confira o gráfico da função {{MATH_184}}.\n    {{CMD_185}}\n      {{ENV_186}}\n    {{CMD_187}}\n   Vemos que {{MATH_188}} oscila ``descontroladamente'' quando {{MATH_189}} se aproxima de {{MATH_190}} e, portanto, não se aproxima de nenhum número em particular.\n  {{CMD_191}}\n{{CMD_192}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 15,
+  "hash": "e1da8f90062a36e1442d215ab1a8e9dbedc807ca384f8486278ad6c6c174551b",
+  "traducao": "Limites laterais{{CMD_193}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 16,
+  "hash": "b84110bc11e16ecd480eee1e0d568263bf0555c3eadeaf4e66ef7ecd8af90b3e",
+  "traducao": "Embora tenhamos visto que {{MATH_194}} não\nexiste, seu gráfico parece bem mais ``comportado\" perto de {{MATH_195}} do que o gráfico anterior perto de {{MATH_196}}. Há mais a dizer sobre a função {{MATH_197}} e seu comportamento perto de {{MATH_198}}."
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 17,
+  "hash": "2704b6b6e72a919388bcb00e36f710f7c7b35e11a28d212409c5e3cd9fc3f967",
+  "traducao": "  Intuitivamente,"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 18,
+  "hash": "a72c8a0483d5b2f190c2a738edef5cd762d34553c4cd7ae5c9d50d7dd7afdccf",
+  "traducao": "   para a função {{MATH_199}},  {{MATH_200}} é o {{CMD_201}} quando {{MATH_202}} se aproxima de {{MATH_203}},"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 19,
+  "hash": "ddcc217ed3d4fd29981287c09062ec0e5f2ea52f5aec6e3a0d0200946a6059fa",
+  "traducao": "  e escrevemos\n  {{MATH_204}}\n  se o valor de {{MATH_205}} fica tão próximo de {{MATH_206}} quanto se queira para\n  todo {{MATH_207}} suficientemente próximo de {{MATH_208}}.\n\n  Analogamente,"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 20,
+  "hash": "511233c398efa2df090a6cbe41ee4d88a0f48414cf25fc6ed2298851812212ce",
+  "traducao": "   para a função {{MATH_209}}, {{MATH_210}} é o {{CMD_211}} quando {{MATH_212}} se aproxima de {{MATH_213}},"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 21,
+  "hash": "7919e19f0def98db66d922a834261cebe8ee8bbb209603b4853e42e9ab2d64d8",
+  "traducao": "  e escrevemos\n  {{MATH_214}}\n  se o valor de {{MATH_215}} fica tão próximo de {{MATH_216}} quanto se queira para\n  todo {{MATH_217}} suficientemente próximo de {{MATH_218}}."
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 22,
+  "hash": "e1a7b4a9e1f40d89d882dd4f123e3661daf4a0f67a125fbef6e64f76b3110459",
+  "traducao": "Calcule:\n{{MATH_219}}\nusando o gráfico abaixo\n{{CMD_220}}\n{{ENV_221}}\n{{COMMENT_222}}\n{{COMMENT_223}}\n{{COMMENT_224}}\n{{COMMENT_225}}\n{{COMMENT_226}}\n{{CMD_227}}\n{{CMD_228}}\n  Pelo gráfico, podemos ver que, à medida que {{MATH_229}} se aproxima de {{MATH_230}} pela esquerda, {{MATH_231}} permanece em {{MATH_232}} até exatamente o ponto em que {{MATH_233}}. Logo,\n  {{MATH_234}}\n  Também pelo gráfico, podemos ver que, à medida que {{MATH_235}} se aproxima de {{MATH_236}} pela\n  direita, {{MATH_237}} permanece em {{MATH_238}} até {{MATH_239}}. Logo,\n  {{MATH_240}}\n{{CMD_241}}\n{{CMD_242}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 23,
+  "hash": "f8621dc63eb27b434afbe440a45bd294742701094568abc04e716f228ccdd356",
+  "traducao": "Juntando tudo isso{{CMD_243}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 24,
+  "hash": "2c63879eb58758cc2d1769554249c42a3c5499ede876f8b65c7d3a92837111a3",
+  "traducao": "Os limites laterais nos ajudam a falar sobre limites.\n{{CMD_244}}{{CMD_245}}{{CMD_246}}\n  Um limite\n  {{MATH_247}}\n  existe se, e somente se,\n  {{CMD_248}}\n  {{CMD_249}} {{MATH_250}} existe\n  {{CMD_251}} {{MATH_252}} existe\n  {{CMD_253}} {{MATH_254}}\n  {{CMD_255}}\n  Nesse caso, {{MATH_256}} é igual ao valor comum\n  dos dois limites laterais.\n{{CMD_257}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInWhatIsALimit.tex",
+  "ordem": 25,
+  "hash": "5fb70e5d1dca8429f6b18d88a085b16072a4dce44f93273c978281c7373e153e",
+  "traducao": "  Calcule as expressões a seguir consultando o gráfico abaixo. Escreva DNE\n  se o limite não existir.\n{{CMD_258}}\n{{ENV_259}}\n{{CMD_260}}\n{{CMD_261}}\n{{CMD_262}} {{MATH_263}}\n{{CMD_264}} {{MATH_265}}\n{{CMD_266}} {{MATH_267}}\n{{CMD_268}} {{MATH_269}}\n{{CMD_270}} {{MATH_271}}\n{{CMD_272}} {{MATH_273}}\n{{CMD_274}} {{MATH_275}}\n{{CMD_276}} {{MATH_277}}\n{{CMD_278}} {{MATH_279}}\n{{CMD_280}} {{MATH_281}}\n{{CMD_282}} {{MATH_283}}\n{{CMD_284}} {{MATH_285}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 0,
+  "hash": "b6fe6a2538c2f0fa0140eed2c4837bd42c9e510c6d02e6888db7c1bfbc3d80fc",
+  "traducao": "Continuidade{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nO limite de uma função contínua em um ponto é igual ao valor da função nesse ponto.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 1,
+  "hash": "7ef5a9daf3a18bb5116ccd1e5b7d8123fc7ff7d9641932db5c152774263067fd",
+  "traducao": "Limites são simples de calcular quando podem ser obtidos substituindo\no valor na função.  Isto é, quando\n{{MATH_7}}\nChamamos essa propriedade de {{CMD_8}}continuidade{{CMD_9}}."
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 2,
+  "hash": "95f1ac27dcf02547fe449ac56deeb21b8e05e955c5d398e621c356e97399716d",
+  "traducao": "  Uma função {{MATH_10}} é {{CMD_11}} {{MATH_12}} se\n  {{MATH_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 3,
+  "hash": "e6b9982410c74444312f0581d036334c26f1ec5cd39f27f6a06ef3c6536d6eb2",
+  "traducao": "  Considere o gráfico da função {{MATH_15}}\n  {{CMD_16}}\n    {{ENV_17}}\n  {{CMD_18}}\n  Qual das alternativas a seguir é verdadeira?\n  {{CMD_19}}\n    {{CMD_20}}{{MATH_21}} é contínua em {{MATH_22}}{{CMD_23}}\n    {{CMD_24}}{{MATH_25}} é contínua em {{MATH_26}}{{CMD_27}}\n    {{CMD_28}}{{MATH_29}} é contínua em {{MATH_30}}{{CMD_31}}\n  {{CMD_32}}\n\n{{CMD_33}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 4,
+  "hash": "71ca1bdcaaf0549382790cd1ad1e5a06725860c874ac714e41153e53a4bfde2a",
+  "traducao": "É muito importante observar que dizer\n{{CMD_34}}\n  ``uma função {{MATH_35}} é contínua em um ponto {{MATH_36}}''\n{{CMD_37}}\né, na verdade, fazer {{CMD_38}}três{{CMD_39}} afirmações:\n{{CMD_40}}\n\t{{CMD_41}} {{MATH_42}} está definido.  Isto é, {{MATH_43}} pertence ao domínio de {{MATH_44}}.\n\t{{CMD_45}} {{MATH_46}} existe.\n\t{{CMD_47}} {{MATH_48}}.\n{{CMD_49}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 5,
+  "hash": "123f7b78633f3f81d945a08b0883d55e1ec7af2cdaa8cb159030623727f16863",
+  "traducao": "As duas primeiras afirmações são consequência da terceira, mas são importantes o bastante para que as separemos,\na fim de destacar seu significado. Trate essas três afirmações como a ``{{CMD_50}}lista de verificação da continuidade{{CMD_51}}''. {{CMD_52}}Usar a definição de continuidade para determinar se uma função é ou não contínua em um ponto significa verificar esses três itens{{CMD_53}}."
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 6,
+  "hash": "bbec32b84a465fd2bd1bbbb4a89a1f3ec9c8848422a22817f9588475c34579f0",
+  "traducao": "Determine as descontinuidades (os pontos {{MATH_54}} em que uma função não é\ncontínua) da função descrita abaixo:\n{{CMD_55}}\n{{ENV_56}}\n{{COMMENT_57}}\n{{COMMENT_58}}\n{{CMD_59}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 7,
+  "hash": "17ddb225473f52fa9ee02f206cb7bab18f817409f07f107bd23e321f554eb627",
+  "traducao": "  Para começar, {{MATH_60}} nem sequer está definida em {{MATH_61}}; logo, {{MATH_62}}\n  não pode ser contínua em {{MATH_63}}."
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 8,
+  "hash": "09182ca9f175ab252a52d628034c58c36ac60fd46c97b68e24c020e91f8ad3b4",
+  "traducao": "  Em seguida, pelo gráfico acima vemos que {{MATH_64}} não\n  existe, porque\n  {{MATH_65}}\n  Como {{MATH_66}} não existe, {{MATH_67}} não pode ser contínua\n  em {{MATH_68}}."
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 9,
+  "hash": "6fc04ae44f7809156c8910f84184a8b636989fbba0c7e5f12a4b930afe6eda2c",
+  "traducao": "  Vemos também que {{MATH_69}}, enquanto {{MATH_70}}. Logo, {{MATH_71}}, e portanto {{MATH_72}}\n  não é contínua em {{MATH_73}}.\n{{CMD_74}}\n{{CMD_75}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 10,
+  "hash": "dd76d2cbd722ef79572d54bbf050bbfd9532e08c66c0028b92bf97ac7725fcb9",
+  "traducao": "A partir da definição de {{CMD_76}}continuidade em um ponto{{CMD_77}}, podemos\nagora definir o que significa uma função ser {{CMD_78}}contínua{{CMD_79}} em\num intervalo aberto."
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 11,
+  "hash": "3cca1eb843ab5097cbf4e09aec607ba52c01f108be25348e8179768f73abfe89",
+  "traducao": "  Uma função {{MATH_80}} é {{CMD_81}} {{MATH_82}} se\n  {{MATH_83}} para todo {{MATH_84}} em {{MATH_85}}.\n{{CMD_86}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 12,
+  "hash": "3c75db4bb6b07cce03e1490bf8a08fb5929732710521674539a8eda1d0f82091",
+  "traducao": "Falando de modo informal, uma função é contínua em um intervalo {{MATH_87}} se você\nconsegue desenhar a função nesse intervalo sem nenhuma interrupção no\ngráfico.  Costuma-se dizer que é possível desenhar o gráfico\n``sem tirar o lápis do papel''."
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 13,
+  "hash": "8603a7a8d51ba5565cee489866f570305763c6a636811bc09948662d67938f1f",
+  "traducao": "As funções a seguir são contínuas em seus domínios naturais, para {{MATH_88}} um número real e {{MATH_89}} um número real positivo:\n{{CMD_90}}\n{{CMD_91}}{{CMD_92}} {{MATH_93}}\n{{CMD_94}}{{CMD_95}} {{MATH_96}}\n{{CMD_97}}{{CMD_98}} {{MATH_99}}\n{{CMD_100}}{{CMD_101}} {{MATH_102}}\n{{CMD_103}}{{CMD_104}} {{MATH_105}}\n{{CMD_106}} Tanto {{MATH_107}} quanto {{MATH_108}} {{CMD_109}}{{CMD_110}}\n{{CMD_111}}\nEm essência, estamos dizendo que as funções listadas acima são\ncontínuas onde quer que estejam definidas. (Isto é, em seus domínios naturais.)\n{{CMD_112}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 14,
+  "hash": "adfaf12d76f87fdb8062f916f239d3386eafcc016ee43b9c97589856c54ac50d",
+  "traducao": "  Calcule:\n  {{MATH_113}}\n  {{CMD_114}}\n    A função {{MATH_115}} é da forma {{MATH_116}} para um número real positivo\n    {{MATH_117}}.  Portanto, {{MATH_118}} é contínua para todos os valores reais positivos de\n    {{MATH_119}}.  Em particular, {{MATH_120}} é contínua em {{MATH_121}}.  Como {{MATH_122}}\n    é contínua em {{MATH_123}}, sabemos que {{MATH_124}}.\n    Isto é, {{MATH_125}}.\n  {{CMD_126}}\n{{CMD_127}}\n{{CMD_128}}\n  Calcule:\n  {{MATH_129}}\n  {{CMD_130}}\n    A função {{MATH_131}} é uma constante.\n  Portanto, {{MATH_132}} é contínua para todos os valores reais de\n    {{MATH_133}}.  Em particular, {{MATH_134}} é contínua em {{MATH_135}}.  Como {{MATH_136}}\n    é contínua em {{MATH_137}}, sabemos que {{MATH_138}}.\n    Isto é, {{MATH_139}}.\n  {{CMD_140}}\n{{CMD_141}}\n{{CMD_142}}\n  Calcule:\n  {{MATH_143}}\n  {{CMD_144}}\n    A função {{MATH_145}} é contínua\n para todos os valores reais de\n    {{MATH_146}}.  Em particular, {{MATH_147}} é contínua em {{MATH_148}}.  Como {{MATH_149}}\n    é contínua em {{MATH_150}}, sabemos que {{MATH_151}}.\n    Isto é, {{MATH_152}}.\n  {{CMD_153}}\n{{CMD_154}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 15,
+  "hash": "e64bfd232c509ce92b3e57b1746e5a41f3633cc41e42c28a63b9750d912b9a6a",
+  "traducao": "Continuidade à esquerda e à direita{{CMD_155}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 16,
+  "hash": "ce1f223589e3b5976c96c702b362e9856195e7e161d95f943839a1e560d2f53e",
+  "traducao": "Neste ponto, temos um pequeno problema.  Para funções como\n{{MATH_156}}, o domínio natural é {{MATH_157}}.  Esse não é um\nintervalo aberto.  O que significa dizer que {{MATH_158}} é contínua\nem {{MATH_159}} se {{MATH_160}} não está definida para {{MATH_161}}? Para sair desse\nimpasse, precisamos de uma nova definição:"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 17,
+  "hash": "586c52b6358e364ad10adfd1871e0939f484e0681adadc4cb4f60bbc0d15660a",
+  "traducao": "  Uma função {{MATH_162}} é {{CMD_163}} em um ponto {{MATH_164}} se\n  {{MATH_165}}."
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 18,
+  "hash": "6fc9340acf621d65a467c1299e4e855115c02424a48f4c2c526c1993bee6f855",
+  "traducao": "  Uma função {{MATH_166}} é {{CMD_167}} em um ponto {{MATH_168}} se\n  {{MATH_169}}.\n{{CMD_170}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 19,
+  "hash": "ecc761509f06eb8ad35b8367d98a8087b85c5b78b2303d33b7ec33b71001cb25",
+  "traducao": " Isso nos permite falar de continuidade em intervalos fechados e semifechados."
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 20,
+  "hash": "7e92a286f1f0c96dd2b8a3630679dcd624e1e25cefa5bc8559d78931dde2d0cb",
+  "traducao": "  Uma função {{MATH_171}} é\n  {{CMD_172}}\n    {{CMD_173}} {{CMD_174}} {{MATH_175}} se {{MATH_176}} é\n      contínua em {{MATH_177}}, contínua à direita em {{MATH_178}} e contínua\n      à esquerda em {{MATH_179}};\n    {{CMD_180}} {{CMD_181}} {{MATH_182}} se {{MATH_183}} é\n      contínua em {{MATH_184}} e contínua à direita em {{MATH_185}};\n    {{CMD_186}} {{CMD_187}} {{MATH_188}} se {{MATH_189}} é\n      {{MATH_190}} é contínua em {{MATH_191}} e contínua à esquerda em {{MATH_192}}.\n  {{CMD_193}}\n  Os {{CMD_194}} de {{MATH_195}} são a lista (separada por vírgulas) dos maiores intervalos nos quais {{MATH_196}} é contínua.\n{{CMD_197}}"
+ },
+ {
+  "arquivo": "whatIsALimit/digInContinuity.tex",
+  "ordem": 21,
+  "hash": "4a68556929cc69515422d5ca060ecf36a70f52792d67d9506693e27c0fa1abfa",
+  "traducao": "Aqui apresentamos o gráfico de uma função definida em {{MATH_198}}.\n{{CMD_199}}\n{{ENV_200}}\n{{COMMENT_201}}\n{{COMMENT_202}}\n{{CMD_203}}\nDetermine os intervalos de continuidade da função.\n{{CMD_204}}\n  {{CMD_205}}{{MATH_206}}{{CMD_207}}\n  {{CMD_208}}{{MATH_209}} e {{MATH_210}}{{CMD_211}}\n  {{CMD_212}}{{MATH_213}}, {{MATH_214}} e {{MATH_215}}{{CMD_216}}\n  {{CMD_217}}{{MATH_218}}, {{MATH_219}} e {{MATH_220}}{{CMD_221}}\n  {{CMD_222}}{{MATH_223}}, {{MATH_224}} e {{MATH_225}}{{CMD_226}}\n  {{CMD_227}}{{MATH_228}}, {{MATH_229}} e {{MATH_230}}{{CMD_231}}\n  {{CMD_232}}{{MATH_233}}, {{MATH_234}} e {{MATH_235}}{{CMD_236}}\n  {{CMD_237}}{{MATH_238}}, {{MATH_239}} e {{MATH_240}}{{CMD_241}}\n{{CMD_242}}\n{{CMD_243}}\nObserve que nossa função é contínua à esquerda em {{MATH_244}}, então podemos incluir\n{{MATH_245}} no intervalo {{MATH_246}}. O quatro não está incluído no intervalo\n{{MATH_247}} porque nossa função não é contínua à direita em {{MATH_248}}.\nDo mesmo modo, nossa função não é contínua nem à direita nem à esquerda em {{MATH_249}},\nentão {{MATH_250}} não está incluído em nenhum intervalo.  Nossa função é contínua\nà esquerda em {{MATH_251}} e contínua à direita em {{MATH_252}}, por isso incluímos\nessas extremidades em nossos intervalos.\n{{CMD_253}}\n{{CMD_254}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph1.tex",
+  "ordem": 0,
+  "hash": "54785351185fa10242dfcca33bfe6f8ba58637f25695cab5d616e4c278711602",
+  "traducao": "Considere a função {{MATH_1}}, dada pelo gráfico abaixo."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph1.tex",
+  "ordem": 1,
+  "hash": "d6210cf9513075ee7374f9d232c8be6616ef6c7f3a98d66c970bfae80db72b1d",
+  "traducao": " é {{CMD_2}}{{CMD_3}}contínua{{CMD_4}}{{CMD_5}}não contínua{{CMD_6}}{{CMD_7}} em {{MATH_8}} porque:\n{{CMD_9}}\n{{CMD_10}}{{MATH_11}}{{CMD_12}}\n{{CMD_13}}{{MATH_14}} não existe{{CMD_15}}\n{{CMD_16}}{{MATH_17}} não pertence ao domínio de {{MATH_18}}{{CMD_19}}\n{{CMD_20}}{{MATH_21}} existe, mas não é igual a {{MATH_22}}{{CMD_23}}\n{{CMD_24}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph1.tex",
+  "ordem": 2,
+  "hash": "64b5d465324025346fd856f922d6d9b949f69e3b2ce6d12fc556cea49c85231d",
+  "traducao": " é {{CMD_25}}{{CMD_26}}contínua{{CMD_27}}{{CMD_28}}não contínua{{CMD_29}}{{CMD_30}} em {{MATH_31}} porque:\n{{CMD_32}}\n{{CMD_33}}{{MATH_34}}{{CMD_35}}\n{{CMD_36}}{{MATH_37}} não existe{{CMD_38}}\n{{CMD_39}}{{MATH_40}} não pertence ao domínio de {{MATH_41}}{{CMD_42}}\n{{CMD_43}}{{MATH_44}} existe, mas não é igual a {{MATH_45}}{{CMD_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph1.tex",
+  "ordem": 3,
+  "hash": "36c242159a8791a8cf4037c4e9a62a1b54810adc5da39fd410cf169b7e17cbdd",
+  "traducao": " é {{CMD_48}}{{CMD_49}}contínua{{CMD_50}}{{CMD_51}}não contínua{{CMD_52}}{{CMD_53}} em {{MATH_54}} porque:\n{{CMD_55}}\n{{CMD_56}}{{MATH_57}}{{CMD_58}}\n{{CMD_59}}{{MATH_60}} não existe{{CMD_61}}\n{{CMD_62}}{{MATH_63}} não pertence ao domínio de {{MATH_64}}{{CMD_65}}\n{{CMD_66}}{{MATH_67}} existe, mas não é igual a {{MATH_68}}{{CMD_69}}\n{{CMD_70}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph1.tex",
+  "ordem": 4,
+  "hash": "030f3244396d4da7472165351724c60b8f20fbc5426eb2748f1348bf784374f1",
+  "traducao": " é {{CMD_71}}{{CMD_72}}contínua{{CMD_73}}{{CMD_74}}não contínua{{CMD_75}}{{CMD_76}} em {{MATH_77}} porque:\n{{CMD_78}}\n{{CMD_79}}{{MATH_80}}{{CMD_81}}\n{{CMD_82}}{{MATH_83}} não existe{{CMD_84}}\n{{CMD_85}}{{MATH_86}} não pertence ao domínio de {{MATH_87}}{{CMD_88}}\n{{CMD_89}}{{MATH_90}} existe, mas não é igual a {{MATH_91}}{{CMD_92}}\n{{CMD_93}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph1.tex",
+  "ordem": 5,
+  "hash": "ed1acbd64b0ba73edcb8f6e092e0852ec683dcaf01751283589f5090fc820d28",
+  "traducao": " é {{CMD_94}}{{CMD_95}}contínua à direita{{CMD_96}}{{CMD_97}}contínua à esquerda{{CMD_98}}{{CMD_99}} em {{MATH_100}} porque:\n{{CMD_101}}\n{{CMD_102}}{{MATH_103}}{{CMD_104}}\n{{CMD_105}}{{MATH_106}}{{CMD_107}}\n{{CMD_108}}{{MATH_109}} não existe{{CMD_110}}\n{{CMD_111}}{{MATH_112}} pertence ao domínio de {{MATH_113}}{{CMD_114}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph2.tex",
+  "ordem": 0,
+  "hash": "3e8ef7844b96e69fd5028fd1fd0a9adece0c34e5cce05e6612898d5c24aadcd0",
+  "traducao": "O gráfico completo de uma função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph2.tex",
+  "ordem": 1,
+  "hash": "0e2657f1b19553cc877946eb27a89425ac3e0f14a2a284070302f52de0497f2c",
+  "traducao": "Selecione os intervalos de continuidade de {{MATH_2}}."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph2.tex",
+  "ordem": 2,
+  "hash": "cb09b5250e0fc623dfa2624b0f15d19d194ffa98ed2b0c4ac50c888e79875910",
+  "traducao": ", {{MATH_3}}{{CMD_4}}\n{{CMD_5}}{{MATH_6}}, {{MATH_7}}, {{MATH_8}}{{CMD_9}}\n{{CMD_10}}{{MATH_11}}, {{MATH_12}}, {{MATH_13}}{{CMD_14}}\n{{CMD_15}}{{MATH_16}}, {{MATH_17}}, {{MATH_18}}{{CMD_19}}\n{{CMD_20}}{{MATH_21}}, {{MATH_22}}, {{MATH_23}}{{CMD_24}}\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph3.tex",
+  "ordem": 0,
+  "hash": "3e8ef7844b96e69fd5028fd1fd0a9adece0c34e5cce05e6612898d5c24aadcd0",
+  "traducao": "O gráfico completo de uma função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph3.tex",
+  "ordem": 1,
+  "hash": "31a9f491f297f736e3b215ed05dc93cade6ca815e0109c1ace120a14edbeed6f",
+  "traducao": "Selecione todas as afirmações verdadeiras sobre a continuidade de {{MATH_2}}.\n{{CMD_3}}\n{{CMD_4}}{{MATH_5}} é contínua em {{MATH_6}}{{CMD_7}}\n{{CMD_8}}{{MATH_9}} é contínua em {{MATH_10}}{{CMD_11}}\n{{CMD_12}}{{MATH_13}} é contínua em {{MATH_14}}{{CMD_15}}\n{{CMD_16}}{{MATH_17}} é contínua em {{MATH_18}}{{CMD_19}}\n{{CMD_20}}{{MATH_21}} é contínua em {{MATH_22}}{{CMD_23}}\n{{CMD_24}}{{MATH_25}} é contínua em {{MATH_26}}{{CMD_27}}\n{{CMD_28}}{{MATH_29}} é contínua em {{MATH_30}}{{CMD_31}}\n{{CMD_32}}{{MATH_33}} é contínua em {{MATH_34}}{{CMD_35}}\n{{CMD_36}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/continuityFromGraph3.tex",
+  "ordem": 2,
+  "hash": "6b0905298fb176e8546dc8fe65c3b2487cdacb373051ebb8c373b07eb8ec71d1",
+  "traducao": "Selecione todas as afirmações verdadeiras sobre a continuidade lateral de {{MATH_37}}.\n{{CMD_38}}\n{{CMD_39}}{{MATH_40}} é contínua à esquerda em {{MATH_41}}{{CMD_42}}\n{{CMD_43}}{{MATH_44}} é contínua à direita em {{MATH_45}}{{CMD_46}}\n{{CMD_47}}{{MATH_48}} é contínua à esquerda em {{MATH_49}}{{CMD_50}}\n{{CMD_51}}{{MATH_52}} é contínua à direita em {{MATH_53}}{{CMD_54}}\n{{CMD_55}}{{MATH_56}} é contínua à esquerda em {{MATH_57}}{{CMD_58}}\n{{CMD_59}}{{MATH_60}} é contínua à direita em {{MATH_61}}{{CMD_62}}\n{{CMD_63}}{{MATH_64}} é contínua à esquerda em {{MATH_65}}{{CMD_66}}\n{{CMD_67}}{{MATH_68}} é contínua à direita em {{MATH_69}}{{CMD_70}}\n{{CMD_71}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 0,
+  "hash": "3e8ef7844b96e69fd5028fd1fd0a9adece0c34e5cce05e6612898d5c24aadcd0",
+  "traducao": "O gráfico completo de uma função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 1,
+  "hash": "b7229cd5febfcc33ca8f154df79eccf91e631bcbeb5eccaadeef39352e3c2360",
+  "traducao": "O domínio de {{MATH_2}} é {{MATH_3}}."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 2,
+  "hash": "4cb254903fe9f62561fa2d33cb97abae8495ffeccc4306253219cc4a52340f5b",
+  "traducao": "A imagem de {{MATH_4}} (de baixo para cima) é:"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 3,
+  "hash": "0673d69ff78439adfb40182f626c701aa63586c0f636a134a72a8cd425151a29",
+  "traducao": "."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 4,
+  "hash": "ea00c31795860a492e8bf7403037f5fa6f92a7cca7407e7b67257a45ead73fdd",
+  "traducao": "Determine os limites a seguir, se existirem.  Se um limite não existir, explique por quê."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 5,
+  "hash": "12569ccbc8a2c29b0b7d294283b16a1a08dbffc74460e896baab119fe6924dd6",
+  "traducao": "O limite existe.{{CMD_5}}\n{{CMD_6}}O limite não existe porque {{MATH_7}} não existe.{{CMD_8}}\n{{CMD_9}}O limite não existe porque {{MATH_10}} não está próximo dos valores de {{MATH_11}} perto de 0.{{CMD_12}}\n{{CMD_13}}O limite não existe porque {{MATH_14}}.{{CMD_15}}\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 6,
+  "hash": "73145047fba92c3acffdd138a10235c870ce3f8fe792141268aac49dd936bd7e",
+  "traducao": "O limite existe.{{CMD_17}}\n{{CMD_18}}O limite não existe porque {{MATH_19}} não existe.{{CMD_20}}\n{{CMD_21}}O limite não existe porque {{MATH_22}} não está próximo dos valores de {{MATH_23}} perto de 3.{{CMD_24}}\n{{CMD_25}}O limite não existe porque {{MATH_26}}.{{CMD_27}}\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 7,
+  "hash": "440dc860cb540c28235a2ad04768af3b62e02f828ad7e0a638612c54c2db4036",
+  "traducao": "O limite existe.{{CMD_29}}\n{{CMD_30}}O limite não existe porque {{MATH_31}} não existe.{{CMD_32}}\n{{CMD_33}}O limite não existe porque {{MATH_34}} não está próximo dos valores de {{MATH_35}} perto de 3.{{CMD_36}}\n{{CMD_37}}O limite não existe porque {{MATH_38}}.{{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 8,
+  "hash": "81bc1832cf540e0776f54e8dc2332cabbd3d612c54c8bde09867e33a21b73a16",
+  "traducao": "O limite existe.{{CMD_41}}\n{{CMD_42}}O limite não existe porque {{MATH_43}} não existe.{{CMD_44}}\n{{CMD_45}}O limite não existe porque {{MATH_46}} não está próximo dos valores de {{MATH_47}} perto de 3.{{CMD_48}}\n{{CMD_49}}O limite não existe porque {{MATH_50}}.{{CMD_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 9,
+  "hash": "d2394c46e6f91a0890cdf87fff4ff09b668354922205c3d9e9c9923a29aad9b8",
+  "traducao": "Determine os valores a seguir.\n{{CMD_53}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 10,
+  "hash": "f8b43bb436cd29734be4127f28d7d124f607bed715a50a2e6c5d7cd2bea65aa4",
+  "traducao": "Lembre-se:  A afirmação ``{{MATH_54}}\"  é equivalente à afirmação"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph1.tex",
+  "ordem": 11,
+  "hash": "c004db43535c4610f6b76be7d827783e4fe61caed995a6c361f2ea7ce8efb30b",
+  "traducao": " ``{{MATH_55}}\" !\n{{CMD_56}}\n{{ENV_57}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph3.tex",
+  "ordem": 0,
+  "hash": "3e8ef7844b96e69fd5028fd1fd0a9adece0c34e5cce05e6612898d5c24aadcd0",
+  "traducao": "O gráfico completo de uma função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph3.tex",
+  "ordem": 1,
+  "hash": "9209cdf25f7c3fbd7d19a21c669f1632195930aad1a4c80973ae1e65dc61c685",
+  "traducao": "Determine os valores a seguir."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph3.tex",
+  "ordem": 2,
+  "hash": "97d9da472079cd7f43e0113d3efcdcf8d8910ee83d7ffd46ebeb355c8f0ff19b",
+  "traducao": "Determine os limites a seguir, se existirem.  Se um limite não existir, explique por quê."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph3.tex",
+  "ordem": 3,
+  "hash": "0f2dfa31d0ad671c11adb1db9380120cf0cc735dff19f49b266fb2da04ed9008",
+  "traducao": "O limite existe.{{CMD_2}}\n{{CMD_3}}O limite não existe porque {{MATH_4}} é constante perto de -2.{{CMD_5}}\n{{CMD_6}}O limite não existe porque {{MATH_7}} não existe.{{CMD_8}}\n{{CMD_9}}O limite não existe porque {{MATH_10}}.{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph3.tex",
+  "ordem": 4,
+  "hash": "b5c75e4f28d4cd3acb4567cd250d821f9c9d4678506c6ef5209c441bbca4f367",
+  "traducao": "O limite existe.{{CMD_13}}\n{{CMD_14}}O limite não existe porque {{MATH_15}} é constante perto de -3.{{CMD_16}}\n{{CMD_17}}O limite não existe porque {{MATH_18}} não está definida à esquerda de -3.{{CMD_19}}\n{{CMD_20}}O limite não existe porque {{MATH_21}}.{{CMD_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph3.tex",
+  "ordem": 5,
+  "hash": "d53f01273c20a812b404ce958a87f791d4be19f4e642efc0b46d19b0ec2dd4c7",
+  "traducao": "O limite existe.{{CMD_24}}\n{{CMD_25}}O limite não existe porque o valor de {{MATH_26}} em 2 é muito diferente do valor de {{MATH_27}} perto de 2.{{CMD_28}}\n{{CMD_29}}O limite não existe porque {{MATH_30}} não existe.{{CMD_31}}\n{{CMD_32}}O limite não existe porque {{MATH_33}}.{{CMD_34}}\n{{CMD_35}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph3.tex",
+  "ordem": 6,
+  "hash": "bf8e1cd0c07d5507b359a59f254571833d935672f671e80b09ce2f791fbdc67d",
+  "traducao": "O limite existe.{{CMD_36}}\n{{CMD_37}}O limite não existe porque {{MATH_38}} não é constante perto de 1.{{CMD_39}}\n{{CMD_40}}O limite não existe porque {{MATH_41}} não existe.{{CMD_42}}\n{{CMD_43}}O limite não existe porque {{MATH_44}}.{{CMD_45}}\n{{CMD_46}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph3.tex",
+  "ordem": 7,
+  "hash": "5e258eded18be7b8551606f168c6f79b515312f6383c93671414618b288f27bc",
+  "traducao": "O limite existe.{{CMD_47}}\n{{CMD_48}}O limite não existe porque {{MATH_49}} não está definida à direita de 0.{{CMD_50}}\n{{CMD_51}}O limite não existe porque {{MATH_52}} não existe.{{CMD_53}}\n{{CMD_54}}O limite não existe porque {{MATH_55}}.{{CMD_56}}\n{{CMD_57}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph3.tex",
+  "ordem": 8,
+  "hash": "fc33881ef70061a3bea12a1cb73c227d976a5d44d3cf66cdcf0238e8f242b7a0",
+  "traducao": "O limite existe.{{CMD_58}}\n{{CMD_59}}O limite não existe porque {{MATH_60}} não está definida à esquerda de 0.{{CMD_61}}\n{{CMD_62}}O limite não existe porque {{MATH_63}} não existe.{{CMD_64}}\n{{CMD_65}}O limite não existe porque {{MATH_66}}.{{CMD_67}}\n{{CMD_68}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph3.tex",
+  "ordem": 9,
+  "hash": "9ba2b689ee27d8a2ab75feaf1c7b322c5a9865a59f955d4270b2b89ed15ea548",
+  "traducao": "O limite existe.{{CMD_69}}\n{{CMD_70}}O limite não existe porque {{MATH_71}} não está definida da mesma maneira de cada lado de 0.{{CMD_72}}\n{{CMD_73}}O limite não existe porque {{MATH_74}} não existe.{{CMD_75}}\n{{CMD_76}}O limite não existe porque {{MATH_77}}.{{CMD_78}}\n{{CMD_79}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph4.tex",
+  "ordem": 0,
+  "hash": "3e8ef7844b96e69fd5028fd1fd0a9adece0c34e5cce05e6612898d5c24aadcd0",
+  "traducao": "O gráfico completo de uma função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph4.tex",
+  "ordem": 1,
+  "hash": "ccd53c534b5f5dea31c33e25141d436cc969f0bb0e2fd151853941bece91065d",
+  "traducao": "A inclinação da reta no ponto {{MATH_2}} é {{MATH_3}}.{{CMD_4}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph4.tex",
+  "ordem": 2,
+  "hash": "ea00c31795860a492e8bf7403037f5fa6f92a7cca7407e7b67257a45ead73fdd",
+  "traducao": "Determine os limites a seguir, se existirem.  Se um limite não existir, explique por quê."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph4.tex",
+  "ordem": 3,
+  "hash": "450fbdba0335b07e0f7b5b723d1a406ff79de1ed09450fe1a1aa1d358ebd2a10",
+  "traducao": "O limite existe.{{CMD_5}}\n{{CMD_6}}O limite não existe porque {{MATH_7}} não está definida da mesma maneira à esquerda e à direita de 2.{{CMD_8}}\n{{CMD_9}}O limite não existe porque {{MATH_10}} é muito diferente dos valores de {{MATH_11}} perto de 2.{{CMD_12}}\n{{CMD_13}}O limite não existe porque {{MATH_14}}.{{CMD_15}}\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph4.tex",
+  "ordem": 4,
+  "hash": "011d328878b6d373feefe5d4c3ea933c822fd41d11fc271ee6ca44fb8afd3aea",
+  "traducao": "O limite existe.{{CMD_17}}\n{{CMD_18}}O limite não existe porque {{MATH_19}} não está definida da mesma maneira à esquerda e à direita de 2.{{CMD_20}}\n{{CMD_21}}O limite não existe porque {{MATH_22}} é muito diferente dos valores de {{MATH_23}} perto de 2.{{CMD_24}}\n{{CMD_25}}O limite não existe porque {{MATH_26}}.{{CMD_27}}\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph4.tex",
+  "ordem": 5,
+  "hash": "0cec4742da53dee9eca88c4d4c243b39758bf6ace2aeac0a40ca8d8724373a7e",
+  "traducao": "O limite existe.{{CMD_29}}\n{{CMD_30}}O limite não existe porque {{MATH_31}} não está definida da mesma maneira à esquerda e à direita de 2.{{CMD_32}}\n{{CMD_33}}O limite não existe porque {{MATH_34}} é muito diferente dos valores de {{MATH_35}} perto de 2.{{CMD_36}}\n{{CMD_37}}O limite não existe porque {{MATH_38}}.{{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromGraph4.tex",
+  "ordem": 6,
+  "hash": "e680a4aa48d188947370b24cdd8c6995a8c22b98ed84cb853d0a335dba3690b9",
+  "traducao": "O limite existe.{{CMD_41}}\n{{CMD_42}}O limite não existe porque {{MATH_43}} é constante perto de 4.{{CMD_44}}\n{{CMD_45}}O limite não existe porque {{MATH_46}} é muito diferente dos valores de {{MATH_47}} perto de 4.{{CMD_48}}\n{{CMD_49}}O limite não existe porque {{MATH_50}}.{{CMD_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromTable1.tex",
+  "ordem": 0,
+  "hash": "119ddec2b3dce36c39e817d927ad229b1fed19fa7e843078f5ee31a3a78db2a9",
+  "traducao": "Complete a tabela a seguir.  Use valores {{CMD_1}}exatos{{CMD_2}}."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromTable1.tex",
+  "ordem": 1,
+  "hash": "91c710a91dee1c444f404890c59303d7c54ff05035f1916f28cf8bb7a52c2295",
+  "traducao": "Com base na tabela acima, faça uma conjectura sobre {{MATH_3}}.  Ele existe? Explique.\n{{COMMENT_4}}\n{{COMMENT_5}}\n{{COMMENT_6}}\n{{CMD_7}}\n{{CMD_8}}O limite existe e parece ter valor {{MATH_9}}.{{CMD_10}}\n{{CMD_11}}O limite existe e parece ter valor {{MATH_12}}.{{CMD_13}}\n{{CMD_14}}O limite não existe.{{CMD_15}}\n{{CMD_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromTable2.tex",
+  "ordem": 0,
+  "hash": "119ddec2b3dce36c39e817d927ad229b1fed19fa7e843078f5ee31a3a78db2a9",
+  "traducao": "Complete a tabela a seguir.  Use valores {{CMD_1}}exatos{{CMD_2}}."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitFromTable2.tex",
+  "ordem": 1,
+  "hash": "a1d4b3e3873b64ffd2350bb4408abcf87fbc992c2a0e4721e970860133cf29ac",
+  "traducao": "Com base na tabela acima, faça uma conjectura sobre {{MATH_3}}.  Ele existe? Explique.\n{{COMMENT_4}}\n{{COMMENT_5}}\n{{COMMENT_6}}\n{{CMD_7}}\n{{CMD_8}}O limite existe e parece ter valor {{MATH_9}}.{{CMD_10}}\n{{CMD_11}}O limite existe e parece ter valor {{MATH_12}}.{{CMD_13}}\n{{CMD_14}}O limite existe e parece ter valor {{MATH_15}}.{{CMD_16}}\n{{CMD_17}}O limite não existe.{{CMD_18}}\n{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitOfContinuousFunctions1.tex",
+  "ordem": 0,
+  "hash": "b0cf0098393fc157fa208c040773677cd17afe6d2c185b1236031fba85399e69",
+  "traducao": "Para a função {{MATH_1}} dada, calcule o limite e justifique sua resposta.{{CMD_2}}"
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitOfContinuousFunctions1.tex",
+  "ordem": 1,
+  "hash": "1c4fcbe5e26d8c08a36b7086679347066d576d2930e5028451354f2fffd76f4b",
+  "traducao": " \nJustificativa:{{CMD_3}} {{MATH_4}} é contínua em {{MATH_5}}, o que implica que\n{{MATH_6}}."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitOfContinuousFunctions1.tex",
+  "ordem": 2,
+  "hash": "bcf34b194b394083030322d21ec18109fa39ace742986afd7ceb69036130b4d4",
+  "traducao": " \nJustificativa:{{CMD_7}} {{MATH_8}} é contínua em {{MATH_9}}, o que implica que{{CMD_10}}\n{{MATH_11}}."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitOfContinuousFunctions1.tex",
+  "ordem": 3,
+  "hash": "0498c8c7cf67e1db32c414ab631ea0bd2322427905e0253456bd4e10ec5f2f9e",
+  "traducao": " \nJustificativa:{{CMD_12}} {{MATH_13}} é contínua em {{MATH_14}}, o que implica que{{CMD_15}}\n{{MATH_16}}."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitOfContinuousFunctions1.tex",
+  "ordem": 4,
+  "hash": "e11ba5821f8cbe2b58d9cb9ffcc9b8a61211daa8c517b4045b51e158a96e7a5b",
+  "traducao": " \nJustificativa:{{CMD_17}} {{MATH_18}} é contínua em {{MATH_19}}, o que implica que{{CMD_20}}\n{{MATH_21}}."
+ },
+ {
+  "arquivo": "whatIsALimit/exercises/limitOfContinuousFunctions1.tex",
+  "ordem": 5,
+  "hash": "29116d6e8f93bc4087fd4989dd602cd9b818a903e9ae2e1c5977e2e1f8c18184",
+  "traducao": " \nJustificativa:{{CMD_22}} {{MATH_23}} é contínua em {{MATH_24}}, o que implica que{{CMD_25}}\n{{MATH_26}}."
+ }
+]

@@ -1,0 +1,560 @@
+[
+ {
+  "arquivo": "derivativeAsAFunction/titlePage.tex",
+  "ordem": 0,
+  "hash": "56d571164459020b109771e50404abb84d15b25dc9b89792533575286f8cb72e",
+  "traducao": "Derivadas como funções{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/titlePage.tex",
+  "ordem": 2,
+  "hash": "83b4c489bb8546ff6634d8fedf51cbe106497acf7d09207f6c8d259e25e5931b",
+  "traducao": " Compreender a derivada como uma função, relacionando-a à definição\n  original de função.\n{{CMD_4}} Determinar a função derivada usando a definição por limite.\n{{CMD_5}} Relacionar a função derivada com a derivada em um ponto.\n{{CMD_6}} Explicar a relação entre derivabilidade e continuidade.\n{{CMD_7}} Relacionar o gráfico da função com o gráfico de sua derivada.\n{{CMD_8}} Determinar se uma função definida por partes é derivável.\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/breakGround.tex",
+  "ordem": 0,
+  "hash": "b86ae96c96c9aea25cfee57b74d7d0b73347b21ce913952114e8ac136c7ec590",
+  "traducao": "Espere o momento certo{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem derivadas como\nfunções.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma\nhistória real):"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/breakGround.tex",
+  "ordem": 2,
+  "hash": "5418e4e115e69574a9a3a8624b627729423f2145c1519141b119e75ee53d620a",
+  "traducao": " Riley, acho que sou um gênio do cálculo.\n{{CMD_7}} É mesmo?  Então me explica essa.\n{{CMD_8}} Primeiro deixa eu te fazer uma pergunta.  Digamos que você tenha uma função, tipo\n {{MATH_9}}, e queira saber {{MATH_10}}.  Você\n  substitui o número {{MATH_11}} antes ou depois de encontrar a derivada?\n{{CMD_12}} Hmmmm. Bom, meu próximo passo normalmente é\n  {{MATH_13}}\n  Então acho que antes.\n{{CMD_14}} Aha!  Acho que você está perdendo tempo. Veja, eu escrevo\n  {{MATH_15}}\n  e isso significa que posso olhar a derivada da minha função em\n  {{CMD_16}}qualquer{{CMD_17}} ponto.  Então, eu substituo o {{MATH_18}} {{{CMD_19}} depois} de ter encontrado a derivada.\n{{CMD_20}} Isso realmente parece uma jogada de gênio. Mas trabalhar\n com {{MATH_21}}, em vez de números, não torna tudo isso mais difícil?\n{{CMD_22}} De jeito nenhum. Vamos resolver o problema das duas maneiras, ao mesmo tempo:\n  {{CMD_23}}\n    {{ENV_24}}\n  {{CMD_25}}\n{{CMD_26}} Uau. Então agora a derivada é uma função. Espera, qual é\n    o domínio dela? E a imagem?\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/breakGround.tex",
+  "ordem": 3,
+  "hash": "0135a168f8c70e7d0cac3e3d3b043e84eb92218e1480e1f5022d2e4d85d81285",
+  "traducao": "  Suponha que você tenha uma função {{MATH_28}}. Quais das alternativas a seguir são verdadeiras?\n  {{CMD_29}}\n    {{CMD_30}}O domínio de {{MATH_31}} é igual ao domínio de {{MATH_32}}.{{CMD_33}}\n    {{CMD_34}}A imagem de {{MATH_35}} é igual à imagem de {{MATH_36}}.{{CMD_37}}\n    {{CMD_38}}O domínio de {{MATH_39}} é um subconjunto do domínio de {{MATH_40}}.{{CMD_41}}\n    {{CMD_42}}A imagem de {{MATH_43}} é um subconjunto da imagem de {{MATH_44}}.{{CMD_45}}\n  {{CMD_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/breakGround.tex",
+  "ordem": 4,
+  "hash": "4d851684f5b5e198ddb3fc19995db4008864e147e6e709cf736fa7dda07b1ccd",
+  "traducao": "Determine {{MATH_48}} para {{MATH_49}} usando os dois métodos descritos acima.\n{{CMD_50}}\n{{MATH_51}}\n{{CMD_52}}\n{{CMD_53}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 0,
+  "hash": "e8374784ab189ab6be68b0de6d2aa9a70e54e787b8b29cda54945d45a6c03008",
+  "traducao": "A derivada como função{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nAqui estudamos a derivada de uma função como uma função\npor si só.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 1,
+  "hash": "272fbd5e4d0ab5cc07ac3c8af87cbb24a81863230ca36ca013a851d5d49dd600",
+  "traducao": "A derivada de uma função, como função{{CMD_7}}\nPrimeiro, precisamos encontrar uma definição alternativa para {{MATH_8}}, a derivada de uma função {{MATH_9}} em {{MATH_10}}."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 2,
+  "hash": "2fd34d2596fa1ba030bc7fd8eb8203af50100eb9b1807e1cc959393983a3515e",
+  "traducao": " Vamos começar com\na taxa de variação média da função {{MATH_11}} quando a entrada varia de {{MATH_12}} a {{MATH_13}}. Vamos introduzir uma nova variável, {{MATH_14}}, para denotar a diferença entre {{MATH_15}} e {{MATH_16}}. Isto\né, {{MATH_17}} ou {{MATH_18}}. Dê uma olhada na figura abaixo.\n {{CMD_19}}\n{{ENV_20}}\n{{CMD_21}}\nAgora podemos escrever\n{{MATH_22}}\n  O que acontece se {{MATH_23}}? Em outras palavras, qual é o significado do limite\n{{MATH_24}}\nEsse limite representa {{MATH_25}}, a taxa de variação instantânea de {{MATH_26}} em {{MATH_27}}! Portanto,\ntemos uma maneira alternativa de escrever a definição da derivada no ponto {{MATH_28}}, a saber,\n{{MATH_29}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 3,
+  "hash": "36cf15b94b6e333d73c79b975cf5b481a84016222595aeabd829e94ba85c972d",
+  "traducao": " Seja {{MATH_30}}. Usando a expressão alternativa para a derivada, determine a inclinação da reta tangente à curva {{MATH_31}} no ponto {{MATH_32}}.\n  {{CMD_33}}\n   A inclinação da reta tangente é dada pela derivada, {{MATH_34}}.\n    {{MATH_35}}\n    Agora substitua a função que conhecemos,\n    {{MATH_36}}\n    Agora expanda o numerador da fração,\n    {{MATH_37}}\n    Agora combine os termos semelhantes,\n    {{MATH_38}}\n    Coloque {{MATH_39}} em evidência em todos os termos do numerador,\n    {{MATH_40}}\n  Calcule o limite,\n    {{MATH_41}}\n  {{CMD_42}}\n{{CMD_43}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 4,
+  "hash": "e1be73ac207fadb3cbc1143f487dbe054ce0d3b120be2e284ed885504c787b3a",
+  "traducao": "Essa definição alternativa da derivada de {{MATH_44}} em {{MATH_45}}, a saber,\n{{MATH_46}}\n(desde que o limite exista), nos permite definir {{MATH_47}} para qualquer valor de {{MATH_48}},\n{{MATH_49}}\n(desde que o limite exista)."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 5,
+  "hash": "bcd4cc9e1e06d383760166339abc7d65f64360a28852efd074a5c2f61fc571eb",
+  "traducao": "É assim que definimos uma nova função, {{MATH_50}}, a derivada de {{MATH_51}}. O domínio de {{MATH_52}} consiste em todos os pontos do domínio de\n{{MATH_53}} em que a função {{MATH_54}} é derivável. O valor {{MATH_55}} nos dá a taxa de variação instantânea de {{MATH_56}} em qualquer ponto {{MATH_57}} do domínio de {{MATH_58}}.{{CMD_59}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 6,
+  "hash": "631e29f49f96ef9a6e26d25ab81289178db06cf857879bd0cd51c3affc1081bc",
+  "traducao": "Dada uma função {{MATH_60}} de algum conjunto de números reais nos números reais, a\nderivada {{MATH_61}} também é uma função de algum conjunto de números reais nos números\nreais. Entender a relação entre as {{CMD_62}}funções{{CMD_63}}\n{{MATH_64}} e {{MATH_65}} nos ajuda a entender qualquer situação (real ou imaginária)\nque envolva valores que variam."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 7,
+  "hash": "2dd85dd0c4cb6560402cbbc6ca68551ecba539ed44a7af229b00c3bb28afb955",
+  "traducao": "\tDada a função {{MATH_66}}, determine  {{MATH_67}}. {{CMD_68}}\n\n\t{{CMD_69}}\n\t\tComece com a definição de {{MATH_70}}\n\t\t{{MATH_71}}\n\t\tSubstitua {{MATH_72}} pela sua fórmula,\n\t\t{{MATH_73}}\n\t\tSimplifique o numerador,\n\t\t{{MATH_74}}\n\t\tCalcule o limite.\n\t\t{{MATH_75}}\n\t{{CMD_76}}\n{{CMD_77}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 8,
+  "hash": "52633cdf82c27b1e59c67ed3a03cd94d8b3001de6bf8b9776260513eba1c8148",
+  "traducao": "\tDada a função {{MATH_78}}, determine  {{MATH_79}}. {{CMD_80}}\n\n\t{{CMD_81}}\n\t\tLembre-se de que o  domínio de {{MATH_82}} é  {{MATH_83}} e que {{MATH_84}} pode ser vista como uma função definida por partes, já que\n\t\t{{MATH_85}}\n\t\tPrimeiro vamos calcular {{MATH_86}} quando {{MATH_87}}.\n\t\tComece com a definição de {{MATH_88}}\n\t\t{{MATH_89}}\n\t\tSubstitua {{MATH_90}} pela sua fórmula,\n\t\t{{MATH_91}}\n\t\t{{MATH_92}}\n\t\tObservação: quando {{MATH_93}}, então, para todos os valores suficientemente pequenos de  {{MATH_94}}, segue que {{MATH_95}}.\n\t\tPortanto, {{MATH_96}}. Agora temos\n\t\t{{MATH_97}}\n\n\t\tEm seguida, calculamos a derivada {{MATH_98}} quando {{MATH_99}}.\n\t\t{{MATH_100}}\n\t\tSubstitua {{MATH_101}} pela sua fórmula,\n\t\t{{MATH_102}}\n\t\t{{MATH_103}}\n\t\tObservação: quando {{MATH_104}}, então, para todos os valores suficientemente pequenos de  {{MATH_105}}, segue que {{MATH_106}}.\n\t\tPortanto, {{MATH_107}}.\n\t\tIsso nos dá\n\t\t{{MATH_108}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 9,
+  "hash": "618268565c2c622d9d6d0246f591eb84a8579271deca89745c9b057cf951d077",
+  "traducao": "\t\tO que falta fazer é verificar se a derivada {{MATH_109}} existe.\n\t\tComece com a definição de {{MATH_110}}\n\t\t{{MATH_111}}\n\t\tSubstitua {{MATH_112}} pela sua fórmula,\n\t\t{{MATH_113}}\n\t\t{{MATH_114}}\n\t\tObservação: quando {{MATH_115}}, então {{MATH_116}}, mas, quando {{MATH_117}}, então {{MATH_118}}.\n\t\tPortanto, em vez de calcular o limite acima, vamos calcular os dois limites laterais e compará-los.\n\n\t\t{{MATH_119}}\n\t\t{{MATH_120}}\n\t\tComo os dois limites laterais não são iguais, segue que\n\t\t{{MATH_121}}\n\t\tPortanto,   {{MATH_122}} NÃO EXISTE, o que significa que {{MATH_123}} NÃO É DERIVÁVEL em {{MATH_124}}!"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 10,
+  "hash": "2d52bfde51b1d7226a6a38a0979cc2bc69166dd151ce70611221b5d28d82526e",
+  "traducao": "\t\tResumindo,\n\t\t {{MATH_125}}\n\t{{CMD_126}}\n{{CMD_127}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 11,
+  "hash": "81a51af7ca3005d4bb2d20e7d47cc9c8d3ac537f227f3c9e1232c84654be698f",
+  "traducao": "\tÉ verdade que, para qualquer função {{MATH_128}}, o domínio de {{MATH_129}} é igual ao domínio de {{MATH_130}}?\n\t{{CMD_131}}\n\t\t{{CMD_132}}\n\t\t\t{{CMD_133}}sim{{CMD_134}}\n\t\t\t{{CMD_135}}não{{CMD_136}}\n\t\t{{CMD_137}}\n\t\t{{CMD_138}}\n\t\t\tIsso não é verdade.\n\t\t\tConsidere a função {{MATH_139}}.\n\t\t\tO domínio de {{MATH_140}} é {{MATH_141}} e o domínio de {{MATH_142}} é {{MATH_143}}\n\n\t\t\tEsse exemplo mostra que uma função {{MATH_144}} e sua derivada, {{MATH_145}}, podem ter domínios diferentes.\n\t\t  {{CMD_146}}\n\t{{CMD_147}}\n{{CMD_148}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 12,
+  "hash": "4f84581a368578289eaf4c200bf2fa1201f4db4bdd62e92a0e8221f15c4d01a5",
+  "traducao": "\tDuas funções diferentes, digamos, {{MATH_149}} e {{MATH_150}}, podem ter a mesma derivada?\n\t{{CMD_151}}\n\t\t{{CMD_152}}\n\t\t\t{{CMD_153}}sim{{CMD_154}}\n\t\t\t{{CMD_155}}não{{CMD_156}}\n\t\t{{CMD_157}}\n\t\t  {{CMD_158}}\n\t\t    Muitas funções diferentes podem ter a mesma derivada.\n\t\t    Considere duas funções diferentes, {{MATH_159}} e {{MATH_160}}, definidas por{{CMD_161}}\n\t\t    {{MATH_162}} e {{MATH_163}}.\n\t\t    Então, {{MATH_164}} e {{MATH_165}}, para todos os números reais {{MATH_166}}.{{CMD_167}}\n\t\t    Logo,  as derivadas dessas duas funções diferentes são iguais.\n\n\t\t  {{CMD_168}}\n\t{{CMD_169}}\n{{CMD_170}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 13,
+  "hash": "5998bcc571b5d524d65290c9cf268ed2f1d460c8e33bd593673aea2077717ef9",
+  "traducao": "Vamos comparar os gráficos de {{MATH_171}} e {{MATH_172}} para as derivadas que calculamos até agora:"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 14,
+  "hash": "03324c63adce010065acd5a6d9c7c469953c5fa64f5f04d9b158ef2a6ceec32e",
+  "traducao": "\t Para cada um dos três pares de funções, descreva {{MATH_173}} quando {{MATH_174}}\n\té positiva e quando {{MATH_175}}  é negativa.{{CMD_176}}\n\t  {{CMD_177}}\n\t    Quando {{MATH_178}} é positiva, {{MATH_179}} é {{CMD_180}}{{CMD_181}}positiva{{CMD_182}}{{CMD_183}}crescente{{CMD_184}}{{CMD_185}}negativa{{CMD_186}}{{CMD_187}}decrescente{{CMD_188}}{{CMD_189}}.\n\t    Quando {{MATH_190}} é negativa, {{MATH_191}} é {{CMD_192}}{{CMD_193}}positiva{{CMD_194}}{{CMD_195}}crescente{{CMD_196}}{{CMD_197}}negativa{{CMD_198}}{{CMD_199}}decrescente{{CMD_200}}{{CMD_201}}\n\t  {{CMD_202}}\n{{CMD_203}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 15,
+  "hash": "bfc3c533d66ff095365d40d032244e1688aea1f991a5ab0a196d1d07b5248bf7",
+  "traducao": "  Aqui vemos o gráfico de {{MATH_204}}, a derivada de alguma função {{MATH_205}}.\n  {{CMD_206}}\n    {{ENV_207}}\n  {{CMD_208}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInTheDerivativeAsAFunction.tex",
+  "ordem": 16,
+  "hash": "30d447938e202ee8094acb518e990f152c7d793f18a302c581c6e54752eb7347",
+  "traducao": "    Qual dos gráficos a seguir poderia ser {{MATH_209}}?\n     {{CMD_210}}\n       {{CMD_211}}{{ENV_212}}{{CMD_213}}\n       {{CMD_214}}{{ENV_215}}{{CMD_216}}\n       {{CMD_217}}{{ENV_218}}{{CMD_219}}\n     {{CMD_220}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 0,
+  "hash": "963c296294015ad8957706b407de5aeee6126b96cf8cb4482a14172e154f3780",
+  "traducao": "Derivabilidade implica continuidade{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nVemos que, se uma função é derivável em um ponto, então ela deve\nser contínua nesse ponto.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 1,
+  "hash": "77ed253a3f1f95096213be60c8b74772ee1645585b3360e1ad6900bcb06ef3e5",
+  "traducao": "Há conexões entre continuidade e derivabilidade."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 2,
+  "hash": "359d390f17c0588b5aab12f42871ee4a2ffe77315aba01e940f3839da2e9fadb",
+  "traducao": "\tSe {{MATH_7}} é uma função derivável em {{MATH_8}}, então {{MATH_9}} é contínua\n\tem {{MATH_10}}.\n\t{{CMD_11}}\n\t\tPara explicar por que isso é verdade, vamos usar a seguinte\n\t\tdefinição da derivada\n\t\t{{MATH_12}}\n\t\t Supondo que {{MATH_13}} existe, queremos mostrar que {{MATH_14}} é\n\t\tcontínua em {{MATH_15}}; logo, devemos mostrar que\n\t\t{{MATH_16}}\n\t\tComeçando com\n\t\t{{MATH_17}}\n\t\tmultiplicamos e dividimos por {{MATH_18}} para obter\n\t\t{{ENV_19}}\n\t\tComo\n\t\t{{MATH_20}}\n\t\taplicamos a lei da diferença ao lado esquerdo\n\t\t{{MATH_21}}\n\t\te usamos a continuidade de uma constante para obter que\n\t\t{{MATH_22}}\n\t\tEm seguida, somamos {{MATH_23}} aos dois lados e obtemos\n\t\t{{MATH_24}}\n\t\tAgora vemos que {{MATH_25}}, e portanto {{MATH_26}} é contínua em {{MATH_27}}.\n\t{{CMD_28}}\n{{CMD_29}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 3,
+  "hash": "ff7cf8f54651c427796758c8c914e14d658366c68df6d5fb8225354c266e6644",
+  "traducao": "Esse teorema é frequentemente escrito na forma de sua contrapositiva:\n{{CMD_30}}\n\tSe {{MATH_31}} não é contínua em {{MATH_32}}, então {{MATH_33}} não é derivável em {{MATH_34}}.\n{{CMD_35}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 4,
+  "hash": "adedeba7cc1a6eba58897992ded53ece5d52f731ebe884c89ad2cb10ccf4bf39",
+  "traducao": "Pelo teorema acima, vemos que todas as funções deriváveis\nem {{MATH_36}} são contínuas em {{MATH_37}}. No entanto, existem funções contínuas\nem {{MATH_38}} que não são deriváveis em {{MATH_39}}."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 5,
+  "hash": "755cd1fc84ba51620e7c4844159af642d3f54f4b77ea414e74e85615e96a9b2f",
+  "traducao": "\tQual das funções a seguir é contínua, mas não\n\tderivável em {{MATH_40}}?\n\t  {{CMD_41}}\n\t\t    {{CMD_42}}{{MATH_43}}{{CMD_44}}\n\t\t    {{CMD_45}}{{MATH_46}}{{CMD_47}}\n\t\t    {{CMD_48}}{{MATH_49}}{{CMD_50}}\n\t\t    {{CMD_51}}{{MATH_52}}{{CMD_53}}\n\t  {{CMD_54}}\n{{CMD_55}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 6,
+  "hash": "308c2b4a1dd20cb1db92d664be2e7c6700df9d3d90565ff8d218f2e195a4e34a",
+  "traducao": "\t  Considere\n\t  {{MATH_56}}\n\t  Quais valores de {{MATH_57}} e {{MATH_58}} tornam {{MATH_59}} derivável em {{MATH_60}}?\n\t  {{CMD_61}}\n\t\t    Para começar, sabemos que  {{MATH_62}} deve ser contínua em {{MATH_63}}, já que precisa ser\n\t\t    derivável nesse ponto. Vamos começar tornando {{MATH_64}}  contínua em\n\t\t    {{MATH_65}}. Escreva comigo:\n\t\t    {{ENV_66}}\n\t\t    Logo, para que a função seja contínua, devemos ter\n\t\t    {{MATH_67}}\n\t\t    Também precisamos garantir que a função seja derivável em {{MATH_68}}. Em outras palavras, temos de garantir que o seguinte limite exista\n\t\t {{MATH_69}}\n\n\t\tPara calcular esse limite, temos de calcular os dois limites laterais\n\t\t {{MATH_70}}\n\t\te\n\t\t{{MATH_71}}\n\t\tjá que  {{MATH_72}} muda de expressão em {{MATH_73}}.\n\t\tEscreva comigo\n\t\t {{ENV_74}}\n\t\t    e\n\t\t{{ENV_75}}\n\t\t    Logo, devemos ter\n\t\t   {{MATH_76}}\n\t\t    Ah! Então agora a equação que deve ser satisfeita\n\t\t    {{ENV_77}}\n\t\t   Portanto, {{MATH_78}}. Assim, tomar {{MATH_79}} e\n\t\t    {{MATH_80}} nos dá uma função que é derivável (e, portanto,\n\t\t    contínua) em {{MATH_81}}.\n\n\t  {{CMD_82}}\n{{CMD_83}}\nPodemos dizer, a partir do gráfico, se a função é ou não derivável em um ponto {{MATH_84}}?"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 7,
+  "hash": "45483656e3e899c3c5826ffb13528a086f9b3298623094fc21a00e22ebcc375f",
+  "traducao": "Como pode ser o gráfico de uma função {{MATH_85}} quando {{MATH_86}} não é derivável em {{MATH_87}}?\n{{CMD_88}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 8,
+  "hash": "2a4d8ce3fecae3370e0ffe23cd96b76f6434fb0928f40e8fa7879a5dcc92bd69",
+  "traducao": "Cada uma das figuras A-D mostra uma função que não é derivável em {{MATH_89}}.\n {{CMD_90}}\n    {{ENV_91}}\n  {{CMD_92}}\n A função na figura A não é contínua em {{MATH_93}} e, portanto, não é derivável nesse ponto."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 9,
+  "hash": "a01c7096d1e46a706940523125a757ac2dc54640f55001a118486fe970478af4",
+  "traducao": "Nas figuras {{MATH_94}}--{{MATH_95}} as funções são contínuas em {{MATH_96}}, mas,  em cada caso, o limite\n{{MATH_97}}\nnão existe, cada vez por uma razão diferente."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 10,
+  "hash": "8e7988e3e1ad48b2fb226e0a5d4c178cb1e589157b6045cb7bfe970789c9f1a8",
+  "traducao": "Na figura {{MATH_98}}\n{{MATH_99}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 11,
+  "hash": "ef6f7ac447cc41a19983303dfb72a1d7934e29bc1464f0750cbdbf17311db1e4",
+  "traducao": "Na figura {{MATH_100}}\n{{MATH_101}}\nNa figura {{MATH_102}} os dois limites laterais não existem e nenhum deles é infinito."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/digInDifferentiabilityImpliesContinuity.tex",
+  "ordem": 12,
+  "hash": "3503f0351d0c89def129bc5251bf39f18351918d53d50cdcd1187c8ca3ba4214",
+  "traducao": "Então, se no ponto {{MATH_103}} uma função tem um ``salto'' no gráfico, ou um bico, ou algo que se parece com uma\n``reta tangente vertical'', ou se ela oscila rapidamente perto de {{MATH_104}}, então a função não é derivável em {{MATH_105}}.\n{{CMD_106}}\n{{CMD_107}}\n{{CMD_108}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/10_Q3-1151_ex_2.tex",
+  "ordem": 0,
+  "hash": "ba4c8a841bf6ebc157b4fc52ea9e9a44c22ac28dc2364aa77e3bc3ecc740f68e",
+  "traducao": "Relacionar o gráfico da função com o gráfico de sua derivada.{{CMD_1}}\n{{CMD_2}}Determinar se uma função definida por partes é derivável.{{CMD_3}}\n{{CMD_4}}Entender a derivada como uma função relacionada à definição original de uma função{{CMD_5}}\nO gráfico de uma função {{MATH_6}} é dado abaixo. Use o gráfico de {{MATH_7}} para responder às perguntas.\n{{CMD_8}}\n  {{ENV_9}}\n{{CMD_10}}\nDetermine o valor ou diga que ele não existe. Nesse último caso, escreva `DNE.'\n{{CMD_11}}\n{{CMD_12}} {{MATH_13}}\n{{CMD_14}} {{MATH_15}}\n{{CMD_16}} {{MATH_17}}\n{{CMD_18}} {{MATH_19}}\n{{CMD_20}}\n{{CMD_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeEstimateGraphically2.tex",
+  "ordem": 0,
+  "hash": "e65bf0b8c34f2dfc1005339682991f7265ebc73239f3c5c182bb380bbf06dbc0",
+  "traducao": "Usando o gráfico abaixo, estime   {{MATH_1}}."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeEstimateGraphically2.tex",
+  "ordem": 1,
+  "hash": "eac6127f276125256749361bfaf916e85783fbd2eedb6fb345878753969c84d7",
+  "traducao": "Usando sua estimativa acima, qual é a equação da reta tangente a {{MATH_2}} em {{MATH_3}}?"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeEstimateGraphically2.tex",
+  "ordem": 2,
+  "hash": "9c79a3805bdec8890897ddb5aea1794a02e89c16e48ebfd4a615824b3ee73744",
+  "traducao": "A equação dessa reta tangente é\n{{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeEstimateGraphically3.tex",
+  "ordem": 0,
+  "hash": "f27a78f208a2af3ade6ebaadf209df38a0145b018835bb7145fc62fab212b430",
+  "traducao": "Usando o gráfico abaixo, estime   {{MATH_1}}."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeEstimateGraphically3.tex",
+  "ordem": 1,
+  "hash": "eac6127f276125256749361bfaf916e85783fbd2eedb6fb345878753969c84d7",
+  "traducao": "Usando sua estimativa acima, qual é a equação da reta tangente a {{MATH_2}} em {{MATH_3}}?"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeEstimateGraphically3.tex",
+  "ordem": 2,
+  "hash": "9c79a3805bdec8890897ddb5aea1794a02e89c16e48ebfd4a615824b3ee73744",
+  "traducao": "A equação dessa reta tangente é\n{{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromDefinition1.tex",
+  "ordem": 0,
+  "hash": "da39a55a25ff5a3756da8ac5e73757fbfc57542c07ee0b0d1b04e9be48b575ff",
+  "traducao": "Para uma função {{MATH_1}}, desde que o limite exista,\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromDefinition1.tex",
+  "ordem": 1,
+  "hash": "daebea63d72d293538810efdcbd19a0c4ba27ce7fad6df4f4ad0cbdb4e09ae9e",
+  "traducao": "Seja\n{{MATH_3}}\nUsando a definição por limite para encontrar a derivada de {{MATH_4}}, obtemos\n{{ENV_5}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromDefinition1.tex",
+  "ordem": 2,
+  "hash": "b5d2ffcd4d6f445b16b0ef65300b8b292c0eaa28d031d80f27a150ddf04b87ba",
+  "traducao": "Seja {{MATH_6}} como antes."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromDefinition1.tex",
+  "ordem": 3,
+  "hash": "0687de9c962b278cfbfd13ceef96c00239bce37768ccaec0aca6d22baf616f50",
+  "traducao": "O domínio de {{MATH_7}}, em intervalos da esquerda para a direita, é {{MATH_8}}."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromDefinition1.tex",
+  "ordem": 4,
+  "hash": "73db15e0e2054b1f7cf2f396f10247e661bbd5bfa2846d6e4efe652e293aeaa4",
+  "traducao": "O domínio de {{MATH_9}}, em intervalos da esquerda para a direita, é {{MATH_10}}."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromGraph1.tex",
+  "ordem": 0,
+  "hash": "efe5ae57f8c9449b01871c3df14f142921f43f4c1c875e6c73ba140812eab07d",
+  "traducao": "O gráfico de uma função {{MATH_1}} é dado na figura abaixo."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromGraph1.tex",
+  "ordem": 1,
+  "hash": "f0e542929835167e72f2e250aa01e4063a839f9dac1594910b19f567ddf7e78f",
+  "traducao": "Seja {{MATH_2}} a inclinação da reta tangente à curva {{MATH_3}} no ponto {{MATH_4}}, {{MATH_5}} no ponto {{MATH_6}} e {{MATH_7}} no ponto {{MATH_8}}.  Selecione a afirmação correta."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromGraph1.tex",
+  "ordem": 2,
+  "hash": "7d034909611e059b86e2b5416a7505dcbd8a14c7cf315afe1dc8211d1bdc8b51",
+  "traducao": "Nenhuma das anteriores{{CMD_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromGraph1.tex",
+  "ordem": 3,
+  "hash": "622e0d8666b3461b469f1a1eaa2c81a6ed078197b833d051e426bcd0d4fae0c5",
+  "traducao": "Com {{MATH_11}} como antes, determine os valores a seguir ou escreva {{CMD_12}}|ND| se o valor não estiver definido."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromGraph2.tex",
+  "ordem": 0,
+  "hash": "09c5b6c278e1f813e912d5946c528a061616cc3d0477f22ad3b81b2ae417b601",
+  "traducao": "O gráfico de uma função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromGraph2.tex",
+  "ordem": 1,
+  "hash": "ff4d1b693981809111a10db61d732742958a00678be370bdd180cb1545fe7710",
+  "traducao": "Selecione a afirmação correta em cada um dos conjuntos abaixo."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromGraph2.tex",
+  "ordem": 2,
+  "hash": "8a9c9fc67a5545a2eba9865c4c7cfb5696aecc0dad4499fedad4ec98b534d2da",
+  "traducao": "Resolva a equação {{MATH_2}}."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromPoints1.tex",
+  "ordem": 0,
+  "hash": "32338b56f632b29a79d313658e4a5c4f7761c739a60f3407edb9e6eea9bfd363",
+  "traducao": "Seja {{MATH_1}} uma função tal que:\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromPoints1.tex",
+  "ordem": 1,
+  "hash": "9ff1f56d55d8638738f2c741739109f335c20681a579eff84459e2665a1fb6c5",
+  "traducao": "Temos informação suficiente para calcular\n{{MATH_3}}\nSelecione todas as afirmações corretas abaixo."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromPoints1.tex",
+  "ordem": 2,
+  "hash": "0b1d7004c02784c1b1fed6afdae5e0d4b0b61a80b93aea2dbc929f956c7f2a15",
+  "traducao": "Sim, {{MATH_4}} porque {{MATH_5}} é dado.{{CMD_6}}\n{{CMD_7}}Não, porque não nos é dado {{MATH_8}} para valores de {{MATH_9}} próximos de 3.{{CMD_10}}\n{{CMD_11}}Não, porque {{MATH_12}} não é necessariamente contínua em 3.{{CMD_13}}\n{{CMD_14}}Sim, porque {{MATH_15}} é derivável em 3, e portanto {{MATH_16}} é contínua em 3, e portanto {{MATH_17}}.{{CMD_18}}\n{{CMD_19}}Sim, porque {{MATH_20}} é derivável em 3, e portanto {{MATH_21}} é contínua em 3, e portanto {{MATH_22}}.{{CMD_23}}\n{{CMD_24}}Não, porque, embora {{MATH_25}} seja derivável em 3, isso não significa que {{MATH_26}} seja contínua em 3.{{CMD_27}}\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromPoints1.tex",
+  "ordem": 3,
+  "hash": "41123dcdbd865b667c890aad675853db8e94b23d6897a512c06f85d82abe0d85",
+  "traducao": "Determine os limites a seguir ou escreva {{CMD_29}}|DNE| se eles não existirem."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFromPoints1.tex",
+  "ordem": 4,
+  "hash": "2b3c2f14c116f39a5b29e632632e6a999614ffbcefe2598b91976ded52ac597b",
+  "traducao": "A equação da reta tangente à curva {{MATH_30}} no ponto em que {{MATH_31}} é dada por\n{{MATH_32}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction1.tex",
+  "ordem": 0,
+  "hash": "fa49062416dd3ec2db64723a970077ddc80ebd36f71f6d01c216e248a29c3ab2",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction1.tex",
+  "ordem": 1,
+  "hash": "abaf7c9fa265b4c02e6d4ca3525112e785d1741e8d3009065149020c76a39933",
+  "traducao": " Determine a função derivada {{MATH_2}} usando a definição por limite.\n{{CMD_3}}\n{{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction1.tex",
+  "ordem": 2,
+  "hash": "a303c5f56dbdfc0eceb5687eaa985c819a9484fc3904e49e3dd8a7301b030a39",
+  "traducao": "  Determine a equação da reta tangente ao gráfico de {{MATH_6}} em {{MATH_7}}."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction1.tex",
+  "ordem": 3,
+  "hash": "0f6028536de896dde78bb32c17fbebc523c57abf6a1b1d6261d63bbf67c8f9f1",
+  "traducao": "A equação dessa reta tangente é\n{{MATH_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction2.tex",
+  "ordem": 0,
+  "hash": "fa49062416dd3ec2db64723a970077ddc80ebd36f71f6d01c216e248a29c3ab2",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction2.tex",
+  "ordem": 1,
+  "hash": "714de47c9e46919cf125cff3b03bf7e94a55e0dd25883dcd8866ba62a6fa650d",
+  "traducao": " Determine a função derivada {{MATH_2}} usando a definição por limite.\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction2.tex",
+  "ordem": 2,
+  "hash": "65687ab49ba318f7a94c2b3f042ccc568ab2128e78264a00244314dd1b734fbf",
+  "traducao": "Usando a definição por limite para encontrar a derivada de {{MATH_4}}, obtemos\n{{ENV_5}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction2.tex",
+  "ordem": 3,
+  "hash": "a303c5f56dbdfc0eceb5687eaa985c819a9484fc3904e49e3dd8a7301b030a39",
+  "traducao": "  Determine a equação da reta tangente ao gráfico de {{MATH_6}} em {{MATH_7}}."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction2.tex",
+  "ordem": 4,
+  "hash": "0f6028536de896dde78bb32c17fbebc523c57abf6a1b1d6261d63bbf67c8f9f1",
+  "traducao": "A equação dessa reta tangente é\n{{MATH_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction3.tex",
+  "ordem": 0,
+  "hash": "fa49062416dd3ec2db64723a970077ddc80ebd36f71f6d01c216e248a29c3ab2",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction3.tex",
+  "ordem": 1,
+  "hash": "abaf7c9fa265b4c02e6d4ca3525112e785d1741e8d3009065149020c76a39933",
+  "traducao": " Determine a função derivada {{MATH_2}} usando a definição por limite.\n{{CMD_3}}\n{{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction3.tex",
+  "ordem": 2,
+  "hash": "a303c5f56dbdfc0eceb5687eaa985c819a9484fc3904e49e3dd8a7301b030a39",
+  "traducao": "  Determine a equação da reta tangente ao gráfico de {{MATH_6}} em {{MATH_7}}."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeFunction3.tex",
+  "ordem": 3,
+  "hash": "0f6028536de896dde78bb32c17fbebc523c57abf6a1b1d6261d63bbf67c8f9f1",
+  "traducao": "A equação dessa reta tangente é\n{{MATH_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise1.tex",
+  "ordem": 0,
+  "hash": "fa49062416dd3ec2db64723a970077ddc80ebd36f71f6d01c216e248a29c3ab2",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise1.tex",
+  "ordem": 1,
+  "hash": "cc9aebc08b7b772cb359bad550a2a92514296810a57f73b4a491895a19e486c4",
+  "traducao": "Determine se {{MATH_2}} é derivável em {{MATH_3}} e, se for, encontre o valor de sua derivada nesse ponto."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise1.tex",
+  "ordem": 2,
+  "hash": "159758fcf701dd668c77b77a987b02330535d97a7dc1724691cda42f58ee508e",
+  "traducao": "\tSe {{MATH_4}} for derivável, dê o valor abaixo.  Caso contrário, escreva \"DNE\".\n\n\t{{MATH_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise2.tex",
+  "ordem": 0,
+  "hash": "fa49062416dd3ec2db64723a970077ddc80ebd36f71f6d01c216e248a29c3ab2",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise2.tex",
+  "ordem": 1,
+  "hash": "cc9aebc08b7b772cb359bad550a2a92514296810a57f73b4a491895a19e486c4",
+  "traducao": "Determine se {{MATH_2}} é derivável em {{MATH_3}} e, se for, encontre o valor de sua derivada nesse ponto."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise2.tex",
+  "ordem": 2,
+  "hash": "159758fcf701dd668c77b77a987b02330535d97a7dc1724691cda42f58ee508e",
+  "traducao": "\tSe {{MATH_4}} for derivável, dê o valor abaixo.  Caso contrário, escreva \"DNE\".\n\n\t{{MATH_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise2.tex",
+  "ordem": 3,
+  "hash": "95fd235340f2224c0b235d6a5f56306f5bd50bfaa93e0489d6953eff0f027afc",
+  "traducao": "Considere\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise2.tex",
+  "ordem": 4,
+  "hash": "943056a38a452cbdcecde728a1a1eb4e20449858a713bf211f5e924d3496416f",
+  "traducao": "Determine se {{MATH_8}} é derivável em {{MATH_9}} e, se for, encontre o valor de sua derivada nesse ponto."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise2.tex",
+  "ordem": 5,
+  "hash": "2e6fc4e37d2ac078ed4a5a50de0598f06021cd4d533b7f31176dac382e385387",
+  "traducao": "Usando a definição por limite para encontrar a derivada de {{MATH_10}}, obtemos\n{{MATH_11}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise2.tex",
+  "ordem": 6,
+  "hash": "020456d053fedc3be3497c41f26d5925770c18d64385e5fd0b2a97128ad3e86c",
+  "traducao": "Não conseguimos encontrar uma única expressão para {{MATH_12}}, porque, quando {{MATH_13}} se aproxima de {{MATH_14}}, ele pode ser maior ou menor que {{MATH_15}}, e {{MATH_16}} tem expressões diferentes para {{MATH_17}} e {{MATH_18}}.\nAssim, temos de calcular os dois limites laterais separadamente.\n{{ENV_19}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise2.tex",
+  "ordem": 7,
+  "hash": "644133c2f2d147116dbf67dfcc83474644b111b44bd9ec6a2d6c9668f3e2ada7",
+  "traducao": "Por outro lado,"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativePiecewise2.tex",
+  "ordem": 8,
+  "hash": "f36c1e132e6223cd84415783e5c0683598daf8e698168fec7b5bf4450a0fc740",
+  "traducao": "Os dois limites laterais são diferentes e, portanto,\n{{MATH_20}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeTangentLine1.tex",
+  "ordem": 0,
+  "hash": "fa49062416dd3ec2db64723a970077ddc80ebd36f71f6d01c216e248a29c3ab2",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeTangentLine1.tex",
+  "ordem": 1,
+  "hash": "d461b4c744f1c19af60aded6d939c720a8ff2dc7b601383d89175e780a7fa627",
+  "traducao": " Qual é a equação da reta secante que liga o ponto {{MATH_2}} ao ponto {{MATH_3}}?\n{{CMD_4}}\nA equação dessa reta secante é\n{{MATH_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeTangentLine1.tex",
+  "ordem": 2,
+  "hash": "e5de1f738ccfe811f9fd8caee81f80a8cdea8e73445000d7176e798164a283eb",
+  "traducao": "  Use a definição da derivada para determinar a inclinação da reta tangente a {{MATH_7}} em {{MATH_8}} e use isso para determinar a equação dessa reta tangente."
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeTangentLine1.tex",
+  "ordem": 3,
+  "hash": "777c7dd2d87c05d822a44d2271346b4e83fbac143d51fd71a336a0b64c4bb613",
+  "traducao": "A equação dessa reta tangente é\n{{MATH_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/derivativeTangentLine1.tex",
+  "ordem": 4,
+  "hash": "58baa3319ff52f213d4e91a6b1239f5a3bc581ff0114434317a83985e5e2ce20",
+  "traducao": "Não é legal como os coeficientes da equação da reta secante são próximos dos da reta tangente?\n{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "derivativeAsAFunction/exercises/sqrtReview1.tex",
+  "ordem": 0,
+  "hash": "c8ff042aeec361e4e7e534a4fb09f110f2e8f304a14cf0a43595ab9749641ee1",
+  "traducao": "Selecione todas as afirmações corretas abaixo."
+ }
+]

@@ -1,0 +1,776 @@
+[
+ {
+  "arquivo": "continuity/titlePage.tex",
+  "ordem": 0,
+  "hash": "e45071dd7dea87b3e323c37086875eb519ed65ae8b8ddec4f4fe70410188ea84",
+  "traducao": "Continuidade e o teorema do valor intermediário{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "continuity/titlePage.tex",
+  "ordem": 1,
+  "hash": "8bc167ba335523cc0722852870e89a14ad8828047ae5decd6e970b00bcededda",
+  "traducao": "Ao concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "continuity/titlePage.tex",
+  "ordem": 2,
+  "hash": "e8d0e8c24c4ac9b0266b38f94f1f0ec46617544f375a683e2284c26757a12d5a",
+  "traducao": " Identificar onde uma função é, e onde não é, contínua.\n{{CMD_4}} Compreender a relação entre a continuidade de uma função e\n  o valor de um limite.\n{{CMD_5}} Tornar contínua uma função definida por partes.\n{{CMD_6}} Enunciar o teorema do valor intermediário, incluindo suas hipóteses.\n{{CMD_7}} Determinar se o teorema do valor intermediário se aplica.\n{{CMD_8}} Esboçar figuras que indiquem por que o teorema do valor intermediário é\n  verdadeiro e por que todas as hipóteses são necessárias.\n{{CMD_9}} Explicar por que certos pontos existem usando o teorema do valor\n  intermediário.\n{{COMMENT_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "continuity/breakGround.tex",
+  "ordem": 0,
+  "hash": "8591a24ebcd8d1d9b8cba009af5bc8ffa52c486bb7fc3e4ccf30ca63d5897b5d",
+  "traducao": "Roxy e Yuri gostam de comida{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem os hábitos alimentares de seus gatos.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "continuity/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "continuity/breakGround.tex",
+  "ordem": 2,
+  "hash": "6adb9c55e7e9bbeb7647c1c2f4de4c5db4cf1e19501ccc0912fa40f546e8b811",
+  "traducao": " Ei, Riley, ontem à noite eu fiquei observando meus dois gatos,\n  {{CMD_7}}Roxy{{CMD_8}} e {{CMD_9}}Yuri{{CMD_10}}, comendo ração.\n{{CMD_11}} Gatos adoram comida!  É tão estranho que eles engulam os pedaços inteiros!\n{{CMD_12}} Eu sei! Mas notei outra coisa meio engraçada:\n  Roxy e Yuri começam e terminam de comer nos mesmos instantes; e,\n  embora eu tenha dado um pouco mais de ração para a Roxy do que para o Yuri, sobrou menos ração\n  na tigela da Roxy quando eles pararam de comer."
+ },
+ {
+  "arquivo": "continuity/breakGround.tex",
+  "ordem": 3,
+  "hash": "53ae08ef051931c85359e88016bd1b6ee7569bfd7d8149b479c5f052b5044262",
+  "traducao": "  Eu me pergunto: existe algum instante em que Roxy e Yuri têm\n  exatamente a mesma quantidade de {{CMD_13}}ração seca{{CMD_14}} nas tigelas?\n{{CMD_15}} Hummmm. Roxy e Yuri também começam e terminam de\n  beber água nos mesmos instantes?  E a Roxy começa com um\n  pouco mais de água do que o Yuri e termina com menos água sobrando do que\n  o Yuri?\n{{CMD_16}} Sim!\n{{CMD_17}} Interessante. Eu me pergunto: existe algum instante\n  em que Roxy e Yuri têm exatamente a mesma quantidade de {{CMD_18}}água{{CMD_19}}\n  nas tigelas?\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "continuity/breakGround.tex",
+  "ordem": 4,
+  "hash": "a7b7a4e75135bcd14c35244cd6acc48b4d957af342a574560f01ffe0e2105ffc",
+  "traducao": "  Existe algum instante em que Roxy e Yuri têm a mesma quantidade de ração\n  seca nas tigelas? Faça as seguintes suposições:\n  {{CMD_21}}\n  {{CMD_22}} Eles começam e terminam de comer nos mesmos instantes.\n  {{CMD_23}} Roxy começa com mais ração do que Yuri e deixa menos ração sem comer do que Yuri.\n  {{CMD_24}}\n  {{CMD_25}}\n  \tTalvez você queira tentar desenhar um gráfico dessa situação.\n  {{CMD_26}}\n  {{CMD_27}}\n  {{CMD_28}}\n    {{CMD_29}}sim{{CMD_30}}\n    {{CMD_31}}não{{CMD_32}}\n    {{CMD_33}}Não há como saber.{{CMD_34}}\n  {{CMD_35}}\n  {{CMD_36}}\n{{CMD_37}}"
+ },
+ {
+  "arquivo": "continuity/breakGround.tex",
+  "ordem": 5,
+  "hash": "62350ae8ac65fb0628ed13b70395bbf1f3628c49ea15e837a554de4d26f8a7d0",
+  "traducao": "  Existe algum instante em que Roxy e Yuri têm a mesma quantidade de água\n  nas tigelas? Faça as seguintes suposições:\n  {{CMD_38}}\n  {{CMD_39}} Eles começam e terminam de beber nos mesmos instantes.\n  {{CMD_40}} Roxy começa com mais água do que Yuri e deixa menos água\n    sobrando na tigela do que Yuri.\n  {{CMD_41}}\n    {{CMD_42}}\n  \tTalvez você queira tentar desenhar um gráfico dessa situação.\n    {{CMD_43}}\n    {{CMD_44}}\n    {{CMD_45}}\n    {{CMD_46}}sim{{CMD_47}}\n    {{CMD_48}}não{{CMD_49}}\n    {{CMD_50}}Não há como saber.{{CMD_51}}\n    {{CMD_52}}\n    {{CMD_53}}\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "continuity/breakGround.tex",
+  "ordem": 6,
+  "hash": "36cfb175a5357fe1ff08dad1d575011c3fe66d0d1244f6c41ca428deaf859ad0",
+  "traducao": "  No contexto dos dois problemas acima, qual é a diferença\n  entre ``ração seca'' e ``água''?\n  {{CMD_55}}\n    Se escrevermos a quantidade de ração seca como função do tempo, essa função\n    não é contínua.  O motivo de ela não ser contínua é que a ração seca\n    é uma coleção de grãos individuais, que são engolidos inteiros.\n\n    Por outro lado, se escrevermos a quantidade de água como função do tempo,\n    essa função é contínua.\n  {{CMD_56}}\n{{CMD_57}}"
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 0,
+  "hash": "ccc205235c2ae8dbb66bab420c976d8ca042beac548cc3bebb930daad7b759f2",
+  "traducao": "Continuidade de funções definidas por partes{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nAqui usamos limites para verificar se funções definidas por partes são contínuas.\n{{CMD_5}}\n{{CMD_6}}\nAntes de começarmos a falar sobre continuidade de funções definidas por partes, vamos relembrar todas as funções famosas que são contínuas em seus domínios.\n{{CMD_7}}{{CMD_8}}{{CMD_9}}\n\tAs funções a seguir são contínuas em seus domínios naturais:\n\t{{CMD_10}}\n\t\t{{CMD_11}} Funções constantes {{CMD_12}}\n\t\t{{CMD_13}} Polinômios  {{CMD_14}}\n\t\t{{CMD_15}} Funções racionais  {{CMD_16}}\n\t\t{{CMD_17}} Funções potência {{CMD_18}}\n\t\t{{CMD_19}} Funções exponenciais {{CMD_20}}\n\t\t{{CMD_21}} Funções logarítmicas {{CMD_22}}\n\t\t{{CMD_23}} Funções trigonométricas{{CMD_24}}\n\t\t{{CMD_25}} Funções trigonométricas inversas {{CMD_26}}\n\t{{CMD_27}}\n\tEm essência, estamos dizendo que as funções listadas acima são\n\tcontínuas em todos os pontos onde estão definidas."
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 1,
+  "hash": "72dbd356f36f987d36f0bc6dcf711b8adf0af98b518e5845dd8a8f49e35cce6e",
+  "traducao": "\tProvamos anteriormente a continuidade dos polinômios usando a Lei da Soma, a Lei\n\tdo Produto e a continuidade das funções potência.\n\n\n\tProvamos anteriormente a continuidade das funções racionais usando a Lei do\n\tQuociente e a continuidade dos polinômios.\n\n\n\tPodemos provar a continuidade das outras quatro funções trigonométricas usando a\n\tLei do Quociente e a continuidade das funções seno e cosseno.\n\n\n\tComo uma função contínua e sua inversa têm gráficos ``sem quebras'',\n\tsegue que a inversa de uma função contínua é contínua em\n\tseu domínio.\n\n\n\tIsso implica que as funções trigonométricas inversas são contínuas em seus domínios.\n\n\n\tUsando as Leis dos Limites, podemos provar que, dadas duas funções, ambas\n\tcontínuas no mesmo intervalo, então sua soma, diferença, produto\n\te quociente (onde estiver definido) também são contínuos no mesmo intervalo\n\t(onde estiverem definidos).\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 2,
+  "hash": "487290fb97ecc75a11a04809b9cf4d88329f49e7ec2a814a3d08dfbfcbcec812",
+  "traducao": "Nesta seção, vamos trabalhar alguns exemplos envolvendo limites, continuidade e funções definidas por partes.\nLembre-se de que uma função {{MATH_29}} é contínua em um ponto {{MATH_30}} se {{MATH_31}}.\nIsso nos deu a {{CMD_32}}lista de verificação da continuidade{{CMD_33}}. Para determinar se uma função {{MATH_34}} é contínua em um ponto {{MATH_35}}, devemos verificar que:\n{{CMD_36}}\n\t{{CMD_37}} {{CMD_38}} {{MATH_39}} está definido,\n\t{{CMD_40}} {{CMD_41}} {{MATH_42}} existe e, então,\n\t{{CMD_43}} {{CMD_44}} {{MATH_45}}.\n{{CMD_46}}\nNesta seção, como estamos lidando com funções definidas por partes, pode ser necessário considerar limites laterais para determinar se\no item {{CMD_47}} vale para a nossa função. No entanto, o item {{CMD_48}} não menciona limites laterais. Ao usar a lista de verificação para\njustificar a continuidade de uma função, tenha o cuidado de mencionar as condições específicas que são exigidas."
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 3,
+  "hash": "8bd10f7939b0798bf996a6420ad22cfae931717b859afdc689b3c09f2966e040",
+  "traducao": "\tConsidere a seguinte função definida por partes\n\t{{MATH_49}}\n\tDetermine a constante {{MATH_50}} de modo que {{MATH_51}} seja contínua em {{MATH_52}}."
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 4,
+  "hash": "5cfdbf4a4707be31d1fbf02c6b63093f19f833545a43ebad23e14a67c8d5d0be",
+  "traducao": "\t\tA pergunta nos pede para encontrar o valor de {{MATH_53}} de modo que a função seja contínua em {{MATH_54}}, então usamos a lista de verificação da continuidade.\n\t\tComeçamos com o item {{CMD_55}}. Como {{MATH_56}} existe, esse item está satisfeito."
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 5,
+  "hash": "d51ec9e60e1dac4307894e43f3ebb94a5827d498d0e82eb4eca8bfe27e73c7d2",
+  "traducao": "\t\tPara o item {{CMD_57}}, a fim de calcular o limite, teremos de calcular dois limites laterais\n\t\t(pois a expressão de {{MATH_58}} se {{MATH_59}} é diferente da expressão de {{MATH_60}} se {{MATH_61}}).\n\t\t  {{ENV_62}}\n\t\te\n\t\t  {{ENV_63}}\n\t\t  Para que {{MATH_64}} exista,\n\t\t  {{MATH_65}}\n\t\t  Assim, se {{MATH_66}}, o limite {{MATH_67}}, o que significa que o item {{CMD_68}} está satisfeito.\n\n\t\t  Para o item {{CMD_69}}, precisamos verificar que o valor que encontramos para {{MATH_70}} é o mesmo que o valor que encontramos para\n\t\t  {{MATH_71}}. Esses valores coincidem, então o item {{CMD_72}} está satisfeito.\n\t\tIsso prova que {{MATH_73}} é contínua em {{MATH_74}}.\n\t{{CMD_75}}\n{{CMD_76}}\n{{CMD_77}}\n\tNo exemplo anterior, observe que o trabalho não terminou quando encontramos o valor de {{MATH_78}}. Para justificar a resposta, temos de verificar\n\tque as três condições da lista de verificação estão satisfeitas para o valor que encontramos.\n{{CMD_79}}"
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 6,
+  "hash": "8ca963b8753c3dee177a8fc808e4a5f2eadd752842551c871afa46c62552dd74",
+  "traducao": "Considere o próximo exemplo, mais desafiador."
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 7,
+  "hash": "2cbd04efa2a09e61d86066e43084bfa7b872b0e01ffddb617d6d463dbdb35f8c",
+  "traducao": "\tConsidere a seguinte função definida por partes\n\t{{MATH_80}}\n\tDetermine as constantes {{MATH_81}} e {{MATH_82}} de modo que {{MATH_83}} seja contínua tanto em {{MATH_84}} quanto em {{MATH_85}}.\n\t{{CMD_86}}\n\t\tEste problema é mais desafiador porque temos mais\n\t\tincógnitas. No entanto, seja corajoso, intrépido matemático.  Para encontrar {{MATH_87}} e\n\t\t{{MATH_88}} que tornem {{MATH_89}} contínua em {{MATH_90}}, precisamos encontrar {{MATH_91}} e {{MATH_92}}\n\t\ttais que\n\t\t{{MATH_93}}\n\t\tVamos começar com o item {{CMD_94}} da lista de verificação da continuidade em {{MATH_95}}.\n\t\t{{MATH_96}} existe para todos os valores de {{MATH_97}} e {{MATH_98}}, então esse item está satisfeito."
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 8,
+  "hash": "fb087d385a7481b6ca3c5d6558e95f83c7dfac62393e0d4a01018aa07c7c90cc",
+  "traducao": "\t\tAgora verificamos o item {{CMD_99}} da lista, confirmando que {{MATH_100}} existe.\n\t\tPara calcular {{MATH_101}}, temos de calcular dois limites laterais\n\t\t(pois a expressão de {{MATH_102}} se {{MATH_103}} é diferente da expressão de {{MATH_104}} se {{MATH_105}}).\n\t\tOlhando para o limite pela esquerda, temos\n\t\t{{ENV_106}}\n\t\tOlhando para o limite pela direita, temos\n\t\t{{ENV_107}}\n\t\tLogo, para que o limite {{MATH_108}} exista, devemos ter\n\t\t{{ENV_109}}\n\n\t\tO item {{CMD_110}} fica então satisfeito no ponto {{MATH_111}} sempre que {{MATH_112}}."
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 9,
+  "hash": "735b67b394c9893fca52d1f296be6ed48e16b08dabc49b6cb5388c6301dcfeb0",
+  "traducao": "\t\tPara encontrar {{MATH_113}} e {{MATH_114}} que tornem {{MATH_115}} contínua em {{MATH_116}}, precisamos\n\t\tencontrar {{MATH_117}} e {{MATH_118}} tais que\n\t\t{{MATH_119}}\n\t\tVamos voltar à lista de verificação da continuidade no ponto {{MATH_120}}.\n\t\tPara o item {{CMD_121}}, observe que {{MATH_122}}, que existe para todos os valores de {{MATH_123}} e {{MATH_124}}."
+ },
+ {
+  "arquivo": "continuity/digInContinuityOfPiecewiseFunctions.tex",
+  "ordem": 10,
+  "hash": "4cf5a079c01d6836ded1a8c79529da6d56fd3674b0c792923c85a8da36a1d2fc",
+  "traducao": "\t\tPara verificar o item {{CMD_125}}, devemos confirmar que {{MATH_126}} existe. Novamente, a fórmula de {{MATH_127}} muda em torno de {{MATH_128}}, então\n\t\tverificamos os limites laterais. Pela esquerda:\n\t\t{{ENV_129}}\n\t\tOlhando para o limite pela direita, temos\n\t\t{{ENV_130}}\n\t\tPara que {{MATH_131}} exista, esses valores devem ser iguais.\n\t\t{{ENV_132}}\n\t\tIsso significa que o item {{CMD_133}} está satisfeito para {{MATH_134}} e {{MATH_135}} com {{MATH_136}}.\n\n\t\tO item {{CMD_137}} fica então satisfeito para todos os {{MATH_138}} e {{MATH_139}} com {{MATH_140}}, pois isso dá {{MATH_141}} e {{MATH_142}}.\n\n\n\n\t\tPortanto, para que a função seja contínua TANTO em {{MATH_143}} QUANTO em {{MATH_144}}, temos duas equações e duas incógnitas:\n\t\t{{MATH_145}}\n\t\t Fazendo {{MATH_146}} e substituindo, obtemos\n\t\t {{ENV_147}}\n\t\t logo\n\t\t {{MATH_148}}\n\t\t Vamos conferir: substituindo agora os valores de {{MATH_149}} e {{MATH_150}}, encontramos\n\t\t {{MATH_151}}\n\t\t Agora\n\t\t {{MATH_152}}\n\t\t e\n\t\t {{MATH_153}}\n\t\t Assim, tomar {{MATH_154}} e {{MATH_155}} torna {{MATH_156}} contínua em {{MATH_157}} e {{MATH_158}}.\n\t\t {{CMD_159}}\n\t\t   Podemos confirmar nossos resultados olhando para o gráfico de {{MATH_160}}:\n\t\t   {{MATH_161}}\n\t\t {{CMD_162}}\n\t{{CMD_163}}\n{{CMD_164}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 0,
+  "hash": "78ffbde53b18f05fbd090e055e4de6f6738f7056d09df9f045b787d6fb1d3cf4",
+  "traducao": "O teorema do valor intermediário{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 1,
+  "hash": "6ef2211cac5e3a10fa737bb0d3e66acdba2e5bbc93bc75ef24510f46cb534eb4",
+  "traducao": "  Aqui vemos uma consequência de uma função ser contínua.\n{{CMD_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 2,
+  "hash": "77be568020165153fc2ddceea1a8cf3f48959e15c7ccbd635e8cb6d0dae983e7",
+  "traducao": "O {{CMD_6}}teorema do valor intermediário{{CMD_7}} não deve ser tratado com\ndescaso. Depois de compreendido, ele pode parecer ``óbvio'', mas os matemáticos não devem subestimar o seu poder."
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 3,
+  "hash": "2320a94c78f59a1924cd083e6fc8bcb28911c0ab44fedf93612defd9b42528c6",
+  "traducao": "\tSe {{MATH_8}} é uma função contínua para todo {{MATH_9}} no intervalo fechado\n\t{{MATH_10}} e {{MATH_11}} é qualquer valor estritamente entre {{MATH_12}} e {{MATH_13}}, então existe um número\n\t{{MATH_14}} em {{MATH_15}} tal que {{MATH_16}}.\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 4,
+  "hash": "e71a52ee90c300635e93a1b4ad9846e2770cb46c5dd2111062ada09c67395625",
+  "traducao": "Se você é uma pessoa mais visual, imagine uma função contínua da qual você conhece o valor em duas extremidades,\n{{MATH_18}} e {{MATH_19}}, mas não sabe realmente o que a função faz entre os pontos {{MATH_20}} e {{MATH_21}}:\n{{CMD_22}}\n{{ENV_23}}\n{{COMMENT_24}}\n{{COMMENT_25}}\n{{COMMENT_26}}\n{{COMMENT_27}}\n{{COMMENT_28}}\n{{CMD_29}}\nO teorema do valor intermediário diz que, apesar de você não saber realmente o que a função está fazendo entre as extremidades, existe um\nponto {{MATH_30}} que fornece um {{CMD_31}}valor intermediário{{CMD_32}} para {{MATH_33}}."
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 5,
+  "hash": "df1d3aa4e3c105117120c2f2b0694eec6ff6a2a24a70cd0c3c8cf5522baaeb32",
+  "traducao": "Agora, vamos contrastar isso com uma situação em que a conclusão do teorema do valor intermediário não vale."
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 6,
+  "hash": "c6025096810206f66f0f5d96946faf5156a2285e7c5c316821a3d0059778afb1",
+  "traducao": "  Considere a seguinte situação,\n  {{CMD_34}}\n    {{ENV_35}}\n  {{CMD_36}}\n  e selecione todas as afirmações verdadeiras:\n  {{CMD_37}}\n    {{CMD_38}}{{MATH_39}} é contínua em {{MATH_40}}.{{CMD_41}}\n    {{CMD_42}}{{MATH_43}} é contínua em {{MATH_44}}.{{CMD_45}}\n    {{CMD_46}}{{MATH_47}} é contínua em {{MATH_48}}.{{CMD_49}}\n    {{CMD_50}}{{MATH_51}} é contínua em {{MATH_52}}.{{CMD_53}}\n    {{CMD_54}}Existe um ponto {{MATH_55}} em {{MATH_56}} com {{MATH_57}}.{{CMD_58}}\n  {{CMD_59}}\n{{CMD_60}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 7,
+  "hash": "1910a589693e2b324ecdaf5e9c2e409c5ee6e754a282fe54f446f287de113779",
+  "traducao": "Com base na pergunta acima, não é difícil perceber que cada uma das hipóteses do teorema do valor intermediário é necessária."
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 8,
+  "hash": "eb869b8e6179510d9203eefbfd199807935b93996e57fef7fbec04c6e5f09bcf",
+  "traducao": "Vamos ver o teorema do valor intermediário em ação."
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 9,
+  "hash": "7ccfef845e8670b90a48bd298a0418d05370cbdf27b26691a98c8ebbabe4acb9",
+  "traducao": "\tExplique por que a função {{MATH_61}} tem um zero entre {{MATH_62}} e {{MATH_63}}.\n\n\t{{CMD_64}}\n\t\tComo {{MATH_65}} é um polinômio, vemos que {{MATH_66}} é contínua para todos os números\n\t\treais. Vamos aplicar o TVI aqui. Sejam   {{MATH_67}}, {{MATH_68}} e {{MATH_69}},\n\t\tjá que {{MATH_70}},\n\t\t{{MATH_71}} e {{MATH_72}} está entre {{MATH_73}} e {{MATH_74}}. Então, pelo\n\t\tteorema do valor intermediário, existe um ponto {{MATH_75}} no intervalo\n\t\t{{MATH_76}} tal que {{MATH_77}}.\n\t{{CMD_78}}\n{{CMD_79}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 10,
+  "hash": "3946c772d2e724aec744c4d8f8c969f2705a624eaaa674ed43d8487fc2c0b0c1",
+  "traducao": "Este exemplo também aponta o caminho para um método simples de aproximar\nraízes."
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 11,
+  "hash": "059570287d624759f61adb3395f0a31bfa3825b2d4f143eee7defeb89a29ed62",
+  "traducao": "\tAproxime uma raiz de {{MATH_80}} entre {{MATH_81}} e {{MATH_82}} com\n\tprecisão de uma casa decimal."
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 12,
+  "hash": "40466cf5a2d9cef4189f949cf6f8e633fc0dae052d2e6345040b8487ae07966c",
+  "traducao": "\t\tNovamente, como {{MATH_83}} é um polinômio, vemos que {{MATH_84}} é contínua para\n\t\ttodos os números reais. Considere a tabela\n\t\t{{MATH_85}}\n\t\tPelo teorema do valor intermediário, {{MATH_86}} tem uma raiz entre {{MATH_87}} e\n\t\t{{MATH_88}}. Repetindo o processo\n\t\t{{MATH_89}}\n\t\te usando o teorema do valor intermediário, podemos concluir que {{MATH_90}} tem uma raiz entre {{MATH_91}}\n\t\te {{MATH_92}}, e a raiz é {{MATH_93}} arredondada para uma casa decimal.\n\t{{CMD_94}}\n{{CMD_95}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 13,
+  "hash": "cac48a9f5f5485c5fe15ecc18e498e91df53f7eb280dbb3b573176ed69a3ad16",
+  "traducao": "O teorema do valor intermediário pode ser usado para mostrar que curvas se cruzam:"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 14,
+  "hash": "54550c5034d36a9d36e8324d6bd9c64b577c71a85355d7d86fbb615f0ba4ac7b",
+  "traducao": "\tExplique por que os gráficos das funções {{MATH_96}}  e {{MATH_97}} se intersectam no intervalo {{MATH_98}}.\n\t{{CMD_99}}\n\t\t  Para começar, observe que tanto {{MATH_100}} quanto {{MATH_101}} são funções contínuas no intervalo {{MATH_102}} e,\n\t\t  portanto, {{MATH_103}} também é uma função contínua no intervalo {{MATH_104}}. Agora\n\t\t  {{ENV_105}}\n\t\t  e, de modo semelhante,\n\t\t   {{ENV_106}}\n\t\t   Como {{MATH_107}} e {{MATH_108}}, vemos que a expressão acima é\n\t\t   positiva. Portanto, {{MATH_109}} e, pelo teorema do valor intermediário, existe um número {{MATH_110}} em {{MATH_111}} tal que\n\t\t  {{MATH_112}}\n\t\t    Mas isso significa que\n\t\t    {{MATH_113}}\n\t\t  e que {{MATH_114}}.\n\t\t  Portanto, as curvas {{MATH_115}} e {{MATH_116}} se intersectam no ponto {{MATH_117}}.\n\n\t\t   {{CMD_118}}\n\t\t   Podemos ver esse ponto de interseção olhando para os gráficos de {{MATH_119}} e {{MATH_120}} no intervalo dado.\n\t\t   {{MATH_121}}\n\t\t   {{CMD_122}}\n  \t{{CMD_123}}\n{{CMD_124}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 15,
+  "hash": "51d86a77ed3939c7be79184f41cee125f71ca976582395f4496f0313d9a931b4",
+  "traducao": "Agora passamos a um exemplo mais sutil:"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 16,
+  "hash": "05691f615eb5ea4d792f761169d9a5eaec6d773c10661718fff73670d986b54a",
+  "traducao": "\tSuponha que você tenha dois gatos, Roxy e Yuri. Existe algum instante em que Roxy\n\te Yuri têm a mesma quantidade de água em seus potes, supondo que:\n\t  {{CMD_125}}\n\t\t  {{CMD_126}} Eles começam e terminam de beber nos mesmos instantes.\n\t\t  {{CMD_127}} Roxy começa com mais água do que Yuri e deixa menos água\n\t\t\t    sobrando em seu pote do que Yuri.\n\t  {{CMD_128}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 17,
+  "hash": "9a54b9044610c89a9d01cc2f0c6f23328d6956f5dbc5cbcea916d1cd89b9d0ac",
+  "traducao": "\t\t  Para resolver este problema, considere duas funções:\n\t\t  {{CMD_129}}\n\t\t\t    {{CMD_130}} {{MATH_131}} a quantidade de água no pote de Roxy no instante {{MATH_132}}.\n\t\t\t    {{CMD_133}} {{MATH_134}} a quantidade de água no pote de Yuri no instante {{MATH_135}}.\n\t\t  {{CMD_136}}\n\t\t  Agora, se {{MATH_137}} é o instante em que os gatos começam a beber e\n\t\t  {{MATH_138}} é o instante em que os gatos terminam de beber, então temos\n\t\t  {{MATH_139}}\n\t\t  e\n\t\t  {{MATH_140}}\n\t\t  Como a quantidade de água em um pote no instante {{MATH_141}} é uma função\n\t\t  contínua, já que a água é ``lambida'' em quantidades contínuas,\n\t\t  {{MATH_142}}\n\t\t  é uma função contínua e, portanto, o teorema do valor intermediário\n\t\t  se aplica. Como {{MATH_143}} é positiva\n\t\t  em {{MATH_144}} e negativa em {{MATH_145}}, existe\n\t\t  algum instante {{MATH_146}} em que o valor é zero, ou seja,\n\t\t  {{MATH_147}}\n\t\t  o que significa que há a mesma quantidade de água em cada um dos potes.\n\t{{CMD_148}}\n{{CMD_149}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 18,
+  "hash": "00704e8ff854833f2422a2d70ea9aac972bccd87211caa3a5fe217dad4006727",
+  "traducao": "E, finalmente, um exemplo em que o teorema do valor intermediário {{CMD_150}}não{{CMD_151}} se aplica."
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 19,
+  "hash": "f8093af65e443a4a775edb6ec34d1a992d4d0889201150091cb187ef84d31ad0",
+  "traducao": "Suponha que você tenha dois gatos, Roxy e Yuri. Existe algum instante em que Roxy\ne Yuri têm a mesma quantidade de ração seca em seus potes, supondo que:\n  {{CMD_152}}\n  {{CMD_153}} Eles começam e terminam de comer nos mesmos instantes.\n  {{CMD_154}} Roxy começa com mais ração do que Yuri e deixa menos ração\n    sem comer do que Yuri.\n  {{CMD_155}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 20,
+  "hash": "bc33fc05139ccbd00d9c6446e8b4d731b3283a6c766ba9678e4231d60671068f",
+  "traducao": "  Aqui poderíamos tentar a mesma abordagem de antes, definindo:\n  {{CMD_156}}\n    {{CMD_157}} {{MATH_158}} a quantidade de ração seca no pote de Roxy no instante {{MATH_159}}.\n    {{CMD_160}} {{MATH_161}} a quantidade de ração seca no pote de Yuri no instante {{MATH_162}}.\n  {{CMD_163}}\n  No entanto, neste caso, a quantidade de ração em um pote no instante {{MATH_164}}\n  {{CMD_165}}não{{CMD_166}} é uma função contínua! Isso porque a ração seca\n  consiste em grãos discretos e não é comida de maneira\n  contínua. Logo, o teorema do valor intermediário {{CMD_167}}não\n    se aplica{{CMD_168}}, e não podemos fazer nenhuma afirmação definitiva a respeito da\n  pergunta acima.\n{{CMD_169}}\n{{CMD_170}}"
+ },
+ {
+  "arquivo": "continuity/digInTheIntermediateValueTheorem.tex",
+  "ordem": 21,
+  "hash": "3dafadbbec597b11532fe15b5d6a5b9587ae3b11c1a882a9589190963993f29d",
+  "traducao": "Para uma leitura extra interessante, confira:\n{{CMD_171}}\n{{CMD_172}} {{CMD_173}}{{CMD_174}}The intermediate value theorem is NOT obvious---and I am going to prove it to you{{CMD_175}},\n  S.M.{{CMD_176}}Walk, College Math Journal, setembro de\n  2011{{CMD_177}}.\n{{CMD_178}}"
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 0,
+  "hash": "fff31d8c6212354650eb3e576e5b02d5e3550024aeb7bde3a2642bbbae4a1cf1",
+  "traducao": "Para as afirmações a seguir, selecione Verdadeiro se a afirmação for sempre verdadeira e selecione Falso se a afirmação puder ser falsa."
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 1,
+  "hash": "e07cb5dc724422c4b44529afd7bc559f4b3014d1399d2b9a25377165948573be",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}} duas funções definidas em {{MATH_3}}. Se {{MATH_4}} é contínua em {{MATH_5}} e se {{MATH_6}}, então {{MATH_7}}."
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 2,
+  "hash": "b5141e3b371bf2197c8d84229d1cde13c53b199d6197e75e0b178731ab795a4f",
+  "traducao": "Verdadeiro{{CMD_8}}\n{{CMD_9}}Falso{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 3,
+  "hash": "4bfa60155a9d6cbeead746a51e20de941022357bd5ad4f0c74cc1a2edf8783b2",
+  "traducao": "Como {{MATH_12}} é contínua em {{MATH_13}}, sabemos que {{MATH_14}} existe.  Isso nos permite usar a lei do produto para limites a fim de calcular o limite desejado.\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 4,
+  "hash": "e3ef53c377d2e040519dbf489e443f3f7850f8eb22c6989d36783801ad5b6f8e",
+  "traducao": "Sejam {{MATH_16}} e {{MATH_17}} duas funções definidas em {{MATH_18}}. Se {{MATH_19}} é contínua em {{MATH_20}} e se {{MATH_21}}, então {{MATH_22}}."
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 5,
+  "hash": "0add44ada27d4d5278a6f464c9ca8e5a85aee910c9094ac65e4a0455ac2246fc",
+  "traducao": "Verdadeiro{{CMD_23}}\n{{CMD_24}}Falso{{CMD_25}}\n{{CMD_26}}"
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 6,
+  "hash": "6502af4a43630eb74aecbb4122ed2cba3187d21da6174705ac96ea8689deacb4",
+  "traducao": "\tPor exemplo, tome {{MATH_27}}; nesse caso, o limite é 1.\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 7,
+  "hash": "6c6b7bf02619ba7d87fe027300de826d58347c75535c6991ab14e64f345ae9b0",
+  "traducao": "Sejam {{MATH_29}} e {{MATH_30}} duas funções definidas em {{MATH_31}}. Se {{MATH_32}} é contínua em {{MATH_33}} e se {{MATH_34}}, então {{MATH_35}}."
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 8,
+  "hash": "8481baf3d9cbeb6c09bd33b772c079e7f86e3169d3b15a9f612fd80316025d5d",
+  "traducao": "Verdadeiro{{CMD_36}}\n{{CMD_37}}Falso{{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 9,
+  "hash": "7426f687b464e3ebbbe6baacdbd4644994313ada5068420a856923ffcbf1d20e",
+  "traducao": "Por exemplo, tome {{MATH_40}} e {{MATH_41}}; nesse caso, o limite é {{MATH_42}}.\n{{CMD_43}}"
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 10,
+  "hash": "8153d557c00084aadb27c46556907ae1060410b69ae699000a24e04e52a6630c",
+  "traducao": "Se {{MATH_44}} é contínua em {{MATH_45}}, e se {{MATH_46}} e {{MATH_47}}, então a equação {{MATH_48}} tem uma solução em {{MATH_49}}."
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 11,
+  "hash": "9634836862db63494ee2b47acb36bd5ba4c633957b2560c509c2629445e4b4ed",
+  "traducao": "Verdadeiro{{CMD_50}}\n{{CMD_51}}Falso{{CMD_52}}\n{{CMD_53}}"
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 12,
+  "hash": "1a9cb8e96f2718af4cf28107e391a69cbf65fdbd4ee24b299ff81972fae6a36e",
+  "traducao": " é contínua em {{MATH_54}} e {{MATH_55}} está entre {{MATH_56}} e {{MATH_57}}, então podemos aplicar o teorema do valor intermediário.\n{{CMD_58}}"
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 13,
+  "hash": "eb39bc738aeb94246346b243a134d9d97116a5c4c98939c017663677eed5cdf4",
+  "traducao": "Se {{MATH_59}} é contínua em {{MATH_60}}, e se {{MATH_61}} e {{MATH_62}}, então a equação {{MATH_63}} tem uma solução em {{MATH_64}}."
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 14,
+  "hash": "8c31861ef9d6d6a3facb98e3221b29f3911c20e76bd67d0702305fb661c79ab7",
+  "traducao": "Verdadeiro{{CMD_65}}\n{{CMD_66}}Falso{{CMD_67}}\n{{CMD_68}}"
+ },
+ {
+  "arquivo": "continuity/exercises/continuityTrueFalse1.tex",
+  "ordem": 15,
+  "hash": "66c49204932a514dcf89e9ec6195716e52fb2bee2067b6f589161f29da69699c",
+  "traducao": " não está entre {{MATH_69}} e {{MATH_70}}, então não podemos aplicar o teorema do valor intermediário.  Considere, como contraexemplo, {{MATH_71}} sendo a reta que passa por {{MATH_72}} e {{MATH_73}}.\n{{CMD_74}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 0,
+  "hash": "8fb52d4831cd7050c59664b006a1b0edfc5694367512f5f0803a561ec5ffeda9",
+  "traducao": "Em uma manhã de janeiro, às 5 da manhã, a temperatura do ar no aeroporto de Columbus era de {{MATH_1}}F.\nAo meio-dia, a temperatura era de {{MATH_2}}F.\nUse o teorema do valor intermediário para mostrar que, em algum instante daquela manhã, a temperatura foi exatamente {{MATH_3}}F."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 1,
+  "hash": "478315c66ed46b932f9733693cee0e4f5bd6c3451a88046314b8cabd9e52114c",
+  "traducao": "Vamos resolver o problema em etapas."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 2,
+  "hash": "f08bae9af3e171963d7fe7cfcb94067539daf72377c374f0b0b24d84d9fbe89c",
+  "traducao": "ETAPA 1"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 3,
+  "hash": "66afcd1ff93e00a869afd1e9d709d860eac6829cc75492439d03b76e99dd8867",
+  "traducao": "Para usar o teorema do valor intermediário, temos de definir uma função adequada."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 4,
+  "hash": "6978296216e45e97e007332d6a7248b93cf6be980e3ab1f920746542efef3c1f",
+  "traducao": "Defina uma função {{MATH_4}}, em que {{MATH_5}},  {{MATH_6}}, fornece a temperatura do ar no aeroporto de Columbus no instante {{MATH_7}}, medida em {{MATH_8}}F."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 5,
+  "hash": "1d7db5a1244b1e163ef42ea045caf954fe5c65dbfde71484f9d5c7ff05227a65",
+  "traducao": "É razoável supor que {{MATH_9}} é contínua em seu domínio, {{MATH_10}}."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 6,
+  "hash": "a3f2de95a21152be4a910f02bbf1c3e5b85c559c0207cc005507d566f7926cd7",
+  "traducao": "ETAPA 2"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 7,
+  "hash": "91d78aa96dded4934bea8f1a8ff011f02c5715e3e564c6946bd1e628fb15e93a",
+  "traducao": "Então,\n{{MATH_11}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 8,
+  "hash": "a55e90cb2ee9765de12aa0c68907d662167e5e2f695f3debc37456ea9fb79f21",
+  "traducao": " Seja {{MATH_12}}. Selecione todas as afirmações a seguir que estão corretas."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 9,
+  "hash": "7d31efc7ae6eb8aad26bc30cd8c1b82a7e6dcf43bbe5d604f35db72ce375cf56",
+  "traducao": "Como {{MATH_13}}, o TVI implica que existe um número {{MATH_14}} em {{MATH_15}} tal que {{MATH_16}}.{{CMD_17}}\n{{CMD_18}}Como  {{MATH_19}}, o TVI implica que existe um número {{MATH_20}} em {{MATH_21}} tal que {{MATH_22}}.{{CMD_23}}\n{{CMD_24}}Como {{MATH_25}}, o TVI implica que existe um número {{MATH_26}} em {{MATH_27}} tal que {{MATH_28}}.{{CMD_29}}\n{{CMD_30}}Como {{MATH_31}}, o TVI implica que existe um número {{MATH_32}} em {{MATH_33}} tal que {{MATH_34}}.{{CMD_35}}\n{{CMD_36}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication1.tex",
+  "ordem": 10,
+  "hash": "3a65f0cf559357b5d6740af248f63f61eb79299659abae98a2fc9b5b29b26842",
+  "traducao": "Quando aplicamos o teorema do valor intermediário a {{MATH_37}} no intervalo {{MATH_38}} com {{MATH_39}}, temos garantida a existência de pelo menos um ponto {{MATH_40}} tal que\n{{MATH_41}}\n{{CMD_42}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication2.tex",
+  "ordem": 0,
+  "hash": "632b705bd5ada3837a27c7c262c257967975170a2da718082a03259df804b88a",
+  "traducao": "Suponha que você invista {{MATH_1}} em uma conta por {{MATH_2}} anos ({{MATH_3}} meses), com uma taxa de juros anual de {{MATH_4}}, capitalizada mensalmente.\nA quantia de dinheiro na sua conta após {{MATH_5}} anos será\n{{MATH_6}}\nUse o Teorema do Valor Intermediário para mostrar que existe um valor de {{MATH_7}} no intervalo {{MATH_8}}, isto é, uma taxa de juros entre {{MATH_9}} e {{MATH_10}},\nque permitirá que você alcance sua meta de economizar {{MATH_11}} em {{MATH_12}} anos."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication2.tex",
+  "ordem": 1,
+  "hash": "c49cb50125d092e18353e467952e070cada4533faa34a4b3961796c331dfeea0",
+  "traducao": "Vamos resolver o problema em etapas."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication2.tex",
+  "ordem": 2,
+  "hash": "f08bae9af3e171963d7fe7cfcb94067539daf72377c374f0b0b24d84d9fbe89c",
+  "traducao": "ETAPA 1"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication2.tex",
+  "ordem": 3,
+  "hash": "d6dc9841869294b9488e7c243c1e81c9f304d35187b24e97474a611ff0890c64",
+  "traducao": "A função {{MATH_13}} é contínua e seu domínio é\n{{MATH_14}}\nETAPA 2"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication2.tex",
+  "ordem": 4,
+  "hash": "febcd589fb438da406d7249d4ec22173d5592bef9aa2df06bfb53adf91fa685d",
+  "traducao": "Calcule os valores\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication2.tex",
+  "ordem": 5,
+  "hash": "a63a05b58c81aef717869bb5aa2a18ef31d5fec0180c28550645f302f2f565e8",
+  "traducao": " Seja {{MATH_16}}. Selecione todas as afirmações a seguir que estão corretas."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication2.tex",
+  "ordem": 6,
+  "hash": "3cfa84a274f154f3065b8795f5f1469fa38eb7807620777e73df9e2799ba5f6a",
+  "traducao": "Como {{MATH_17}}, o TVI implica que existe um número {{MATH_18}} em {{MATH_19}} tal que {{MATH_20}}.{{CMD_21}}\n{{CMD_22}}Como {{MATH_23}}, o TVI implica que existe um número {{MATH_24}} em {{MATH_25}} tal que {{MATH_26}}.{{CMD_27}}\n{{CMD_28}}Como {{MATH_29}}, o TVI implica que existe um número {{MATH_30}} em {{MATH_31}} tal que {{MATH_32}}.{{CMD_33}}\n{{CMD_34}}Como {{MATH_35}}, o TVI implica que existe um número {{MATH_36}} em {{MATH_37}} tal que {{MATH_38}}.{{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication2.tex",
+  "ordem": 7,
+  "hash": "f952967b868b51483140b9d6607825106a4371ef555754776a00e8c6cde03975",
+  "traducao": "Quando aplicamos o Teorema do Valor Intermediário a {{MATH_41}} no intervalo {{MATH_42}} com {{MATH_43}}, temos garantida a existência de pelo menos um ponto {{MATH_44}} tal que\n{{MATH_45}}\n{{CMD_46}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 0,
+  "hash": "a9bb470f3bff34e2b5ee593eb80943133a1ab4c80f772794dad5a0466dc4840d",
+  "traducao": "Use o Teorema do Valor Intermediário para mostrar que a equação\n{{MATH_1}}\ntem uma raiz (uma solução) no intervalo {{MATH_2}}."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 1,
+  "hash": "c49cb50125d092e18353e467952e070cada4533faa34a4b3961796c331dfeea0",
+  "traducao": "Vamos resolver o problema em etapas."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 2,
+  "hash": "d038e757b36a0ee81f4337e60155ff875a520dc6bbb451b2fcd2af35a586db83",
+  "traducao": "OBSERVAÇÃO:\nNote que a equação acima é equivalente à equação\n{{MATH_3}}\nETAPA 1"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 3,
+  "hash": "fa5786aae573f5b8a24262b7511bb23ac29d604ffefe65e5e08525404187446a",
+  "traducao": " Para usar o Teorema do Valor Intermediário, precisamos definir uma função adequada."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 4,
+  "hash": "0e467dfffa78d98f36a3cad280937d81d1e095c7cb94740d4c0be0b4f932c916",
+  "traducao": "Seja\n{{MATH_4}}\nem que"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 5,
+  "hash": "b8c26bc4bd45c51fd15ef0867c78dfdbaf8419b15baf2cf5faddfc4219d83733",
+  "traducao": "Então {{MATH_5}} é contínua em seu domínio."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 6,
+  "hash": "43727d7862a56d91ee27091710d55ff47728f4431a4df183b29052b78608cdaf",
+  "traducao": "ETAPA 2"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 7,
+  "hash": "4149e8d9ef33d8c4ac644a7d8f1cf0b4c58f166595734283a136f94c9180970d",
+  "traducao": "Determine os valores.\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 8,
+  "hash": "d3fed57b3f79cd651f8579a48e994393d4c47b5d65f651d8629e75df879002a5",
+  "traducao": "Seja\n{{MATH_7}}\nSelecione todas as afirmações a seguir que estão corretas."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 9,
+  "hash": "bedce0e5650a4857baa4e7b50e6912b8bba557b5378b8b4d3baf1b90f39fef32",
+  "traducao": "Selecione todas as afirmações a seguir que estão corretas."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 10,
+  "hash": "301b2409470873c989bf5a68c2492d54bfb3bdd56c63208c9c1adbaa4835abaf",
+  "traducao": "Como {{MATH_8}}, o TVI implica que existe um número {{MATH_9}} em {{MATH_10}} tal que {{MATH_11}}.{{CMD_12}}\n{{CMD_13}}Como {{MATH_14}}, o TVI implica que existe um número {{MATH_15}} em {{MATH_16}} tal que {{MATH_17}}.{{CMD_18}}\n{{CMD_19}}Como {{MATH_20}}, o TVI implica que existe um número {{MATH_21}} em {{MATH_22}} tal que {{MATH_23}}.{{CMD_24}}\n{{CMD_25}}Como {{MATH_26}}, o TVI implica que existe um número {{MATH_27}} em {{MATH_28}} tal que {{MATH_29}}.{{CMD_30}}\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueApplication3.tex",
+  "ordem": 11,
+  "hash": "18d20d16be80cf2974acf2ec2e68c604a20c84cd64d8aded553f95f8452703f9",
+  "traducao": "Quando aplicamos o Teorema do Valor Intermediário a {{MATH_32}} no intervalo {{MATH_33}} com {{MATH_34}}, temos garantida a existência de pelo menos um ponto {{MATH_35}} tal que\n{{MATH_36}}\nO número {{MATH_37}} é uma solução, ou uma raiz, da equação original.\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueStatement1.tex",
+  "ordem": 0,
+  "hash": "b28302590cab2dcea0c1cdb8a412b2da70b43dbc3b90fe57d277ab6f0a302af9",
+  "traducao": "Complete o enunciado do Teorema do Valor Intermediário:"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueStatement1.tex",
+  "ordem": 1,
+  "hash": "221ad601ff0766a62f09bede69bed3d430171648a6c43dd9631f691a1ac16c42",
+  "traducao": "Suponha que {{MATH_1}} seja contínua no intervalo {{MATH_2}} e que {{MATH_3}} seja um número entre {{MATH_4}} e {{MATH_5}}. Então existe pelo menos um número {{MATH_6}} em {{MATH_7}} tal que\n{{CMD_8}}\n{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}{{MATH_13}}{{CMD_14}}\n{{CMD_15}}{{MATH_16}}{{CMD_17}}\n{{CMD_18}}{{MATH_19}}{{CMD_20}}\n{{CMD_21}}{{MATH_22}}{{CMD_23}}\n{{CMD_24}}{{MATH_25}}{{CMD_26}}\n{{CMD_27}}Nenhuma das anteriores{{CMD_28}}\n{{CMD_29}}."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueStatement1.tex",
+  "ordem": 2,
+  "hash": "0508ed0e07ee2f769d029a1399d5b9d4eb7dc7d45dfc6d07601e772e6056ba74",
+  "traducao": "A figura abaixo mostra o gráfico de uma função {{MATH_30}}."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueStatement1.tex",
+  "ordem": 3,
+  "hash": "287a315aa67825274d3ce05f03b80503cde0e61961043ab6050d1ac25b545501",
+  "traducao": "Quando aplicamos o teorema do valor intermediário a {{MATH_31}} no intervalo {{MATH_32}} com {{MATH_33}}, temos garantida a existência de pelo menos um ponto {{MATH_34}}, que neste caso é {{MATH_35}}."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueStatement1.tex",
+  "ordem": 4,
+  "hash": "0d461d6f8dfe967208da3eb9b7651f686805deb31a3c32864a4219c28a93070e",
+  "traducao": "Selecione todas as afirmações a seguir que estão corretas."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueStatement1.tex",
+  "ordem": 5,
+  "hash": "178585911ae3d3fca5ae99384df31c413bde935dfccb2364a2d650d16e21ed9c",
+  "traducao": "Se {{MATH_36}}, o TVI implica que existe um número {{MATH_37}} em {{MATH_38}} tal que {{MATH_39}}.{{CMD_40}}\n{{CMD_41}}Se {{MATH_42}}, o TVI implica que existe um número {{MATH_43}} em {{MATH_44}} tal que {{MATH_45}}.{{CMD_46}}\n{{CMD_47}}Se {{MATH_48}}, o TVI implica que existe um número {{MATH_49}} em {{MATH_50}} tal que {{MATH_51}}.{{CMD_52}}\n{{CMD_53}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueStatement2.tex",
+  "ordem": 0,
+  "hash": "30ea7fe0398edf8dc7f1a01c67c8a5d35242920c1cf68f9b57e3b9f127d9f8db",
+  "traducao": "A figura abaixo mostra o gráfico de uma função {{MATH_1}}."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueStatement2.tex",
+  "ordem": 1,
+  "hash": "63b76b7f51a0248ced78d70586446d3fa3a27c636807acc7001dbf4069fb4f72",
+  "traducao": "Selecione todas as afirmações a seguir que estão corretas."
+ },
+ {
+  "arquivo": "continuity/exercises/intermediateValueStatement2.tex",
+  "ordem": 2,
+  "hash": "05095f747acb4d6902f57df16d7921b286df8258da2a3acd0a57ab8cdc874c31",
+  "traducao": "Quando aplicamos o teorema do valor intermediário a {{MATH_2}} no intervalo {{MATH_3}} com {{MATH_4}}, temos garantida a existência de pelo menos um ponto {{MATH_5}} tal que {{MATH_6}}.{{CMD_7}}\n{{CMD_8}}Quando aplicamos o teorema do valor intermediário a {{MATH_9}} no intervalo {{MATH_10}} com {{MATH_11}}, temos garantida a existência de pelo menos um ponto {{MATH_12}} tal que {{MATH_13}}.{{CMD_14}}\n{{CMD_15}}Quando aplicamos o teorema do valor intermediário a {{MATH_16}} no intervalo {{MATH_17}} com {{MATH_18}}, temos garantida a existência de pelo menos um ponto {{MATH_19}} tal que {{MATH_20}}.{{CMD_21}}\n{{CMD_22}}Quando aplicamos o teorema do valor intermediário a {{MATH_23}} no intervalo {{MATH_24}} com {{MATH_25}}, temos garantida a existência de pelo menos um ponto {{MATH_26}} tal que {{MATH_27}}.{{CMD_28}}\n{{CMD_29}}Quando aplicamos o teorema do valor intermediário a {{MATH_30}} no intervalo {{MATH_31}} com {{MATH_32}}, temos garantida a existência de pelo menos um ponto {{MATH_33}} tal que {{MATH_34}}.{{CMD_35}}\n{{CMD_36}}Quando aplicamos o teorema do valor intermediário a {{MATH_37}} no intervalo {{MATH_38}} com {{MATH_39}}, temos garantida a existência de pelo menos um ponto {{MATH_40}} tal que {{MATH_41}}.{{CMD_42}}\n{{CMD_43}}Quando aplicamos o teorema do valor intermediário a {{MATH_44}} no intervalo {{MATH_45}} com {{MATH_46}}, temos garantida a existência de pelo menos um ponto {{MATH_47}} tal que {{MATH_48}}.{{CMD_49}}\n{{CMD_50}}"
+ },
+ {
+  "arquivo": "continuity/exercises/intervalsOfContinuity1.tex",
+  "ordem": 0,
+  "hash": "2353da9a6f4c5161b1fb5f46a1273652593f30385f879226645656805786eac5",
+  "traducao": "Para cada função, determine os intervalos de continuidade."
+ },
+ {
+  "arquivo": "continuity/exercises/ivt1.tex",
+  "ordem": 0,
+  "hash": "1949e3f40192de33cbb62ac738d9e790b2dc9efe3c889d04491ddd90d6990597",
+  "traducao": "O Teorema do Valor Intermediário afirma:\nSe {{MATH_1}} é uma função contínua para todo {{MATH_2}} no intervalo fechado\n{{MATH_3}} e {{MATH_4}} está entre\n{{CMD_5}}{{CMD_6}}a{{CMD_7}}{{CMD_8}}f(a){{CMD_9}}{{CMD_10}} e\n{{CMD_11}}{{CMD_12}}b{{CMD_13}}{{CMD_14}}f(b){{CMD_15}}{{CMD_16}}, então existe um\nnúmero {{CMD_17}}{{CMD_18}}u{{CMD_19}}{{CMD_20}}f(u){{CMD_21}}{{CMD_22}} em\n {{MATH_23}} tal que {{MATH_24}}."
+ },
+ {
+  "arquivo": "continuity/exercises/ivt1.tex",
+  "ordem": 1,
+  "hash": "dab3aecd6990bed65a3888e219c1d0cceb5d39360bf36ca3e09d1a081866e01b",
+  "traducao": "Considere o gráfico a seguir:\n{{CMD_25}}\n{{ENV_26}}\n{{CMD_27}}\n{{CMD_28}}\n{{CMD_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "continuity/exercises/ivt3.tex",
+  "ordem": 0,
+  "hash": "eaab9f91730f6956467155c165eb8ee0191241e11fe8241959074986b019d093",
+  "traducao": "O Teorema do Valor Intermediário afirma:\nSe {{MATH_1}} é uma função contínua para todo {{MATH_2}} no intervalo fechado\n{{MATH_3}} e {{MATH_4}} está entre\n{{CMD_5}}{{CMD_6}}n{{CMD_7}}{{CMD_8}}f(n){{CMD_9}}{{CMD_10}} e\n{{CMD_11}}{{CMD_12}}b{{CMD_13}}{{CMD_14}}f(b){{CMD_15}}{{CMD_16}}, então existe um\nnúmero {{CMD_17}}{{CMD_18}}c{{CMD_19}}{{CMD_20}}f(c){{CMD_21}}{{CMD_22}} em\n  {{CMD_23}}{{CMD_24}}[f(n),f(b)]{{CMD_25}}{{CMD_26}}[n, b]{{CMD_27}}{{CMD_28}} tal que\n  {{CMD_29}}{{CMD_30}}f(c) = d{{CMD_31}}{{CMD_32}}f(d) = c{{CMD_33}}{{CMD_34}}.\n{{CMD_35}}\nConsidere o gráfico a seguir:\n{{CMD_36}}\n{{ENV_37}}\n{{CMD_38}}\n{{CMD_39}}\n{{CMD_40}}\n{{CMD_41}}"
+ },
+ {
+  "arquivo": "continuity/exercises/ivt6.tex",
+  "ordem": 0,
+  "hash": "95bb393dadb4524b226d9a61c78d579712600bccccd8696991ddbb2a8d8b3207",
+  "traducao": "O Teorema do Valor Intermediário afirma:\nSe {{MATH_1}} é uma função contínua para todo {{MATH_2}} no intervalo fechado\n{{MATH_3}} e {{MATH_4}} está entre\n{{CMD_5}}{{CMD_6}}v{{CMD_7}}{{CMD_8}}f(v){{CMD_9}}{{CMD_10}} e\n{{CMD_11}}{{CMD_12}}n{{CMD_13}}{{CMD_14}}f(n){{CMD_15}}{{CMD_16}}, então existe um\nnúmero {{CMD_17}}{{CMD_18}}m{{CMD_19}}{{CMD_20}}f(m){{CMD_21}}{{CMD_22}} em\n  {{CMD_23}}{{CMD_24}}[f(v),f(n)]{{CMD_25}}{{CMD_26}}[v, n]{{CMD_27}}{{CMD_28}} tal que\n  {{CMD_29}}{{CMD_30}}f(m) = d{{CMD_31}}{{CMD_32}}f(d) = m{{CMD_33}}{{CMD_34}}.\n{{CMD_35}}\nConsidere o gráfico a seguir:\n{{CMD_36}}\n{{ENV_37}}\n{{CMD_38}}\n{{CMD_39}}\n{{CMD_40}}\n{{CMD_41}}"
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity1.tex",
+  "ordem": 0,
+  "hash": "bad4553fb22dbe042d88123596f153ea84a5b6029a9c0a6d71306a54ee807671",
+  "traducao": "Considere"
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity1.tex",
+  "ordem": 1,
+  "hash": "0b46fec7fe780e96ea12c099f47b1acb897d758bfb42199ed0d002ea8b5b6e15",
+  "traducao": "Vamos determinar a constante {{MATH_1}} de modo que {{MATH_2}} seja contínua em 0. Começaremos pela definição de continuidade: {{MATH_3}}."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity1.tex",
+  "ordem": 2,
+  "hash": "e88e70b32a67eab473982c2d2245a7db6b4ee060f5067a16dacfd478b650cc50",
+  "traducao": "Para que {{MATH_4}} exista, precisamos que {{MATH_5}}. Para isso, precisamos que {{MATH_6}}."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity1.tex",
+  "ordem": 3,
+  "hash": "c70105313ed20ba36b371b9ea56c88998a3776052711ea6fc6f5f098ce80faf2",
+  "traducao": "\tIsso verifica que {{MATH_7}} existe. Agora precisamos verificar que {{MATH_8}} existe.\n\n\t{{MATH_9}}"
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity1.tex",
+  "ordem": 4,
+  "hash": "7f7725f3441e562d65b57274e472cdab4b90d514446faf63c74c442f272379b7",
+  "traducao": "Verificamos, portanto, que {{MATH_10}} existe, que {{MATH_11}} existe e que os dois têm o mesmo valor. Isso garante que {{MATH_12}} é contínua em 0."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity1.tex",
+  "ordem": 5,
+  "hash": "f7d148831bae34902c0ff7cf8363cfc6404f37e6467fc08136d0e0187bac59fd",
+  "traducao": "Seja {{MATH_13}} o valor que você encontrou acima. Então os intervalos de continuidade de {{MATH_14}}, da esquerda para a direita, são {{MATH_15}}."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity2.tex",
+  "ordem": 0,
+  "hash": "da746e1e97bce102f4825c53442ab00b2b885b4fb3ddaf99dc6c98634b7745ae",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity2.tex",
+  "ordem": 1,
+  "hash": "abca6750d0d3fb5d53f35ef7dbb7b702bd97dbb917b769d06b22fd07a6b4c54c",
+  "traducao": "Vamos usar a definição de continuidade para determinar se {{MATH_2}} é contínua em 2. Calcule o seguinte (escreva DNE se um limite não existir):"
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity2.tex",
+  "ordem": 2,
+  "hash": "2c961f6d58335d4a61aee5ef258fc9af2bf46540182d27861d4d13246ac94a28",
+  "traducao": "Assim, {{MATH_3}}\nIsso verifica que {{MATH_4}} existe."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity2.tex",
+  "ordem": 3,
+  "hash": "c19e9776391b89fe20c329b14d438e56fc2672644b1fbd951b8b57a53c7dca0d",
+  "traducao": "Calcule o valor de {{MATH_5}}."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity2.tex",
+  "ordem": 4,
+  "hash": "87e5821647907a723e20f30f27816a3bc7f939f1e153dd63adb35f27a5413e0d",
+  "traducao": "Isso verificou que o valor de {{MATH_6}} existe."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity2.tex",
+  "ordem": 5,
+  "hash": "8d44bf5c9b31966f19b92cda98babfc8ecda088d0941fb0f5a8aebb4b589de06",
+  "traducao": "Com base no trabalho acima, concluímos que {{MATH_7}}\n{{CMD_8}}\n{{CMD_9}}é contínua{{CMD_10}}\n{{CMD_11}}não é contínua{{CMD_12}}\n{{CMD_13}}\nem {{MATH_14}}."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity2.tex",
+  "ordem": 6,
+  "hash": "eb813c98450dd5501b0191813e24dc08b5a854fe9e4880faacd9616bc1e43bcb",
+  "traducao": "O intervalo de continuidade de {{MATH_15}} é {{MATH_16}}."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity3.tex",
+  "ordem": 0,
+  "hash": "bad4553fb22dbe042d88123596f153ea84a5b6029a9c0a6d71306a54ee807671",
+  "traducao": "Considere"
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity3.tex",
+  "ordem": 1,
+  "hash": "4a0a6c4fc3a80a898d6b6d8e07d899b3cbcaf7f3a64b631c3ec16a75ac350f5d",
+  "traducao": "Vamos usar a definição de continuidade para determinar se {{MATH_1}} é contínua em 0. Calcule o seguinte (escreva DNE se um limite não existir):"
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity3.tex",
+  "ordem": 2,
+  "hash": "73aef5300ac8ece9c0a8682057c845ee34285337368f9b79809c021d84eccf30",
+  "traducao": "Assim, {{MATH_2}}\nIsso verifica que {{MATH_3}} existe."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity3.tex",
+  "ordem": 3,
+  "hash": "c5bc593847e7c7d79e77d221d2ee1ffdc95869c1874489edfb473970d1bbba68",
+  "traducao": "Calcule o valor de {{MATH_4}}."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity3.tex",
+  "ordem": 4,
+  "hash": "662ccd81a6daaeee63185c39d1c6204c7847a8196527481693c9b87fdf2c6e38",
+  "traducao": "Isso verificou que o valor de {{MATH_5}} existe."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity3.tex",
+  "ordem": 5,
+  "hash": "2816b888f6a060987b29e040d7ee47af05d3109ffed80a0b98afe7f70410eb07",
+  "traducao": "Com base no trabalho acima, concluímos que {{MATH_6}}\n{{CMD_7}}\n{{CMD_8}}é contínua{{CMD_9}}\n{{CMD_10}}não é contínua{{CMD_11}}\n{{CMD_12}}\nem {{MATH_13}}."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity3.tex",
+  "ordem": 6,
+  "hash": "8369fc3efee31333360c6d199ba12383060eb1633f787e5e1ad4461f31bfccb6",
+  "traducao": "O intervalo de continuidade de {{MATH_14}} é {{MATH_15}}."
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity4.tex",
+  "ordem": 0,
+  "hash": "0ce7ce08c4b1d72b8d3194614156b0245e281de8cfb0c811536e9c41587b5855",
+  "traducao": "Considere a função"
+ },
+ {
+  "arquivo": "continuity/exercises/piecewiseContinuity4.tex",
+  "ordem": 1,
+  "hash": "8eaf3786fd397d51a19255c36c7e592706362fafaeb0301784fcdcc86df63d9a",
+  "traducao": "Determine o valor de {{MATH_1}} que torna {{MATH_2}} contínua em seu domínio.\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "continuity/exercises/simplifyExpression.tex",
+  "ordem": 0,
+  "hash": "2db8a7a7955b9e786d184d986168cbb1f5e872699bba438ac9c52432119be4df",
+  "traducao": "Simplifique a expressão {{MATH_1}} Mostre seu trabalho conforme indicado abaixo."
+ },
+ {
+  "arquivo": "continuity/exercises/simplifyExpression.tex",
+  "ordem": 1,
+  "hash": "dfded4f9d4b82c6902426d5ad1b0ad832d8d8707455f091cc13e4a61ac3c6f9c",
+  "traducao": "Primeiro, multiplicamos o numerador e o denominador pelo mínimo denominador comum"
+ },
+ {
+  "arquivo": "continuity/exercises/simplifyExpression.tex",
+  "ordem": 2,
+  "hash": "9b82ae891e07f582b6cebe4c85ede62d75cd17c6ed39228130d048210c2b95a5",
+  "traducao": "\te obtemos que\n{{MATH_2}}\nEm seguida, simplificamos o numerador e o denominador.\n{{MATH_3}}\n{{CMD_4}}\n{{CMD_5}}"
+ }
+]

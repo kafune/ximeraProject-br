@@ -1,0 +1,578 @@
+[
+ {
+  "arquivo": "appliedRelatedRates/titlePage.tex",
+  "ordem": 0,
+  "hash": "d3e4bdbfffd140153414904c35e0b69cddbd775539ed44de30ba591b4fa473ec",
+  "traducao": "Taxas relacionadas aplicadas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "appliedRelatedRates/titlePage.tex",
+  "ordem": 2,
+  "hash": "8b5b6bb2b871ad6c89bab247973407577532e07c75a29b01a5ab2b2ad99eddfa",
+  "traducao": " Identificar problemas contextualizados como problemas de taxas relacionadas.\n{{CMD_4}} Traduzir problemas contextualizados em equações matemáticas.\n{{CMD_5}} Resolver problemas contextualizados de taxas relacionadas."
+ },
+ {
+  "arquivo": "appliedRelatedRates/breakGround.tex",
+  "ordem": 0,
+  "hash": "66a294231292ee6ea0fb077276bf39c2d9346d97d92a23c98d7cc7d1e914e0a7",
+  "traducao": "Pizza e cálculo, que delícia{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem como abrir massa de pizza no ar.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "appliedRelatedRates/breakGround.tex",
+  "ordem": 2,
+  "hash": "0a65f143f9e45146f303f380ab1aa07f50d78f4c9e8206e992e884f63b4723b8",
+  "traducao": " Ei, Riley, sabe do que eu gosto muito?\n{{CMD_7}} De cálculo?\n{{CMD_8}} E de pizza! Ontem à noite eu fiz minha própria massa de pizza\n  do zero!\n{{CMD_9}} Hummmmm. Cálculo.\n{{CMD_10}} Eu sei! A melhor parte de fazer a massa é jogá-la para o alto.\n  Mas, enquanto eu jogava a massa, percebi uma coisa.  A\n  massa é basicamente um {{CMD_11}}cilindro{{CMD_12}} com um {{CMD_13}}raio que está\n    aumentando{{CMD_14}} e uma {{CMD_15}}altura que está diminuindo{{CMD_16}}. Então comecei a\n    me perguntar: como essas duas taxas estão relacionadas?\n{{CMD_17}} Pizza. Tão deliciosa. Tão gostosa. Tão cálculo.\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/breakGround.tex",
+  "ordem": 3,
+  "hash": "de249d24ea7032b29943f074026d62cc8883efda86d4d2f4d3735d71e310b7ce",
+  "traducao": "O problema acima é um exemplo de problema contextualizado de taxas relacionadas.  Para resolvê-lo,\nprecisaremos das ferramentas da seção Aprofundar.  Por enquanto, vamos ver se conseguimos raciocinar\nsobre algumas perguntas relacionadas a esse problema."
+ },
+ {
+  "arquivo": "appliedRelatedRates/breakGround.tex",
+  "ordem": 4,
+  "hash": "a393089403921a6c2ddae524cfadd75023eac5836bc947ce8ecbfef54e2a0bc7",
+  "traducao": "  No contexto acima, quais das alternativas a seguir devem ser consideradas\n  funções que variam?\n  {{CMD_19}}\n  {{CMD_20}}O raio do cilindro.{{CMD_21}}\n  {{CMD_22}}A altura do cilindro.{{CMD_23}}\n  {{CMD_24}}A área da superfície do cilindro.{{CMD_25}}\n  {{CMD_26}}O volume do cilindro.{{CMD_27}}\n  {{CMD_28}}\n{{CMD_29}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/breakGround.tex",
+  "ordem": 5,
+  "hash": "af536a9d4100277042ff75d36403d19886f9e44690784889f2594add22ce9126",
+  "traducao": "  No contexto acima, quais das alternativas a seguir devem ser consideradas\n  constantes?\n  {{CMD_30}}\n  {{CMD_31}}O raio do cilindro.{{CMD_32}}\n  {{CMD_33}}A altura do cilindro.{{CMD_34}}\n  {{CMD_35}}A área da superfície do cilindro.{{CMD_36}}\n  {{CMD_37}}O volume do cilindro.{{CMD_38}}\n  {{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 0,
+  "hash": "2231cc04a102fe529a1d37a1f0c4cddb76ccf378b93556cf51383c1c3340b4ec",
+  "traducao": "Taxas relacionadas aplicadas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Resolvemos problemas de taxas relacionadas em contexto.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 1,
+  "hash": "a3602bc1c8dde310e73776cbdb789bfa3985b7485c53ab83939acf3d3432426a",
+  "traducao": "Agora estamos prontos para resolver problemas de taxas relacionadas em contexto. Assim como\nantes, vamos seguir essencialmente o mesmo plano de ataque em\ncada problema."
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 2,
+  "hash": "71c4b6bb93d740a4049cbdd6e0d4608efdaccd891eb5aeb754a27beacf8d437d",
+  "traducao": " Atribua uma variável a cada quantidade que varia no tempo.\n{{CMD_7}} Se possível, faça um desenho esquemático com todas as informações relevantes.\n{{CMD_8}} Escreva equações que relacionem todas as\n  variáveis relevantes.\n{{CMD_9}} Aqui, frequentemente usaremos\n  derivação implícita e obteremos uma equação que relaciona a taxa dada e a taxa desconhecida.\n{{CMD_10}} Calcule\ncada quantidade no instante relevante e resolva para a taxa desconhecida."
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 3,
+  "hash": "1589e83b2da73580d35d64392b80c61ff88c43134ec7c9e1920c6b131ffb4913",
+  "traducao": "Fórmulas{{CMD_11}}\nNo nosso próximo problema, vamos esticar e achatar uma massa de pizza em forma de cilindro.\n  {{CMD_12}}\n  {{ENV_13}}\n  {{CMD_14}}\n{{CMD_15}}\nUma massa de pizza aberta à mão começa como uma bola de massa com volume\nde {{MATH_16}}. Primeiro, o cozinheiro estica a massa até a\nforma de um cilindro de raio {{MATH_17}} cm. Em seguida, o cozinheiro lança a\nmassa para o alto."
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 4,
+  "hash": "791ce8aba734261265e3c527b0b11f630765b3d98805eb3912d55d179fae23b7",
+  "traducao": "Se, durante o lançamento, a massa mantém a forma de um cilindro e o\nraio está aumentando a uma taxa de {{MATH_18}} cm/min, com que rapidez a sua\nespessura está variando quando o raio é {{MATH_19}} cm?\n{{CMD_20}}\n Primeiro, {{CMD_21}}introduzimos as variáveis{{CMD_22}} {{MATH_23}}, {{MATH_24}} e {{MATH_25}}, que denotam o volume, o raio e a espessura da pizza, nessa ordem. {{CMD_26}}Identificamos{{CMD_27}} a taxa dada {{MATH_28}} cm/min e a taxa desconhecida {{MATH_29}}, quando {{MATH_30}}."
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 5,
+  "hash": "a1c80ee8efb542bde683748eed667038880e9a7d68340577a529e30a3fca9a7d",
+  "traducao": "  Em seguida, {{CMD_31}}fazemos um desenho{{CMD_32}}. Observe que a nossa massa de pizza tem a forma de um cilindro.\n\n  {{CMD_33}}\n  {{ENV_34}}\n  {{CMD_35}}\n  Agora precisamos {{CMD_36}}encontrar equações{{CMD_37}}. Lembre-se da fórmula do volume do cilindro, {{MATH_38}}, observe que {{MATH_39}} e escreva\n    {{MATH_40}}\n  o que se simplifica imediatamente para\n  {{MATH_41}}\n  Como tanto {{MATH_42}} quanto {{MATH_43}} são funções do tempo, agora  {{CMD_44}}derivamos{{CMD_45}} ambos os lados da equação usando derivação implícita,\n\n  {{MATH_46}}\n  Agora vamos {{CMD_47}}calcular{{CMD_48}} todas  as quantidades no instante em que {{MATH_49}}.\n  Mas, primeiro, temos que calcular {{MATH_50}} nesse momento. Como\n  {{MATH_51}} segue que {{MATH_52}}, quando {{MATH_53}}. Agora estamos prontos para {{CMD_54}}resolver{{CMD_55}}.\n\n {{MATH_56}}\n  {{MATH_57}}\n Portanto, quando {{MATH_58}},\n\n  {{MATH_59}}\n  Logo, a espessura da massa está variando a uma taxa de {{MATH_60}}\n  cm/min quando {{MATH_61}} cm.\n{{CMD_62}}\n{{CMD_63}}\nNo nosso próximo exemplo,  consideramos uma bola de neve derretendo.\n  {{CMD_64}}\n    {{ENV_65}}\n  {{CMD_66}}\n{{CMD_67}}\n  Considere uma bola de neve derretendo."
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 6,
+  "hash": "724a391de954c0bb81df6165ce608078c6966ba1fd59a390b5ae8250c4787969",
+  "traducao": " Vamos supor que a taxa com que a\n  bola de neve derrete é proporcional à sua área de superfície. Mostre que\n  o raio da bola de neve está variando a uma taxa constante.\n\n{{CMD_68}}\nPrimeiro, {{CMD_69}}introduzimos as variáveis{{CMD_70}} {{MATH_71}}, {{MATH_72}} e {{MATH_73}}, que denotam o volume, o raio e a área de superfície da bola de neve, nessa ordem. Em seguida, {{CMD_74}}identificamos{{CMD_75}} a taxa dada {{MATH_76}}  e a taxa desconhecida {{MATH_77}}, a taxa a ser determinada. Este problema é um pouco incomum, porque ``a taxa dada'' não é dada explicitamente. Vamos lidar com essa questão mais abaixo.\n  Em seguida, {{CMD_78}}fazemos um desenho{{CMD_79}}.\n  {{CMD_80}}\n    {{ENV_81}}\n  {{CMD_82}}\n  Para {{CMD_83}}encontrar equações{{CMD_84}} que relacionem todas as variáveis relevantes, lembramos as fórmulas do  volume e da área de superfície da esfera,\n  {{MATH_85}}\n  Agora, as palavras-chave são ``a taxa com que a bola de neve derrete (a taxa dada) é\n  proporcional à sua área de superfície''. Disso obtemos a seguinte\n  equação:\n  {{CMD_86}}\n    {{ENV_87}}\n  {{CMD_88}}\n  Precisamos calcular  {{MATH_89}}. Como {{MATH_90}} é uma função de {{MATH_91}}, derivamos  ambos os lados da equação {{MATH_92}}.\n   Assim,\n  {{MATH_93}}\n Por outro lado,\n   {{MATH_94}}\n  Portanto,\n  {{MATH_95}}\n Agora, {{CMD_96}}resolvemos{{CMD_97}} para {{MATH_98}} e obtemos que\n  {{ENV_99}}\n  Logo, o raio está variando a uma taxa constante. Note que, neste exemplo, não tivemos que calcular as quantidades em um instante particular,  porque a taxa desconhecida não dependia do tempo.\n{{CMD_100}}\n{{CMD_101}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 7,
+  "hash": "e990f52a3be63271dcfbe040e03c422dc1a3a91eff8eccfd0f65a381aac44bf7",
+  "traducao": "Triângulos retângulos{{CMD_102}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 8,
+  "hash": "23f3a0e5be056715889209dd13fc75388b79a87393a6006220bcf73ab9f37c6c",
+  "traducao": "Uma estrada que vai de norte a sul cruza uma estrada que vai de leste a oeste no\nponto {{MATH_103}}.  O ciclista {{MATH_104}} está pedalando para o norte pela primeira estrada, e\no ciclista {{MATH_105}} está pedalando para o leste pela segunda estrada.  Em um certo\ninstante, o ciclista {{MATH_106}} está {{MATH_107}} quilômetros ao norte de {{MATH_108}} e se deslocando\na {{MATH_109}} km/h, enquanto o ciclista {{MATH_110}} está {{MATH_111}} quilômetros a leste de {{MATH_112}}\ne se deslocando a {{MATH_113}} km/h.  Com que rapidez a distância entre os dois\nciclistas está variando nesse instante?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 9,
+  "hash": "6a6920a8f908545171a542c318227fb26363bc076411aea78d831bb30e388393",
+  "traducao": "Primeiro, {{CMD_114}}introduzimos as variáveis{{CMD_115}} {{MATH_116}}, {{MATH_117}} e {{MATH_118}}, que denotam a distância do ciclista {{MATH_119}} ao ponto {{MATH_120}}, a distância do ciclista {{MATH_121}} ao ponto {{MATH_122}} e a distância entre os dois ciclistas, nessa ordem. {{CMD_123}}Identificamos{{CMD_124}} as taxas dadas {{MATH_125}} km/h, {{MATH_126}} km/h, quando {{MATH_127}},  e a taxa desconhecida {{MATH_128}}, quando {{MATH_129}}.\nAgora, {{CMD_130}}fazemos um desenho{{CMD_131}}.\n{{CMD_132}}\n{{ENV_133}}\n{{CMD_134}}\n{{CMD_135}}Encontramos equações{{CMD_136}} que relacionam as variáveis {{MATH_137}}, {{MATH_138}} e {{MATH_139}}.  Pelo teorema de Pitágoras,\n{{MATH_140}}\nComo  {{MATH_141}}, {{MATH_142}} e {{MATH_143}} são funções do tempo, {{CMD_144}}derivamos{{CMD_145}} ambos os lados da  equação em relação a {{MATH_146}}.\n{{MATH_147}}\nEssa equação vale em algum intervalo de tempo e, em particular, no instante em que {{MATH_148}} e {{MATH_149}}. Portanto, nesse instante,"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 10,
+  "hash": "b1b11b2bdbaa538b212bc46198f9c7a10792cebbf72753a7d54c24fbf429bd3b",
+  "traducao": " Para calcular {{MATH_150}}, a distância entre os ciclistas, no instante em que {{MATH_151}} e {{MATH_152}},\nfazemos um desenho ``tirado'' nesse instante.\n{{CMD_153}}\n{{ENV_154}}\n{{CMD_155}}\nPelo teorema de Pitágoras e pelo desenho acima, quando {{MATH_156}}, {{MATH_157}}, segue que\n{{MATH_158}}\nAgora podemos  {{CMD_159}}calcular{{CMD_160}} todas as quantidades na equação {{MATH_161}} e {{CMD_162}}resolver{{CMD_163}}\n{{MATH_164}}\n Encontramos que {{MATH_165}} km/h no momento em que {{MATH_166}}, {{MATH_167}}.  {{CMD_168}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 11,
+  "hash": "e56c531ad012b8637fafc032ff25464fcc044c346ad633677359c8f4ee16f32e",
+  "traducao": "Um avião está voando a uma altitude de {{MATH_169}} milhas, afastando-se de você em linha reta a {{MATH_170}} mph\n.  Com que rapidez a distância do avião até você está aumentando no\nmomento em que o avião está sobrevoando um ponto do solo a {{MATH_171}}\nmilhas de você?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 12,
+  "hash": "31f89f125acfbf40e7d5b69e0ec5d3469c7ea42d67ce6ae26664a7f595bf0b15",
+  "traducao": " Primeiro, {{CMD_172}}introduzimos as variáveis{{CMD_173}} {{MATH_174}}, a distância que o avião percorreu depois  de passar bem acima de você, e {{MATH_175}}, a distância entre você e o avião.\nA taxa dada é {{MATH_176}} mph e a taxa desconhecida é {{MATH_177}}, quando {{MATH_178}}.\nEm seguida, {{CMD_179}}fazemos um desenho{{CMD_180}}.\n{{CMD_181}}\n{{ENV_182}}\n{{CMD_183}}\nEm seguida, {{CMD_184}}encontramos equações{{CMD_185}} que relacionam as variáveis {{MATH_186}} e {{MATH_187}}. Pelo teorema de Pitágoras,\nsabemos que\n{{MATH_188}}\nComo  {{MATH_189}} e {{MATH_190}} são funções do tempo, agora\n{{CMD_191}}derivamos{{CMD_192}} ambos os lados da equação\n{{MATH_193}}\nNo instante em que  {{MATH_194}} mi, obtemos que\n{{MATH_195}}\n Isso implica que {{MATH_196}} precisa ser calculado no instante em que {{MATH_197}}. Para fazer isso,\n vamos desenhar a figura no instante dado, quando {{MATH_198}} mi.\n{{CMD_199}}\n{{ENV_200}}\n{{CMD_201}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 13,
+  "hash": "96c303005ece70d02842c89db2e9a337fe9122b2952abb26444069a4df71227d",
+  "traducao": "Assim, {{MATH_202}}.  Juntando todas as informações, obtemos\n{{MATH_203}}\nFinalmente, {{CMD_204}}resolvemos{{CMD_205}}:  {{MATH_206}} mph, no momento em que {{MATH_207}} milhas.\n{{CMD_208}}\n{{CMD_209}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 14,
+  "hash": "eabe69edd7782c6fd306557a00b4f2de16bb80c5f0a2c8df5c865c3cefe95a16",
+  "traducao": "Taxas angulares{{CMD_210}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 15,
+  "hash": "9dac3d2b66c415dff2f5e596bb6037e5ad931327b193d1ee3dc83796fdd23a7d",
+  "traducao": "Um avião está voando a uma altitude de {{MATH_211}} milhas, afastando-se de você em linha reta a {{MATH_212}} mph\n.  Seja  {{MATH_213}} o {{CMD_214}}ângulo de elevação{{CMD_215}} do avião, isto é, o ângulo entre o solo e a sua linha de  visada até o avião.\nCom que rapidez o ângulo {{MATH_216}}  está variando no\nmomento em que o avião está sobrevoando um ponto do solo a {{MATH_217}}\nmilhas de você?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 16,
+  "hash": "7ab4a80cc1c0609ef707208242d57a867f1f03d30ee61fe1d6d6f597e7d6d93e",
+  "traducao": " Primeiro, {{CMD_218}}introduzimos uma variável{{CMD_219}} {{MATH_220}}, a distância que o avião percorreu depois de passar bem acima de você.\n Assim, a taxa dada é {{MATH_221}} mph e a taxa desconhecida (relacionada) é {{MATH_222}}, no instante em que {{MATH_223}} milhas.\n  Essa taxa deve ser medida em rad/s.\n  Portanto, temos que converter as unidades da taxa dada, mph, para mi/s:\n    {{MATH_224}}mph{{MATH_225}} mi/s. {{CMD_226}}\nEm seguida, {{CMD_227}}fazemos um desenho{{CMD_228}}.\n{{CMD_229}}\n{{ENV_230}}\n{{CMD_231}}\nAgora  {{CMD_232}}encontramos uma equação{{CMD_233}} que relaciona as variáveis {{MATH_234}} e {{MATH_235}}.\nPelo desenho, podemos ver que\n{{MATH_236}}\nComo  {{MATH_237}} e {{MATH_238}} são ambas funções do tempo, agora\n{{CMD_239}}derivamos{{CMD_240}} ambos os lados da equação. Escrevemos\n{{MATH_241}}\nA equação acima vale em algum intervalo de tempo. Em particular, ela é verdadeira quando {{MATH_242}}. Portanto, quando {{MATH_243}},\n{{MATH_244}}\nIsso implica que temos que calcular o valor desconhecido,  {{MATH_245}}, quando {{MATH_246}}.\nPara isso, desenhamos  e rotulamos a figura no instante em que {{MATH_247}} mi.\n{{CMD_248}}\n{{ENV_249}}\n{{CMD_250}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 17,
+  "hash": "74995faf69a72e61a72875d290712572c79648177f321cca6117c48b78692486",
+  "traducao": "Assim, no momento em que {{MATH_251}} milhas,\n{{MATH_252}}\nAgora, substituindo todos os valores conhecidos na equação acima, obtemos\n{{MATH_253}}\n{{CMD_254}}Resolvemos{{CMD_255}} para {{MATH_256}}, quando {{MATH_257}}, e obtemos que\n{{MATH_258}}\n{{CMD_259}}\n{{CMD_260}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 18,
+  "hash": "f32453c1fb1c188cf91cb455710fc2ca9283c144bd9c839ae8d29606e758962f",
+  "traducao": "Triângulos semelhantes{{CMD_261}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 19,
+  "hash": "cbde783b04b46919a7f923749a9cc90bd7d7116b6bbea8ddb94da138e084c57e",
+  "traducao": "  É noite. Uma pessoa de {{MATH_262}} pés de altura está se afastando de um\n  poste de luz a uma taxa de {{MATH_263}} pés por segundo.  O poste de luz tem\n  {{MATH_264}} pés de altura.  A pessoa projeta uma sombra no chão à sua\n  frente. Com que rapidez o comprimento da sombra está crescendo quando a pessoa\n  está a {{MATH_265}} pés do poste de luz?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 20,
+  "hash": "2292569b0b0d3584ad5420b26a0c1ebb9a74b00a401b35db4a365e9cfee416a2",
+  "traducao": "  Primeiro, {{CMD_266}}introduzimos duas variáveis{{CMD_267}}: {{MATH_268}}, a distância da pessoa ao poste, e  {{MATH_269}}, o comprimento da sombra.\n  A taxa dada é {{MATH_270}} pés/s e a taxa desconhecida (relacionada) é {{MATH_271}} no momento em que {{MATH_272}} pés.\n    Em seguida, {{CMD_273}}fazemos um desenho{{CMD_274}}.\n    {{CMD_275}}\n      {{ENV_276}}\n    {{CMD_277}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 21,
+  "hash": "04dbd73077e7ca14159eb83f2e58ba18bc811be0b52dbe283ef447553b303039",
+  "traducao": "    Agora {{CMD_278}}encontramos equações{{CMD_279}} que relacionam as variáveis {{MATH_280}} e {{MATH_281}}. Usamos o fato de que\n    temos triângulos semelhantes para escrever:\n    {{ENV_282}}\n    Como {{MATH_283}} e {{MATH_284}} são ambas funções do tempo,\n  {{CMD_285}}derivamos{{CMD_286}} ambos os lados da equação acima. Usamos\n    derivação implícita e escrevemos\n        {{MATH_287}}\n    Neste ponto, {{CMD_288}}calculamos{{CMD_289}} todas as quantidades no instante em que {{MATH_290}} pés\n    {{MATH_291}}\n    Agora {{CMD_292}}resolvemos{{CMD_293}} para  {{MATH_294}} e obtemos que\n     {{MATH_295}}, quando {{MATH_296}} pés.\n\n      Portanto, a sombra está crescendo\n    a uma taxa de {{MATH_297}} pés/s quando a pessoa está a {{MATH_298}} pés do poste.{{CMD_299}}\n  {{CMD_300}}\n{{CMD_301}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 22,
+  "hash": "c824321bf0fe9d93488d0f0c183c76b33436691449e3d1041c6633a36f96a3df",
+  "traducao": "Despeja-se água em um recipiente cônico a uma taxa de 10\ncm{{MATH_302}}/s.  O cone aponta diretamente para baixo e tem altura de\n30 cm e raio da base de 10 cm.  Com que rapidez o nível da água está subindo\nquando a água tem 4 cm de profundidade?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 23,
+  "hash": "e44127348c348e0bfd1e4ccf501476ab6639aa5267e61e1dd8d059b8986b292f",
+  "traducao": "Primeiro, {{CMD_303}}introduzimos várias variáveis{{CMD_304}}. Seja {{MATH_305}} o volume de água no recipiente, seja {{MATH_306}} o raio da superfície circular da água e  seja {{MATH_307}} a profundidade da água no recipiente. A taxa dada é {{MATH_308}} {{MATH_309}}, e a taxa desconhecida é {{MATH_310}}, no momento em que {{MATH_311}} cm.\n    Agora, {{CMD_312}}fazemos um desenho{{CMD_313}}.\n{{CMD_314}}\n{{ENV_315}}\n{{CMD_316}}\nObserve que não houve nenhuma tentativa de fazer este desenho em escala; em vez disso,\nqueremos que todas as informações relevantes estejam disponíveis para o\nmatemático."
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 24,
+  "hash": "a3790fb2e7b8bf8ce7e54536e1992db995e3268756de4b4a482a70a7f4551be7",
+  "traducao": "Agora {{CMD_317}}encontramos equações{{CMD_318}} que relacionam todas as variáveis. Observe que a água no recipiente assume a forma do recipiente. Neste exemplo, a forma é um cone. Portanto, usamos a fórmula do volume de\num cone\n{{MATH_319}}\nVamos desenhar uma seção transversal do cone.\n{{CMD_320}}\n{{ENV_321}}\n{{CMD_322}}\nObserve um triângulo retângulo grande e  um triângulo retângulo menor dentro do grande.\nEsses dois triângulos retângulos são semelhantes, porque seus ângulos correspondentes são iguais.\nComo as razões entre lados correspondentes de triângulos semelhantes são iguais, obtemos\n{{MATH_323}}\nNeste ponto, poderíamos {{CMD_324}}derivar{{CMD_325}} ambos os lados de cada equação, mas podemos adotar uma abordagem mais simples,\ncombinando essas duas equações e expressando {{MATH_326}} em termos de {{MATH_327}}."
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 25,
+  "hash": "6446527d690dc8536bc0dd7b3a95ff3a5df0c109819c02ceec0334489f2a62ac",
+  "traducao": "PERGUNTA: Por que é mais conveniente expressar {{MATH_328}} em termos de {{MATH_329}} do que em termos de {{MATH_330}}?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/digInAppliedRelatedRates.tex",
+  "ordem": 26,
+  "hash": "2db479655134b4a7d9656d98c11f0059c373c45d586b37fd65ae8b12e1ec6c78",
+  "traducao": "Portanto,\n{{MATH_331}}\ne\n{{MATH_332}}\nAgora, {{CMD_333}}derivamos{{CMD_334}} em relação a {{MATH_335}}.\n{{MATH_336}}\nEssa  equação vale em algum intervalo de tempo. Em particular, a equação é verdadeira no instante em que {{MATH_337}} cm.\nAgora {{CMD_338}}calculamos{{CMD_339}} todas as quantidades nesse instante.\n{{MATH_340}}\nAssim, no instante em que a água no recipiente tem {{MATH_341}} cm de profundidade, o nível da água está subindo a uma taxa de {{MATH_342}} cm/s.\n{{CMD_343}}\n{{CMD_344}}\n{{CMD_345}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/exerciseList.tex",
+  "ordem": 0,
+  "hash": "41c1505ced8f3633405699c027ea2944bfe0f4a7927200231ab097dd31e781b3",
+  "traducao": "G\n{{CMD_1}}\n{{CMD_2}}\n{{CMD_3}}\n{{CMD_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1.tex",
+  "ordem": 0,
+  "hash": "fb4ad96d4366f562893c578ac92996242874d3e0f7f8b4d95626f33c578c60de",
+  "traducao": "Uma escada de {{MATH_1}} pés está apoiada em uma parede.  No instante em que o pé da escada está a {{MATH_2}} pés da parede, o pé da escada está se afastando da parede a uma taxa de {{MATH_3}}.  A que taxa o topo da escada está descendo pela parede nesse instante?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1.tex",
+  "ordem": 1,
+  "hash": "2f69e33d786de9a17e19ac102b445f623eddee272458a8b87d455309ee0fa40e",
+  "traducao": "{{CMD_4}}Introduzimos as variáveis{{CMD_5}}  {{MATH_6}}, a distância do pé da escada à parede, e {{MATH_7}}, a distância do topo da escada ao chão. A taxa dada é {{MATH_8}} pés/s, e a taxa desconhecida é {{MATH_9}}.\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1.tex",
+  "ordem": 2,
+  "hash": "0d55911ddad30bddf941511f69735d8e3f9ef49479eea98ee05e9ff1b5128232",
+  "traducao": " e {{MATH_11}} devem satisfazer a relação"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1.tex",
+  "ordem": 3,
+  "hash": "d99b504232b024899138c44a7f0e4084179c1f106a5c830b4613e1d3dc5afbca",
+  "traducao": "pelo teorema de Pitágoras.\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1.tex",
+  "ordem": 4,
+  "hash": "9ad0f5decd7c9e5e6c6141cc8128943b034e8ee17de8adc66be9a3ce9701bb4c",
+  "traducao": "\t{{CMD_13}}Derivamos{{CMD_14}} em relação ao tempo e obtemos"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1.tex",
+  "ordem": 5,
+  "hash": "921133ca950db1faa2388eb2e97088e5ccdc31edd610a1bcec3e9adfe87562b3",
+  "traducao": "\t{{CMD_15}}Calculamos{{CMD_16}} todas as quantidades  no instante em que {{MATH_17}}. Primeiro, temos que encontrar o valor de {{MATH_18}} nesse instante.\n{{ENV_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1.tex",
+  "ordem": 6,
+  "hash": "0154115b49dba45e6c8c4026a8cdb92591b14d7a45b45a9220a545bb6ff0e175",
+  "traducao": "Assim, o topo da escada está descendo a  uma taxa de {{MATH_21}} pés por segundo."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1.tex",
+  "ordem": 7,
+  "hash": "9d16453b16ffcb533663e0f29ce77531cebc79a7a26373443f2f6a6e7668b547",
+  "traducao": "\tO topo da escada está descendo a uma taxa de {{MATH_22}} pés por segundo.\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 0,
+  "hash": "880d8eae6eba7fabc35f648291968313a14aec497bb69cf2731a3962b460ad9b",
+  "traducao": "É tarde. Com que rapidez o comprimento da sombra de uma árvore de 72 pés de altura está variando quando {{MATH_1}}, o ângulo de elevação do sol, é {{MATH_2}}? Suponha que\na taxa com que o ângulo de elevação está diminuindo é 0.25 rad/h."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 1,
+  "hash": "1fd8ec1f6b172f76c81ea7c5dee745f8b0654d24adfa91438fa95f855cfef68d",
+  "traducao": "ETAPA 1"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 2,
+  "hash": "2de88eec38aa2f3c8c64ce3457d63c3877c954b904642ee9bfc33a2e5b835108",
+  "traducao": "Introduza uma variável {{MATH_3}} que denote o comprimento da sombra da árvore. Em seguida, esboce e rotule a figura."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 3,
+  "hash": "577e8e7de524189de213d84906f8f1914027b8ad08e42f118ea116c053c12d60",
+  "traducao": "ETAPA 2"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 4,
+  "hash": "e42d9d44705e5e3db752dcfad65cd89cc72d007b0581ba594b25b5bcf540f26b",
+  "traducao": "Complete as afirmações a seguir."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 5,
+  "hash": "b4b3da75b2eb80bd0bd92658e680a55a9d4e1b301a1cb736c76de12e5f3bd135",
+  "traducao": "A taxa conhecida é\n {{MATH_4}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 6,
+  "hash": "75f43daec01c4b181eae79427258c7d13c7f6ece2c48873423eebb80421e68dd",
+  "traducao": "A  taxa  a ser determinada é\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 7,
+  "hash": "75605901d394b1326e902704061f702afcca67e1b2a716b1e238522a28fd8625",
+  "traducao": "ETAPA 3"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 8,
+  "hash": "724cbac9146da18cfc0bd6dbb330e788cd53b3c50f859abe745d25f918a0abf9",
+  "traducao": "Escreva uma equação que relacione  todas as variáveis relevantes."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 9,
+  "hash": "2fa7b88221c2eea8f1e37ff4d1232c1b7afb1c211f9726e0485f37ab8d1e1a49",
+  "traducao": "ETAPA 4"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 10,
+  "hash": "584a86dad6627aba0f1b3a04b9c8e28bcc470bb0e6d6a2b2ea0e3a95fae3d5cf",
+  "traducao": "Derive ambos os lados da equação acima em relação a {{MATH_6}} (derive primeiro o lado esquerdo)."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 11,
+  "hash": "d233e615e567fa8d8e0218c7434c07291e1dcf8a51745ee41a9286249b106f57",
+  "traducao": "ETAPA 5"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 12,
+  "hash": "f46203bfb5e42266fe2e08d6c4589c076c2cd183fc6ae9b025f2db0fa886c004",
+  "traducao": "Calcule.\nAgora, para calcular a equação no instante em que {{MATH_7}}, temos que encontrar o valor de {{MATH_8}} nesse instante!"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 13,
+  "hash": "0ea01f5b9552db2400a56504e80acd720dc1102603bd3c3e68631944028efa8a",
+  "traducao": "ETAPA 6"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied1a.tex",
+  "ordem": 14,
+  "hash": "3fb8a3c92c252afbf74a64ad96c8711a5f716647be271679b58371bf833e72fc",
+  "traducao": "Resolva para {{MATH_9}}."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied2.tex",
+  "ordem": 0,
+  "hash": "83672923c51bb2ab6582b9ec627df074077256993720ee2831f6d977cc03109c",
+  "traducao": "Uma colônia de bactérias está crescendo em uma placa de Petri.  Elas formam um\ndisco circular, que parece estar crescendo a uma taxa de {{MATH_1}} milímetros\nquadrados por hora.  Quando o raio do disco é {{MATH_2}} milímetros,\na que taxa o raio está crescendo?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied2.tex",
+  "ordem": 1,
+  "hash": "f734b42a23c14faf6b8ac945894cbe1fa7f2e5ef919bcd2be1f055af607b68a3",
+  "traducao": "  {{CMD_3}}Introduzimos as variáveis{{CMD_4}} {{MATH_5}}, a área do disco, e {{MATH_6}},  o seu raio.  A taxa dada é {{MATH_7}} {{MATH_8}}, e a taxa desconhecida é {{MATH_9}}.\n  {{MATH_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied2.tex",
+  "ordem": 2,
+  "hash": "9dc5678f11af9bfa71d35b0924fbc2a4614f72dc31a1b02dd137ecb137448c5c",
+  "traducao": "  Derivando implicitamente em relação ao tempo, obtemos\n  {{MATH_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied2.tex",
+  "ordem": 3,
+  "hash": "4e7f31476abc660ee7784340c158c0596f9854e76d61ffae192af7355c522f2c",
+  "traducao": "  No instante em questão, sabemos que {{MATH_14}} e {{MATH_15}}.\n  Assim,\n  {{MATH_16}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied2.tex",
+  "ordem": 4,
+  "hash": "0c186dc303d2db13e33bb37842aa3ab68b4e8021a6d648d1dc030f135d40d5fb",
+  "traducao": "e {{MATH_17}}.\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied2.tex",
+  "ordem": 5,
+  "hash": "8cea6983e7f942ba3c30d1cabae9034c4129164092f4b8153a785034f4470418",
+  "traducao": "  Nesse instante, o raio do disco está crescendo a uma taxa\n  de {{MATH_19}} milímetros por hora.\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied3.tex",
+  "ordem": 0,
+  "hash": "7e62110e8828b5608c093714a9385755974fa37bb61f0762be818717ff08b672",
+  "traducao": "  Dois barcos a remo partem do mesmo local e começam a se afastar\n  ao longo de retas que se encontram formando um ângulo de {{MATH_1}}."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied3.tex",
+  "ordem": 1,
+  "hash": "8a0beccdd236d56a41033c1d732a6c6dd7b0283332342a9ade2c99087aa0251b",
+  "traducao": "  O barco {{MATH_2}} está se deslocando a uma taxa de {{MATH_3}} milhas por hora diretamente para o leste,\n  e o barco {{MATH_4}} está se deslocando a uma taxa de {{MATH_5}} milhas por hora, indo\n  para o nordeste."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied3.tex",
+  "ordem": 2,
+  "hash": "b4864a6eb53897f36b598d01687871ab219f9a071c17fb8c6faa43112f2afe6c",
+  "traducao": "  Com que rapidez a distância entre os barcos a remo está aumentando {{MATH_6}} horas\n  após o início da viagem?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied3.tex",
+  "ordem": 3,
+  "hash": "8d60b48b42c747433c2aaa27166143ec4d3c489b5e848f36f6f0073f8753d31f",
+  "traducao": "  Os barcos a remo estão se afastando um do outro a uma taxa de\n  {{MATH_7}} milhas por hora.\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied6.tex",
+  "ordem": 0,
+  "hash": "c26db53de49d6d457a95f7c2e76bde2104b242dc2b5e5eb1fa91eb6268472c10",
+  "traducao": "\tUma luz no chão está a {{MATH_1}} pés de um prédio.  Um homem de {{MATH_2}} pés de altura caminha da luz em direção ao prédio a uma taxa de {{MATH_3}} pés por segundo."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied6.tex",
+  "ordem": 1,
+  "hash": "78414770d63111f4e8411a36ef814e98d03be7e24ee31738eb4c3adaac8752d9",
+  "traducao": "\tEle projeta uma sombra na lateral do prédio.  A que taxa sua sombra está encolhendo quando ele está a {{MATH_4}} pés do prédio?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied6.tex",
+  "ordem": 2,
+  "hash": "5f6390c6c995f4f7505524f6de8968888740fb0e398a2b51821b7f21c1e74234",
+  "traducao": "\tSua sombra está encolhendo a uma taxa de {{MATH_5}} pés por segundo.\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied7.tex",
+  "ordem": 0,
+  "hash": "06dac3d62692b39b8ce32aee7fa60e1bfa1db188e0e623b78c589b08890ecfae",
+  "traducao": "Uma tigela com base (superior) circular e seção transversal limitada por {{MATH_1}}, para {{MATH_2}}, e por {{MATH_3}}, para {{MATH_4}}, está vazia no instante {{MATH_5}} segundos.\n{{CMD_6}}\n    {{ENV_7}}\n{{CMD_8}}\nSe água está sendo adicionada à tigela de modo que a altura da água\nsobe a {{MATH_9}} cm por segundo, a que taxa o raio do círculo\ndeterminado pela superfície da água está variando quando a altura da água é {{MATH_10}} cm?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied7.tex",
+  "ordem": 1,
+  "hash": "a958e665be4870e436b072f254ed9d1ef06c223f434277438befc220afe0f0cd",
+  "traducao": "\tO raio está variando a {{MATH_11}} cm por segundo.\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 0,
+  "hash": "3a64bf47f8b3ea9f65a36fcec1293a645e3cb2199a107ce5f02b64add275c57e",
+  "traducao": "Um inseto se move ao longo da curva {{MATH_1}} e sua altitude está aumentando à taxa de {{MATH_2}}/s. Aqui, {{MATH_3}} e {{MATH_4}} são ambos medidos em pés. Com que rapidez a distância do inseto até a origem está variando no instante em que o inseto está a {{MATH_5}} pés da origem?"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 1,
+  "hash": "f08bae9af3e171963d7fe7cfcb94067539daf72377c374f0b0b24d84d9fbe89c",
+  "traducao": "ETAPA 1"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 2,
+  "hash": "5a649a42fff3078659d405d55f6e7e0c33a442558a122ec0ea36db9645d756d7",
+  "traducao": " Introduza uma variável {{MATH_6}} que denote a distância do inseto até a origem.  Esboce e rotule uma figura.\n{{CMD_7}}\n{{CMD_8}}\n    {{ENV_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 3,
+  "hash": "babf20c2aa3a4958c35d3ab2281a0a7a8cf8e611883e804f988b23ccfd5bd34b",
+  "traducao": "ETAPA 2"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 4,
+  "hash": "e42d9d44705e5e3db752dcfad65cd89cc72d007b0581ba594b25b5bcf540f26b",
+  "traducao": "Complete as afirmações a seguir."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 5,
+  "hash": "6c70ee6186e639c8f19573085be3a58182f97d5a37835e295791847bfa8aef6a",
+  "traducao": "A taxa dada é\n {{MATH_11}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 6,
+  "hash": "c178c58c726c3a5f05633b8bb662e1b11f26d63f59c2ee39bc0e0f7c7e7cc1de",
+  "traducao": "A taxa a ser determinada é\n{{MATH_12}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 7,
+  "hash": "8432a3dc5658501a1969ae4a87da532703fb9ffe5ec4d50bd792025dfff6e0f4",
+  "traducao": "Escreva uma equação que relacione as variáveis {{MATH_13}}, {{MATH_14}} e {{MATH_15}}."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 8,
+  "hash": "75605901d394b1326e902704061f702afcca67e1b2a716b1e238522a28fd8625",
+  "traducao": "ETAPA 3"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 9,
+  "hash": "d88e8a2c3f3b4a9eac7dd0eb7212200f6176cfe3fab69e7bbca56f1e46e10d9b",
+  "traducao": "Derive."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 10,
+  "hash": "c60a9e36e8fad97d1bea9cac4055efdbc1bbd9c151fa214773b319318d0f0720",
+  "traducao": "Simplifique."
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 11,
+  "hash": "9c4ad3b11ee448fd98fd2504cff24a2e1ea8a22983fc82441d10be0b861e478e",
+  "traducao": "ETAPA 4"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 12,
+  "hash": "10deccd9b89777e8a2d27262837811aba950fbf1f1fb0ca0db9cdc76f1f78a83",
+  "traducao": "Calcule. Para calcular {{MATH_16}}, precisamos calcular"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 13,
+  "hash": "77dddcba074f5b118730a4cb75c1fbbbd37cba776a589882f1f5ffd4f9c4e02a",
+  "traducao": "Portanto, quando {{MATH_17}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 14,
+  "hash": "b220303ba86b171793a17e4c2a6d199cd1ebd66a4945964610c43e8d5f80e57a",
+  "traducao": "Resolva a equação quadrática"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 15,
+  "hash": "c1b148100c8d49546276c630d7dd32ca741db7d691a9c9f8c36b284339cdc9ba",
+  "traducao": "Portanto,"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/relatedRatesApplied77.tex",
+  "ordem": 16,
+  "hash": "291ac98f03ee0d5970988375bfd059b362d5158aba4979198bb90553d391cd89",
+  "traducao": "e"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/singVarCalcRelatedRates1.tex",
+  "ordem": 0,
+  "hash": "4d6305fade024ffe603f14eea4585e8b5ce1a815fc0cfed95492d3833903f31c",
+  "traducao": "Um tanque cilíndrico em pé (com uma das bases circulares apoiada no\nchão) tem raio de 20 cm.  Com que rapidez o nível da água no\ntanque baixa quando a água está sendo drenada a 25 cm{{MATH_1}}/s?\n{{CMD_2}}\n  {{MATH_3}}\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/singVarCalcRelatedRates5.tex",
+  "ordem": 0,
+  "hash": "4269cebdb1cffb925ad1e39ae68d317a2ae6760c158536e1f9a0c414763f7278",
+  "traducao": "Um farol giratório está localizado a 2 milhas da costa, mar adentro.  Seja {{MATH_1}} o\nponto da costa mais próximo do farol.  Enquanto o farol gira a\n10 rev/min, o feixe de luz varre a costa uma vez a cada volta.\nSuponha que a costa seja reta.  Com que rapidez o ponto em que o feixe\natinge a costa está se movendo no instante em que o feixe ilumina um ponto a 2\nmilhas ao longo da costa a partir do ponto {{MATH_2}}?\n{{CMD_3}}\n  {{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/singVarCalcRelatedRates7.tex",
+  "ordem": 0,
+  "hash": "437777213bd5c18c0975995a4cefef9a9bb0843c9fe065c7b33c1f01fa7a2081",
+  "traducao": "Areia é despejada sobre uma superfície a 15 cm{{MATH_1}}/s, formando uma pilha\ncônica circular cujo diâmetro da base é sempre igual à sua altura.  Com que rapidez\na altura da pilha está aumentando quando a pilha tem 3 cm de altura?\n{{CMD_2}}\n  {{MATH_3}}\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "appliedRelatedRates/exercises/singVarCalcRelatedRates9.tex",
+  "ordem": 0,
+  "hash": "4d0ca0ff66eb26494f9f0595ef1c60b3b2d762c5096cc6fb026f00da04a5ec1b",
+  "traducao": "Um balão está a uma altura de 50 metros e sobe à taxa constante\nde 5 m/s.  Um ciclista passa logo abaixo dele, deslocando-se em\nlinha reta à velocidade constante de 10 m/s.  Com que rapidez a distância\nentre o ciclista e o balão está aumentando 2 segundos depois?\n{{CMD_1}}\n  {{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}\n{{CMD_5}}"
+ }
+]

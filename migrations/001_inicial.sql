@@ -41,3 +41,7 @@ CREATE TABLE IF NOT EXISTS glossary (
   termo_original TEXT PRIMARY KEY COLLATE NOCASE,
   termo_traduzido TEXT NOT NULL
 );
+CREATE TABLE IF NOT EXISTS protected_translations (
+  original TEXT PRIMARY KEY,
+  traduzido TEXT NOT NULL
+);

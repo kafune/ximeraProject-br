@@ -1,0 +1,386 @@
+[
+ {
+  "arquivo": "productAndQuotientRules/titlePage.tex",
+  "ordem": 0,
+  "hash": "e195885d02b2f952f6683819cafabb82414252ec0fc1d0ac6ee70233f65e920a",
+  "traducao": "Regra do produto e regra do quociente{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "productAndQuotientRules/titlePage.tex",
+  "ordem": 2,
+  "hash": "2ff44cb57e895624c6e027758dd24a7761d4d0cfd58b6c905b11f0508986fc9c",
+  "traducao": " Identificar produtos de funções.\n\t{{CMD_4}} Usar a regra do produto para calcular derivadas.\n\t{{CMD_5}} Identificar quocientes de funções.\n\t{{CMD_6}} Usar a regra do quociente para calcular derivadas.\n\t{{CMD_7}} Combinar regras de derivação para calcular derivadas de funções mais complicadas.\n        {{CMD_8}} Explicar os sinais dos termos no numerador da regra do quociente.\n       {{COMMENT_9}}\n\t{{CMD_10}} Usar a regra do produto e a regra do quociente para calcular derivadas a partir de uma tabela de valores.\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/breakGround.tex",
+  "ordem": 0,
+  "hash": "37508da9826912573758c811b915dd3fad00f1db1c361ccdfd0fc7b0adbb4712",
+  "traducao": "Derivadas de produtos são traiçoeiras{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem derivadas de produtos e produtos\nde derivadas.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "productAndQuotientRules/breakGround.tex",
+  "ordem": 2,
+  "hash": "956b2522e086eb88ee8a2f018c1da29d9f706f69855c14eb8b855e6227a33eb0",
+  "traducao": " Ei, Riley, lembra da regra da soma para derivadas?\n{{CMD_7}} Você sabe que sim.\n{{CMD_8}} O que você acha que vai ser a ``regra do produto''?\n{{CMD_9}} Vamos arriscar um palpite:\n  {{MATH_10}}\n{{CMD_11}} Hmmm, vamos colocar essa teoria à prova. Vamos tentar com\n  {{MATH_12}}\n  Agora\n  {{ENV_13}}\n{{CMD_14}} Por outro lado,\n  {{ENV_15}}\n{{CMD_16}} E assim,\n  {{MATH_17}}\n{{CMD_18}} Uau. Hmmm. Parece que o nosso palpite estava errado.\n{{CMD_19}} Tenho a sensação de que essa tal de ``regra do produto''\n  pode ser um pouco traiçoeira.\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/breakGround.tex",
+  "ordem": 3,
+  "hash": "f224bbfb0fa97786e223274b54c6da48606eb0ab8e08aa5be97708486d7d7433",
+  "traducao": "  Acima, nossos intrépidos jovens matemáticos supõem que a ``regra do produto'' poderia ser:\n  {{MATH_21}}\n  Isso vale em {{CMD_22}}algum{{CMD_23}} caso?\n  {{CMD_24}}\n    As respostas podem variar. Uma resposta parcial é que isso vale quando\n    {{MATH_25}} ou {{MATH_26}} é zero, ou quando ambas são constantes.\n  {{CMD_27}}\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 0,
+  "hash": "0ee3b20a4e2593c49e8b8bc23d693e077d8357b02081fe3b96ce500bcf54a1a7",
+  "traducao": "Regra do produto e regra do quociente{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nAqui calculamos derivadas de produtos e quocientes de funções\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 1,
+  "hash": "ab27c7a72906ea7125307bea47fb414db5175f57de822d73ed27c4d63631b25f",
+  "traducao": "A regra do produto{{CMD_7}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 2,
+  "hash": "7d43ab8b34de1f47fad6a44c27ffb3bb47e0e671ed0ea0e281dc849a252b6f2c",
+  "traducao": "Considere o produto de duas funções simples, digamos\n{{MATH_8}}\nem que {{MATH_9}} e {{MATH_10}}. Um palpite óbvio para a\nderivada de {{MATH_11}} é o produto das derivadas:\n{{ENV_12}}\nEsse palpite está correto? Podemos verificar reescrevendo {{MATH_13}} e {{MATH_14}} e fazendo\no cálculo de um modo que sabemos que funciona. Escreva comigo\n{{ENV_15}}\nLogo\n{{MATH_16}}\ne assim vemos que\n{{MATH_17}}\nPortanto, a derivada de {{MATH_18}} {{CMD_19}}não{{CMD_20}} é tão simples quanto\n{{MATH_21}}. Não tema: temos uma regra exatamente para essa situação."
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 3,
+  "hash": "5170f3157ef692a2cb81a93167140d1f3833c3e19745a98125a442b8a59509d7",
+  "traducao": "\tSe {{MATH_22}} e {{MATH_23}} são deriváveis, então\n\t{{MATH_24}}\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 4,
+  "hash": "36250ef652a2e53b880050ee6708e70baa2939cd3f29d305492e1bbd03fe6a3e",
+  "traducao": "Vamos voltar ao exemplo com o qual começamos.\n{{CMD_26}}\n\tSejam {{MATH_27}} e {{MATH_28}}. Calcule:\n\t{{MATH_29}}\n\n\t{{CMD_30}}\n\t\tEscreva comigo\n\t\t{{ENV_31}}\n\t\tPoderíamos parar por aqui, mas devemos mostrar que, ao expandir essa expressão, recuperamos\n\t\tnosso resultado anterior. Escreva comigo\n\t\t{{ENV_32}}\n\t\tque é exatamente o que obtivemos antes.\n\t{{CMD_33}}\n{{CMD_34}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 5,
+  "hash": "ab12fe7eeed5732416bc2eed0c8c9c8a81ffc70fd665d2b8c09126334e3a17b5",
+  "traducao": "\tCalcule:\n\t{{MATH_35}}\n\t{{CMD_36}}\n\t\tUsando a regra da soma e a regra do produto, escreva comigo\n\t\t{{ENV_37}}\n\t{{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 6,
+  "hash": "1a0111d001bef9a90f5dcffc30e00e076b1891a4f7257fc6963ac6282a15268e",
+  "traducao": "Agora que já somos experientes, vamos tentar mais um exemplo."
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 7,
+  "hash": "397eb7688f756a419cbae9c901e3d6cf17251f209efc567015cf80889164687c",
+  "traducao": "\tSuponha que {{MATH_40}} é uma função cujos valores são dados na tabela a seguir.\n\t{{CMD_41}}\n\t\t{{ENV_42}}\n\t{{CMD_43}}\n\n\tCalcule {{MATH_44}}.\n\t{{CMD_45}}\n\tUsando a regra do produto, escreva comigo.\n\t{{ENV_46}}\n\n\tSubstituindo {{MATH_47}}, obtemos:\n\t{{ENV_48}}\n\t{{CMD_49}}\n{{CMD_50}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 8,
+  "hash": "5d2afe132d4d865ec753a33a4bad71bd40ce818fb67daeb3b34346f7d27b8e5a",
+  "traducao": "A regra do quociente{{CMD_51}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 9,
+  "hash": "b2f3917511929ba6634c1148290aa78b0d13a4409f6f361b20d759849b93950e",
+  "traducao": "Gostaríamos de ter uma fórmula para calcular\n{{MATH_52}}\n Isso nos leva à nossa próxima regra de derivação."
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 10,
+  "hash": "74a8e08733739b04969c86b2a9f58a2df3e9fc7cf90e923071386377d4628251",
+  "traducao": "\tSe {{MATH_53}} e {{MATH_54}} são deriváveis, então\n\t{{MATH_55}}\n{{CMD_56}}\n{{COMMENT_57}}\n{{COMMENT_58}}\n{{COMMENT_59}}\n{{COMMENT_60}}\n{{COMMENT_61}}\n{{COMMENT_62}}\n{{COMMENT_63}}\n{{COMMENT_64}}\n{{COMMENT_65}}\n{{COMMENT_66}}\n{{COMMENT_67}}\n{{COMMENT_68}}\n{{COMMENT_69}}\n{{COMMENT_70}}\n{{COMMENT_71}}\n{{COMMENT_72}}\n{{COMMENT_73}}\n{{COMMENT_74}}\n{{COMMENT_75}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 11,
+  "hash": "71e3cda1b00f2c631912ceb18f85e5b74dc021a88282bfe0d04636ac3a22454a",
+  "traducao": "\tCalcule:\n\t{{MATH_76}}\n\n\t{{CMD_77}}\n\t\tEscreva comigo\n\t\t{{ENV_78}}\n\t{{CMD_79}}\n{{CMD_80}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 12,
+  "hash": "9487ca828b3f0126e611ddbfa8557ea1a591582a7262fa0eefa6a7ad6402d88e",
+  "traducao": "\tCalcule:\n\t{{MATH_81}}\n\n\t{{CMD_82}}\n\t\tEscreva comigo\n\t\t{{MATH_83}}\n\t{{CMD_84}}\n{{CMD_85}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 13,
+  "hash": "f9cddd837d3f9a2b777974ce6d6bfa43e0affc07dbd0c7937500af5a4056bec3",
+  "traducao": "Muitas vezes é possível calcular derivadas de mais de uma maneira, como\njá vimos. Como todo quociente pode ser escrito como um\nproduto, sempre é possível usar a regra do produto para calcular a\nderivada, embora nem sempre isso seja mais simples."
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 14,
+  "hash": "124005c3e44258255a1174302b789d151b189af94ebc25d2eb9df8c56bc3b528",
+  "traducao": "\tCalcule:\n\t{{MATH_86}}\n\tde duas maneiras. Primeiro usando a regra do quociente e depois usando a regra do produto.\n\t{{CMD_87}}\n\t\tPrimeiro, vamos calcular a derivada usando a regra do quociente. Escreva comigo\n\t\t{{MATH_88}}\n\n\t\tEm seguida, vamos calcular a derivada usando a regra do produto:\n\t\t{{ENV_89}}\n\t\tCom um pouco de álgebra, as duas expressões se simplificam para\n\t\t{{MATH_90}}\n\t{{CMD_91}}\n{{CMD_92}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 15,
+  "hash": "d4866add06438518035f8fc3461f81c0335b06c70a4459e80b00e37a0de7f924",
+  "traducao": "\tSuponha que temos duas funções, {{MATH_93}} e {{MATH_94}}, e sabemos que {{MATH_95}}, {{MATH_96}}, {{MATH_97}} e {{MATH_98}}.\n\tQual é a inclinação da reta tangente à curva {{MATH_99}} no ponto em que {{MATH_100}}?\n\t{{CMD_101}}\n\t\tA inclinação da reta tangente à curva  {{MATH_102}} em {{MATH_103}} é dada por {{MATH_104}}.\n\n\t\t  Pela regra do quociente, essa derivada é dada por\n\t\t {{ENV_105}}\n\t{{CMD_106}}\n{{CMD_107}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 16,
+  "hash": "140f412facc83e28d74a6623b0b48b33fc747225d4ed3c94b2499f6eb2c0942f",
+  "traducao": "\tSuponha que temos duas funções, {{MATH_108}} e {{MATH_109}}, e sabemos que {{MATH_110}}, {{MATH_111}}, {{MATH_112}} e {{MATH_113}}.\n\tQual é a inclinação da reta tangente à curva {{MATH_114}} no ponto em que {{MATH_115}}?\n\t{{CMD_116}}\n\t\tA inclinação da reta tangente à curva  {{MATH_117}} em {{MATH_118}} é dada por {{MATH_119}}.\n\n\t\tPela regra do quociente e pela regra do produto, essa derivada é dada por\n\t\t{{ENV_120}}\n\t{{CMD_121}}\n{{CMD_122}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 17,
+  "hash": "d820321bc62fc0810b761baf3bff24b3000bcd02a712da34dcc10cfaceef00f8",
+  "traducao": "\tCalcule:\n\t{{MATH_123}}\n\n\t{{CMD_124}}\n\t\tEste é um pouco mais trabalhoso do que os exemplos anteriores. Vamos resolvê-lo passo a passo. O primeiro passo é montar a\n\t\tregra do quociente e notar que tanto o numerador quanto o denominador da função original são produtos.\n\t\t{{ENV_125}}\n\t{{CMD_126}}\n{{CMD_127}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/digInProductRuleAndQuotientRule.tex",
+  "ordem": 18,
+  "hash": "6f05c2677f5b32009e0ca4141af32e3919bbe7227322acac4fd659ac87773052",
+  "traducao": "Vamos encerrar com mais um, misturando as regras.\n{{CMD_128}}\n\tSuponha que {{MATH_129}} é uma função cujos valores são dados na tabela a seguir.\n\t{{CMD_130}}\n\t\t{{ENV_131}}\n\t{{CMD_132}}\n\n\tCalcule {{MATH_133}}.\n\t{{CMD_134}}\n\t\tA `operação mais externa' é um quociente, então vamos começar pela regra do quociente.  Percebeu que o numerador é um produto?  Isso significa que vamos precisar da regra do produto também.\n\t\t{{ENV_135}}\n\n\t\tSubstituindo {{MATH_136}} nessa expressão, obtemos:\n\t\t{{ENV_137}}\n\t{{CMD_138}}\n{{CMD_139}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule1.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule11.tex",
+  "ordem": 0,
+  "hash": "d1ece4187940b438f7d8bfe01ac74614d8312c73e16205570653d3b012cebd80",
+  "traducao": "Seja {{MATH_1}}. Calcule e simplifique:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule12.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule2.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule22.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule4.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule5.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule6.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule8.tex",
+  "ordem": 0,
+  "hash": "59dc47f17d2e6690d54c2f3023738b9e9ab5dc0bea44dd01bf5be60930863176",
+  "traducao": "Seja {{MATH_1}}. Calcule {{MATH_2}}."
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule8.tex",
+  "ordem": 1,
+  "hash": "08ae360d355a2e951a414f2a3263c4056612dfbce5525a3844e630fe51c8d106",
+  "traducao": "(DICA:\nPoderíamos aplicar a regra do quociente imediatamente, mas será mais conveniente simplificar {{MATH_3}} primeiro.)"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule8.tex",
+  "ordem": 2,
+  "hash": "642aa1800163ea4970724bd6c2d388a907a822636559debb96a6292b1c3981f2",
+  "traducao": "ETAPA 1"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule8.tex",
+  "ordem": 3,
+  "hash": "d21cf1b7e7204785d50c69d8dcfa92ba29a84a1081914c357f474ac607f71034",
+  "traducao": "Simplifique {{MATH_4}}.\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule8.tex",
+  "ordem": 4,
+  "hash": "a3f2de95a21152be4a910f02bbf1c3e5b85c559c0207cc005507d566f7926cd7",
+  "traducao": "ETAPA 2"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicProductRule8.tex",
+  "ordem": 5,
+  "hash": "1bb6653961e5b5fcd61ac54b909feca632b026e368f88a3863a1a12f9cf0073f",
+  "traducao": "Calcule {{MATH_6}}.\n{{MATH_7}}\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicQuotientRule11.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicQuotientRule12.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicQuotientRule15.tex",
+  "ordem": 0,
+  "hash": "dca74e2e58ceb62fd103fce3fa9044b9ffda21af750dc2c1127381a286a10122",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}\nSeja {{MATH_5}}. Calcule:\n{{MATH_6}}\n{{CMD_7}}\n{{CMD_8}}\nSeja {{MATH_9}}. Calcule:\n{{MATH_10}}\n{{CMD_11}}\n{{CMD_12}}\nSeja {{MATH_13}}. Calcule:\n{{MATH_14}}\n{{CMD_15}}\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicQuotientRule16.tex",
+  "ordem": 0,
+  "hash": "dca74e2e58ceb62fd103fce3fa9044b9ffda21af750dc2c1127381a286a10122",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}\nSeja {{MATH_5}}. Calcule:\n{{MATH_6}}\n{{CMD_7}}\n{{CMD_8}}\nSeja {{MATH_9}}. Calcule:\n{{MATH_10}}\n{{CMD_11}}\n{{CMD_12}}\nSeja {{MATH_13}}. Calcule:\n{{MATH_14}}\n{{CMD_15}}\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicQuotientRule2.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicQuotientRule22.tex",
+  "ordem": 0,
+  "hash": "a5afc9cbe63bdde6ee033faca6c611b10eaf58f8b5560848ff3671b1911d5ff6",
+  "traducao": "Seja {{MATH_1}}. Calcule:\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicQuotientRule5.tex",
+  "ordem": 0,
+  "hash": "61276ad5a131150e437d0206af26149546e51f09cff7e585c230ba9570d3f460",
+  "traducao": "Seja {{MATH_1}}. Primeiro simplifique e depois calcule {{MATH_2}}.\n{{MATH_3}}\n{{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/basicQuotientRule8.tex",
+  "ordem": 0,
+  "hash": "61276ad5a131150e437d0206af26149546e51f09cff7e585c230ba9570d3f460",
+  "traducao": "Seja {{MATH_1}}. Primeiro simplifique e depois calcule {{MATH_2}}.\n{{MATH_3}}\n{{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/plotOfFxnAndDeriv10.tex",
+  "ordem": 0,
+  "hash": "56c5d87fde16ba175f3075006e960283019065b977cf7c8e67a62630d44a4bcc",
+  "traducao": "Aqui vemos o gráfico de {{MATH_1}} e de {{MATH_2}}.\n{{CMD_3}}\n{{CMD_4}}\n{{CMD_5}}\nUma das afirmações a seguir é correta. Qual delas?\n{{CMD_6}}\n{{CMD_7}}{{MATH_8}}{{CMD_9}}\n{{CMD_10}}{{MATH_11}}{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/plotOfFxnAndDeriv3.tex",
+  "ordem": 0,
+  "hash": "d22489d9f5d00792f34bdc1e3dcd89729eaaea045b2bf090dec92bcf90227048",
+  "traducao": "Aqui vemos o gráfico de {{MATH_1}} e de {{MATH_2}}.\n{{CMD_3}}\n{{CMD_4}}\n{{CMD_5}}\nUma das afirmações a seguir é correta. Qual delas?\n{{CMD_6}}\n{{CMD_7}}{{MATH_8}}{{CMD_9}}\n{{CMD_10}}{{MATH_11}}{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/plotOfFxnAndDeriv5.tex",
+  "ordem": 0,
+  "hash": "d22489d9f5d00792f34bdc1e3dcd89729eaaea045b2bf090dec92bcf90227048",
+  "traducao": "Aqui vemos o gráfico de {{MATH_1}} e de {{MATH_2}}.\n{{CMD_3}}\n{{CMD_4}}\n{{CMD_5}}\nUma das afirmações a seguir é correta. Qual delas?\n{{CMD_6}}\n{{CMD_7}}{{MATH_8}}{{CMD_9}}\n{{CMD_10}}{{MATH_11}}{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientSign1.tex",
+  "ordem": 0,
+  "hash": "6af8170d066235cc0e99e3a1d4eba0eb41b7339c7847e4ed5e5c9e281c4a0a4f",
+  "traducao": "Seja {{MATH_1}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientSign1.tex",
+  "ordem": 1,
+  "hash": "72172c7c1f9c452ba8eb419ca7b7e6b67a53dd608f15bf4c1b139e7af707bbb1",
+  "traducao": "Se você sabe que {{MATH_2}}, {{MATH_3}}, {{MATH_4}} e {{MATH_5}}, o que você pode dizer sobre o sinal de {{MATH_6}}?"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientSign1.tex",
+  "ordem": 2,
+  "hash": "6eb542fc3e44a408847e7d856326986fa27942db509acf909a8c46b76e30abb6",
+  "traducao": "Não é possível determinar o sinal de {{MATH_7}}{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientSign1.tex",
+  "ordem": 3,
+  "hash": "990429171463822d1fbaf2faff7db879138c9785b2ba805bae79d88f8c12aee1",
+  "traducao": "Tente entender isso pensando em pequenos aumentos/diminuições nas quantidades {{MATH_10}} e {{MATH_11}}, além do cálculo simbólico."
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientSign6.tex",
+  "ordem": 0,
+  "hash": "6af8170d066235cc0e99e3a1d4eba0eb41b7339c7847e4ed5e5c9e281c4a0a4f",
+  "traducao": "Seja {{MATH_1}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientSign6.tex",
+  "ordem": 1,
+  "hash": "72172c7c1f9c452ba8eb419ca7b7e6b67a53dd608f15bf4c1b139e7af707bbb1",
+  "traducao": "Se você sabe que {{MATH_2}}, {{MATH_3}}, {{MATH_4}} e {{MATH_5}}, o que você pode dizer sobre o sinal de {{MATH_6}}?"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientSign6.tex",
+  "ordem": 2,
+  "hash": "6eb542fc3e44a408847e7d856326986fa27942db509acf909a8c46b76e30abb6",
+  "traducao": "Não é possível determinar o sinal de {{MATH_7}}{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientSign6.tex",
+  "ordem": 3,
+  "hash": "990429171463822d1fbaf2faff7db879138c9785b2ba805bae79d88f8c12aee1",
+  "traducao": "Tente entender isso pensando em pequenos aumentos/diminuições nas quantidades {{MATH_10}} e {{MATH_11}}, além do cálculo simbólico."
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientTable1.tex",
+  "ordem": 0,
+  "hash": "6af8170d066235cc0e99e3a1d4eba0eb41b7339c7847e4ed5e5c9e281c4a0a4f",
+  "traducao": "Seja {{MATH_1}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientTable1.tex",
+  "ordem": 1,
+  "hash": "5176ed92c8aea0cdcb3c761743500ce327c33c7377b5710aa1d6788a11e140ff",
+  "traducao": "Temos a seguinte tabela de valores para {{MATH_2}} e {{MATH_3}}."
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientTable1.tex",
+  "ordem": 2,
+  "hash": "a8795c519bc0b3b7b8f29c691650d52cb6df8db3d1bc4c255014f72af96a21ab",
+  "traducao": "Use esses dados para calcular {{MATH_4}}."
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientTable2.tex",
+  "ordem": 0,
+  "hash": "4454f2c42b4eae6321d7d93cab2792b24a4a2ff6ed3759ba6ce628c14eb87a6a",
+  "traducao": "Seja {{MATH_1}}"
+ },
+ {
+  "arquivo": "productAndQuotientRules/exercises/productAndQuotientTable2.tex",
+  "ordem": 1,
+  "hash": "e2727ab3f51a00fb9da67c8b834fa8b4096f9f8c589384eae10e0da369fb497c",
+  "traducao": "Dado que {{MATH_2}} é derivável em {{MATH_3}} e que {{MATH_4}}, calcule {{MATH_5}}."
+ }
+]

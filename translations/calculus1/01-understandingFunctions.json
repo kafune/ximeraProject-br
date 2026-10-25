@@ -1,0 +1,770 @@
+[
+ {
+  "arquivo": "understandingFunctions/titlePage.tex",
+  "ordem": 0,
+  "hash": "3660f343d3b122c2d007125a30f5157c7df4ee17731123f1ec6e285cbb6be7ac",
+  "traducao": "Entendendo funções{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}} \n{{COMMENT_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "understandingFunctions/titlePage.tex",
+  "ordem": 1,
+  "hash": "8bc167ba335523cc0722852870e89a14ad8828047ae5decd6e970b00bcededda",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "understandingFunctions/titlePage.tex",
+  "ordem": 2,
+  "hash": "fe3a93b8fc25dc3cb4092c14b915e25e664065477703c89b89402b34127c8825",
+  "traducao": " Enunciar a definição de função.\n\t{{CMD_7}} Determinar o domínio e a imagem de uma função.\n\t{{CMD_8}} Distinguir funções considerando seus domínios.\n\t{{CMD_9}} Determinar onde uma função é positiva ou negativa.\n\t{{CMD_10}} Esboçar o gráfico de funções básicas.\n        {{CMD_11}} Realizar operações básicas e composições com\n          funções.\n        {{CMD_12}} Trabalhar com funções definidas por partes.\n\t{{CMD_13}} Determinar se uma função é injetora.\n\t{{CMD_14}} Reconhecer representações diferentes de uma mesma função.\n        {{CMD_15}} Definir e trabalhar com funções inversas.\n        {{CMD_16}} Esboçar o gráfico das inversas de funções básicas.\n\t{{CMD_17}} Determinar funções inversas (algebricamente e graficamente).\n        {{CMD_18}} Encontrar o maior intervalo contendo um ponto dado\n          no qual a função é invertível.\n\t{{CMD_19}} Determinar os intervalos nos quais uma função tem inversa."
+ },
+ {
+  "arquivo": "understandingFunctions/breakGround.tex",
+  "ordem": 0,
+  "hash": "6db5e94eaba6b80ef0375a4ddcf23a3874172d021c41af29e4290e4eb6394b31",
+  "traducao": "Iguais ou diferentes?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Dois jovens matemáticos examinam uma função (ou duas!).\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "understandingFunctions/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "understandingFunctions/breakGround.tex",
+  "ordem": 2,
+  "hash": "1c2600f87eb6f57bd679b2b06e78addc6088b9b89f0f2250e1a61197826c2af1",
+  "traducao": " Riley, tenho uma pergunta urgente.\n{{CMD_7}} Diga. Me conte tudo.\n{{CMD_8}} Pense na função\n  {{MATH_9}}\n{{CMD_10}} OK.\n{{CMD_11}} Essa função é igual a {{MATH_12}}?\n{{CMD_13}} Bom, se eu traço os gráficos na minha calculadora, elas parecem\n  iguais.\n{{CMD_14}} Eu sei!\n{{CMD_15}} E suponho que, se eu escrever\n  {{ENV_16}}\n{{CMD_17}} Claro! Mas e quando {{MATH_18}}? Nesse caso\n  {{MATH_19}}\n{{CMD_20}} Certo, {{MATH_21}} não está definido porque não podemos dividir por\n  zero. Hmm. Agora vejo o problema. Eita!\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "understandingFunctions/breakGround.tex",
+  "ordem": 3,
+  "hash": "31614e2228a9349c1c14f40e89658601bb73ea66f176c07f7342571b6dde19b0",
+  "traducao": "  No contexto acima, {{MATH_23}} e {{MATH_24}} são a mesma função?\n  {{CMD_25}}\n  {{CMD_26}}\n    {{CMD_27}}sim{{CMD_28}}\n    {{CMD_29}}não{{CMD_30}}\n  {{CMD_31}}\n  {{CMD_32}}\n{{CMD_33}}"
+ },
+ {
+  "arquivo": "understandingFunctions/breakGround.tex",
+  "ordem": 4,
+  "hash": "c8fd0fa0b97c754841780c296cb5364738a65e56ad8e6e47f9fff4a748809b0a",
+  "traducao": "  Suponha que {{MATH_34}} e {{MATH_35}} sejam funções, mas que o domínio de {{MATH_36}} seja diferente\n  do domínio de {{MATH_37}}.  Será que {{MATH_38}} e {{MATH_39}} podem ser, na verdade,\n  a mesma função?\n  {{CMD_40}}\n  {{CMD_41}}\n    {{CMD_42}}sim{{CMD_43}}\n    {{CMD_44}}não{{CMD_45}}\n  {{CMD_46}}\n  {{CMD_47}}"
+ },
+ {
+  "arquivo": "understandingFunctions/breakGround.tex",
+  "ordem": 5,
+  "hash": "c580097911a2089adb3103099ddd4237887a29a2a4634b3096f48f10e32e34d5",
+  "traducao": "    O domínio de uma função faz parte dos ``dados'' da função.\n    Uma função não é uma regra para transformar a entrada na saída,\n    mas sim a relação entre uma coleção especificada de\n    entradas (o domínio) e as saídas possíveis (a imagem).\n  {{CMD_48}}\n{{CMD_49}}"
+ },
+ {
+  "arquivo": "understandingFunctions/breakGround.tex",
+  "ordem": 6,
+  "hash": "7d098fdf35d669d73abb0299cf5b08dbb83e160fba4864abb055765f84a2032c",
+  "traducao": "  A mesma função pode ser representada por fórmulas diferentes?\n  {{CMD_50}}\n  {{CMD_51}}\n    {{CMD_52}}sim{{CMD_53}}\n    {{CMD_54}}não{{CMD_55}}\n  {{CMD_56}}\n  {{CMD_57}}\n  {{CMD_58}}\n    {{MATH_59}} e {{MATH_60}} são a mesma função?"
+ },
+ {
+  "arquivo": "understandingFunctions/breakGround.tex",
+  "ordem": 7,
+  "hash": "d3e60f290d2745f414aafc290f0a8c93be681340dc09aa7cdd209d8222eec967",
+  "traducao": "Elas são a mesma função, embora sejam representadas por fórmulas diferentes.{{CMD_61}}\n      {{CMD_62}}Elas são funções diferentes porque têm fórmulas diferentes.{{CMD_63}}\n    {{CMD_64}}\n  {{CMD_65}}\n{{CMD_66}}"
+ },
+ {
+  "arquivo": "understandingFunctions/breakGround.tex",
+  "ordem": 8,
+  "hash": "b719aaff20651b5ddf4c162572afd2ab083ac153df26a4c8051b00e6b49c6ea3",
+  "traducao": "\tSejam {{MATH_67}} e {{MATH_68}}.  O domínio de cada uma dessas funções é o conjunto de todos os números reais.  Qual das afirmações a seguir é verdadeira?\n\t{{CMD_69}}\n\t  {{CMD_70}}Não há informação suficiente para determinar se {{MATH_71}}.{{CMD_72}}\n\t  {{CMD_73}}As funções são iguais.{{CMD_74}}\n\t  {{CMD_75}}Se {{MATH_76}}, então {{MATH_77}}.{{CMD_78}}\n\t  {{CMD_79}}Temos {{MATH_80}}, pois {{MATH_81}} usa a variável {{MATH_82}} e {{MATH_83}} usa a variável {{MATH_84}}.{{CMD_85}}\n\t{{CMD_86}}\n{{CMD_87}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 0,
+  "hash": "79991f23a0d12d456cefc233e731d684bbc26673a7c3bfb10a0d9e4bd8f0bbf9",
+  "traducao": "Para cada entrada, exatamente uma saída{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Definimos o conceito de função.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 1,
+  "hash": "f91f89bc7199883dbd55e20aa694b3ef45de9658336e107a42005ad1fde3d73f",
+  "traducao": "A vida é complexa. Parte dessa complexidade vem do fato de que\nexistem muitas relações entre eventos aparentemente desconexos. Munidos\nda matemática, buscamos compreender o mundo. Talvez a relação\n``do mundo real'' mais relevante seja\n{{CMD_7}}\n  {{CMD_8}}a posição de um objeto em função do tempo.{{CMD_9}}\n{{CMD_10}}\nNossas observações parecem indicar que cada instante de tempo está\nassociado a um único posicionamento dos objetos no universo. Você\ntalvez já tenha ouvido o ditado\n{{CMD_11}}\n  {{CMD_12}}não se pode estar em dois lugares ao mesmo tempo,{{CMD_13}}\n{{CMD_14}}\ne é esse fato que motiva a nossa definição de função."
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 2,
+  "hash": "37cf807d62bb9d98c5371b958b911485ff1be7375daaa55fff03415976ad4107",
+  "traducao": "Uma {{CMD_15}} é uma relação entre conjuntos em que, para cada entrada,\nexiste exatamente uma saída.\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 3,
+  "hash": "4a6f5bcc8042c9f6c59101516ed9100ecdf635c0634fe011071a0f733f250f0d",
+  "traducao": "  Se a nossa função é a ``posição em função do tempo'' de algum\n  objeto, então a entrada é\n  {{CMD_17}}\n    {{CMD_18}}a posição{{CMD_19}}\n    {{CMD_20}}o tempo{{CMD_21}}\n    {{CMD_22}}nenhuma das anteriores{{CMD_23}}\n  {{CMD_24}}\n  e a saída é\n  {{CMD_25}}\n    {{CMD_26}}a posição{{CMD_27}}\n    {{CMD_28}}o tempo{{CMD_29}}\n    {{CMD_30}}nenhuma das anteriores{{CMD_31}}\n  {{CMD_32}}\n{{CMD_33}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 4,
+  "hash": "98ad511bb6f55bf692a5dc7661f6befeeef01dc4e1ff7d9d3997a2259b837d0f",
+  "traducao": "Algo tão simples quanto um dicionário poderia ser pensado como uma relação,\njá que ele associa {{CMD_34}}palavras{{CMD_35}} a {{CMD_36}}definições{{CMD_37}}. No entanto, um\ndicionário não é uma função, pois há palavras com várias\ndefinições. Por outro lado, se cada palavra tivesse uma única\ndefinição, então um dicionário seria uma função."
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 5,
+  "hash": "32332f5367140a933547862a9264214ab67aa22fafd26decf7fe42d0a68c9301",
+  "traducao": "  Quais das alternativas a seguir são funções?\n  {{CMD_38}}\n    {{CMD_39}}Associar palavras à sua definição em um dicionário.{{CMD_40}}\n    {{CMD_41}}Dado um objeto se deslocando pelo espaço, associar\n      o tempo à posição do objeto no espaço.{{CMD_42}}\n      {{CMD_43}}Associar pessoas à sua data de nascimento.{{CMD_44}}\n      {{CMD_45}}Associar mães aos seus filhos.{{CMD_46}}\n  {{CMD_47}}\n  {{CMD_48}}{{CMD_49}}\n    {{CMD_50}}\n    {{CMD_51}} Como as palavras podem ter mais de uma definição, ``relacionar\n      palavras à sua definição em um dicionário'' não é uma função.\n    {{CMD_52}} Como, em qualquer instante dado, os objetos não podem estar ``em dois lugares\n      ao mesmo tempo'', isto é uma função.\n    {{CMD_53}} Como cada pessoa tem apenas uma data de nascimento, ``relacionar\n      pessoas à sua data de nascimento'' é uma função.\n      {{CMD_54}} Como as mães podem ter mais (ou menos) de um filho,\n        ``relacionar mães aos seus filhos'' não é uma função.\n    {{CMD_55}}\n  {{CMD_56}}\n{{CMD_57}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 6,
+  "hash": "734c0badfea29ced48295e90ac4cf361d8eaaa98caaa3d30cf6e97f08dcb345f",
+  "traducao": "O que esperamos convencê-lo é de que as afirmações a seguir são verdadeiras:\n{{CMD_58}}\n{{CMD_59}} A definição de função está bem fundamentada em um contexto real.\n{{CMD_60}} A definição de função é flexível o bastante para poder ser\n  usada na modelagem de uma ampla gama de fenômenos.\n{{CMD_61}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 7,
+  "hash": "8a3d4bb8fecca4a43c44e0dd218de00c9ea0400d5424abf35d298392885b9038",
+  "traducao": "Sempre que falamos de funções, devemos dizer explicitamente\nque tipo de coisas são as entradas e que tipo de coisas são as\nsaídas. Em cálculo, as funções frequentemente definem uma relação de (um subconjunto\nde) os números reais (denotados por {{MATH_62}}) em (um subconjunto de) os números\nreais."
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 8,
+  "hash": "3d33c0d8c7cb96de72f725a6c21cdaa92cbb53977dc3b039455287ab01785768",
+  "traducao": "  Chamamos o conjunto das entradas de uma função de\n  {{CMD_63}}{{CMD_64}}, e chamamos o conjunto das saídas de uma\n  função de {{CMD_65}}{{CMD_66}}.\n{{CMD_67}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 9,
+  "hash": "49bdfd6f3c9cf6ff1df7ed7db699f6d79bc04f26bd2530d286fcdc8e67339c73",
+  "traducao": "Considere a função {{MATH_68}} que leva os números reais nos números\nreais tomando um número e associando-o ao seu cubo:\n{{ENV_69}}\ne assim por diante. Essa função pode ser {{CMD_70}}descrita{{CMD_71}} pela fórmula\n{{MATH_72}} ou pelo gráfico mostrado na figura abaixo:\n{{CMD_73}}\n{{ENV_74}}\n{{COMMENT_75}}\n{{COMMENT_76}}\n{{COMMENT_77}}\n{{COMMENT_78}}\n{{CMD_79}}\n{{CMD_80}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 10,
+  "hash": "2e4744ef780c07a2c1823441dbc93cba72d18894212c3cda35e266d0eb152633",
+  "traducao": "Uma função é uma relação (tal que, para cada entrada, existe exatamente\numa saída) entre conjuntos. A fórmula e o gráfico são apenas\ndescrições dessa relação.\n{{CMD_81}}\n{{CMD_82}} Uma fórmula {{CMD_83}}descreve{{CMD_84}} a relação usando símbolos.\n{{CMD_85}} Um gráfico {{CMD_86}}descreve{{CMD_87}} a relação usando figuras.\n{{CMD_88}}\nA {{CMD_89}}função é a relação em si{{CMD_90}}, e independe de como\nela é descrita.\n{{CMD_91}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 11,
+  "hash": "34615bf8a51a084044f61ad7ce2dd8a6691d0124241410aeaf6d29d69c5a1d2c",
+  "traducao": "Nosso próximo exemplo talvez seja uma função nova para você. É a\n{{CMD_92}}função maior inteiro{{CMD_93}}."
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 12,
+  "hash": "71df1bdd2dcda6173377b934f761253e9abcb1dd8c5aa2c256c687a72a11f229",
+  "traducao": "Considere a {{CMD_94}}. Essa função associa\na cada número real {{MATH_95}} o maior inteiro menor do que ou igual a {{MATH_96}}."
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 13,
+  "hash": "06bd0cba823e31622f2951a66776a81d93d412e5e06bae1189480d792566d581",
+  "traducao": "Às vezes as pessoas escrevem isso como {{MATH_97}}, em que esses\nsímbolos esquisitos significam exatamente as palavras acima que descrevem a\nfunção. Para o seu deleite visual, aqui está um gráfico da função\nmaior inteiro:\n{{CMD_98}}\n{{ENV_99}}\n{{COMMENT_100}}\n{{COMMENT_101}}\n{{COMMENT_102}}\n{{COMMENT_103}}\n{{CMD_104}}\nObserve que aqui temos várias entradas que produzem\na mesma saída. Isso não é um problema! Para ser uma função,\nbasta verificar que, para cada entrada, existe exatamente uma saída,\ne essa condição está satisfeita.\n{{CMD_105}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 14,
+  "hash": "658fb9ad9197b7e79f04f00dfb68dfb5b3f351caca7387e4ea601b2297e3c075",
+  "traducao": "  Calcule:\n  {{MATH_106}}\n  {{CMD_107}}\n  Calcule:\n  {{MATH_108}}\n{{CMD_109}}\n{{CMD_110}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 15,
+  "hash": "3db6b3e05eb92f179cf3e169fa0c5173b4a0908239440ec5a193640af583b057",
+  "traducao": "Note que ambas as funções descritas acima passam no chamado\n{{CMD_111}}teste da reta vertical{{CMD_112}}."
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 16,
+  "hash": "985b2495cc516d5a0ec35c5a8da19a9b6691f45f9f926a2cca3d7f9ed6f70efe",
+  "traducao": "A curva {{MATH_113}} representa {{MATH_114}} como função de {{MATH_115}} em {{MATH_116}} se, e\nsomente se, a reta vertical {{MATH_117}} intersecta a curva {{MATH_118}} em\nexatamente um ponto. Isso é chamado de {{CMD_119}}.\n{{CMD_120}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 17,
+  "hash": "0419efe355c936cbf55503236317e4c0a3efef1a80ec76b64512ed4d5e0a3894",
+  "traducao": "Às vezes o domínio e a imagem são o conjunto {{CMD_121}}inteiro{{CMD_122}} dos números\nreais, que em notação de intervalo é denotado por {{MATH_123}}. Nos próximos exemplos, mostramos que\nnem sempre é esse o caso.\n(Ocasionalmente você verá uma notação alternativa para o conjunto de todos os números reais, {{MATH_124}}. Para os nossos propósitos, conjuntos como o domínio e a imagem devem ser dados em notação de intervalo.)"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 18,
+  "hash": "9f0558ea80ae2c68189c2b70b46945578d3ceb82c66242def5393ee6a57a86ad",
+  "traducao": "Considere a função que associa a cada número real não negativo a sua\nraiz quadrada positiva. Essa função pode ser descrita pela\nfórmula\n{{MATH_125}}\nO domínio é {{MATH_126}}, que escrevemos em notação de intervalo como\n{{MATH_127}}. A imagem é {{MATH_128}}. Aqui está\n    um gráfico de {{MATH_129}}:\n{{CMD_130}}\n{{ENV_131}}\n{{COMMENT_132}}\n{{COMMENT_133}}\n{{COMMENT_134}}\n{{COMMENT_135}}\n{{CMD_136}}\n{{CMD_137}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 19,
+  "hash": "733febcf56a4d496958a31e4bae5c2bfa913f1e8b15ebd7559ec4b6a7cbe1188",
+  "traducao": "Para realmente evidenciar a diferença entre uma função e a sua\ndescrição, vamos considerar um exemplo de uma função com duas\ndescrições diferentes."
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 20,
+  "hash": "9ab8f12164a0110fc1734a8e783072ecff3ae2744ad330ec06789e3a8743495f",
+  "traducao": "  Explique por que {{MATH_138}}.\n  {{CMD_139}}\n    Embora {{MATH_140}} possa parecer se simplificar para apenas {{MATH_141}}, vamos ver\n    o que acontece quando substituímos alguns valores.\n    {{MATH_142}}\n    Seja {{MATH_143}}. Vemos que, para qualquer {{MATH_144}} negativo, {{MATH_145}} e, portanto, {{MATH_146}}. Logo\n    {{MATH_147}}. Em vez disso, vemos que {{MATH_148}}. O\n    domínio de {{MATH_149}} é {{MATH_150}} e a imagem é\n    {{MATH_151}}. Para o seu deleite visual, incluímos um gráfico de\n      {{MATH_152}}:\n    {{CMD_153}}\n      {{ENV_154}}\n    {{CMD_155}}\n  {{CMD_156}}\n{{CMD_157}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 21,
+  "hash": "c1a43e1120bac78308d9d0a5b03e6fc5043311a010c462649d628884c99cc351",
+  "traducao": "Por fim, vamos considerar uma função cujo domínio é o conjunto de todos os números reais\nexceto um único ponto."
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 22,
+  "hash": "bc2edee891681eff52ab8fd03409560b33e08d653e08a5d360e5ad03712b1ee3",
+  "traducao": "  As funções\n  {{MATH_158}}\n  e\n  {{MATH_159}}\n  são a mesma função?\n  {{CMD_160}}\n  Vamos usar uma sequência de passos para pensar sobre essa pergunta.\n    Primeiro, e se compararmos os gráficos? Aqui vemos um gráfico de\n    {{MATH_161}}:\n    {{CMD_162}}\n      {{ENV_163}}\n{{COMMENT_164}}\n{{COMMENT_165}}\n{{COMMENT_166}}\n{{COMMENT_167}}\n{{CMD_168}}\nPor outro lado, aqui está um gráfico de {{MATH_169}}:\n{{CMD_170}}\n{{ENV_171}}\n{{COMMENT_172}}\n{{COMMENT_173}}\n{{COMMENT_174}}\n{{COMMENT_175}}\n{{CMD_176}}\nSegundo, e se compararmos os domínios? Não podemos calcular {{MATH_177}} em\n{{MATH_178}}. É aí que {{MATH_179}} não está definida. Por outro\nlado, não há nenhum valor de {{MATH_180}} em que não possamos calcular {{MATH_181}}. Em outras\npalavras, o domínio de {{MATH_182}} é {{MATH_183}}."
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 23,
+  "hash": "7795a50b8b9f1db61a6d8993bf03a4c39cc23ef28a6bed92f3f6a0cb49ffe33e",
+  "traducao": "Como essas duas funções não têm o mesmo gráfico e não\ntêm o mesmo domínio, elas não podem ser a mesma função."
+ },
+ {
+  "arquivo": "understandingFunctions/digInForEachInputExactlyOneOutput.tex",
+  "ordem": 24,
+  "hash": "195f541c415089552bd9be4a9dbbff38f56e54d67dce901b46b2c7b0b396e061",
+  "traducao": "No entanto, se olharmos para as duas funções em todos os pontos exceto em {{MATH_184}},\npodemos dizer que {{MATH_185}}. Em outras palavras,\n{{MATH_186}}\nCom esse exemplo, vemos que é fundamental levar em conta o domínio e a\nimagem de uma função.\n  {{CMD_187}}\n{{CMD_188}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInCompositionOfFunctions.tex",
+  "ordem": 0,
+  "hash": "955480a5ff43eaae78ad0b2e3136ff1bb23b1110da9a41b54bd4ddedc3b254cb",
+  "traducao": "Composições de funções{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Discutimos composições de funções.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInCompositionOfFunctions.tex",
+  "ordem": 1,
+  "hash": "71628c95a0a80778f8ed0f643d8839af52b2501108eef08d0a0934a60ae6c112",
+  "traducao": "Dadas duas funções, podemos compô-las. Vamos dar um exemplo em um\n``contexto real''."
+ },
+ {
+  "arquivo": "understandingFunctions/digInCompositionOfFunctions.tex",
+  "ordem": 2,
+  "hash": "042e1db2daa6c0a354c167655745c24cfc9c536ab5067412b1b514ad7dfae772",
+  "traducao": "  Seja\n  {{MATH_7}}\n  e seja\n  {{MATH_8}}\n  O que {{MATH_9}} representa nesse contexto?\n  {{CMD_10}}\n    Com {{MATH_11}}, primeiro relacionamos a distância que se pode dirigir com\n    {{MATH_12}} galões de gasolina, e isso, por sua vez, é determinado\n    pela quantidade de dinheiro {{MATH_13}} que se tem. Logo, {{MATH_14}} representa a distância que\n    se pode dirigir com {{MATH_15}} dólares.\n  {{CMD_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInCompositionOfFunctions.tex",
+  "ordem": 3,
+  "hash": "cba8a99092c54f6edc354a908075ee55e926d1ca6db4ce5de799a443372878fd",
+  "traducao": "A composição de funções pode ser pensada como colocar uma função\ndentro da outra. Usamos a notação\n{{MATH_18}}\n{{CMD_19}}\n  A composição {{MATH_20}} só faz sentido se\n  {{MATH_21}}\n{{CMD_22}}\nEm outras palavras, o domínio de uma função composta {{MATH_23}} é o conjunto das entradas {{MATH_24}} no domínio de {{MATH_25}} para as quais {{MATH_26}} está no domínio de {{MATH_27}}."
+ },
+ {
+  "arquivo": "understandingFunctions/digInCompositionOfFunctions.tex",
+  "ordem": 4,
+  "hash": "1ca5f7677bbe9928a7929ecf7f2a6a3ed8556789ae8b7dd62575aedd39606a2c",
+  "traducao": " Suponha que temos funções {{MATH_28}} e {{MATH_29}} com:\n{{ENV_30}}\nDetermine a fórmula de {{MATH_31}} e diga qual é o seu domínio.\n{{CMD_32}}\n  A imagem de {{MATH_33}} é {{MATH_34}}, que é igual ao\n  domínio de {{MATH_35}}. Isso significa que o domínio de {{MATH_36}} é {{MATH_37}}, pois, para qualquer {{MATH_38}} em {{MATH_39}},\n  o valor {{MATH_40}} está definido e estará no domínio de {{MATH_41}}.\n  Em seguida, substituímos {{MATH_42}} em cada ocorrência de {{MATH_43}} encontrada\n  em\n  {{MATH_44}}\n  e assim\n  {{ENV_45}}\n{{CMD_46}}\n{{CMD_47}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInCompositionOfFunctions.tex",
+  "ordem": 5,
+  "hash": "c6e1287dc830e71f447e73fba84ec161363458b79e00edd7d427ecb33c13b83b",
+  "traducao": "Agora vamos tentar um exemplo com um domínio mais restrito."
+ },
+ {
+  "arquivo": "understandingFunctions/digInCompositionOfFunctions.tex",
+  "ordem": 6,
+  "hash": "b6c86530b7e68b94e0f401146b7190e932dd607249500b1085897671da0fb22e",
+  "traducao": " Suponha que temos funções {{MATH_48}} e {{MATH_49}} com:\n{{ENV_50}}\nDetermine uma fórmula para {{MATH_51}} e diga qual é o seu domínio.\n{{CMD_52}}\n  O domínio de {{MATH_53}} é {{MATH_54}}. A partir disso, podemos ver que a\n  imagem de {{MATH_55}} é o intervalo {{MATH_56}}. Esse intervalo está contido\n  no domínio de {{MATH_57}}.\n  Isso significa que o domínio de {{MATH_58}} é {{MATH_59}}.\n\n  Em seguida, substituímos {{MATH_60}} em cada ocorrência de {{MATH_61}} encontrada em\n  {{MATH_62}}\n  e assim\n  {{ENV_63}}\n  Podemos resumir nossos resultados como uma função definida por partes, o que\n  fica um tanto interessante:\n  {{MATH_64}}\n{{CMD_65}}\n{{CMD_66}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInCompositionOfFunctions.tex",
+  "ordem": 7,
+  "hash": "05125900693a7c14abb335fb7b342ca4f929d9b6bb04586d84a42de0c28b5c18",
+  "traducao": " Suponha que temos funções {{MATH_67}} e {{MATH_68}} com:\n{{ENV_69}}\nDetermine a fórmula de {{MATH_70}} e diga qual é o seu domínio.\n{{CMD_71}}\n  Embora o domínio de {{MATH_72}} seja {{MATH_73}}, a sua imagem é apenas\n  {{MATH_74}}. Esse é exatamente o domínio de {{MATH_75}}.\n  Isso significa que, para qualquer {{MATH_76}} em {{MATH_77}}, o valor de {{MATH_78}} está em {{MATH_79}}, ou seja, ele pertence ao\n  domínio de {{MATH_80}}.\n  Isso significa que o domínio de {{MATH_81}} é {{MATH_82}}. {{COMMENT_83}}\n  Agora podemos substituir {{MATH_84}} em cada ocorrência de\n  {{MATH_85}} encontrada em\n  {{MATH_86}}\n  e assim\n  {{ENV_87}}\n{{CMD_88}}\n{{CMD_89}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInCompositionOfFunctions.tex",
+  "ordem": 8,
+  "hash": "a7a5c4027e7957a553300df09d820bdc6a4dff76ffcf7cab1c759c1fe10502f3",
+  "traducao": "Compare e contraste os dois exemplos anteriores. Usamos as mesmas\nfunções em cada exemplo, mas as compusemos de maneiras diferentes. As composições\nresultantes não são apenas diferentes: elas têm domínios diferentes! Ao determinar a composição de duas funções diferentes,\nlembre-se de que a ordem importa!"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 0,
+  "hash": "eae00ff70a1aaf46eff319a516a2edff440c0004a13ecf94bb96ddb2332a58e9",
+  "traducao": "Inversas de funções{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Aqui ``desfazemos'' funções.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 1,
+  "hash": "943079c40345a894da8114581f54e70fdb133532b95d41181d954f66675f5836",
+  "traducao": "Se uma função leva cada ``entrada'' a exatamente uma ``saída'', uma\ninversa dessa função leva cada ``saída'' a exatamente uma\n``entrada''.  Precisamos de uma definição mais formal para de fato dizer algo\ncom rigor."
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 2,
+  "hash": "965e2fc9da796f27614d727686a8637a6a98544dbd0e2876ed8c9049ae6ce94d",
+  "traducao": "  Seja {{MATH_7}} uma função com domínio {{MATH_8}} e imagem {{MATH_9}}:\n  {{CMD_10}}\n    {{ENV_11}}\n  {{CMD_12}}\n  Seja {{MATH_13}} uma função com domínio {{MATH_14}} e imagem {{MATH_15}}:\n  {{CMD_16}}\n    {{ENV_17}}\n  {{CMD_18}}\n  Dizemos que {{MATH_19}} e {{MATH_20}} são {{CMD_21}} uma da outra se {{MATH_22}} para todo {{MATH_23}} em {{MATH_24}} e também {{MATH_25}} para todo {{MATH_26}} em {{MATH_27}}.\n  Nesse caso, às vezes escrevemos {{MATH_28}}.\n  {{CMD_29}}\n    {{ENV_30}}\n  {{CMD_31}}\n  e\n  {{CMD_32}}\n    {{ENV_33}}\n  {{CMD_34}}\n  Assim, poderíamos reformular essas condições como\n  {{MATH_35}}\n  {{CMD_36}}\nEssas duas equações simples são um pouco mais sutis do que\nparecem à primeira vista."
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 3,
+  "hash": "13f84952c82fac74ff2c0401a0ea1d44e3d6dfa855e690fa58d3143150e5ce46",
+  "traducao": "  Seja {{MATH_37}} uma função.  Se o ponto {{MATH_38}} está no gráfico de {{MATH_39}},\n  que ponto deve estar no gráfico de {{MATH_40}}?\n  {{CMD_41}}\n  {{MATH_42}}\n  {{CMD_43}}\n  {{CMD_44}}\n    Como {{MATH_45}}, devemos ter {{MATH_46}}, logo {{MATH_47}}.  Portanto, {{MATH_48}} está no gráfico de {{MATH_49}}.  Essa é uma regra\n    geral.  Se {{MATH_50}} está no gráfico de {{MATH_51}}, então {{MATH_52}} estará no\n    gráfico de {{MATH_53}}.\n  {{CMD_54}}\n{{CMD_55}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 4,
+  "hash": "a3c33ad6bf70115373ed338fd3270f9bb1756cd5fac93d0a704d7e456a05dfc9",
+  "traducao": "  Essa notação pode ser muito confusa.  Fique atento:\n  {{ENV_56}}\n{{CMD_57}}\n{{CMD_58}}\n  Qual das alternativas a seguir é a notação para a inversa da função\n  {{MATH_59}} no intervalo {{MATH_60}}?\n  {{CMD_61}}\n    {{CMD_62}}{{MATH_63}}{{CMD_64}}\n    {{CMD_65}}{{MATH_66}}{{CMD_67}}\n  {{CMD_68}}\n  {{CMD_69}}\n    {{MATH_70}} é a função inversa de {{MATH_71}} no\n    intervalo {{MATH_72}}."
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 5,
+  "hash": "e76bf59e4f658f7f4ec65266840804fda0067e8b42713adc866e82aa231f29cf",
+  "traducao": "    Por outro lado,\n    {{MATH_73}}\n  {{CMD_74}}\n{{CMD_75}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 6,
+  "hash": "77b891e0efcba6b554eedc2144edf890fb91d66b8cf90d0a361888aea8e3daf4",
+  "traducao": "  Considere o gráfico de {{MATH_76}} abaixo\n  {{CMD_77}}\n    {{ENV_78}}\n  {{CMD_79}}\n  A função {{MATH_80}} é invertível em {{MATH_81}}? (Isto é, {{MATH_82}} existe?)\n  \t{{CMD_83}}\n\t\tExiste exatamente um valor de {{MATH_84}} com {{MATH_85}}?\n  \t{{CMD_86}}\n  {{CMD_87}}\n  {{CMD_88}}\n    {{CMD_89}}sim{{CMD_90}}\n    {{CMD_91}}não{{CMD_92}}\n  {{CMD_93}}\n  {{CMD_94}}\n    {{MATH_95}}\n  {{CMD_96}}\n  {{CMD_97}}\n{{CMD_98}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 7,
+  "hash": "a96af409c7aeb49c6012de36c4d8b677c0b29059b0608b9f9d66ce9b18a38c44",
+  "traducao": "Até agora, só lidamos com exemplos abstratos.  Vamos ver\nse conseguimos ancorar essa ideia em um contexto da vida real."
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 8,
+  "hash": "9edf680312701e590725edb5731fb99d4727106415a9feef527431df64860cf2",
+  "traducao": "  A função\n  {{MATH_99}}\n  recebe uma temperatura {{MATH_100}} em graus Celsius e a converte para Fahrenheit.\n  O que a inversa\n  dessa função diz a você? Qual é a inversa dessa função?"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 9,
+  "hash": "6d207bb5a6e0e90b9acf281d1ff2fff309e4c7eb9b0d7e8438b126f79c19949b",
+  "traducao": "    Se {{MATH_101}} converte medidas de temperatura em Celsius para medidas em\n    Fahrenheit, então {{MATH_102}} converte medidas de temperatura em Fahrenheit\n    para medidas em Celsius.\n\n    Para encontrar a função inversa, primeiro observe que\n    {{MATH_103}}\n    Agora escreva por extenso o lado esquerdo da equação\n    {{MATH_104}}\n    e resolva para {{MATH_105}}.\n    {{ENV_106}}\n    Logo, {{MATH_107}} é a função\n    inversa de {{MATH_108}}, que converte uma medida em Fahrenheit de volta para\n    uma medida em Celsius.\n\n    Por fim, poderíamos conferir nosso trabalho mais uma vez usando a definição de funções inversas.\n     Já garantimos que\n    {{MATH_109}}\n    pois resolvemos para {{MATH_110}} em nosso cálculo.  Por outro lado,\n      {{ENV_111}}\no que mostra que {{MATH_112}}.\n  {{CMD_113}}\n{{CMD_114}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 10,
+  "hash": "ce7508b1353ef99354fd956d3352fab07da91b2e5df2d929b55407149aa67f62",
+  "traducao": "Examinamos várias funções para determinar suas funções\ninversas, mas essa história ainda não acabou.  Nem toda função\ntem uma inversa, então precisamos aprender a verificar quando isso\nacontece."
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 11,
+  "hash": "10dfec3eeca2a7dd15d7efc83a25615334eb94008d000c6c251413a02ef08ffe",
+  "traducao": "  Seja {{MATH_115}} uma função, e imagine que os pontos {{MATH_116}} e\n  {{MATH_117}} estão ambos em seu gráfico.  {{MATH_118}} poderia ter uma função inversa?\n  {{CMD_119}}\n  {{CMD_120}}\n    {{CMD_121}}sim{{CMD_122}}\n    {{CMD_123}}não{{CMD_124}}\n  {{CMD_125}}\n  {{CMD_126}}\n    A função {{MATH_127}} {{CMD_128}}não{{CMD_129}} poderia ter uma função inversa.\n    Imagine que tivesse.  Então {{MATH_130}} e {{MATH_131}}.  Assim, teríamos tanto {{MATH_132}} quanto {{MATH_133}}.  Como\n    uma {{CMD_134}}função{{CMD_135}} não pode levar a mesma entrada a duas saídas\n    diferentes, {{MATH_136}} não pode ter uma função inversa.\n  {{CMD_137}}\n  {{CMD_138}}\n{{CMD_139}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 12,
+  "hash": "e8c48f6fcbd6ab4deaf93c4176195c23c56c938b8481e9b15fb1437a35b32e6e",
+  "traducao": "Olhe novamente para a última pergunta.  Se duas entradas diferentes de uma\nfunção têm a mesma saída, não há esperança de que essa função\ntenha uma função inversa.  Por quê?  Porque a função inversa\ntambém precisa ser uma função, e uma função só pode ter uma\nsaída para cada entrada.  Mais especificamente, temos a seguinte\ndefinição."
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 13,
+  "hash": "0b2835d521f2802c77a62ac136f31e73369dc2e2430e12f5b83bd69ace12650f",
+  "traducao": "Uma função é chamada de {{CMD_140}} se cada valor de saída corresponde\na exatamente um valor de entrada.\n{{CMD_141}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 14,
+  "hash": "961f0f3f1bced5b9365b3664f0b502d059e44763f5d6ae7bf2f10e77844033cf",
+  "traducao": "  Quais das alternativas a seguir são funções que também são injetoras?\n  {{CMD_142}}\n    {{CMD_143}}Associar palavras ao seu significado em um dicionário.{{CMD_144}}\n    {{CMD_145}}Dado um corredor correndo para a frente em uma pista reta,\n      associar o tempo à posição do corredor.{{CMD_146}}\n    {{CMD_147}}Associar pessoas à sua data de nascimento.{{CMD_148}}  {{CMD_149}}Associar\n      mães a seus filhos.{{CMD_150}}\n  {{CMD_151}}\n  {{CMD_152}}{{CMD_153}}\n    {{CMD_154}}\n    {{CMD_155}} Como palavras podem ter mais de uma definição, ``associar\n      palavras à sua definição em um dicionário'' não é uma função.\n    {{CMD_156}} Como o corredor está correndo para a frente na pista reta,\n      cada instante corresponde a uma posição, e cada posição\n      corresponde a um instante. Logo, isso dá uma função injetora.\n    {{CMD_157}} Como cada pessoa tem apenas uma data de nascimento, ``associar\n      pessoas à sua data de nascimento'' é uma função. No entanto, muitas pessoas\n      têm a mesma data de nascimento, logo essa função não é injetora.\n      {{CMD_158}} Como mães podem ter mais (ou menos) de um filho,\n        ``associar mães a seus filhos'' não é uma função.\n    {{CMD_159}}\n  {{CMD_160}}\n{{CMD_161}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 15,
+  "hash": "5391b628c66d30a23c152af3b7d543e69d0800837df4a5456d7f8492aa734914",
+  "traducao": "Quais das funções a seguir são injetoras?  Selecione todas as alternativas\nque se aplicam.\n{{CMD_162}}\n{{CMD_163}}{{MATH_164}}{{CMD_165}}\n{{CMD_166}}{{MATH_167}}{{CMD_168}}\n{{CMD_169}}{{MATH_170}}{{CMD_171}}\n{{CMD_172}}{{MATH_173}}{{CMD_174}}\n{{CMD_175}}\n{{CMD_176}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 16,
+  "hash": "6be2af207cf33c0f43687d20e7ecefa3ba28ff71a987d219f46e90880ad8db0d",
+  "traducao": "Você deve se lembrar de que um gráfico dá {{MATH_177}} como função de {{MATH_178}} se toda\nreta vertical cruza o gráfico no máximo uma vez, e chamamos isso\nde {{CMD_179}}. De modo semelhante, uma função é injetora\nse toda reta horizontal cruza o gráfico no máximo uma vez, e chamamos isso\nde {{CMD_180}}."
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 17,
+  "hash": "0417780f2873e76066d73fcabbb3cf3901d7080e6e10bdd368e00e054f178c37",
+  "traducao": "  Uma função é injetora em seu domínio se a reta horizontal {{MATH_181}}\n  intersecta a curva {{MATH_182}} em exatamente um ponto, para todos os valores {{MATH_183}} na imagem de {{MATH_184}}. Isso é chamado\n  de {{CMD_185}}.\n{{CMD_186}}\nAbaixo, apresentamos o gráfico de {{MATH_187}}. Embora esse gráfico passe\nno teste da reta vertical e, portanto, represente {{MATH_188}} como função de {{MATH_189}},\nele não passa no teste da reta horizontal, logo a função não é\ninjetora.\n{{CMD_190}}\n{{ENV_191}}\n{{CMD_192}}\nEmbora a reta {{MATH_193}} intersecte a curva {{MATH_194}} exatamente uma vez, a função {{MATH_195}} {{CMD_196}}não é injetora{{CMD_197}} em seu domínio, pois a reta {{MATH_198}} intersecta a curva duas vezes."
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 18,
+  "hash": "8fac057b04704125c24d399d0cbeff7c3080bd26caa9f3c3b6e094525365b292",
+  "traducao": "Como discutimos, só podemos encontrar a inversa de uma função quando\nela é injetora.  Se uma função não é injetora, mas ainda assim queremos\numa inversa, precisamos restringir o domínio. Vamos ver o que isso significa nos\npróximos exemplos."
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 19,
+  "hash": "029c5b4ab62b9a7b34d748a9130dc2fced2a246eb8377a58fa9ff57092638174",
+  "traducao": "\tConsidere o gráfico da função {{MATH_199}} abaixo:\n\t{{CMD_200}}\n          {{ENV_201}}\n        {{CMD_202}}\nEm quais dos intervalos a seguir {{MATH_203}} é injetora?\n{{CMD_204}}\n{{CMD_205}}{{MATH_206}}{{CMD_207}}\n{{CMD_208}}{{MATH_209}}{{CMD_210}}\n{{CMD_211}}{{MATH_212}}{{CMD_213}}\n{{CMD_214}}{{MATH_215}}{{CMD_216}}\n{{CMD_217}}{{MATH_218}}{{CMD_219}}\n{{CMD_220}}\n{{CMD_221}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 20,
+  "hash": "e7d923b8bbca647b2e890deee38b3f633cb54627f8139537e84b408bf1097262",
+  "traducao": "Essa ideia de restringir o domínio é fundamental para entender\nfunções como {{MATH_222}}."
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 21,
+  "hash": "515cc7f3978b048a7244155df5564d61a0d5a9a0e97188fb211f8d1de63fb7fb",
+  "traducao": "  Definimos {{MATH_223}} como a raiz quadrada positiva, para que\n  possamos ter certeza de que {{MATH_224}} é uma função. Pensando na raiz quadrada\n  como a inversa da função que eleva ao quadrado, podemos ver a questão um\n  pouco mais claramente.  Há dois valores de {{MATH_225}} cujo quadrado é {{MATH_226}}.\n  {{MATH_227}}\n  Como exigimos que {{CMD_228}}a raiz quadrada seja uma função{{CMD_229}}, devemos\n  ter apenas um valor de saída quando substituímos {{MATH_230}}.  Escolhemos a\n  raiz quadrada positiva, o que significa que\n  {{MATH_231}}\n{{CMD_232}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 22,
+  "hash": "7d1a244a56c179279a167f6965150aed54de01618742191ac64a1aab3c588be2",
+  "traducao": "  Considere a função\n  {{MATH_233}}\n  {{MATH_234}} tem uma inversa? Se sim, qual é? Se não, tente\n  restringir o domínio de {{MATH_235}} e encontre uma inversa no domínio\n  restrito.\n  {{CMD_236}}\n    Neste caso, {{MATH_237}} não é injetora. No entanto, ela é injetora no\n    intervalo {{MATH_238}}. Logo, podemos encontrar uma inversa de {{MATH_239}} nesse\n      intervalo. Substituímos {{MATH_240}} em {{MATH_241}} e escrevemos\n      {{ENV_242}}\n      Como o domínio de {{MATH_243}} é {{MATH_244}}, sabemos que {{MATH_245}} é\n        positivo.  Isso significa que podemos extrair a raiz quadrada de cada lado\n        da equação e obter\n        {{MATH_246}}\n        {{CMD_247}}\n          {{ENV_248}}\n{{COMMENT_249}}\n{{COMMENT_250}}\n{{COMMENT_251}}\n{{COMMENT_252}}\n{{CMD_253}}\n{{CMD_254}}\n{{CMD_255}}\n{{CMD_256}}\n  Considere o gráfico de {{MATH_257}} abaixo\n  {{CMD_258}}\n    {{ENV_259}}\n  {{CMD_260}}\n  A função  {{MATH_261}} é injetora no intervalo {{MATH_262}}?\n  {{CMD_263}}\n    {{CMD_264}}sim{{CMD_265}}\n    {{CMD_266}}não{{CMD_267}}\n  {{CMD_268}}\n  {{CMD_269}}\n  Seja {{MATH_270}} a função inversa de {{MATH_271}} restrita ao domínio {{MATH_272}}.\n  {{CMD_273}}\n  {{CMD_274}} Determine o domínio de {{MATH_275}}.\n    {{CMD_276}}\n      {{MATH_277}}\n    {{CMD_278}}\n    {{CMD_279}} Determine o valor de {{MATH_280}}.\n      {{CMD_281}}\n        {{MATH_282}}\n      {{CMD_283}}\n      {{CMD_284}} Escolha a afirmação correta a respeito de {{MATH_285}}.\n  {{CMD_286}}\n    {{CMD_287}}{{MATH_288}}{{CMD_289}}\n    {{CMD_290}}{{MATH_291}}{{CMD_292}}\n    {{CMD_293}}{{MATH_294}} não está definido{{CMD_295}}\n  {{CMD_296}}\n    {{CMD_297}}\n  {{CMD_298}}\n{{CMD_299}}"
+ },
+ {
+  "arquivo": "understandingFunctions/digInInversesOfFunctions.tex",
+  "ordem": 23,
+  "hash": "fe0339f133aa9416c4a383e2d586fe11891be3b06f60363dc27867631bde3eec",
+  "traducao": "Considere a função\n{{MATH_300}}\nA função {{MATH_301}} tem uma inversa? Se sim, qual é? Se não, tente\nrestringir o domínio de {{MATH_302}} e encontre uma inversa no domínio\nrestrito.\n{{CMD_303}}\n  Neste caso, {{MATH_304}} é injetora. Podemos escrever\n  {{ENV_305}}\nPara seu deleite visual, apresentamos um gráfico de {{MATH_306}} e de\n{{MATH_307}}. Observe que o gráfico de {{MATH_308}} é a imagem\nde {{MATH_309}} refletida em relação à reta {{MATH_310}}.\n{{CMD_311}}\n{{ENV_312}}\n{{COMMENT_313}}\n{{COMMENT_314}}\n{{COMMENT_315}}\n{{COMMENT_316}}\n{{CMD_317}}\n{{CMD_318}}\n{{CMD_319}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/01_06_ex_1-12_05.tex",
+  "ordem": 0,
+  "hash": "60b1cb5391f2a6e9dd0f67a5bb44bfc2ef96ddab53b40bc22f1e85559b9ea1d4",
+  "traducao": "Indique o domínio de {{MATH_1}}.\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/01_06_ex_1-12_08.tex",
+  "ordem": 0,
+  "hash": "60b1cb5391f2a6e9dd0f67a5bb44bfc2ef96ddab53b40bc22f1e85559b9ea1d4",
+  "traducao": "Indique o domínio de {{MATH_1}}.\n{{MATH_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/01_06_ex_1-12_11.tex",
+  "ordem": 0,
+  "hash": "19007ed6a083d7de204c3aae6c2a23e580473f5a127f29d60c33c79f99d026b7",
+  "traducao": "Indique o domínio de {{MATH_1}}.\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/01_06_ex_1-12_12.tex",
+  "ordem": 0,
+  "hash": "19007ed6a083d7de204c3aae6c2a23e580473f5a127f29d60c33c79f99d026b7",
+  "traducao": "Indique o domínio de {{MATH_1}}.\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/01_06_ex_42-57.tex",
+  "ordem": 0,
+  "hash": "8a5c95afcf8902d6b86dd9b7fffee8333468a6c129bb41f88ea15c7593e9f694",
+  "traducao": "No próximo conjunto de problemas, use o gráfico de {{MATH_1}} dado abaixo\npara responder à pergunta.\n{{CMD_2}}\n  {{ENV_3}}\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}} Resolva {{MATH_7}}. {{MATH_8}}\n{{CMD_9}} Liste as coordenadas {{MATH_10}} dos pontos em que o gráfico cruza o eixo {{MATH_11}}, em ordem da esquerda para a direita. Se não existir nenhum, escreva\n  DNE. {{MATH_12}}\n{{CMD_13}} Liste as coordenadas {{MATH_14}} dos pontos em que o gráfico cruza o eixo {{MATH_15}}, em ordem de baixo para cima. Se não existir nenhum, escreva\n  DNE. {{MATH_16}}\n{{CMD_17}} Liste os zeros de {{MATH_18}} da esquerda para a direita. Se não existir nenhum, escreva\n  DNE. {{MATH_19}}\n{{CMD_20}} Resolva {{MATH_21}} usando intervalos escritos da esquerda para a direita. {{MATH_22}}\n{{CMD_23}} Determine o número de soluções de {{MATH_24}}. {{MATH_25}}\n{{CMD_26}} Liste os intervalos em que {{MATH_27}} é crescente, escritos da esquerda para a direita. Se não existir nenhum, escreva DNE. {{MATH_28}}\n{{COMMENT_29}}\n{{CMD_30}} Restringindo ao domínio {{MATH_31}}, calcule {{MATH_32}}. {{MATH_33}}\n{{CMD_34}} Restringindo ao domínio {{MATH_35}}, calcule {{MATH_36}}. {{MATH_37}}\n{{CMD_38}}\n{{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/01_06_ex_78-85.tex",
+  "ordem": 0,
+  "hash": "e0d1b9951530ea2b5b89579911c0974c04103ee6887ee3025dbeb72631507c24",
+  "traducao": "Use o gráfico de {{MATH_1}}\n{{CMD_2}}\n  {{ENV_3}}\n{{CMD_4}}\n  e a tabela de {{MATH_5}}\n  {{MATH_6}}\n  para responder às perguntas abaixo."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/06_02_ex_16-29.tex",
+  "ordem": 0,
+  "hash": "14b1c705187e65887f94634c1f1b5556588808ba0b48ccd2c0a20d00be3a23f7",
+  "traducao": "Use as propriedades dos logaritmos para escrever a expressão como um único\nlogaritmo."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/06_02_ex_30-33.tex",
+  "ordem": 0,
+  "hash": "c1e69d2511f8c4f25108ccfa2da350adb68414c012f8542afc0834b7a06bdcb4",
+  "traducao": "Use a fórmula de mudança de base apropriada para converter a expressão dada\nem uma expressão com a base indicada."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/06_02_ex_30-33.tex",
+  "ordem": 1,
+  "hash": "d61ff6a63dc6b962156fb6550e4f513de87aba4bfa569a5276f5d80695bc4616",
+  "traducao": " = {{MATH_1}}\n{{CMD_2}} {{MATH_3}}={{MATH_4}}\n{{CMD_5}} {{MATH_6}} ={{MATH_7}}\n{{CMD_8}} {{MATH_9}}={{MATH_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainComposition1.tex",
+  "ordem": 0,
+  "hash": "6a29eb1e8a50e5f617606aa901ba2a930b6c23a26b13a4540a5bb46f26849ccd",
+  "traducao": "A função {{MATH_1}} pode ser expressa como uma composição {{MATH_2}} de diferentes maneiras.  Escolha abaixo todas as maneiras corretas.\n{{CMD_3}}\n{{CMD_4}}{{MATH_5}}: {{MATH_6}}{{CMD_7}}\n{{CMD_8}}{{MATH_9}}; {{MATH_10}}{{CMD_11}}\n{{CMD_12}}{{MATH_13}}; {{MATH_14}}{{CMD_15}}\n{{CMD_16}}{{MATH_17}}; {{MATH_18}}{{CMD_19}}\n{{CMD_20}}{{MATH_21}}; {{MATH_22}}{{CMD_23}}\n{{CMD_24}}{{MATH_25}}; {{MATH_26}}{{CMD_27}}\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainComposition1.tex",
+  "ordem": 1,
+  "hash": "be84b50c43cbf40dd8046907194e9d9dd386918722210f975ae5f8cafc85d4f9",
+  "traducao": "Dados {{MATH_29}} e {{MATH_30}}, determine as funções a seguir e seus domínios."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainComposition1.tex",
+  "ordem": 2,
+  "hash": "385924d5a31307075b51b2d5d0cd9a5d2717c1c84c97f18690d0abbb1f439038",
+  "traducao": "(A) {{MATH_31}} no domínio (da esquerda para a direita) {{MATH_32}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainComposition1.tex",
+  "ordem": 3,
+  "hash": "c5f4f0099a189e88d79db8d0eeaa43825e12f1b6a9a87709764861aace5d2d27",
+  "traducao": "(B) {{MATH_33}} no domínio {{MATH_34}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainComposition1.tex",
+  "ordem": 4,
+  "hash": "97991c531f18b37e3505f4a123af6103f9c508162f206b36dbe4fe576ec34043",
+  "traducao": "(C) {{MATH_35}} no domínio {{MATH_36}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainComposition1.tex",
+  "ordem": 5,
+  "hash": "b655baeb9409212a2c73520cd6f47b82713e6e28d3ca26f672404e5cc1b3c00e",
+  "traducao": "(D) {{MATH_37}} no domínio (da esquerda para a direita) {{MATH_38}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd1.tex",
+  "ordem": 0,
+  "hash": "6ae194c2e9c4f772a9833cf9b190e71531c91a271427b80288c097031e6ab6e1",
+  "traducao": "Para cada uma das funções a seguir, determine seu domínio e decida se a função é ímpar, par ou nenhuma das duas coisas."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd1.tex",
+  "ordem": 1,
+  "hash": "8f8988a836ee1a395374110b0558e50db78d498e8c07ce2655a0c072ab91542f",
+  "traducao": "(A)  {{MATH_1}}{{CMD_2}}\nO domínio de {{MATH_3}} é  {{MATH_4}}.\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd1.tex",
+  "ordem": 2,
+  "hash": "320a43cc13386f8f6ee4f50838776f7f3834667f09809d32096aab49970f815b",
+  "traducao": "(B) {{MATH_6}}{{CMD_7}}\nO domínio de {{MATH_8}} (da esquerda para a direita) é  {{MATH_9}}.\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd1.tex",
+  "ordem": 3,
+  "hash": "f8fe3482c192641da88acbe9cde35a4d9f180f89d751f59204a8609a6f97279f",
+  "traducao": "(C) {{MATH_11}}{{CMD_12}}\nO domínio de {{MATH_13}} é {{MATH_14}}.\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd1.tex",
+  "ordem": 4,
+  "hash": "a681bce8cfba2b7a9341dcaa63568411a10348e321eaa1659aa8b07291fbbe27",
+  "traducao": "(D) {{MATH_16}}{{CMD_17}}\nO domínio de {{MATH_18}} é {{MATH_19}}.\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd1.tex",
+  "ordem": 5,
+  "hash": "743ad984425007c8cb63f0d9bf20b2e2f2340c96563db642374fc472886f3937",
+  "traducao": "(E) {{MATH_21}}{{CMD_22}}\nO domínio de {{MATH_23}} é {{MATH_24}}.\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd1.tex",
+  "ordem": 6,
+  "hash": "e56d846407e5751e46df1bef041bca37a894d2994e9e48602e57ebb641a0ea04",
+  "traducao": "(F) {{MATH_26}}{{CMD_27}}\nO domínio de {{MATH_28}} é {{MATH_29}}.\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd1.tex",
+  "ordem": 7,
+  "hash": "0f599db3b39e25359315fc9d78e53c369aad52eafc05c0b30677ea52d9065c64",
+  "traducao": "(G) {{MATH_31}}{{CMD_32}}\nO domínio de {{MATH_33}} é {{MATH_34}}.\n{{CMD_35}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd1.tex",
+  "ordem": 8,
+  "hash": "557ef7cefb23c889863f2fcc2cf72c90c2ac82cb20d3109c837f6e9426cac662",
+  "traducao": "(H) {{MATH_36}}{{CMD_37}}\nO domínio de {{MATH_38}} é {{MATH_39}}.\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd2.tex",
+  "ordem": 0,
+  "hash": "28f212db488b5e92ab8b0a6b6f1468014e15d16663399b5f9000609f389757cd",
+  "traducao": "Para cada uma das funções, dada pelo seu gráfico, determine o domínio da função e decida se ela é ímpar, par ou nenhuma das duas coisas."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd2.tex",
+  "ordem": 1,
+  "hash": "fa3473ac99ea9b7e2b899ecc8d90a6f54f670db1339aa2bb597cc3cad7f0e057",
+  "traducao": "O domínio de {{MATH_1}} é {{MATH_2}}.\n{{CMD_3}}\n{{CMD_4}}{{MATH_5}} é ímpar.{{CMD_6}}\n{{CMD_7}}{{MATH_8}} é par.{{CMD_9}}\n{{CMD_10}}{{MATH_11}} não é nem par nem ímpar.{{CMD_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd2.tex",
+  "ordem": 2,
+  "hash": "a8b7af74804669b04f27f3e07a9bed170bb1152dafd8947091633c746e47f8ae",
+  "traducao": "O domínio de {{MATH_14}} é {{MATH_15}}.\n{{CMD_16}}\n{{CMD_17}}{{MATH_18}} é ímpar.{{CMD_19}}\n{{CMD_20}}{{MATH_21}} é par.{{CMD_22}}\n{{CMD_23}}{{MATH_24}} não é nem par nem ímpar.{{CMD_25}}\n{{CMD_26}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd2.tex",
+  "ordem": 3,
+  "hash": "16fe192c5a2c2be0080535a4d5161c4b546248ea62e229d9f4950e9c87c87799",
+  "traducao": "O domínio de {{MATH_27}} é {{MATH_28}}.\n{{CMD_29}}\n{{CMD_30}}{{MATH_31}} é ímpar.{{CMD_32}}\n{{CMD_33}}{{MATH_34}} é par.{{CMD_35}}\n{{CMD_36}}{{MATH_37}} não é nem par nem ímpar.{{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/domainEvenOdd2.tex",
+  "ordem": 4,
+  "hash": "afa90d5ddbac7d67c2a60e5a53c459223e9af5d0bfcc26d40bce3e3364441e06",
+  "traducao": "O domínio de {{MATH_40}} é {{MATH_41}}.\n{{CMD_42}}\n{{CMD_43}}{{MATH_44}} é ímpar.{{CMD_45}}\n{{CMD_46}}{{MATH_47}} é par.{{CMD_48}}\n{{CMD_49}}{{MATH_50}} não é nem par nem ímpar.{{CMD_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/expandingBox1.tex",
+  "ordem": 0,
+  "hash": "44655bdc7a3653bdbb3ed36c69deba5c2cbd2768c63b0325e8b7ce7ef061a64b",
+  "traducao": "  Uma caixa sem tampa deve ser construída a partir de um pedaço retangular\n  de papelão com dimensões {{MATH_1}} por {{MATH_2}},\n  recortando quadrados iguais de lado {{MATH_3}} em cada canto e depois dobrando\n  as laterais para cima:\n  {{CMD_4}}\n    {{ENV_5}}\n  {{CMD_6}}\n  Expresse o volume {{MATH_7}} da caixa como função de {{MATH_8}}.\n  {{MATH_9}}\n{{CMD_10}}\n{{CMD_11}}\n  Simplifique sua resposta acima:\n  {{MATH_12}}\n{{CMD_13}}\n{{CMD_14}}\n  Qual é o domínio (natural) de {{MATH_15}}?\n  {{MATH_16}}\n{{CMD_17}}\n{{CMD_18}}\n  A função {{MATH_19}} é um polinômio?\n  {{CMD_20}}\n    {{CMD_21}}sim{{CMD_22}}\n    {{CMD_23}}não{{CMD_24}}\n  {{CMD_25}}\n  {{CMD_26}}\n    {{MATH_27}} não é um polinômio. O domínio de um polinômio é\n    {{MATH_28}}. {{MATH_29}} é um polinômio em um domínio restrito.\n  {{CMD_30}}\n{{CMD_31}}\n{{CMD_32}}\n  Calcule (escreva um número ou ``DNE'', de ``Does Not Exist'', isto é, não existe):\n  {{ENV_33}}\n{{CMD_34}}\n{{CMD_35}}\n  Se {{MATH_36}} e aumenta em {{MATH_37}}, quanto o volume da caixa vai variar? Simplifique.\n  {{CMD_38}}\n    Você pode achar úteis as seguintes fórmulas de multiplicação de binômios:\n    {{ENV_39}}\n  {{CMD_40}}\n  {{MATH_41}}\n{{CMD_42}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/expandingBox1.tex",
+  "ordem": 1,
+  "hash": "05ac0be50485ff67b5e76259f1f8efa16f7bbdeeb559f4be10b9b0ac9e31c93e",
+  "traducao": "  Quando {{MATH_43}} aumenta de {{MATH_44}} para {{MATH_45}}, qual é o valor de {{MATH_46}}?\n  {{MATH_47}}\n  Agora calcule\n  {{ENV_48}}\n  {{CMD_49}}\n    Também sabemos, pelo seu trabalho acima, que\n    {{ENV_50}}\n  {{CMD_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/expandingBox1.tex",
+  "ordem": 2,
+  "hash": "55573c6dd102c044eefa3d0d49cd089e13dbee3087ae00d4efd6bd9a783c311e",
+  "traducao": "  Expresse a área total da superfície (incluindo AMBOS os lados, o de dentro e o de fora) da caixa aberta\n  como função de {{MATH_53}}.\n  {{MATH_54}}\n  Simplifique a expressão acima.\n  {{MATH_55}}\n{{CMD_56}}\n{{CMD_57}}\n  Quando {{MATH_58}} aumenta de {{MATH_59}} para {{MATH_60}}, a área total da superfície da\n  caixa varia em\n  {{MATH_61}}\n  Portanto, quando {{MATH_62}} aumenta de {{MATH_63}} para  {{MATH_64}}, a área da superfície diminui em\n  {{MATH_65}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/expandingBox1.tex",
+  "ordem": 3,
+  "hash": "807f41ffb13e32ca41e80903c958267d015f76305778ad89524180409f102fc5",
+  "traducao": "  Como exercício final, ilustre essa variação em um desenho e compartilhe seu desenho com um colega.\n  {{CMD_66}}\n    {{CMD_67}}Eu fiz isso.{{CMD_68}}\n    {{CMD_69}}Eu não fiz isso.{{CMD_70}}\n  {{CMD_71}}\n{{CMD_72}}\n{{CMD_73}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/famousFunctions1.tex",
+  "ordem": 0,
+  "hash": "fdab74e393bc5e0db0731d6b70a61b63a924656ed848034c315e2db9f3c7d36a",
+  "traducao": "Para cada função famosa dada, determine seu domínio e sua imagem e associe-a ao seu gráfico."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/famousFunctions1.tex",
+  "ordem": 1,
+  "hash": "ddf49490a3549501cfba301b7344ef84f212565a45082975ac8d9b53cb96694e",
+  "traducao": " Domínio: {{MATH_1}} Imagem: {{MATH_2}} Gráfico: {{MATH_3}}\n{{CMD_4}} {{MATH_5}} Domínio: {{MATH_6}} Imagem: {{MATH_7}} Gráfico: {{MATH_8}}\n{{CMD_9}} {{MATH_10}} Domínio: {{MATH_11}} Imagem: {{MATH_12}} Gráfico: {{MATH_13}}\n{{CMD_14}} {{MATH_15}} Domínio: {{MATH_16}} Imagem: {{MATH_17}} Gráfico: {{MATH_18}}\n{{CMD_19}} {{MATH_20}} Domínio: {{MATH_21}} Imagem: {{MATH_22}} Gráfico: {{MATH_23}}\n{{CMD_24}} {{MATH_25}} Domínio: {{MATH_26}} Imagem: {{MATH_27}} Gráfico: {{MATH_28}}\n{{CMD_29}} {{MATH_30}} Domínio: {{MATH_31}} Imagem: {{MATH_32}} Gráfico: {{MATH_33}}\n{{CMD_34}} {{MATH_35}} Domínio: {{MATH_36}} Imagem: {{MATH_37}} Gráfico: {{MATH_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/limitTrueFalse2.tex",
+  "ordem": 0,
+  "hash": "131ba32e0b196c340cfb7bec4b295c06633fb4f46fd44bf27201c032f51776d9",
+  "traducao": "Selecione Verdadeiro se a afirmação for {{CMD_1}}sempre{{CMD_2}} verdadeira; caso contrário, selecione Falso."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/limitTrueFalse2.tex",
+  "ordem": 1,
+  "hash": "f3f1586be88c064b9b66a0730ac201d0d918a8b00ff2a3ae0ffeb2abefe1e068",
+  "traducao": "Seja {{MATH_3}} uma função injetora e {{MATH_4}} sua inversa.  Se o ponto {{MATH_5}} está no gráfico de {{MATH_6}}, então o ponto {{MATH_7}} está no gráfico de {{MATH_8}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/limitTrueFalse2.tex",
+  "ordem": 2,
+  "hash": "9b91dd2965f0a2932bee57ac96b29b839bf1be63ad0926c1dd8b82a825773099",
+  "traducao": "Verdadeiro{{CMD_9}}\n{{CMD_10}}Falso{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/limitTrueFalse2.tex",
+  "ordem": 3,
+  "hash": "28ad5e8c63cc392bfaea5440065294e80091fa6c22086747383d6a5f1b075865",
+  "traducao": "O gráfico de {{MATH_13}} contém todos os pontos da forma {{MATH_14}}, enquanto o gráfico de {{MATH_15}} contém todos os pontos da forma {{MATH_16}}.\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/limitTrueFalse2.tex",
+  "ordem": 4,
+  "hash": "03a7cff677c457e073646e11a472782504a7d064bf886d125c849f75cc0d61bd",
+  "traducao": "Verdadeiro{{CMD_18}}\n{{CMD_19}}Falso{{CMD_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/limitTrueFalse2.tex",
+  "ordem": 5,
+  "hash": "b63967fb34195ddaee60602ed9c6a2b798cdab717411af7ad24d24153a570f9f",
+  "traducao": "A imagem de {{MATH_22}} é {{MATH_23}} e, portanto, o domínio de {{MATH_24}} é {{MATH_25}}.  Vemos então que {{MATH_26}} não está no domínio de {{MATH_27}}, logo {{MATH_28}} não existe.\n{{CMD_29}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/matchingGraphs1.tex",
+  "ordem": 0,
+  "hash": "59de58ebfcb72178db1c9cdf52f098fb68cc033e8b064e9ed4d5a13fcf9ee3db",
+  "traducao": "O gráfico de uma função {{MATH_1}} é dado abaixo:"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/matchingGraphs1.tex",
+  "ordem": 1,
+  "hash": "f5bf7fbca20478d9a17a79d87d4f126c90c4bac3a44263cdbffd477d9324854a",
+  "traducao": "Associe os gráficos das funções às suas expressões."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/piecewise1.tex",
+  "ordem": 0,
+  "hash": "9626d56922cb33a6958f4ef0baacf5726c3587f5217e60efc200ab22d7928b13",
+  "traducao": "Dado o gráfico (completo) da função {{MATH_1}}, responda às perguntas\na seguir.\n{{CMD_2}}\n  {{ENV_3}}\n{{CMD_4}}\n{{CMD_5}}\n  Determine o domínio de {{MATH_6}}.\n  {{MATH_7}}\n  Determine a imagem de {{MATH_8}}.\n  {{MATH_9}}\n      {{CMD_10}}\n        Encontre uma fórmula para {{MATH_11}}.\n        \n        {{CMD_12}}\n        No intervalo {{MATH_13}}, o gráfico da função {{MATH_14}} é uma reta. Portanto, nesse intervalo, {{MATH_15}}, para certas constantes {{MATH_16}} e {{MATH_17}}. \n        O mesmo vale para {{MATH_18}} no intervalo {{MATH_19}}.\n        {{CMD_20}}\n        {{MATH_21}}\n      {{CMD_22}}\n{{CMD_23}}\nSejam {{MATH_24}} e {{MATH_25}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/piecewise1.tex",
+  "ordem": 1,
+  "hash": "3ebc959f3785fdd3964ed49a4fd867d38bc9cffe95f32d1035738e9d50c51f30",
+  "traducao": "Lembre-se: \n {{MATH_26}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/piecewise1.tex",
+  "ordem": 2,
+  "hash": "7032e69cf97f205d6b39aaaf632627845c92b796103f4be75f03903d1ede6eac",
+  "traducao": "  Determine o domínio de {{MATH_27}}.\n  {{MATH_28}}\n  {{CMD_29}}\n    Encontre uma fórmula para {{MATH_30}}.\n    {{CMD_31}}\n    Observação: se {{MATH_32}},  então {{MATH_33}}\n    {{CMD_34}}\n    {{MATH_35}}\n  {{CMD_36}}\n{{CMD_37}}\n{{CMD_38}}\n  Calcule (escreva um número ou ``DNE''):\n  {{MATH_39}}\n{{CMD_40}}\n{{CMD_41}}\n  Calcule (escreva um número ou ``DNE''):\n  {{MATH_42}}\n{{CMD_43}}\n{{CMD_44}}\n  Calcule {{MATH_45}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/piecewise1.tex",
+  "ordem": 3,
+  "hash": "5d3ea9efdaf8d28bc909d3e1e5daf281a7276a5af448e1ccb9e6965c3d38c883",
+  "traducao": "  Encontre uma expressão para {{MATH_46}}.\n  {{MATH_47}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/piecewise2.tex",
+  "ordem": 0,
+  "hash": "bf8a739ed6a84d2eec484c8ca037285763396701b84734e96729632d6d67b48d",
+  "traducao": "O gráfico completo de uma função {{MATH_1}} é dado na figura abaixo:\n{{CMD_2}}\n  {{ENV_3}}\n{{CMD_4}}\n{{CMD_5}}\n  Determine o domínio de {{MATH_6}}.\n  {{MATH_7}}\n  Determine a imagem de {{MATH_8}}.\n  {{MATH_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/piecewise2.tex",
+  "ordem": 1,
+  "hash": "aad3bd50ed456dd8da1c9bcaa1be63faeb4253fb9bea7280f416d05add0faeee",
+  "traducao": "  Encontre uma expressão para {{MATH_11}} se {{MATH_12}}.\n  {{MATH_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/piecewise2.tex",
+  "ordem": 2,
+  "hash": "94047c8a98f86d1ce6f989fd335ef8ec3f83ae1829330e0a9c3188b274f85505",
+  "traducao": "  O gráfico de uma função {{MATH_15}} é dado abaixo. Ele foi obtido\n  transladando e reescalando o gráfico de {{MATH_16}}.\n{{CMD_17}}\n  {{ENV_18}}\n{{CMD_19}}\n  Encontre a expressão da função {{MATH_20}}.    {{MATH_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/piecewise2.tex",
+  "ordem": 3,
+  "hash": "102f3a168e70e27371725cf816695b1be873cf373b17897c6eca4e79b7ac64a7",
+  "traducao": "  Determine o domínio de {{MATH_23}}.\n  {{MATH_24}}\n  Determine a imagem de {{MATH_25}}.\n  {{MATH_26}}\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/piecewise2.tex",
+  "ordem": 4,
+  "hash": "ffe1cf782fd7c9c72f5f4f50b39607419934ee36ddc1f359c1830ff8cafe03e5",
+  "traducao": "  Seja {{MATH_28}} uma função {{CMD_29}}ímpar{{CMD_30}} definida em {{MATH_31}} tal que\n  {{MATH_32}} se {{MATH_33}}:\n  {{CMD_34}}\n  {{ENV_35}}\n  {{CMD_36}}\n  Encontre uma expressão para {{MATH_37}} se {{MATH_38}}. \n  \n  Sua resposta deve\n  conter a letra {{MATH_39}}.\n  \n  {{CMD_40}}\n  Lembre-se: {{MATH_41}} é ímpar! \n  \n  Isso significa que, para todo {{MATH_42}} no domínio de {{MATH_43}},\n  \n   {{MATH_44}}\n  {{CMD_45}}\n  {{MATH_46}}\n{{CMD_47}}\n{{CMD_48}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/rectangleUnderCurve1.tex",
+  "ordem": 0,
+  "hash": "a2d392e6f88748d3b21a055ae66be2d74afa75c5ebed8b550b9435660dee8f38",
+  "traducao": "Seja {{MATH_1}} dada por\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/rectangleUnderCurve1.tex",
+  "ordem": 1,
+  "hash": "cf66206cf78290d98ec1fab9eec70de6e0c588e83a7d40e44ffcc308a7631c61",
+  "traducao": "A figura mostra um retângulo com os lados paralelos aos eixos coordenados, com dois de seus vértices sobre a curva {{MATH_3}} e {{CMD_4}}acima{{CMD_5}} do eixo {{MATH_6}}, e os outros dois vértices sobre o eixo {{MATH_7}}.  Suponha que o vértice inferior direito esteja no ponto {{MATH_8}}, com {{MATH_9}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/rectangleUnderCurve1.tex",
+  "ordem": 2,
+  "hash": "46660eba14daa5fe0eb381f32313ed4023e59727fa39499aa106af21c3c77707",
+  "traducao": "A área desse retângulo como função de {{MATH_10}} é \n{{MATH_11}}"
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/trigInverseTrig2.tex",
+  "ordem": 0,
+  "hash": "1dd2f2726785ca54034866c24f36088b9226fb3ed2df2165b0268ff876f6d2a5",
+  "traducao": "Determine o valor exato da expressão abaixo ou indique que ela não está definida escrevendo {{MATH_1}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/trigInverseTrig3.tex",
+  "ordem": 0,
+  "hash": "1dd2f2726785ca54034866c24f36088b9226fb3ed2df2165b0268ff876f6d2a5",
+  "traducao": "Determine o valor exato da expressão abaixo ou indique que ela não está definida escrevendo {{MATH_1}}."
+ },
+ {
+  "arquivo": "understandingFunctions/exercises/trigReview1.tex",
+  "ordem": 0,
+  "hash": "f5ad8da6fda037083930e2f6176abb0c84809cbc60da894d7bcabe4eaebb3ebb",
+  "traducao": "Para cada uma das expressões a seguir, determine o valor exato da expressão ou indique que a expressão não existe (DNE).\n{{ENV_1}}"
+ }
+]

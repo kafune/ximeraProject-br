@@ -1,0 +1,446 @@
+[
+ {
+  "arquivo": "implicitDifferentiation/titlePage.tex",
+  "ordem": 0,
+  "hash": "1e139fc5ed264190da06785f797847fa5cec4ca1342b00e381fbc4abdb3868d8",
+  "traducao": "Derivação implícita{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "implicitDifferentiation/titlePage.tex",
+  "ordem": 2,
+  "hash": "c647f5cc0ce40d2060cb9bf69b3c173b436ff9776caa6dbcdc0af9e757ad4e93",
+  "traducao": " Derivar implicitamente expressões.\n\t{{COMMENT_4}}\n\t{{CMD_5}} Determinar a equação da reta tangente a curvas que\n          não são gráficos de funções.\n\t{{CMD_6}} Entender como a mudança de variável altera a maneira como\n          calculamos a derivada.\n\t{{CMD_7}} Entender as derivadas de funções que não estão\n         definidas explicitamente em termos de uma variável independente.\n          {{CMD_8}} Explicar a fórmula da derivada da função logaritmo natural.\n\t{{CMD_9}} Calcular derivadas de logaritmos em qualquer base.\n\t{{CMD_10}} Calcular a derivada de uma função exponencial, {{MATH_11}}, em que {{MATH_12}}.\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/breakGround.tex",
+  "ordem": 0,
+  "hash": "e75e53fc8ad466e3d75e52b5b7e28a433400de46aee81c03c846b5cbad4046dd",
+  "traducao": "Forma geral{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Dois jovens matemáticos discutem a forma geral da equação de uma reta.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "implicitDifferentiation/breakGround.tex",
+  "ordem": 2,
+  "hash": "0f705540471da39fbff332b78a045d105cc7fabe4005855306e05a071d89add5",
+  "traducao": " Riley, acho que temos sido explícitos demais um com o\n  outro. Deveríamos tentar ser mais implícitos.\n{{CMD_7}} Eu. Hum. Não sei bem se{{CMD_8}}\n{{CMD_9}} Quero dizer, na hora de traçar gráficos!\n{{CMD_10}} Tá, mas continuo sem a menor ideia do que você está falando.\n{{CMD_11}} Lembra de quando aprendemos a equação da reta pela primeira vez, e a ``forma geral'' era\n  {{MATH_12}}\n  ou algo assim, o que é totalmente inútil para traçar o gráfico? Além disso, um círculo é\n  {{MATH_13}}\n  ou algo assim, e aqui {{MATH_14}} nem sequer é uma função de\n  {{MATH_15}}.\n{{CMD_16}} Ah, estou começando a lembrar.  Podemos escrever a mesma coisa de duas maneiras.  Por exemplo, se você escreve\n  {{MATH_17}}\n então {{MATH_18}} é {{{CMD_19}} explicitamente} uma função de {{MATH_20}}, mas se você escreve\n    {{MATH_21}}\n  então {{MATH_22}} é {{{CMD_23}} implicitamente} uma função de {{MATH_24}}.\n{{CMD_25}} O que estou tentando dizer é que precisamos aprender a\n  trabalhar com essas funções ``implícitas''.\n{{CMD_26}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/breakGround.tex",
+  "ordem": 3,
+  "hash": "addc414ba6f8510b45487d9c9131803a709c67e8b6fe892aa9c8b62eadf38c87",
+  "traducao": "  Considere o círculo unitário\n  {{MATH_27}}\n  O ponto {{MATH_28}} está nesse círculo. Raciocine geometricamente para\n  determinar a inclinação da reta tangente a {{MATH_29}} em\n  {{MATH_30}}.\n  {{CMD_31}}\n    Faça um desenho.\n  {{CMD_32}}\n  {{CMD_33}}\n    A inclinação é {{MATH_34}}.\n  {{CMD_35}}\n{{CMD_36}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/breakGround.tex",
+  "ordem": 4,
+  "hash": "929649e0c5d2993d9fad831d00f7e220ab837f1c1c7b42bc0e684fce959ffcfc",
+  "traducao": "  Considere o círculo unitário\n  {{MATH_37}}\n  O ponto\n  {{MATH_38}}\n  está nesse círculo. Raciocine geometricamente para determinar a inclinação\n  da reta tangente a {{MATH_39}} em {{MATH_40}}.\n  {{CMD_41}}\n    Faça um desenho.\n  {{CMD_42}}\n  {{CMD_43}}\n    A inclinação é {{MATH_44}}.\n  {{CMD_45}}\n{{CMD_46}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 0,
+  "hash": "c85a081f120b7fd0d92d89b83daec3d2f46932b051e8e491ba39604c9e00839d",
+  "traducao": "Derivação implícita{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nNesta seção, derivamos equações que contêm mais de uma variável em um dos lados.\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}Revisão da regra da cadeia{{CMD_8}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 1,
+  "hash": "92cbcca108a132dfca0500832916ff4978e86af2e3eccee20c1ad6d813c136b7",
+  "traducao": "A derivação implícita é, na verdade, apenas uma aplicação da regra da cadeia.\nEntão lembre-se:"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 2,
+  "hash": "42cb55bf23f6c2d8ac22630ff0fc149887b94255373ca806af9ecd51bbe9af9c",
+  "traducao": "Se {{MATH_9}} e {{MATH_10}} são deriváveis, então\n{{MATH_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 3,
+  "hash": "cfa4d86e2f090318e8ef09c2765e0ee5216c58bad6d1758b4e5740fec21569f0",
+  "traducao": "De particular utilidade nesta seção é o seguinte.\nSe {{MATH_13}} é uma função derivável de {{MATH_14}} e se {{MATH_15}} é uma função derivável, então\n{{MATH_16}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 4,
+  "hash": "97c3c7de1debeac70e88356bae599f9e37f0f4ab566e01c39e4a10e20ae9018c",
+  "traducao": "Derivação implícita{{CMD_17}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 5,
+  "hash": "334b783af8376616e031d630866e6e3cd407033bc503cc80eb7ae51a52c893e0",
+  "traducao": "As funções com que lidamos até agora foram\ndefinidas {{CMD_18}}explicitamente{{CMD_19}}\n em termos da variável\nindependente. Por exemplo:\n{{MATH_20}}\nNo entanto, isso nem sempre é necessário, ou sequer possível. Às vezes escolhemos, ou somos obrigados, a definir uma função  {{CMD_21}}implicitamente\n {{CMD_22}}. Nesse caso, a variável dependente não é expressa\nexplicitamente em termos de uma variável independente. Alguns exemplos são:\n{{MATH_23}}\nSua primeira inclinação pode ser simplesmente resolver cada uma dessas equações para {{MATH_24}} e seguir\nalegremente o seu caminho. No entanto, isso pode ser difícil ou até impossível de fazer.\n{{COMMENT_25}}\n{{COMMENT_26}}\nComo frequentemente nos deparamos com o problema de calcular derivadas de funções desse tipo,\nprecisamos de um método que nos permita calcular derivadas de funções definidas implicitamente.\n{{COMMENT_27}}\n  {{COMMENT_28}}\n\n\n  Vamos começar com um exemplo básico.\n  {{CMD_29}}\nConsidere a curva (um círculo) definida por:\n{{MATH_30}}\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 6,
+  "hash": "133e9871beedbb5c492b96bf92f61b970dd50f9aee441ccaec19ec90dae584db",
+  "traducao": " Determine a inclinação da reta tangente ao círculo no ponto {{MATH_32}}.\n{{CMD_33}}\n{{CMD_34}}\n    {{ENV_35}}\n    {{CMD_36}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 7,
+  "hash": "e7dcee1539d3bc04ca25d260d5a713720ba4cbf4abc94719310f8525cd30c5f2",
+  "traducao": "A curva definida pela equação  {{MATH_37}} não é o gráfico de uma função. Se resolvermos para {{MATH_38}}, obtemos duas soluções:\n{{MATH_39}} e {{MATH_40}}.\nO ponto {{MATH_41}} está no gráfico da função {{MATH_42}}.\nVamos calcular a derivada de {{MATH_43}}.\n{{MATH_44}}\nPortanto, a inclinação da reta tangente no ponto {{MATH_45}} é dada por\n{{MATH_46}}\n  {{CMD_47}}\n{{CMD_48}} Determine a inclinação da reta tangente ao círculo no ponto {{MATH_49}}."
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 8,
+  "hash": "ee150e3910208c86c4850ea8532784ecd7c7d04ba7964e23d89124cb9776043c",
+  "traducao": "A curva definida pela equação  {{MATH_50}} não é o gráfico de uma função. Se resolvermos para {{MATH_51}}, obtemos duas soluções:\n{{MATH_52}} e {{MATH_53}}.\nO ponto {{MATH_54}} está no gráfico da função {{MATH_55}}.\nVamos calcular a derivada de {{MATH_56}}.\n{{MATH_57}}\nPortanto, a inclinação da reta tangente no ponto {{MATH_58}} é dada por\n{{MATH_59}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 9,
+  "hash": "92365185454f306cd8cecd2181d9ab4d18a054397c4c6cb2818d31d6ebb55d67",
+  "traducao": "Observe que tivemos de derivar duas vezes, sem falar que precisamos primeiro resolver para {{MATH_60}} em termos de {{MATH_61}} para conseguir calcular essas duas inclinações.\n{{CMD_62}}\n{{CMD_63}}\n{{CMD_64}}\nVamos adotar uma abordagem diferente, a saber, vamos usar derivação implícita.\n{{CMD_65}}\nConsidere a curva (um círculo) definida por:\n{{MATH_66}}\n{{CMD_67}}\n{{CMD_68}} Calcule {{MATH_69}}.\n{{CMD_70}} Determine a inclinação da reta tangente ao círculo em {{MATH_71}}.\n{{CMD_72}} Determine a inclinação da reta tangente ao círculo em {{MATH_73}}.\n{{CMD_74}}\n{{CMD_75}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 10,
+  "hash": "719f84ab1c187c1594d219f81ac88a7fe6807a927db6c11f5bf826d859d22bee",
+  "traducao": "A curva definida pela equação  {{MATH_76}} não é o gráfico de uma função. Se resolvermos para {{MATH_77}}, obtemos duas soluções:\n{{MATH_78}} e {{MATH_79}}. Portanto, podemos dizer que  qualquer ponto {{MATH_80}} da curva está no gráfico de alguma função {{MATH_81}}.\n  Partindo de\n{{MATH_82}}\nderivamos ambos os lados da\nequação em relação a {{MATH_83}} e obtemos\n{{MATH_84}}\nAplicando a regra da soma, vemos que\n{{MATH_85}}\nVamos examinar cada um desses termos separadamente. Para começar,\n{{MATH_86}}\nPor outro lado, {{MATH_87}} é um pouco diferente. Aqui supomos que {{MATH_88}} para alguma função {{MATH_89}}, definida em algum intervalo aberto (isso vale para todos os pontos com {{MATH_90}}). Logo, pela regra da cadeia,\n{{ENV_91}}\nJuntando tudo isso, ficamos com a equação\n{{MATH_92}}\nNeste ponto, resolvemos para {{MATH_93}}. Escreva\n{{ENV_94}}\nObservação: note que a derivada {{MATH_95}} está expressa em termos de ambas as variáveis, {{MATH_96}} e {{MATH_97}}. Isso não deveria ser surpresa. Se você pensar bem, a função e  sua derivada não são determinadas apenas pelo valor de {{MATH_98}}. Lembre-se do que acontece se {{MATH_99}}."
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 11,
+  "hash": "664212b79a31b3b35469288b8c8610fbeec3b052c8da60bc6f73f5a6b30b304b",
+  "traducao": "    Há dois pontos diferentes na curva com coordenada {{MATH_100}} {{MATH_101}}.\n\n    A vantagem da expressão para {{MATH_102}} que obtivemos acima é que ela pode ser usada para calcular a inclinação da reta tangente em cada um desses dois pontos, e em qualquer outro ponto da curva, onde estiver definida.\n\n\nAssim, para a segunda parte do problema, basta substituir {{MATH_103}} e {{MATH_104}}\nna expressão acima; logo, a inclinação da reta tangente nesse ponto\né {{MATH_105}}.\nPara a terceira parte do problema, basta substituir {{MATH_106}} e {{MATH_107}}\nna expressão acima; logo, a inclinação da reta tangente nesse ponto\né {{MATH_108}}."
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 12,
+  "hash": "5095ece507a7e4304f054a0041785aea654b842829bdb54e9f505f41422e61a6",
+  "traducao": "  Podemos confirmar nossos resultados olhando o gráfico da curva e\n  da nossa reta tangente:\n  {{MATH_109}}\n{{CMD_110}}\n{{CMD_111}}\n{{CMD_112}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 13,
+  "hash": "0327c627909df1caea7c6b43d861359f247c64a5ea028d09714a836fe7a7fac1",
+  "traducao": "Vejamos outro exemplo ilustrativo:"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 14,
+  "hash": "049c7cc71f9acf6ab2ab8ed872d98981af68dbbd338746bf950560b3c9dcd8ba",
+  "traducao": "Considere a curva definida por:\n{{MATH_113}}\n{{CMD_114}}\n{{ENV_115}}\n{{COMMENT_116}}\n{{COMMENT_117}}\n{{COMMENT_118}}\n{{CMD_119}}\n{{CMD_120}}\n{{CMD_121}} Calcule {{MATH_122}}.\n{{CMD_123}} Determine a inclinação da reta  tangente a essa curva em {{MATH_124}}.\n{{CMD_125}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 15,
+  "hash": "3f4c9e3b87be147b421a34a428b1b0e1bf4a3636a3ea35aca8bda3bafacc7896",
+  "traducao": "Partindo de\n{{MATH_126}}\nderivamos ambos os lados da\nequação em relação a {{MATH_127}} e obtemos\n{{MATH_128}}\nAplicando a regra da soma, obtemos\n{{MATH_129}}\nVamos examinar cada um desses termos separadamente. Para começar,\n{{MATH_130}}\nPor outro lado, {{MATH_131}} é um pouco diferente. Aqui você supõe que {{MATH_132}}, em algum intervalo {{MATH_133}}, e, portanto, pela regra da cadeia,\n{{ENV_134}}\nConsiderando o último termo, {{MATH_135}}, supomos que {{MATH_136}}, em algum intervalo {{MATH_137}}. Logo,\n{{ENV_138}}\nJuntando tudo isso, ficamos com a equação\n{{MATH_139}}\nNeste ponto, resolvemos para {{MATH_140}}. Escreva\n{{ENV_141}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 16,
+  "hash": "178ba0bc73bc5f0cac1c198a785788eeeeda07f55413e2aa487aceb2a707d3c8",
+  "traducao": "Para a segunda parte do problema, basta substituir {{MATH_142}} e {{MATH_143}}\nna fórmula acima; logo, a inclinação da reta tangente em {{MATH_144}}\né {{MATH_145}}. Incluímos um gráfico para o seu deleite visual:\n{{CMD_146}}\n{{ENV_147}}\n{{COMMENT_148}}\n{{COMMENT_149}}\n{{COMMENT_150}}\n{{CMD_151}}\n{{CMD_152}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 17,
+  "hash": "a3b83761a956bcbb105e6dcf45e9473f0c22b8fc77db80fa08622af2a919c46b",
+  "traducao": "Você pode pensar que o passo em que resolvemos para {{MATH_153}} poderia\nser difícil em alguns casos. Na verdade, {{CMD_154}}isso nunca acontece{{CMD_155}}. Todas\nas ocorrências de {{MATH_156}} surgem da aplicação da regra da cadeia, e\nsempre que a regra da cadeia é usada ela deixa um único {{MATH_157}}\nmultiplicado por alguma outra expressão. Logo, nossa expressão é linear em\n{{MATH_158}}, e sempre será possível agrupar os termos que contêm\n{{MATH_159}} e colocar o {{MATH_160}} em evidência, exatamente como nos\nexemplos anteriores."
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 18,
+  "hash": "89dba1e9787dfe1fa1efe45a7f64414e74703d8d4f883d1e9b99084d69317061",
+  "traducao": "Um último exemplo:"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInImplicitDifferentiation.tex",
+  "ordem": 19,
+  "hash": "05e92689faf8bcec798ebedc283963b3a163e197900ca6bc7ca73966b1028d6c",
+  "traducao": "Considere a curva definida por\n{{MATH_161}}\nCalcule {{MATH_162}}.\n{{CMD_163}}\nPrimeiro, observe que o problema pede {{MATH_164}}, e {{CMD_165}}não{{CMD_166}}\n{{MATH_167}}. Isso\nsignifica que as variáveis trocaram de lugar!  Não se preocupe, tudo é\nexatamente igual.  Aplicamos {{MATH_168}} a ambos os lados da equação e\nobtemos\n{{MATH_169}}\no que nos dá\n{{MATH_170}}\nDistribuindo e multiplicando por {{MATH_171}}, obtemos\n{{ENV_172}}\nAgrupando os termos, fatorando e dividindo, finalmente chegamos a\n{{ENV_173}}\nlogo,\n{{MATH_174}}\ne agora vemos que\n{{MATH_175}}\n{{CMD_176}}\n{{CMD_177}}\n{{CMD_178}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions.tex",
+  "ordem": 0,
+  "hash": "4bc498f2aa6648a1534a448c2dcc6abb49a45dc7fa455ef0f3428e3608df4098",
+  "traducao": "Derivadas das inversas das funções exponenciais{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Deduzimos as derivadas das inversas das funções exponenciais usando\n  derivação implícita.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions.tex",
+  "ordem": 1,
+  "hash": "5b5b10dafa0b7bbdb0aa7f9d8b21368a7b2f6a17c46784be33778e76e024dd83",
+  "traducao": "Geometricamente, há uma relação estreita entre os gráficos de\n{{MATH_7}} e {{MATH_8}}: eles são reflexões um do outro em relação à reta\n{{MATH_9}}:\n{{CMD_10}}\n{{ENV_11}}\n{{COMMENT_12}}\n{{COMMENT_13}}\n{{COMMENT_14}}\n{{CMD_15}}\nPode-se suspeitar que é possível usar o fato de que {{MATH_16}} para\ndeduzir a derivada de {{MATH_17}}.  Usaremos derivação\nimplícita para explorar essa relação nos cálculos."
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions.tex",
+  "ordem": 2,
+  "hash": "578c325a6187fc7f594c002a5419b377ee5fabdd7c002a218c2441b8b31379b3",
+  "traducao": "  Lembre-se de que\n{{MATH_18}}\nLogo,\n{{ENV_19}}\nComo {{MATH_20}}, {{MATH_21}}.\n{{CMD_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions.tex",
+  "ordem": 3,
+  "hash": "b298e7906e68131084449a644b5ade4177037a5a8d0361901263bdc9510dcf99",
+  "traducao": "  Calcule:\n  {{MATH_24}}\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions.tex",
+  "ordem": 4,
+  "hash": "e414493b18fd38d5a35b9a527d71de0714ac42719fdc37433d26ebc0fae64e71",
+  "traducao": "A partir da derivada do logaritmo natural, podemos deduzir outro fato:"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions.tex",
+  "ordem": 5,
+  "hash": "380299f20e2beabe6d1c34041048885554b7270f283cdab23f3ece0e70342449",
+  "traducao": "  Seja {{MATH_26}} um número real positivo. Então\n  {{MATH_27}}\n  {{CMD_28}}\n    Aqui precisamos lembrar que\n    {{MATH_29}}\n    Assim, podemos escrever\n    {{ENV_30}}\n  {{CMD_31}}\n{{CMD_32}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions.tex",
+  "ordem": 6,
+  "hash": "9d30dc9d29b4c46456b574edea0fc64ccc4cba570496f22b2045f2eaf0c8d673",
+  "traducao": "  Calcule:\n  {{MATH_33}}\n{{CMD_34}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions.tex",
+  "ordem": 7,
+  "hash": "470b8268c588d28d800e398f4bb07aca9e85c438f59592572400158592da1a31",
+  "traducao": "Também podemos calcular a derivada de uma função exponencial\nqualquer."
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions.tex",
+  "ordem": 8,
+  "hash": "b7ea197a17e3069754f36a99b4a54c11238226e4caed860660179e0a96efe836",
+  "traducao": "    Aqui precisamos ser um pouco astutos. Observe que\n    {{MATH_35}}\n    Assim, podemos escrever\n    {{ENV_36}}\n  {{CMD_37}}\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions.tex",
+  "ordem": 9,
+  "hash": "8022ceac02b5d1aa305933883023dce8f131a6d6666fdb832a48daf1caafc423",
+  "traducao": "  Calcule:\n  {{MATH_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/Q4AU16_1.tex",
+  "ordem": 0,
+  "hash": "d6881c0e8759361fcee194459ef7aa63fdbaad6fec13276a6f5bc294a6e93f2b",
+  "traducao": "Derivar implicitamente expressões.{{CMD_1}}\n{{CMD_2}}Determinar a equação da reta tangente a curvas que não são gráficos de funções.{{CMD_3}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/Q4AU16_1.tex",
+  "ordem": 1,
+  "hash": "818aaae8a2a177f97c7bb81baab2acd69828b5b094499ab55c9ff49365fd29c2",
+  "traducao": "A curva definida por\n{{MATH_4}}\né chamada de ``elipse rotacionada''. O nome não é à toa, como mostra o gráfico abaixo.\n{{CMD_5}}\n  {{ENV_6}}\n{{CMD_7}}\nUse derivação implícita para determinar a derivada {{MATH_8}}.\n{{MATH_9}}\n{{CMD_10}}\nUsando sua resposta, determine a função {{MATH_11}} cujo gráfico é a reta tangente à curva no ponto {{MATH_12}}.\n{{MATH_13}}\n{{CMD_14}}\n{{CMD_15}}\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/derivativesOfLogsAndExp.tex",
+  "ordem": 0,
+  "hash": "eac4560592b4cf646e354cd2b28e3643845bc3b500bf536910b624dbc682c9f6",
+  "traducao": "Dada {{MATH_1}}, calcule {{MATH_2}}.\n{{MATH_3}}\n{{CMD_4}}\n{{MATH_5}}\n{{CMD_6}}\n{{CMD_7}}\n{{CMD_8}}\nDada {{MATH_9}}, calcule {{MATH_10}}.\n{{MATH_11}}\n{{CMD_12}}\n{{MATH_13}}\n{{CMD_14}}\n{{CMD_15}}\n{{CMD_16}}\nDada {{MATH_17}}, calcule {{MATH_18}}.\n{{MATH_19}}\n{{CMD_20}}\n{{MATH_21}}\n{{CMD_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/derivativesOfLogsAndExp.tex",
+  "ordem": 1,
+  "hash": "30fa62c0025d3dd8e1301aa9c7ab14f6cc8b247d3d65c24c2d667d7860fbbb27",
+  "traducao": "Dada {{MATH_24}}, calcule {{MATH_25}}.\n{{MATH_26}}\n{{CMD_27}}\n{{MATH_28}}\n{{CMD_29}}\n{{CMD_30}}\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitDerivatives1.tex",
+  "ordem": 0,
+  "hash": "584aba24584fb14e64b829c0b97ec6e4ff83196851a1d0b29a7a494bafa390fd",
+  "traducao": "Use derivação implícita para determinar {{MATH_1}}, em que\n{{MATH_2}}\n{{CMD_3}}\n{{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitDerivatives2.tex",
+  "ordem": 0,
+  "hash": "2033216302e0c88cc1cc50355b83fae514436ed02cf1ab32c15f67ba78b2c804",
+  "traducao": "Use derivação implícita para determinar {{MATH_1}}, em que\n{{MATH_2}}\n{{CMD_3}}\n{{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}\nPrimeiro, multiplique ambos os lados por {{MATH_7}}.\n{{CMD_8}}\n{{CMD_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitDerivatives4.tex",
+  "ordem": 0,
+  "hash": "584aba24584fb14e64b829c0b97ec6e4ff83196851a1d0b29a7a494bafa390fd",
+  "traducao": "Use derivação implícita para determinar {{MATH_1}}, em que\n{{MATH_2}}\n{{CMD_3}}\n{{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitDerivatives5.tex",
+  "ordem": 0,
+  "hash": "584aba24584fb14e64b829c0b97ec6e4ff83196851a1d0b29a7a494bafa390fd",
+  "traducao": "Use derivação implícita para determinar {{MATH_1}}, em que\n{{MATH_2}}\n{{CMD_3}}\n{{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitSecondDerivative2.tex",
+  "ordem": 0,
+  "hash": "d23eca92938b7a69ab5d0533fe8ffb3692ca64fa6bd5400f87d52ac3cec5849a",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{MATH_2}}\nSelecione todas as alternativas que se aplicam:\n{{CMD_3}}\n\t{{CMD_4}}{{MATH_5}}{{CMD_6}}\n\t{{CMD_7}}{{MATH_8}}{{CMD_9}}\n\t{{CMD_10}}{{MATH_11}}{{CMD_12}}\n\t{{CMD_13}}{{MATH_14}}{{CMD_15}}\n{{CMD_16}}\n{{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitSecondDerivative3.tex",
+  "ordem": 0,
+  "hash": "6066784fbb4e5a1d9f3ec7742be06802eacf11fe5e907e04659e19e20bc645fe",
+  "traducao": "Considere\n{{MATH_1}}\nPrimeiro, calcule\n{{MATH_2}}\nEm seguida, calcule"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitTangentLines1.tex",
+  "ordem": 0,
+  "hash": "67569c9c06beb6d7a506cab5bdab50edc6824012f1d2f597a7cd82975cbf8bc3",
+  "traducao": "Use derivação implícita para determinar {{MATH_1}} em termos  de {{MATH_2}} e {{MATH_3}}, em que\n{{MATH_4}}\n{{CMD_5}}\n{{MATH_6}}\n{{CMD_7}}\nQual é a equação da reta tangente a essa curva no ponto {{MATH_8}}?\n{{CMD_9}}\n{{MATH_10}}\n{{CMD_11}}\n{{CMD_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitTangentLines2.tex",
+  "ordem": 0,
+  "hash": "67569c9c06beb6d7a506cab5bdab50edc6824012f1d2f597a7cd82975cbf8bc3",
+  "traducao": "Use derivação implícita para determinar {{MATH_1}} em termos  de {{MATH_2}} e {{MATH_3}}, em que\n{{MATH_4}}\n{{CMD_5}}\n{{MATH_6}}\n{{CMD_7}}\nQual é a equação da reta tangente a essa curva no ponto {{MATH_8}}?\n{{CMD_9}}\n{{MATH_10}}\n{{CMD_11}}\n{{CMD_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitTangentLines4.tex",
+  "ordem": 0,
+  "hash": "67569c9c06beb6d7a506cab5bdab50edc6824012f1d2f597a7cd82975cbf8bc3",
+  "traducao": "Use derivação implícita para determinar {{MATH_1}} em termos  de {{MATH_2}} e {{MATH_3}}, em que\n{{MATH_4}}\n{{CMD_5}}\n{{MATH_6}}\n{{CMD_7}}\nQual é a equação da reta tangente a essa curva no ponto {{MATH_8}}?\n{{CMD_9}}\n{{MATH_10}}\n{{CMD_11}}\n{{CMD_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitTangentLines5.tex",
+  "ordem": 0,
+  "hash": "6bc0da01a1f9f501eee7413872684d955f3b4c982309f5fbcf183664e9a7144e",
+  "traducao": "Use derivação implícita para determinar {{MATH_1}} em termos  de {{MATH_2}} e {{MATH_3}}, em que\n{{MATH_4}}\n{{CMD_5}}\n{{MATH_6}}\n{{CMD_7}}\nQual é a equação da reta tangente a essa curva no ponto {{MATH_8}}?\n{{CMD_9}}\n{{MATH_10}}\n{{CMD_11}}\nVocê consegue entender isso intuitivamente?  Qual é o gráfico de {{MATH_12}}?\n{{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird1.tex",
+  "ordem": 0,
+  "hash": "ef011758d5eb71ca78e895a6155815080f4553582836dc49d64c2581ec2c6372",
+  "traducao": "Considere a curva  {{MATH_1}}, cujo gráfico é dado abaixo:"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird1.tex",
+  "ordem": 1,
+  "hash": "6552f471b51d76158529dc63b573ec48b446ec1841b4fb02457a1a36b9c4d7ec",
+  "traducao": "Use derivação implícita para escrever {{MATH_2}} em termos de {{MATH_3}} e de {{MATH_4}}."
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird1.tex",
+  "ordem": 2,
+  "hash": "dd1d1f156a356d7a73253c3b9155b65c38db24a75574e9415674f700df754007",
+  "traducao": "A equação da reta tangente a essa curva no ponto {{MATH_5}} é"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird1.tex",
+  "ordem": 3,
+  "hash": "0d2d0244ee4b99394313b97c672fc2fd83ccecf37d087ad416a210ca3c37c1c1",
+  "traducao": "Um ponto difícil de analisar nesse gráfico é o ponto {{MATH_6}}, já que\nali a curva parece duas retas que se cruzam.  Gostaríamos de conhecer a\nequação dessas duas ``retas tangentes''.  Nossa fórmula para\n{{MATH_7}} não ajuda, a princípio, pois obtemos\n{{MATH_8}} quando substituímos {{MATH_9}} nessa fórmula."
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird1.tex",
+  "ordem": 4,
+  "hash": "1d8622de918a5ad5b11620fdf961a91e59726f012802fddc3a0435d2a4171152",
+  "traducao": "Como a fórmula só falha no ponto {{MATH_10}}, um caminho possível\né tentar calcular o limite das inclinações quando {{MATH_11}} se aproxima de {{MATH_12}}\nao longo da curva."
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird1.tex",
+  "ordem": 5,
+  "hash": "41dee7d4abc78d960d9b0e79179f3dee6f21eeb48d2f5a75fbf6697698e090b1",
+  "traducao": "Podemos resolver para a ``parte de cima'' da curva como {{MATH_13}}.  A outra metade da curva é {{MATH_14}}."
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird1.tex",
+  "ordem": 6,
+  "hash": "934e5fbb43c4417f9bcbcba6fa5aa765c1b62638928c499cb7c218f2ad5ec4c5",
+  "traducao": "Usando {{MATH_15}}, vemos que, para pontos no primeiro\nquadrante do plano, podemos escrever {{MATH_16}} como função de\n{{MATH_17}} na forma\n{{MATH_18}}\ne\n{{MATH_19}}\nAssim, as equações das duas ``retas tangentes'' são {{MATH_20}} e {{MATH_21}}."
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird1.tex",
+  "ordem": 7,
+  "hash": "c850d927914056de39a3328904110209505823d8859b313b924212a7d46bf3cd",
+  "traducao": "Também poderíamos ter chegado a esse resultado de maneira mais intuitiva, da seguinte forma:"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird1.tex",
+  "ordem": 8,
+  "hash": "8eb05688e7c6ea26d20569c6e8a766c67501bc827819c85b46847a38b6f2fd8f",
+  "traducao": "Na equação {{MATH_22}}, quando {{MATH_23}} está muito próximo de {{MATH_24}}, todos\nos termos serão muito pequenos, mas o termo {{MATH_25}} será pequeno até mesmo\nem comparação com {{MATH_26}}.  Assim, a curva deve se parecer muito com a curva {{MATH_27}} perto de {{MATH_28}}.  Mas {{MATH_29}} é equivalente a\n{{MATH_30}}, que é exatamente o par de retas {{MATH_31}} e {{MATH_32}}.\n{{CMD_33}}\n{{CMD_34}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird3.tex",
+  "ordem": 0,
+  "hash": "5d5ed4337bd0806eeb6e04a225fa3a9b665be777f580cf731de4956581f2c518",
+  "traducao": "Considere a relação {{MATH_1}}.  Derivando implicitamente em\nrelação a {{MATH_2}}, parece que obtemos {{MATH_3}}.\n{{CMD_4}}\n  {{CMD_5}}Este é um uso válido da derivação implícita{{CMD_6}}\n\t{{CMD_7}}Este não é um uso válido da derivação implícita{{CMD_8}}\n{{CMD_9}}\nExplique por que sim ou por que não.  Compare e contraste com o caso de  {{MATH_10}}.\n{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird4.tex",
+  "ordem": 0,
+  "hash": "d3c3a32f850b191992be21325ff14d683acf8cf64e82bf8b7fc5fd24176f1062",
+  "traducao": "Considere a relação {{MATH_1}}.  Quais das alternativas a seguir são expressões válidas para {{MATH_2}}?\n{{CMD_3}}\n{{CMD_4}}{{MATH_5}}{{CMD_6}}\n{{CMD_7}}{{MATH_8}}{{CMD_9}}\n{{CMD_10}}{{MATH_11}}{{CMD_12}}\n{{CMD_13}}{{MATH_14}}{{CMD_15}}\n{{CMD_16}}\n{{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird5.tex",
+  "ordem": 0,
+  "hash": "7065ef5765347eb0ec6d8cc90ac9fedc607e902f2da749add733dd88a09d3551",
+  "traducao": "Considere a relação\n{{MATH_1}}\nÉ verdade que {{MATH_2}} no ponto {{MATH_3}}?\n{{CMD_4}}\n  {{CMD_5}}\n    {{CMD_6}}Sim{{CMD_7}}\n    {{CMD_8}}Não{{CMD_9}}\n  {{CMD_10}}\n{{CMD_11}}\n{{CMD_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/implicitWeird6.tex",
+  "ordem": 0,
+  "hash": "3298c6acf609aa1e4394b81011824b059e9162e7113a241b972ed854624b40a0",
+  "traducao": "Considere a relação\n{{MATH_1}}\nQual das afirmações a seguir é a mais precisa?\n{{CMD_2}}\n\t{{CMD_3}}{{MATH_4}}{{CMD_5}}\n\t{{CMD_6}}Não há funções definidas implicitamente por essa relação, então {{MATH_7}} não faz sentido{{CMD_8}}\n\t{{CMD_9}}{{MATH_10}}, mas o único ponto que satisfaz a relação é {{MATH_11}}, então ela não está definida{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/inversesFunction1.tex",
+  "ordem": 0,
+  "hash": "23744e3ef1deef47fbe149c269f5d9cae7c836f355cedc8277f7ec1b3b3020c5",
+  "traducao": "Com base na tabela de valores a seguir, calcule as quantidades indicadas:"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/inversesFunction1.tex",
+  "ordem": 1,
+  "hash": "c3b9fa2344308f2d44e5fae564799d953807691841aff8b0ee8114fca70da66d",
+  "traducao": "O ponto {{MATH_1}} está no gráfico de {{MATH_2}}."
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/inversesFunction2.tex",
+  "ordem": 0,
+  "hash": "23744e3ef1deef47fbe149c269f5d9cae7c836f355cedc8277f7ec1b3b3020c5",
+  "traducao": "Com base na tabela de valores a seguir, calcule as quantidades indicadas:"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/inversesFunction2.tex",
+  "ordem": 1,
+  "hash": "c3b9fa2344308f2d44e5fae564799d953807691841aff8b0ee8114fca70da66d",
+  "traducao": "O ponto {{MATH_1}} está no gráfico de {{MATH_2}}."
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/inversesFunction2.tex",
+  "ordem": 2,
+  "hash": "594d410cb23984d338d537b5a47d624d2397bffea3de414000c1ea5a03e7bea0",
+  "traducao": "Seja {{MATH_3}}."
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/inversesFunction3.tex",
+  "ordem": 0,
+  "hash": "23744e3ef1deef47fbe149c269f5d9cae7c836f355cedc8277f7ec1b3b3020c5",
+  "traducao": "Com base na tabela de valores a seguir, calcule as quantidades indicadas:"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/inversesFunction3.tex",
+  "ordem": 1,
+  "hash": "264f56c7f446af0e935393930f84c4ed9d16284bc15def98e79d224f1229c981",
+  "traducao": " não existe no ponto {{MATH_1}} do gráfico de {{MATH_2}}."
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/inversesFunction5.tex",
+  "ordem": 0,
+  "hash": "eaf25d46fa09a28a7a9057ad82ded23ac98af4ba5a7848ec7d04830876b141a6",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}}.  Então há apenas um ponto do gráfico de {{MATH_3}} que você consegue determinar.  Qual é a equação da reta tangente a {{MATH_4}} nesse ponto?\n{{CMD_5}}\n{{MATH_6}}\n{{CMD_7}}\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "implicitDifferentiation/exercises/trigInverseTrig1.tex",
+  "ordem": 0,
+  "hash": "1dd2f2726785ca54034866c24f36088b9226fb3ed2df2165b0268ff876f6d2a5",
+  "traducao": "Determine o valor exato da expressão abaixo ou indique que ela não está definida escrevendo {{MATH_1}}."
+ }
+]

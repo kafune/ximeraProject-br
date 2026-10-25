@@ -1,0 +1,800 @@
+[
+ {
+  "arquivo": "definitionOfTheDerivative/titlePage.tex",
+  "ordem": 0,
+  "hash": "08617ab26d01ec2cfb801364a4394045bd68ef5dea71ac793ba11e45db5d9fb1",
+  "traducao": "Definição da derivada{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/titlePage.tex",
+  "ordem": 2,
+  "hash": "2a79507a8625f7b8c4fd9ee3cbf4765cd1e3c3893bcb63e52580fa6b0a2394bf",
+  "traducao": " Usar limites para determinar a inclinação da reta tangente em um ponto.\n{{CMD_4}} Compreender a definição da derivada em um ponto.\n{{CMD_5}} Calcular a derivada de uma função em um ponto.\n{{CMD_6}} Estimar graficamente a inclinação da reta tangente.\n{{CMD_7}} Escrever a equação da reta tangente ao gráfico de uma função em um ponto dado.\n{{CMD_8}} Reconhecer e distinguir retas secantes e retas tangentes.\n{{CMD_9}} Reconhecer a reta tangente como uma aproximação local de uma\n  função derivável perto de um ponto.\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/breakGround.tex",
+  "ordem": 0,
+  "hash": "d69da069f48ad646e8118add796690aee216b22a9c9108736bd26a29df456725",
+  "traducao": "Inclinação de uma curva{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem a ideia inovadora de ``inclinação de uma curva''.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/breakGround.tex",
+  "ordem": 1,
+  "hash": "0f2aac58fcb16f42a8b27f76b3396277671806c8ba40497491979af0a2346f9b",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/breakGround.tex",
+  "ordem": 2,
+  "hash": "5d4bbfea5c7cef867d6ca40ec002a79b85a089d95eff72e63adecac1e2e823af",
+  "traducao": " Riley, você se lembra de ``inclinação''?\n{{CMD_7}} Com certeza. ``Variação vertical sobre variação horizontal.''\n{{CMD_8}} Isso mesmo.\n{{CMD_9}} ``Variação de {{MATH_10}} sobre variação de {{MATH_11}}.''\n{{CMD_12}} Exatamente.\n{{CMD_13}} Um oferecimento da letra ``{{MATH_14}}''.\n{{CMD_15}} Já basta! Minha pergunta importante é: será que poderíamos definir\n  ``inclinação'' para uma curva que não é uma reta?\n{{CMD_16}} Bom, talvez se dermos um ``zoom'' na curva, ela pareça\n  uma reta, e então poderíamos chamar isso de ``a inclinação naquele ponto''.\n{{CMD_17}} Ah! E essa ideia de ``dar zoom'' soa como um limite!\n{{CMD_18}} Isso é demais. Acabamos de criar matemática!\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/breakGround.tex",
+  "ordem": 3,
+  "hash": "62b0fd7591e969fb748c058f9c412c9d346ec3c6e8844baf750b34282ace3b02",
+  "traducao": "O conceito introduzido acima, de ``inclinação de uma curva em um ponto'',\né, na verdade, um dos conceitos centrais do cálculo. Ele será,\né claro, completamente explicado.  Mas, primeiro, vamos explorar um pouco mais\nas ideias de Devyn e Riley."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/breakGround.tex",
+  "ordem": 4,
+  "hash": "296892d8665174aec3c7f81f4da72d7f7371959146d942458cd433b911eaee86",
+  "traducao": "Para encontrar a ``inclinação de uma curva em um ponto'', Devyn e Riley falaram em\n``dar zoom'' em uma curva até que ela pareça uma reta. Quando você dá zoom\nem uma curva {{CMD_20}}suave{{CMD_21}}, ela acabará parecendo uma reta. Essa\nreta é chamada de reta tangente."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/breakGround.tex",
+  "ordem": 5,
+  "hash": "ef13f64336888163fe550122147cd32e0ac97f5713efe0addfb9953bfbf7b854",
+  "traducao": "  Quais das alternativas a seguir aproximam a inclinação da ``reta ampliada''? (Você pode selecionar mais de uma.)\n  {{CMD_22}}\n  \t{{CMD_23}}{{MATH_24}}{{CMD_25}}\n\t{{CMD_26}}{{MATH_27}}{{CMD_28}}\n  \t{{CMD_29}}{{MATH_30}}{{CMD_31}}\n\t{{CMD_32}}{{MATH_33}}{{CMD_34}}\n\t{{CMD_35}}{{MATH_36}}{{CMD_37}}\n\t{{CMD_38}}{{MATH_39}}{{CMD_40}}\n\t{{CMD_41}}{{MATH_42}}{{CMD_43}}\n\t{{CMD_44}}{{MATH_45}}{{CMD_46}}\n\t{{CMD_47}}{{MATH_48}}{{CMD_49}}\n\t{{CMD_50}}{{MATH_51}}{{CMD_52}}\n  {{CMD_53}}\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/breakGround.tex",
+  "ordem": 6,
+  "hash": "4103bac1c10854483d449a5063d8eb81663b6303e1f0079b6f3836d37d1cd55e",
+  "traducao": "   Seja {{MATH_55}}.  Dê zoom na curva em torno de {{MATH_56}} de modo que {{MATH_57}}.  Use uma das formulações do problema acima para\n   aproximar a inclinação da curva.  A inclinação da curva em {{MATH_58}} é aproximadamente{{CMD_59}} {{CMD_60}}{{MATH_61}}{{CMD_62}}\n{{CMD_63}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/breakGround.tex",
+  "ordem": 7,
+  "hash": "176a9d66440a3bbafe4893b9c2ce30df9a3cecc400c8cc582b80f2fbbb244d8c",
+  "traducao": "   Repita o problema anterior para {{MATH_64}}, {{MATH_65}} e {{MATH_66}}.  Escolha uma formulação que lhe dê uma resposta positiva\n   para a inclinação.  A inclinação (positiva) da curva em {{MATH_67}} é\n   aproximadamente{{CMD_68}}{{CMD_69}} {{MATH_70}}{{CMD_71}}\n{{CMD_72}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/breakGround.tex",
+  "ordem": 8,
+  "hash": "cb632e0c844d5cdd819dfc538134a03371dd6db89f855a3e6d1afac29930e22f",
+  "traducao": "   Dê zoom novamente na curva {{MATH_73}} perto de {{MATH_74}}.  Olhando\n   para o gráfico, qual é o seu melhor palpite para a inclinação real da\n   curva em zero?\n   {{CMD_75}}\n   {{CMD_76}}\n     {{CMD_77}}impossível dizer{{CMD_78}}\n     {{CMD_79}}zero{{CMD_80}}\n     {{CMD_81}}um{{CMD_82}}\n     {{CMD_83}}infinito{{CMD_84}}\n   {{CMD_85}}\n   {{CMD_86}}\n   {{CMD_87}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 0,
+  "hash": "664a10bcaa040216be62f0aa99bc471fca03906b001d1800169b1bac9211d0bb",
+  "traducao": "A definição da derivada{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nCalculamos a taxa de crescimento instantânea calculando o limite de\ntaxas de crescimento médias.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 1,
+  "hash": "be57bf165dce50b97cf37f53bec528335c8abc54c38a2dcf8ed22737481627c7",
+  "traducao": "Dada uma função, muitas vezes é útil conhecer a taxa com que a\nfunção varia. Para você ter uma ideia de por que isso é verdade, considere\no seguinte:\n{{CMD_7}}\n\n{{CMD_8}} Se {{MATH_9}} representa a {{CMD_10}} de um objeto sobre uma reta (em relação ao tempo), a taxa de variação fornece\n  a {{CMD_11}} do objeto.\n{{CMD_12}} Se {{MATH_13}} representa a {{CMD_14}} de um objeto em relação ao\n  tempo, a taxa de variação fornece a {{CMD_15}} do objeto.\n{{CMD_16}} Se {{MATH_17}} representa a receita gerada pela venda de {{MATH_18}}\n  objetos, a taxa de variação nos fornece a {{CMD_19}},\n  isto é, a receita adicional gerada pela venda de uma unidade\n  a mais. Observe que há uma suposição implícita de que {{MATH_20}} é bem grande\n  em comparação com {{MATH_21}}.\n{{CMD_22}} Se {{MATH_23}} representa o custo de produzir {{MATH_24}} objetos, a taxa\n  de variação nos fornece o {{CMD_25}}, isto é, o\n  custo adicional gerado pela venda de uma unidade a mais. De novo,\n  há uma suposição implícita de que {{MATH_26}} é bem grande em comparação com\n  {{MATH_27}}.\n{{CMD_28}} A taxa de variação de uma função pode nos ajudar a aproximar uma\n  função complicada por uma função simples.\n{{CMD_29}} A taxa de variação de uma função pode ser usada para nos ajudar a resolver\n  equações que não conseguiríamos resolver por outros métodos.\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 2,
+  "hash": "c07041fca81826a6f2665e6ba762ec9f1f4219050969c42ab742e73931265788",
+  "traducao": "Das inclinações de retas secantes às inclinações de retas tangentes{{CMD_31}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 3,
+  "hash": "27d991b2dfb8d691aba8d943f62669798a48a72d2119ea2b0788c55bcb7a2319",
+  "traducao": "Já faz um tempo que estamos calculando taxas de variação médias,"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 4,
+  "hash": "a4fd7c7231f1f53ad69a7950edccf8101cc59300eece8b5095e674b27177e086",
+  "traducao": "Mais precisamente, a taxa de variação média de uma função {{MATH_32}} é dada por\n{{MATH_33}}\nquando a entrada varia de {{MATH_34}} até {{MATH_35}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 5,
+  "hash": "e8a4e7aabb775ccc8479611c5a951a466d4a632b37a71d6a98b75e4579c05b30",
+  "traducao": "O que acontece se calcularmos essa taxa de variação média de {{MATH_36}} para cada valor de {{MATH_37}} à medida que {{MATH_38}} se aproxima cada vez mais de {{MATH_39}}? Em outras palavras, qual é o significado do limite\n{{MATH_40}}\ndesde que o limite exista?\n\nNaturalmente, chamamos esse limite de {{CMD_41}}taxa de variação instantânea{{CMD_42}} da função {{MATH_43}} em {{MATH_44}}.\n{{COMMENT_45}}\n{{COMMENT_46}}\n{{CMD_47}}\n\t(Neste exemplo, usaremos a abreviação AvRCh para a taxa de variação média e InRCh para a taxa de variação instantânea.)\n\n\tSeja {{MATH_48}}.\n\t{{CMD_49}}\n\t{{CMD_50}} Determine a expressão da taxa de variação média de {{MATH_51}} entre os pontos  {{MATH_52}} e {{MATH_53}}.\n\t\t{{MATH_54}}\n\t\t  Agora calcule a função,\n\t\t {{MATH_55}}\n\t\tSimplifique, {{MATH_56}}\n\n\t{{CMD_57}} Determine  a taxa de variação média de {{MATH_58}} entre os pontos {{MATH_59}} e {{MATH_60}}, {{MATH_61}}.\n\t\t{{MATH_62}}\n\t\t Agora substitua a expressão da função,\n\t\t {{MATH_63}}\n\t\tSimplifique o numerador,\n\t\t{{MATH_64}}\n\t\tFatore,\n\t\t{{MATH_65}}\n\t\tFatore e cancele,\n\t\t{{MATH_66}}\n\n\t{{CMD_67}} Determine a taxa de variação instantânea de {{MATH_68}} no ponto {{MATH_69}}.\n\t\t{{MATH_70}}\n\t\tAssim, a taxa de variação instantânea é o limite, quando {{MATH_71}}, das taxas de variação médias de {{MATH_72}}\n\t\tentre os pontos {{MATH_73}} e {{MATH_74}}, para {{MATH_75}}.\n\n\t\tJá calculamos uma expressão para a taxa de variação média para todo {{MATH_76}}.\n\t\tPortanto, {{MATH_77}}\n\n\t{{CMD_78}}\n{{CMD_79}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 6,
+  "hash": "9130406bdaec71ceb9bf37bc23dc9ec1381b69f3822d24adbe22b587012ab078",
+  "traducao": "Esse mesmo limite\n{{MATH_80}}\ntambém surge em um contexto completamente diferente."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 7,
+  "hash": "afe046fbc9b0ee1a056f40561ec630a89b3bff88d53b4d119105fd5a3adca53b",
+  "traducao": "Dê uma olhada na figura abaixo.\nA figura mostra o gráfico da função {{MATH_81}}, dois pontos do gráfico, {{MATH_82}} e {{MATH_83}}, e uma {{CMD_84}}reta secante{{CMD_85}}\nque passa  por esses dois pontos.\n{{ENV_86}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 8,
+  "hash": "84dde647e5ba6f196495f43bf371f625926db6c8fda9edcc76ab6895ce9098bf",
+  "traducao": "A inclinação dessa reta secante é igual a {{MATH_87}}!\n\tEssa é exatamente a expressão da taxa de variação média de {{MATH_88}} quando a entrada varia de {{MATH_89}} até {{MATH_90}}!"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 9,
+  "hash": "f5d7b3b7222db24e196ed887b2c6d69482495fd8607e58498269ba6fe8992c62",
+  "traducao": "Portanto, o cálculo para encontrar a inclinação da reta secante {{CMD_91}}é exatamente o mesmo cálculo{{CMD_92}}\n\tque o usado para calcular a taxa de variação média de uma função."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 10,
+  "hash": "ea4f6fb516e949707c475e1f262f81a0615ca9c3490dd8ec6a615a910fcba3ff",
+  "traducao": "Como antes, podemos nos perguntar: o que acontece à medida que {{MATH_93}} se aproxima cada vez mais de {{MATH_94}}?\nEm outras palavras, qual é o significado do limite das inclinações das retas secantes que passam pelos pontos {{MATH_95}} e {{MATH_96}}\nà medida que {{MATH_97}} se aproxima cada vez mais de {{MATH_98}}?\n\nComo podemos interpretar o limite\n{{MATH_99}}\ndesde que o limite exista?\n\nEsse cenário está ilustrado na figura abaixo. O que acontece quando {{MATH_100}}?\n{{CMD_101}}{{ENV_102}}{{CMD_103}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 11,
+  "hash": "f6579c556cb2b0e2327fd7f4d4a0c3f43df33ac471be5dd49b5ffc464f9f583c",
+  "traducao": "Observe que todas as retas secantes da figura passam pelo ponto dado {{MATH_104}}. O que distingue essas retas são suas inclinações;\n\ta inclinação de cada reta é determinada por um ponto adicional sobre a reta, {{MATH_105}}.\nA figura sugere que ``o limite das inclinações das retas secantes'' é a inclinação de uma reta especial, chamada {{CMD_106}}reta tangente{{CMD_107}}\n\tà curva {{MATH_108}} no ponto {{MATH_109}}.\nObserve como a reta tangente e a curva são indistinguíveis perto do ponto {{MATH_110}}. Se for possível ``ampliar''\n\to gráfico em {{MATH_111}} o suficiente para que ele pareça uma linha reta, então essa reta é a {{CMD_112}} a\n\t{{MATH_113}} no ponto {{MATH_114}}. Isso está ilustrado na figura abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 12,
+  "hash": "2081cf8ebbb72b13cb8fb6c4d5a360905f382743f3ea2385db1a6020c2194f21",
+  "traducao": "Para ver isso de outra maneira, na figura interativa a seguir, veja o que acontece com a reta contínua (verde) quando você usa o controle deslizante para arrastar\no ponto que começa em {{MATH_115}} cada vez mais perto de {{MATH_116}} ao longo do gráfico. Como ela se compara com a reta tangente pontilhada (preta)?\n{{CMD_117}}\n\t{{CMD_118}}\n{{CMD_119}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 13,
+  "hash": "4461385d328db7bfe61c15f273a4fd972d4680680f1c18067b11a029c6130dac",
+  "traducao": "\tCada uma das quatro figuras a seguir mostra o gráfico da mesma função {{MATH_120}} e uma reta que passa pelo ponto {{MATH_121}}.\n\t {{CMD_122}}\n\t    {{ENV_123}}\n\t  {{CMD_124}}\n\tApenas uma das figuras mostra a reta tangente à curva {{MATH_125}} no ponto {{MATH_126}}. Qual delas?\n\t{{CMD_127}}\n\t\t{{CMD_128}} Figura A{{CMD_129}}\n\t\t{{CMD_130}}Figura B{{CMD_131}}\n\t\t{{CMD_132}}Figura C{{CMD_133}}\n\t\t{{CMD_134}}Figura D{{CMD_135}}\n\t{{CMD_136}}\n\t{{CMD_137}}\n\t\tApenas a reta da figura {{MATH_138}} parece indistinguível da curva {{MATH_139}} perto do ponto {{MATH_140}}.\n\t{{CMD_141}}\n{{CMD_142}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 14,
+  "hash": "c7c4024889164ca66bb998100e9fbe7e471fdf8309de2ff29fa3f03d25806659",
+  "traducao": "O limite {{MATH_143}}\ntem muitas interpretações diferentes, dependendo do contexto, como a inclinação da reta tangente,\na taxa de variação instantânea e a velocidade instantânea.\nPortanto, esse limite merece um nome especial, que possa ser usado independentemente do contexto."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 15,
+  "hash": "642a88810589c31c56affc1f07b0ab097947d652fae7a015c2d07832bbcb2741",
+  "traducao": "\t A {{CMD_144}} de {{MATH_145}} em {{MATH_146}}, denotada por {{MATH_147}}, é dada por\n\t  {{MATH_148}}\n\tdesde que o limite exista. Dizemos que {{MATH_149}} é {{CMD_150}}\n\tem {{MATH_151}} se  esse limite existe. Caso contrário,  dizemos que  {{MATH_152}} é {{CMD_153}} em {{MATH_154}}.\n{{CMD_155}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 16,
+  "hash": "abfade862ba72e4f42a33964565f31da1ee68e945e8c47dc36507fc863ca2738",
+  "traducao": "A definição da derivada nos permite definir reta tangente com precisão.\n{{CMD_156}}\n \tSeja {{MATH_157}} uma função derivável em {{MATH_158}}. A {{CMD_159}} {{MATH_160}} no ponto {{MATH_161}} é\n \ta reta que passa pelo ponto {{MATH_162}} e cuja inclinação é igual a {{MATH_163}}.\n {{CMD_164}}\n\nUsando a equação ponto-inclinação da reta, a reta tangente é dada pela equação\n{{MATH_165}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 17,
+  "hash": "f66667d278133362903218ec85519247adaa3168580b55f4f0ea17a118c92823",
+  "traducao": "\tSeja {{MATH_166}} a função dada por {{MATH_167}}.\n\tQual é a taxa de variação instantânea de {{MATH_168}} em {{MATH_169}}, em que {{MATH_170}} é um número real qualquer?\n\t{{CMD_171}}\n\t\tA taxa de variação é dada por {{MATH_172}} e, portanto, é a inclinação da reta tangente à curva {{MATH_173}} no ponto {{MATH_174}}.\n\t{{CMD_175}}\n\t{{CMD_176}}\n\t\tA reta tangente à curva {{MATH_177}} é simplesmente a própria curva!\n\t{{CMD_178}}\n\t{{CMD_179}}\n\t\tA derivada é a inclinação da reta {{MATH_180}}! Portanto,  {{MATH_181}}, para todo número real {{MATH_182}}.\n\t{{CMD_183}}\n\t{{CMD_184}}\n\t\t Podemos verificar esse raciocínio calculando {{MATH_185}} pela definição da derivada.\n\t\t {{MATH_186}}\n\t\tSubstitua {{MATH_187}} por sua fórmula,\n\t\t{{MATH_188}}\n\t\tSimplifique o numerador,\n\t\t{{MATH_189}}\n\t\tFatore o numerador,\n\t\t{{MATH_190}}\n\t\t Calcule o limite,\n\t\t{{MATH_191}}\n\t{{CMD_192}}\n{{CMD_193}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 18,
+  "hash": "0e6c979c3bfe6a546a739d369fdfed2715092a3a669c412eabe6542b72e0c6ba",
+  "traducao": "A maioria das funções não é linear, e seus gráficos não são linhas retas.  Para a maioria das funções, o cálculo da derivada não é tão\nsimples quanto no exemplo anterior.\n{{CMD_194}}\n\tSeja {{MATH_195}}.\n\n\tDetermine a inclinação da reta tangente à curva {{MATH_196}} no ponto {{MATH_197}}.\n\t{{CMD_198}}\n\t\tEncontrar a inclinação da reta tangente no ponto {{MATH_199}} significa encontrar {{MATH_200}}\n\t\t{{MATH_201}}\n\t\tEsse limite nos dá a taxa de variação instantânea de {{MATH_202}} em {{MATH_203}}, que foi calculada em nosso primeiro exemplo!\n\t\tPortanto,\t a inclinação da reta tangente é\n\t\t{{MATH_204}}\n\t{{CMD_205}}\n\t{{CMD_206}}\n \t\t Podemos confirmar nossos resultados observando o gráfico de {{MATH_207}} e a reta {{MATH_208}}.\n\t\t {{CMD_209}}{{ENV_210}}{{CMD_211}}\n\t  {{CMD_212}}\n{{CMD_213}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 19,
+  "hash": "2347f596a1d54ba0ba401c863a414c559655c520a06898ad927a36de0e0f364c",
+  "traducao": "\tSeja {{MATH_214}}.\n\tDetermine uma equação da reta tangente à curva {{MATH_215}} no ponto {{MATH_216}}.\n \t{{CMD_217}}\n\t\tPara encontrar a equação de uma reta, precisamos de duas informações.  Precisamos conhecer\n\t\tum ponto da reta e precisamos conhecer a inclinação da reta.  Nesta pergunta, foi dado\n\t\tque  o ponto {{MATH_218}} está sobre a reta.  Logo, precisamos encontrar a inclinação da reta tangente.\n\t\tEncontrar a inclinação da reta tangente no ponto {{MATH_219}} significa encontrar {{MATH_220}}.\n\n\t\tComece escrevendo a definição da derivada,\n\t\t{{MATH_221}}\n\t\tMultiplique por {{MATH_222}} para eliminar a fração do numerador,\n\t\t{{MATH_223}}\n\t\tCombine os termos semelhantes do numerador,\n\t\t{{MATH_224}}\n\n\t\tCalcule o limite quando {{MATH_225}} tende a {{MATH_226}},\n\t    \t{{MATH_227}}\n\t    \tEstamos procurando uma equação da reta que passa pelo ponto\n\t    \t{{MATH_228}} com inclinação {{MATH_229}}.  A fórmula ponto-inclinação nos diz\n\t    \tque a reta tem equação dada por\n\t    \t{{MATH_230}}\n\t \tou, equivalentemente, {{MATH_231}}.\n\n\t\t{{CMD_232}}\n\t\t\tPodemos confirmar nossos resultados observando o gráfico de {{MATH_233}} e a reta {{MATH_234}}.\n\t\t\t  {{CMD_235}}{{ENV_236}}{{CMD_237}}\n\n\t\t{{CMD_238}}\n  \t{{CMD_239}}\n{{CMD_240}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/digInTheDerivativeViaLimits.tex",
+  "ordem": 20,
+  "hash": "89f61f40a8c3590a2becda21a724af310f1a49d41f223bee6369177dc0f5f20d",
+  "traducao": "\tUm objeto que se move ao longo de uma linha reta tem posição dada por\n\t{{MATH_241}}, em que a posição é medida em metros e o tempo em segundos.  Determine a velocidade (instantânea) do objeto no instante {{MATH_242}}.\n\t  {{CMD_243}}\n\t\t    A velocidade é a taxa de variação instantânea da posição em relação ao\n\t\t    tempo.  Estamos sendo solicitados a encontrar {{MATH_244}}.  Precisamos ajustar a\n\t\t    definição da derivada, isto é, substituir {{MATH_245}} por {{MATH_246}},\n\t\t    {{MATH_247}}\n\t\t    Multiplique por {{MATH_248}} para racionalizar a expressão,\n\t\t    {{MATH_249}}\n\t\t    Agora simplifique o numerador,\n\t\t    {{MATH_250}}\n\t\t    Combine os termos semelhantes,\n\t\t    {{MATH_251}}\n\t\t     Calcule o limite quando {{MATH_252}} tende a {{MATH_253}},\n\t\t    {{MATH_254}}\n\n\n\t\t  O objeto tem velocidade {{MATH_255}} {{MATH_256}} no instante {{MATH_257}}.\n\n\t\t{{CMD_258}}\n\t\t\tAbaixo podemos ver o gráfico de {{MATH_259}} e a reta tangente em {{MATH_260}}, com inclinação {{MATH_261}}.\n\t\t\tObserve, mais uma vez, como a reta se ajusta ao gráfico da função {{MATH_262}} perto do ponto {{MATH_263}}.\n\t\t\t{{CMD_264}}{{ENV_265}}{{CMD_266}}\n\t\t{{CMD_267}}\n\t{{CMD_268}}\n{{CMD_269}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/02_01_ex_01.tex",
+  "ordem": 0,
+  "hash": "78318cc3e86a5f6681bae04ca40448555df5f0ed3c4c702a9a52149c9ad2e3fc",
+  "traducao": "Verdadeiro ou falso?"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/02_01_ex_01.tex",
+  "ordem": 1,
+  "hash": "f4696d713beeb2691e0eac20165593ec9c47fdb0ce8e8b9cc6f808460b8deeab",
+  "traducao": "Seja {{MATH_1}} a posição de um objeto que se move ao longo de uma reta. A velocidade média do objeto no intervalo de tempo {{MATH_2}} é igual à  inclinação da reta que passa pelos pontos {{MATH_3}} e {{MATH_4}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/02_01_ex_01.tex",
+  "ordem": 2,
+  "hash": "c75032febb22bd56a3838dffd1bc8a469d660b9cc4fc5ae8dfdee0199c9d90dc",
+  "traducao": "Verdadeiro{{CMD_5}}\n{{CMD_6}}Falso{{CMD_7}}\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/9_Q4-1151_ex_1.tex",
+  "ordem": 0,
+  "hash": "45d4db652a8709abb000ca1606ba269f98abcceda04481fd98f94a1f8ab2beaa",
+  "traducao": "Usando a {{CMD_1}}definição da derivada{{CMD_2}}, preencha as lacunas:\n  {{MATH_3}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/9_Q4-1151_ex_1.tex",
+  "ordem": 1,
+  "hash": "23ee4a2f33a79ffccbecad29182e4ffcc00c128d781649329492f42d567f5fbd",
+  "traducao": "  Seja {{MATH_4}}. Use a definição da derivada por limite\n  acima para determinar {{MATH_5}}.\n  {{CMD_6}}\n    Escreva\n    {{MATH_7}}\n    {{CMD_8}}\n      Agora substitua {{MATH_9}} para obter\n      {{MATH_10}}\n      {{CMD_11}}\n        Para calcular esse limite analiticamente, devemos multiplicar\n        {{MATH_12}}\n        pela fração:\n        {{MATH_13}}\n        {{CMD_14}}\n          Agora temos\n          {{MATH_15}}\n          de modo que podemos cancelar um fator {{MATH_16}},\n          {{MATH_17}}\n          e finalmente ver que:\n          {{MATH_18}}\n        {{CMD_19}}\n      {{CMD_20}}\n    {{CMD_21}}\n  {{CMD_22}}\n{{CMD_23}}\n{{CMD_24}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/AU15_WH4.tex",
+  "ordem": 0,
+  "hash": "369d4e0c2d6f98cfd92dc5f8c124342232ebd541c61e162860aaede538a86393",
+  "traducao": "Um tanque de óleo será esvaziado para limpeza. Restam {{MATH_1}} galões de óleo no tanque {{MATH_2}} minutos após o início do esvaziamento, em que {{MATH_3}}.\n{{CMD_4}}\nDetermine a {{CMD_5}}taxa média{{CMD_6}} com que o óleo escoa durante os primeiros {{MATH_7}} minutos.\n{{MATH_8}}\n{{CMD_9}}\nDetermine a {{CMD_10}}taxa média{{CMD_11}} com que o óleo escoa durante o intervalo de tempo {{MATH_12}}.\n{{MATH_13}}\n{{CMD_14}}\nDetermine a {{CMD_15}}taxa{{CMD_16}} com que o óleo está escoando {{MATH_17}} minutos após o início do esvaziamento.\n{{MATH_18}}\n{{CMD_19}}\nDetermine a {{CMD_20}}taxa média{{CMD_21}}, {{MATH_22}}, com que o óleo escoa durante o intervalo de tempo {{MATH_23}} se {{MATH_24}}.\n{{MATH_25}}\nAgora determine a {{CMD_26}}taxa média{{CMD_27}}, {{MATH_28}}, com que o óleo escoa durante o intervalo de tempo {{MATH_29}} se {{MATH_30}}.\n{{MATH_31}}\n{{CMD_32}}\nUsando seu resultado, calcule o limite\n{{MATH_33}}\n{{CMD_34}}\nO que esse limite {{MATH_35}} representa?\n{{CMD_36}}\n{{CMD_37}}A taxa de variação média em {{MATH_38}}.{{CMD_39}}\n{{CMD_40}}A quantidade {{MATH_41}}.{{CMD_42}}\n{{CMD_43}}A taxa de variação instantânea de {{MATH_44}} em {{MATH_45}}.{{CMD_46}}\n{{CMD_47}}A derivada de {{MATH_48}} em {{MATH_49}}.{{CMD_50}}\n{{CMD_51}}\n{{CMD_52}}\nSuponha que o tanque de óleo tenha sido completamente esvaziado e agora esteja sendo reabastecido. Seja {{MATH_53}} a quantidade de galões de óleo no tanque {{MATH_54}} minutos após o início do reabastecimento. Suponha que nos digam que a função {{MATH_55}} é uma {{CMD_56}}função derivável{{CMD_57}} e que o tanque é tão grande que levará um bom tempo para encher."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/AU15_WH4.tex",
+  "ordem": 1,
+  "hash": "e1fc0735f0525fc0aba3e80f19c7eec867356dc6f00805f6239103aae02c370a",
+  "traducao": "Determine uma expressão para a {{CMD_58}}taxa média{{CMD_59}}, {{MATH_60}}, com que o óleo entra no tanque nos primeiros {{MATH_61}} minutos, para {{MATH_62}}. Expresse {{MATH_63}} {{CMD_64}}simbolicamente{{CMD_65}} em termos da função {{MATH_66}}, da variável {{MATH_67}} e da quantidade {{MATH_68}}.\n{{CMD_69}}\n{{CMD_70}}{{MATH_71}}{{CMD_72}}\n{{CMD_73}}{{MATH_74}}{{CMD_75}}\n{{CMD_76}}{{MATH_77}}{{CMD_78}}\n{{CMD_79}}{{MATH_80}}{{CMD_81}}\n{{CMD_82}}{{MATH_83}}{{CMD_84}}\n{{CMD_85}}{{MATH_86}}{{CMD_87}}\n{{CMD_88}}\n{{COMMENT_89}}\n{{COMMENT_90}}\n{{COMMENT_91}}\n{{CMD_92}}\nAgora seja {{MATH_93}} a função que denota a {{CMD_94}}taxa média{{CMD_95}} com que o óleo escoa no intervalo de tempo {{MATH_96}}, em que {{MATH_97}} é maior que {{MATH_98}} e menor que tau---isto é, em que {{MATH_99}}. Expresse {{MATH_100}} {{CMD_101}}simbolicamente{{CMD_102}} em termos da função {{MATH_103}} e das variáveis {{MATH_104}} e {{MATH_105}}.\n{{CMD_106}}\n{{CMD_107}}{{MATH_108}}{{CMD_109}}\n{{CMD_110}}{{MATH_111}}{{CMD_112}}\n{{CMD_113}}{{MATH_114}}{{CMD_115}}\n{{CMD_116}}{{MATH_117}}{{CMD_118}}\n{{CMD_119}}{{MATH_120}}{{CMD_121}}\n{{CMD_122}}{{MATH_123}}{{CMD_124}}\n{{CMD_125}}\n{{CMD_126}}\n  O que {{MATH_127}} calcula?\n    {{CMD_128}}\n      {{CMD_129}}A taxa de variação média de {{MATH_130}}.{{CMD_131}}\n      {{CMD_132}}A taxa de variação média de {{MATH_133}} em {{MATH_134}}.{{CMD_135}}\n      {{CMD_136}}A taxa de variação instantânea de {{MATH_137}}.{{CMD_138}}\n      {{CMD_139}}A taxa de variação instantânea de {{MATH_140}} no instante {{MATH_141}}.{{CMD_142}}\n      {{CMD_143}}{{MATH_144}}{{CMD_145}}\n      {{CMD_146}}{{MATH_147}}.{{CMD_148}}\n    {{CMD_149}}\n{{CMD_150}}\n{{CMD_151}}\n{{CMD_152}}\n{{CMD_153}}\n{{CMD_154}}\n{{CMD_155}}\n{{CMD_156}}\n{{CMD_157}}\n{{CMD_158}}\n{{CMD_159}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromGraph1.tex",
+  "ordem": 0,
+  "hash": "57e62ff47f74fa9bd29d24126399de97eb424b66bd66682ca3f6e5e33a30ec44",
+  "traducao": "Um objeto está se movendo ao longo de uma reta horizontal.  Seja {{MATH_1}} a posição do objeto (em metros) no instante {{MATH_2}} (em segundos).  O gráfico de {{MATH_3}} é dado abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromGraph1.tex",
+  "ordem": 1,
+  "hash": "544e76136f7f9cbb61431cc9b850178d1b53cbdca6070bf943190a02de501978",
+  "traducao": "Preencha as lacunas.\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromGraph1.tex",
+  "ordem": 2,
+  "hash": "06e2aceb3c3fa7f12bc2d877356ff83fca94ad0517ac04a4492d3ab0e62ac7af",
+  "traducao": "O objeto está na origem em {{MATH_5}} e {{MATH_6}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromGraph1.tex",
+  "ordem": 3,
+  "hash": "16b4d0d2098503e09912b30e56bafeee30db3273a1af7de21a33281beb7720a9",
+  "traducao": "O objeto está mais distante da origem em {{MATH_7}} e {{MATH_8}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromGraph1.tex",
+  "ordem": 4,
+  "hash": "2cde9ec33508d8ad7f27f2738adc7290dbb7ab880d364b6d0feeb67601aa1fb9",
+  "traducao": "A velocidade média do objeto no intervalo {{MATH_9}} é\n{{MATH_10}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromTable1.tex",
+  "ordem": 0,
+  "hash": "a2c21a12c11a57a99cea0dad6e08ee1c8bc3a85e8aeafa296ccc9303a817d3c6",
+  "traducao": "Suponha que {{MATH_1}} seja a posição (em pés) de um objeto que se move ao longo de uma reta, para o tempo {{MATH_2}} (em segundos).  A velocidade média do objeto no intervalo {{MATH_3}} é\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromTable1.tex",
+  "ordem": 1,
+  "hash": "21393a3207c7f2eb0dbd017e6ce556f03beadd747dac130dac872d85b76adbcc",
+  "traducao": "A tabela abaixo fornece o valor de {{MATH_5}} em vários instantes."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromTable1.tex",
+  "ordem": 2,
+  "hash": "183d4b3af8152d7c28a9a447051a9a58e03eb9a6a642b4d2332f22afdbf52534",
+  "traducao": "A velocidade média do objeto no intervalo {{MATH_6}} é\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromTable1.tex",
+  "ordem": 3,
+  "hash": "60563f9876b5f5b6a3892a8cd27e64eb69aba2eb952df3edda351e015af5fe4a",
+  "traducao": "Com base nas informações da tabela acima, nós {{CMD_8}}{{CMD_9}}podemos{{CMD_10}}{{CMD_11}}não podemos{{CMD_12}}{{CMD_13}} calcular a velocidade instantânea do objeto em {{MATH_14}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromTable1.tex",
+  "ordem": 4,
+  "hash": "33ce2e522b00f4a1e16f68a367ee5d1b8286e053ead22ad7ecd1b4565a6006f2",
+  "traducao": "O melhor que podemos fazer é calcular a velocidade média do objeto nos intervalos {{MATH_15}} e {{MATH_16}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromTable1.tex",
+  "ordem": 5,
+  "hash": "bc940c862905ffef02fb2aeb5fe875c4cd5863c10b3c4b4b2aabbc5e96fe6291",
+  "traducao": "A velocidade média do objeto em {{MATH_17}} é\n{{MATH_18}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityFromTable1.tex",
+  "ordem": 6,
+  "hash": "8d3a008735eec5fd1f59ac2bced3412695230fe1ba43512387a794111f60054b",
+  "traducao": "A velocidade média no intervalo {{MATH_19}} é\n{{MATH_20}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityInterval1.tex",
+  "ordem": 0,
+  "hash": "e55cf2158578b6f81ec842577b83a610ef00b6461e3990e691ff89d2a3cb731b",
+  "traducao": "Considere um objeto que se move ao longo de uma reta com função posição {{MATH_1}} para {{MATH_2}}, dada por\n{{MATH_3}}\n{{MATH_4}} é medida em metros e {{MATH_5}} é medido em segundos."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityInterval1.tex",
+  "ordem": 1,
+  "hash": "657d3bc63f0d2f268cb1531c8fac1828930ec11eeb285503ae8dc9825d28cd12",
+  "traducao": "Considere os pontos na reta numérica abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityInterval1.tex",
+  "ordem": 2,
+  "hash": "0f3698abffad8c0b775f6e0b3d5840eb4bf2f5036bae1b0d51e2e16de730d7e3",
+  "traducao": "O ponto que corresponde à posição do objeto em {{MATH_6}} é {{MATH_7}}.{{CMD_8}}\n{{CMD_9}}\nO ponto que corresponde à posição do objeto em {{MATH_10}} é {{MATH_11}}.\n{{CMD_12}}\nO objeto passará pelo ponto {{MATH_13}} pela primeira vez em {{MATH_14}} e, pela segunda vez, em {{MATH_15}}.\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/averageVelocityInterval1.tex",
+  "ordem": 3,
+  "hash": "9696316ef0e08199f72c8a1c743607285912fd285cbf20136251affb0c9848b5",
+  "traducao": "A velocidade média do objeto no intervalo {{MATH_17}} é\n{{MATH_18}}\n{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeEstimateGraphically2.tex",
+  "ordem": 0,
+  "hash": "8a895784002728d875f5765be5ef1691d2fc6238c026c2ddb016e985a2a70d82",
+  "traducao": " Usando o gráfico abaixo, estime   {{MATH_1}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeEstimateGraphically2.tex",
+  "ordem": 1,
+  "hash": "891911de8b13bef979a05131f17d87975b52f840e92720f50b7cce2a2020a34f",
+  "traducao": "  Usando sua estimativa acima, qual é a equação da reta tangente a {{MATH_2}} em {{MATH_3}}?"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeEstimateGraphically2.tex",
+  "ordem": 2,
+  "hash": "9c79a3805bdec8890897ddb5aea1794a02e89c16e48ebfd4a615824b3ee73744",
+  "traducao": "A equação dessa reta tangente é\n{{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeFromValues1.tex",
+  "ordem": 0,
+  "hash": "2cacfc315f513822f50ae292046a0a992a165e11c18e9c9a5c4e050505aefa95",
+  "traducao": "\tPreencha as duas versões da definição da derivada:\n\n\t{{MATH_1}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeFromValues1.tex",
+  "ordem": 1,
+  "hash": "4fef41d8e10a83ee67dc8486f3fe231887836a9abb9749e3b2c568db2c9219ee",
+  "traducao": "\tSeja {{MATH_2}} uma função tal que\n\t{{MATH_3}}\n\n\tDetermine os valores a seguir ou escreva {{CMD_4}}+CBD+ se o valor não puder ser determinado.\n\n\t{{ENV_5}}\n\n\t{{CMD_6}}\n{{CMD_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition1.tex",
+  "ordem": 0,
+  "hash": "fa49062416dd3ec2db64723a970077ddc80ebd36f71f6d01c216e248a29c3ab2",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition1.tex",
+  "ordem": 1,
+  "hash": "72e57237cfaf02ad1d946ff1d1f40a8460aed712dc73725342f28f36717645f7",
+  "traducao": " Usando sua calculadora, aproxime {{MATH_2}} calculando a taxa de variação média de {{MATH_3}} no intervalo {{MATH_4}}. {{CMD_5}}   A taxa de variação média é  {{MATH_6}}{{CMD_7}}. (Arredonde para duas casas decimais.)  {{COMMENT_8}}\n{{CMD_9}} Usando o gráfico de {{MATH_10}} fornecido abaixo, você acha que a estimativa de {{MATH_11}} que você obteve acima é uma estimativa por excesso ou uma estimativa por falta?"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition1.tex",
+  "ordem": 2,
+  "hash": "214b7575a21523de31a825074a8cac57a234c530d302e872fa0d1a586971fae0",
+  "traducao": "Estimativa por falta{{CMD_12}}\n\t{{CMD_13}}Estimativa por excesso{{CMD_14}}\n{{CMD_15}}\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition1.tex",
+  "ordem": 3,
+  "hash": "1e247a52b5e1e54c40e7e229cd52533b262f532c7d8ca5da4d14e4058debd8ca",
+  "traducao": " Use a definição da derivada por limite para calcular o valor exato de {{MATH_17}}.  {{CMD_18}}{{MATH_19}}{{CMD_20}}\n{{CMD_21}}\n{{CMD_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition3.tex",
+  "ordem": 0,
+  "hash": "fa49062416dd3ec2db64723a970077ddc80ebd36f71f6d01c216e248a29c3ab2",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition3.tex",
+  "ordem": 1,
+  "hash": "a1b6858aa51e9151c83f30ba0410564d6d95f3bd09e228761c6792ffe7f511ab",
+  "traducao": " Usando sua calculadora, aproxime {{MATH_2}} calculando a taxa de variação média de {{MATH_3}} no intervalo {{MATH_4}}.  A taxa de variação média é{{CMD_5}}  {{MATH_6}}\n{{CMD_7}} Usando o gráfico de {{MATH_8}} fornecido abaixo, você acha que a estimativa de {{MATH_9}} que você obteve acima é uma estimativa por excesso ou uma estimativa por falta?"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition3.tex",
+  "ordem": 2,
+  "hash": "954daeed715c8d22ce3c760ea6a1474be4edf4df249cc36d9cdce33d1b4f89e4",
+  "traducao": "Estimativa por falta{{CMD_10}}\n\t{{CMD_11}}Estimativa por excesso{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition3.tex",
+  "ordem": 3,
+  "hash": "3f1e7657b7eb56e68d4d65c99b8aa8c87cb90bff7b43b728db08d66c418414ac",
+  "traducao": " Use a definição da derivada por limite para calcular {{MATH_15}}.  {{CMD_16}}{{MATH_17}}{{CMD_18}}\n{{CMD_19}}\n{{CMD_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition4.tex",
+  "ordem": 0,
+  "hash": "fa49062416dd3ec2db64723a970077ddc80ebd36f71f6d01c216e248a29c3ab2",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition4.tex",
+  "ordem": 1,
+  "hash": "a1b6858aa51e9151c83f30ba0410564d6d95f3bd09e228761c6792ffe7f511ab",
+  "traducao": " Usando sua calculadora, aproxime {{MATH_2}} calculando a taxa de variação média de {{MATH_3}} no intervalo {{MATH_4}}.  A taxa de variação média é{{CMD_5}}  {{MATH_6}}\n{{CMD_7}} Usando o gráfico de {{MATH_8}} fornecido abaixo, você acha que a estimativa de {{MATH_9}} que você obteve acima é uma estimativa por excesso ou uma estimativa por falta?"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition4.tex",
+  "ordem": 2,
+  "hash": "954daeed715c8d22ce3c760ea6a1474be4edf4df249cc36d9cdce33d1b4f89e4",
+  "traducao": "Estimativa por falta{{CMD_10}}\n\t{{CMD_11}}Estimativa por excesso{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeLimitDefinition4.tex",
+  "ordem": 3,
+  "hash": "3f1e7657b7eb56e68d4d65c99b8aa8c87cb90bff7b43b728db08d66c418414ac",
+  "traducao": " Use a definição da derivada por limite para calcular {{MATH_15}}.  {{CMD_16}}{{MATH_17}}{{CMD_18}}\n{{CMD_19}}\n{{CMD_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeTangentLine1.tex",
+  "ordem": 0,
+  "hash": "fa49062416dd3ec2db64723a970077ddc80ebd36f71f6d01c216e248a29c3ab2",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeTangentLine1.tex",
+  "ordem": 1,
+  "hash": "d461b4c744f1c19af60aded6d939c720a8ff2dc7b601383d89175e780a7fa627",
+  "traducao": " Qual é a equação da reta secante que liga o ponto {{MATH_2}} ao ponto {{MATH_3}}?\n{{CMD_4}}\nA equação dessa reta secante é\n{{MATH_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeTangentLine1.tex",
+  "ordem": 2,
+  "hash": "e5de1f738ccfe811f9fd8caee81f80a8cdea8e73445000d7176e798164a283eb",
+  "traducao": "  Use a definição da derivada para determinar a inclinação da reta tangente a {{MATH_7}} em {{MATH_8}} e, a partir dela, determine a equação dessa reta tangente."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeTangentLine1.tex",
+  "ordem": 3,
+  "hash": "777c7dd2d87c05d822a44d2271346b4e83fbac143d51fd71a336a0b64c4bb613",
+  "traducao": "A equação dessa reta tangente é\n{{MATH_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeTangentLine1.tex",
+  "ordem": 4,
+  "hash": "58baa3319ff52f213d4e91a6b1239f5a3bc581ff0114434317a83985e5e2ce20",
+  "traducao": "Não é legal como os coeficientes da equação da reta secante são próximos dos da reta tangente?\n{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeTangentLine2.tex",
+  "ordem": 0,
+  "hash": "da746e1e97bce102f4825c53442ab00b2b885b4fb3ddaf99dc6c98634b7745ae",
+  "traducao": "Considere\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeTangentLine2.tex",
+  "ordem": 1,
+  "hash": "2cce2aaef43ddb266a4c41308ab0006cf1752c8033c1a3ae74a48558cb85a56c",
+  "traducao": " Qual é a equação da reta secante que liga o ponto {{MATH_2}} ao ponto {{MATH_3}}?\n{{CMD_4}}\nA equação dessa reta secante é (dê a equação exata, não uma aproximação decimal):\n{{MATH_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeTangentLine2.tex",
+  "ordem": 2,
+  "hash": "e5de1f738ccfe811f9fd8caee81f80a8cdea8e73445000d7176e798164a283eb",
+  "traducao": "  Use a definição da derivada para determinar a inclinação da reta tangente a {{MATH_7}} em {{MATH_8}} e, a partir dela, determine a equação dessa reta tangente."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeTangentLine2.tex",
+  "ordem": 3,
+  "hash": "25696ffec4d67ecc6a71e00f3a29fa0b0d1791d560fc784ab0a101c177aa4d05",
+  "traducao": "A equação dessa reta tangente é\n{{MATH_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeTangentLine2.tex",
+  "ordem": 4,
+  "hash": "c62173db9b8fad55fca2c816b8d1e51c4e292ff6326c29716e4c627a9d5437a6",
+  "traducao": "Não é interessante como os coeficientes da equação da reta secante são próximos dos da reta tangente?\n{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeWeird3.tex",
+  "ordem": 0,
+  "hash": "e3346bbf32d57dc53135d265a610f0d6987741d74d363221fab81fe40eb77a16",
+  "traducao": "Considere a função {{MATH_1}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/derivativeWeird3.tex",
+  "ordem": 1,
+  "hash": "e8dbd80299bdf7a95d1b9c904670477b1df7c03fc3a73ac81cb5f979a3d7e054",
+  "traducao": "Determine a equação da reta tangente ao gráfico de {{MATH_2}} no ponto {{MATH_3}}.\n(Observação: certifique-se de determinar {{MATH_4}} usando a fórmula de {{MATH_5}} dada acima.)"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical1.tex",
+  "ordem": 0,
+  "hash": "3684ae9e91036b926f5c02d01efa9da3a82fe033cec418c8280caa2afe40c821",
+  "traducao": "O gráfico de uma função {{MATH_1}} e um ponto de seu domínio, {{MATH_2}}, são mostrados na figura abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical1.tex",
+  "ordem": 1,
+  "hash": "0a3f3b7f5f0a7767064ab85f1276bdb6fe8cc04ef682bdd9921543b03116984d",
+  "traducao": "Associe os comprimentos {{MATH_3}}, {{MATH_4}}, {{MATH_5}} e {{MATH_6}}, marcados no gráfico, às seguintes expressões:"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical1.tex",
+  "ordem": 2,
+  "hash": "87693729b2bf8ba7c1b23b38a5d79113b4203f8944f5420ca00ca91f6a5f6f77",
+  "traducao": " é o comprimento {{MATH_7}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical1.tex",
+  "ordem": 3,
+  "hash": "afc7d6d9046416527c2804b3560017a216aff076925ab1722962d3727b3e7ac7",
+  "traducao": " é o comprimento {{MATH_8}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical1.tex",
+  "ordem": 4,
+  "hash": "d541ae260f3e632360047658f21a8d7fa9350840e33adde15e35cc80975e8986",
+  "traducao": " é o comprimento {{MATH_9}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical1.tex",
+  "ordem": 5,
+  "hash": "1473414b9be533079c70cf73155cd1540fbb2fbbea42817e996b1ad8b3458677",
+  "traducao": " é o comprimento {{MATH_10}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical1.tex",
+  "ordem": 6,
+  "hash": "bf5590def6d876e5673aaff730594a75980208519db27f12bac1a762c9c5d2b6",
+  "traducao": "O quociente {{MATH_11}} é a inclinação da reta {{CMD_12}}{{CMD_13}}tangente{{CMD_14}}{{CMD_15}}cossecante{{CMD_16}}{{CMD_17}}secante{{CMD_18}}{{CMD_19}} que passa pelos pontos {{MATH_20}} e {{MATH_21}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical1.tex",
+  "ordem": 7,
+  "hash": "0f22f74e50ded9378d5436197e6657473903979c0f7874aaad03e57f0d441d69",
+  "traducao": "Desde que exista, o limite {{MATH_22}} é a inclinação da reta {{CMD_23}}{{CMD_24}}tangente{{CMD_25}}{{CMD_26}}cossecante{{CMD_27}}{{CMD_28}}secante{{CMD_29}}{{CMD_30}} à curva {{MATH_31}} no ponto {{MATH_32}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical2.tex",
+  "ordem": 0,
+  "hash": "9d1d1b565abfb444cd0a6d388b82f645d49ad9cec586fb1eaaaa756dd67a2020",
+  "traducao": "O gráfico da função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical2.tex",
+  "ordem": 1,
+  "hash": "0b89ae55fb7fb064fdfbfc3b7d67364b37d7fee7a2595c8a504379406983777f",
+  "traducao": "Sejam {{MATH_2}} e {{MATH_3}} dois pontos no gráfico de {{MATH_4}}, como ilustrado acima.\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical2.tex",
+  "ordem": 2,
+  "hash": "936a60c415dec1b282c8f02ee1699051c4fe4e92102e41611668a249e838cf16",
+  "traducao": "A inclinação, {{MATH_6}}, da reta secante que passa pelos pontos {{MATH_7}} e {{MATH_8}} é\n{{MATH_9}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical2.tex",
+  "ordem": 3,
+  "hash": "684ca59a9c0342f05c32af04d70c66e57290981f373fffca949b7917c1307fcb",
+  "traducao": "A figura abaixo ilustra a reta tangente à curva {{MATH_10}} no ponto B."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical2.tex",
+  "ordem": 4,
+  "hash": "fc5e338ba057636b1250ce5dde703a83013c45fbe02295df7998d8149bdc8341",
+  "traducao": "A inclinação da reta tangente à curva {{MATH_11}} no ponto {{MATH_12}} é dada por\n{{MATH_13}}\ndesde que o limite exista."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical2.tex",
+  "ordem": 5,
+  "hash": "c15e9ded787f22e767cbc3876dd3ff809448e1516c3003a4210334b2b8b1ab78",
+  "traducao": "Usando a definição acima, a inclinação da reta tangente a {{MATH_14}} no ponto {{MATH_15}} é\n{{MATH_16}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineGraphical2.tex",
+  "ordem": 6,
+  "hash": "f68eeb3f9ffcdcb45bfd558341712a7102fa1d9e5e087625dc3d4aeb948adb20",
+  "traducao": "A equação da reta tangente a {{MATH_17}} no ponto {{MATH_18}} é\n{{MATH_19}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineLimit1.tex",
+  "ordem": 0,
+  "hash": "c96e42c52cd773bf07807e432ffe4cdfad3538132eec4481b475019f495ae14c",
+  "traducao": "Seja {{MATH_1}}.  O gráfico de {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineLimit1.tex",
+  "ordem": 1,
+  "hash": "2252201b8d9ace0299cbb176feba14a7b523f8a3a162d83958511af0dc5098cc",
+  "traducao": "Suponha que {{MATH_3}} e {{MATH_4}} sejam dois pontos no gráfico de {{MATH_5}}.  Preencha as lacunas.\n\n {{ENV_6}}\n\n {{CMD_7}}\n\n Marcamos {{MATH_8}} e {{MATH_9}} no gráfico de {{MATH_10}} abaixo.\n\n {{CMD_11}}\n  {{ENV_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineLimit1.tex",
+  "ordem": 2,
+  "hash": "da0d232d1e8d2d348cfd28e73046e7d3c0854ddb7b34b97285323b7b72e68e23",
+  "traducao": "A inclinação da reta secante entre {{MATH_14}} e {{MATH_15}} é {{MATH_16}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineLimit1.tex",
+  "ordem": 3,
+  "hash": "a0fae1805d636ef089f52a598fbc8c6a6099f9853335fd547bba34f088a6735c",
+  "traducao": "Desenhamos a reta secante entre {{MATH_17}} e {{MATH_18}} e também a reta tangente a {{MATH_19}} em {{MATH_20}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineLimit1.tex",
+  "ordem": 4,
+  "hash": "e51dfc4067217c05db137ff7dbb98739fcb4e15af5b0bb8cc5dc895280f3f3c7",
+  "traducao": "Com base no desenho da reta tangente, um bom número inteiro para estimar a inclinação da reta tangente é {{MATH_21}}{{CMD_22}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineLimit1.tex",
+  "ordem": 5,
+  "hash": "7d8d64ee06b2086302d11484ccaa60eadba9a8a7a654de3445515b009b02fa23",
+  "traducao": "Suponha que a função {{MATH_23}} represente a posição, no instante {{MATH_24}}, de um objeto que se move ao longo de uma reta, em que {{MATH_25}} é medida em pés e {{MATH_26}} é medido em segundos.  A velocidade média do objeto no intervalo de tempo {{MATH_27}} é {{MATH_28}}{{MATH_29}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineLimit1.tex",
+  "ordem": 6,
+  "hash": "5e4c4bac074b8c1062e46a1b66a2b463a385d2826ce058b5f0f301dee5da3af5",
+  "traducao": "Complete a tabela a seguir com as velocidades médias apropriadas (em {{MATH_30}}), arredondadas para duas casas decimais."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineLimit1.tex",
+  "ordem": 7,
+  "hash": "dee435458370f5d799604188aec05de735febb5050d81690ba1cbf30a37884ec",
+  "traducao": "Um bom número inteiro para estimar a velocidade instantânea do objeto no instante {{MATH_31}} é {{MATH_32}}{{MATH_33}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineLimit1.tex",
+  "ordem": 8,
+  "hash": "5c5be8f296db09b36c7ac6fcca977776b7983b230833daa0595a8d2309eb3dc0",
+  "traducao": "Usando limites, calcule a velocidade instantânea do objeto no instante {{MATH_34}}.\n{{MATH_35}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 0,
+  "hash": "9b61374c3b93e908e636936e43ae8dbf558eb40f2734fa16332ab055dda273c5",
+  "traducao": "Um objeto se move ao longo de uma reta horizontal.  Sua posição, em pés, é dada por\n{{MATH_1}}\nem que {{MATH_2}} está em segundos."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 1,
+  "hash": "9b22e321a85eb55b97dda68f736c2d61f6ff19c8e1b871b8477746d3f72ceba0",
+  "traducao": "Considere os pontos na reta abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 2,
+  "hash": "dbe9462fc3f29f8dd9bcebaf3b1fe93b0272556c0425d711ba6263653ffd5a65",
+  "traducao": "O ponto que corresponde à posição da partícula em {{MATH_3}} é {{MATH_4}}."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 3,
+  "hash": "b5ddd803caf64e0ba19c5b3f8c80ad59574f5d7c6e58b34c27bb8e07ad0fb160",
+  "traducao": "A velocidade média do objeto no intervalo {{MATH_5}} é\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 4,
+  "hash": "a741b9c0f4ccb1d590a8ca3e3e7d9eeec1aa209b475591efec830f32befc3710",
+  "traducao": "A velocidade média do objeto no intervalo {{MATH_7}}, para {{MATH_8}}, é\n{{MATH_9}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 5,
+  "hash": "b837fd0e2f872ae78e10327690ce4853cb522d416c5d6aa093da0cc80efdb799",
+  "traducao": "A velocidade média do objeto no intervalo {{MATH_10}}, para {{MATH_11}}, é\n{{MATH_12}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 6,
+  "hash": "031709b1ba42f894762facb0de763814d15e00a982c4dc92e16c7e3b8bca3319",
+  "traducao": "A velocidade instantânea do objeto em {{MATH_13}} é\n{{MATH_14}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 7,
+  "hash": "2eef0eaafc17dc307d2d04d49fc9a804eb0bddde37a6e426102f4e1d9467db65",
+  "traducao": "O gráfico de {{MATH_15}} é dado abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 8,
+  "hash": "bb87b72680547f00f59b1d527780af7ff24f611ced3a87caaa14269238db25bb",
+  "traducao": "Suponha que {{MATH_16}} e {{MATH_17}} sejam pontos no gráfico de {{MATH_18}}.  Então\n{{MATH_19}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 9,
+  "hash": "b152ce98467575a24d92462c6ad9ec992c5265aa7bfbc8e4fa79ad334f54fc6b",
+  "traducao": "A reta secante que passa por {{MATH_20}} e {{MATH_21}} é mostrada na figura abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 10,
+  "hash": "6aa3d978af9d29ad9845db1e625d8de44e6d91bfe4aa784d58bcdf459deffd9d",
+  "traducao": "A inclinação dessa reta secante, para {{MATH_22}}, é\n{{MATH_23}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 11,
+  "hash": "136b90abf7ab4f5e25d3421b7eb881637b187c2be46730f12844984887d1fc2a",
+  "traducao": "Qual é a relação entre a inclinação dessa reta secante e a velocidade média do objeto no intervalo {{MATH_24}}?"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 12,
+  "hash": "4e6a2df0f699a1e10d33d3b68b149e790cb984b766ff8cfbf7965aed994a9224",
+  "traducao": " é maior que {{MATH_25}}.{{CMD_26}}\n{{CMD_27}}{{MATH_28}} é igual a {{MATH_29}}.{{CMD_30}}\n{{CMD_31}}{{MATH_32}} é menor que {{MATH_33}}.{{CMD_34}}\n{{CMD_35}}Não há relação entre {{MATH_36}} e {{MATH_37}}.{{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 13,
+  "hash": "e4d70c57023ef408d37e69203be91beb044e85200e837a58089dbae0eac8f69f",
+  "traducao": "O ponto {{MATH_40}} e a reta tangente ao gráfico de {{MATH_41}} em {{MATH_42}} são dados na figura abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/secantLineTangentLine1.tex",
+  "ordem": 14,
+  "hash": "765f15c5fe497b8e12683d1c02fc5576c04b307a5d1855a001ef4f24fa08ed7c",
+  "traducao": "A inclinação da reta tangente acima é\n{{MATH_43}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/tangentLineGraphical1.tex",
+  "ordem": 0,
+  "hash": "bdcfef6368bff38e2bb8f1ceecb4877fcdef578f2d730edc6246f25e2f138bce",
+  "traducao": "Seja {{MATH_1}}. O gráfico de {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/tangentLineGraphical1.tex",
+  "ordem": 1,
+  "hash": "766e12faf9c98e468269ee5461c89af5ee922a67d05129a5e1c95a01366952bc",
+  "traducao": "Os pontos {{MATH_3}} e {{MATH_4}} são dois pontos no gráfico de {{MATH_5}}.\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/tangentLineGraphical1.tex",
+  "ordem": 2,
+  "hash": "2c478749551d50f92a0d0a32ef7376221f9e324df8912118b32ace48390058f1",
+  "traducao": "A inclinação da reta secante que passa pelos pontos {{MATH_7}} e {{MATH_8}} é\n{{MATH_9}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/tangentLineGraphical1.tex",
+  "ordem": 3,
+  "hash": "2683f40a5128ebad00597325da6efe4e4edf4cf5296cdfc11d3c1bc2e1233ffe",
+  "traducao": "A reta tangente ao gráfico de {{MATH_10}} no ponto {{MATH_11}} é mostrada acima.  Observando essa reta com atenção, podemos aproximar sua inclinação por\n{{MATH_12}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/tangentLineGraphical1.tex",
+  "ordem": 4,
+  "hash": "0febac959c4121adc85ae133bff31cf1ceb5daa1df224c0b8017be27c1de098b",
+  "traducao": "Em termos da função {{MATH_13}}, o limite que teríamos de calcular para obter a inclinação da reta tangente a {{MATH_14}} em {{MATH_15}} é\n{{MATH_16}}\nQuando substituímos a fórmula de {{MATH_17}}, obtemos o seguinte limite, escrito em termos de {{MATH_18}}:\n{{MATH_19}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/tangentLineGraphical1.tex",
+  "ordem": 5,
+  "hash": "6e5c95860430532870b65bb38667d58020327062f3e8cb82334b3f9da95c1a62",
+  "traducao": "Suponha que a função {{MATH_20}} represente a posição, no instante {{MATH_21}}, de um objeto que se move ao longo de uma reta, em que {{MATH_22}} é medida em pés e {{MATH_23}} é medido em segundos.  A velocidade média do objeto no intervalo de tempo {{MATH_24}} é\n{{MATH_25}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/tangentLineGraphical1.tex",
+  "ordem": 6,
+  "hash": "2af3bde600d40ce67279def0c1ba88682e5ed6589fb8859d660fb8e99e6ea77b",
+  "traducao": "Complete a tabela a seguir com as velocidades médias apropriadas (em {{MATH_26}})."
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/tangentLineGraphical1.tex",
+  "ordem": 7,
+  "hash": "7266bf5c86e0fc9d1c113f5751521c4d0238da8d6a7ea7183e76e6d227c6e8f0",
+  "traducao": "Com base nos valores acima, uma conjectura razoável para a velocidade instantânea do objeto em {{MATH_27}} é\n{{MATH_28}}"
+ },
+ {
+  "arquivo": "definitionOfTheDerivative/exercises/tangentLineGraphical1.tex",
+  "ordem": 8,
+  "hash": "6caa87d5c7f77d3e4bfb5e2bf5e0b03178143e1bd4ac46556506465f403f0e9d",
+  "traducao": "Em termos da função {{MATH_29}}, o limite que teríamos de calcular para obter a velocidade instantânea do objeto em {{MATH_30}} é\n{{MATH_31}}\nObserve que essa é exatamente a mesma expressão que precisaríamos calcular para obter a inclinação da reta tangente ao gráfico de {{MATH_32}} em {{MATH_33}}."
+ }
+]

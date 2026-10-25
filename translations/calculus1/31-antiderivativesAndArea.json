@@ -1,0 +1,464 @@
+[
+ {
+  "arquivo": "antiderivativesAndArea/titlePage.tex",
+  "ordem": 0,
+  "hash": "8de32a8b9196486605d4b2a9f1ade78bac80111055b36c04ad02cae9348d20da",
+  "traducao": "Antiderivadas e área{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após completar esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/titlePage.tex",
+  "ordem": 2,
+  "hash": "f725f6124cd098c67b03eb83b40849b18391784c2ffa5bd2a65c6d072ac4970d",
+  "traducao": " Interpretar o produto de taxa e tempo como área.\n{{CMD_4}} Aproximar a posição a partir da velocidade.\n{{CMD_5}} Reconhecer somas de Riemann.\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/breakGround.tex",
+  "ordem": 0,
+  "hash": "583e9f333ab9e6a63090b8b00d705770040f402e8b8e0308c6582202a7b71989",
+  "traducao": "Significado da multiplicação{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nUm diálogo em que estudantes discutem multiplicação.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/breakGround.tex",
+  "ordem": 1,
+  "hash": "5c1e8bda6181706f889341dd4a0196d4e67ba43ac87e5f8a059a2d89b21c51b1",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história real):"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/breakGround.tex",
+  "ordem": 2,
+  "hash": "6d35303d186f2039939f92394056646f295acef653d15af186e6165d68df73ee",
+  "traducao": " Ei, Riley, eu estava lendo sobre a história da matemática.\n{{CMD_7}} Sério? Me conta!\n{{CMD_8}} Pelo que parece, antigamente os matemáticos se preocupavam em escrever coisas como:\n  {{MATH_9}}\n{{CMD_10}} Por quê? Qual é o problema aqui?\n{{CMD_11}} Bem, eles pensavam em {{MATH_12}} como uma\n  {{CMD_13}}área{{CMD_14}}. Mas {{MATH_15}} era visto como um {{CMD_16}}comprimento{{CMD_17}}. Aparentemente, eles se perguntavam se fazia sentido somar ``áreas'' e ``comprimentos''.\n{{CMD_18}} Hmmm. Hoje parece que não nos preocupamos com isso. Por que será?\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/breakGround.tex",
+  "ordem": 3,
+  "hash": "f257def303da0da3bb99a3b418b439a807123bc99024ffa9b713597bea6edf90",
+  "traducao": "  Quais são algumas maneiras de interpretar {{MATH_20}}?\n  {{CMD_21}}\n    As respostas podem variar.\n  {{CMD_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 0,
+  "hash": "93b768a2fca8e4446742269eb4ff0fe2dddec758640a7c5ce9040610bbaee1d4",
+  "traducao": "Relacionando velocidade, deslocamento, antiderivadas e áreas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nApresentamos uma interpretação alternativa da integral definida e\nestabelecemos uma conexão entre áreas e antiderivadas.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 1,
+  "hash": "2853aed9577e968e95af22513ccc623b54f132efd766c7c53819cb8ddd908ec6",
+  "traducao": "Temos uma interpretação geométrica da derivada como a inclinação da\nreta tangente em um ponto. Ainda não encontramos uma interpretação\ngeométrica para as antiderivadas."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 2,
+  "hash": "3eea8231315b7484cbd8f879bb973d1d4a2863e119bfa6e3431b5f222bcd120d",
+  "traducao": "Mais de uma perspectiva{{CMD_7}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 3,
+  "hash": "3d5e35743c49fc6c758c555dc82288b13de8ea3f6cc4803ead75f57608c8ebe8",
+  "traducao": "Vamos começar com uma pergunta:"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 4,
+  "hash": "75aa822129d0f7962862c7fc9c67d0ab0d4c04fe4319cc1cd0843e58c89d569c",
+  "traducao": "   Suponha que você esteja em um trânsito lento, movendo-se a {{MATH_8}} {{CMD_9}}milhas por hora{{CMD_10}} das\n   {{MATH_11}} da tarde às {{MATH_12}} da tarde. Que distância você percorreu?\n   {{CMD_13}}\n     {{MATH_14}}\n   {{CMD_15}}\n   {{CMD_16}}\n     Como a velocidade (constante) em um intervalo de tempo é dada por\n     {{MATH_17}}\n     segue que o deslocamento do objeto em um intervalo\n     de tempo é dado por\n     {{MATH_18}}  \n     O gráfico da função velocidade (constante) {{MATH_19}} no intervalo\n     {{MATH_20}} é mostrado na figura.\n      {{CMD_21}}\n        {{ENV_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 5,
+  "hash": "1d2774e00c93b3462296e250e04a187dc32919a03549c1619fa6253a1be26828",
+  "traducao": "      Portanto, o deslocamento de um objeto é dado pelo produto da velocidade pelo tempo decorrido, e é representado pela área do retângulo sombreado na figura. \n      {{CMD_24}}\n{{CMD_25}}\nComo o deslocamento de um objeto que se move com velocidade constante\nem um intervalo de tempo pode ser representado pela área de um\nretângulo, podemos aproximar o deslocamento de um objeto que se move\ncom velocidade não constante usando somas de Riemann. Explicamos esse\nprocesso em detalhes no nosso próximo exemplo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 6,
+  "hash": "09ab03aca9a19015d554f3abdc6b5b8dcaa3b293e1c1e5a05d6aab5be41df8ea",
+  "traducao": "  Suponha que um objeto se move ao longo de uma reta com velocidade\n  {{MATH_26}}, para {{MATH_27}}, em que {{MATH_28}} é medido em\n  segundos e {{MATH_29}} em {{MATH_30}}.\n  \n  Determine o deslocamento do objeto no intervalo de tempo {{MATH_31}}. \n  {{CMD_32}}\n   Como sabemos calcular o deslocamento quando a velocidade é\n   constante, começaremos supondo que a velocidade é constante\n   e igual a {{MATH_33}}, a velocidade inicial, durante todo o\n   intervalo de tempo de quatro segundos, {{MATH_34}}.\n   \n   Esse cenário nos dará uma aproximação bem grosseira do\n   deslocamento, mas é um bom ponto de partida.\n  {{MATH_35}}\nEsse cenário está ilustrado na figura abaixo.\n {{CMD_36}}\n  {{ENV_37}}\n{{CMD_38}}\n{{COMMENT_39}}\n{{COMMENT_40}}\n{{COMMENT_41}}\n{{COMMENT_42}}\n{{COMMENT_43}}\n{{COMMENT_44}}\n{{COMMENT_45}}\n{{COMMENT_46}}\n{{COMMENT_47}}\n{{COMMENT_48}}\n{{COMMENT_49}}\n{{COMMENT_50}}\n{{COMMENT_51}}\n{{COMMENT_52}}\n{{COMMENT_53}}\n{{COMMENT_54}}\n{{COMMENT_55}}\n{{COMMENT_56}}\n{{COMMENT_57}}\n{{COMMENT_58}}\n{{COMMENT_59}}\n{{COMMENT_60}}\n{{COMMENT_61}}\n{{COMMENT_62}}\n{{COMMENT_63}}\n{{COMMENT_64}}\n{{COMMENT_65}}\n{{COMMENT_66}}\n{{COMMENT_67}}\n{{COMMENT_68}}\n{{COMMENT_69}}\n{{COMMENT_70}}\n{{COMMENT_71}}\n{{COMMENT_72}}\n{{COMMENT_73}}\n{{COMMENT_74}}\n{{COMMENT_75}}\n{{COMMENT_76}}\n{{COMMENT_77}}\n{{COMMENT_78}}\n{{COMMENT_79}}\n{{COMMENT_80}}\n{{COMMENT_81}}\n{{COMMENT_82}}\n{{COMMENT_83}}\n{{COMMENT_84}}\n{{COMMENT_85}}\n{{COMMENT_86}}\n{{COMMENT_87}}\n{{COMMENT_88}}\n{{COMMENT_89}}\n{{COMMENT_90}}\n{{COMMENT_91}}\n{{COMMENT_92}}\n{{COMMENT_93}}\n{{COMMENT_94}}\n{{COMMENT_95}}\n{{COMMENT_96}}\n{{COMMENT_97}}\n{{COMMENT_98}}\n{{COMMENT_99}}\n{{COMMENT_100}}\n{{COMMENT_101}}\n{{COMMENT_102}}\n{{COMMENT_103}}\n{{COMMENT_104}}\n{{COMMENT_105}}\n{{COMMENT_106}}\n{{COMMENT_107}}\n{{COMMENT_108}}\n{{COMMENT_109}}\n{{COMMENT_110}}\n{{COMMENT_111}}\n{{COMMENT_112}}\n{{COMMENT_113}}\n{{COMMENT_114}}\n{{COMMENT_115}}\n{{COMMENT_116}}\n{{COMMENT_117}}\n{{COMMENT_118}}\n{{COMMENT_119}}\n{{COMMENT_120}}\n{{COMMENT_121}}\n{{COMMENT_122}}\n{{COMMENT_123}}\n{{COMMENT_124}}\n{{COMMENT_125}}\n{{COMMENT_126}}\n{{COMMENT_127}}\n{{COMMENT_128}}\n{{COMMENT_129}}\n{{COMMENT_130}}\n{{COMMENT_131}}\n{{COMMENT_132}}\n{{COMMENT_133}}\n{{COMMENT_134}}\n{{COMMENT_135}}\n{{COMMENT_136}}\n{{COMMENT_137}}\n{{COMMENT_138}}\n{{COMMENT_139}}\n{{COMMENT_140}}\n{{COMMENT_141}}\n{{COMMENT_142}}\n{{COMMENT_143}}\n{{COMMENT_144}}\n{{COMMENT_145}}\n{{COMMENT_146}}\n{{COMMENT_147}}\n{{COMMENT_148}}\n{{COMMENT_149}}\n{{COMMENT_150}}\n{{COMMENT_151}}\n{{COMMENT_152}}\n{{COMMENT_153}}\n{{COMMENT_154}}\n{{COMMENT_155}}\n{{COMMENT_156}}\n{{COMMENT_157}}\n{{COMMENT_158}}\n{{COMMENT_159}}\n{{COMMENT_160}}\n{{COMMENT_161}}\n{{COMMENT_162}}\n{{COMMENT_163}}\nA partir do gráfico acima, vemos que a hipótese de velocidade constante não é muito precisa. A velocidade está mudando, então devemos permitir que a nossa velocidade mude também.\nEm vez de supor que a velocidade é constante durante todo o intervalo de quatro segundos,\ncontinuaremos aproximando a velocidade por uma constante em intervalos de tempo cada vez menores."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 7,
+  "hash": "9283e561156882f036747d273fce34f24f0bb367c05e03ab59084c5895dc8713",
+  "traducao": "No próximo passo, vamos supor que a velocidade é constante durante os intervalos de tempo de dois segundos {{MATH_164}} e {{MATH_165}}. Em cada um desses dois intervalos, supomos que a velocidade é igual à velocidade no início do intervalo de tempo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 8,
+  "hash": "bc2814086ad83aa166806abc16b95d187e28c90f948d3033f8c677c4fd549bb0",
+  "traducao": "Nesse caso, o objeto se deslocaria {{MATH_166}} durante o intervalo de tempo {{MATH_167}} e, nos dois segundos seguintes, o objeto se deslocaria {{MATH_168}}.\n \n  \nSe denotarmos por {{MATH_169}} o comprimento do intervalo de tempo, podemos aproximar o deslocamento e escrever"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 9,
+  "hash": "eef203ff40aa51bd0a9d45c1e7cef0c206ab87caee2f1af216e72a91d9bc27ce",
+  "traducao": "Usando a notação de somatório, escrevemos\n{{MATH_170}}\nComo calculamos a velocidade nos pontos amostrais {{MATH_171}}, {{MATH_172}}, também podemos escrever"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 10,
+  "hash": "0117b5c84834bbae5579d476d4fe57f0fd351d820d21d424de9b7fc076856371",
+  "traducao": "  Esta é uma soma de Riemann à esquerda para a função {{MATH_173}} no intervalo {{MATH_174}}, quando {{MATH_175}}.\nEsse cenário está ilustrado na figura abaixo.\n{{CMD_176}}\n  {{ENV_177}}\n{{CMD_178}}\nEm seguida, aproximamos o deslocamento do objeto supondo que a velocidade é constante durante intervalos de tempo de um segundo e que essa velocidade é igual à velocidade no início de cada intervalo de tempo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 11,
+  "hash": "d42bf76d825a6f34ab4bfa92401a832d6ac37bda2adc8b9ac0af640ccec9efb8",
+  "traducao": "Sob essa hipótese, durante o primeiro segundo, o objeto se deslocaria\n{{MATH_179}}; durante o segundo intervalo de tempo de um\nsegundo, o objeto se deslocaria {{MATH_180}}; durante o\nterceiro segundo, o objeto se deslocaria {{MATH_181}}; e,\ndurante o último segundo, se deslocaria {{MATH_182}}.\n \nDurante todo o intervalo de tempo, o objeto se deslocaria\n{{ENV_183}}\nUsando a notação de somatório e o fato de que {{MATH_184}}, podemos escrever\n{{MATH_185}}\n  Novamente, denotamos os pontos amostrais por {{MATH_186}}, {{MATH_187}}, e escrevemos\n  {{MATH_188}}\n  Esta é uma soma de Riemann à esquerda para a função {{MATH_189}} no intervalo {{MATH_190}}, quando {{MATH_191}}.\nEsse cenário está ilustrado na figura abaixo.\n{{CMD_192}}\n  {{ENV_193}}\n{{CMD_194}}\nAgora, aproximamos o deslocamento do objeto supondo que a velocidade é constante durante intervalos de tempo de meio segundo e que essa velocidade é igual à velocidade no início de cada intervalo de tempo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 12,
+  "hash": "0c54e8d48da5edf9251b11a589aa2ec1947a318975e8b556fd79be118df08392",
+  "traducao": " Sob essa hipótese, durante o primeiro meio segundo, o objeto se deslocaria {{MATH_195}}; durante o segundo intervalo de tempo de meio segundo, o objeto se deslocaria {{MATH_196}}; durante o terceiro intervalo de meio segundo, o objeto se deslocaria {{MATH_197}}, e assim por diante. \n \n \n Durante todo o intervalo de tempo, o objeto se deslocaria\n{{ENV_198}}\nUsando a notação de somatório e o fato de que {{MATH_199}}, podemos escrever"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 13,
+  "hash": "9c5d19870ae85a3da7eedb7d5c0489748e9e4efb2c365e888cf979bcd250187d",
+  "traducao": "Usando a notação padrão para os pontos amostrais, podemos escrever\n {{MATH_200}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 14,
+  "hash": "917b395867f85a0f37693c165152d86a092e8c8237bed1fd20039fda83ffcc4c",
+  "traducao": "  Esta é uma soma de Riemann à esquerda para a função {{MATH_201}} no intervalo {{MATH_202}}, quando {{MATH_203}}.\nEsse cenário está ilustrado na figura abaixo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 15,
+  "hash": "9d147619332c3e7302bb153bb64a8820a5d68f57bc3dde8fdc412b55d1e579a2",
+  "traducao": "Fazemos uma pausa aqui para ilustrar o {{MATH_204}}-ésimo retângulo no cálculo de uma soma de\nRiemann à esquerda da função {{MATH_205}} no intervalo {{MATH_206}}.\n{{CMD_207}}\n  {{ENV_208}}\n{{CMD_209}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 16,
+  "hash": "82809eb717965bc95ff4c3ab6d9ba6e22c3bbfbf5576d1cde636603a27eb8f22",
+  "traducao": "Continuamos aproximando o deslocamento do objeto supondo\nque a velocidade é constante durante intervalos de tempo de {{MATH_210}} segundos, com\nvelocidade igual à velocidade no início de cada intervalo de tempo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 17,
+  "hash": "09b6857540f70040583c29a2c88e27cd6fadcf621242846c09d67185823b989f",
+  "traducao": " Sob essa hipótese, durante o primeiro intervalo de {{MATH_211}} segundos,\n o objeto se deslocaria {{MATH_212}};\n durante o segundo intervalo de tempo desse tipo, o objeto se deslocaria\n {{MATH_213}}; durante o\n terceiro intervalo de tempo, o objeto se deslocaria\n \n {{MATH_214}}, e assim por diante. \n \n Durante todo o intervalo de tempo, o objeto se deslocaria\n{{ENV_215}}\nUsando a notação de somatório, a notação para o comprimento de cada intervalo de tempo,\n{{MATH_216}}, e a notação para os pontos amostrais,\nescrevemos"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 18,
+  "hash": "8a8997db734de29c5dcc9f361e2039b3a3afef780491dd3a610e3d20d09ad280",
+  "traducao": "e\n{{MATH_217}}\n  Esta é uma soma de Riemann à esquerda para a função {{MATH_218}} no intervalo {{MATH_219}}.\n  \n  \nO que acontece quando fazemos {{MATH_220}}?"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 19,
+  "hash": "48bf0a9ec5c440b09704b5db2e4522c43d2d5ed0dad24a0d970a17268ffdce46",
+  "traducao": "As aproximações ficam cada vez melhores, porque aproximamos a\nvelocidade por uma constante em intervalos de tempo cada vez menores.\nPortanto, parece razoável escrever"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 20,
+  "hash": "0ec28d8fc73b68c37c97d02f98e5f8a3fe4b240a413b80f7c6ac1d5313808c5c",
+  "traducao": "Pela definição de integral definida, podemos escrever"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 21,
+  "hash": "8702a6e7846f930bf910a546cbf49d58e0f63f6b7e786e94f1c8bd2865920233",
+  "traducao": "Isso nos dá outra interpretação da integral definida. A saber,"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 22,
+  "hash": "4f5aef94fd4bb0272e8a90e8693420376bc8fb5fe453c28ce0f691e431a5762f",
+  "traducao": "``integral definida da velocidade em {{MATH_221}} = deslocamento em {{MATH_222}}.''"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 23,
+  "hash": "9aff1cb660295074f121ffb094bf50d5d42fa17c58413a0efa56533b34f2fc2c",
+  "traducao": "  Por outro lado, o deslocamento de um objeto durante o intervalo de tempo {{MATH_223}} é dado por\n  {{MATH_224}}\n  \n  A variação da posição pode ser escrita em termos de {{MATH_225}}, a função posição do objeto\n  {{MATH_226}}\nMas sabemos que {{MATH_227}} é uma antiderivada de {{MATH_228}}. Portanto,\n {{MATH_229}}\nSe {{MATH_230}}, obtemos\n {{MATH_231}}\nAssim, a função posição é dada por\n{{MATH_232}}\nAgora podemos calcular o deslocamento\n {{MATH_233}}\n  {{CMD_234}}\n{{CMD_235}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 24,
+  "hash": "e26545df6b273f194b18b95955d04254185a866002bdc839196a846666e36c2b",
+  "traducao": "Muito mais importante do que esse cálculo é o fato de que conseguimos expressar o deslocamento como uma integral definida e calcular a integral definida de {{MATH_236}} usando a antiderivada de {{MATH_237}}."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 25,
+  "hash": "8c26a771ca11029183d44765486aa0b0ed801932c6de53b70da31fe7a2044d57",
+  "traducao": "\tSuponha que {{MATH_238}} é a função velocidade (contínua) de um objeto que se desloca ao longo de uma reta durante o intervalo {{MATH_239}}, com função posição {{MATH_240}}. \n\tO deslocamento do objeto pode ser obtido de duas maneiras:\n\t{{CMD_241}}\n\t\t{{CMD_242}} Como {{MATH_243}} e\n\t\t{{CMD_244}} Como a integral definida {{MATH_245}}.\n\t{{CMD_246}}\n\tEm particular, a integral definida de uma função velocidade pode ser calculada determinando-se\n\ta função posição:\n\t{{MATH_247}}\n{{CMD_248}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 26,
+  "hash": "36f7fd4d50d0c9f0853439aacbcc8b4e79742514f20b728c0bcec5026b1b18c8",
+  "traducao": "Isso significa que conseguimos calcular a integral definida {{CMD_249}}de funções velocidade{{CMD_250}} calculando integrais indefinidas."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 27,
+  "hash": "d4df383384da79f14769ed83e417e63c39eb7a46d3e353aca11f0e889431fef1",
+  "traducao": "\tSuponha que {{MATH_251}} é a função velocidade (em metros/segundo) de um objeto que se desloca ao longo de uma reta durante o intervalo {{MATH_252}} (em segundos). Calcule:\n\t{{MATH_253}}\t\n\t{{CMD_254}}\n\t\tComeçamos determinando uma antiderivada de {{MATH_255}}.\n\t\t\n\t\t{{ENV_256}}\n\t\tNão nos foi dada uma condição inicial que nos permitisse calcular o valor de {{MATH_257}}, então vamos deixá-lo como está.\n\t\t\n\t\tSubstituindo {{MATH_258}} e {{MATH_259}} e subtraindo, obtemos:\n\t\t{{ENV_260}}\n\t\tAssim,\n\t\t{{MATH_261}}\n\t\tObserve que o valor real de {{MATH_262}} não importou. O termo {{MATH_263}} em {{MATH_264}} foi cancelado pelo termo {{MATH_265}} em {{MATH_266}} após a subtração.\n\t{{CMD_267}}\n\t\n{{CMD_268}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInRelatingVelocityAndPositionAntiderivativesAndAreas.tex",
+  "ordem": 28,
+  "hash": "5c0d404cdf496b379209684db460e41c0759297fb75b71ea6fb26d54ea9b36d8",
+  "traducao": "Agora sabemos que podemos calcular a integral definida {{CMD_269}}de funções velocidade{{CMD_270}} determinando antiderivadas. Nas próximas seções, veremos se isso pode ser estendido a integrais definidas de outras funções."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 0,
+  "hash": "8ba9de4d836ad26a654e7d98ae4dcef3361bd0fec1d2d03ebd5d4d6e7998cb1b",
+  "traducao": "Relacionando velocidade e posição{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 1,
+  "hash": "fa12e07dc0bde93c128f62cd3862fd0309ae34e6ddd7a4bc355a4839e9ea7ad8",
+  "traducao": "Um tema central deste curso tem sido que, muitas vezes, podemos\ncompreender melhor uma função olhando para sua derivada e, em seguida,\ntrabalhando no sentido inverso.  Essa tem sido nossa abordagem para\nproblemas de máximos e mínimos, esboço de curvas, aproximação linear e\nassim por diante.  Então, na verdade, as antiderivadas têm sido\nimportantes para nós desde o início."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 2,
+  "hash": "969ac31961f33c5e83f746af68dea2f2414fcb7366c04284ef4cb05bc2ede7bf",
+  "traducao": "Temos uma interpretação gráfica da derivada como a inclinação de uma\nreta tangente em um ponto.  Ainda não encontramos uma interpretação\ngráfica da antiderivada."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 3,
+  "hash": "94058d6833e2e9004863cf8550b04d9f38e133c08eecd0401bb58f749005c124",
+  "traducao": "   Seja {{MATH_7}} a função constante {{MATH_8}}. Seja {{MATH_9}} uma antiderivada qualquer\n   de {{MATH_10}}.  Então {{MATH_11}}.\n   {{CMD_12}}\n    Isso é apenas uma maneira sofisticada de dizer que {{MATH_13}} é uma reta de inclinação\n    {{MATH_14}}, e estamos procurando a variação vertical correspondente a uma variação horizontal de\n    {{MATH_15}}\n   {{CMD_16}}\n   {{CMD_17}}\n    {{MATH_18}}\n   {{CMD_19}}\n  {{CMD_20}}\n  \n  {{CMD_21}}\n    A área da região delimitada pelo gráfico de {{MATH_22}}, pelo eixo\n    horizontal e pelas retas verticais {{MATH_23}} e {{MATH_24}} é {{MATH_25}}.\n    \n    {{CMD_26}}\n      {{CMD_27}}\n  {{ENV_28}}\n{{CMD_29}}\n    {{CMD_30}}\n    {{CMD_31}}\n      Trata-se de um retângulo de altura {{MATH_32}} e largura {{MATH_33}}, logo a área é {{MATH_34}}\n    {{CMD_35}}\n  {{CMD_36}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 4,
+  "hash": "d6e06d62ac6f9bf33a787317e5c48df1c9b13e783c20efac5c614bd852f1bbc5",
+  "traducao": "O fato de essas duas respostas serem iguais é o germe de uma das ideias\nmais ``fundamentais'' de todo o cálculo. Contudo, antes de darmos o\npróximo passo, convém olharmos primeiro para trás, para a época em que éramos matemáticos ainda mais jovens."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 5,
+  "hash": "d774c22056416cdf5f6ac569e01d38c1ef96c29e78f39e47efededacf3edcf4e",
+  "traducao": "  Há dois modelos básicos de multiplicação: uma perspectiva de ``taxa\n  vezes tempo'' e uma perspectiva de ``área''.  Por exemplo, poderíamos\n  interpretar\n  {{MATH_37}}\n  como resposta à pergunta:\n  {{CMD_38}}\n    ``Se estou andando a {{MATH_39}} durante {{MATH_40}} horas, que distância\n    percorri?''\n  {{CMD_41}}\n  ou como resposta à pergunta\n  {{CMD_42}}\n    ``Qual é a área de um retângulo de comprimento {{MATH_43}} e largura {{MATH_44}}?''\n  {{CMD_45}}\n    {{COMMENT_46}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 6,
+  "hash": "2b33c7f5b9426061f8729c4c16f9094f03bbbeb076e9c7b8ebf2c788263b090b",
+  "traducao": "É essa dupla interpretação que nos permitirá começar a entender um\nsignificado geométrico da antiderivada."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 7,
+  "hash": "3a8219b9c8dd5ad708ef900f46774d38e0032ef2b9ca9c6217b13c0d62836ba3",
+  "traducao": "Seja {{MATH_47}} a velocidade de um objeto no instante {{MATH_48}}.\n{{CMD_49}}\n  {{ENV_50}}\n{{CMD_51}}\ne seja {{MATH_52}} uma antiderivada de {{MATH_53}}.  Suponha que queremos aproximar {{MATH_54}}.  Vamos obter uma aproximação usando {{MATH_55}} subintervalos.\n  \n  {{ENV_56}}\n  \n  Podemos visualizar isso como a soma das áreas de {{MATH_57}} retângulos.  Observe que, enquanto os primeiros {{MATH_58}} termos são positivos, o último é negativo porque {{MATH_59}}.  Devemos pensar nesses retângulos como tendo {{CMD_60}}área com sinal{{CMD_61}}, em que a área é negativa quando fica abaixo do eixo {{MATH_62}}."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 8,
+  "hash": "b608c2956ab2538f5e367e7cb204ed77ed387bc3ead90f103a055585e5a35eab",
+  "traducao": "  \nAo aproximar {{MATH_63}} por uma função constante por partes, estamos aproximando {{MATH_64}} por uma função linear por partes:"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 9,
+  "hash": "0ebc0d45f1330157c8cb99ebd1a1687bb67028fc34ba40e895bb5a1f3a890347",
+  "traducao": "  \n  Por um lado, podemos interpretar cada {{MATH_65}} como uma aproximação da variação da altura de {{MATH_66}} no subintervalo.  Por outro lado, como {{MATH_67}}, podemos pensar em {{MATH_68}} como a área de um retângulo com base no subintervalo e altura {{MATH_69}}.  Assim, a variação total de {{MATH_70}} em {{MATH_71}} pode ser reinterpretada como a soma das áreas com sinal dos retângulos sob {{MATH_72}}.\n  \nSe tornarmos nossos subintervalos menores, a aproximação linear repetida deve ficar mais precisa, e a soma das áreas dos retângulos se aproxima cada vez mais da área sob a curva:"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 10,
+  "hash": "9c13247f96b0e13911e8ada6897758017b7ba087c875085d71a1675d3dbd7036",
+  "traducao": "Então é razoável pensar que {{MATH_73}} deve ser exatamente igual à {{CMD_74}}área com sinal{{CMD_75}} sob o gráfico de {{MATH_76}}."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 11,
+  "hash": "c06776520a8919b0d8ca786d8dfc445477ab9a0f7786db67142182e9aa1a0964",
+  "traducao": "Para encontrar a {{CMD_77}}área com sinal{{CMD_78}} de {{MATH_79}} de {{MATH_80}} a {{MATH_81}}, some as áreas (positivas) de todas as regiões que ficam acima do eixo {{MATH_82}} e subtraia as áreas de todas as regiões que ficam abaixo do eixo {{MATH_83}}.\n{{CMD_84}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 12,
+  "hash": "87a474545070730dd222bf1a7da0fd757466202efb8afa79c55095834edb8248",
+  "traducao": "\tNossas investigações acima nos levam a suspeitar que, se {{MATH_85}}, então {{MATH_86}} deve ser igual à área com sinal sob {{MATH_87}} de {{MATH_88}} a {{MATH_89}}.  \n{{CMD_90}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 13,
+  "hash": "a289f5077775e48d6b6dda997f3d89ae0872362c95e1992eba77d2d5f2cb85b3",
+  "traducao": "Suponha que uma partícula esteja acelerando a uma taxa constante de {{MATH_91}}, parta com velocidade {{MATH_92}} e se desloque durante {{MATH_93}} segundos.  Desenhe o gráfico da velocidade em função do tempo e use as ideias desta seção para calcular o deslocamento da partícula ao longo de seu percurso."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 14,
+  "hash": "7ab68f618398e0b0f5514f827088acb319eb9db5f73c4eb9540ee105afa1f9ab",
+  "traducao": "\tO gráfico da velocidade em função do tempo é assim:"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 15,
+  "hash": "4e92be03c9d30680645e03d63cca6d639a3d3ff72f23d8b3dd3ff6208ed4c630",
+  "traducao": "\tComo a velocidade é a derivada da posição em relação ao tempo, pela nossa discussão acima a variação da posição deve ser a área com sinal sob a curva da velocidade.  Você pode calculá-la como a diferença entre as áreas de dois triângulos.\n{{CMD_94}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 16,
+  "hash": "ed8810b8a7eb7097b6bb2d5e318123fa46b06536d346180fdddfcca4f3d9f9bf",
+  "traducao": "\tO triângulo azul tem área {{MATH_95}}, e o triângulo vermelho tem área {{MATH_96}}.  Assim, a área líquida é {{MATH_97}}.  Esse é o deslocamento da partícula!\n{{CMD_98}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 17,
+  "hash": "228a34196e4c7a94186de314a49e0b11d0f7501418b73492359a41eb1744bf4c",
+  "traducao": "O deslocamento da partícula é de {{MATH_99}} metros no sentido positivo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/digInVelocity.tex",
+  "ordem": 18,
+  "hash": "bbe8a1479e60e413b9dd37a61bc62a08a6d2be51cf6e7de705aa1c1cc2d41591",
+  "traducao": "Você também poderia ter resolvido este problema encontrando uma antiderivada.  Experimente esse método e veja como ele se compara.  Essa geometria ajuda a esclarecer sua compreensão da aceleração constante?\n{{CMD_100}}\n{{CMD_101}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry1.tex",
+  "ordem": 0,
+  "hash": "f79baf6dd8bf7070894cbb126d7ff07c8a619ddf0b929484d5e3b2e1ce45eccf",
+  "traducao": "Uma função {{MATH_1}} descreve a velocidade de um carro (em milhas por hora) que se move ao longo de uma rodovia reta durante um intervalo de 4 horas.  O gráfico de {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry1.tex",
+  "ordem": 1,
+  "hash": "56e497ba4fadf6d5326cfa0c61efba3a285884c6af85276eb2b8c7c9a4ddc05b",
+  "traducao": "O deslocamento do carro ao longo do período de 4 horas é\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry2.tex",
+  "ordem": 0,
+  "hash": "f79baf6dd8bf7070894cbb126d7ff07c8a619ddf0b929484d5e3b2e1ce45eccf",
+  "traducao": "Uma função {{MATH_1}} descreve a velocidade de um carro (em milhas por hora) que se move ao longo de uma rodovia reta durante um intervalo de 4 horas.  O gráfico de {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry2.tex",
+  "ordem": 1,
+  "hash": "468bc0bf4720ae4438257aa46af2685de14271cd145c615244ca0c8946271aae",
+  "traducao": "Usando geometria, descobrimos que o deslocamento do carro ao longo do período de 4 horas é\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry2.tex",
+  "ordem": 2,
+  "hash": "c37363f0e341d741d955f86aba22f7a4d2c1bb926120206d8137d3b48896945a",
+  "traducao": "Usando uma soma de Riemann à esquerda com {{MATH_4}} subintervalos, podemos aproximar esse deslocamento por\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry2.tex",
+  "ordem": 3,
+  "hash": "3ee77e33492f8f698a1efaad6e454e0a3005f91604f0d02a848f74f7f42ef639",
+  "traducao": "Também podemos usar uma soma de Riemann à direita com {{MATH_6}} subintervalos para aproximar esse deslocamento por\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry2.tex",
+  "ordem": 4,
+  "hash": "869ad182c161d8146be1f93918b377f671b4461d8976a38bf938df3eb4d92cf8",
+  "traducao": "Finalmente, podemos usar uma soma de Riemann do ponto médio com {{MATH_8}} subintervalos para aproximar esse deslocamento por\n{{MATH_9}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry2.tex",
+  "ordem": 5,
+  "hash": "dec09e1f54c2568cd072bd80e96b597545f56bfbdab01cacf38ed3ddf5b02080",
+  "traducao": "Usando geometria, podemos encontrar uma fórmula para o deslocamento até o instante {{MATH_10}}, para {{MATH_11}}, dada por\n{{MATH_12}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry2.tex",
+  "ordem": 6,
+  "hash": "7e55eba7011f1d9ac43b5fd65302563c9c11e1ad8a372dbd4a2aeaecd0a26859",
+  "traducao": "Agora, considere também o problema de valor inicial\n{{ENV_13}}\nEntão\n{{MATH_14}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry2.tex",
+  "ordem": 7,
+  "hash": "613b91a92a9613a2921d74f2ce333542ae036411fde06d7dab43f366a1844391",
+  "traducao": "Compare estas duas últimas partes do problema.  Elas levam você a alguma conjectura sobre a relação entre o deslocamento (área sob uma curva) e qualquer antiderivada de {{MATH_15}}?"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry3.tex",
+  "ordem": 0,
+  "hash": "f79baf6dd8bf7070894cbb126d7ff07c8a619ddf0b929484d5e3b2e1ce45eccf",
+  "traducao": "Uma função {{MATH_1}} descreve a velocidade de um carro (em milhas por hora) que se move ao longo de uma rodovia reta durante um intervalo de 4 horas.  O gráfico de {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry3.tex",
+  "ordem": 1,
+  "hash": "1574ef3543455bc10b3c38789b74b5940af647a83a4f1825a0162db930107190",
+  "traducao": "Usando geometria, podemos encontrar o deslocamento do carro ao longo do período de 4 horas:\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry3.tex",
+  "ordem": 2,
+  "hash": "861dceb55c59eab36fb66acb085c71e9276dba2d1d1c3b88ec2808faf61f413a",
+  "traducao": "Usando uma soma de Riemann à esquerda com {{MATH_4}} subintervalos, podemos aproximar esse deslocamento por\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry3.tex",
+  "ordem": 3,
+  "hash": "a66618a6c5e9b87f87d1983f36bf9c275afd7dc407bcc5242bf574704d8ee29d",
+  "traducao": "Usando uma soma de Riemann à direita com {{MATH_6}} subintervalos, podemos aproximar esse deslocamento por\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry3.tex",
+  "ordem": 4,
+  "hash": "cb1938a1c1df589222c687c2fe19031cdad79d318a1cb41b087090fcb81500ce",
+  "traducao": "Finalmente, usando uma soma de Riemann do ponto médio com {{MATH_8}} subintervalos, podemos aproximar esse deslocamento por\n{{MATH_9}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry3.tex",
+  "ordem": 5,
+  "hash": "fb3d08d31f976ca8cedb963db6edac80fdfa9c85808913eee4412cde849f49b9",
+  "traducao": "Usando geometria, podemos encontrar uma expressão para o deslocamento até o instante {{MATH_10}}, para {{MATH_11}}, dada por\n{{MATH_12}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry4.tex",
+  "ordem": 0,
+  "hash": "f79baf6dd8bf7070894cbb126d7ff07c8a619ddf0b929484d5e3b2e1ce45eccf",
+  "traducao": "Uma função {{MATH_1}} descreve a velocidade de um carro (em milhas por hora) que se move ao longo de uma rodovia reta durante um intervalo de 4 horas.  O gráfico de {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/displacementByGeometry4.tex",
+  "ordem": 1,
+  "hash": "d4d08e7a654e38c75f485db55553b254b5905dfe13391991a637ae74d0bdf77c",
+  "traducao": "Use geometria para calcular os deslocamentos a seguir.\n{{ENV_3}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/precalcSolvingEquations.tex",
+  "ordem": 0,
+  "hash": "2bc361d789644e7751a019e1d3bd8cc47c891f8efdd2fba245667c04c0d57e55",
+  "traducao": "Resolva a equação a seguir para {{MATH_1}}.\n{{MATH_2}}\n{{CMD_3}}\nMultiplique a equação pelo denominador comum, {{MATH_4}}.\n{{MATH_5}}\nSimplifique. Observação: {{MATH_6}}."
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/precalcSolvingEquations.tex",
+  "ordem": 1,
+  "hash": "d920b219484c7c029a294797585c2c80f99c7bc03b74d2f738d519be8ef456f6",
+  "traducao": "Termine o problema.\n{{CMD_7}}\nRESPOSTA: \n{{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/precalcSolvingEquations2.tex",
+  "ordem": 0,
+  "hash": "72270eaa5df0aa840423c19aabb62e216ccea0acb00737e62b57ef1678f6e051",
+  "traducao": "Resolva a equação a seguir para x.\n{{MATH_1}}\n{{CMD_2}}"
+ },
+ {
+  "arquivo": "antiderivativesAndArea/exercises/precalcSolvingEquations2.tex",
+  "ordem": 1,
+  "hash": "a2debd50baa71ccc79eab2bf50c3ba4dddae2128db6403a7cc5be46a40ac3a99",
+  "traducao": "Use as propriedades dos logaritmos.\n{{MATH_3}}\n{{CMD_4}}\n{{CMD_5}}\nSimplifique. \n{{MATH_6}}\n{{CMD_7}}\n{{CMD_8}}\nSimplifique. Lembre-se de que\n{{MATH_9}}\né equivalente a\n{{MATH_10}}\n{{CMD_11}}\nRESPOSTA: \n{{MATH_12}}\n{{CMD_13}}\n{{CMD_14}}"
+ }
+]

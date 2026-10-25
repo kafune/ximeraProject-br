@@ -2,6 +2,7 @@ use super::Db;
 use crate::{
     db,
     models::{FileRecord, ReaderFile, Segment},
+    translations::ProtectedMap,
     ximera,
 };
 use askama::Template;
@@ -30,6 +31,7 @@ struct ReaderData {
     course_files: Vec<ReaderFile>,
     segments: Vec<Segment>,
     translation_segment: Option<i64>,
+    protected: ProtectedMap,
 }
 
 #[derive(Template)]
@@ -51,6 +53,7 @@ pub async fn file(State(db_conn): State<Db>, Path(id): Path<i64>) -> impl IntoRe
         let course_files = reader_data.course_files;
         let segments = reader_data.segments;
         let translation_segment = reader_data.translation_segment;
+        let protected = reader_data.protected;
         let current_index = course_files
             .iter()
             .position(|course_file| course_file.id == id)
@@ -73,7 +76,7 @@ pub async fn file(State(db_conn): State<Db>, Path(id): Path<i64>) -> impl IntoRe
             .checked_sub(1)
             .map(|index| activity_link(&course_files[index]));
         let next = course_files.get(current_index + 1).map(activity_link);
-        let body_html = ximera::render(&file, &segments)?;
+        let body_html = ximera::render(&file, &segments, &protected)?;
         ReaderTemplate {
             course: current_file.course.clone(),
             chapter: display_name(&current_file.chapter),
@@ -107,11 +110,13 @@ fn reader_data(db_conn: &Db, id: i64) -> Result<ReaderData, String> {
     let segments = db::segments_for_file(&conn, id).map_err(|error| error.to_string())?;
     let translation_segment =
         db::translation_segment_for_file(&conn, file.id).map_err(|error| error.to_string())?;
+    let protected = db::protected_translations(&conn).map_err(|error| error.to_string())?;
     Ok(ReaderData {
         file,
         course_files,
         segments,
         translation_segment,
+        protected,
     })
 }
 

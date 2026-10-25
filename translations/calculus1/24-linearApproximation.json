@@ -1,0 +1,692 @@
+[
+ {
+  "arquivo": "linearApproximation/titlePage.tex",
+  "ordem": 0,
+  "hash": "f57c3998471a9635b1a50eb436477472ec1417683ddefc478aba7cc0fccfd9c9",
+  "traducao": "Aproximação linear{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "linearApproximation/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "linearApproximation/titlePage.tex",
+  "ordem": 2,
+  "hash": "4779d7da2bc60e5b0922a0a618937379a0f8d121c0b2e5985e6f5de0d37d8f7e",
+  "traducao": " Definir aproximação linear como uma aplicação da tangente a uma curva.\n\t{{CMD_4}} Determinar a aproximação linear de uma função em um ponto e usá-la para aproximar o valor da função.\n\t{{CMD_5}} Identificar quando uma aproximação linear pode ser usada.\n\t{{CMD_6}} Rotular um gráfico com as grandezas apropriadas usadas na aproximação linear.\n\t{{CMD_7}} Determinar o erro de uma aproximação linear.\n        {{CMD_8}} Calcular diferenciais.\n\t{{CMD_9}} Usar a segunda derivada para discutir se a aproximação linear superestima ou subestima o valor real da função.\n\t{{CMD_10}} Contrastar a notação e o significado de {{MATH_11}} e de {{MATH_12}}.\n\t{{CMD_13}} Entender que o erro diminui mais rápido do que o deslocamento na entrada.\n        {{CMD_14}} Justificar a regra da cadeia por meio da composição de aproximações lineares.\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "linearApproximation/breakGround.tex",
+  "ordem": 0,
+  "hash": "4965ab85691cb6f9582ade349f0c368f061aa3b1b388c06a479e1c0afc6598e3",
+  "traducao": "Substituindo curvas por retas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem aproximação linear.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "linearApproximation/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "linearApproximation/breakGround.tex",
+  "ordem": 2,
+  "hash": "603f7cfd56b0ab8282170a3d800832f14dd86883ea9d640431d2039521705f73",
+  "traducao": " Hmmmm. Riley, acabei de pensar numa coisa{{CMD_7}}\n{{CMD_8}} O que foi?\n{{CMD_9}} Quando calculamos derivadas, estamos olhando para a inclinação\n  de retas tangentes, certo?\n{{CMD_10}} Com certeza.\n{{CMD_11}} Bom, eu fico pensando: em vez de estudar curvas, não poderíamos\n  simplesmente estudar retas ``ampliadas''?\n{{CMD_12}} Não tenho certeza{{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "linearApproximation/breakGround.tex",
+  "ordem": 3,
+  "hash": "e7f61c6373b3adbedbfc3c150f8c1c500844b07a8e2456b16ed426b50295f162",
+  "traducao": "Você leu em algum lugar que\n{{MATH_15}}\né uma boa aproximação para {{MATH_16}} quando {{MATH_17}} está perto de\n{{MATH_18}}."
+ },
+ {
+  "arquivo": "linearApproximation/breakGround.tex",
+  "ordem": 4,
+  "hash": "83a1e1a011e7fb7f7bef45fe8bcc91afac28d3e3565f421bbc68197a3a33e80e",
+  "traducao": "  Esboce os gráficos de {{MATH_19}} e {{MATH_20}}. Explique como isso mostra que {{MATH_21}} é uma\n  boa aproximação quando {{MATH_22}} está perto de {{MATH_23}}.\n  {{CMD_24}}\n  {{CMD_25}}\n  {{CMD_26}}\n  {{CMD_27}}\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "linearApproximation/breakGround.tex",
+  "ordem": 5,
+  "hash": "31128120782f08753a46457e73b5cf80f1178329311d26d6f32fbc6fdbc5d56c",
+  "traducao": " Explique (se conseguir), usando conceitos de cálculo, por que\n {{MATH_29}} é uma boa aproximação para {{MATH_30}} quando {{MATH_31}} está perto de {{MATH_32}}.\n {{CMD_33}}\n  {{CMD_34}}\n  {{CMD_35}}\n {{CMD_36}}\n{{CMD_37}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 0,
+  "hash": "39910faa669a7b5cae497f87e1206ecbd05d32d2603af1a95b1a8bf3a71fb9c2",
+  "traducao": "Aproximação linear{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n\tUsamos um método chamado ``aproximação linear'' para estimar o valor\n\tde uma função (complicada) em um ponto dado.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 1,
+  "hash": "33de9f73887a1d2ab3edc9c36f20cc613615a70b4e1a79fc05b748006bf5ba9c",
+  "traducao": "Dada uma função, uma {{CMD_7}}aproximação linear{{CMD_8}} é um nome pomposo\npara algo que você já conhece:\n{{CMD_9}}\n\t{{CMD_10}}A reta tangente ao gráfico de uma função em um ponto está muito próxima do gráfico da função perto desse ponto.{{CMD_11}}\n{{CMD_12}}\nEssa reta tangente é o gráfico de uma função linear, chamada de {{CMD_13}}aproximação linear{{CMD_14}}.\n{{CMD_15}}\n\tSeja {{MATH_16}} uma função derivável em algum intervalo I que contém o ponto {{MATH_17}}.\n\tO gráfico de uma função {{MATH_18}}  e a reta tangente à curva\n\t{{MATH_19}} no ponto em que {{MATH_20}} são dados na figura abaixo. Determine a equação da reta tangente.\n\t {{CMD_21}}\n\t{{ENV_22}}\n\t{{COMMENT_23}}\n\t{{COMMENT_24}}\n\t{{CMD_25}}\n\tPrimeiro, encontre a expressão para {{MATH_26}}, a inclinação da reta tangente à curva {{MATH_27}} no ponto {{MATH_28}}.\n\t Selecione a alternativa correta.\n\t {{CMD_29}}\n\t\t{{CMD_30}}{{MATH_31}}{{CMD_32}}\n\t\t{{CMD_33}}{{MATH_34}}{{CMD_35}}\n\t\t{{CMD_36}}{{MATH_37}}{{CMD_38}}\n\t\t{{CMD_39}}{{MATH_40}}{{CMD_41}}\n\t\t{{CMD_42}} Não temos informação suficiente para determinar a inclinação.{{CMD_43}}\n\t  {{CMD_44}}\n\tComo sabemos que o ponto {{MATH_45}}  está sobre a reta tangente,  podemos escrever uma equação da reta tangente.\n\n\t{{MATH_46}}\n\tAgora, definimos uma função, {{MATH_47}},  por {{MATH_48}}. Essa função é linear e seu gráfico é a reta tangente à curva {{MATH_49}} no ponto em que {{MATH_50}}.\n\tEssa função merece um nome especial.\n{{CMD_51}}\n{{CMD_52}}{{CMD_53}}\nSe {{MATH_54}} é uma função derivável em {{MATH_55}}, então uma {{CMD_56}}aproximação\n  linear{{CMD_57}} da função {{MATH_58}} em {{MATH_59}} é dada por\n{{MATH_60}}\n{{CMD_61}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 2,
+  "hash": "c62e8db1df99afe160cf4ca6d3c3759a22cb98d274d8061e673cfcbbd4be41cb",
+  "traducao": "Observe que o gráfico de {{MATH_62}} é simplesmente a reta tangente ao gráfico de {{MATH_63}} em {{MATH_64}}."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 3,
+  "hash": "9dafa3a9d8e99f8d991040c1b4c12d7a533001e17822efa748ce53adb601545e",
+  "traducao": "Uma aproximação linear de {{MATH_65}} é uma ``boa'' aproximação desde que {{MATH_66}} não esteja ``longe demais'' de {{MATH_67}}.\n{{COMMENT_68}}\nSe ``ampliarmos'' o gráfico de {{MATH_69}} o suficiente, os gráficos de {{MATH_70}} e {{MATH_71}} ficam praticamente indistinguíveis.\n\n Como primeiro exemplo, veremos como as aproximações lineares nos permitem aproximar cálculos ``difíceis''."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 4,
+  "hash": "0291a8a704ab7bcbbdb2014c5f1cd987832a834d2ab9d62eebd697ec454a9fc2",
+  "traducao": "\tSeja {{MATH_72}} a função definida por\n\t{{MATH_73}}\n\tAproxime {{MATH_74}} usando {{MATH_75}},  uma aproximação linear da função {{MATH_76}} em {{MATH_77}}.\n\n\t{{CMD_78}}\n\t\tPara começar, escreva\n\t\t{{MATH_79}}\n\t\t{{ENV_80}}\n\t\t{{CMD_81}}\n\t\t{{COMMENT_82}}\n\t\t{{ENV_83}}\n\t\t{{COMMENT_84}}\n\t\t{{COMMENT_85}}\n\t\t{{COMMENT_86}}\n\t\t{{CMD_87}}\n\t\tAgora calculamos {{MATH_88}}. Isso foi fácil de calcular, já que {{MATH_89}} é uma função linear!\n\t\tUsando uma calculadora, podemos ver que {{MATH_90}} e que\n\t\t{{MATH_91}}. Portanto, {{MATH_92}} não só é fácil de calcular, como também nos dá uma boa aproximação de {{MATH_93}}.\n\t{{CMD_94}}\n\n\tO que aconteceria se, em vez disso, escolhêssemos {{MATH_95}}?\n\n\tEntão usaríamos {{MATH_96}}, a aproximação linear da função {{MATH_97}} em {{MATH_98}}.\n\tNesse caso, {{MATH_99}}.\n\tO gráfico de  {{MATH_100}}, junto com os gráficos de {{MATH_101}} e {{MATH_102}}, é dado na figura abaixo.\n\t{{CMD_103}}\n\t{{COMMENT_104}}\n\t{{ENV_105}}\n\t{{COMMENT_106}}\n\t{{COMMENT_107}}\n\t{{COMMENT_108}}\n\t{{CMD_109}}\n\tPela figura, podemos ver que\n\n\t {{MATH_110}}.\n\n\t Então a nossa escolha, {{MATH_111}}, foi melhor!\n{{CMD_112}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 5,
+  "hash": "9b884c4394d6184a2e73f145bc8e0e14f04edfd001a8f9439da09e4cac14ce9e",
+  "traducao": "Com as calculadoras e os programas de computador modernos, pode não parecer\nnecessário usar aproximações lineares. Na verdade, elas são bastante\núteis. Em situações que exigem uma aproximação numérica explícita, elas\nnos permitem obter rapidamente uma estimativa grosseira, que pode servir de\n``prova dos nove'' para um cálculo mais complexo. Em alguns cálculos\ncomplexos envolvendo funções, a aproximação linear torna possível um\ncálculo que, de outra forma, seria intratável, sem perda séria de\nprecisão."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 6,
+  "hash": "0b4efe1eed5864f238fc168acf688e437efca0dc42a0f21d2ca3e8dd5971aaf7",
+  "traducao": "\tUse uma aproximação linear de {{MATH_113}} em {{MATH_114}} para aproximar\n\t{{MATH_115}}.\n\t{{CMD_116}}\n\t\tPara começar, escreva\n\t\t{{MATH_117}}\n\t\tde modo que nossa aproximação linear é\n\t\t{{ENV_118}}\n\t\t{{CMD_119}}\n\t\t{{COMMENT_120}}\n\t\t{{ENV_121}}\n\t\t{{COMMENT_122}}\n\t\t{{COMMENT_123}}\n\t\t{{COMMENT_124}}\n\t\t{{CMD_125}}\n\t\tLogo, uma aproximação linear de {{MATH_126}} em {{MATH_127}} é {{MATH_128}},\n\t\te assim {{MATH_129}}.  Comparando isso com {{MATH_130}},\n\t\tvemos que a aproximação é muito boa. Por essa razão, é comum\n\t\taproximar {{MATH_131}} por sua aproximação linear {{MATH_132}}\n\t\tquando {{MATH_133}} está perto de zero.\n\t\t{{COMMENT_134}}\n\t{{CMD_135}}\n{{CMD_136}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 7,
+  "hash": "8158dbc51da51480db1d2fa106215267967127497b1b0578bc445f981fd30dda",
+  "traducao": "Estimativas por excesso ou por falta{{CMD_137}}\nLembre-se de que, geometricamente, o valor real da função corresponde à coordenada {{MATH_138}} de um ponto do gráfico da função, e o valor\naproximado corresponde à coordenada {{MATH_139}} de um ponto do gráfico da reta tangente. Temos uma terminologia para descrever a situação em que o gráfico\nda função está acima ou abaixo da reta tangente: concavidade."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 8,
+  "hash": "a43eb328ad8ee894ea20e2f40e3e117030c9ee04843968d6580085330d94f140",
+  "traducao": "\tSuponha que {{MATH_140}} seja a aproximação linear de uma função derivável {{MATH_141}} em {{MATH_142}}. Suponha que {{MATH_143}} seja outro valor de {{MATH_144}} próximo de {{MATH_145}} e que\n\t{{MATH_146}} seja o intervalo aberto entre {{MATH_147}} e {{MATH_148}}. Então:\n\t{{CMD_149}}\n\t\t{{CMD_150}} Se {{MATH_151}} tem concavidade para cima no intervalo {{MATH_152}}, então o valor aproximado {{MATH_153}} é uma {{CMD_154}}estimativa por falta{{CMD_155}} de {{MATH_156}}.\n\t\t{{CMD_157}} Se {{MATH_158}} tem concavidade para baixo no intervalo {{MATH_159}}, então o valor aproximado {{MATH_160}} é uma {{CMD_161}}estimativa por excesso{{CMD_162}} de {{MATH_163}}.\n\t{{CMD_164}}\n{{CMD_165}}\n{{CMD_166}}\nPara determinar se {{MATH_167}} é uma estimativa por excesso ou por falta, não basta verificar o valor de {{MATH_168}} em um único ponto. É a concavidade\nem todo o intervalo entre os pontos {{MATH_169}} e {{MATH_170}} que precisa ser verificada.\n{{CMD_171}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 9,
+  "hash": "6e86b5e6ba4098d4825c5493388bef0472586c280911fdc4cd6b56f713b1478d",
+  "traducao": "\tAproxime o valor de {{MATH_172}}. Essa é uma estimativa por excesso ou por falta?\n\n\t{{CMD_173}}\n\t\tPara fazer uma aproximação linear, precisamos escolher uma função e o ponto {{MATH_174}} a ser usado. Neste exemplo, faz sentido\n\t\tusar {{MATH_175}} como função, o que significa que a pergunta está pedindo para aproximarmos {{MATH_176}}.\n\n\t\tPara o ponto {{MATH_177}}, precisamos de um valor próximo de {{MATH_178}} para o qual consigamos calcular {{MATH_179}} e {{MATH_180}}. Usar {{MATH_181}} funciona aqui,\n\t\tjá que {{MATH_182}} e {{MATH_183}}, de modo que {{MATH_184}}.\n\n\t\tA função de aproximação linear é {{MATH_185}}. Isso dá {{MATH_186}}."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 10,
+  "hash": "14ea0b00daa7acb5a34c51eae2fc98861cf4ab02648f165b7f11e849e4c7a4ee",
+  "traducao": "\t\tEssa é a nossa aproximação. Agora precisamos determinar se esse valor foi uma estimativa por excesso ou por falta.\n\t\t{{MATH_187}}, que é positiva no intervalo {{MATH_188}}. Isso significa que {{MATH_189}} tem concavidade para cima no intervalo {{MATH_190}} (já que esse intervalo\n\t\testá contido em {{MATH_191}}).\n\n\t\tO valor aproximado é {{MATH_192}}, que é uma estimativa por falta porque {{MATH_193}} tem concavidade para cima no intervalo {{MATH_194}}.\n\t{{CMD_195}}\n{{CMD_196}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 11,
+  "hash": "763b6cbe9a65fdde40fbf2899baca3b5f25a0a37674f35ecc70514bdff33b51b",
+  "traducao": "Observe que indicamos apenas o intervalo {{MATH_197}} nesta resposta. Embora a função {{MATH_198}} tenha concavidade para cima em todo o intervalo {{MATH_199}}, é apenas o\nintervalo {{MATH_200}} que é relevante para esta pergunta, e por isso foi ele que incluímos na resposta."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 12,
+  "hash": "464ec855fc935a7be9e8fc607ff2b240dce9ab42cff02fa22e77c4bd8092ccd5",
+  "traducao": "Diferenciais{{CMD_201}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 13,
+  "hash": "366ce93bd847b9aa282c33f80b8b3e2a49bfbbc67665fb74288ef9a1c1e00a4d",
+  "traducao": "O  gráfico de uma função {{MATH_202}} e o gráfico de {{MATH_203}}, a aproximação linear de {{MATH_204}} em {{MATH_205}}, são mostrados na figura abaixo.\nAlém disso, duas quantidades, {{MATH_206}} e {{MATH_207}}, e um ponto {{MATH_208}} estão marcados na figura. Olhe a figura com atenção ao responder às perguntas abaixo."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 14,
+  "hash": "b07d61541b321db666cf56a26de00d11ebe4544c8393d22446e97b3ea16c4c7f",
+  "traducao": "  Selecione todas as expressões corretas para a quantidade {{MATH_209}}.\n   {{CMD_210}}\n     Você pode ver que {{MATH_211}}.\n    {{CMD_212}}\n    {{CMD_213}}\n      {{CMD_214}}{{MATH_215}}{{CMD_216}}\n            {{CMD_217}}{{MATH_218}}{{CMD_219}}\n      {{CMD_220}}{{MATH_221}}{{CMD_222}}\n      {{CMD_223}}{{MATH_224}}{{CMD_225}}\n          {{CMD_226}}{{MATH_227}}{{CMD_228}}\n    {{CMD_229}}\n\n  {{CMD_230}}\n  {{CMD_231}}\n  Selecione todas as expressões corretas para a quantidade {{MATH_232}}.\n   {{CMD_233}}\n     Você pode ver que {{MATH_234}}.\n    {{CMD_235}}\n      {{CMD_236}}\n    Lembre-se: {{MATH_237}}.\n    {{CMD_238}}\n    {{CMD_239}}\n       {{CMD_240}}{{MATH_241}}{{CMD_242}}\n            {{CMD_243}}{{MATH_244}}{{CMD_245}}\n      {{CMD_246}}{{MATH_247}}{{CMD_248}}\n      {{CMD_249}}{{MATH_250}}{{CMD_251}}\n          {{CMD_252}}{{MATH_253}}{{CMD_254}}\n\n    {{CMD_255}}\n\n  {{CMD_256}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 15,
+  "hash": "40d35c40c0231b646c4b15fa5f45d80b05059d321bffe2d8394c2d18cb701f39",
+  "traducao": "Com base na figura e na expressão para {{MATH_257}}, selecione todas as expressões corretas para {{MATH_258}}.\n {{CMD_259}}\n    Lembre-se: {{MATH_260}}.\n    {{CMD_261}}\n      {{CMD_262}}\n      {{CMD_263}} {{MATH_264}}{{CMD_265}}\n      {{CMD_266}} {{MATH_267}}{{CMD_268}}\n  {{CMD_269}}{{MATH_270}}{{CMD_271}}\n    {{CMD_272}}{{MATH_273}}{{CMD_274}}\n    {{CMD_275}}{{MATH_276}}{{CMD_277}}\n      {{CMD_278}}\n  {{CMD_279}}\n\nAssim, podemos escrever {{MATH_280}} e chamá-la de {{CMD_281}}diferencial{{CMD_282}} de {{MATH_283}} em {{MATH_284}}. Observe que podemos definir uma diferencial em qualquer ponto {{MATH_285}} do domínio de {{MATH_286}}, desde que {{MATH_287}} exista."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 16,
+  "hash": "d95f662f2f26a3a998997830d9e3fe45995f9ac84506f8a9f29b9349e1805f71",
+  "traducao": "Os estudantes frequentemente confundem a diferencial {{MATH_288}} com a derivada {{MATH_289}}.  Lembre-se de que a derivada nos dá a\n{{CMD_290}}taxa{{CMD_291}} de variação no ponto, enquanto a diferencial {{MATH_292}} é uma {{CMD_293}}quantidade estimada{{CMD_294}} de variação.\n\nFaremos isso na nossa próxima definição.\n{{CMD_295}}\nSeja {{MATH_296}} uma função derivável, seja {{MATH_297}} um ponto do domínio de {{MATH_298}} e seja  {{MATH_299}} uma quantidade, chamada de {{CMD_300}}diferencial de {{MATH_301}}{{CMD_302}}.\nDefinimos  {{MATH_303}}, a diferencial de {{MATH_304}},  em um ponto {{MATH_305}} por\n{{MATH_306}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 17,
+  "hash": "6302a4f8e8634d16b81036bfd23cb8d3befe3c7782eb827766046e7440bfeb82",
+  "traducao": " Geometricamente, as diferenciais podem ser interpretadas por meio do diagrama abaixo.\n{{CMD_307}}\n{{COMMENT_308}}\n{{ENV_309}}\n{{COMMENT_310}}\n  {{COMMENT_311}}\n  {{COMMENT_312}}\n{{COMMENT_313}}\n{{COMMENT_314}}\n{{CMD_315}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 18,
+  "hash": "2201be9bd71412b3808cc8baffe652bce09763000d4685e32c907dc6d07cb42f",
+  "traducao": "Observe que agora vale (por definição!) que\n{{MATH_316}}\n{{CMD_317}}\nNão devemos nos surpreender, já que a inclinação da reta tangente na figura é {{MATH_318}},  e essa inclinação também é dada por {{MATH_319}}."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 19,
+  "hash": "d95c29487d51c87b1fa296747cbd2f999f8c97ca12b10fb8081b9cd2b47d994a",
+  "traducao": "Essencialmente, as diferenciais nos permitem resolver os problemas apresentados nos\nexemplos anteriores de um ponto de vista ligeiramente diferente. Lembre-se de que,\nquando {{MATH_320}} está perto de zero, mas não é igual a zero,\n{{MATH_321}}\nLogo,\n{{MATH_322}}\nPodemos substituir a quantidade {{MATH_323}} por uma quantidade {{MATH_324}} e escrever\n{{ENV_325}}\nSomando {{MATH_326}} a ambos os lados, vemos que\n{{MATH_327}}\nou, equivalentemente,\n{{MATH_328}}\nHá\ncontextos em que a linguagem das diferenciais é comum. Eis a\nestratégia básica:\n{{CMD_329}}\n  {{ENV_330}}\n{{CMD_331}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 20,
+  "hash": "d924de633c2748a488ce539d6df4f68b63649d6eb7c3ed4d3b4deab5914fdb85",
+  "traducao": "Vamos repetir nossos exemplos anteriores usando diferenciais."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 21,
+  "hash": "e443f4f80f748f9b19b4c085fed3aa73f0dcab3068de56fe42f84eaeb9c4027e",
+  "traducao": "Use diferenciais para aproximar {{MATH_332}}.\n{{CMD_333}}\n  Tome {{MATH_334}}. Queremos saber {{MATH_335}}.  Como\n  {{MATH_336}}, tomamos {{MATH_337}}.  Fazendo {{MATH_338}}, temos\n  {{ENV_339}}\n  Aqui vemos o gráfico de {{MATH_340}} com as diferenciais acima\n  marcadas:\n  {{CMD_341}}\n    {{ENV_342}}\n    {{COMMENT_343}}\n    {{CMD_344}}\n  {{CMD_345}}\n  Agora precisamos calcular {{MATH_346}}:\n  {{ENV_347}}\n  Logo, {{MATH_348}}.\n{{CMD_349}}\n{{CMD_350}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 22,
+  "hash": "c3af990f00ea291753efcf7a3ef6235404d16c843d6a082fc41ec5d7da947a17",
+  "traducao": "Use diferenciais para aproximar {{MATH_351}}.\n{{CMD_352}}\nTome {{MATH_353}}. Queremos saber {{MATH_354}}. Como {{MATH_355}},\nvamos tomar {{MATH_356}} e {{MATH_357}}. Escreva comigo\n{{ENV_358}}\n  Aqui vemos o gráfico de {{MATH_359}} com as diferenciais acima\n  marcadas:\n  {{CMD_360}}\n{{COMMENT_361}}\n{{ENV_362}}\n{{COMMENT_363}}\n{{CMD_364}}\n{{COMMENT_365}}\n{{CMD_366}}\nAgora precisamos calcular {{MATH_367}}:\n{{ENV_368}}\nLogo, {{MATH_369}}.\n{{CMD_370}}\n{{CMD_371}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 23,
+  "hash": "bffb5cbed460e6ceedf849562f1e71c49befc7dc33cdf16496ad6eaf96316893",
+  "traducao": "A conclusão é que aproximações lineares e diferenciais são simplesmente\nduas maneiras ligeiramente diferentes de fazer exatamente a mesma coisa."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 24,
+  "hash": "f96ea3dbd5337f059fda72316eb31155d489a2c046754c05f084e1f2749202e3",
+  "traducao": "Aproximação do erro{{CMD_372}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 25,
+  "hash": "3c67175e979fdad55d2628bcea7b7bb1fc2e64e08f8a2fc96e87a5c9380d17d3",
+  "traducao": "As diferenciais também nos ajudam a estimar erros em situações da vida real."
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 26,
+  "hash": "977cdf396bc921b141f3c26ca96824325650b1794107fd3fd40d91cb86b30494",
+  "traducao": "Um copo contendo água é mostrado na figura abaixo.\n  {{CMD_373}}\n    {{ENV_374}}\n  {{CMD_375}}\n  Seja {{MATH_376}} a altura da água (medida em centímetros).\n  O volume de água no copo (em\n  mililitros), como função de  {{MATH_377}},\n  é dado por\n  {{MATH_378}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 27,
+  "hash": "2fc4174f00af3ce8b22d9cf2ac9d774cf34006fc7414c5ce3be5c63a0006a3ba",
+  "traducao": "  Há uma marca indicando quando o copo está cheio até {{MATH_379}} ml, a {{MATH_380}} cm da base do copo.\n  Se o copo for cheio com um erro de até\n  {{MATH_381}} milímetros em relação à marca, quais são os limites para o volume?\n    {{COMMENT_382}}\n {{COMMENT_383}}\n  {{CMD_384}}\n    Queremos saber o que uma pequena variação na altura, {{MATH_385}}, provoca no\n    volume {{MATH_386}}.  Essas pequenas variações podem ser modeladas pelas\n    diferenciais {{MATH_387}} e {{MATH_388}}. Como\n    {{MATH_389}}\n    e {{MATH_390}}, usamos o fato de que\n    {{MATH_391}} com {{MATH_392}} para ver que\n    {{MATH_393}}\n    Logo, o volume vai variar em aproximadamente {{MATH_394}}\n    mililitros.\n  {{CMD_395}}\n{{CMD_396}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 28,
+  "hash": "e9a322185e363912e3147dc912d3dbc8fc7129cd4a67ec5e6a83e7c39ef707c4",
+  "traducao": "Novos e velhos amigos{{CMD_397}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInLinearApproximation.tex",
+  "ordem": 29,
+  "hash": "d5904d71a5806304323d710d58bbdaa0d237b4b74c474a9b64f27d9535a0ba12",
+  "traducao": "Você pode estar se perguntando, dado um gráfico {{MATH_398}},\n{{CMD_399}}\n  Qual é a diferença entre {{MATH_400}} e {{MATH_401}}? E entre\n  {{MATH_402}} e {{MATH_403}}?\n{{CMD_404}}\nDe qualquer forma, agora essa é uma pergunta urgente. A questão é a seguinte:\n{{MATH_405}}\né a {{CMD_406}} de {{MATH_407}} em relação a {{MATH_408}}.\nPor outro lado:\n{{MATH_409}}\né a {{CMD_410}} de {{MATH_411}} em relação a\n{{MATH_412}}. Essencialmente, {{MATH_413}} e {{MATH_414}} são o mesmo tipo de coisa:\nsão variações (em geral pequenas) de {{MATH_415}}. No entanto, {{MATH_416}} e {{MATH_417}} são coisas bem diferentes.\n{{CMD_418}}\n{{CMD_419}} {{MATH_420}}; é a variação de {{MATH_421}} associada a {{MATH_422}}.\n{{CMD_423}} {{MATH_424}}; é a variação de {{MATH_425}} associada a {{MATH_426}}.\n  {{MATH_427}}\n  Observação: {{MATH_428}}.\n\n  Portanto, a variação\n  {{ENV_429}}\n{{CMD_430}}\n{{CMD_431}}\n  Suponha que {{MATH_432}}. Se estamos no ponto {{MATH_433}} e {{MATH_434}}, quanto vale {{MATH_435}}? E {{MATH_436}}?\n  {{CMD_437}}\n {{MATH_438}}\n    {{CMD_439}}\n      {{CMD_440}}\n {{MATH_441}}\n    {{CMD_442}}\n  {{CMD_443}}\n    {{MATH_444}}\n  {{CMD_445}}\n\n{{CMD_446}}\nAs diferenciais podem ser confusas no começo. Porém, quando você as dominar,\nterá uma ferramenta poderosa à sua disposição."
+ },
+ {
+  "arquivo": "linearApproximation/digInExplanationOfTheProductAndChainRules.tex",
+  "ordem": 0,
+  "hash": "dc807a371313f0595f71383f3103d77b8503976188b85edf65e5c77d7ddc2581",
+  "traducao": "Explicação das regras do produto e da cadeia{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Damos uma explicação para a regra do produto e a regra da cadeia.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInExplanationOfTheProductAndChainRules.tex",
+  "ordem": 1,
+  "hash": "af9bc56dce52d5df5a15374cbb7acd0fb22a8c06a91bf8e8f679578cfb299fef",
+  "traducao": "Agora que conhecemos as diferenciais, vamos usá-las para dar alguma\nintuição sobre por que as regras do produto e da cadeia são verdadeiras."
+ },
+ {
+  "arquivo": "linearApproximation/digInExplanationOfTheProductAndChainRules.tex",
+  "ordem": 2,
+  "hash": "a9620b7d0a1547d177509c5f2fd11f12c4a5e92163903d8ccc269bb37496f953",
+  "traducao": "Explicação da regra do produto{{CMD_7}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInExplanationOfTheProductAndChainRules.tex",
+  "ordem": 3,
+  "hash": "fc5aa97202bd09206881ec51de9f640ffe66be2f5f8de4653720fb14fa59ff35",
+  "traducao": "As aproximações lineares podem nos ajudar a explicar por que a regra do produto funciona."
+ },
+ {
+  "arquivo": "linearApproximation/digInExplanationOfTheProductAndChainRules.tex",
+  "ordem": 4,
+  "hash": "0a092684be54acb9e88cf14f43d4c6e20096b6bb1cae6647be0662df83cb3053",
+  "traducao": "Se {{MATH_8}} e {{MATH_9}} são deriváveis, então\n{{MATH_10}}\n{{CMD_11}}\n  Para começar, precisamos de alguma maneira de entender a função\n  {{MATH_12}}\n  Uma interpretação da multiplicação é que ela é a área de um retângulo {{MATH_13}}:\n  {{CMD_14}}\n    {{ENV_15}}\n  {{CMD_16}}\n  Para entender a derivada do produto, precisamos entender como\n  a área, {{MATH_17}}, varia conforme {{MATH_18}} varia. Se alterarmos as entradas de\n  {{MATH_19}} e {{MATH_20}} em {{MATH_21}}, então o tamanho do retângulo muda:\n  {{CMD_22}}\n    {{ENV_23}}\n  {{CMD_24}}\n  Porém, sabemos do nosso trabalho anterior que\n  {{ENV_25}}\n  de modo que agora nossa figura fica assim:\n  {{CMD_26}}\n    {{ENV_27}}\n  {{CMD_28}}\n  Observe que, se pensarmos em {{MATH_29}}, também podemos rotular\n  nossa figura da seguinte forma:\n  {{CMD_30}}\n    {{ENV_31}}\n  {{CMD_32}}\n  Finalmente, a partir das figuras acima e lembrando que\n  {{ENV_33}}\n  vemos que\n  {{ENV_34}}\n  Dividindo ambos os lados por {{MATH_35}}, vemos que\n  {{MATH_36}}\n  e, fazendo {{MATH_37}} tender a zero, vemos que\n  {{MATH_38}}\n{{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInExplanationOfTheProductAndChainRules.tex",
+  "ordem": 5,
+  "hash": "19a6c4ee9860231875eb55b9ec244d4f8aca7834d8053a10df81fb15c7f424cf",
+  "traducao": "Explicação da regra da cadeia{{CMD_41}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInExplanationOfTheProductAndChainRules.tex",
+  "ordem": 6,
+  "hash": "91e919b95ef17a5c0456689798a3045ddb687cd25f3c6838409b571914487e84",
+  "traducao": "Agora usaremos aproximações lineares para ajudar a explicar por que a regra da cadeia\né verdadeira."
+ },
+ {
+  "arquivo": "linearApproximation/digInExplanationOfTheProductAndChainRules.tex",
+  "ordem": 7,
+  "hash": "ea5d29f8ebc839371fbf9df8a1939eaf92cc07a9a36e2894b958ebf617dbbf5d",
+  "traducao": "Se {{MATH_42}} e {{MATH_43}} são deriváveis, então\n{{MATH_44}}\n{{CMD_45}}\n  Vamos tentar entender isso geometricamente. No que segue, as\n  funções {{MATH_46}} e {{MATH_47}} parecem retas; porém, o jovem\n  matemático deve perceber que {{CMD_48}}não{{CMD_49}} estamos olhando para retas\n  de verdade; em vez disso, estamos olhando para {{MATH_50}} e {{MATH_51}} suficientemente\n  ``ampliadas'' para que pareçam retas.  Primeiro considere um\n  gráfico de {{MATH_52}} em relação a {{MATH_53}}:\n  {{CMD_54}}\n    {{ENV_55}}\n  {{CMD_56}}\n  Agora considere um gráfico de {{MATH_57}} em relação a {{MATH_58}}:\n  {{CMD_59}}\n    {{ENV_60}}\n  {{CMD_61}}\n  Se combinarmos esses gráficos, deitando o gráfico de {{MATH_62}} de lado,\n  obtemos:\n  {{CMD_63}}\n    {{ENV_64}}\n  {{CMD_65}}\n  Ah! Disso vemos que\n  {{ENV_66}}\n  logo\n  {{MATH_67}}\n{{CMD_68}}\n{{CMD_69}}"
+ },
+ {
+  "arquivo": "linearApproximation/digInExplanationOfTheProductAndChainRules.tex",
+  "ordem": 8,
+  "hash": "556dfe2c002353be8690e7a70e5b4bb9b91150dd9e82b21bf4fb3615b8622b39",
+  "traducao": "Essas ``explicações'' não pretendem ser o fim da história para\na regra do produto e a regra da cadeia; esperamos que sejam, antes, o\ncomeço. Conforme você aprender mais matemática, essas explicações serão\nrefinadas e tornadas precisas."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LASP17Q6.tex",
+  "ordem": 0,
+  "hash": "c439f7123f4b257bd8cde40fff7e99d7ff4c3e4012646652d0382ff0833e37a9",
+  "traducao": "Determinar a aproximação linear de uma função em um ponto e usá-la para aproximar o valor da função.{{CMD_1}}\n{{CMD_2}}Usar o teorema do valor médio para limitar o erro na aproximação linear.{{CMD_3}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LASP17Q6.tex",
+  "ordem": 1,
+  "hash": "7b0620f93ea450e40f758ba23445b52b2562b2a84297d8981d06ad175b3b0109",
+  "traducao": "Seja {{MATH_4}} uma função derivável no intervalo {{MATH_5}} com os valores particulares de {{MATH_6}} e {{MATH_7}} dados na tabela abaixo.\n{{MATH_8}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LASP17Q6.tex",
+  "ordem": 2,
+  "hash": "8042828ac72f00d1acac9c07e91f170ca8a6669a07a18a7c0d5d520dd00c3a2f",
+  "traducao": "Determine {{MATH_9}}, a aproximação linear de {{MATH_10}} em {{MATH_11}}.\n{{MATH_12}}\n{{CMD_13}}\nUse a aproximação linear {{MATH_14}} para estimar o valor de {{MATH_15}}.\n{{MATH_16}}\n{{CMD_17}}\nDetermine a taxa de variação média de {{MATH_18}} no intervalo {{MATH_19}}.\n{{MATH_20}}\n{{CMD_21}}\nEscolha a afirmação correta.\n{{CMD_22}}\n{{CMD_23}}Existe um ponto {{MATH_24}} em {{MATH_25}} tal que {{MATH_26}}, embora a função {{MATH_27}} não satisfaça as hipóteses do teorema do valor médio em {{MATH_28}}.{{CMD_29}}\n{{CMD_30}}Existe um ponto {{MATH_31}} em {{MATH_32}} tal que {{MATH_33}}, pois a função {{MATH_34}} satisfaz as hipóteses do teorema do valor médio em {{MATH_35}}.{{CMD_36}}\n{{CMD_37}}Existe um ponto {{MATH_38}} em {{MATH_39}} tal que {{MATH_40}}, mas não temos informação suficiente para encontrar tal ponto.{{CMD_41}}\n{{CMD_42}}Não existe nenhum ponto {{MATH_43}} em {{MATH_44}} tal que {{MATH_45}}.{{CMD_46}}\n{{CMD_47}}\n{{CMD_48}}\n{{CMD_49}}\nNovamente, escolha a afirmação correta.\n{{CMD_50}}\n{{CMD_51}}Para cada {{MATH_52}} em {{MATH_53}}, existe um ponto {{MATH_54}} em {{MATH_55}} tal que {{MATH_56}}, embora a função {{MATH_57}} não satisfaça as hipóteses do teorema do valor médio em {{MATH_58}}.{{CMD_59}}\n{{CMD_60}}Para cada {{MATH_61}} em {{MATH_62}}, existe um ponto {{MATH_63}} em {{MATH_64}} tal que {{MATH_65}}, pois a função {{MATH_66}} satisfaz as hipóteses do teorema do valor médio em {{MATH_67}}.{{CMD_68}}\n{{CMD_69}}Pode haver algum {{MATH_70}} em {{MATH_71}} para o qual existe um ponto {{MATH_72}} em {{MATH_73}} tal que {{MATH_74}}, mas não necessariamente para todo {{MATH_75}} em {{MATH_76}}.{{CMD_77}}\n{{CMD_78}}Para cada {{MATH_79}} em {{MATH_80}}, não existe nenhum ponto {{MATH_81}} em {{MATH_82}} tal que {{MATH_83}}.{{CMD_84}}\n{{CMD_85}}\n{{CMD_86}}\nSuponha que saibamos que {{MATH_87}} para {{MATH_88}} em {{MATH_89}}. Pelo teorema do valor médio, para cada {{MATH_90}} em{{MATH_91}}, existe {{MATH_92}} em {{MATH_93}} tal que\n{{MATH_94}}\n{{CMD_95}}\nLembre-se de que supusemos {{MATH_96}} para cada {{MATH_97}} em {{MATH_98}}. Use sua resposta acima para limitar {{MATH_99}}, para {{MATH_100}} em {{MATH_101}}, por cima e por baixo.\n{{MATH_102}}\n{{CMD_103}}\nUse as cotas {{MATH_104}}, para {{MATH_105}} em {{MATH_106}}, que você calculou no item anterior para aproximar {{MATH_107}} por cima e por baixo.\n{{MATH_108}}\n{{CMD_109}}\nSeja {{MATH_110}} a aproximação linear de {{MATH_111}} em {{MATH_112}} que você calculou antes. Usamos {{MATH_113}} para aproximar {{MATH_114}} e descobrimos que {{MATH_115}} é aproximadamente igual a {{MATH_116}}. Usando nossas respostas anteriores, podemos deduzir que essa aproximação de {{MATH_117}} é uma {{CMD_118}}{{CMD_119}}estimativa por excesso{{CMD_120}}{{CMD_121}}estimativa por falta{{CMD_122}}{{CMD_123}}.\n{{CMD_124}}\n{{CMD_125}}\n{{CMD_126}}\n{{CMD_127}}\n{{CMD_128}}\n{{CMD_129}}\n{{CMD_130}}\n{{CMD_131}}\n{{CMD_132}}\n{{CMD_133}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations1.tex",
+  "ordem": 0,
+  "hash": "414c1cf8f7d4c680055a9d721b69951dc3a3cd9d57489fd46517c0e40fe77ea1",
+  "traducao": "Considere a equação {{MATH_1}}.  Escolha a equação da reta que representa a aproximação linear de {{MATH_2}} em {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}{{MATH_6}}{{CMD_7}}\n{{CMD_8}}{{MATH_9}}{{CMD_10}}\n{{CMD_11}}{{MATH_12}}{{CMD_13}}\n{{CMD_14}}{{MATH_15}}{{CMD_16}}\n{{CMD_17}}Tal reta não existe.{{CMD_18}}\n{{CMD_19}}Nenhuma das respostas anteriores está correta.{{CMD_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations1.tex",
+  "ordem": 1,
+  "hash": "be5a4d38f9e9d1db90a9a6bcddc85c228c04f257d990c228235c475e89550733",
+  "traducao": "Use sua resposta para estimar o valor de {{MATH_22}}.\n{{MATH_23}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations1.tex",
+  "ordem": 2,
+  "hash": "d0493386fde952ce93ba96203408083b9719f4551ff949180f1b00801a270cf5",
+  "traducao": "Essa é uma\n{{CMD_24}}{{CMD_25}}estimativa por falta{{CMD_26}}{{CMD_27}}estimativa por excesso{{CMD_28}}{{CMD_29}}\nporque o gráfico de {{MATH_30}} é {{CMD_31}}{{CMD_32}}côncavo para cima{{CMD_33}}{{CMD_34}}côncavo para baixo{{CMD_35}}{{CMD_36}}\nno intervalo {{MATH_37}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations2.tex",
+  "ordem": 0,
+  "hash": "ea5fd44fbd28a0171e097ff897f720f734413fe1e5f44c02330427f23ca0f9ed",
+  "traducao": "Considere a equação {{MATH_1}}.  Selecione a equação da reta que representa a aproximação linear de {{MATH_2}} em {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}{{MATH_6}}{{CMD_7}}\n{{CMD_8}}{{MATH_9}}{{CMD_10}}\n{{CMD_11}}{{MATH_12}}{{CMD_13}}\n{{CMD_14}}{{MATH_15}}{{CMD_16}}\n{{CMD_17}}Tal reta não existe.{{CMD_18}}\n{{CMD_19}}Nenhuma das respostas anteriores está correta.{{CMD_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations2.tex",
+  "ordem": 1,
+  "hash": "be5a4d38f9e9d1db90a9a6bcddc85c228c04f257d990c228235c475e89550733",
+  "traducao": "Use sua resposta para estimar o valor de {{MATH_22}}.\n{{MATH_23}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations2.tex",
+  "ordem": 2,
+  "hash": "d0493386fde952ce93ba96203408083b9719f4551ff949180f1b00801a270cf5",
+  "traducao": "Essa é uma\n{{CMD_24}}{{CMD_25}}estimativa por falta{{CMD_26}}{{CMD_27}}estimativa por excesso{{CMD_28}}{{CMD_29}}\nporque o gráfico de {{MATH_30}} é {{CMD_31}}{{CMD_32}}côncavo para cima{{CMD_33}}{{CMD_34}}côncavo para baixo{{CMD_35}}{{CMD_36}}\nno intervalo {{MATH_37}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 0,
+  "hash": "0f50d69eb71c642ce7a7c378e21a9bb2072fa72942f1cf35e15a6de23eb43e75",
+  "traducao": "Considere a função {{MATH_1}}.  O gráfico abaixo é uma tentativa de representar {{MATH_2}} e a aproximação linear de {{MATH_3}} em {{MATH_4}}. O gráfico está correto?\n{{CMD_5}}\n{{CMD_6}}Sim{{CMD_7}}\n{{CMD_8}}Não{{CMD_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 1,
+  "hash": "8f10af0d8b416332fff267be347672abf3d7c1a1d6bbce991e97e6e14275217a",
+  "traducao": "A aproximação linear de {{MATH_11}} em {{MATH_12}} é\n{{MATH_13}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 2,
+  "hash": "eeb4255bec103a3cf52a40e357452de0c2f2b6fcf788ecf0bc362df970db109d",
+  "traducao": "Usando essa aproximação linear, podemos estimar que o valor de {{MATH_14}} é cerca de\n{{MATH_15}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 3,
+  "hash": "cf0d194d6b9333ccf53053655b8a8abba32514c05a4b00a32964bf34324f0525",
+  "traducao": "Essa aproximação é uma {{CMD_16}}{{CMD_17}}estimativa por excesso{{CMD_18}}{{CMD_19}}estimativa por falta{{CMD_20}}{{CMD_21}} porque {{MATH_22}} é côncava para {{CMD_23}}{{CMD_24}}cima{{CMD_25}}{{CMD_26}}baixo{{CMD_27}}{{CMD_28}} e o gráfico de {{MATH_29}} fica {{CMD_30}}{{CMD_31}}acima{{CMD_32}}{{CMD_33}}abaixo{{CMD_34}}{{CMD_35}} do gráfico de {{MATH_36}} perto de {{MATH_37}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 4,
+  "hash": "c0e84f17390699b55822fba293b876acad01f1cf1dac20509ddf749816590ad1",
+  "traducao": "O erro percentual, EP, de uma aproximação é dado por\n{{MATH_38}}\nonde o valor exato é dado por uma calculadora.  Neste caso, nosso erro percentual EP (arredondado ao ponto percentual mais próximo) ao aproximar {{MATH_39}} é\n{{MATH_40}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 5,
+  "hash": "a84749e64dc3494c45d9f2e18b8c9f8800949844d8a1e55b518099a628bf1500",
+  "traducao": "Quando {{MATH_41}} varia de {{MATH_42}} até {{MATH_43}}, a variação em {{MATH_44}} é\n{{MATH_45}}\nAgora, neste caso, a variação {{CMD_46}}aproximada{{CMD_47}} em {{MATH_48}} é\n{{MATH_49}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 6,
+  "hash": "8ad09662199dc861fbcdb9130d489007d4c9cff2a9372af7e9df18714104b9a6",
+  "traducao": "A figura abaixo mostra o gráfico de {{MATH_50}} junto com a aproximação linear de {{MATH_51}} em {{MATH_52}}.  Nesse diagrama há quantidades rotuladas {{MATH_53}}, {{MATH_54}}, {{MATH_55}}, {{MATH_56}} e {{MATH_57}}.  Identifique-as corretamente abaixo."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 7,
+  "hash": "adb7063db1089b235b3a10e4978487ace1e53c83721b5946b4815e44f9b7230d",
+  "traducao": "Escolha a expressão correta para {{MATH_58}}\n{{CMD_59}}\n{{CMD_60}}{{MATH_61}}{{CMD_62}}\n{{CMD_63}}{{MATH_64}}{{CMD_65}}\n{{CMD_66}}{{MATH_67}}{{CMD_68}}\n{{CMD_69}}{{MATH_70}}{{CMD_71}}\n{{CMD_72}}{{MATH_73}}{{CMD_74}}\n{{CMD_75}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 8,
+  "hash": "136524b10f1ca91e1bc06010e1053ee9b1479d80a8174b42931e8de3e773398e",
+  "traducao": "Escolha a expressão correta para {{MATH_76}}\n{{CMD_77}}\n{{CMD_78}}{{MATH_79}}{{CMD_80}}\n{{CMD_81}}{{MATH_82}}{{CMD_83}}\n{{CMD_84}}{{MATH_85}}{{CMD_86}}\n{{CMD_87}}{{MATH_88}}{{CMD_89}}\n{{CMD_90}}{{MATH_91}}{{CMD_92}}\n{{CMD_93}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 9,
+  "hash": "ce614fb4835dbc08f2490391e1ee63709a27ae7bca0b5e8feffd7c751d811a08",
+  "traducao": "Escolha a expressão correta para {{MATH_94}}\n{{CMD_95}}\n{{CMD_96}}{{MATH_97}}{{CMD_98}}\n{{CMD_99}}{{MATH_100}}{{CMD_101}}\n{{CMD_102}}{{MATH_103}}{{CMD_104}}\n{{CMD_105}}{{MATH_106}}{{CMD_107}}\n{{CMD_108}}{{MATH_109}}{{CMD_110}}\n{{CMD_111}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 10,
+  "hash": "193bb98a3bc6d4561610515fcbb9a894fc36e7e224e8ffee4c9a0afb2381eaaa",
+  "traducao": "Escolha a expressão correta para {{MATH_112}}\n{{CMD_113}}\n{{CMD_114}}{{MATH_115}}{{CMD_116}}\n{{CMD_117}}{{MATH_118}}{{CMD_119}}\n{{CMD_120}}{{MATH_121}}{{CMD_122}}\n{{CMD_123}}{{MATH_124}}{{CMD_125}}\n{{CMD_126}}{{MATH_127}}{{CMD_128}}\n{{CMD_129}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations3.tex",
+  "ordem": 11,
+  "hash": "cea787b004292381add684783509b5e31db74fa02efa79556eeebbeb43a219c1",
+  "traducao": "Escolha a expressão correta para {{MATH_130}}\n{{CMD_131}}\n{{CMD_132}}{{MATH_133}}{{CMD_134}}\n{{CMD_135}}{{MATH_136}}{{CMD_137}}\n{{CMD_138}}{{MATH_139}}{{CMD_140}}\n{{CMD_141}}{{MATH_142}}{{CMD_143}}\n{{CMD_144}}{{MATH_145}}{{CMD_146}}\n{{CMD_147}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations4.tex",
+  "ordem": 0,
+  "hash": "e3346bbf32d57dc53135d265a610f0d6987741d74d363221fab81fe40eb77a16",
+  "traducao": "Considere a função {{MATH_1}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations4.tex",
+  "ordem": 1,
+  "hash": "96dc370bf44465448ab091ff9b5fb40c24af3ff1c25f84fd12ab0825d693e067",
+  "traducao": "A aproximação linear de {{MATH_2}} em {{MATH_3}} é\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations4.tex",
+  "ordem": 2,
+  "hash": "2b4457b72ab56fad2791ffbdd346be97c5d6bac4679ba458965e4092e54884f7",
+  "traducao": "Usando essa aproximação linear, aproxime o valor de {{MATH_5}}.\n{{CMD_6}}\nTemos que expressar {{MATH_7}} como {{MATH_8}}, para algum valor de {{MATH_9}}.\n{{CMD_10}}\n{{CMD_11}}\nSegue que {{MATH_12}}.\n{{CMD_13}}\n{{CMD_14}}\nSegue que {{MATH_15}}.\n{{CMD_16}}\n{{MATH_17}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations4.tex",
+  "ordem": 3,
+  "hash": "fbe48bba2443f86025a235f082eb5829a0198deeefd7ff196ca8cd7dd2207dbb",
+  "traducao": "Essa é uma\n{{CMD_18}}{{CMD_19}}estimativa por falta{{CMD_20}}{{CMD_21}}estimativa por excesso{{CMD_22}}{{CMD_23}}\nporque o gráfico de {{MATH_24}} é {{CMD_25}}{{CMD_26}}côncavo para cima{{CMD_27}}{{CMD_28}}côncavo para baixo{{CMD_29}}{{CMD_30}}\nno intervalo {{MATH_31}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations5.tex",
+  "ordem": 0,
+  "hash": "4fc2aa177ccf81df84e8d25e47d6f7c8edb7d5b340a9316c8cfedd8bdb5460f8",
+  "traducao": "Considere a função {{MATH_1}} cujo gráfico está abaixo."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations5.tex",
+  "ordem": 1,
+  "hash": "641487803cf56dee9d34bc4abef6b12ed07ab2d4e3d6d2a7ab75b1b3d0178d4e",
+  "traducao": "Seja {{MATH_2}} a aproximação linear de {{MATH_3}} em {{MATH_4}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations5.tex",
+  "ordem": 2,
+  "hash": "ee139cedd0ba4052ad6002c2473c5cbe13706b8dbb5e4f2f27183cb22f668e07",
+  "traducao": "Selecione todas as afirmações corretas abaixo.\n{{CMD_5}}\n{{CMD_6}}{{MATH_7}}{{CMD_8}}\n{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}{{MATH_13}}{{CMD_14}}\n{{CMD_15}}{{MATH_16}}{{CMD_17}}\n{{CMD_18}}Nenhuma das respostas acima está correta.{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations6.tex",
+  "ordem": 0,
+  "hash": "e3346bbf32d57dc53135d265a610f0d6987741d74d363221fab81fe40eb77a16",
+  "traducao": "Considere a função {{MATH_1}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations6.tex",
+  "ordem": 1,
+  "hash": "08b703a1530aff279e705495565018dff711422e5cbf54bdbf7455a281af271a",
+  "traducao": "Na figura abaixo estão representados o gráfico de {{MATH_2}}, a reta secante entre {{MATH_3}} e {{MATH_4}} e a aproximação linear de {{MATH_5}} em {{MATH_6}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations6.tex",
+  "ordem": 2,
+  "hash": "3c24c2602783ca0c146927f7a1b35487374db1af06444adb1a07be69de6a1f1a",
+  "traducao": "A inclinação da reta secante representada é\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations6.tex",
+  "ordem": 3,
+  "hash": "d1e49cd1ccc640b6fa6b76ddbc7e525b95da89b3588bf3210827d2ea94b3718f",
+  "traducao": "A aproximação linear {{MATH_8}} de {{MATH_9}} em {{MATH_10}} é\n{{MATH_11}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations6.tex",
+  "ordem": 4,
+  "hash": "3b4c98e0ac55edc78e9ef7a6892de9548059e7b315429dd34ca111bc5298a619",
+  "traducao": "Usando essa aproximação linear, podemos estimar {{MATH_12}} em {{MATH_13}} como\n{{MATH_14}}\nEssa estimativa é uma {{CMD_15}}{{CMD_16}}estimativa por falta{{CMD_17}}{{CMD_18}}estimativa por excesso{{CMD_19}}{{CMD_20}} porque a segunda derivada de {{MATH_21}} é {{CMD_22}}{{CMD_23}}negativa{{CMD_24}}{{CMD_25}}positiva{{CMD_26}}{{CMD_27}} no intervalo {{MATH_28}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations6.tex",
+  "ordem": 5,
+  "hash": "61083a739c80c2d621e25f50bae26029a1b7a80c0b545c92c0989d8e386f6323",
+  "traducao": "Quando {{MATH_29}} varia de {{MATH_30}} até {{MATH_31}}, {{MATH_32}} varia em {{MATH_33}} (arredondado até a casa dos milésimos), dado por\n{{MATH_34}}\nTambém podemos estimar essa variação em {{MATH_35}} por {{MATH_36}}, dado por\n{{MATH_37}}\nVemos que nossa aproximação da variação em {{MATH_38}} está muito próxima da variação verdadeira."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations7.tex",
+  "ordem": 0,
+  "hash": "3248b70eadfd644bc8933dedc444341e86c17b265c7229a7c7315d2551a24570",
+  "traducao": "O número total de pessoas {{MATH_1}} que contraíram um resfriado comum até o instante {{MATH_2}} dias após o início do surto em uma ilha é dado por\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations7.tex",
+  "ordem": 1,
+  "hash": "c4effef0d6018e0ad793e861ab0013888ec42e520395aa036bdf5bbf4b90740e",
+  "traducao": "Podemos expressar a relação entre uma pequena variação em {{MATH_4}} e a variação correspondente em {{MATH_5}} na forma {{MATH_6}}, o que nos dá\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations7.tex",
+  "ordem": 2,
+  "hash": "d78431322acfbe3a512c12a6ed13b7b1887d7c9b34ced3ca3edf49150b9095f6",
+  "traducao": "Supondo que 45 dias tenham se passado desde o início do surto, usamos a fórmula acima para estimar o número de pessoas (arredondado para a unidade mais próxima) que ficarão doentes no dia seguinte. Esse número é aproximadamente {{MATH_8}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/LinearApproximations7.tex",
+  "ordem": 3,
+  "hash": "c3f1ef6c713dc3f29e1932724ff9c0b471240679dbf984fbe0e73d484eb30b43",
+  "traducao": "Supondo que 100 dias tenham se passado desde o início do surto, usamos a fórmula acima para estimar o número de pessoas (arredondado para a unidade mais próxima) que ficarão doentes no dia seguinte. Esse número é aproximadamente {{MATH_9}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/Q8AU14TH.tex",
+  "ordem": 0,
+  "hash": "2985f1ad7d90310bb56da6a79d656900fad927c8368105a79ebe32d9635a729b",
+  "traducao": "O número total de pessoas, {{MATH_1}}, que contraíram um resfriado comum até o instante {{MATH_2}} dias após o início do surto em uma ilha é dado por\n{{MATH_3}}\n{{CMD_4}}\nExpresse a relação entre uma pequena variação em {{MATH_5}} e a variação correspondente em {{MATH_6}} na forma {{MATH_7}}.\n{{MATH_8}}\n{{CMD_9}}\nSuponha que {{MATH_10}} dias tenham se passado desde o surto. Use sua resposta para estimar o número de pessoas que ficarão doentes no dia seguinte (arredonde sua resposta para o inteiro mais próximo): {{MATH_11}}\n{{CMD_12}}\nSuponha que {{MATH_13}} dias tenham se passado desde o surto. Use o primeiro item para estimar o número de pessoas que ficarão doentes no dia seguinte (arredonde sua resposta para o inteiro mais próximo): {{MATH_14}}\n{{CMD_15}}\nDetermine a função {{MATH_16}} cujo gráfico é tangente a {{MATH_17}} em {{MATH_18}}.\n{{MATH_19}}\n{{CMD_20}}\nDetermine a função {{MATH_21}} cujo gráfico é tangente a {{MATH_22}} em {{MATH_23}}.\n{{MATH_24}}\n{{CMD_25}}\n{{CMD_26}}\n{{CMD_27}}\n{{CMD_28}}\n{{CMD_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation1.tex",
+  "ordem": 0,
+  "hash": "ae4b6abbd382cc0ad318cf5004e27dc2f22ebff2dd26c020d08190402a5ad7df",
+  "traducao": "Aproxime {{MATH_1}} à mão usando a ideia de aproximação linear (de uma função e de um ponto base convenientemente escolhidos).  Usando a segunda derivada, explique se essa é uma estimativa por falta ou uma estimativa por excesso.\n{{CMD_2}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation1.tex",
+  "ordem": 1,
+  "hash": "58e922f3c2c81eca8a6360c3898985b0e19989d85333de9b71c1723cfc6c51c4",
+  "traducao": "O número que você precisa aproximar deve ser expresso como"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation1.tex",
+  "ordem": 2,
+  "hash": "2d61fd5d0be880227d43a56daf17c91a313458bcc90edb770a77f87f75cc2e30",
+  "traducao": " Se {{MATH_3}} para {{MATH_4}}, então devemos usar {{MATH_5}}. Isto é, estamos tentando aproximar {{MATH_6}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation1.tex",
+  "ordem": 3,
+  "hash": "def608a9de30672294043cc0b6b338a6a5b5da5399a1d7a46d74ea909aae2531",
+  "traducao": "Agora você vai aproximar  {{MATH_7}} usando {{MATH_8}}, a aproximação linear de {{MATH_9}} em {{MATH_10}}.\nEm outras palavras, {{MATH_11}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation1.tex",
+  "ordem": 4,
+  "hash": "3c06e453e250d189fe956262cdbec02a9d288b39d1e5933533f67f3318221bb1",
+  "traducao": "Você precisa escolher o número \"base\" {{MATH_12}} de modo que {{MATH_13}} esteja perto de {{MATH_14}} e de modo que você consiga calcular com facilidade e exatidão os valores {{MATH_15}} e {{MATH_16}}. Esses dois valores são necessários quando calculamos a expressão de {{MATH_17}}. Você consegue pensar em um número perto de {{MATH_18}} cuja raiz quadrada você sabe calcular?\n{{CMD_19}}\n{{CMD_20}}\nA melhor escolha para {{MATH_21}} é {{MATH_22}}. Qualquer outro número para o qual seja fácil calcular {{MATH_23}} está mais longe de {{MATH_24}}.\nAgora temos que calcular {{MATH_25}} e {{MATH_26}}.\n{{CMD_27}}\n\t{{MATH_28}}\n\t{{CMD_29}}\n\t{{CMD_30}}\n\t{{MATH_31}}\n\t{{CMD_32}}\n\t{{CMD_33}}\n\t{{MATH_34}}\n\t{{CMD_35}}\n{{CMD_36}}\n{{CMD_37}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation1.tex",
+  "ordem": 5,
+  "hash": "e45869829fb6d182a9e171a54d34b454c7b012c76361a3fe6fe1a151d40463a8",
+  "traducao": "Em seguida, temos que encontrar uma expressão para {{MATH_38}}.\n{{CMD_39}}\n\t{{MATH_40}}\n\t{{CMD_41}}\n\n{{CMD_42}}\n{{CMD_43}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation1.tex",
+  "ordem": 6,
+  "hash": "8279edcfd127e886d294e5dceff4b8a4949aabb58f3f708e079935686f4f8d94",
+  "traducao": "Agora, temos que calcular {{MATH_44}}.\n{{CMD_45}}\n\t{{MATH_46}}\n\t{{CMD_47}}\n\n{{CMD_48}}\n{{CMD_49}}\n\t{{MATH_50}}\nEssa é uma estimativa por falta ou uma estimativa por excesso?\n{{CMD_51}}\n {{CMD_52}}\n{{COMMENT_53}}\n{{ENV_54}}\n{{COMMENT_55}}\n{{COMMENT_56}}\n{{COMMENT_57}}\n{{CMD_58}}\n{{CMD_59}}\n{{CMD_60}}\nLembre-se: {{MATH_61}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation1.tex",
+  "ordem": 7,
+  "hash": "34a8bcb770a102d4cf6fafb50696fca0395f406e9f695aa18823a24a17ac4d6f",
+  "traducao": "Como {{MATH_62}} em {{MATH_63}}, o gráfico de {{MATH_64}} é côncavo para baixo nesse intervalo. {{COMMENT_65}}\n[Observação: sabemos que {{MATH_66}} em todo o intervalo {{MATH_67}}, mas só a parte em {{MATH_68}} importa para determinar se temos uma estimativa por falta ou uma estimativa por excesso.]"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation1.tex",
+  "ordem": 8,
+  "hash": "73cde54ea45958c3847b35fc74be15a38bf5ed0b86d04ae04988234c0b027829",
+  "traducao": "Isso significa que {{MATH_69}}.\n{{CMD_70}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation1.tex",
+  "ordem": 9,
+  "hash": "c7f104251f0a5bbb90079edb817efe7e90182e951ff9988c9bb89f11a81c5c5c",
+  "traducao": "Essa é uma\n {{CMD_71}}{{CMD_72}}estimativa por falta{{CMD_73}}{{CMD_74}}estimativa por excesso{{CMD_75}}{{CMD_76}}\nporque o gráfico de {{MATH_77}} é {{CMD_78}}{{CMD_79}}côncavo para cima{{CMD_80}}{{CMD_81}}côncavo para baixo{{CMD_82}}{{CMD_83}}\nno intervalo {{MATH_84}}.\n{{CMD_85}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation4.tex",
+  "ordem": 0,
+  "hash": "36af91ca839e7a85b3850acd0371da6afba36fd4c514923073bc6f7d04ea6bae",
+  "traducao": "Aproxime {{MATH_1}} à mão usando a ideia de aproximação\nlinear (de uma função e de um ponto base convenientemente escolhidos).\n{{CMD_2}}\nSejam {{MATH_3}} e {{MATH_4}}.\n{{CMD_5}}\n{{CMD_6}}\nCalcule.\n {{MATH_7}},\n {{MATH_8}},\n  {{MATH_9}}.\n{{CMD_10}}\n{{CMD_11}}\nEncontre uma expressão para {{MATH_12}}, a aproximação linear de {{MATH_13}} em {{MATH_14}}.\n{{CMD_15}}\n{{CMD_16}}\n {{MATH_17}}\n{{CMD_18}}\n{{CMD_19}}\n {{MATH_20}}\n{{CMD_21}}\n{{CMD_22}}\nAproxime.\n {{MATH_23}}\n{{CMD_24}}\n{{CMD_25}}\n\t{{MATH_26}}\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximation4.tex",
+  "ordem": 1,
+  "hash": "f6f81efade1219b709efe8d10d41b1ea248514c4733a90744f47cb08cf084e0e",
+  "traducao": "Essa é uma\n{{CMD_28}}{{CMD_29}}estimativa por falta{{CMD_30}}{{CMD_31}}estimativa por excesso{{CMD_32}}{{CMD_33}}\nporque o gráfico de {{MATH_34}} é {{CMD_35}}{{CMD_36}}côncavo para cima{{CMD_37}}{{CMD_38}}côncavo para baixo{{CMD_39}}{{CMD_40}}\nno intervalo {{MATH_41}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationBasic1.tex",
+  "ordem": 0,
+  "hash": "45dbac6788eabc955b7107141ae8f130faab8310e74c9c85a7e2505a75f97923",
+  "traducao": "Se {{MATH_1}} e {{MATH_2}}, então aproxime {{MATH_3}} usando a\naproximação linear de {{MATH_4}} em {{MATH_5}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationBasic3.tex",
+  "ordem": 0,
+  "hash": "80b7a657ead0394d17b3b93d8f0b45d1ab214ad23bef20e78a11d66b89d712c5",
+  "traducao": "Se {{MATH_1}} e {{MATH_2}}, então qual é a equação da reta\ntangente a {{MATH_3}} em {{MATH_4}}?  Qual é a aproximação linear de {{MATH_5}}?"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationBasic3.tex",
+  "ordem": 1,
+  "hash": "e538ca062c1593581950d4a13f4239e97320801f76488b250846fb938b20a075",
+  "traducao": "Equação da reta tangente a {{MATH_6}} em {{MATH_7}}:\n {{MATH_8}}\nA aproximação linear, {{MATH_9}}, de {{MATH_10}} em {{MATH_11}};\n{{ENV_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationCreative2.tex",
+  "ordem": 0,
+  "hash": "1eaf9089969adaa44a3601125600d0c01438e2036d1f0fbbe9cda8b7755bf3f9",
+  "traducao": "Na teoria da relatividade de Einstein, podemos deduzir que"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationCreative2.tex",
+  "ordem": 1,
+  "hash": "a4ef9e1bf230e9bab8307916d86096a442cae5fe3089dcd53e37394dfe92fa33",
+  "traducao": "em que {{MATH_1}} é a energia de um objeto com ``massa de repouso'' {{MATH_2}} e velocidade {{MATH_3}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationCreative2.tex",
+  "ordem": 2,
+  "hash": "fc857f5c286a76b548d6094f3f1e2920124e3425635c103fae00d462cbd315fa",
+  "traducao": "Vamos analisar isso mais de perto."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationCreative2.tex",
+  "ordem": 3,
+  "hash": "b925f0a702aabb86bc34f8e0bab183739884fcfd0f419f7ec8b5d3a93b545fc4",
+  "traducao": "Primeiro, determine a aproximação linear da função {{MATH_4}} em {{MATH_5}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationCreative2.tex",
+  "ordem": 4,
+  "hash": "dfd3cf799b96361c1867a8dc6bee6252ddd22c972e94bb2be4e1acd6a2fff3b7",
+  "traducao": "Usando essa aproximação e substituindo {{MATH_6}}, podemos obter uma aproximação para {{MATH_7}} que é válida para velocidades {{MATH_8}} pequenas."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationCreative2.tex",
+  "ordem": 5,
+  "hash": "157e77b027d4c9ed8e91654c4611281b31d642660c1ad9599b72ffb916c4468d",
+  "traducao": "A aproximação que você obtiver deve ter dois termos.  Um deles é o famoso {{MATH_9}} (que representa a energia de repouso) e o outro deve ser a energia cinética clássica do objeto."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationCreative2.tex",
+  "ordem": 6,
+  "hash": "3f57d50241de60654f5a5485c2668feed97e86d10db6491fa9357b30fce3c04e",
+  "traducao": "\tA linearização local de {{MATH_10}} em {{MATH_11}} é {{MATH_12}}."
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationCreative2.tex",
+  "ordem": 7,
+  "hash": "77cc0c621ef04f947e3f5aa3143ec59f4b21741efc961c97c1612bdabd6a2118",
+  "traducao": "\tAssim, obtemos que {{MATH_13}}.\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationWord1.tex",
+  "ordem": 0,
+  "hash": "66f03f3082cb7f92c30850df59933715fe713c7c68838d82a2b8fc8beb7c0d9d",
+  "traducao": "Medimos que o comprimento da aresta de um cubo é {{MATH_1}}.\nNo entanto, nossa régua só nos permite uma precisão de {{MATH_2}}.  Use diferenciais para estimar o erro potencial na\nárea da superfície que resulta desse possível erro de medição.\n{{CMD_3}}\nA área da superfície do cubo, {{MATH_4}}, é uma função do comprimento da aresta {{MATH_5}}:\n{{MATH_6}}.\n{{CMD_7}}\n{{CMD_8}}\nTemos que calcular a diferencial de {{MATH_9}}  em {{MATH_10}}.\n{{MATH_11}}.\n{{CMD_12}}\n{{CMD_13}}\nPrimeiro, temos que calcular a derivada de {{MATH_14}}.\n{{MATH_15}}.\n{{CMD_16}}\n{{CMD_17}}\nAgora  calculamos a diferencial de {{MATH_18}}  em {{MATH_19}}.\n{{MATH_20}}.\n{{CMD_21}}\n{{CMD_22}}\nTemos que determinar {{MATH_23}}.\n{{MATH_24}}.\n{{CMD_25}}\n{{CMD_26}}\nO erro potencial quando calculamos a área da superfície com base na medição do comprimento da aresta  é então dado por\n{{MATH_27}}.\n{{CMD_28}}\n{{CMD_29}}\n\tO erro potencial é {{MATH_30}}\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationWord2.tex",
+  "ordem": 0,
+  "hash": "9c02b1b27010bd3c8f513cda30118cfa4eec17e1b16a1e5afb2c1938707c5892",
+  "traducao": "  Medimos o raio de um disco como {{MATH_1}}.  No entanto, nossa\n  régua só nos permite uma precisão de {{MATH_2}}.  Use\n  diferenciais para estimar o erro potencial na área que\n  resulta desse possível erro de medição.\n{{CMD_3}}\nEstamos considerando a função {{MATH_4}}, em que {{MATH_5}}.\n{{CMD_6}}\n{{CMD_7}}\n {{MATH_8}}\n{{CMD_9}}\n    {{ENV_10}}\n  {{CMD_11}}\n{{CMD_12}}\n{{CMD_13}}\n{{MATH_14}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationWord2.tex",
+  "ordem": 1,
+  "hash": "0fc9475276ae08150dcede3ba7f90057cbba83ad52ccad6b90b1be0a7d8499f5",
+  "traducao": "Lembre-se: {{MATH_15}} cm {{MATH_16}} m\n{{CMD_17}}\n{{CMD_18}}\n  O erro potencial é {{MATH_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationWord3.tex",
+  "ordem": 0,
+  "hash": "73550cc1f92f163f6f8b97d86d71aff935d963330bfb687ad881b8bb196639df",
+  "traducao": "A energia cinética de um objeto em movimento é {{MATH_1}}.  Uma corredora de {{MATH_2}} está se movendo a {{MATH_3}}.  No entanto, seu velocímetro só tem precisão de {{MATH_4}}.  Qual é o erro potencial na energia cinética calculada, como resultado da imprecisão na medição da sua velocidade?"
+ },
+ {
+  "arquivo": "linearApproximation/exercises/linearApproximationWord3.tex",
+  "ordem": 1,
+  "hash": "b0842f82ddb984777db0110c9fe5d8247aed191f84903ad9b4b5151bda9bd656",
+  "traducao": "\tO erro potencial é {{MATH_5}}\n{{CMD_6}}"
+ }
+]

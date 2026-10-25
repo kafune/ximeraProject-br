@@ -1,0 +1,614 @@
+[
+ {
+  "arquivo": "indeterminateForms/titlePage.tex",
+  "ordem": 0,
+  "hash": "83c5eea1af6da41ea792b8cdfda8cc3fbd2f3352ac1a4f859d0c906e708dc035",
+  "traducao": "Formas (in)determinadas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "indeterminateForms/titlePage.tex",
+  "ordem": 1,
+  "hash": "8bc167ba335523cc0722852870e89a14ad8828047ae5decd6e970b00bcededda",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "indeterminateForms/titlePage.tex",
+  "ordem": 2,
+  "hash": "da5834334a48f932a15f506109a564b58e99ac969cc6f2fe2d10fc3e61fce4f3",
+  "traducao": " Compreender o que se entende por forma de um limite.\n{{CMD_4}} Calcular limites da forma zero sobre zero.\n{{CMD_5}} Calcular limites da forma número não nulo sobre zero.\n{{CMD_6}} Identificar formas determinadas e indeterminadas.\n{{CMD_7}} Distinguir formas determinadas de formas indeterminadas.\n{{CMD_8}} Discutir por que infinito não é um número.\n{{CMD_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "indeterminateForms/breakGround.tex",
+  "ordem": 0,
+  "hash": "f86979e4f49110eef61432e0266ede7c9df144bdbe4d6c9db7059a19273c48bc",
+  "traducao": "Poderia ser qualquer coisa?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos investigam a aritmética de números grandes\ne pequenos.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "indeterminateForms/breakGround.tex",
+  "ordem": 1,
+  "hash": "0f2aac58fcb16f42a8b27f76b3396277671806c8ba40497491979af0a2346f9b",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "indeterminateForms/breakGround.tex",
+  "ordem": 2,
+  "hash": "fc015d4255fbe565b743d5756670483d96e72c6fb75512b1dfab4399b53c2d2d",
+  "traducao": " Ei, Riley, lembra\n  {{MATH_7}}\n{{CMD_8}} É igual a {{MATH_9}}!\n{{CMD_10}} Mas aquela demonstração maluca com todos aqueles triângulos era mesmo\n  necessária? Quer dizer, é só substituir zero.\n  {{MATH_11}}\n  {{CMD_12}} Você ia dizer ``{{MATH_13}}'', certo?\n  {{CMD_14}} Sim, mas agora não tenho mais certeza de que isso estava certo.\n  {{CMD_15}} Dividir por zero geralmente é uma má ideia.\n  {{CMD_16}} Você tem razão. Nunca mais vou fazer isso! E não\n    conte a ninguém sobre esta conversa.\n  {{CMD_17}} Que conversa?\n  {{CMD_18}} Exatamente.\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "indeterminateForms/breakGround.tex",
+  "ordem": 3,
+  "hash": "5f4cc4039cf537e85729d1b3b056e63b1f5873deea606387a6d068f5238fe332",
+  "traducao": "  Considere a função\n  {{MATH_20}}\n  {{MATH_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "indeterminateForms/breakGround.tex",
+  "ordem": 4,
+  "hash": "8b88886e172d454140d164938df8e84e00032f257dabcf3d2d7833b4100c94c0",
+  "traducao": "  Considere a função\n  {{MATH_23}}\n  {{MATH_24}}\n{{CMD_25}}"
+ },
+ {
+  "arquivo": "indeterminateForms/breakGround.tex",
+  "ordem": 5,
+  "hash": "ad539079d7698ab3f0c8cadf1f68698d4fd25eece90f46fa473da8c57bdb5049",
+  "traducao": "  Considere a função\n  {{MATH_26}}\n  {{MATH_27}}\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 0,
+  "hash": "d5db842ea305331af5b4799eb0a813fc48d0a5561566c3518921cabe1f722a18",
+  "traducao": "Limites da forma zero sobre zero{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Queremos calcular limites aos quais as leis dos limites não se aplicam.\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 1,
+  "hash": "f309a4d1e070732a85c426a889d0110b2514281284a76b04cdc770212a468071",
+  "traducao": "Na seção anterior calculamos limites\nusando continuidade e as leis dos limites. E os limites que não podem ser\ncalculados diretamente por esses métodos? Considere o seguinte limite,\n{{MATH_6}}\nAqui\n{{MATH_7}}\ndiante disso, você pode pensar que o limite é um ou\nzero. {{CMD_8}}Calma lá{{CMD_9}}. Esse limite é de uma {{CMD_10}}forma\n  indeterminada{{CMD_11}}. O que isso quer dizer? Continue lendo, jovem matemático."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 2,
+  "hash": "d4e9504ea02b27fc6912c441b9cd6473917c31c3dfe29b959cbc55b358f7daa6",
+  "traducao": "  Dizemos que um limite\n  {{MATH_12}}\n  é da forma {{CMD_13}}{{CMD_14}}se\n  {{MATH_15}}\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 3,
+  "hash": "d9e680980350640c2e2d4f3833d069eec135aa3a316aabe1c40d0f776b2140be",
+  "traducao": "  Quais dos limites a seguir são da forma {{CMD_17}}?\n  {{CMD_18}}\n    {{CMD_19}}{{MATH_20}}{{CMD_21}}\n    {{CMD_22}}{{MATH_23}}{{CMD_24}}\n    {{CMD_25}}{{MATH_26}}{{CMD_27}}\n    {{CMD_28}}{{MATH_29}}{{CMD_30}}\n    {{CMD_31}}{{MATH_32}}{{CMD_33}}\n  {{CMD_34}}\n{{CMD_35}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 4,
+  "hash": "bd25016a6836c2bb464f8feb8cfa89107f3e4b94fda3cda7bf0b96d46ae69b46",
+  "traducao": "  O símbolo {{CMD_36}}{{CMD_37}}{{CMD_38}}não{{CMD_39}} é o número {{MATH_40}} dividido por\n  {{MATH_41}}. É apenas uma notação abreviada.  Ele significa que o limite {{MATH_42}} tem a propriedade de que\n  {{MATH_43}}\n  Ao escrever a forma de um limite, NUNCA escrevemos {{MATH_44}}.  É o {{MATH_45}} que torna essa afirmação matematicamente incorreta.  Em vez disso, escreva: {{MATH_46}} é da forma {{MATH_47}}\n{{CMD_48}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 5,
+  "hash": "cacfab52ab2fb0ec2968196483fc545bccae0a47967a4e2703fbb3d27e8f393e",
+  "traducao": "Para encontrar a forma de {{MATH_49}}, calcule os limites do numerador e do denominador SEPARADAMENTE. Não basta ``substituir {{MATH_50}}''. ``Substituir'' só pode ser feito depois que se percebe que a função é contínua."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 6,
+  "hash": "7c72e96880c09f1e606d011344df97cc18adff21d92454f9b11e02ecf884f50a",
+  "traducao": "Vamos terminar o exemplo com a função acima."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 7,
+  "hash": "3ea8ebda6a35c1daa49ce263b6999ca58963865923e671e0686c0b706af27d49",
+  "traducao": "  Calcule:\n  {{MATH_51}}\n  {{CMD_52}}\n\tPara encontrar a forma, observe que {{MATH_53}} e {{MATH_54}}. Isso significa\n  \tque nosso limite tem a forma {{CMD_55}}.\n  \tNo entanto, note que, se supusermos {{MATH_56}}, podemos escrever\n    {{MATH_57}}\n\n    {{CMD_58}}\n      {{ENV_59}}\n      {{CMD_60}}\n      {{ENV_61}}\n    {{CMD_62}}\n      Assim, ``nossa função'' é igual ao polinômio {{MATH_63}} em todo lugar, exceto em {{MATH_64}}. Portanto, para todos os valores de {{MATH_65}} próximos de {{MATH_66}}, ``nossa função'' é igual ao polinômio {{MATH_67}}!\n    Isso significa que\n    {{MATH_68}}\n    Mas agora precisamos calcular o limite de um polinômio,\n    {{MATH_69}}.\n\n     Logo\n    {{MATH_70}}\n  {{CMD_71}}\n{{CMD_72}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 8,
+  "hash": "54c37ed905f5d540c4d30bafe3fa55788d135832ce543aef1e4eacdc36079739",
+  "traducao": "Vamos considerar mais alguns exemplos da forma {{CMD_73}}."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 9,
+  "hash": "cd26c6f1c3ea5543fa6add381914c8930bc970084730685af504b38423a1628e",
+  "traducao": "  Calcule:\n  {{MATH_74}}\n  {{CMD_75}}\n    Primeiro, observe que\n    {{MATH_76}}\n    Logo, esse limite é da forma {{CMD_77}}. Novamente, não podemos aplicar a lei do quociente nem qualquer outra lei dos limites. Também não podemos usar continuidade. Afinal, ``nossa função'' não é contínua em {{MATH_78}}, pois não está definida\n    em {{MATH_79}}.\n\n    O que pode ser feito? Podemos tentar cancelar um fator que tende a {{MATH_80}} no numerador e no\n    denominador.  Como {{MATH_81}} é um fator que tende a {{MATH_82}} no\n    numerador, vamos ver se conseguimos fatorar um {{MATH_83}} no\n    denominador também.\n    {{ENV_84}}\n  {{CMD_85}}\n{{CMD_86}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 10,
+  "hash": "a179173eb54f16a62fad15fbe9319a9c4ae80d44b3a6fc9f70396122d53b96f7",
+  "traducao": "  Calcule:\n  {{MATH_87}}\n{{CMD_88}}\n  Encontramos a forma desse limite olhando separadamente para os limites do\n  numerador e do denominador. O limite do numerador é:\n  {{ENV_89}}\n  O limite do denominador é:\n  {{MATH_90}}\n  Nosso limite é, portanto, da forma {{CMD_91}}{{CMD_92}}e provavelmente\n  podemos fatorar um termo que tende a {{MATH_93}} tanto no numerador quanto no\n  denominador.\n  {{MATH_94}}\n  Olhando para o denominador, esperamos que esse\n  termo seja {{MATH_95}}.  Infelizmente, não é imediatamente óbvio como\n  fatorar um {{MATH_96}} no numerador. Então, devemos primeiro simplificar a fração composta\n  multiplicando-a por\n  {{MATH_97}}\n  isso nos permitirá cancelar imediatamente\n{{ENV_98}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 11,
+  "hash": "f8df04b78e3cc0346a963eb790f1d87d98b6db752a3c67811d6f50532dc44439",
+  "traducao": "Agora vamos expandir o numerador.  Observe que não queremos\nexpandir o denominador, porque já temos um {{MATH_99}}\nfatorado no denominador, e esse era o objetivo.\n{{MATH_100}}\n{{ENV_101}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 12,
+  "hash": "a63fe8caac36ad189825d8e35c3fb413d1000ec0a2f4284fe1d0c9e21f417afd",
+  "traducao": "Agora podemos ver que o limite de ``nossa função'' é igual ao limite de uma função racional {{MATH_102}}. Essa função racional é contínua em seu domínio e, portanto, em {{MATH_103}}.  Logo\n{{ENV_104}}\n{{CMD_105}}\n{{CMD_106}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 13,
+  "hash": "9f61d8aa7e8e9beeec98ac6371ce1558562dba3671ff98a2a9a7dac0fd38511b",
+  "traducao": "Vamos ver mais um exemplo."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 14,
+  "hash": "3ce2630e640daf8176cd4d473f630f903f46c3f3714e820d7263b0b16b27b62f",
+  "traducao": "  Calcule:\n  {{MATH_107}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 15,
+  "hash": "958611b68eb4bd8b0ee564874568158c7be6c723819db1da6e762636f601747c",
+  "traducao": "  Observe que\n  {{MATH_108}}\n  Nosso limite é, novamente, da forma {{CMD_109}}{{CMD_110}}e provavelmente\n  podemos fatorar um termo que tende a {{MATH_111}} tanto no numerador\n  quanto no denominador.  Olhando para o denominador, suspeitamos que\n  esse termo seja {{MATH_112}}.  Infelizmente, não é imediatamente óbvio\n  como fatorar um {{MATH_113}} no numerador.\n\n  Vamos usar uma técnica algébrica chamada {{CMD_114}}.  Essa técnica é útil quando você está tentando\n  simplificar uma expressão que se parece com\n  {{MATH_115}}\n  Ela tira proveito da regra da diferença de quadrados\n  {{MATH_116}}\n  No nosso caso, usaremos {{MATH_117}} e {{MATH_118}}.  Escreva\n  {{MATH_119}}\n  {{ENV_120}}\n{{CMD_121}}\n{{CMD_122}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 16,
+  "hash": "3df6b20a151c6238583a0a2df6122eeec246eb67f9c118686d0924b26fdd9e62",
+  "traducao": "Todos os exemplos desta seção são limites da forma {{CMD_123}}.\nQuando você encontrar um limite da forma {{CMD_124}}, deve tentar\nusar técnicas algébricas para chegar a uma função contínua\ncujo limite você consiga calcular."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 17,
+  "hash": "f8aafcb90180f3b5d584bfd51e2f1f723c063e053a4f5832c92f516a1f9b0463",
+  "traducao": "Observe que resolvemos vários exemplos de limites da forma\n{{CMD_125}}{{CMD_126}}e obtivemos respostas diferentes em cada um.  Isso nos mostra\nque saber apenas que a forma do limite é {{CMD_127}}{{CMD_128}}não é suficiente\npara calcular o limite. A moral da história é\n{{CMD_129}}\n  {{CMD_130}}Limites da forma {{CMD_131}}{{CMD_132}}podem assumir qualquer valor.{{CMD_133}}\n{{CMD_134}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 18,
+  "hash": "acfeea87ee5a6357ac6c1d93bcb04a242375263309addc823d22475ff07a8e1e",
+  "traducao": "Uma forma que não nos dá nenhuma informação sobre se o limite existe ou não e, caso o limite exista, nenhuma informação sobre o valor do limite, é\nchamada de {{CMD_135}}."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 19,
+  "hash": "331c35b1336328cc6b93679022105088d51e2ba2d531bde40c53117ceae26875",
+  "traducao": "Uma forma que dá informação sobre se o limite existe ou não e, caso exista, dá informação sobre o valor do limite, é chamada de\n{{CMD_136}}.\n{{CMD_137}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormZeroOverZero.tex",
+  "ordem": 20,
+  "hash": "6ead5637c727ece6b3f8a7790b5a0fb97198387bdfc4d28d970f38091be546e6",
+  "traducao": "Por fim, talvez você fique incomodado por termos introduzido uma forma, a saber\n{{CMD_138}}, só para acabar dizendo que ela não dá nenhuma informação sobre o\nvalor do limite. Mas é exatamente isso que torna as\nformas indeterminadas interessantes{{CMD_139}}~elas são um mistério!"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 0,
+  "hash": "dd2d0450b918c12e3b745e08658be3b6733f3690fe15626cc2bb6f98b8fdb815",
+  "traducao": "Limites da forma não nulo sobre zero{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  O que se pode dizer sobre limites que têm a forma não nulo sobre zero?\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 1,
+  "hash": "9132c88f7a8b5a450b8759ae69742afab560c16c61fecba04cc0d4c72c5e2531",
+  "traducao": "Vamos direto ao ponto:"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 2,
+  "hash": "66f45444697894cc775671008e310129d695ac13122778d2e7bbcc28138d3087",
+  "traducao": "  Dizemos que um limite\n  {{MATH_6}}\n  é da forma {{CMD_7}}{{CMD_8}}se\n  {{MATH_9}}\n  onde {{MATH_10}} é alguma constante não nula.\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 3,
+  "hash": "8aff7da03c3b5fa958ae55174fc36699bc42652c114facac66c51a4ca96dc7e3",
+  "traducao": "  Quais dos limites a seguir são da forma {{CMD_12}}?\n  {{CMD_13}}\n    {{CMD_14}}{{MATH_15}}{{CMD_16}}\n    {{CMD_17}}{{MATH_18}}{{CMD_19}}\n    {{CMD_20}}{{MATH_21}}{{CMD_22}}\n    {{CMD_23}}{{MATH_24}}{{CMD_25}}\n    {{CMD_26}}{{MATH_27}}{{CMD_28}}\n  {{CMD_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 4,
+  "hash": "07c9126dd60f04e63db0d94e84e6261dc458cecd710b50307075ba47a3f32efa",
+  "traducao": "Vamos ver o que acontece com limites da\nforma {{CMD_31}}."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 5,
+  "hash": "d3c247b58372f509850071c94fa7ec9f67e10def655d1a83310d49c40f38eb84",
+  "traducao": "Considere a função\n  {{MATH_32}}\n  Use uma tabela de valores para investigar {{MATH_33}}.\n  {{CMD_34}}\n    Preencha a tabela abaixo:\n    {{MATH_35}}\n    O que a tabela nos diz sobre\n    {{MATH_36}}\n    Parece que o limite não existe, pois a expressão\n    {{MATH_37}}\n    fica cada vez maior à medida que {{MATH_38}} se aproxima de {{MATH_39}}.\n        Como\n    {{MATH_40}}\n\ttemos que\n    {{MATH_41}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 6,
+  "hash": "2a552484eadce8bab26cf3f19c0381c5a8c0fc2c943e66801859a820ad667df9",
+  "traducao": "    Além disso, à medida que {{MATH_42}} se aproxima de {{MATH_43}}:\n    {{CMD_44}}\n    {{CMD_45}} O numerador é positivo.\n    {{CMD_46}} O denominador se aproxima de zero e é positivo.\n    {{CMD_47}}\n    Logo, a expressão\n    {{MATH_48}}\n    ficará arbitrariamente grande à medida que {{MATH_49}} se aproxima de {{MATH_50}}.  Podemos ver isso\n    no gráfico de {{MATH_51}}.\n    {{CMD_52}}\n      {{ENV_53}}\n    {{CMD_54}}\n  {{CMD_55}}\n{{CMD_56}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 7,
+  "hash": "a74f6e1acbc8c917f35973b257f5e9c678998d8b1f8bd93130a7811f30e596d5",
+  "traducao": "Agora estamos prontos para nossa próxima definição."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 8,
+  "hash": "a9bf569c410e66ffef851498b1385ca73f0ce7f2a1b713d5da2e011ba60cff9e",
+  "traducao": "Se {{MATH_57}} cresce arbitrariamente à medida que {{MATH_58}} se aproxima de {{MATH_59}}, escrevemos\n{{MATH_60}}\ne dizemos que o limite de {{MATH_61}} é {{CMD_62}} quando {{MATH_63}}\ntende a {{MATH_64}}.{{CMD_65}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 9,
+  "hash": "0fb5c698ba4d5f75f13daf65344f45a3d91c3df1fa0f4b77adc3edd08700475a",
+  "traducao": "Se {{MATH_66}} cresce arbitrariamente à medida que {{MATH_67}} se aproxima de {{MATH_68}} e {{MATH_69}} é\nnegativa, escrevemos\n{{MATH_70}}\ne dizemos que o limite de {{MATH_71}} é {{CMD_72}} menos infinito{{CMD_73}}\nquando {{MATH_74}} tende a {{MATH_75}}.\n{{CMD_76}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 10,
+  "hash": "aaf04372c630a325617d14f59489a47ed9d935511cbb2ee470fdbfd3b2d466ef",
+  "traducao": "Observação: dizer que \"o limite é igual a infinito\" não significa que o limite existe.\nIsso apenas nos permite descrever com mais precisão o comportamento da função {{MATH_77}} perto de {{MATH_78}} do que dizer \"o limite não existe\".{{CMD_79}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 11,
+  "hash": "e3ab9cc023252ec4896fc596b75907d37062b81a2bd74f87deed691b18650551",
+  "traducao": "Vamos considerar mais alguns exemplos."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 12,
+  "hash": "f31ce9024cc9ea9009ee3ab542a42738ff23e8a75fb307966af26d5968b55480",
+  "traducao": "  Calcule:\n  {{MATH_80}}\n  {{CMD_81}}\n    Primeiro, vamos olhar para a forma desse limite. Fazemos isso calculando separadamente os limites do numerador e do denominador:\n    {{MATH_82}}\n    Portanto, esse limite é da forma {{CMD_83}}. Essa forma é {{CMD_84}}determinada{{CMD_85}}, pois implica que o limite não existe.{{CMD_86}}\n    Mas podemos fazer melhor do que isso!\n     À medida que {{MATH_87}} se aproxima de {{MATH_88}}:\n    {{CMD_89}}\n    {{CMD_90}} O numerador é um número {{CMD_91}}{{CMD_92}}positivo{{CMD_93}}{{CMD_94}}negativo{{CMD_95}}{{CMD_96}}.\n    {{CMD_97}} O denominador é {{CMD_98}}{{CMD_99}}positivo{{CMD_100}}{{CMD_101}}negativo{{CMD_102}}{{CMD_103}} e está se aproximando de zero.\n    {{CMD_104}}\n    Isso significa que\n    {{MATH_105}}\n\n  {{CMD_106}}\n{{CMD_107}}\nNeste exemplo, quando dizemos ``À medida que {{MATH_108}} se aproxima de {{MATH_109}}'', não queremos dizer que estamos verificando um único valor de {{MATH_110}}. Queremos dizer TODOS os valores de {{MATH_111}} que estão suficientemente próximos de {{MATH_112}}. Verificar um único valor não é suficiente para justificar se o numerador será positivo ou negativo para todos os valores de {{MATH_113}} suficientemente próximos de {{MATH_114}}. Montar um quadro de sinais ou traçar o gráfico do numerador pode ajudar nessa determinação."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 13,
+  "hash": "7a3857535ca1cf380b5c022b975c5fb0534f4e9abb8ef702fe4846b17d393845",
+  "traducao": "  Calcule:\n  {{MATH_115}}\n  {{CMD_116}}\n    Primeiro, vamos olhar para a forma desse limite, o que fazemos calculando separadamente os limites do numerador e do denominador.\n    {{MATH_117}}\n    Esse limite é da forma {{CMD_118}}. Em seguida, devemos fatorar o numerador e o denominador para ver se conseguimos simplificar um pouco o problema.\n    {{ENV_119}}\n    Cancelar um fator {{MATH_120}} no numerador e no denominador\n    significa que podemos verificar mais facilmente o comportamento desse limite.  À medida que {{MATH_121}}\n    se aproxima de {{MATH_122}} pela direita:\n    {{CMD_123}}\n    {{CMD_124}} O numerador é um número {{CMD_125}}{{CMD_126}}positivo{{CMD_127}}{{CMD_128}}negativo{{CMD_129}}{{CMD_130}}.\n    {{CMD_131}} O denominador é {{CMD_132}}{{CMD_133}}positivo{{CMD_134}}{{CMD_135}}negativo{{CMD_136}}{{CMD_137}} e está se aproximando de zero.\n    {{CMD_138}}\n    Isso significa que\n    {{MATH_139}}\n   {{CMD_140}}\n{{CMD_141}}\nNovamente, para determinar se o numerador será positivo ou negativo para todo {{MATH_142}} suficientemente próximo de {{MATH_143}}, mas maior do que ele, não podemos substituir um único valor de {{MATH_144}}. (Mesmo substituir {{MATH_145}} não seria suficiente para justificar nosso resultado."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 14,
+  "hash": "147f5fa8fa49d53ff45f15155972dd16fa5ff8c90b97800123abb70e6c7c8eeb",
+  "traducao": ") Temos de verificar o sinal para TODOS os valores de {{MATH_146}} que estão suficientemente próximos de {{MATH_147}}, mas são maiores do que ele."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 15,
+  "hash": "c462b406571cbea39dbd6207f5a9cd05105740c4d1a0282e758456f6147b7f8b",
+  "traducao": "Aqui está nosso último exemplo."
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 16,
+  "hash": "23ba391bcee506c02e2bdd91c4983535d41c743df6982ce8ed7fe5beb8938f46",
+  "traducao": "  Calcule:\n  {{MATH_148}}\n  {{CMD_149}}\n    Já consideramos parte deste exemplo, mas agora vamos considerar o limite bilateral. Já sabemos que\n    {{MATH_150}}\n    e que esse limite é da forma {{CMD_151}}.\n    Também sabemos que, à medida que {{MATH_152}} se aproxima de {{MATH_153}} pela direita,\n    {{CMD_154}}\n    {{CMD_155}} O numerador é um número negativo.\n    {{CMD_156}} O denominador é positivo e está se aproximando de zero.\n    {{CMD_157}}\n    Logo, nossa função se aproxima de {{MATH_158}} pela direita.\n\n    À medida que {{MATH_159}} se aproxima de {{MATH_160}} pela esquerda,\n    {{CMD_161}}\n    {{CMD_162}} O numerador é negativo.\n    {{CMD_163}} O denominador é negativo e está se aproximando de zero.\n    {{CMD_164}}\n    Logo, nossa função se aproxima de {{MATH_165}} pela esquerda.\n    Isso significa que\n    {{MATH_166}}\n    {{CMD_167}}\n     Podemos confirmar os resultados dos dois exemplos anteriores olhando para o gráfico de {{MATH_168}}:\n     {{MATH_169}}\n   {{CMD_170}}\n  {{CMD_171}}\n{{CMD_172}}"
+ },
+ {
+  "arquivo": "indeterminateForms/digInLimitsOfTheFormNonZeroOverZero.tex",
+  "ordem": 17,
+  "hash": "7dce9cc7de0b0801ac39ef02577b1ac95abb3811bc3c37eaedf164a6f6ccbcf7",
+  "traducao": "Algumas pessoas acham que os matemáticos estão caindo no misticismo\nquando falamos de infinito e menos infinito. No entanto, quando escrevemos\n{{MATH_173}}\ntudo o que queremos dizer é que, à medida que {{MATH_174}} se aproxima de {{MATH_175}}, {{MATH_176}} fica arbitrariamente\ngrande e {{MATH_177}} fica arbitrariamente grande, com {{MATH_178}} assumindo\nvalores negativos. Estamos usando {{MATH_179}} para indicar direções, e não um valor específico.\n{{CMD_180}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/Q1SP17.tex",
+  "ordem": 0,
+  "hash": "264f0ca04bd19de1dcb92e0961c8b9ad949388191c9e91f993730c4b606314bb",
+  "traducao": "Seja {{MATH_1}} e seja {{MATH_2}}."
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/Q1SP17.tex",
+  "ordem": 1,
+  "hash": "2922a363d7b82f3b3ef8a8f5b7754268b68b9fde7d622de3b6eaf30fab1c6515",
+  "traducao": "Indique a forma do limite.\n{{MATH_3}}\nO limite é da forma {{CMD_4}}{{CMD_5}}não nulo sobre zero{{CMD_6}} {{CMD_7}}zero sobre zero{{CMD_8}}{{CMD_9}}.\n{{CMD_10}}\nMultiplique o numerador e o denominador dessa fração pelo conjugado de {{MATH_11}}. Então, para todo {{MATH_12}},\n{{MATH_13}}\n{{CMD_14}}\nUse essa fórmula ``simplificada'' para {{MATH_15}} para calcular o limite:\n{{MATH_16}}\n{{CMD_17}}\n{{CMD_18}}\n{{CMD_19}}\n{{CMD_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/compoundFractionLimit1.tex",
+  "ordem": 0,
+  "hash": "3cf7e8080e6332ae4aae97b1bff95461b5f7decc76f04ade1d59c991367b0a3b",
+  "traducao": "Multiplique por {{MATH_1}}.\n{{CMD_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/compoundFractionLimit3.tex",
+  "ordem": 0,
+  "hash": "3cf7e8080e6332ae4aae97b1bff95461b5f7decc76f04ade1d59c991367b0a3b",
+  "traducao": "Multiplique por {{MATH_1}}.\n{{CMD_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero1.tex",
+  "ordem": 0,
+  "hash": "3aa4fa7f58cf6342b4ca1c46f959d3757209016248512b9157edf479823fbc9f",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}}.{{CMD_3}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero1.tex",
+  "ordem": 1,
+  "hash": "1a020a1b1c2cd9c68b52fbfded2d9181409f35c94b9837b6217fb871364e0494",
+  "traducao": "Escolha a afirmação correta a respeito da forma do limite e calcule o limite. As respostas possíveis incluem um número, {{MATH_4}}, {{MATH_5}} e {{MATH_6}}."
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero1.tex",
+  "ordem": 2,
+  "hash": "2a12f2a88a352ced6c31ae4a4053403e90f0a62bc1c5dd5f42f035887c2fe23f",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_7}}\n{{CMD_8}}O limite é de forma determinada.{{CMD_9}}\n{{CMD_10}}O limite é de forma indeterminada.{{CMD_11}}\n{{CMD_12}}O limite é da forma {{MATH_13}}.{{CMD_14}}\n{{CMD_15}}O limite é da forma {{MATH_16}}.{{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero1.tex",
+  "ordem": 3,
+  "hash": "139e94f2cf607c44a4b3540c297bc69ff0754fa9eaeabbb05b0d2702f5615b11",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_19}}\n{{CMD_20}}O limite é de forma determinada.{{CMD_21}}\n{{CMD_22}}O limite é de forma indeterminada.{{CMD_23}}\n{{CMD_24}}O limite é da forma {{MATH_25}}.{{CMD_26}}\n{{CMD_27}}O limite é da forma {{MATH_28}}.{{CMD_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero1.tex",
+  "ordem": 4,
+  "hash": "7f34677dc42cb1536d241a9f88f4a3a3ba79ed42c41a7e09f240dd5c21597189",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_31}}\n{{CMD_32}}O limite é de forma determinada.{{CMD_33}}\n{{CMD_34}}O limite é de forma indeterminada.{{CMD_35}}\n{{CMD_36}}O limite é da forma {{MATH_37}}.{{CMD_38}}\n{{CMD_39}}O limite é da forma {{MATH_40}}.{{CMD_41}}\n{{CMD_42}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero1.tex",
+  "ordem": 5,
+  "hash": "de67f01e34d9ef44cd2ee6f167af08872df674860c3baed118f99a7508d688ee",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_43}}\n{{CMD_44}}O limite é de forma determinada.{{CMD_45}}\n{{CMD_46}}O limite é de forma indeterminada.{{CMD_47}}\n{{CMD_48}}O limite é da forma {{MATH_49}}.{{CMD_50}}\n{{CMD_51}}O limite é da forma {{MATH_52}}.{{CMD_53}}\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero1.tex",
+  "ordem": 6,
+  "hash": "1929cc736dadf62d165f2e3300947a7bda63fd78b08b682e13b6a090bd2d0eb2",
+  "traducao": "Sejam {{MATH_55}} e {{MATH_56}}.{{CMD_57}}{{CMD_58}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero1.tex",
+  "ordem": 7,
+  "hash": "cda22753faba372af993bdfc51382800555aa156fbdd6f57e32553fcc97389a8",
+  "traducao": " Calcule o limite.\n{{MATH_59}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero1.tex",
+  "ordem": 8,
+  "hash": "8813a7652ab3f03748ce47d8e1e19d3615a5b612635a167c813eba0288ea4c49",
+  "traducao": " Escolha todas as afirmações corretas a respeito da forma do limite.\n{{MATH_60}}\nEscolha todas as afirmações corretas.\n{{CMD_61}}\n{{CMD_62}}O limite é de forma determinada.{{CMD_63}}\n{{CMD_64}}O limite é de forma indeterminada.{{CMD_65}}\n{{CMD_66}}O limite é da forma {{MATH_67}}.{{CMD_68}}\n{{CMD_69}}O limite é da forma {{MATH_70}}.{{CMD_71}}\n{{CMD_72}}\n{{CMD_73}}{{CMD_74}}\n{{CMD_75}}\n{{CMD_76}}\n Calcule o limite. As respostas possíveis incluem um número, {{MATH_77}}, {{MATH_78}} e {{MATH_79}}.\n{{MATH_80}}\n Justifique sua resposta escolhendo a afirmação correta.\n {{CMD_81}}\n{{CMD_82}}O numerador é negativo e o denominador é positivo e está se aproximando de zero.{{CMD_83}}\n{{CMD_84}}O numerador é positivo e o denominador é positivo e está se aproximando de zero.{{CMD_85}}\n{{CMD_86}}O numerador é positivo e o denominador é negativo e está se aproximando de zero.{{CMD_87}}\n{{CMD_88}}O numerador é negativo e o denominador é negativo e está se aproximando de zero.{{CMD_89}}\n{{CMD_90}}\n{{CMD_91}}{{CMD_92}}\n{{CMD_93}}\n Calcule o limite. As respostas possíveis incluem um número, {{MATH_94}}, {{MATH_95}} e {{MATH_96}}."
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero1.tex",
+  "ordem": 9,
+  "hash": "73b4b4e881de3ad5898644d24939ce2c396ca3f874c33a1dfe920d9a9a187ad1",
+  "traducao": " Justifique sua resposta escolhendo a afirmação correta.\n  {{CMD_97}}\n{{CMD_98}}O numerador é negativo e o denominador é positivo e está se aproximando de zero.{{CMD_99}}\n{{CMD_100}}O numerador é positivo e o denominador é positivo e está se aproximando de zero.{{CMD_101}}\n{{CMD_102}}O numerador é positivo e o denominador é negativo e está se aproximando de zero.{{CMD_103}}\n{{CMD_104}}O numerador é negativo e o denominador é negativo e está se aproximando de zero.{{CMD_105}}\n{{CMD_106}}\n{{CMD_107}}{{CMD_108}}\n{{CMD_109}}\n  Calcule o limite. As respostas possíveis incluem um número, {{MATH_110}}, {{MATH_111}} e {{MATH_112}}.\n{{MATH_113}}\n Justifique sua resposta escolhendo a afirmação correta.\n  {{CMD_114}}\n{{CMD_115}}O limite pela esquerda não é igual ao limite pela direita.{{CMD_116}}\n{{CMD_117}}O limite pela esquerda é igual ao limite pela direita.{{CMD_118}}\n{{CMD_119}}\n{{CMD_120}}{{CMD_121}}\n{{CMD_122}}\n{{CMD_123}}\n{{CMD_124}}\n{{CMD_125}}\n{{CMD_126}}\n{{CMD_127}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero2.tex",
+  "ordem": 0,
+  "hash": "257081cc83be123b346a73a9854c5572153444d2197b2830fcea5639e28e72f8",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}}.{{CMD_3}}{{CMD_4}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero2.tex",
+  "ordem": 1,
+  "hash": "951f8af196feb41c802367b37b16dbe7673e18f7b1b5b4415e0750f3a29acfb3",
+  "traducao": " Calcule o limite.\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero2.tex",
+  "ordem": 2,
+  "hash": "6041a610085b35bca8bae3a04d6394aa46d1fb02e99375716c641cdaf9bd8952",
+  "traducao": " Escolha todas as afirmações corretas a respeito da forma do limite.\n{{MATH_6}}\nEscolha todas as afirmações corretas.\n{{CMD_7}}\n{{CMD_8}}O limite é de forma determinada.{{CMD_9}}\n{{CMD_10}}O limite é de forma indeterminada.{{CMD_11}}\n{{CMD_12}}O limite é da forma {{MATH_13}}.{{CMD_14}}\n{{CMD_15}}O limite é da forma {{MATH_16}}.{{CMD_17}}\n{{CMD_18}}\n{{CMD_19}}{{CMD_20}}\n{{CMD_21}}\n{{CMD_22}}\n Calcule o limite. As respostas possíveis incluem um número, {{MATH_23}}, {{MATH_24}} e {{MATH_25}}.\n{{MATH_26}}\n Justifique sua resposta escolhendo a afirmação correta.\n {{CMD_27}}\n{{CMD_28}}O numerador é negativo e o denominador é positivo e tende a zero.{{CMD_29}}\n{{CMD_30}}O numerador é positivo e o denominador é positivo e tende a zero.{{CMD_31}}\n{{CMD_32}}O numerador é positivo e o denominador é negativo e tende a zero.{{CMD_33}}\n{{CMD_34}}O numerador é negativo e o denominador é negativo e tende a zero.{{CMD_35}}\n{{CMD_36}}\n{{CMD_37}}{{CMD_38}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero3.tex",
+  "ordem": 0,
+  "hash": "bea6602154518bdfef2301756c9ec1d7b69348ed1ef49738dc5b9e474bb9f0af",
+  "traducao": "Escolha a afirmação correta a respeito da forma do limite."
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero3.tex",
+  "ordem": 1,
+  "hash": "f1e900051eb582951ae835b0e3e8141103607e38b124d921e23fc1860c1fe459",
+  "traducao": "O limite é de forma determinada.{{CMD_1}}\n{{CMD_2}}O limite é de forma indeterminada.{{CMD_3}}\n{{CMD_4}}O limite é da forma {{MATH_5}}.{{CMD_6}}\n{{CMD_7}}O limite é da forma {{MATH_8}}.{{CMD_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero3.tex",
+  "ordem": 2,
+  "hash": "aafd2c918937104463fbbc8bd41cc9859d9d537003bca6f3d4ccf6299ea74169",
+  "traducao": " Calcule o limite. As respostas possíveis incluem um número, {{MATH_11}}, {{MATH_12}} e {{MATH_13}}.\n{{MATH_14}}\n Justifique sua resposta escolhendo todas as afirmações corretas.\n {{CMD_15}}\n{{CMD_16}}O numerador é negativo e o denominador é positivo e tende a zero.{{CMD_17}}\n{{CMD_18}}O numerador é positivo e o denominador é positivo e tende a zero.{{CMD_19}}\n{{CMD_20}}O numerador é positivo e o denominador é negativo e tende a zero.{{CMD_21}}\n{{CMD_22}}O numerador é negativo e o denominador é negativo e tende a zero.{{CMD_23}}\n{{CMD_24}}\n{{CMD_25}}{{CMD_26}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero3.tex",
+  "ordem": 3,
+  "hash": "90bfd82dba7faa336e76cbf3e13f4feeeea2c1f5dd6a1b69e5502ab9f9052a62",
+  "traducao": " Calcule o limite. As respostas possíveis incluem um número, {{MATH_27}}, {{MATH_28}} e {{MATH_29}}.\n{{MATH_30}}\n Justifique sua resposta escolhendo todas as afirmações corretas.\n {{CMD_31}}\n{{CMD_32}}O numerador é negativo e o denominador é positivo e tende a zero.{{CMD_33}}\n{{CMD_34}}O numerador é positivo e o denominador é positivo e tende a zero.{{CMD_35}}\n{{CMD_36}}O numerador é positivo e o denominador é negativo e tende a zero.{{CMD_37}}\n{{CMD_38}}O numerador é negativo e o denominador é negativo e tende a zero.{{CMD_39}}\n{{CMD_40}}\n{{CMD_41}}{{CMD_42}}\n{{CMD_43}}\n Calcule o limite. As respostas possíveis incluem um número, {{MATH_44}}, {{MATH_45}} e {{MATH_46}}.\n{{MATH_47}}\n  Justifique sua resposta escolhendo a afirmação correta.\n  {{CMD_48}}\n{{CMD_49}}O limite à esquerda é diferente do limite à direita.{{CMD_50}}\n{{CMD_51}}O limite à esquerda é igual ao limite à direita.{{CMD_52}}\n{{CMD_53}}\n{{CMD_54}}{{CMD_55}}\n{{CMD_56}}\n{{CMD_57}}\n{{CMD_58}}\n{{CMD_59}}\n{{CMD_60}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero4.tex",
+  "ordem": 0,
+  "hash": "13f7e04a913d5671128b9fe34461bb2e3e599b3af261948c7b6c4241b9830f1e",
+  "traducao": "Escolha a afirmação correta a respeito da forma do limite.\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero4.tex",
+  "ordem": 1,
+  "hash": "4980da50f8d07dc56b04b829935afeefcaefe67639751d46457eaf0f275455e4",
+  "traducao": "O limite é de forma determinada.{{CMD_2}}\n{{CMD_3}}O limite é de forma indeterminada.{{CMD_4}}\n{{CMD_5}}O limite é da forma {{MATH_6}}.{{CMD_7}}\n{{CMD_8}}O limite é da forma {{MATH_9}}.{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero4.tex",
+  "ordem": 2,
+  "hash": "15e51759038b42fa3e145dbc4bc9f0b9501b00370f2415deee5830056bec5b0a",
+  "traducao": " Calcule o limite. As respostas possíveis incluem um número, {{MATH_12}}, {{MATH_13}} e {{MATH_14}}.\n{{MATH_15}}\n Justifique sua resposta escolhendo todas as afirmações corretas.\n {{CMD_16}}\n{{CMD_17}}O numerador é negativo e o denominador é positivo e tende a zero.{{CMD_18}}\n{{CMD_19}}O numerador é positivo e o denominador é positivo e tende a zero.{{CMD_20}}\n{{CMD_21}}O numerador é positivo e o denominador é negativo e tende a zero.{{CMD_22}}\n{{CMD_23}}O numerador é negativo e o denominador é negativo e tende a zero.{{CMD_24}}\n{{CMD_25}}\n{{CMD_26}}{{CMD_27}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/formNonzeroZero4.tex",
+  "ordem": 3,
+  "hash": "e1b5182bca2676aaa0668a3d06e6d5986fc978118f742cad8fc2de29bec74ebe",
+  "traducao": " Calcule o limite. As respostas possíveis incluem um número, {{MATH_28}}, {{MATH_29}} e {{MATH_30}}.\n{{MATH_31}}\n Justifique sua resposta escolhendo todas as afirmações corretas.\n {{CMD_32}}\n{{CMD_33}}O numerador é negativo e o denominador é positivo e tende a zero.{{CMD_34}}\n{{CMD_35}}O numerador é positivo e o denominador é positivo e tende a zero.{{CMD_36}}\n{{CMD_37}}O numerador é positivo e o denominador é negativo e tende a zero.{{CMD_38}}\n{{CMD_39}}O numerador é negativo e o denominador é negativo e tende a zero.{{CMD_40}}\n{{CMD_41}}\n{{CMD_42}}{{CMD_43}}\n{{CMD_44}}\n Calcule o limite. As respostas possíveis incluem um número, {{MATH_45}}, {{MATH_46}} e {{MATH_47}}.\n{{MATH_48}}\n  Justifique sua resposta escolhendo a afirmação correta.\n  {{CMD_49}}\n{{CMD_50}}O limite à esquerda é diferente do limite à direita.{{CMD_51}}\n{{CMD_52}}O limite à esquerda é igual ao limite à direita.{{CMD_53}}\n{{CMD_54}}\n{{CMD_55}}{{CMD_56}}\n{{CMD_57}}\n{{CMD_58}}\n{{CMD_59}}\n{{CMD_60}}\n{{CMD_61}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw1.tex",
+  "ordem": 0,
+  "hash": "49fd9daa326866e4c1a1f52962e081932b0f7f308ac4cb25e7759b5f79a6360b",
+  "traducao": "\tA tentativa de um estudante de calcular o limite {{MATH_1}} usando as leis dos limites está registrada abaixo.  Qual das alternativas a seguir descreve melhor o trabalho do estudante?\n\n\t{{ENV_2}}\n\n\t{{CMD_3}}\n\t\t{{CMD_4}}O trabalho está perfeito{{CMD_5}}\n\t\t{{CMD_6}}A resposta está correta, mas o estudante pulou alguns passos ou cometeu algum erro no caminho{{CMD_7}}\n\t\t{{CMD_8}}A resposta está incorreta{{CMD_9}}\n\t{{CMD_10}}\n\n\t{{CMD_11}}\n\t\tEmbora a resposta do estudante esteja correta, alguns passos intermediários foram pulados.   Uma solução completa teria incluído, por exemplo, uma aplicação da regra da soma e da regra da potência.\n\t{{CMD_12}}\n\n{{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw3.tex",
+  "ordem": 0,
+  "hash": "184e3d528f4d4cbc62c10415ce0db7bd32bc516e1815f841becc3fdbd6c415d1",
+  "traducao": "\tA tentativa de um estudante de calcular o limite {{MATH_1}} usando as leis dos limites está registrada abaixo.  De uma linha para a seguinte, apenas uma lei dos limites deve ser utilizada.  Qual das alternativas a seguir descreve melhor o trabalho do estudante?\n\n\t{{ENV_2}}\n\n\t{{CMD_3}}\n\t\t{{CMD_4}}O trabalho está perfeito{{CMD_5}}\n\t\t{{CMD_6}}A resposta está correta, mas o estudante pulou alguns passos ou cometeu algum erro no caminho{{CMD_7}}\n\t\t{{CMD_8}}A resposta está incorreta{{CMD_9}}\n\t{{CMD_10}}\n\n\t{{CMD_11}}\n\t\tNunca faz sentido que a variável do limite apareça na resposta de um limite.\n\t{{CMD_12}}\n\n{{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw6.tex",
+  "ordem": 0,
+  "hash": "66f5e99f3859c3108fece2b7b137e446b6e60e060fb45bc33d1bed8eb0fffb2b",
+  "traducao": "\tSabendo que {{MATH_1}} e {{MATH_2}}, calcule o limite a seguir:\n\n\t{{CMD_3}}\n\t\tUse a lei do limite do produto para determinar o valor de {{MATH_4}}, observando que {{MATH_5}}.\n\t{{CMD_6}}\n\n\t{{MATH_7}}\n\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw8.tex",
+  "ordem": 0,
+  "hash": "3aa4fa7f58cf6342b4ca1c46f959d3757209016248512b9157edf479823fbc9f",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}}.{{CMD_3}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw8.tex",
+  "ordem": 1,
+  "hash": "4f0e584e70601c0d1e270b1a1278088eecf6928026e5879e9a28942f4fc1bafd",
+  "traducao": "Para os limites a seguir, determine se a forma do limite é determinada ou indeterminada, identifique a forma do limite e calcule o valor do limite.  As respostas possíveis incluem um número, {{MATH_4}}, {{MATH_5}} e {{MATH_6}}."
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw8.tex",
+  "ordem": 2,
+  "hash": "bd0d7f0dcaac6c5d17091c1cf2a87fa00a6befb7b343ff61cb814def6cc20136",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_7}}\n{{CMD_8}}O limite é de forma determinada.{{CMD_9}}\n{{CMD_10}}O limite é de forma indeterminada.{{CMD_11}}\n{{CMD_12}}O limite é da forma {{MATH_13}}.{{CMD_14}}\n{{CMD_15}}O limite é da forma {{MATH_16}}.{{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw8.tex",
+  "ordem": 3,
+  "hash": "6def052586854c38e650a47b84b0feaa327dd44730cb95d9614e57c62685ff46",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_19}}\n{{CMD_20}}O limite é de forma determinada.{{CMD_21}}\n{{CMD_22}}O limite é de forma indeterminada.{{CMD_23}}\n{{CMD_24}}O limite é da forma {{MATH_25}}.{{CMD_26}}\n{{CMD_27}}O limite é da forma {{MATH_28}}.{{CMD_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw8.tex",
+  "ordem": 4,
+  "hash": "2a317012f1b332878970d1cceef8312f3ba44e3504d05d636f55aa5e8c536d6b",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_31}}\n{{CMD_32}}O limite é de forma determinada.{{CMD_33}}\n{{CMD_34}}O limite é de forma indeterminada.{{CMD_35}}\n{{CMD_36}}O limite é da forma {{MATH_37}}.{{CMD_38}}\n{{CMD_39}}O limite é da forma {{MATH_40}}.{{CMD_41}}\n{{CMD_42}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw8.tex",
+  "ordem": 5,
+  "hash": "25339d81f45c7516adbc1700207a25d319f4086f200e8ac6198f5cc4276c42b3",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_43}}\n{{CMD_44}}O limite é de forma determinada.{{CMD_45}}\n{{CMD_46}}O limite é de forma indeterminada.{{CMD_47}}\n{{CMD_48}}O limite é da forma {{MATH_49}}.{{CMD_50}}\n{{CMD_51}}O limite é da forma {{MATH_52}}.{{CMD_53}}\n{{CMD_54}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw8.tex",
+  "ordem": 6,
+  "hash": "89d77f0e0fedb2eaf10b369ffd855751c1e3001d4463ac3c4679de85c0d6cca9",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_55}}\n{{CMD_56}}O limite é de forma determinada.{{CMD_57}}\n{{CMD_58}}O limite é de forma indeterminada.{{CMD_59}}\n{{CMD_60}}O limite é da forma {{MATH_61}}.{{CMD_62}}\n{{CMD_63}}O limite é da forma {{MATH_64}}.{{CMD_65}}\n{{CMD_66}}\n{{CMD_67}}{{CMD_68}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw8.tex",
+  "ordem": 7,
+  "hash": "d522cb2b34a72b5f7562c114de96c76f91a156324973fdd178ec831573ae2917",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_69}}\n{{CMD_70}}O limite é de forma determinada.{{CMD_71}}\n{{CMD_72}}O limite é de forma indeterminada.{{CMD_73}}\n{{CMD_74}}O limite é da forma {{MATH_75}}.{{CMD_76}}\n{{CMD_77}}O limite é da forma {{MATH_78}}.{{CMD_79}}\n{{CMD_80}}\n{{CMD_81}}{{CMD_82}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLaw8.tex",
+  "ordem": 8,
+  "hash": "ccfb5640c53944d254db60ab70881aff9e10f9eccd740987bba822668ae75043",
+  "traducao": "Escolha todas as afirmações corretas.\n{{CMD_83}}\n{{CMD_84}}O limite é de forma determinada.{{CMD_85}}\n{{CMD_86}}O limite é de forma indeterminada.{{CMD_87}}\n{{CMD_88}}O limite é da forma {{MATH_89}}.{{CMD_90}}\n{{CMD_91}}O limite é da forma {{MATH_92}}.{{CMD_93}}\n{{CMD_94}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/limitLawNonZeroQuotient1.tex",
+  "ordem": 0,
+  "hash": "727756efe597c955d700ddf3720d37dde06fff9dd7f1da9eb8bac313cfd686fe",
+  "traducao": "Suponha que {{MATH_1}}, {{MATH_2}} e {{MATH_3}}. Calcule o limite"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/piecewiseLimits2.tex",
+  "ordem": 0,
+  "hash": "bcc44f3c3322212e4f89d5d2e3b653836ffe4e5811cce4d423797a2526b09c1c",
+  "traducao": "Seja\n{{MATH_1}}\nO limite {{MATH_2}} existe?  Se existir, dê seu valor.\nCaso contrário, escreva DNE.\n{{CMD_3}}\n{{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}\n\tObserve que, perto de {{MATH_7}}, a regra de {{MATH_8}} é {{MATH_9}}.\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/piecewiseLimits3.tex",
+  "ordem": 0,
+  "hash": "7da005d30acfb909fd7c23fc834377640798be8119310a32d22780f6a6a27927",
+  "traducao": "Seja\n{{MATH_1}}\nSe {{MATH_2}} existe, qual deve ser o valor de {{MATH_3}}?\n{{CMD_4}}\n  {{MATH_5}}\n{{CMD_6}}\n{{CMD_7}}\n  Calcule {{MATH_8}} e {{MATH_9}}. Igualando os dois, você conseguirá resolver para {{MATH_10}}.\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/piecewiseLimits4.tex",
+  "ordem": 0,
+  "hash": "6a36f23514306346bfb582ae13a32eb133fb6adc50f862c2adbf554630c49d04",
+  "traducao": "Seja {{MATH_1}}.  O limite existe?  Se existir,\ndê seu valor.  Caso contrário, escreva DNE."
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/piecewiseLimits4.tex",
+  "ordem": 1,
+  "hash": "179ac9316df611ca18c8337ab0bf71e0ac6f52df9e4bb99d398dd43864a14ae4",
+  "traducao": "  Perto de {{MATH_2}}, {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}\nSeja {{MATH_6}}.  O limite existe?  Se existir,\ndê seu valor.  Caso contrário, escreva DNE.\n{{MATH_7}}\n{{CMD_8}}\nSeja {{MATH_9}}.  O limite existe?  Se existir,\ndê seu valor.  Caso contrário, escreva DNE.\n{{MATH_10}}\n{{CMD_11}}\nSeja {{MATH_12}}.  O limite existe?  Se existir,\ndê seu valor.  Caso contrário, escreva DNE.\n{{MATH_13}}\n{{CMD_14}}\n{{CMD_15}}\n{{CMD_16}}\n{{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/quadraticLimit1.tex",
+  "ordem": 0,
+  "hash": "3499601083b52e98f1f55b18b106053401cc9499c4aca7617b73cf054f84c692",
+  "traducao": "Comece fatorando o numerador e veja se consegue simplificar a fração.\n{{CMD_1}}\n{{CMD_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/quadraticLimit11.tex",
+  "ordem": 0,
+  "hash": "9a0a95ce42e7ab14ca106276a0f1e95ff0869c979fde30d02fee59eadba09453",
+  "traducao": "Tente fatorar o numerador ou o denominador.\n{{CMD_1}}\n{{CMD_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/quadraticLimit12.tex",
+  "ordem": 0,
+  "hash": "9a0a95ce42e7ab14ca106276a0f1e95ff0869c979fde30d02fee59eadba09453",
+  "traducao": "Tente fatorar o numerador ou o denominador.\n{{CMD_1}}\n{{CMD_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/quadraticLimit3.tex",
+  "ordem": 0,
+  "hash": "9a0a95ce42e7ab14ca106276a0f1e95ff0869c979fde30d02fee59eadba09453",
+  "traducao": "Tente fatorar o numerador ou o denominador.\n{{CMD_1}}\n{{CMD_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/quadraticLimit9.tex",
+  "ordem": 0,
+  "hash": "9a0a95ce42e7ab14ca106276a0f1e95ff0869c979fde30d02fee59eadba09453",
+  "traducao": "Tente fatorar o numerador ou o denominador.\n{{CMD_1}}\n{{CMD_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/simpleDerivativeLimit1.tex",
+  "ordem": 0,
+  "hash": "9c6d2f666312e886114025e874a82b0c992c7b7748ecfc29aebf58870538ccc6",
+  "traducao": "Seja {{MATH_1}}. Calcule"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/simpleDerivativeLimit2.tex",
+  "ordem": 0,
+  "hash": "9c6d2f666312e886114025e874a82b0c992c7b7748ecfc29aebf58870538ccc6",
+  "traducao": "Seja {{MATH_1}}. Calcule"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/simpleDerivativeLimit6.tex",
+  "ordem": 0,
+  "hash": "9c6d2f666312e886114025e874a82b0c992c7b7748ecfc29aebf58870538ccc6",
+  "traducao": "Seja {{MATH_1}}. Calcule"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/sqrtLimit1.tex",
+  "ordem": 0,
+  "hash": "3cf7e8080e6332ae4aae97b1bff95461b5f7decc76f04ade1d59c991367b0a3b",
+  "traducao": "Multiplique por {{MATH_1}}.\n{{CMD_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/sqrtLimit11.tex",
+  "ordem": 0,
+  "hash": "3cf7e8080e6332ae4aae97b1bff95461b5f7decc76f04ade1d59c991367b0a3b",
+  "traducao": "Multiplique por {{MATH_1}}.\n{{CMD_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/sqrtLimit3.tex",
+  "ordem": 0,
+  "hash": "3cf7e8080e6332ae4aae97b1bff95461b5f7decc76f04ade1d59c991367b0a3b",
+  "traducao": "Multiplique por {{MATH_1}}.\n{{CMD_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "indeterminateForms/exercises/sqrtLimit8.tex",
+  "ordem": 0,
+  "hash": "3cf7e8080e6332ae4aae97b1bff95461b5f7decc76f04ade1d59c991367b0a3b",
+  "traducao": "Multiplique por {{MATH_1}}.\n{{CMD_2}}\n{{CMD_3}}\n{{CMD_4}}"
+ }
+]

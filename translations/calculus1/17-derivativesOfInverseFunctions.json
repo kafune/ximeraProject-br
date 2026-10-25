@@ -1,0 +1,542 @@
+[
+ {
+  "arquivo": "derivativesOfInverseFunctions/titlePage.tex",
+  "ordem": 0,
+  "hash": "5572bbc43b7c417f262f624f942ceebf155d97a724524d7cddbb18c99c72b47c",
+  "traducao": "Derivadas de funções inversas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/titlePage.tex",
+  "ordem": 2,
+  "hash": "f96c58770c82a9254ef3df09ea3189c11c2b4977912f83f8c871d9d28196fe5c",
+  "traducao": " Encontrar derivadas de funções inversas em geral.\n\t{{CMD_4}} Lembrar o significado e as propriedades das funções trigonométricas inversas.\n\t{{CMD_5}} Deduzir as derivadas das funções trigonométricas inversas.\n\t{{CMD_6}} Entender como a derivada de uma função inversa se relaciona com a derivada original.\n\t{{CMD_7}} Calcular derivadas que envolvem funções trigonométricas inversas.\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 0,
+  "hash": "8b7f49c0503df35dc716f11116fbdb7770c1d7052e26eb5b5f68462af36f16d7",
+  "traducao": "Podemos descobrir{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem a derivada de funções inversas.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 2,
+  "hash": "6366662b3bfd38dfa56b58a75f4af99b2e659067124be5e3dfbcecb7aa0f1c78",
+  "traducao": " Riley, tenho uma pergunta de cálculo.\n{{CMD_7}} Manda.\n{{CMD_8}} Qual é a derivada de {{MATH_9}}?\n{{CMD_10}} Hmmm{{CMD_11}} ainda não falamos sobre isso na nossa aula.\n{{CMD_12}} Eu sei! Mas talvez a gente consiga descobrir.\n{{CMD_13}} Bem,\n  {{MATH_14}}\n  e agora podemos usar a regra da cadeia para calcular a derivada\n  {{ENV_15}}\n{{CMD_16}} Mas isso está certo?\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 3,
+  "hash": "9e8c687689855555aca6005864cbee63fdc785de4a0ce9df1e4495677b5fd952",
+  "traducao": "Vamos ver se conseguimos descobrir se Devyn e Riley estão certos. Comece olhando para um gráfico de {{MATH_18}}:"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 4,
+  "hash": "a9398227d2dcbb7404ea953386d6693f646d77373d2d61e71cef66bcec6ce800",
+  "traducao": "  Seja {{MATH_19}}. Use o gráfico  para determinar o(s) intervalo(s) em que a função {{MATH_20}} é crescente.\n\nPelo gráfico, parece que a função {{MATH_21}} é crescente no intervalo\n  {{MATH_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 5,
+  "hash": "c5d3844d378a1f0b9be2c7d2e666856addd4e8e20c3131d7d4c4ec100632c7e3",
+  "traducao": "Por outro lado,"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 6,
+  "hash": "dee2d6d74132c4e7ebd75fa69c26b80d0c434b8ebe4a7bae0f1772e256d6b243",
+  "traducao": " Qual é o sinal de {{MATH_24}} no intervalo {{MATH_25}}?\n {{CMD_26}}\n   {{CMD_27}}\n\t{{CMD_28}}positivo{{CMD_29}}\n\t{{CMD_30}}negativo{{CMD_31}}\n   {{CMD_32}}\n {{CMD_33}}\n{{CMD_34}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 7,
+  "hash": "293e366656dd3efa5f0ff71c90f7430b92bdf56261a7fbb1f710d3f5debcb246",
+  "traducao": "Complete a frase abaixo:"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 8,
+  "hash": "8901b8e417badbc83416fa332dc802325a7d55f26beca0cd1ab25f4fa7f1afb3",
+  "traducao": " Como o sinal de {{MATH_35}} no intervalo {{MATH_36}} é\n {{CMD_37}}\n\t{{CMD_38}}positivo{{CMD_39}}\n\t{{CMD_40}}negativo{{CMD_41}}\n{{CMD_42}}\na função {{MATH_43}} deve ser\n{{CMD_44}}\n\t{{CMD_45}}crescente no intervalo {{MATH_46}}{{CMD_47}}\n\t{{CMD_48}}decrescente no intervalo {{MATH_49}}{{CMD_50}}\n{{CMD_51}}\n{{CMD_52}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 9,
+  "hash": "5d48674f51ac83538d91ef445036aa7c61f8b2bdaac84bc492800038228ae66c",
+  "traducao": "À luz dos problemas acima, é possível que\n{{MATH_53}}\n{{CMD_54}}\n\t{{CMD_55}}sim{{CMD_56}}\n\t{{CMD_57}}não{{CMD_58}}\n{{CMD_59}}\n{{CMD_60}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/breakGround.tex",
+  "ordem": 10,
+  "hash": "30692750471018ad82b5c3df352aec5b0498477e2a7ab5e86cb55db5f26022cc",
+  "traducao": "\tQuando nossos amigos escreveram {{MATH_61}}, o que eles acham que o ``{{MATH_62}}'' representa?  Eles estão certos?\n\t{{CMD_63}}\n\t\tRiley acha que podemos usar a regra da potência no {{MATH_64}}, o que nos diz que os estudantes estão usando {{MATH_65}} como expoente da função tangente.  No entanto, no caso de funções inversas como {{MATH_66}}, o {{MATH_67}} não é um expoente.\n\t{{CMD_68}}\n{{CMD_69}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 0,
+  "hash": "23eada495b5836275eda1fe0e4bbc62506bfa29b2d400d22b5fbee56cabfcd51",
+  "traducao": "Derivadas das funções trigonométricas inversas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Deduzimos as derivadas das funções trigonométricas inversas usando derivação\n  implícita.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 1,
+  "hash": "bb7bdeddbdf760dccc7d961b149ddaf4743f1068ea7c881b12c24004498911a7",
+  "traducao": "Agora vamos deduzir as derivadas do arco seno, do arco tangente e do\narco secante."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 2,
+  "hash": "9d012c3acf9f156b7e98035a14f3f545d21a5bbc287700c16308bdc4e6cbba45",
+  "traducao": "  Lembre-se de que\n  {{MATH_7}}\n  significa que {{MATH_8}} e {{MATH_9}}.\n  Derivando implicitamente em relação a {{MATH_10}}, vemos que\n  {{ENV_11}}\n  Embora {{MATH_12}}, precisamos da nossa resposta escrita\n  em termos de {{MATH_13}}. Como estamos supondo que\n  {{MATH_14}}\n  considere o seguinte triângulo junto com o círculo unitário:\n  {{CMD_15}}\n    {{ENV_16}}\n  {{CMD_17}}\n  A partir do círculo unitário acima, vemos que\n  {{ENV_18}}\n   Lembre-se de que {{MATH_19}} no intervalo {{MATH_20}}.{{CMD_21}}\n\n  Para sermos totalmente explícitos,\n  {{MATH_22}}\n\n{{CMD_23}}\n{{CMD_24}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 3,
+  "hash": "f35c34810d33f423dcf1e80110b67de8a7ea5f669af58aa25befe9c33679983e",
+  "traducao": "  Calcule:\n  {{MATH_25}}\n{{CMD_26}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 4,
+  "hash": "328216293caedf74f2ab8e65412e1cb2aa26814419f1181ce906754ccd3257c9",
+  "traducao": "Podemos fazer algo parecido com o arco tangente."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 5,
+  "hash": "1d53d465018623a4fb323fb9e4b87044eaf46850d46e516c6d26e9129e5d57d9",
+  "traducao": "     Para começar, observe que o Teorema da Função Inversa nos garante que essa\n     derivada de fato existe.\n    Lembre-se de que\n    {{MATH_27}}\n    significa que {{MATH_28}} e {{MATH_29}}.\n\n     Derivando\n    implicitamente em relação a {{MATH_30}}, obtemos que\n    {{ENV_31}}\n      Lembre-se da identidade trigonométrica:  {{MATH_32}}.{{CMD_33}}\n        {{ENV_34}}\n         Lembre-se de que, como vimos acima,  {{MATH_35}}.{{CMD_36}}\n          {{ENV_37}}\n  {{COMMENT_38}}\n    {{COMMENT_39}}\n   {{COMMENT_40}}\n   {{COMMENT_41}}\n   {{COMMENT_42}}\n   {{COMMENT_43}}\n    {{COMMENT_44}}\n     {{COMMENT_45}}\n      {{COMMENT_46}}\n        {{COMMENT_47}}\n       {{COMMENT_48}}\n       {{COMMENT_49}}\n        {{COMMENT_50}}\n\n\t{{COMMENT_51}}\n        {{COMMENT_52}}\n       {{COMMENT_53}}\n       {{COMMENT_54}}\n        {{COMMENT_55}}\n   {{COMMENT_56}}\n    {{COMMENT_57}}\n    {{COMMENT_58}}\n   {{COMMENT_59}}\n   {{COMMENT_60}}\n      {{COMMENT_61}}\n\t{{COMMENT_62}}\n           {{COMMENT_63}}\n            {{COMMENT_64}}\n            {{COMMENT_65}}\n            {{COMMENT_66}}\n           {{COMMENT_67}}\n           {{COMMENT_68}}\n            {{COMMENT_69}}\n           {{COMMENT_70}}\n           {{COMMENT_71}}\n        {{COMMENT_72}}\n         {{COMMENT_73}}\n          {{COMMENT_74}}\n          {{COMMENT_75}}\n          {{COMMENT_76}}\n          {{COMMENT_77}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 6,
+  "hash": "a8cb0993f67ea27444daf1c3de36a85e18a8ca64ec3a8d20ba040174de5fc0fb",
+  "traducao": "Para sermos totalmente explícitos,\n{{MATH_78}}\n{{CMD_79}}\n{{CMD_80}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 7,
+  "hash": "91976fe54ff2341f8d1df46afba4b1ce9e3be949e4d9bda916150489615732e7",
+  "traducao": "  Calcule:\n  {{MATH_81}}\n{{CMD_82}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 8,
+  "hash": "6d65d6a952844fefd90564693f1153fb4f95436ce867fa82be59920b5d60db9b",
+  "traducao": "Por fim, investigamos a derivada do arco secante."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 9,
+  "hash": "eea01900e445f130c984bcdb7449685073c73442e7a1234d3ddafc600d872720",
+  "traducao": "  Lembre-se de que\n{{MATH_83}}\nsignifica que {{MATH_84}} e {{MATH_85}} com {{MATH_86}}.  Derivando\nimplicitamente em relação a {{MATH_87}}, vemos que\n{{ENV_88}}\nEmbora {{MATH_89}}, precisamos da nossa\nresposta escrita em termos de {{MATH_90}}. Como estamos supondo que\n{{MATH_91}}\npodemos considerar o seguinte triângulo:\n    {{CMD_92}}\n      {{ENV_93}}\n    {{CMD_94}}\n    Agora podemos redimensionar esse triângulo por um fator de {{MATH_95}} para colocá-lo\n    no círculo unitário:\n{{CMD_96}}\n{{ENV_97}}\n{{CMD_98}}\nA partir do círculo unitário acima, vemos que\n{{ENV_99}}\nPara sermos totalmente explícitos,\n{{MATH_100}}\n{{CMD_101}}\n{{CMD_102}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 10,
+  "hash": "915231b4b00d62315a8c384b07a34644d41402eefbe0e54f76d58d93af6e785a",
+  "traducao": "  Calcule:\n  {{MATH_103}}\n{{CMD_104}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 11,
+  "hash": "68b474e6b1248b0d475dfe9b5e757a860277a3f4b2ec2105754a42ebaf531949",
+  "traducao": "Deixamos para você, leitor, a tarefa de investigar as derivadas do\narco cosseno, do arco cossecante e do arco cotangente. No entanto, em um gesto de\namizade, apresentamos agora uma lista de fórmulas de derivadas das\nfunções trigonométricas inversas."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 12,
+  "hash": "a30694b11234b7ecd8642064c1d60a6a67194c015d9c6cab6884ba291db3cb5f",
+  "traducao": " para {{MATH_105}}\n\t\t{{CMD_106}} {{MATH_107}} para {{MATH_108}}\n\t\t{{CMD_109}} {{MATH_110}}\n\t{{CMD_111}}\n{{CMD_112}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 13,
+  "hash": "82525ec76110929d1467dc5e7a1d7533dbb2386a235d6e597d272e58c6ba2e7d",
+  "traducao": "Vamos praticar um pouco o uso dessas novas fórmulas-atalho.\n{{CMD_113}}\n\tCalcule:\n\t{{MATH_114}}\n\n\t{{CMD_115}}\n\t\t{{MATH_116}}\n\t{{CMD_117}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 14,
+  "hash": "43ef278d9f7a4403383c456f60f671654d6c782968ac3cfed3a690a9f38dd26a",
+  "traducao": "\tCalcule:\n\t{{MATH_118}}\n\n\t{{CMD_119}}\n\t\t{{MATH_120}}\n\t{{CMD_121}}\n{{CMD_122}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 15,
+  "hash": "ba7ceb0d16d0446e4a83e8ec4950548d47c17d146dac97105825dd63aa4efc10",
+  "traducao": "\tCalcule:\n\t{{MATH_123}}\n\n\t{{CMD_124}}\n\t\t{{MATH_125}}\n\t{{CMD_126}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions.tex",
+  "ordem": 16,
+  "hash": "c7bcc18ddac2fc38ebd68a0edd097ca45c16b43a5ea0c20425fdd6d4399fee14",
+  "traducao": "\tCalcule:\n\t{{MATH_127}}\n\n\t{{CMD_128}}\n\t\t{{MATH_129}}\n\t{{CMD_130}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 0,
+  "hash": "9f659209ebdb23f9d6039e13ebc094a2f2e0c796ee6d4e0865ed5a2a74b001ba",
+  "traducao": "O teorema da função inversa{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Vemos o fundamento teórico por trás do cálculo da derivada de uma\n  função inversa em um ponto.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 1,
+  "hash": "565d186ab504eb8482b08d3d177903b379c79c1228212313f3f472242744e86f",
+  "traducao": "Há um porém em todas as explicações dadas acima, em que\ncalculamos derivadas de funções inversas. Para escrever algo como\n{{MATH_7}}\nprecisamos saber que a função {{MATH_8}} {{CMD_9}}tem{{CMD_10}} derivada.  O\n{{CMD_11}}Teorema da Função Inversa{{CMD_12}} garante isso."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 2,
+  "hash": "7028922556bab0e5fc2966461ff260c72f62a4aca02be1b76aaad35d0d532127",
+  "traducao": "\tSe {{MATH_13}} é uma função derivável que é injetora perto de {{MATH_14}} e {{MATH_15}}, então\n\t{{CMD_16}}\n\t\t{{CMD_17}} {{MATH_18}} está {{CMD_19}}definida{{CMD_20}} para {{MATH_21}} perto de {{MATH_22}},\n\t\t{{CMD_23}} {{MATH_24}} é {{CMD_25}}derivável{{CMD_26}} perto de {{MATH_27}},\n\t\t{{CMD_28}} e, por último, mas não menos importante:\n\t\t  {{MATH_29}}\n\t{{CMD_30}}\n\t{{CMD_31}}\n\t\t  Vamos explicar apenas o último resultado. Sabemos que\n\t\t  {{MATH_32}}\n\t\t  e agora usamos a regra da cadeia para escrever\n\t\t  {{ENV_33}}\n\t\t  Isolando {{MATH_34}}, vemos que\n\t\t  {{MATH_35}}\n\t\t  Isso é o que escrevemos acima.\n\t{{CMD_36}}\n{{CMD_37}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 3,
+  "hash": "66021260ca690b567002eed5919c2ce39ac1b4d0d53714c6139ee431da3c43c6",
+  "traducao": "Vale a pena dar mais uma evidência a favor da fórmula acima,\ndesta vez baseada em incrementos na função, {{MATH_38}}, e em incrementos na variável, {{MATH_39}}. Considere este gráfico de uma função {{MATH_40}} e de sua inversa:\n{{CMD_41}}\n{{ENV_42}}\n{{COMMENT_43}}\n{{COMMENT_44}}\n{{COMMENT_45}}\n{{CMD_46}}\nComo o gráfico da inversa de uma função é a reflexão do gráfico da função em relação à\nreta {{MATH_47}}, vemos que os incrementos são ``trocados'' na\nreflexão. Logo, vemos que\n{{MATH_48}}\nTomando o limite quando {{MATH_49}} tende a {{MATH_50}}, obtemos a expressão para a derivada de {{MATH_51}}. {{CMD_52}}\n{{MATH_53}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 4,
+  "hash": "87d23418058c4ef68404b53484bf9a6ae20be3c28e5258c127fa93ab36106346",
+  "traducao": "O teorema da função inversa nos dá uma receita para calcular as\nderivadas de inversas de funções em pontos."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 5,
+  "hash": "5afe159bd7184d89f3060ebca7fc8016a0ff58dce8fbc5defac2fdf5376d1f50",
+  "traducao": "  Seja {{MATH_54}} uma função derivável que tem inversa. Na\n  tabela abaixo, damos vários valores tanto de {{MATH_55}} quanto de {{MATH_56}}:\n  {{MATH_57}}\n  Calcule\n  {{MATH_58}}\n  {{CMD_59}}\n    Da tabela acima, vemos que\n    {{MATH_60}}\n    Logo, pelo teorema da função inversa,\n    {{MATH_61}}\n  {{CMD_62}}\n{{CMD_63}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 6,
+  "hash": "9e34649f66f6e8b12cd79dca2b9d55b23ad36b27092bfdb0cd3261086d77407d",
+  "traducao": "Se um exemplo é bom, três são melhores ainda:"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 7,
+  "hash": "5cf7bde37f6028eee913db5bcc7e0da86ee085ad907806ce1092665cd958544b",
+  "traducao": "  Seja {{MATH_64}} uma função derivável que tem inversa. Na\n  tabela abaixo, damos vários valores tanto de {{MATH_65}} quanto de {{MATH_66}}:\n  {{MATH_67}}\n  Calcule\n  {{MATH_68}}\n  {{CMD_69}}\n    Observe que\n    {{MATH_70}}\n    Da tabela acima, vemos que\n    {{MATH_71}}\n    Logo, pelo teorema da função inversa,\n    {{MATH_72}}\n  {{CMD_73}}\n{{CMD_74}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 8,
+  "hash": "78d0b479e0147413e84b3fcb5468972ea714f7d548026a40534282eada13ecd3",
+  "traducao": "\tA função {{MATH_75}} é injetora quando restrita ao intervalo {{MATH_76}}. Seja {{MATH_77}} a\n\tinversa dessa restrição. Determine uma equação da reta tangente ao gráfico de {{MATH_78}} no ponto {{MATH_79}}.\n\t{{CMD_80}}\n\t\tComo {{MATH_81}}, sabemos que {{MATH_82}} se refere a um ponto do gráfico de {{MATH_83}}. Para\n\t\tencontrar a inclinação da reta, precisamos calcular {{MATH_84}}.\n\n\t\tPelo teorema da função inversa, sabemos que:\n\t\t{{ENV_85}}\n\t\tComo {{MATH_86}}, isso dá {{MATH_87}}.\n\n\t\tUma equação da reta tangente pode ser dada por:\n\t\t{{MATH_88}}\n\t{{CMD_89}}\n{{CMD_90}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 9,
+  "hash": "0b9c851c4182186397a9c67bf3f3332163cf8692343d0ac8c1514b751e97bc14",
+  "traducao": "Por fim, vamos ver um exemplo em que o teorema não se aplica."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/digInInverseFunctionTheorem.tex",
+  "ordem": 10,
+  "hash": "47f2a2c6ccec13c51225399a2260b0705a4576589e44f7553ca47082fffaaf9f",
+  "traducao": "  Seja {{MATH_91}} uma função derivável que tem inversa. Na\n  tabela abaixo, damos vários valores tanto de {{MATH_92}} quanto de {{MATH_93}}:\n  {{MATH_94}}\n  Calcule\n  {{MATH_95}}\n  {{CMD_96}}\n    Da tabela acima, vemos que\n    {{MATH_97}}\n    Ah! Mas aqui, {{MATH_98}}, então não temos garantia de que a\n    inversa exista perto do ponto {{MATH_99}} e, mesmo que existisse, a inversa não seria derivável ali.\n      {{CMD_100}}\n{{CMD_101}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/10_06_ex_131-154.tex",
+  "ordem": 0,
+  "hash": "c06dd58f9409b7f6b59b0535ab23d70233d42140f1de4a7cffdfc7e3aa2ef9c0",
+  "traducao": "Determine o valor exato de cada expressão abaixo ou indique que ela não está definida escrevendo DNE.\n{{CMD_1}}\n{{CMD_2}}  {{MATH_3}}\n{{CMD_4}}  {{MATH_5}}\n{{CMD_6}}  {{MATH_7}}\n{{CMD_8}}  {{MATH_9}}\n{{CMD_10}}  {{MATH_11}}\n{{CMD_12}}  {{MATH_13}}\n{{CMD_14}}  {{MATH_15}}\n{{CMD_16}}  {{MATH_17}}\n{{CMD_18}}  {{MATH_19}}\n{{CMD_20}}  {{MATH_21}}\n{{CMD_22}}  {{MATH_23}}\n{{CMD_24}}  {{MATH_25}}\n{{CMD_26}}  {{MATH_27}}\n{{CMD_28}}  {{MATH_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesExpLog6.tex",
+  "ordem": 0,
+  "hash": "f37ff7e2113ac09ba2208b6017ce37523f97ccee58fc39a30e7377f1cd210075",
+  "traducao": "Seja {{MATH_1}}. Calcule\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction1.tex",
+  "ordem": 0,
+  "hash": "23744e3ef1deef47fbe149c269f5d9cae7c836f355cedc8277f7ec1b3b3020c5",
+  "traducao": "Com base na tabela de valores a seguir, calcule as quantidades indicadas:"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction1.tex",
+  "ordem": 1,
+  "hash": "25010f31c3a15a61a0c391ec9a59f9f6ab0b58a9785a3bd402986cd59a346910",
+  "traducao": " Preencha a lacuna: O ponto {{MATH_1}} está no gráfico de {{MATH_2}}."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction1.tex",
+  "ordem": 2,
+  "hash": "a9d88479272afd5b82e728e661e151fe409d336265cd02a8752979d1808ba35a",
+  "traducao": " Preencha a lacuna.\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction1.tex",
+  "ordem": 3,
+  "hash": "f1c489013504acd13b620e6a8918b70ec20bbe59345f731978844ed03470f232",
+  "traducao": " Determine o valor.\n{{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction2.tex",
+  "ordem": 0,
+  "hash": "23744e3ef1deef47fbe149c269f5d9cae7c836f355cedc8277f7ec1b3b3020c5",
+  "traducao": "Com base na tabela de valores a seguir, calcule as quantidades indicadas:"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction2.tex",
+  "ordem": 1,
+  "hash": "25010f31c3a15a61a0c391ec9a59f9f6ab0b58a9785a3bd402986cd59a346910",
+  "traducao": " Preencha a lacuna: O ponto {{MATH_1}} está no gráfico de {{MATH_2}}."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction2.tex",
+  "ordem": 2,
+  "hash": "eb3f4aef01ffb5aca0c70692770419d3d6c1a50a86f008ad642f160c951f63c2",
+  "traducao": " Seja {{MATH_3}}.\nEncontre a expressão de {{MATH_4}}.\n{{MATH_5}}\n{{CMD_6}} Seja {{MATH_7}}. Preencha as lacunas.\n{{MATH_8}}\n{{CMD_9}}  Seja {{MATH_10}}. Determine o valor.\n{{MATH_11}}\n{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction3.tex",
+  "ordem": 0,
+  "hash": "23744e3ef1deef47fbe149c269f5d9cae7c836f355cedc8277f7ec1b3b3020c5",
+  "traducao": "Com base na tabela de valores a seguir, calcule as quantidades indicadas:"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction3.tex",
+  "ordem": 1,
+  "hash": "264f56c7f446af0e935393930f84c4ed9d16284bc15def98e79d224f1229c981",
+  "traducao": " não existe no ponto {{MATH_1}} do gráfico de {{MATH_2}}."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction4.tex",
+  "ordem": 0,
+  "hash": "23744e3ef1deef47fbe149c269f5d9cae7c836f355cedc8277f7ec1b3b3020c5",
+  "traducao": "Com base na tabela de valores a seguir, calcule as quantidades indicadas:"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction4.tex",
+  "ordem": 1,
+  "hash": "8693bec1b0ac0accd091a66bd3d317bc69a4689b8098f1b71d5db74fc510d42f",
+  "traducao": "Seja {{MATH_1}}.  Então o ponto {{MATH_2}} está no gráfico de {{MATH_3}}."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction5.tex",
+  "ordem": 0,
+  "hash": "4eacb0ad27017eaeeae525e37053e10c971bd5ffa86747b0daea0f58cea20b34",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}}.\n{{CMD_3}}\n{{CMD_4}} Qual é o único ponto do gráfico de {{MATH_5}} que conseguimos determinar?"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction5.tex",
+  "ordem": 1,
+  "hash": "9acea2673196939154a6b708bf09d124790a7f1b662a454b5a080688fa90c3f6",
+  "traducao": " Qual é a inclinação da reta tangente à curva {{MATH_6}} nesse ponto?"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction5.tex",
+  "ordem": 2,
+  "hash": "e7d022fe037526cce1a477833211cb8111f8cf33181409fa53d45ebef0948780",
+  "traducao": " Determine o valor da inclinação da reta tangente à curva {{MATH_7}} nesse ponto.\n{{MATH_8}}\n  {{CMD_9}} Qual é a equação da reta tangente a {{MATH_10}} nesse ponto?\n{{CMD_11}}\n{{MATH_12}}\n{{CMD_13}}\n{{CMD_14}}\n{{CMD_15}}\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction6.tex",
+  "ordem": 0,
+  "hash": "caef4240adccfbe81ff33e3aaaea70c7c844a3534bf6f4144325956a3b20e69a",
+  "traducao": "Se {{MATH_1}} e {{MATH_2}}, estime {{MATH_3}}."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction6.tex",
+  "ordem": 1,
+  "hash": "7c885c70d99c3229fa939744147e28533a5a7e91b165042a05ac033ef7e988d4",
+  "traducao": "Lembre-se:  {{MATH_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction6.tex",
+  "ordem": 2,
+  "hash": "fa5f9c9534dc8e77f427e091cbd3a7b1193e1d91f7bd7f0cafb1da2394da04c2",
+  "traducao": "Lembre-se:  {{MATH_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction6.tex",
+  "ordem": 3,
+  "hash": "475675332ea0cd7e6f8a3e857b68da167fc16b20274a22f79e502bfcf9482493",
+  "traducao": "Lembre-se:  {{MATH_8}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunction6.tex",
+  "ordem": 4,
+  "hash": "7e9cde80543b689fb213ddff04043763ad51d199f3c05f8754018ca3dcd2a072",
+  "traducao": "Tome h= {{MATH_9}}\n{{CMD_10}}\n{{CMD_11}}\n{{MATH_12}}\n{{CMD_13}}\n{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunctions7.tex",
+  "ordem": 0,
+  "hash": "b1995a7727312594893f5a54469d83202b06fd7d1cd53db135ac1cde6899b793",
+  "traducao": " Seja {{MATH_1}} a função dada por\n {{MATH_2}}\n\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunctions7.tex",
+  "ordem": 1,
+  "hash": "322f0f9960065bcfc3177d5bf5d2d1396470bfe71b04718d9f6ab2ae49164826",
+  "traducao": " Encontre uma expressão para {{MATH_4}}, em que {{MATH_5}} é a função inversa de {{MATH_6}}."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunctions7.tex",
+  "ordem": 2,
+  "hash": "9047e515d24a17dd3e8180581230974c44727a7a16d1beac89fdc08748e72a21",
+  "traducao": "Troque {{MATH_7}} e {{MATH_8}} de lugar!\n{{CMD_9}}\n{{CMD_10}}\n{{MATH_11}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunctions7.tex",
+  "ordem": 3,
+  "hash": "2d69133c18b1539999c0ae63e007aac25549cb67b67dc96863539e15e36660bf",
+  "traducao": "Isole {{MATH_12}}!"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunctions7.tex",
+  "ordem": 4,
+  "hash": "9c3c911e56040e5bfdfb49ce0555626f91f8e18af3f6a5a7b804255af3770c83",
+  "traducao": " Qual é o domínio de {{MATH_13}}, a inversa de {{MATH_14}}?"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunctions7.tex",
+  "ordem": 5,
+  "hash": "ff4e33a3a38139b9478976ce36bbccdaf82897abb2fa646a4a588bd8b3fcc716",
+  "traducao": "Lembre-se: domínio de {{MATH_15}}=imagem de {{MATH_16}}!\n{{CMD_17}}\n {{CMD_18}}\n Determine a imagem de {{MATH_19}}. Lembre-se de que\n {{MATH_20}}\n Somando {{MATH_21}}, obtemos\n{{MATH_22}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunctions7.tex",
+  "ordem": 6,
+  "hash": "e92def47de55ef32962223f5d0a7c6eb07ff28640c4ec31aac5f5ce5e8eebba6",
+  "traducao": "O domínio de {{MATH_23}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesFunctions7.tex",
+  "ordem": 7,
+  "hash": "b2651c01c8089594c68ed464f849ad6daf2b5c04bf9ddc93aefabc3153d0bb37",
+  "traducao": "  Encontre uma expressão para {{MATH_24}}, a derivada de {{MATH_25}}.\n\t   {{MATH_26}}\n\t {{CMD_27}}   Determine o valor de {{MATH_28}} para que a equação abaixo seja verdadeira.\n\t   {{MATH_29}}\n\t   {{MATH_30}}\n{{CMD_31}}\n{{CMD_32}}\n{{CMD_33}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesGraph1.tex",
+  "ordem": 0,
+  "hash": "c9452884d19221c2b9742dfd53579fc9058aec527d5b3c99641651bd3fffad42",
+  "traducao": "O gráfico completo da função {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesGraph1.tex",
+  "ordem": 1,
+  "hash": "17bd7162c48147a7221730f278bc2daf766da2d0bdf715dc3394b6dbabe89422",
+  "traducao": "Calcule os valores a seguir ou escreva \"DNE\" (não existe).\n{{ENV_2}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesTrig2.tex",
+  "ordem": 0,
+  "hash": "947252058de9d5cc00e1a064dc059fa679a871b891eb6722f96f765d024fce73",
+  "traducao": "Você tem uma justificativa conceitual para a sua resposta?"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesTrig7.tex",
+  "ordem": 0,
+  "hash": "12038f1a4c454c535eb051986726b991c691729b3b4d9e5d7182e3c8176c05c2",
+  "traducao": "Use um triângulo retângulo para determinar o valor exato de {{MATH_1}}.\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesTrig7.tex",
+  "ordem": 1,
+  "hash": "bcbdd9a5f269a42e89bc7c4e6a1fc7c66071e4986fde0dca7b34f1c4a24c6154",
+  "traducao": "Da mesma forma, para {{MATH_3}}, use um triângulo retângulo para simplificar {{MATH_4}}.\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesTrig7.tex",
+  "ordem": 2,
+  "hash": "8329eec525b7a964b9abd00432ec0c224bc6c5095701048d5063b4e7e276120f",
+  "traducao": "Determine a derivada usando a regra da cadeia.\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesTrig7.tex",
+  "ordem": 3,
+  "hash": "b264b983c4a47d93c6db7d2c5abf5d9135d6f45d2b16afc9f895da30b83e7c68",
+  "traducao": "Para {{MATH_7}}, simplifique {{MATH_8}}.\n{{MATH_9}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesTrig7.tex",
+  "ordem": 4,
+  "hash": "fa9be590c512b71310d06044da3a32b3f94b5155f61d195354f787a46cceee47",
+  "traducao": "Use essa expressão para calcular a derivada de {{MATH_10}}\n{{MATH_11}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesTrig7.tex",
+  "ordem": 5,
+  "hash": "500fcf077089c9b88ae597fdd540b6b87db1171c296b0e023f91188a2ceb2d32",
+  "traducao": "Usando a expressão encontrada acima para {{MATH_12}}, essas duas derivadas são iguais."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesTrig8.tex",
+  "ordem": 0,
+  "hash": "ac74b3cb09d1f8dbbad18dfab45357f2ad46f769c73562d22ffff4918f0731c6",
+  "traducao": "Determine uma equação da reta tangente à curva {{MATH_1}} no ponto em que {{MATH_2}}.\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesTrig8.tex",
+  "ordem": 1,
+  "hash": "d4d54c3cf164e2720af3d240a374c7584a82196bf503fe7a77c43fd3406995fb",
+  "traducao": "Determine o ponto em que a reta tangente (à curva {{MATH_4}} no ponto em que {{MATH_5}}) cruza o eixo x.\n{{MATH_6}}\n{{CMD_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/inversesTrig9.tex",
+  "ordem": 0,
+  "hash": "f9640a998d5fd5aae9ae89b64644cea88344173f99efe806a2705e2de0ebac91",
+  "traducao": "Calcule as derivadas a seguir.\n{{ENV_1}}\n{{CMD_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/trigReview2.tex",
+  "ordem": 0,
+  "hash": "26aa7bea0aed4aca4cb36fd4718ee3df0746db9574e33dfe105eb827a07d3f7d",
+  "traducao": "Use estes seis gráficos (de funções trigonométricas inversas) para responder às perguntas dos exercícios abaixo."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/trigReview2.tex",
+  "ordem": 1,
+  "hash": "b81711adc74a95bf4fa8336b65d25d2837e02046516d41a1610f8e51167a42f9",
+  "traducao": "Marque todas as funções {{MATH_1}} para as quais a afirmação a seguir é verdadeira."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/trigReview2.tex",
+  "ordem": 2,
+  "hash": "fd273ebd826e7153eb240f69c9e4810b90e4a477c15bd7f058c94aee819b355a",
+  "traducao": "A função {{MATH_2}} é crescente no intervalo {{MATH_3}}.\n{{CMD_4}}\n{{CMD_5}}{{MATH_6}}{{CMD_7}}\n{{CMD_8}}{{MATH_9}}{{CMD_10}}\n{{CMD_11}}{{MATH_12}}{{CMD_13}}\n{{CMD_14}}{{MATH_15}}{{CMD_16}}\n{{CMD_17}}{{MATH_18}}{{CMD_19}}\n{{CMD_20}}{{MATH_21}}{{CMD_22}}\n{{CMD_23}}\n{{CMD_24}}\n{{CMD_25}}\nMarque todas as funções {{MATH_26}} para as quais a afirmação a seguir é verdadeira."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/trigReview2.tex",
+  "ordem": 3,
+  "hash": "2493ec44f48a59e8fa864e8b4e8e05a0b88e7730d7ed0790f088e415aaaf2207",
+  "traducao": "A função {{MATH_27}} é decrescente em todo o seu domínio."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/trigReview2.tex",
+  "ordem": 4,
+  "hash": "924c30aae0b331ae0dad37bf9897076234d9b82060062471ef3a7fa92bc4d640",
+  "traducao": "Marque todas as funções {{MATH_28}} para as quais a afirmação a seguir é verdadeira."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/trigReview2.tex",
+  "ordem": 5,
+  "hash": "b8ad2c78501d2b8ad44c490bf9f56844a668751ecf3ea7e75cad1308f015445b",
+  "traducao": ", a derivada de {{MATH_29}}, é crescente no intervalo {{MATH_30}}."
+ },
+ {
+  "arquivo": "derivativesOfInverseFunctions/exercises/trigReview2.tex",
+  "ordem": 6,
+  "hash": "47aef9cfaa47d31d2be7ac87958af8b6aff5ba3847d1c23b7dfa2f5809974de1",
+  "traducao": "Associe os gráficos acima às funções dadas abaixo."
+ }
+]

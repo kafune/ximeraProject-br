@@ -1,0 +1,674 @@
+[
+ {
+  "arquivo": "asymptotesAsLimits/titlePage.tex",
+  "ordem": 0,
+  "hash": "dee07aaa29f5552a395fe8ed0629c1acd96d5610f2d8dd928820b6ee6dc85a79",
+  "traducao": "Usando limites para detectar assíntotas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Ao concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/titlePage.tex",
+  "ordem": 2,
+  "hash": "02f265224314486104f56fca8725815d75d17c3e89cf15c4e0de7c542a375a03",
+  "traducao": " Reconhecer quando um limite indica que há uma assíntota vertical.\n{{CMD_4}} Calcular o limite quando {{MATH_5}} tende a um ponto onde há uma assíntota vertical.\n{{CMD_6}} Associar gráficos de funções às suas equações com base nas assíntotas verticais.\n{{CMD_7}} Discutir o que significa um limite ser igual a {{MATH_8}}.\n{{CMD_9}} Definir assíntota vertical.\n{{CMD_10}} Determinar assíntotas horizontais usando limites.\n{{CMD_11}} Produzir uma função com um comportamento assintótico dado.\n{{CMD_12}} Reconhecer que uma curva pode cruzar uma assíntota horizontal.\n{{CMD_13}} Compreender a relação entre limites e assíntotas verticais.\n{{CMD_14}} Calcular algebricamente o limite de funções comuns quando {{MATH_15}} tende a {{MATH_16}}.\n{{CMD_17}} Determinar, a partir de um gráfico, o limite quando {{MATH_18}} tende a {{MATH_19}}.\n{{CMD_20}} Definir assíntota horizontal.\n{{COMMENT_21}}\n{{COMMENT_22}}\n{{COMMENT_23}}\n{{COMMENT_24}}\n{{CMD_25}} Calcular limites no infinito de funções famosas.\n{{CMD_26}} Determinar assíntotas verticais de funções famosas.\n{{CMD_27}} Identificar assíntotas horizontais olhando para um gráfico.\n{{CMD_28}} Identificar assíntotas verticais olhando para um gráfico.\n{{COMMENT_29}}\n{{CMD_30}}\n{{CMD_31}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/breakGround.tex",
+  "ordem": 0,
+  "hash": "311b39a9359e1c1e481c0357cb0aab3035382cdc297c7d3dc8dc27ee6a515acd",
+  "traducao": "Afastando o zoom{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem como as curvas ficam quando\n``afastamos o zoom.''\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma\nhistória real):"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/breakGround.tex",
+  "ordem": 2,
+  "hash": "e9c204b57b79ec75f3f06c0d2e6fa58a0a8787fdf213106f62cc5357cf499a1c",
+  "traducao": " Riley, pense nesta função:\n  {{MATH_7}}\n{{CMD_8}} Hmmm. Se você traçar o gráfico, ele fica assim:\n  {{CMD_9}}\n    {{ENV_10}}\n  {{CMD_11}}\n{{CMD_12}} Isso! O que eu notei é que, se {{MATH_13}} fica grande, então\n  a nossa função se parece com uma reta horizontal.\n{{CMD_14}} Como será que a gente encontra essa reta?\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/breakGround.tex",
+  "ordem": 3,
+  "hash": "4c0a0bf676c25c7df87c77448b90cc7228833d0def34168e221625ce6887abae",
+  "traducao": "   Dê um chute para o ponto em que essa reta corta o eixo {{MATH_16}}.  Volte e confira sua\n   resposta depois de ler a seção Aprofundar!\n   {{CMD_17}}\n   As respostas podem variar.\n   {{CMD_18}}\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 0,
+  "hash": "01accf5e5da2cf7340efe9a640e54573bb3c069e64922ed63f651d1e024c41f8",
+  "traducao": "Assíntotas verticais{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nExploramos funções que ``disparam para o infinito'' perto de certos pontos."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 1,
+  "hash": "9ae2b6eec70595867d7d62dd089db154f8b546d429aa897ed6a658e7e538434c",
+  "traducao": "Considere a função\n{{MATH_5}}\n{{CMD_6}}\n{{ENV_7}}\n{{COMMENT_8}}\n{{COMMENT_9}}\n{{CMD_10}}\nEmbora o {{MATH_11}} não exista, ainda assim algo pode ser\ndito."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 2,
+  "hash": "e09438ecb59d2e3ff437f3384ebe248427c63ca4762b49c6224a7fcc8ee4c03f",
+  "traducao": "\tSe {{MATH_12}} fica arbitrariamente grande quando {{MATH_13}} se aproxima de {{MATH_14}}, escrevemos\n\t{{MATH_15}}\n\te dizemos que o limite de {{MATH_16}} é igual a {{CMD_17}} quando {{MATH_18}} tende a {{MATH_19}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 3,
+  "hash": "be2c188dadea69a2dfe18e811e8398501782ca2c88475f5e4fbd4d212f85b403",
+  "traducao": "\tSe {{MATH_20}} fica arbitrariamente grande quando {{MATH_21}} se aproxima de {{MATH_22}} e {{MATH_23}} é\n\tnegativa perto de {{MATH_24}}, escrevemos\n\t{{MATH_25}}\n\te dizemos que o limite de {{MATH_26}} é igual a {{CMD_27}} quando {{MATH_28}} tende a {{MATH_29}}.\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 4,
+  "hash": "c9022e869f19feacedf74564c5e5eb0c8cc53115cdaeb81dd84ac44fe9799a5f",
+  "traducao": "  Quais das alternativas a seguir estão corretas?\n  {{CMD_31}}\n    {{CMD_32}}{{MATH_33}}{{CMD_34}}\n    {{CMD_35}}{{MATH_36}}{{CMD_37}}\n    {{CMD_38}}{{MATH_39}}, logo {{MATH_40}}{{CMD_41}}\n    {{CMD_42}}{{MATH_43}}, logo, quando {{MATH_44}},\n      {{MATH_45}}{{CMD_46}}\n  {{CMD_47}}\n{{CMD_48}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 5,
+  "hash": "27a4df5f04e3ac1be2f888994b9ea3193dae093df39aeadc9e8cf90e24c0ea07",
+  "traducao": "Por outro lado, considere a função \n{{MATH_49}}\n{{CMD_50}}\n{{ENV_51}}\n{{COMMENT_52}}\n{{COMMENT_53}}\n{{CMD_54}}\nEmbora os dois lados do limite quando {{MATH_55}} se aproxima de {{MATH_56}} não concordem, ainda podemos considerar os limites\nlaterais.  Vemos que {{MATH_57}} e {{MATH_58}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 6,
+  "hash": "9c3840dedb33d1320473a3b791fe117443bfbbc8483411ac3517f36d49900510",
+  "traducao": "\tSe pelo menos uma das condições a seguir vale:\n\t{{CMD_59}}\n\t\t{{CMD_60}} {{MATH_61}},\n\t\t{{CMD_62}} {{MATH_63}},\n\t\t{{CMD_64}} {{MATH_65}},\n\t{{CMD_66}}\n\tentão a reta {{MATH_67}} é uma {{CMD_68}} de {{MATH_69}}.\n{{CMD_70}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 7,
+  "hash": "2ecb44106e6ef8bf215ff2bb3319790d3edd8c91c66107d0a013f90c02016786",
+  "traducao": "\tUma assíntota vertical é dada pela equação de uma reta vertical.\n{{CMD_71}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 8,
+  "hash": "43b3615e8e85e2949d433f2fdf7cc085b29512cd394ba5e11776c8509283bee3",
+  "traducao": "Algo a observar nos exemplos a seguir: para encontrar assíntotas verticais, comece pelas descontinuidades. Se uma função é contínua em um ponto, o\nlimite existe. Não pode haver assíntota vertical em um ponto assim. Para identificar as possíveis assíntotas verticais, encontre as descontinuidades e os pontos\nque não estão no domínio, mas dos quais é possível se aproximar por dentro do domínio (como as extremidades)."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 9,
+  "hash": "066b844664f0c990c5bbbb5aa43720866f41f36f2f5cd159f061aa25b0943830",
+  "traducao": "\tDetermine as assíntotas verticais de \n\t{{MATH_72}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 10,
+  "hash": "b006b77b63c1d049c83a203e96cd349863ada3756aa125af2fe86f5c380fd540",
+  "traducao": "Como {{MATH_73}} é uma função racional, ela é contínua em seu domínio. Então os únicos pontos em que a função pode ter uma assíntota vertical são os zeros \ndo denominador. (Nesses pontos a função não existe, logo {{MATH_74}} não pode ser contínua ali.)"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 11,
+  "hash": "386a1e41af96e57ea73f1fa2b5d78359d34ae42260931144ba83d4249a0c65fc",
+  "traducao": "Comece fatorando o numerador e o denominador:\n{{MATH_75}}\nUsando limites, precisamos investigar o que acontece com {{MATH_76}} quando {{MATH_77}} e {{MATH_78}}, já que {{MATH_79}} e {{MATH_80}} são os únicos zeros do denominador. Escreva\n{{ENV_81}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 12,
+  "hash": "6eea7d7e9890fab8db16749a960dec8d2b3cf152bdfa454dd20b8cf79e9f7966",
+  "traducao": "Agora escreva\n{{ENV_82}}\nConsidere os limites laterais separadamente."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 13,
+  "hash": "3a6632804e91d60b3033fda93e0543ae99b310725a7489338d4b5d3ae9ba28d8",
+  "traducao": "Quando {{MATH_83}}, a quantidade {{MATH_84}} é positiva (porque {{MATH_85}}) e se aproxima de {{MATH_86}}, e o numerador é negativo. Esta é uma forma do tipo {{CMD_87}}, que é negativa para todo {{MATH_88}} suficientemente próximo de {{MATH_89}}, porém maior que esse valor. Portanto, {{MATH_90}}.\n({{CMD_91}}Observação:{{CMD_92}} calcular esse limite lateral já basta para justificar que {{MATH_93}} é uma assíntota vertical da função {{MATH_94}}. Vamos calcular também o outro limite lateral para ver se algo pode ser dito sobre o limite bilateral.)"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 14,
+  "hash": "21796e010e02c2e2c5fe9c378cbb541489ea4f52731c06f9e6d81081195caffa",
+  "traducao": "Quando {{MATH_95}}, a quantidade {{MATH_96}} é negativa (porque {{MATH_97}}) e se aproxima de {{MATH_98}}, e o numerador é negativo. Esta é uma forma do tipo {{CMD_99}}, que é positiva para todo {{MATH_100}} suficientemente próximo de {{MATH_101}}, porém menor que esse valor. Portanto, {{MATH_102}}. Como os dois limites laterais não concordam, {{MATH_103}} não existe."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 15,
+  "hash": "93f526006e28a92986a2c3b594bd4a368d33ed5d55750e57638106c0528dc351",
+  "traducao": "Logo, temos uma assíntota vertical em {{MATH_104}}. Como {{MATH_105}}, mas {{MATH_106}} não está no domínio de {{MATH_107}}, o gráfico de {{MATH_108}} terá um buraco nesse ponto. Sabemos que não há outras assíntotas verticais porque a função {{MATH_109}} é contínua em {{MATH_110}}, {{MATH_111}} e {{MATH_112}}.\n{{CMD_113}}\n{{CMD_114}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 16,
+  "hash": "426ea2239f32f76e5c41935d9cdd9f75201348ba3bc6320383474cf1ddf1fdbe",
+  "traducao": "Observe que, nesse exemplo anterior, havia uma assíntota vertical em {{MATH_115}}, mesmo que o número {{MATH_116}} não estivesse no domínio da função {{MATH_117}}. \nAssíntotas verticais são definidas em termos de limites. O ponto importante é que podemos nos {{CMD_118}}aproximar{{CMD_119}} do número {{MATH_120}} por dentro do domínio de {{MATH_121}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 17,
+  "hash": "37072a17401f4681c266d5d6f71367c105eefad6c3cd30282c2ea743e2975c30",
+  "traducao": "\tDetermine as assíntotas verticais de \n\t{{MATH_122}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 18,
+  "hash": "caa6fbb3784c2cb6410a13a32cb0139f3174d0e48bd5d31bab6023ad8d7d70ec",
+  "traducao": "\t\tEsta função parece um pouco mais complicada do que a do exemplo anterior, mas o trabalho necessário é muito parecido. Vamos começar\n\t\tfatorando o numerador e o denominador.\n\t\t{{MATH_123}}\n\t\t\n\t\tO numerador {{MATH_124}} e o denominador {{MATH_125}} são ambos contínuos em {{MATH_126}}. Isso significa que as únicas\n\t\tpossibilidades a verificar para assíntotas verticais são os números que anulam o denominador.\n\t\t\n\t\tUsando limites, precisamos investigar o que acontece com {{MATH_127}} quando {{MATH_128}} e {{MATH_129}}, já que {{MATH_130}} e {{MATH_131}} são os únicos zeros do \t\t\t\tdenominador (pois {{MATH_132}} nunca se anula). Escrevemos\n\t\t{{ENV_133}}\n\t\tComo {{MATH_134}}, não há assíntota vertical em {{MATH_135}}. \n\t\t\n\t\tVoltamos nossa atenção ao limite quando {{MATH_136}} se aproxima de {{MATH_137}}. Comecemos pelo limite pela direita.\t\t\n\t\t{{MATH_138}}\n\t\tEste é um limite lateral da forma {{CMD_139}}. Vamos determinar o sinal da fração para {{MATH_140}} suficientemente próximo de {{MATH_141}}, \n\t\tporém maior que esse valor.\n\t\t\n\t\tPara o numerador, observe que {{MATH_142}}. Isso significa que {{MATH_143}} é o seno de um ângulo do terceiro quadrante, \n\t\to que o torna negativo. Como {{MATH_144}} está perto de {{MATH_145}}, o fator {{MATH_146}} do numerador é positivo. O numerador é negativo para todo {{MATH_147}} suficientemente\n\t\tpróximo de {{MATH_148}}, porém maior que esse valor.\n\t\t  \n\t\tQuanto ao denominador, {{MATH_149}} é sempre positivo. Como {{MATH_150}}, o fator {{MATH_151}} também é positivo. O denominador é positivo para todos os \n\t\tvalores relevantes de {{MATH_152}}.\n\t\t\n\t\tIsso faz com que a fração {{MATH_153}} assuma valores negativos para todo {{MATH_154}} suficientemente próximo de {{MATH_155}}, porém maior que esse valor.\n\t\tIsso significa que {{MATH_156}}.\n\t\t\n\t\tHá uma assíntota vertical em {{MATH_157}}. Não há outras, pois a única outra descontinuidade está em {{MATH_158}}, mas {{MATH_159}}.\n\t\t\n\t\t\n\t{{CMD_160}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 19,
+  "hash": "f37cbcaddcea58e0dec9ce98d6f0e9768ce0551e5909957738e43dc2534aa698",
+  "traducao": "Em nosso último exemplo, trabalhamos com uma função cuja assíntota vertical NÃO está onde o denominador se anula."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInVerticalAsymptotes.tex",
+  "ordem": 20,
+  "hash": "dcb3aeead867877856a07092e357beb28f80b2760bb4742e1711f6fa3dbe47fe",
+  "traducao": "\tDetermine as assíntotas verticais de \n\t{{MATH_161}}\n\t\n\t{{CMD_162}}\n\t\tO domínio do numerador, {{MATH_163}}, é {{MATH_164}}, e ele é contínuo em todo esse intervalo.\n\t\tO denominador, {{MATH_165}}, é contínuo em {{MATH_166}} e se anula apenas em {{MATH_167}}.\n\t\tAssim, o domínio de {{MATH_168}} é {{MATH_169}}, e {{MATH_170}} é contínua nesse intervalo.\n\t\t\n\t\tHá apenas um valor de {{MATH_171}} em que {{MATH_172}} poderia ter uma assíntota vertical: em {{MATH_173}}. Ele não está no domínio de {{MATH_174}}, mas\n\t\té possível se aproximar dele por dentro do domínio. O ponto em que o denominador se anula, {{MATH_175}}, NÃO é uma possibilidade, porque não é possível\n\t\tse aproximar de {{MATH_176}} por dentro de {{MATH_177}}, devido à lacuna na reta numérica entre {{MATH_178}} e {{MATH_179}}.\n\t\t\n\t\tComo só podemos nos aproximar de {{MATH_180}} pela direita (permanecendo no domínio de {{MATH_181}}), devemos examinar o limite à direita:\n\t\t{{MATH_182}}\n\t\t\n\t\tPara o numerador temos {{MATH_183}}, enquanto para o denominador temos {{MATH_184}}. Isso significa que\n\t\t{{MATH_185}}.\n\t\t\n\t\tHá uma assíntota vertical em {{MATH_186}}. Não há outras porque {{MATH_187}} é contínua em seu domínio {{MATH_188}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 0,
+  "hash": "7ad6a2e6b561ab64fbbe77e00c6db440c9a003abd64c5bc866b1f29b013a83ac",
+  "traducao": "Assíntotas horizontais{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nExploramos funções que se comportam como retas horizontais quando a entrada\ncresce indefinidamente.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 1,
+  "hash": "f246f204aff6d8eead94b7b891b8a5c18aaf223f044c408886da411ed9d7a8f3",
+  "traducao": "Vamos começar com um exemplo:\n{{CMD_7}}\nConsidere a função:\n{{MATH_8}}\ncom a tabela abaixo\n{{MATH_9}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 2,
+  "hash": "c2d3716103a85bf614922d524375cc2e3901144a2911b42475a69e3dfb5ba941",
+  "traducao": "  O que a tabela nos diz sobre {{MATH_10}} quando {{MATH_11}} cresce cada vez mais?\n  {{CMD_12}}\n    \nQuando {{MATH_13}} cresce cada vez mais, parece que {{MATH_14}} se aproxima de {{MATH_15}}. Parece que deveríamos escrever\n{{MATH_16}}\n  {{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 3,
+  "hash": "3b68a1bb8c222f0ba92ac7c4a71c02b10bace3a3ab20478215cdc3fabaf74cda",
+  "traducao": "  Agora considere uma função diferente:\n  {{MATH_19}}\n  {{CMD_20}}\n    {{ENV_21}}\n{{COMMENT_22}}\n    {{COMMENT_23}}\n  {{CMD_24}}\n  Preencha a tabela abaixo, arredondando para {{MATH_25}} casas decimais.\n  {{MATH_26}}\n  O que a tabela nos diz sobre {{MATH_27}} quando {{MATH_28}} cresce cada vez mais?\n  {{CMD_29}}\n    Quando {{MATH_30}} cresce cada vez mais, parece que {{MATH_31}} se aproxima de {{MATH_32}}.\n    Parece que deveríamos escrever\n    {{MATH_33}}\n  {{CMD_34}}\n{{CMD_35}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 4,
+  "hash": "20e0b0cafde0f2380c4e5efc31d2965aab7535075ed1ed6e62d0250c3a648164",
+  "traducao": "Se {{MATH_36}} fica arbitrariamente próximo de um valor específico {{MATH_37}} quando tomamos\n{{MATH_38}} suficientemente grande, escrevemos\n{{MATH_39}}\ne dizemos que o {{CMD_40}} de {{MATH_41}} é {{MATH_42}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 5,
+  "hash": "82871d4d0b5248794818167b669571312cb9476ae21d9ac879eff14b3244e914",
+  "traducao": "Se {{MATH_43}} fica arbitrariamente próximo de um valor específico {{MATH_44}} quando tomamos\n{{MATH_45}} suficientemente grande e negativo, escrevemos\n{{MATH_46}}\ne dizemos que o {{CMD_47}} de {{MATH_48}} é {{MATH_49}}.  \n{{CMD_50}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 6,
+  "hash": "8efecdb17ab7e39521d14e38f64157e325537b96a151e728f38906f00fb78555",
+  "traducao": "  Calcule o limite.\n{{MATH_51}}\nVamos confirmar o que havíamos conjecturado antes calculando o limite no infinito.{{CMD_52}}\n Podemos assumir que todas as leis dos limites também valem para limites no infinito.\n{{CMD_53}}\nEscreva\n{{ENV_54}}\n{{CMD_55}}\n{{CMD_56}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 7,
+  "hash": "c03264893b7d2984c80163df19a03e5e0fc5f57d22460daf5f51292794de91f2",
+  "traducao": "Observe que, no primeiro passo desse cálculo, dividimos o numerador e o denominador por {{MATH_57}} (multiplicando-os por {{MATH_58}}). Este é um ``truque''\nque frequentemente ajuda no cálculo de limites quando {{MATH_59}}, se a função é uma fração. O ponto importante ao usar {{MATH_60}} aqui é que o\ndenominador tem grau {{MATH_61}}. Quando dividimos o denominador por {{MATH_62}}, o denominador se aproxima de uma constante não nula. \n(Estamos dividindo o numerador e o denominador pelo tipo de termo de maior ordem de crescimento {{CMD_63}}do denominador{{CMD_64}}.)"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 8,
+  "hash": "bcd09da09e544a65ec91ca737ad26a33028787c107b3a3d08699857ed07ad651",
+  "traducao": "Às vezes é preciso ter cuidado ao tentar aplicar esse truque. Considere este exemplo de uma função não racional."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 9,
+  "hash": "937b0b1421ccfcd74f4476bc7cc78cec1c17454984555ad9e2502497c3fc8e68",
+  "traducao": "O truque que aplicamos acima à função racional vai funcionar aqui, mas observe que o denominador está dentro de um radical. Para determinar o fator correto pelo qual dividir, precisaremos reescrever o radical."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 10,
+  "hash": "c0d121a1ff8a9812ee8e5f0d653438e519577b8e287297eb8fd779f292c31095",
+  "traducao": "Para este último passo, lembre-se de que {{MATH_65}} quando {{MATH_66}} pode assumir um valor negativo. Como estamos olhando para {{MATH_67}}, \nsabemos que, a partir de certo ponto, {{MATH_68}} será negativo, e {{MATH_69}} também."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 11,
+  "hash": "e1e2f79e603173022fe70d1ba8a198b27d070eed623aaff898ce7e54fbd6f9be",
+  "traducao": "Essa simplificação significa que o denominador, no limite quando {{MATH_70}}, vai se comportar como {{MATH_71}}. Como o fator com a raiz quadrada aqui\ntem limite {{MATH_72}}, o crescimento do denominador é controlado pelo fator {{MATH_73}}. Nesse caso, dividimos o numerador e o denominador por {{MATH_74}},"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 12,
+  "hash": "c1029f809bcd028925a17c61c2d20c9c5bdb466dc769c15dbd42fc9ce98366d0",
+  "traducao": "No exemplo anterior, usamos o fato de que {{MATH_75}} quando {{MATH_76}} é negativo. Se o limite fosse quando {{MATH_77}}, então {{MATH_78}} e {{MATH_79}} acabariam \nassumindo valores positivos. Isso teria resultado em {{MATH_80}}. Repita o cálculo do exemplo anterior, determinando o limite\n{{MATH_81}} e tomando o cuidado de usar {{MATH_82}} na simplificação. \nVocê vai descobrir que os dois limites (quando {{MATH_83}} e quando {{MATH_84}}) têm valores diferentes."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 13,
+  "hash": "c62aad6b742cfb8c52ba34c77be58249c95f029a481e704f483fb53a12e24394",
+  "traducao": "Observe que, como\n{{MATH_85}}\ne\n{{MATH_86}}\ntambém podemos aplicar o teorema do confronto ao calcular limites no infinito.\nAqui está um exemplo de limite no infinito que usa o teorema do\nconfronto e mostra que as funções podem, de fato, cruzar suas assíntotas\nhorizontais."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 14,
+  "hash": "a88d848441730511a0cf18ce814088a253104a47eb7d48394c32997cd463647c",
+  "traducao": "Calcule:\n{{MATH_87}}\n{{CMD_88}}\n{{ENV_89}}\n{{COMMENT_90}}\n{{COMMENT_91}}\n{{CMD_92}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 15,
+  "hash": "8afff9d20a410957c38adf8c00efe98d32658c2f333d7cb50109359417ab3858",
+  "traducao": "Podemos limitar nossa função:\n{{MATH_93}}\nAgora escreva comigo\n{{ENV_94}}\nE também temos\n{{ENV_95}}\nComo \n{{MATH_96}} \nconcluímos, pelo teorema do confronto, que\n{{MATH_97}}.\n{{CMD_98}}\n{{CMD_99}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 16,
+  "hash": "e950a97a20b28d3811bff3dcfc76c2a122fa577b0d35fcd1387b9f4d10779980",
+  "traducao": "Se  \n{{MATH_100}}\nentão a reta {{MATH_101}} é uma {{CMD_102}} de {{MATH_103}}.\n{{CMD_104}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 17,
+  "hash": "87813721abff1f37d1c0817db396c7f63b896cc8275360613a36ba4565f04a97",
+  "traducao": " \nDê as assíntotas horizontais de\n{{MATH_105}}\n{{CMD_106}}\nPelo nosso trabalho anterior, vemos que {{MATH_107}} e,\nexaminando com mais cuidado, vemos que {{MATH_108}}. Logo, a assíntota horizontal de {{MATH_109}} é a reta {{MATH_110}}.\n{{CMD_111}}\n{{CMD_112}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 18,
+  "hash": "9182934311e65510161e66caf76b9e19789f91fdd7f162587b377be82797b7ee",
+  "traducao": "É um equívoco comum pensar que uma função não pode cruzar uma\nassíntota. Como mostra o próximo exemplo, uma função pode cruzar uma assíntota\nhorizontal e, no exemplo, isso acontece infinitas vezes!"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 19,
+  "hash": "30ca74eea12ed6eb575ba2b69be1849f5fffff88398db4855d82a68ce8e42249",
+  "traducao": "Dê uma assíntota horizontal de\n{{MATH_113}}\n{{CMD_114}}\nNovamente pelo trabalho anterior, vemos que {{MATH_115}}. Logo, {{MATH_116}} é uma assíntota horizontal de {{MATH_117}}.\n{{CMD_118}}\n{{CMD_119}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 20,
+  "hash": "3a205ae62ee3073e1ff5059425cf2d446a91a6863f017974861bd0ec679a87bc",
+  "traducao": "Concluímos com um limite infinito no infinito."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInHorizontalAsymptotes.tex",
+  "ordem": 21,
+  "hash": "da81b2454e380466c600ea334524e1c0f568366fb9d8b92f72aea3921d2dfe28",
+  "traducao": "Calcule\n{{MATH_120}}\n{{CMD_121}}\n{{ENV_122}}\n{{COMMENT_123}}\n{{COMMENT_124}}\n{{CMD_125}}\n{{CMD_126}}\nA função {{MATH_127}} cresce muito lentamente e parece que poderia ter uma\nassíntota horizontal; veja o gráfico acima. No entanto, se considerarmos a\ndefinição do logaritmo natural como a inversa da função\nexponencial\n{{CMD_128}}{{COMMENT_129}}\n  {{MATH_130}} significa que {{MATH_131}} e que {{MATH_132}} é positivo.\n{{CMD_133}}\nvemos que podemos elevar {{MATH_134}} a valores cada vez maiores para obter\nnúmeros cada vez maiores.  Isso significa que {{MATH_135}} é ilimitada e, portanto,\n{{MATH_136}}.\n{{CMD_137}}\n{{CMD_138}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 0,
+  "hash": "e972737d6972e16e149a6c1e2f85b307651ab7baf395ae188742013e142b729e",
+  "traducao": "Assíntotas oblíquas{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nExploramos funções que ``disparam para o infinito'' em certos pontos de\nseu domínio.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 1,
+  "hash": "899ef839565c99708249e6524ec0aa5917b500ff2deb4d84670901a5e700a0d1",
+  "traducao": "Se pensarmos em uma assíntota como uma ``reta com a qual a função se parece quando\na entrada ou a saída é grande'', então há três tipos de assíntotas, assim\ncomo há três tipos de retas:\n{{ENV_7}}\nAqui criamos um termo novo, reta ``oblíqua'', para designar uma reta cuja\ninclinação não é zero nem é indefinida. Vamos fazer uma rápida revisão\ndos diferentes tipos de assíntotas:"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 2,
+  "hash": "7794feae7af0afa43c099f8706bed639885d4acdb1caba2664da3a103ae58b6b",
+  "traducao": "Assíntotas verticais{{CMD_8}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 3,
+  "hash": "2009bcf1d32b929f4f9af164115cdbe7720ff682000321a1f7a05822bc58348a",
+  "traducao": "Lembre-se de que uma função {{MATH_9}} tem uma assíntota vertical em {{MATH_10}} se pelo menos\numa das condições a seguir vale:\n{{CMD_11}}\n{{CMD_12}} {{MATH_13}},\n{{CMD_14}} {{MATH_15}},\n{{CMD_16}} {{MATH_17}}.\n{{CMD_18}}\nNesse caso, a assíntota é a reta vertical\n{{MATH_19}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 4,
+  "hash": "81572a2276c6c461c38c12386e725b717460fadb8093a34e72b33e62f2d7a676",
+  "traducao": "Assíntotas horizontais{{CMD_20}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 5,
+  "hash": "101119a6476b4f113f328349c674ce14decb6251a269c85cce8afba3eff46d0d",
+  "traducao": "Também vimos que uma função {{MATH_21}} tem uma assíntota horizontal se\n{{MATH_22}}\ne, nesse caso, a assíntota é a reta horizontal\n{{MATH_23}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 6,
+  "hash": "46d5f8dbfb9b3dcf583767a7bda7e85190a627ed741dabdcfcd71fbec12ea9eb",
+  "traducao": "Assíntotas oblíquas{{CMD_24}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 7,
+  "hash": "03dd150eca6770844324fa5e9952a190aae7b58efe0466cb01f1e99f87eceb36",
+  "traducao": "Por outro lado, uma {{CMD_25}}assíntota oblíqua{{CMD_26}} é um bicho um pouco\ndiferente."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 8,
+  "hash": "53e3674c08ed53f7abbee3954b4af37a9738f0554817989a3d882bf9289ba48c",
+  "traducao": "  Se existe uma reta não horizontal {{MATH_27}} tal que\n  {{MATH_28}}\n  então {{MATH_29}} é uma {{CMD_30}} de {{MATH_31}}.\n{{CMD_32}}\n{{CMD_33}}\n  Considere o gráfico da função a seguir. \n  {{CMD_34}}\n    {{ENV_35}}\n  {{CMD_36}}\n  Qual é a assíntota oblíqua dessa função?\n  {{CMD_37}}\n    {{MATH_38}}\n  {{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 9,
+  "hash": "b8c0e29f6512169fd8294cd7fde9020c57b31d228f88f9bf421ed3b835b0e459",
+  "traducao": "Para encontrar assíntotas oblíquas analiticamente, é preciso obter as\ninformações necessárias para determinar uma reta:\n{{CMD_41}}\n{{CMD_42}} A inclinação.\n{{CMD_43}} A interseção com o eixo {{MATH_44}}.\n{{CMD_45}}\nEmbora haja várias maneiras de fazer isso, vamos apresentar um método\nbastante geral."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/digInSlantAsymptotes.tex",
+  "ordem": 10,
+  "hash": "6a69fb09cc4df8a769747e19162a6f260723994c86175ebe00fc2ec5d188d6e1",
+  "traducao": "  Determine a assíntota oblíqua de\n  {{MATH_46}}\n  {{CMD_47}}\n    Queremos saber se existe uma reta {{MATH_48}} tal que\n    {{MATH_49}}\n    Primeiro, vamos considerar o limite quando {{MATH_50}} tende a mais infinito.  Vamos imaginar que temos uma reta assim,\n    {{MATH_51}}\n    e tentar encontrar os valores corretos de {{MATH_52}} e {{MATH_53}}.  Olhemos novamente para o nosso limite.  Estamos supondo que:\n{{MATH_54}}\n    Sabemos que {{MATH_55}} é contínua em todo ponto, exceto em {{MATH_56}}, e que {{MATH_57}} é contínua em todo ponto, então \n    podemos aplicar nossas leis dos limites longe de {{MATH_58}}.  Estamos olhando para valores grandes de {{MATH_59}}, então isso não é problema.  Usamos o fato de que a soma dos limites é o limite da soma.\n    {{ENV_60}}\n    \n    Estamos supondo que esses dois limites são iguais.  Dividir o lado direito por {{MATH_61}} torna o limite igual a {{MATH_62}}:\n    {{ENV_63}}\n    Para encontrar o valor de {{MATH_64}}, então, podemos dividir o lado esquerdo por {{MATH_65}} e calcular o limite.   Obtemos o seguinte. \n    {{ENV_66}}\n    Logo, {{MATH_67}}.  Agora sabemos que\n    {{MATH_68}}\n    para algum valor de {{MATH_69}}.  Para encontrar a interseção com o eixo {{MATH_70}}, {{MATH_71}}, usamos um método parecido.  Observe que\n    {{MATH_72}}\n    então, se subtrairmos {{MATH_73}} do lado direito, sobra apenas {{MATH_74}}.  Como os dois lados são iguais, subtrair {{MATH_75}} do lado esquerdo e calcular o limite nos dará o valor de {{MATH_76}}.  Escrevemos o seguinte.\n    {{ENV_77}}\n    Por esse método, determinamos que \n    {{MATH_78}}\n   Em outras palavras, {{MATH_79}} é uma assíntota oblíqua\n   da nossa função {{MATH_80}}.  Você deve verificar que obtemos a mesma assíntota\n   oblíqua {{MATH_81}} quando tomamos o limite em\n   menos infinito também.\n   {{CMD_82}}\n     Podemos confirmar nossos resultados olhando para os gráficos de {{MATH_83}}\n     e {{MATH_84}}:\n     {{MATH_85}}\n   {{CMD_86}}\n  {{CMD_87}}\n{{CMD_88}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/6_Q2-1151.tex",
+  "ordem": 0,
+  "hash": "2ddefaed8c4b68115cb10ecf489a9d4f041e36183120cd6187a5d43d08ec808d",
+  "traducao": "Seja\n{{MATH_1}}\nDetermine se os limites a seguir existem. Se existirem, calcule-os {{CMD_2}}analiticamente{{CMD_3}}, usando as {{CMD_4}}leis dos limites{{CMD_5}} e as {{CMD_6}}técnicas para calcular limites{{CMD_7}}. Se um limite {{CMD_8}}não existir{{CMD_9}}, escreva `DNE' e explique por quê.  Não use uma tabela de valores, um gráfico nem a regra de L'H{{CMD_10}}opital para justificar sua resposta.\n{{CMD_11}}\n  {{MATH_12}}\n{{CMD_13}}\n{{CMD_14}}\n  {{MATH_15}}\n{{CMD_16}}\n{{CMD_17}}\n  {{MATH_18}}\n  {{CMD_19}}\n    Vamos explicar por que isso é verdade. Quando {{MATH_20}} é\n    maior que {{MATH_21}},\n    {{MATH_22}}\n    {{CMD_23}}Quando {{MATH_24}} se aproxima de {{MATH_25}} pela direita, {{MATH_26}} é {{CMD_27}}{{CMD_28}}positivo{{CMD_29}}{{CMD_30}}negativo{{CMD_31}}{{CMD_32}}zero{{CMD_33}}{{CMD_34}} e se aproxima de zero, enquanto, ao mesmo tempo, {{MATH_35}} se aproxima de {{MATH_36}}. {{CMD_37}} Portanto, quando {{MATH_38}} se aproxima de {{MATH_39}} pela direita, {{MATH_40}} é positivo e fica {{CMD_41}}{{CMD_42}}arbitrariamente grande{{CMD_43}}{{CMD_44}}arbitrariamente pequeno{{CMD_45}}{{CMD_46}}. {{CMD_47}} Logo,\n    {{MATH_48}}\n    {{CMD_49}}\n    {{CMD_50}}\n    {{CMD_51}}\n    {{CMD_52}}\n  {{CMD_53}}\n  {{MATH_54}}\n  {{CMD_55}}\n  {{CMD_56}}\n  {{MATH_57}}\n  {{CMD_58}}\n  {{CMD_59}}\n    Liste as assíntotas verticais de {{MATH_60}} da menor para a maior: {{MATH_61}}.\n  {{CMD_62}}\n  {{CMD_63}}\n    Liste todas as assíntotas horizontais de {{MATH_64}} da menor para a maior: {{MATH_65}}.\n  {{CMD_66}}\n{{CMD_67}}\n{{CMD_68}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/asymptotesWithExponentialFunction.tex",
+  "ordem": 0,
+  "hash": "58550d396a8e0a448f57c2ecc15d11ef70ea7d1f41f2d1c92726a2bc1fb44225",
+  "traducao": "Seja {{MATH_1}} definida por\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/asymptotesWithExponentialFunction.tex",
+  "ordem": 1,
+  "hash": "e8757238c2d3c4827cf32ba36da0bb1f373cad583bc6e20323adbb4656a7d9a9",
+  "traducao": "Determine se os limites a seguir existem e, se existirem, calcule-os analiticamente usando as leis dos limites e as técnicas para calcular limites.  As respostas possíveis são qualquer número, {{MATH_3}}, {{MATH_4}} e {{MATH_5}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/asymptotesWithExponentialFunction.tex",
+  "ordem": 2,
+  "hash": "7ff67036dad077d11b44fdd6f79b7826d2c3f73ace2a03d5aa6a6d44f815af41",
+  "traducao": "OBSERVAÇÃO:"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/asymptotesWithExponentialFunction.tex",
+  "ordem": 3,
+  "hash": "2ae8ccf49c11739f57b8310aa0a384fa3f201edfe89128227d80ce863669132a",
+  "traducao": "Pelo que calculamos acima, as assíntotas horizontais (escritas na mesma ordem dos limites acima) de {{MATH_6}} são\n{{MATH_7}}\ne\n{{MATH_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/asymptotesWithExponentialFunction.tex",
+  "ordem": 4,
+  "hash": "6d5dc95f8b96a45afa08c2a8256186ed18191530bde18d171be78f472d4fc017",
+  "traducao": "A função {{MATH_10}}\n{{CMD_11}}\n{{CMD_12}}NÃO tem assíntotas verticais.{{CMD_13}}\n{{CMD_14}}tem uma assíntota vertical em {{MATH_15}}.{{CMD_16}}\n{{CMD_17}}\n{{CMD_18}}\nObservação: a função exponencial {{MATH_19}} é sempre positiva. Portanto, o denominador de {{MATH_20}} nunca é igual a {{MATH_21}}.\n{{CMD_22}}\n{{CMD_23}}\n{{CMD_24}}\nA função {{MATH_25}}\n{{CMD_26}}\n{{CMD_27}}é contínua{{CMD_28}}\n{{CMD_29}}não é contínua{{CMD_30}}\n{{CMD_31}}\n em todo o intervalo {{MATH_32}}?"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/asymptotesWithExponentialFunction.tex",
+  "ordem": 5,
+  "hash": "c48e8bdb694f767b66d1a41bd015229e9472a3d533aa786caa23053f4a8f4bb0",
+  "traducao": "Observação: a função exponencial {{MATH_33}} é sempre positiva. Portanto, o denominador de {{MATH_34}} nunca é igual a {{MATH_35}}.\n{{CMD_36}}\n{{CMD_37}}\n{{CMD_38}}\n{{CMD_39}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/infLimNumOverLinear1.tex",
+  "ordem": 0,
+  "hash": "519a0725a0b514a6fc26bf389ec8c673eaa869194da8313fe3ccc5b4eed054ec",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}} {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/infLimNumOverLinear5.tex",
+  "ordem": 0,
+  "hash": "519a0725a0b514a6fc26bf389ec8c673eaa869194da8313fe3ccc5b4eed054ec",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}} {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/infLimNumOverLinear6.tex",
+  "ordem": 0,
+  "hash": "519a0725a0b514a6fc26bf389ec8c673eaa869194da8313fe3ccc5b4eed054ec",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}} {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/infLimNumOverPower1.tex",
+  "ordem": 0,
+  "hash": "519a0725a0b514a6fc26bf389ec8c673eaa869194da8313fe3ccc5b4eed054ec",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}} {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/infLimNumOverPower4.tex",
+  "ordem": 0,
+  "hash": "519a0725a0b514a6fc26bf389ec8c673eaa869194da8313fe3ccc5b4eed054ec",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}} {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/infLimNumOverPower6.tex",
+  "ordem": 0,
+  "hash": "519a0725a0b514a6fc26bf389ec8c673eaa869194da8313fe3ccc5b4eed054ec",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}} {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/infLimSqrt1.tex",
+  "ordem": 0,
+  "hash": "871fefab451c778056180662111adba5bc22f2aad5bd44e93d0d620860e281ee",
+  "traducao": "Seja\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}}\n{{CMD_8}}\nMultiplique por\n{{MATH_9}}\n{{CMD_10}}\n{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/infLimSqrt2.tex",
+  "ordem": 0,
+  "hash": "871fefab451c778056180662111adba5bc22f2aad5bd44e93d0d620860e281ee",
+  "traducao": "Seja\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}}\n{{CMD_8}}\nMultiplique por\n{{MATH_9}}\n{{CMD_10}}\n{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitLawReview1.tex",
+  "ordem": 0,
+  "hash": "efa167baaf426e42c86c4298b609ecd1556478a86f4553bad0ee25f6bb8b972e",
+  "traducao": "Calcule os limites abaixo.  Não use gráficos, uma tabela de valores nem a regra de L'Hôpital."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitTrueFalse3.tex",
+  "ordem": 0,
+  "hash": "f20f1351f74286d1ca2ea1ad145d6ddc824dc67bc9c377695d6bb77e342928f2",
+  "traducao": "\tSelecione Verdadeiro se a afirmação for {{CMD_1}}sempre{{CMD_2}} verdadeira; caso contrário, selecione Falso."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitTrueFalse3.tex",
+  "ordem": 1,
+  "hash": "2ada5623c7d5497ef48c3fc9ea5b56024c7b09e62883cf8398e88a7ef9c4758c",
+  "traducao": "\tSeja {{MATH_3}} uma função injetora e {{MATH_4}} sua inversa.  Se o ponto {{MATH_5}} está no gráfico de {{MATH_6}}, então o ponto {{MATH_7}} está no gráfico de {{MATH_8}}.\n\t{{CMD_9}}\n\t\t{{CMD_10}}Verdadeiro{{CMD_11}}\n\t\t{{CMD_12}}Falso{{CMD_13}}\n\t{{CMD_14}}\n\t{{CMD_15}}\n\t\tO gráfico de {{MATH_16}} contém todos os pontos da forma {{MATH_17}}, enquanto o gráfico de {{MATH_18}} contém todos os pontos da forma {{MATH_19}}.\n\t{{CMD_20}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitTrueFalse3.tex",
+  "ordem": 2,
+  "hash": "e0a7b3988107c3185c5841adc33d778b859c838be629535937a0060315cbaa44",
+  "traducao": "\t\tSe {{MATH_21}} e {{MATH_22}} são duas funções definidas em {{MATH_23}} e se {{MATH_24}}, então necessariamente {{MATH_25}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitTrueFalse3.tex",
+  "ordem": 3,
+  "hash": "52e940c98b8ccc920fb9ce5dd988a4364dd7224041251cff896e1a6c55f1da3c",
+  "traducao": "Verdadeiro{{CMD_26}}\n\t\t\t{{CMD_27}}Falso{{CMD_28}}\n\t\t{{CMD_29}}\n\t\t{{CMD_30}}\n\t\t\tSe {{MATH_31}} e {{MATH_32}}, então {{MATH_33}}\n\t\t{{CMD_34}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitTrueFalse3.tex",
+  "ordem": 4,
+  "hash": "c7973d773d9665bc7b8fa60dd60fbfec96b124cd65c3676bc3747664a9b6de0b",
+  "traducao": "    \t\t\tSe {{MATH_35}} é contínua em {{MATH_36}} e se {{MATH_37}} e {{MATH_38}}, então {{MATH_39}}.\n\t    \t\t{{CMD_40}}\n    \t\t\t\t{{CMD_41}}Verdadeiro{{CMD_42}}\n    \t\t\t\t{{CMD_43}}Falso{{CMD_44}}\n    \t\t\t{{CMD_45}}\n\n    \t\t\t{{CMD_46}}\n    \t\t\t\tComo {{MATH_47}} é contínua em 0, sabemos que {{MATH_48}}, então podemos usar a lei do limite do quociente para calcular {{MATH_49}}.\n    \t\t\t{{CMD_50}}\n\n   \t \t\t{{CMD_51}}\n    \t\t\t\tSeja {{MATH_52}} uma função positiva com assíntota vertical {{MATH_53}}; então {{MATH_54}}.\n    \t\t\t\t{{CMD_55}}\n    \t\t\t\t\t{{CMD_56}}Verdadeiro{{CMD_57}}\n    \t\t\t\t\t{{CMD_58}}Falso{{CMD_59}}\n    \t\t\t\t{{CMD_60}}\n\n    \t\t\t\t{{CMD_61}}\n    \t\t\t\t\tPode acontecer que {{MATH_62}}, de modo que {{MATH_63}} tem uma assíntota vertical em 5, mas {{MATH_64}}.  Nesse caso, {{MATH_65}} não existe.\n    \t\t\t\t{{CMD_66}}\n    \t\t\t{{CMD_67}}\n\t\t{{CMD_68}}\n\t{{CMD_69}}\n{{CMD_70}}\n{{CMD_71}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitsFromGraph1.tex",
+  "ordem": 0,
+  "hash": "efe5ae57f8c9449b01871c3df14f142921f43f4c1c875e6c73ba140812eab07d",
+  "traducao": "O gráfico de uma função {{MATH_1}} é dado na figura abaixo."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitsFromGraph1.tex",
+  "ordem": 1,
+  "hash": "d3470f117b89e5d4223706cc0101010223256263f386b4a842ea70b67f410332",
+  "traducao": "Determine os valores a seguir.  As respostas possíveis são qualquer número, {{MATH_2}}, {{MATH_3}} e {{MATH_4}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitsFromGraph1.tex",
+  "ordem": 2,
+  "hash": "cbd6a8048be14431011a78a3b76862453d3647bfa40c2e261156456ab710c986",
+  "traducao": "A única assíntota vertical de {{MATH_5}} é {{MATH_6}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitsFromGraph1.tex",
+  "ordem": 3,
+  "hash": "6013d4429e2a8610427d1ad57a0940c2b60c03f38215e076bd0f765e38c8eaf0",
+  "traducao": "A única assíntota horizontal de {{MATH_7}} é {{MATH_8}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitsFromGraph1.tex",
+  "ordem": 4,
+  "hash": "0c0d367e5f8aad97a39c3d26eb30a400ffe2bb67fc04e38e5b7de366e1ad432d",
+  "traducao": "Os intervalos de continuidade de {{MATH_9}}, da esquerda para a direita, são {{MATH_10}}, {{MATH_11}}, {{MATH_12}} e {{MATH_13}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitsFromGraph2.tex",
+  "ordem": 0,
+  "hash": "335e64f0f82a91fddd3fa9e6d158d4739ac6cf00d3e34782a551ad5d3eaad5a0",
+  "traducao": "O gráfico de uma função {{MATH_1}} é dado abaixo.  O domínio de {{MATH_2}} é {{MATH_3}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitsFromGraph2.tex",
+  "ordem": 1,
+  "hash": "2e81edb1cb1c0f3d94ea8581bc0d26cb5835ab8f8264402e7ca10af138a7a34a",
+  "traducao": "Determine os valores a seguir.  As respostas possíveis são qualquer número, {{MATH_4}}, {{MATH_5}} e {{MATH_6}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitsFromGraph2.tex",
+  "ordem": 2,
+  "hash": "dbfe0a6fb32aee8384adfa3207a7df073a9d3c56599d3110b6cf015cbf8c454f",
+  "traducao": "Os intervalos de continuidade de {{MATH_7}}, da esquerda para a direita, são {{MATH_8}}, {{MATH_9}}, {{MATH_10}} e {{MATH_11}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitsFromGraph2.tex",
+  "ordem": 3,
+  "hash": "631ac6b6d85e6e9eea4fdc99cc60ead80fc9a5ebf57e84be6084edc13f991407",
+  "traducao": "A única assíntota vertical de {{MATH_12}} é {{MATH_13}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/limitsFromGraph2.tex",
+  "ordem": 4,
+  "hash": "658b650953e73649f31048a8e594fa482bc3595931cc5d350efdfa7cf9eb29b2",
+  "traducao": "As assíntotas horizontais de {{MATH_14}}, de baixo para cima, são {{MATH_15}} e {{MATH_16}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes1.tex",
+  "ordem": 0,
+  "hash": "a68e63bf5d290098e662037fad49b32cccddbf3076fec067930c06b1c7f38df4",
+  "traducao": "Seja {{MATH_1}} definida por\n{{MATH_2}}\nonde {{MATH_3}} é uma constante."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes1.tex",
+  "ordem": 1,
+  "hash": "565b0c3afb81a61b8674a4f1f265016b4700c190580c3a9bdfd001598e7ea7e8",
+  "traducao": "Determine se os limites a seguir existem e, se existirem, calcule-os analiticamente usando as leis dos limites e as técnicas para calcular limites.  As respostas possíveis são qualquer número, {{MATH_4}}, {{MATH_5}} e {{MATH_6}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes1.tex",
+  "ordem": 2,
+  "hash": "74346036f827e8637d65919f1e1df9fe0ede3e67beea94b2aad8b4ea364ae90f",
+  "traducao": "Para que {{MATH_7}} seja contínua em 2, devemos ter\n{{MATH_8}}\nE assim sabemos que {{MATH_9}} se {{MATH_10}} é contínua.\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes1.tex",
+  "ordem": 3,
+  "hash": "77f735ad9338c3d1c4c5cd5db8d2f71127075decc8e19a438134cc38b8635594",
+  "traducao": "Pelo que calculamos acima, a única assíntota vertical de {{MATH_12}} é {{MATH_13}}.\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes1.tex",
+  "ordem": 4,
+  "hash": "5e5c3b47560087da087cd7960abc509c1ea58bc82c9bf2ed49048ea1c13387bf",
+  "traducao": "Portanto, a única assíntota horizontal de {{MATH_15}} é {{MATH_16}}.\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes2.tex",
+  "ordem": 0,
+  "hash": "e316edf04707ed23c98d4184355096e006a467736836fdfb6187e6fb04e4f618",
+  "traducao": "Considere a função {{MATH_1}}, com parâmetro desconhecido {{MATH_2}}, dada abaixo."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes2.tex",
+  "ordem": 1,
+  "hash": "fce6a30f21fa44076bcb9a01fee9d1e63dd5815a49423df7dbc1380bd79a23b8",
+  "traducao": "O valor de {{MATH_3}} para o qual {{MATH_4}} é contínua em {{MATH_5}} é {{MATH_6}} ."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes2.tex",
+  "ordem": 2,
+  "hash": "45d6ea8626a3ce47b2ca097fb3587619d76a12f4fdfe59e851c8ff2863ce9f95",
+  "traducao": "Calcule os limites."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes2.tex",
+  "ordem": 3,
+  "hash": "d0bc4ba37cc6501923880645901caa9ea2bc7e917efedfb072e2c732027e7d8a",
+  "traducao": " tem as assíntotas horizontais (de baixo para cima) {{MATH_7}} e {{MATH_8}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes2.tex",
+  "ordem": 4,
+  "hash": "a513a76cc54151251a0e025a9905ea2faa7c278cc17b5d79eb0b3365725ad548",
+  "traducao": "Selecione abaixo todas as assíntotas verticais de {{MATH_9}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes3.tex",
+  "ordem": 0,
+  "hash": "3c7a75720c126c24fc959a930fc5a40a0ae182955741932d3c78dc03b4bf6865",
+  "traducao": "Seja {{MATH_1}} dada abaixo."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes3.tex",
+  "ordem": 1,
+  "hash": "44faa86fd41773d5a58b0bb6c1d6c7f7f501201f6beba539271187666a9e3b3b",
+  "traducao": "Calcule o que se pede a seguir.  As respostas possíveis são qualquer número, {{MATH_2}}, {{MATH_3}} e {{MATH_4}}.  Não use gráficos, uma tabela de valores nem a regra de L'Hôpital."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes3.tex",
+  "ordem": 2,
+  "hash": "cbd6a8048be14431011a78a3b76862453d3647bfa40c2e261156456ab710c986",
+  "traducao": "A única assíntota vertical de {{MATH_5}} é {{MATH_6}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/piecewiseAsymptotes3.tex",
+  "ordem": 3,
+  "hash": "6013d4429e2a8610427d1ad57a0940c2b60c03f38215e076bd0f765e38c8eaf0",
+  "traducao": "A única assíntota horizontal de {{MATH_7}} é {{MATH_8}}."
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/quadOverSquareLinear1.tex",
+  "ordem": 0,
+  "hash": "519a0725a0b514a6fc26bf389ec8c673eaa869194da8313fe3ccc5b4eed054ec",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}} {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/quadOverSquareLinear10.tex",
+  "ordem": 0,
+  "hash": "519a0725a0b514a6fc26bf389ec8c673eaa869194da8313fe3ccc5b4eed054ec",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}} {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/quadOverSquareLinear12.tex",
+  "ordem": 0,
+  "hash": "519a0725a0b514a6fc26bf389ec8c673eaa869194da8313fe3ccc5b4eed054ec",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}} {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/quadOverSquareLinear5.tex",
+  "ordem": 0,
+  "hash": "519a0725a0b514a6fc26bf389ec8c673eaa869194da8313fe3ccc5b4eed054ec",
+  "traducao": "Considere\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}} {{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/quadraticVerticalAsymptotes6.tex",
+  "ordem": 0,
+  "hash": "6a47c0071331493d7e8aec618093d46360fa2fcd22ad4e0a1c94302f49406ed1",
+  "traducao": "Considere\n{{MATH_1}}\nDetermine todas as assíntotas verticais.\n{{CMD_2}}\n{{CMD_3}}\n{{CMD_4}}Existem assíntotas verticais{{CMD_5}}\n{{CMD_6}}Não existem assíntotas verticais{{CMD_7}}\n{{CMD_8}}\n{{CMD_9}}Escreva suas respostas da menor para a maior:\n{{MATH_10}}\n{{CMD_11}}\n{{CMD_12}}\n{{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "asymptotesAsLimits/exercises/rtnlFxnLimitAtInf3.tex",
+  "ordem": 0,
+  "hash": "871fefab451c778056180662111adba5bc22f2aad5bd44e93d0d620860e281ee",
+  "traducao": "Seja\n{{MATH_1}}\nCalcule\n{{CMD_2}}\n{{CMD_3}} {{MATH_4}}\n{{CMD_5}} {{MATH_6}}\n{{CMD_7}}\n{{CMD_8}}\nMultiplique por\n{{MATH_9}}\n{{CMD_10}}\n{{CMD_11}}\n{{CMD_12}}"
+ }
+]

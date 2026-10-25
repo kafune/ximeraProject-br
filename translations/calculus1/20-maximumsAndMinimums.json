@@ -1,0 +1,998 @@
+[
+ {
+  "arquivo": "maximumsAndMinimums/titlePage.tex",
+  "ordem": 0,
+  "hash": "a4953491a8444512c564ff2b861174e9a257abaf6a92aca6915af6ccb7147792",
+  "traducao": "Máximos e mínimos{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n{{COMMENT_5}}\n{{CMD_6}}\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Ao concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/titlePage.tex",
+  "ordem": 2,
+  "hash": "fe59abc6dbed0e9d371c89b9cecb9c8b41d25d59c4bda51e34220eff0c0c4c03",
+  "traducao": " Definir ponto crítico.\n\t{{CMD_8}} Encontrar pontos críticos.\n\t{{COMMENT_9}}\n\t{{COMMENT_10}}\n\t{{CMD_11}} Definir máximo local e mínimo local.\n\t{{COMMENT_12}}\n\t{{COMMENT_13}}\n\t{{CMD_14}} Classificar pontos críticos.\n\t{{CMD_15}} Enunciar o teste da primeira derivada.\n\t{{CMD_16}} Aplicar o teste da primeira derivada.\n\t{{CMD_17}} Definir pontos de inflexão.\n\t{{CMD_18}} Encontrar pontos de inflexão.\n\t{{CMD_19}} Enunciar o teste da segunda derivada.\n\t{{CMD_20}} Aplicar o teste da segunda derivada.\n{{CMD_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/breakGround.tex",
+  "ordem": 0,
+  "hash": "a831a612bd4990eee51f2d561417b637b4ea1d24e760164b18b6c07ee220c9d7",
+  "traducao": "Mais café{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos testemunham os perigos de beber café\ndemais.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/breakGround.tex",
+  "ordem": 1,
+  "hash": "90b25dc84a513682c518c9f9c67238ac92f7beb7f64e96423c01057e3eadb657",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma\nhistória real):"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/breakGround.tex",
+  "ordem": 2,
+  "hash": "bdcbbe6e4648c94f9edb919368ed7d53ce2772a645e44870ed3d5f4ccb48c98f",
+  "traducao": " Riley! \n{{CMD_7}} Sim, Devyn?\n{{CMD_8}} Você gosta de café? Eu gosto de café! Às vezes eu me sinto\n  muito ``mal'', lento e cansado. Aí eu tomo café e me sinto\n  bem! Às vezes eu tomo muito café!\n{{CMD_9}} Hum?\n{{CMD_10}} Mas o problema é o seguinte: se eu tomo café demais, eu\n  fico agitado demais e não consigo parar de falar. Eu só tomo café\n  e falo. Depois tomo mais café. Depois começo a passar mal. Eca. Eu\n  tenho uma relação de amor e ódio com o café.\n{{CMD_11}} Se ao menos houvesse uma solução de cálculo para esse problema!\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/breakGround.tex",
+  "ordem": 3,
+  "hash": "06b737ac5a820212f56b4f537e7025ca841d131eb3ce5012cfe7c4a3725beff5",
+  "traducao": "Lembre-se: cálculo é o estudo de funções. Se conseguirmos ``enxergar'' uma função na conversa acima, talvez consigamos descobrir como resolver o problema."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/breakGround.tex",
+  "ordem": 4,
+  "hash": "d10f32747a07cd9e3726abcc4303fed8864bdaefee6611abb8fe447d27b09857",
+  "traducao": "  Se fôssemos tentar resolver o problema do café de Devyn, qual seria a melhor\n  função a conhecer?\n  {{CMD_13}}\n    {{CMD_14}}Quantas rosquinhas Devyn come.{{CMD_15}}\n    {{CMD_16}}Quão ``bem'' Devyn se sente depois de {{MATH_17}} xícaras de café.{{CMD_18}}\n    {{CMD_19}}Quantas xícaras de café Devyn toma quando Devyn se sente {{MATH_20}} ``bem''.{{CMD_21}}\n    {{CMD_22}}Impossível dizer.{{CMD_23}}\n  {{CMD_24}}\n{{CMD_25}}\n  Se tomarmos {{MATH_26}} como ``Quão `bem' Devyn se sente depois de {{MATH_27}} xícaras de\n  café'' e pensarmos no que Devyn diz acima, existe uma quantidade que Devyn pode tomar para se sentir o máximo possível ``bem''?\n  {{CMD_28}}\n    {{CMD_29}}sim{{CMD_30}}\n    {{CMD_31}}não{{CMD_32}}\n  {{CMD_33}}\n  {{CMD_34}}\n    ``Sim'' provavelmente é a melhor resposta, embora estejamos supondo que\n    Devyn se sente ``mal'' sem café suficiente, ``bem'' com um pouco e\n    ``mal'' de novo com mais, com a função crescendo continuamente e depois\n    decrescendo.\n  {{CMD_35}}\n{{CMD_36}}\n{{CMD_37}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 0,
+  "hash": "218f64b3385c089f6e9bb3ae82ec8c7bbabe3ffc41ce7bbf5e10e56549c2b3b6",
+  "traducao": "Máximos e mínimos{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nUsamos derivadas para ajudar a localizar extremos.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 1,
+  "hash": "f6e3dc5dbb64c03634282b741a5d8702278ee3aff1a88e230201afc8f2488111",
+  "traducao": "Quer estejamos interessados em uma função como um objeto puramente\nmatemático, quer em conexão com alguma aplicação ao mundo real, muitas\nvezes é útil saber como é o gráfico da função. Podemos obter uma boa\nideia do gráfico usando certas informações cruciais fornecidas pelas\nderivadas da função."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 2,
+  "hash": "59d7583eedc56478b5c51f30726650770d82e6b088ed71882e1b88a97a556f6a",
+  "traducao": "Extremos{{CMD_7}}\nVamos começar com algumas definições.\n{{CMD_8}}{{CMD_9}}{{CMD_10}}\n\t{{CMD_11}}\n\t\t{{CMD_12}} Uma função {{MATH_13}} tem um {{CMD_14}} em {{MATH_15}},\n\t\t\tse {{MATH_16}} para todo {{MATH_17}} no domínio da função.\n\t\t{{CMD_18}} Uma função {{MATH_19}} tem um {{CMD_20}} em {{MATH_21}},\n\t\t\tse {{MATH_22}} para todo {{MATH_23}} no domínio da função.\n\t{{CMD_24}}\n\tUm {{CMD_25}}{{CMD_26}} é um máximo global ou um mínimo global.\n\tEsses pontos também são chamados, ocasionalmente, de {{CMD_27}}.\n{{CMD_28}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 3,
+  "hash": "ee56abe28b24f431da071c1a6e95d807ca710827ee15a863b48abd6b524dedf3",
+  "traducao": "Graficamente, os extremos globais correspondem aos pontos mais alto e mais baixo do gráfico de uma função."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 4,
+  "hash": "55fe28e72ab852d572c6a148c6b389050b898f222fd94093ab71104e3085e263",
+  "traducao": "\tDetermine os extremos globais da função {{MATH_29}}.\n\t{{CMD_30}}\n\t\tExamine o gráfico de {{MATH_31}}.\n\t\t{{CMD_32}}{{ENV_33}}\n\t\t{{COMMENT_34}}\n\t\t{{COMMENT_35}}\n\t\t{{CMD_36}}\n\t\tNão há ponto mais alto nesse gráfico, já que {{MATH_37}}, mas há um ponto mais baixo.\n\n\t\tA função tem um mínimo global em {{MATH_38}} (o vértice da parábola) e não tem máximo global.\n\t{{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 5,
+  "hash": "86edd1d45fd9d82ccb9df27231f0db9c3a76fa48e0cc079f022bdbdd704eb2a4",
+  "traducao": "\tDetermine os extremos globais da função {{MATH_41}}.\n\t{{CMD_42}}\n\t\tExamine o gráfico de {{MATH_43}}.\n\t\t{{CMD_44}}\n\t\t{{ENV_45}}\n\t\t{{CMD_46}}\n\t\tPelo gráfico, {{MATH_47}} tem valor máximo {{MATH_48}}, que ocorre em todos os múltiplos pares de {{MATH_49}}: em {{MATH_50}} para {{MATH_51}} inteiro qualquer.\n\t\tTodos esses pontos são máximos globais.\n\n\t\tO valor mínimo {{MATH_52}} ocorre nos múltiplos ímpares de {{MATH_53}}: em {{MATH_54}} para {{MATH_55}} inteiro qualquer.\n\t\tTodos esses pontos são mínimos globais."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 6,
+  "hash": "58a96fe7dcd6c84410d80106b553ec109049c53c0b0d5594cf2788cc23e95fbd",
+  "traducao": "As derivadas serão mais úteis quando considerarmos não os extremos globais, mas suas versões locais.\nUm {{CMD_56}}extremo local{{CMD_57}} de uma função {{MATH_58}} é um ponto {{MATH_59}} do gráfico de {{MATH_60}} em que a\ncoordenada {{MATH_61}} é maior (ou menor) do que todas as outras coordenadas {{MATH_62}}\n dos pontos do gráfico cujas coordenadas {{MATH_63}} estão ``próximas de'' {{MATH_64}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 7,
+  "hash": "0c85cc7b610b3722e171f97c401848401b66192b1bb770f064ca93b40202126a",
+  "traducao": " Uma função {{MATH_65}} tem um {{CMD_66}} em {{MATH_67}}, se {{MATH_68}} para todo {{MATH_69}} em algum intervalo aberto I que contém {{MATH_70}}.\n\t\t{{CMD_71}} Uma função {{MATH_72}} tem um {{CMD_73}} em {{MATH_74}}, se {{MATH_75}} para todo {{MATH_76}} em algum intervalo aberto I que contém {{MATH_77}}.\n\t{{CMD_78}}\n\tUm {{CMD_79}}{{CMD_80}} é um máximo local\n\tou um mínimo local. Esses pontos também são chamados, às vezes, de {{CMD_81}}.\n{{CMD_82}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 8,
+  "hash": "ad29b69279353c74e5f0c7fab2cd91515f4cd23ae32991b403935281f8e6c014",
+  "traducao": "No próximo exemplo, esclarecemos a definição de mínimo local.\n{{CMD_83}}\n\tConsidere o gráfico de uma função {{MATH_84}}:\n\t{{CMD_85}}\n\t{{ENV_86}}\n\t{{COMMENT_87}}\n\t{{COMMENT_88}}\n\t{{CMD_89}}\n\tIdentifique os extremos locais de {{MATH_90}} e dê uma explicação.\n\t{{CMD_91}}\n\t\tNa figura acima, a função {{MATH_92}} tem um mínimo local em\n\t\t{{MATH_93}}\n\t\tporque podemos encontrar um intervalo {{CMD_94}}aberto{{CMD_95}} {{MATH_96}} (marcado na\n\t\tfigura) que contém o número\n\t\t{{MATH_97}}\n\t\te, para todos os números {{MATH_98}} em {{MATH_99}}, a seguinte afirmação é verdadeira:\n\t\t {{MATH_100}}\n\t{{CMD_101}}\n{{CMD_102}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 9,
+  "hash": "fcd4d40a2b5bf97a60108f233b65b895d2900e42bc7f073b9dd812b22863896a",
+  "traducao": "Os pontos de máximo e de mínimo locais são bastante característicos no gráfico de\numa função e, portanto, são úteis para entender a forma do\ngráfico. Muitos problemas do mundo real e de diferentes áreas da ciência acabam se resumindo a\nencontrar o menor (ou o maior) valor que uma função atinge (por exemplo, podemos querer\nencontrar o custo mínimo com que determinada tarefa pode ser realizada)."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 10,
+  "hash": "57444f274528285c74a11925c63bad650cfce046aa73d5c7929dc90629bb412a",
+  "traducao": "Pontos críticos{{CMD_103}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 11,
+  "hash": "2ab0b1970fd86f39f962d82a1029f055d9eda514096e1e2fe0c77f915b1c2da9",
+  "traducao": "Considere o gráfico da função {{MATH_104}}.\n{{CMD_105}}\n{{ENV_106}}\n{{CMD_107}}\nA função {{MATH_108}} tem quatro extremos locais: em {{MATH_109}}, {{MATH_110}}, {{MATH_111}} e {{MATH_112}}.\nObserve que a função {{MATH_113}} {{CMD_114}}não é derivável{{CMD_115}} em {{MATH_116}} e em {{MATH_117}}.\nObserve que {{MATH_118}} e {{MATH_119}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 12,
+  "hash": "2680108c35dbad18e43199dfd35adaca167e917a6b708267330827cf2b568fd7",
+  "traducao": "Depois desse exemplo, o teorema a seguir não deve ser surpresa."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 13,
+  "hash": "8da076770e1e2d0b0a570bfecd749ba7b21cbeb14cb49a52522022e12b8cb27c",
+  "traducao": "Se {{MATH_120}} tem um extremo local em {{MATH_121}} e {{MATH_122}} é derivável\nem {{MATH_123}}, então {{MATH_124}}.\n{{CMD_125}}\n{{CMD_126}}\n  O Teorema de Fermat diz que, se {{MATH_127}}, então {{MATH_128}} tem um\n  extremo local em {{MATH_129}}?\n  {{CMD_130}}\n    {{CMD_131}}sim{{CMD_132}}\n    {{CMD_133}}não{{CMD_134}}\n  {{CMD_135}}\n  {{CMD_136}}\n    Considere {{MATH_137}}: {{MATH_138}}, mas {{MATH_139}} não tem máximo\n    nem mínimo local em {{MATH_140}}.\n  {{CMD_141}}\n{{CMD_142}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 14,
+  "hash": "a144515a5c2eb4360765aaabb7020ab41c61dad14f6b55276df9a5218ff54b21",
+  "traducao": "O Teorema de Fermat diz que os únicos pontos em que uma função pode\nter um máximo ou mínimo local são pontos em que a derivada é\nzero ou em que a derivada não está definida. Como ilustração do primeiro cenário, considere os gráficos de {{MATH_143}} e {{MATH_144}}.\n{{CMD_145}}\n{{ENV_146}}\n{{COMMENT_147}}\n{{COMMENT_148}}\n{{CMD_149}}\n{{CMD_150}}\n Faça a escolha correta que completa a frase abaixo. {{CMD_151}}\n\n  No ponto {{MATH_152}}, a função {{MATH_153}} tem"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 15,
+  "hash": "0690e9ea06658263e855baf38c6e34b02c043665d0b89b8d6541d7ccd48bf0e0",
+  "traducao": "um máximo local{{CMD_154}}\n    {{CMD_155}}um mínimo local{{CMD_156}}\n    {{CMD_157}}nenhum extremo local{{CMD_158}}\n  {{CMD_159}}\n  {{CMD_160}}\n  {{CMD_161}}\nSelecione a afirmação correta.\n  {{CMD_162}}\n    {{CMD_163}}{{MATH_164}} não está definida{{CMD_165}}\n    {{CMD_166}}{{MATH_167}}{{CMD_168}}\n    {{CMD_169}}{{MATH_170}}{{CMD_171}}\n     {{CMD_172}}{{MATH_173}}{{CMD_174}}\n  {{CMD_175}}\n{{CMD_176}}\n{{CMD_177}}\n Faça a escolha correta que completa a frase abaixo. {{CMD_178}}\n\n  No ponto {{MATH_179}}, a função {{MATH_180}} tem"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 16,
+  "hash": "9640a3f9baf4811a45e80666ffd140ab8dad3cce708f5f6ff77835effc5c8d6e",
+  "traducao": "um máximo local{{CMD_181}}\n    {{CMD_182}}um mínimo local{{CMD_183}}\n    {{CMD_184}}nenhum extremo local{{CMD_185}}\n  {{CMD_186}}\n  {{CMD_187}}\n  {{CMD_188}}\nSelecione a afirmação correta.\n  {{CMD_189}}\n    {{CMD_190}}{{MATH_191}} não está definida{{CMD_192}}\n    {{CMD_193}}{{MATH_194}}{{CMD_195}}\n    {{CMD_196}}{{MATH_197}}{{CMD_198}}\n     {{CMD_199}}{{MATH_200}}{{CMD_201}}\n  {{CMD_202}}\n{{CMD_203}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 17,
+  "hash": "d540b9c3b8ca621a71bf4cfc8e4d8279c4c2bf96d7c3de3546412512b3df4d7e",
+  "traducao": " Faça a escolha correta que completa a frase abaixo. {{CMD_204}}\n\n  No ponto {{MATH_205}}, a função {{MATH_206}} tem"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 18,
+  "hash": "f82a0b25387992cb5b3cec03dc32905d854f8a2764c7592df10129c4fc208b60",
+  "traducao": "um máximo local{{CMD_207}}\n    {{CMD_208}}um mínimo local{{CMD_209}}\n    {{CMD_210}}nenhum extremo local{{CMD_211}}\n  {{CMD_212}}\n  {{CMD_213}}\n  {{CMD_214}}\nSelecione a afirmação correta.\n  {{CMD_215}}\n    {{CMD_216}}{{MATH_217}} não está definida{{CMD_218}}\n    {{CMD_219}}{{MATH_220}}{{CMD_221}}\n    {{CMD_222}}{{MATH_223}}{{CMD_224}}\n     {{CMD_225}}{{MATH_226}}{{CMD_227}}\n  {{CMD_228}}\n{{CMD_229}}\n Como ilustração do segundo cenário, considere os gráficos de {{MATH_230}} e {{MATH_231}}:\n{{CMD_232}}\n{{ENV_233}}\n{{COMMENT_234}}\n{{COMMENT_235}}\n{{CMD_236}}\n{{CMD_237}}\n Faça a escolha correta que completa a frase abaixo. {{CMD_238}}\n\n  No ponto {{MATH_239}}, a função {{MATH_240}} tem"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 19,
+  "hash": "03d3b2c301358e7493c7cac8a041f5faef16f9f551e995e727f45cc8c2aa6d85",
+  "traducao": "um máximo local{{CMD_241}}\n    {{CMD_242}}um mínimo local{{CMD_243}}\n    {{CMD_244}}nenhum extremo local{{CMD_245}}\n  {{CMD_246}}\n  {{CMD_247}}\n  {{CMD_248}}\nSelecione a afirmação correta.\n  {{CMD_249}}\n    {{CMD_250}}{{MATH_251}} não está definida{{CMD_252}}\n    {{CMD_253}}{{MATH_254}}{{CMD_255}}\n    {{CMD_256}}{{MATH_257}}{{CMD_258}}\n     {{CMD_259}}{{MATH_260}}{{CMD_261}}\n  {{CMD_262}}\n{{CMD_263}}\n{{CMD_264}}\n Faça a escolha correta que completa a frase abaixo. {{CMD_265}}\n\n  No ponto {{MATH_266}}, a função {{MATH_267}} tem"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 20,
+  "hash": "d0d82fbd12eb8f10d12df95040db608382781742945decfb8b19b079224e8c9e",
+  "traducao": "um máximo local{{CMD_268}}\n    {{CMD_269}}um mínimo local{{CMD_270}}\n    {{CMD_271}}nenhum extremo local{{CMD_272}}\n  {{CMD_273}}\n  {{CMD_274}}\n  {{CMD_275}}\nSelecione a afirmação correta.\n  {{CMD_276}}\n    {{CMD_277}}{{MATH_278}} não está definida{{CMD_279}}\n    {{CMD_280}}{{MATH_281}}{{CMD_282}}\n    {{CMD_283}}{{MATH_284}}{{CMD_285}}\n     {{CMD_286}}{{MATH_287}}{{CMD_288}}\n  {{CMD_289}}\n{{CMD_290}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 21,
+  "hash": "d7f1de446ad8f564df5779637744e95050954ebe6bbbce25bfd1d6af385006fa",
+  "traducao": "Isso nos leva à próxima definição."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 22,
+  "hash": "f35367f99ca9336c803ec24553508df2ccb0bf9eaaf2fc0af378aa6ceb381f73",
+  "traducao": "  Suponha que uma função {{MATH_291}} esteja definida em um intervalo aberto I que contém um ponto {{MATH_292}}. Então dizemos que a função {{MATH_293}} tem um {{CMD_294}} em {{MATH_295}} se\n  {{MATH_296}}\n Observe que, se uma função {{MATH_297}} tem um ponto crítico em {{MATH_298}}, então o número {{MATH_299}} está dentro de algum intervalo aberto {{MATH_300}}, e {{MATH_301}} está contido no domínio de {{MATH_302}}.\n\n{{CMD_303}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 23,
+  "hash": "c021a469cd5fd385697c1d7d32d1736a0c2cf0528d9d5774e6d1c46d4c17fb90",
+  "traducao": "Ao procurar pontos de máximo e de mínimo locais, tome cuidado para não\ncometer dois tipos de erro:\n{{CMD_304}}\n{{CMD_305}} Você pode se esquecer de que um máximo ou mínimo pode ocorrer onde a\n  derivada não existe e, assim, esquecer de verificar se a\n  derivada existe em todos os pontos.\n{{CMD_306}} Você pode supor que todo lugar em que a derivada é zero é um\n  ponto de máximo ou mínimo local, mas isso não é verdade; considere os\n  gráficos de {{MATH_307}} e {{MATH_308}}.\n{{CMD_309}}\n{{ENV_310}}\n{{COMMENT_311}}\n{{COMMENT_312}}\n{{COMMENT_313}}\n{{CMD_314}}\nEmbora {{MATH_315}}, não há nem máximo nem mínimo em {{MATH_316}}.\n{{CMD_317}}\n{{CMD_318}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 24,
+  "hash": "f29626848b982aaa396c17385cf3811a12d9df89a2ad7334df009bc7e2130078",
+  "traducao": "Como tanto o máximo local quanto o\nmínimo local ocorrem em um ponto crítico, quando localizamos um ponto crítico precisamos determinar qual deles, se algum,\nde fato ocorre.\n{{CMD_319}}\nDetermine todos os pontos de máximo e de mínimo locais da função\n{{MATH_320}}.\n{{CMD_321}}\nEscreva\n{{MATH_322}}\nPodemos facilmente expressar {{MATH_323}} como um produto de seus fatores\n{{MATH_324}}\no que implica que a função {{MATH_325}} tem apenas dois pontos críticos,\n{{MATH_326}} e {{MATH_327}}. Observe que a\nderivada {{MATH_328}} é um polinômio, e polinômios não mudam de\nsinal exceto, possivelmente, em seus zeros. Isso implica que a derivada\n{{MATH_329}} {{CMD_330}}não muda de sinal{{CMD_331}} nos intervalos\n{{MATH_332}},\n{{MATH_333}} e\n{{MATH_334}}, porque esses intervalos não contêm\nnenhum zero de {{MATH_335}}.\n\n{{CMD_336}}\nSelecione a afirmação correta sobre o sinal de {{MATH_337}} nos\nintervalos {{MATH_338}} e\n{{MATH_339}}.\n{{CMD_340}}\n  {{CMD_341}}{{MATH_342}} em {{MATH_343}} e {{MATH_344}} em {{MATH_345}}. {{CMD_346}}\n  {{CMD_347}}{{MATH_348}} em  {{MATH_349}} e {{MATH_350}} em {{MATH_351}}. {{CMD_352}}\n  {{CMD_353}}{{MATH_354}} em {{MATH_355}} e {{MATH_356}} em {{MATH_357}}. {{CMD_358}}\n  {{CMD_359}}{{MATH_360}} em {{MATH_361}} e {{MATH_362}} em {{MATH_363}}{{CMD_364}}\n{{CMD_365}}\n  {{CMD_366}}\n  Se conhecemos o sinal da derivada em um intervalo, também sabemos se a função é crescente ou decrescente nesse intervalo. Isso nos ajudará a determinar se a função tem um extremo local no ponto crítico em que {{MATH_367}}. {{CMD_368}}\n  {{CMD_369}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 25,
+  "hash": "f10203dc695f51f2c4e5f766186931e39feeeae0b155a83439b6f6975e0eff67",
+  "traducao": "No ponto crítico em que {{MATH_370}}, a função {{MATH_371}} tem  {{CMD_372}}\n\n  {{CMD_373}}\n    {{CMD_374}}nenhum extremo local, porque {{MATH_375}} é crescente em {{MATH_376}} e crescente em {{MATH_377}}. {{CMD_378}}\n      {{CMD_379}}um máximo local, porque {{MATH_380}} é crescente em {{MATH_381}} e decrescente em {{MATH_382}}. {{CMD_383}}\n      {{CMD_384}}um mínimo local, porque {{MATH_385}} é decrescente em {{MATH_386}} e crescente em {{MATH_387}}. {{CMD_388}}\n         {{CMD_389}}nenhum extremo local, porque {{MATH_390}} é decrescente em {{MATH_391}} e decrescente em {{MATH_392}}. {{CMD_393}}  {{CMD_394}}\n  {{CMD_395}}\n  {{CMD_396}}\nSelecione a afirmação correta sobre o sinal de {{MATH_397}} nos intervalos {{MATH_398}} e {{MATH_399}}. {{CMD_400}}\n\n  {{CMD_401}}\n    {{CMD_402}}{{MATH_403}} em {{MATH_404}}  e {{MATH_405}} em {{MATH_406}}.{{CMD_407}}\n    {{CMD_408}}{{MATH_409}} em {{MATH_410}} e {{MATH_411}} em {{MATH_412}}.{{CMD_413}}\n       {{CMD_414}}{{MATH_415}} em   {{MATH_416}}  e {{MATH_417}} em {{MATH_418}}.{{CMD_419}}\n         {{CMD_420}}{{MATH_421}} em  {{MATH_422}}  e {{MATH_423}} em {{MATH_424}}.{{CMD_425}}\n  {{CMD_426}}\n  {{CMD_427}}\nNovamente, o sinal da derivada em um intervalo determina se a função é crescente ou decrescente nesse intervalo. Isso nos ajudará a determinar se a função tem um extremo local no ponto crítico em que {{MATH_428}}. {{CMD_429}}\n  {{CMD_430}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 26,
+  "hash": "b18085a97f83a85f8c62f05a470f1ed053ac80e7e0368bd5b0e040af46562dea",
+  "traducao": "No ponto crítico em que {{MATH_431}}, a função {{MATH_432}} tem  {{CMD_433}}\n\n  {{CMD_434}}\n    {{CMD_435}}nenhum extremo local, porque {{MATH_436}} é crescente em {{MATH_437}} e crescente em {{MATH_438}}. {{CMD_439}}\n       {{CMD_440}}um máximo local, porque {{MATH_441}} é crescente em {{MATH_442}} e decrescente em {{MATH_443}}. {{CMD_444}}\n      {{CMD_445}}um mínimo local, porque {{MATH_446}} é decrescente em {{MATH_447}} e crescente em {{MATH_448}}. {{CMD_449}}\n        {{CMD_450}}nenhum extremo local, porque {{MATH_451}} é decrescente em {{MATH_452}} e decrescente em {{MATH_453}}. {{CMD_454}}\n      {{CMD_455}}\n  {{CMD_456}}\n Suas respostas concordam com os gráficos de {{MATH_457}} e {{MATH_458}} mostrados na figura abaixo?\n{{CMD_459}}\n{{ENV_460}}\n{{COMMENT_461}}\n{{COMMENT_462}}\n{{CMD_463}}\n{{CMD_464}}\n{{CMD_465}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 27,
+  "hash": "6902263793208024b878fdc903aa12f58928974766e957aae793ef85cf5a347b",
+  "traducao": "O teste da primeira derivada{{CMD_466}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 28,
+  "hash": "8246673187cbd78952abf6d8b2f3a19ffc6f6c07e520d401c44f33ad7cc32ca0",
+  "traducao": "Vamos explorar mais a fundo e refinar o método da seção anterior para decidir se há um\nmáximo ou mínimo local em um ponto crítico.\n Lembre-se de que\n{{CMD_467}}\n{{CMD_468}} Se {{MATH_469}} em um intervalo, então {{MATH_470}} é crescente nesse intervalo.\n{{CMD_471}} Se {{MATH_472}} em um intervalo, então {{MATH_473}} é decrescente nesse intervalo.\n{{CMD_474}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 29,
+  "hash": "e907374889de3b84cc15615bf3a28ed65ddb0f24c29c9eb5b205cf28f47de3c1",
+  "traducao": "Então, como exatamente a derivada nos diz se há um máximo,\num mínimo ou nenhum dos dois em um ponto? Use o {{CMD_475}}teste da primeira derivada{{CMD_476}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 30,
+  "hash": "46f2d87dec2b3e54cca323a130b4592556e9cc077ec89b580ecc3fa4b3a36d10",
+  "traducao": "Suponha que {{MATH_477}} seja contínua em um intervalo aberto e que {{MATH_478}} tenha um ponto crítico\nem {{MATH_479}}, para algum valor {{MATH_480}} nesse intervalo.\n{{CMD_481}}\n{{CMD_482}} Se {{MATH_483}} à esquerda de {{MATH_484}} e {{MATH_485}} à direita de\n  {{MATH_486}}, então a função {{MATH_487}} tem um máximo local em {{MATH_488}}.\n{{CMD_489}} Se {{MATH_490}} à esquerda de {{MATH_491}} e {{MATH_492}} à direita de\n  {{MATH_493}}, então a função {{MATH_494}} tem um mínimo local em {{MATH_495}}.\n{{CMD_496}} Se {{MATH_497}} tem o mesmo sinal à esquerda e à direita de {{MATH_498}},\n  então a função {{MATH_499}} não tem extremo local em {{MATH_500}}.\n{{CMD_501}}\n{{CMD_502}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 31,
+  "hash": "107db25973931849666530439de4a6191fc10a35cf6ea5711431639192065929",
+  "traducao": "Considere a função\n{{MATH_503}}\nDetermine os intervalos em que {{MATH_504}} é crescente, os intervalos em que {{MATH_505}} é decrescente e\nidentifique os extremos locais de {{MATH_506}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 32,
+  "hash": "e3da81976887bf588c57f61400f83ac990e7be5b3bbcf88a57758527204a7570",
+  "traducao": "Comece calculando\n{{MATH_507}}\nAgora precisamos descobrir em quais intervalos {{MATH_508}} é positiva e em quais é\nnegativa. Para isso, resolva\n{{MATH_509}}\nFatore {{MATH_510}}\n{{ENV_511}}\nPortanto, os pontos críticos (em que {{MATH_512}}) ocorrem em {{MATH_513}}, {{MATH_514}} e\n{{MATH_515}}. Como a derivada, {{MATH_516}}, é um polinômio, ela não muda de sinal nos intervalos entre seus zeros, isto é, entre os pontos críticos. Agora podemos verificar o sinal de {{MATH_517}} em alguns pontos {{CMD_518}}entre{{CMD_519}} os pontos críticos para descobrir\nonde {{MATH_520}} é positiva e onde é negativa:\n{{ENV_521}}\nA partir disso, podemos montar uma quadro de sinais:"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 33,
+  "hash": "4cdacc293360c9bd0f86906aae0696a3d63fd65a9261ccb618f68eb725d482eb",
+  "traducao": "Logo, {{MATH_522}} é crescente em {{MATH_523}} e em {{MATH_524}}, e {{MATH_525}} é\ndecrescente em {{MATH_526}} e em {{MATH_527}}. Além disso, pelo teste da primeira\nderivada, o máximo local está em {{MATH_528}}, enquanto os mínimos locais\nestão em {{MATH_529}} e {{MATH_530}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 34,
+  "hash": "111dde13f851c7dee9e64eb2fa236b77c4cc7fe8fd6de50b3ddf45d869a74ce3",
+  "traducao": "Isso pode ser confirmado examinando os gráficos de {{MATH_531}} e {{MATH_532}}.\n{{CMD_533}}\n{{ENV_534}}\n{{CMD_535}}\n{{CMD_536}}\n{{CMD_537}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 35,
+  "hash": "fa73c8f8aa61294256af5c3e0dfa0cc9ff18c83b745c7eee0437ac40966d4f2c",
+  "traducao": "Assim, vimos que, se {{MATH_538}} é zero em um ponto e crescente em um intervalo que contém esse ponto,\nentão {{MATH_539}} tem um mínimo local nesse ponto. Se {{MATH_540}} é zero em um ponto e\ndecrescente em um intervalo que contém esse ponto, então {{MATH_541}} tem um máximo local nesse\nponto. Portanto, vemos que podemos obter informações sobre {{MATH_542}}\nestudando como {{MATH_543}} varia. Isso nos leva à próxima seção."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 36,
+  "hash": "cc47328815649277cb58a8401ebb1b462a6da495dd891699447076357d278c2b",
+  "traducao": "Pontos de inflexão{{CMD_544}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 37,
+  "hash": "4346a61c7f44938db07acbe5b6a25c2fb07d9f93611150baf12c9f2718b87110",
+  "traducao": "Se estamos tentando entender a forma do gráfico de uma função,\nsaber onde ela tem concavidade para cima e onde tem concavidade para baixo nos ajuda a obter uma\nimagem mais precisa. Vale a pena resumir o que já vimos em\n um único teorema."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 38,
+  "hash": "0afa99d81b0d2dd6178ce3e4c299e6e8012e961a99e7a723c9d8e327082b4dd5",
+  "traducao": "Suponha que {{MATH_545}} exista em um intervalo.\n{{CMD_546}}\n{{CMD_547}} Se {{MATH_548}} em um intervalo, então {{MATH_549}} tem concavidade para cima nesse intervalo.\n{{CMD_550}} Se {{MATH_551}} em um intervalo, então {{MATH_552}} tem concavidade para baixo nesse intervalo.\n{{CMD_553}}\n{{CMD_554}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 39,
+  "hash": "24fc906e1cf649a3d2ac04a56697006982f834628fe38ad80cc5dad675458ae3",
+  "traducao": "De particular interesse são os pontos em que a concavidade muda de\npara cima para para baixo, ou de para baixo para para cima."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 40,
+  "hash": "29b4ad187a2b4904cfeeb95bd1f3b25c14a8d12cd97b8a259dee7f766626fa33",
+  "traducao": "Se {{MATH_555}} é contínua em {{MATH_556}} e sua concavidade muda, de para cima para para baixo\nou de para baixo para para cima, em {{MATH_557}}, então {{MATH_558}} tem um {{CMD_559}} em\n{{MATH_560}}.\n{{CMD_561}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 41,
+  "hash": "0b7caf29fcc080c89b58e4d2084bfdc41dea84f042460d0be868021a0cd8d590",
+  "traducao": "É instrutivo ver alguns exemplos de pontos de inflexão:\n{{CMD_562}}\n{{ENV_563}}\n{{CMD_564}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 42,
+  "hash": "645d83b73a2f485f0628fe89c1a7bb4dd35f94add809c469effe70cd7e37692c",
+  "traducao": "Também é instrutivo ver alguns contraexemplos de pontos de inflexão:\n{{CMD_565}}\n{{ENV_566}}\n{{CMD_567}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 43,
+  "hash": "b82631f05f637a96292613fbcbe16453180c5743f06fb10f9f0cd5267d5fd626",
+  "traducao": "Identificamos pontos de inflexão primeiro encontrando os {{MATH_568}} tais que {{MATH_569}}\né zero ou não está definida e, depois, verificando se {{MATH_570}} de\nfato passa de positiva a negativa ou de negativa a positiva nesses\npontos."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 44,
+  "hash": "f959175fe3115b14a5b53275066b05fc36fe97d319efff2e69ad522403329142",
+  "traducao": "Mesmo que {{MATH_571}}, o ponto determinado por {{MATH_572}} pode {{CMD_573}}não{{CMD_574}}\nser um ponto de inflexão.\n{{CMD_575}}\n{{CMD_576}}\nDescreva a concavidade de {{MATH_577}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 45,
+  "hash": "cf698cf76c35a8f267c0810f820aa8715591251fa6f901a80e3fcac855d5fccb",
+  "traducao": "Para começar, calcule a primeira e a segunda derivada de {{MATH_578}} em\nrelação a {{MATH_579}},\n{{MATH_580}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 46,
+  "hash": "76d1996582100f6dbb3733e1299605e7dddad661673c37d40db85204c75175b2",
+  "traducao": "Como {{MATH_581}}, há potencialmente um ponto de inflexão em\n{{MATH_582}}. Mas, para todo {{MATH_583}}, {{MATH_584}}. Logo, não há ponto de inflexão em {{MATH_585}}. A curva tem\nconcavidade para cima para todo {{MATH_586}} e continua com concavidade para cima para todo {{MATH_587}}.\n{{CMD_588}}\n{{CMD_589}}\n{{CMD_590}}\nDescreva a concavidade de {{MATH_591}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 47,
+  "hash": "24177edb9f4c9d51d4b3bbc03ebb8da9d42c589ffa809ad6a4cf73949c762b71",
+  "traducao": "Para começar, calcule a primeira e a segunda derivada de {{MATH_592}} em\nrelação a {{MATH_593}},\n{{MATH_594}}\nComo {{MATH_595}}, há potencialmente um ponto de inflexão em\n{{MATH_596}}. Usando pontos de teste, notamos que a concavidade de fato muda de para baixo\npara para cima; logo, há um ponto de inflexão em {{MATH_597}}. A curva tem\nconcavidade para baixo para todo {{MATH_598}} e concavidade para cima para todo {{MATH_599}}; veja os\ngráficos de {{MATH_600}} e {{MATH_601}}.\n{{CMD_602}}\n{{ENV_603}}\n{{COMMENT_604}}\n{{COMMENT_605}}\n{{COMMENT_606}}\n{{COMMENT_607}}\n{{CMD_608}}\n{{CMD_609}}\n{{CMD_610}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 48,
+  "hash": "d7c5230fab3df7fb5acccc47b3be784284dd883455d8c8f586fef0b226d4768a",
+  "traducao": "Observe que precisamos calcular e analisar a segunda derivada para\nentender a concavidade, então podemos muito bem tentar usar o teste da segunda\nderivada para máximos e mínimos. Se por algum motivo ele falhar,\npodemos então tentar um dos outros testes."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 49,
+  "hash": "4ee9c13cd43dd866d8c2c57c5b59f57c42ac63ee5493f36742d88eb31269addd",
+  "traducao": "O teste da segunda derivada{{CMD_611}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 50,
+  "hash": "683b3786194c986e57138b52f0e7bf6ab200c59d48073a129ffb5d1856217c4b",
+  "traducao": "Lembre-se do teste da primeira derivada:"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 51,
+  "hash": "5f703a9ac08e9b170adc90bd90d6ed764263dea874bcb15182e87bbf575bd6f7",
+  "traducao": " Se {{MATH_612}} para todo {{MATH_613}} próximo e à esquerda de {{MATH_614}} e {{MATH_615}} para todo {{MATH_616}} próximo e à direita de\n  {{MATH_617}}, então a função {{MATH_618}} tem um máximo local em {{MATH_619}}.\n{{CMD_620}} Se {{MATH_621}} para todo {{MATH_622}} próximo e à esquerda de {{MATH_623}} e {{MATH_624}} para todo {{MATH_625}} próximo e à direita de\n  {{MATH_626}}, então a função {{MATH_627}} tem um mínimo local em {{MATH_628}}.\n{{CMD_629}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 52,
+  "hash": "478b92ba856e5168bf2007dab6202df25892804d83559f3e85258a4b8ecf2d3b",
+  "traducao": "Suponha que uma função {{MATH_630}} tenha um ponto crítico em {{MATH_631}} e que {{MATH_632}}.\nSe {{MATH_633}} for decrescente em algum intervalo que contém {{MATH_634}}, então ela passa de positiva a negativa em {{MATH_635}}.\nPortanto, se {{MATH_636}} é negativa em algum intervalo que contém {{MATH_637}},\nentão {{MATH_638}} é certamente decrescente, de modo que há um máximo local no\nponto em questão. Por outro lado, se {{MATH_639}} é crescente, então ela passa de\nnegativa a positiva em {{MATH_640}}. Portanto,\nse {{MATH_641}} é positiva em um intervalo que contém {{MATH_642}}, então\n{{MATH_643}} é certamente crescente, de modo que há um mínimo local no\nponto em questão. Resumimos isso no {{CMD_644}}teste da segunda\n  derivada{{CMD_645}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 53,
+  "hash": "deba766a8c6730733b793fc65f60520c96623b71be1b9c1c0321b5bf8d8be4a8",
+  "traducao": "Suponha que {{MATH_646}} seja contínua em um intervalo aberto e que\n{{MATH_647}} para algum valor de {{MATH_648}} nesse intervalo.\n{{CMD_649}}\n{{CMD_650}} Se {{MATH_651}}, então {{MATH_652}} tem um máximo local em {{MATH_653}}.\n{{CMD_654}} Se {{MATH_655}}, então {{MATH_656}} tem um mínimo local em {{MATH_657}}.\n{{CMD_658}} Se {{MATH_659}}, então o teste é inconclusivo. Nesse caso,\n  {{MATH_660}} pode ou não ter um extremo local em {{MATH_661}}.\n{{CMD_662}}\n{{CMD_663}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 54,
+  "hash": "a1e076fc0edbb16d23848e47a67dc70e9222d00881925ee988cc66fa000d3b68",
+  "traducao": "O teste da segunda derivada costuma ser a maneira mais fácil de identificar pontos de\nmáximo e de mínimo locais. Às vezes o teste falha, e às vezes\na segunda derivada é bastante difícil de calcular. Nesses casos,\nprecisamos recorrer a um dos testes anteriores."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 55,
+  "hash": "cf3dff94dbf7b446f86dc9d759a9be18c0d007c016b03dd16cc2650ec6066d8c",
+  "traducao": "Mais uma vez, considere a função\n{{MATH_664}}\nUse o teste da segunda derivada para localizar os\nextremos locais de {{MATH_665}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 56,
+  "hash": "74c53ed8f8e99a83e7e8d1aa3581f67f64bc37a691200d60301dd913dfb0ee63",
+  "traducao": "Comece calculando\n{{MATH_666}}\nUsando a mesma técnica de antes, encontramos\n{{MATH_667}}\nAgora vamos tentar usar o teste da segunda derivada:\n{{MATH_668}}\nLogo, vemos que {{MATH_669}} tem um mínimo local em {{MATH_670}}, um máximo\nlocal em {{MATH_671}} e um mínimo local em {{MATH_672}}; veja abaixo os gráficos\nde {{MATH_673}} e {{MATH_674}}:\n{{CMD_675}}\n{{ENV_676}}\n{{COMMENT_677}}\n{{COMMENT_678}}\n{{CMD_679}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/digInMaximumsAndMinimums.tex",
+  "ordem": 57,
+  "hash": "dcee99992452d0ab6753216dacfb732847eb1956184e12aca3af65cc22e01d12",
+  "traducao": "  Se {{MATH_680}}, o que o teste da segunda derivada nos diz?\n  {{CMD_681}}\n    {{CMD_682}}A função tem um extremo local em {{MATH_683}}.{{CMD_684}}\n    {{CMD_685}}A função não tem extremo local em {{MATH_686}}.{{CMD_687}}\n    {{CMD_688}}Ele não dá nenhuma informação sobre se a função tem um extremo local em {{MATH_689}}.{{CMD_690}}\n  {{CMD_691}}\n\n{{CMD_692}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/AbsQ6AU15-copy-copy.tex",
+  "ordem": 0,
+  "hash": "a85374ba4b6744fe699735fc1e7d9662f48e3c5c12b3eff07f6ac52f46cb25bb",
+  "traducao": "Classifique pontos críticos.{{CMD_1}}\n{{CMD_2}}Aplique o teste da primeira derivada.{{CMD_3}}\n{{CMD_4}}Aplique o teste da segunda derivada.{{CMD_5}}\n{{CMD_6}}Determine pontos de inflexão.{{CMD_7}}\n{{CMD_8}}Identifique situações em que um máximo ou mínimo absoluto é garantido.{{CMD_9}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/AbsQ6AU15-copy-copy.tex",
+  "ordem": 1,
+  "hash": "b60faf30c422f45f5a5a4695a9e9d7cedc7f35f0df1c1319cfd1ab19b60ee374",
+  "traducao": "Seja {{MATH_10}}. O domínio de {{MATH_11}} é\n{{MATH_12}}.\n{{CMD_13}}\n{{CMD_14}}\n{{CMD_15}}{{MATH_16}} não é contínua em todos os pontos de {{MATH_17}}{{CMD_18}}\n{{CMD_19}}{{MATH_20}} é contínua em {{MATH_21}} para algum {{MATH_22}}{{CMD_23}}\n{{CMD_24}}Existe algum {{MATH_25}} tal que {{MATH_26}} não é contínua em {{MATH_27}}.{{CMD_28}}\n{{CMD_29}}{{MATH_30}} não é contínua em nenhum ponto de {{MATH_31}}{{CMD_32}}\n{{CMD_33}}{{MATH_34}} é contínua em {{MATH_35}} para todo {{MATH_36}}.{{CMD_37}}\n{{CMD_38}}{{MATH_39}} é contínua em {{MATH_40}}{{CMD_41}}\n{{CMD_42}}\n{{CMD_43}}\nAs afirmações anteriores a respeito de {{MATH_44}} são verdadeiras porque\n{{CMD_45}}\n{{CMD_46}}{{MATH_47}} é o produto de duas funções cujos intervalos de continuidade têm união igual a {{MATH_48}}.{{CMD_49}}\n{{CMD_50}}o logaritmo natural não é contínuo.{{CMD_51}}\n{{CMD_52}}o limite {{MATH_53}} existe e é igual a {{MATH_54}}.{{CMD_55}}\n{{CMD_56}}{{MATH_57}} é o produto de duas funções que são contínuas em {{MATH_58}}.{{CMD_59}}\n{{CMD_60}}\n{{CMD_61}}\nEm seguida, vamos classificar os extremos de {{MATH_62}} e determinar se ela tem algum extremo global."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/AbsQ6AU15-copy-copy.tex",
+  "ordem": 2,
+  "hash": "2f38c43664cb2bfde4e5a7ae29ca4b32c851258e7918768e2ae758e37fa95053",
+  "traducao": "Primeiro, calcule\n{{MATH_63}}\n{{CMD_64}}\nA função {{MATH_65}} tem {{MATH_66}} ponto(s) crítico(s).\n{{CMD_67}}\nO único ponto crítico de {{MATH_68}} está localizado em\n{{MATH_69}}\n{{CMD_70}}\nAgora calcule\n{{MATH_71}}\n{{CMD_72}}\nComo o valor de {{MATH_73}} é {{CMD_74}}{{CMD_75}}positivo{{CMD_76}}{{CMD_77}}negativo{{CMD_78}}{{CMD_79}}zero{{CMD_80}}{{CMD_81}}, o extremo local que {{MATH_82}} tem em {{MATH_83}} {{CMD_84}}{{CMD_85}}é um máximo local{{CMD_86}}{{CMD_87}}é um mínimo local{{CMD_88}}{{CMD_89}}não é nem um máximo local nem um mínimo local{{CMD_90}}{{CMD_91}}pode ser um máximo local, um mínimo local ou nenhum dos dois{{CMD_92}}{{CMD_93}}, pelo teste da segunda derivada.\n{{CMD_94}}\nComo {{MATH_95}} é decrescente no intervalo {{MATH_96}} e é crescente no intervalo {{MATH_97}}, {{MATH_98}} {{CMD_99}}{{CMD_100}}não tem mínimo global{{CMD_101}}{{CMD_102}}tem um mínimo global{{CMD_103}}{{CMD_104}} em {{MATH_105}}. O mínimo global de {{MATH_106}} é {{MATH_107}}.\n{{CMD_108}}\nPor outro lado, a função {{MATH_109}} é\n{{CMD_110}}\n{{CMD_111}}crescente em {{MATH_112}}{{CMD_113}}\n{{CMD_114}}decrescente em {{MATH_115}}{{CMD_116}}\n{{CMD_117}}crescente em {{MATH_118}} e decrescente em {{MATH_119}}{{CMD_120}}\n{{CMD_121}}decrescente em {{MATH_122}} e crescente em {{MATH_123}}{{CMD_124}}\n{{CMD_125}}\n{{CMD_126}}\nComo {{MATH_127}} é crescente em {{MATH_128}} e como {{MATH_129}}, segue que, para todo {{MATH_130}},\n{{MATH_131}}\n{{CMD_132}}\nPortanto, em {{MATH_133}}, {{MATH_134}} é positiva e  {{CMD_135}}{{CMD_136}}limitada{{CMD_137}}{{CMD_138}}ilimitada{{CMD_139}}{{CMD_140}}. Portanto, {{MATH_141}} {{CMD_142}}{{CMD_143}}tem um máximo global{{CMD_144}}{{CMD_145}}não tem máximo global, mas tem um máximo local{{CMD_146}}{{CMD_147}}não tem máximo global{{CMD_148}}{{CMD_149}}não tem máximo global, mas pode ter um máximo local{{CMD_150}}{{CMD_151}}.\n{{CMD_152}}\nPor fim, vamos identificar os pontos de inflexão de {{MATH_153}} e os intervalos em que {{MATH_154}} tem concavidade para cima ou para baixo."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/AbsQ6AU15-copy-copy.tex",
+  "ordem": 3,
+  "hash": "e7b991569edd2e9a25d01c5bbdeedc42f424aa7cb546fdd90357c2ec2c48084e",
+  "traducao": "A função {{MATH_155}} tem {{MATH_156}} ponto(s) de inflexão.\n{{CMD_157}}\nComo\n{{MATH_158}}\n{{MATH_159}} é {{CMD_160}}{{CMD_161}}positiva{{CMD_162}}{{CMD_163}}negativa{{CMD_164}}{{CMD_165}} em {{MATH_166}}.\n{{CMD_167}}\nComo {{MATH_168}} para todo {{MATH_169}}, {{MATH_170}} tem {{CMD_171}}{{CMD_172}}concavidade para cima{{CMD_173}}{{CMD_174}}concavidade para baixo{{CMD_175}}{{CMD_176}} em {{MATH_177}}.\n{{CMD_178}}\n{{CMD_179}}\n{{CMD_180}}\n{{CMD_181}}\n{{CMD_182}}\n{{CMD_183}}\n{{CMD_184}}\n{{CMD_185}}\n{{CMD_186}}\n{{CMD_187}}\n{{CMD_188}}\n{{CMD_189}}\n{{CMD_190}}\n{{CMD_191}}\n{{CMD_192}}\n{{CMD_193}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 0,
+  "hash": "9a87acbc73e75a5a146520a901e236bee495301716d00561ff9aff2b7e571b52",
+  "traducao": "Máximos e mínimos locais.{{CMD_1}}\n{{CMD_2}}Pontos críticos.{{CMD_3}}\n{{CMD_4}}Teste da primeira derivada.{{CMD_5}}\n{{CMD_6}}Teste da segunda derivada.{{CMD_7}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 1,
+  "hash": "0208ac0326522bbff2336cc6cba59526f4715615063dc45cd08d3469361e60a1",
+  "traducao": "Seja {{MATH_8}}.{{CMD_9}}\n(a) Determine todos os pontos críticos de {{MATH_10}} e classifique-os, isto é, para cada ponto crítico de {{MATH_11}} decida se ele é um mínimo local, um máximo local ou nenhum dos dois.\n(b) Determine todos os pontos de inflexão de {{MATH_12}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 2,
+  "hash": "90ea3a855a74cea17ea1d91924d2ba4aaf37e4590072f4d7c3e003592ab58f56",
+  "traducao": "(a) Primeiro, temos de calcular {{MATH_13}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 3,
+  "hash": "0673d69ff78439adfb40182f626c701aa63586c0f636a134a72a8cd425151a29",
+  "traducao": "."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 4,
+  "hash": "be29d8afee3a7841313fb8305d8a122214947d1d02cb5244c720991d4290532f",
+  "traducao": "Complete a afirmação abaixo."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 5,
+  "hash": "96e3c3e87518f8a1050dda35b2e47ed6e9a482f58bebbe739b562eecb407b82d",
+  "traducao": "As coordenadas x de todos os pontos críticos de {{MATH_14}} (da esquerda para a direita) são {{MATH_15}}, {{MATH_16}} e {{MATH_17}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 6,
+  "hash": "6530a5efe913864343f17e00733fd931ee472817134de6e0f593f6899e51ce50",
+  "traducao": "Agora calcule\n{{MATH_18}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 7,
+  "hash": "04079fe5aa50b57f97e258afc620d6326710d1a30b2ea576ab39b0cc72fb25b4",
+  "traducao": "Agora, vamos calcular a segunda derivada em todos os pontos críticos de {{MATH_19}} e aplicar o teste da segunda derivada para determinar se a função {{MATH_20}} tem um extremo local em algum desses pontos.\n{{MATH_21}}\n{{CMD_22}}\nComo o valor de {{MATH_23}} é {{CMD_24}}{{CMD_25}}positivo{{CMD_26}}{{CMD_27}}negativo{{CMD_28}}{{CMD_29}}zero{{CMD_30}}{{CMD_31}}, a função {{MATH_32}} {{CMD_33}}{{CMD_34}}tem um máximo local{{CMD_35}}{{CMD_36}}tem um mínimo local{{CMD_37}}{{CMD_38}}não tem nem um máximo local nem um mínimo local{{CMD_39}}{{CMD_40}}possivelmente tem um máximo local, um mínimo local ou nenhum dos dois{{CMD_41}}{{CMD_42}} em {{MATH_43}}, pelo teste da segunda derivada.\n{{MATH_44}}\n{{CMD_45}}\nComo o valor de {{MATH_46}} é {{CMD_47}}{{CMD_48}}positivo{{CMD_49}}{{CMD_50}}negativo{{CMD_51}}{{CMD_52}}zero{{CMD_53}}{{CMD_54}}, a função {{MATH_55}} {{CMD_56}}{{CMD_57}}tem um máximo local{{CMD_58}}{{CMD_59}}tem um mínimo local{{CMD_60}}{{CMD_61}}não tem nem um máximo local nem um mínimo local{{CMD_62}}{{CMD_63}}possivelmente tem um máximo local, um mínimo local ou nenhum dos dois{{CMD_64}}{{CMD_65}} em {{MATH_66}}, pelo teste da segunda derivada."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 8,
+  "hash": "cfd387e460c069c2c4fb1d0ad4da9dd9fdb71ec071a530b65f1aeb2aff74e8a6",
+  "traducao": "Como o valor de {{MATH_67}} é {{CMD_68}}{{CMD_69}}positivo{{CMD_70}}{{CMD_71}}negativo{{CMD_72}}{{CMD_73}}zero{{CMD_74}}{{CMD_75}}, a função {{MATH_76}} {{CMD_77}}{{CMD_78}}tem um máximo local{{CMD_79}}{{CMD_80}}tem um mínimo local{{CMD_81}}{{CMD_82}}não tem nem um máximo local nem um mínimo local{{CMD_83}}{{CMD_84}}possivelmente tem um máximo local, um mínimo local ou nenhum dos dois{{CMD_85}}{{CMD_86}} em {{MATH_87}}, pelo teste da segunda derivada.{{CMD_88}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 9,
+  "hash": "82852696f346909c9cf52eee59c4ca0d36b8f78c9bf8d47f95d3b4f1494dc427",
+  "traducao": "(b) Complete a afirmação abaixo.\n{{CMD_89}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 10,
+  "hash": "b77ad3cd6355a2b980b8a8916d88f2b3a7733445c250e522dd904b93f84ba01a",
+  "traducao": "Como {{MATH_90}}, segue que pontos de inflexão podem ocorrer em (da esquerda para a direita) {{MATH_91}} e {{MATH_92}}.{{CMD_93}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 11,
+  "hash": "963d9ed9d9e08a23b646cc0efe9af7dc8e04a352d0b7ee25117f2d39f94b68f2",
+  "traducao": "Para verificar se a função {{MATH_94}} tem um ponto de inflexão em {{MATH_95}} ou em {{MATH_96}}, temos de verificar o sinal de {{MATH_97}} nos intervalos {{MATH_98}}, {{MATH_99}} e {{MATH_100}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 12,
+  "hash": "f6d7dd434b3b047a33d2a90e9e27ea276adb852676a322b1553380210693aa3d",
+  "traducao": "Como {{MATH_101}}, podemos usar os valores {{MATH_102}}, {{MATH_103}} e {{MATH_104}} para determinar o sinal de {{MATH_105}} nesses intervalos.\n{{CMD_106}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/BranchQ6AU15.tex",
+  "ordem": 13,
+  "hash": "50a9de005fc6fa89bb0a4ffcf373dd855c025cb0a343ee98bf639abd7f3c596b",
+  "traducao": " é {{CMD_107}}{{CMD_108}}positiva{{CMD_109}}{{CMD_110}}negativa{{CMD_111}}{{CMD_112}}zero{{CMD_113}}{{CMD_114}} no intervalo {{MATH_115}}.{{CMD_116}}\n\n  {{MATH_117}} é {{CMD_118}}{{CMD_119}}positiva{{CMD_120}}{{CMD_121}}negativa{{CMD_122}}{{CMD_123}}zero{{CMD_124}}{{CMD_125}} no intervalo {{MATH_126}}.{{CMD_127}}\n\n    {{MATH_128}} é {{CMD_129}}{{CMD_130}}positiva{{CMD_131}}{{CMD_132}}negativa{{CMD_133}}{{CMD_134}}zero{{CMD_135}}{{CMD_136}} no intervalo  {{MATH_137}}.{{CMD_138}}\n  {{CMD_139}}\n Faça a escolha correta.{{CMD_140}}\n\n  A função {{MATH_141}} {{CMD_142}}{{CMD_143}}tem{{CMD_144}}{{CMD_145}}não tem{{CMD_146}}{{CMD_147}} um ponto de inflexão em {{MATH_148}}, porque o sinal de {{MATH_149}} {{CMD_150}}{{CMD_151}}muda{{CMD_152}}{{CMD_153}}não muda{{CMD_154}} {{CMD_155}} em {{MATH_156}}.{{CMD_157}}\n  A função {{MATH_158}} {{CMD_159}}{{CMD_160}}tem{{CMD_161}}{{CMD_162}}não tem{{CMD_163}}{{CMD_164}} um ponto de inflexão em {{MATH_165}}, porque o sinal de {{MATH_166}} {{CMD_167}}{{CMD_168}}muda{{CMD_169}}{{CMD_170}}não muda{{CMD_171}} {{CMD_172}} em {{MATH_173}}.{{CMD_174}}\n\n  {{CMD_175}}\n {{CMD_176}}\n{{CMD_177}}\n{{CMD_178}}\n{{CMD_179}}\n{{CMD_180}}\n{{CMD_181}}\n{{CMD_182}}\n{{CMD_183}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/Q6AU15.tex",
+  "ordem": 0,
+  "hash": "aeb1306fab4758ea9681fe33149e3149b4a4d3a82d41c21bba62013ea18a4a59",
+  "traducao": "Classifique pontos críticos.{{CMD_1}}\n{{CMD_2}}Aplique o teste da primeira derivada.{{CMD_3}}\n{{CMD_4}}Aplique o teste da segunda derivada.{{CMD_5}}\n{{CMD_6}}Determine pontos de inflexão.{{CMD_7}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/Q6AU15.tex",
+  "ordem": 1,
+  "hash": "0df86196459e38672c90c5589a4ee0aa58f523e8f2a0681e418f8864a43ce317",
+  "traducao": "Seja {{MATH_8}}. O domínio de {{MATH_9}} é\n{{MATH_10}}.\n{{CMD_11}}\n{{CMD_12}}\n{{CMD_13}}{{MATH_14}} não é contínua em todos os pontos de {{MATH_15}}{{CMD_16}}\n{{CMD_17}}{{MATH_18}} é contínua em {{MATH_19}} para algum {{MATH_20}}{{CMD_21}}\n{{CMD_22}}Existe algum {{MATH_23}} tal que {{MATH_24}} não é contínua em {{MATH_25}}.{{CMD_26}}\n{{CMD_27}}{{MATH_28}} não é contínua em nenhum ponto de {{MATH_29}}{{CMD_30}}\n{{CMD_31}}{{MATH_32}} é contínua em {{MATH_33}} para todo {{MATH_34}}.{{CMD_35}}\n{{CMD_36}}{{MATH_37}} é contínua em {{MATH_38}}{{CMD_39}}\n{{CMD_40}}\n{{CMD_41}}\nAs afirmações anteriores a respeito de {{MATH_42}} são verdadeiras porque\n{{CMD_43}}\n{{CMD_44}}{{MATH_45}} é o produto de duas funções cujos intervalos de continuidade têm união igual a {{MATH_46}}.{{CMD_47}}\n{{CMD_48}}o logaritmo natural não é contínuo.{{CMD_49}}\n{{CMD_50}}o limite {{MATH_51}} existe e é igual a {{MATH_52}}.{{CMD_53}}\n{{CMD_54}}{{MATH_55}} é o produto de duas funções que são contínuas em {{MATH_56}}.{{CMD_57}}\n{{CMD_58}}\n{{CMD_59}}\nEm seguida, vamos classificar os pontos críticos de {{MATH_60}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/Q6AU15.tex",
+  "ordem": 2,
+  "hash": "e753c60a6d3711724c7e6737bd812ca3bbf07fe9e0150ef94955e788c0446da8",
+  "traducao": "Primeiro, calcule\n{{MATH_61}}\n{{CMD_62}}\nA função {{MATH_63}} tem {{MATH_64}} ponto(s) crítico(s).\n{{CMD_65}}\nO único ponto crítico de {{MATH_66}} está localizado em\n{{MATH_67}}\n{{CMD_68}}\nAgora calcule\n{{MATH_69}}\n{{CMD_70}}\nComo o valor de {{MATH_71}} é {{CMD_72}}{{CMD_73}}positivo{{CMD_74}}{{CMD_75}}negativo{{CMD_76}}{{CMD_77}}zero{{CMD_78}}{{CMD_79}}, o ponto crítico que a função {{MATH_80}} tem em {{MATH_81}} {{CMD_82}}{{CMD_83}}é um máximo local{{CMD_84}}{{CMD_85}}é um mínimo local{{CMD_86}}{{CMD_87}}não é nem um máximo local nem um mínimo local{{CMD_88}}{{CMD_89}}pode ser um máximo local, um mínimo local ou nenhum dos dois{{CMD_90}}{{CMD_91}}, pelo teste da segunda derivada."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/Q6AU15.tex",
+  "ordem": 3,
+  "hash": "592384a8076954c7537515b204d4a0073435283ec7a10cd6fce878065c7dee58",
+  "traducao": "Por fim, vamos identificar os pontos de inflexão de {{MATH_92}} e os intervalos em que {{MATH_93}} tem concavidade para cima ou para baixo."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/Q6AU15.tex",
+  "ordem": 4,
+  "hash": "e0d3956a3b5d030edf084c3d093cffdca891625558b2f0a847eb4e047c82356c",
+  "traducao": "A função {{MATH_94}} tem {{MATH_95}} ponto(s) de inflexão.\n{{CMD_96}}\nComo\n{{MATH_97}}\n{{MATH_98}} é {{CMD_99}}{{CMD_100}}positiva{{CMD_101}}{{CMD_102}}negativa{{CMD_103}}{{CMD_104}} em {{MATH_105}}.\n{{CMD_106}}\nComo {{MATH_107}} para todo {{MATH_108}}, {{MATH_109}} tem {{CMD_110}}{{CMD_111}}concavidade para cima{{CMD_112}}{{CMD_113}}concavidade para baixo{{CMD_114}}{{CMD_115}} em {{MATH_116}}.\n{{CMD_117}}\n{{CMD_118}}\n{{CMD_119}}\n{{CMD_120}}\n{{CMD_121}}\n{{CMD_122}}\n{{CMD_123}}\n{{CMD_124}}\n{{CMD_125}}\n{{CMD_126}}\n{{CMD_127}}\n{{CMD_128}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest1-copy-copy.tex",
+  "ordem": 0,
+  "hash": "e6deddc5b2577cd3f674a6b9b6d052857d5175bb4ea9fe778d28a74bc488842f",
+  "traducao": "A função {{MATH_1}} tem dois pontos críticos.  Se chamarmos esses pontos críticos de {{MATH_2}} e {{MATH_3}}, e os ordenarmos de modo que {{MATH_4}}, então"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest1-copy-copy.tex",
+  "ordem": 1,
+  "hash": "2fdfe23c0a0a79f25a702ad34d4a52c4e82671f673b276c95f486df34b8b946f",
+  "traducao": "Em {{MATH_5}}, {{MATH_6}} é {{CMD_7}}{{CMD_8}}crescente{{CMD_9}} {{CMD_10}}decrescente{{CMD_11}}{{CMD_12}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest1-copy-copy.tex",
+  "ordem": 2,
+  "hash": "4821786c24d6abc095f39144685bfb66856fe07838260d68ea12f224769e8a0a",
+  "traducao": "Em {{MATH_13}}, {{MATH_14}} é {{CMD_15}}{{CMD_16}}crescente{{CMD_17}} {{CMD_18}}decrescente{{CMD_19}}{{CMD_20}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest1-copy-copy.tex",
+  "ordem": 3,
+  "hash": "a9add7cd125e8fed01c3f702308abddc6ef299542f1af30b30d37bd9be7d88e2",
+  "traducao": "Em {{MATH_21}}, {{MATH_22}} é {{CMD_23}}{{CMD_24}}crescente{{CMD_25}} {{CMD_26}}decrescente{{CMD_27}}{{CMD_28}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest1-copy-copy.tex",
+  "ordem": 4,
+  "hash": "3ddabde38810be80c18a88b87266069f74f3fb7a9d2b95f45d76fe54edc48c01",
+  "traducao": "Considere {{MATH_29}} restrita ao domínio {{MATH_30}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest1-copy-copy.tex",
+  "ordem": 5,
+  "hash": "14594ca32b68ddf1910485957ef33882919abdaa7d92777f1c89f6f24b274a3e",
+  "traducao": "Nesse intervalo, o valor máximo absoluto de {{MATH_31}} é {{MATH_32}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest1-copy-copy.tex",
+  "ordem": 6,
+  "hash": "198f7803665e116111ab8238cb8ed4929e2ae39bf92ee812175b0164fdc6378f",
+  "traducao": "Nesse intervalo, o valor mínimo absoluto de {{MATH_33}} é {{MATH_34}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest2-copy-copy.tex",
+  "ordem": 0,
+  "hash": "68be9ce3da04700b2e471c993429602909650fe3fa22ac47ec2a80b96a893208",
+  "traducao": "A função {{MATH_1}} tem apenas um ponto crítico.  Chame esse ponto crítico de {{MATH_2}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest2-copy-copy.tex",
+  "ordem": 1,
+  "hash": "1bfbf8b1dbb07e4a992be71d256119dcc1387a71fb71410fc501b94d4528ca29",
+  "traducao": "Em {{MATH_3}}, {{MATH_4}} é {{CMD_5}}{{CMD_6}}crescente{{CMD_7}} {{CMD_8}}decrescente{{CMD_9}}{{CMD_10}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest2-copy-copy.tex",
+  "ordem": 2,
+  "hash": "50e9529ce27dbd6b7d91b572ffb8d0d70438057a6f8c8d2fd588d88f10cde4b0",
+  "traducao": "Em {{MATH_11}}, {{MATH_12}} é {{CMD_13}}{{CMD_14}}crescente{{CMD_15}} {{CMD_16}}decrescente{{CMD_17}}{{CMD_18}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/absMaxMinFirstDerivativeTest2-copy-copy.tex",
+  "ordem": 3,
+  "hash": "adabfd635282502d26d138fdc73bbe56157208d1dc8e6a3bae57e8c196e90ebe",
+  "traducao": " é um {{CMD_19}}{{CMD_20}}máximo{{CMD_21}} {{CMD_22}}mínimo{{CMD_23}}{{CMD_24}} absoluto"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest1.tex",
+  "ordem": 0,
+  "hash": "e6deddc5b2577cd3f674a6b9b6d052857d5175bb4ea9fe778d28a74bc488842f",
+  "traducao": "A função {{MATH_1}} tem dois pontos críticos.  Se chamarmos esses pontos críticos de {{MATH_2}} e {{MATH_3}}, e os ordenarmos de modo que {{MATH_4}}, então"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest1.tex",
+  "ordem": 1,
+  "hash": "2fdfe23c0a0a79f25a702ad34d4a52c4e82671f673b276c95f486df34b8b946f",
+  "traducao": "Em {{MATH_5}}, {{MATH_6}} é {{CMD_7}}{{CMD_8}}crescente{{CMD_9}} {{CMD_10}}decrescente{{CMD_11}}{{CMD_12}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest1.tex",
+  "ordem": 2,
+  "hash": "4821786c24d6abc095f39144685bfb66856fe07838260d68ea12f224769e8a0a",
+  "traducao": "Em {{MATH_13}}, {{MATH_14}} é {{CMD_15}}{{CMD_16}}crescente{{CMD_17}} {{CMD_18}}decrescente{{CMD_19}}{{CMD_20}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest1.tex",
+  "ordem": 3,
+  "hash": "a9add7cd125e8fed01c3f702308abddc6ef299542f1af30b30d37bd9be7d88e2",
+  "traducao": "Em {{MATH_21}}, {{MATH_22}} é {{CMD_23}}{{CMD_24}}crescente{{CMD_25}} {{CMD_26}}decrescente{{CMD_27}}{{CMD_28}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest2.tex",
+  "ordem": 0,
+  "hash": "68be9ce3da04700b2e471c993429602909650fe3fa22ac47ec2a80b96a893208",
+  "traducao": "A função {{MATH_1}} tem apenas um ponto crítico.  Chame esse ponto crítico de {{MATH_2}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest2.tex",
+  "ordem": 1,
+  "hash": "1bfbf8b1dbb07e4a992be71d256119dcc1387a71fb71410fc501b94d4528ca29",
+  "traducao": "Em {{MATH_3}}, {{MATH_4}} é {{CMD_5}}{{CMD_6}}crescente{{CMD_7}} {{CMD_8}}decrescente{{CMD_9}}{{CMD_10}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest2.tex",
+  "ordem": 2,
+  "hash": "50e9529ce27dbd6b7d91b572ffb8d0d70438057a6f8c8d2fd588d88f10cde4b0",
+  "traducao": "Em {{MATH_11}}, {{MATH_12}} é {{CMD_13}}{{CMD_14}}crescente{{CMD_15}} {{CMD_16}}decrescente{{CMD_17}}{{CMD_18}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest3.tex",
+  "ordem": 0,
+  "hash": "6a61dd2975ae46c603307b5ef54765979f5f7dacf3c49ec738a051724eba2766",
+  "traducao": "A função {{MATH_1}} tem dois pontos\ncríticos e um ponto em que não está definida.  Se chamarmos esses pontos de {{MATH_2}}, {{MATH_3}} e {{MATH_4}}, e os ordenarmos\nde modo que {{MATH_5}}, então"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest3.tex",
+  "ordem": 1,
+  "hash": "9c931c2d9d65d29f879bfe00304a165c0157ff125b0e07f6d4c6aeaa70afc2fd",
+  "traducao": "Em {{MATH_6}}, {{MATH_7}} é {{CMD_8}}{{CMD_9}}crescente{{CMD_10}} {{CMD_11}}decrescente{{CMD_12}}{{CMD_13}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest3.tex",
+  "ordem": 2,
+  "hash": "455891e9a79df95677b2864d52ea23cc222689d71f0cb6beb3c82dbceccf7810",
+  "traducao": "Em {{MATH_14}}, {{MATH_15}} é {{CMD_16}}{{CMD_17}}crescente{{CMD_18}} {{CMD_19}}decrescente{{CMD_20}}{{CMD_21}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest3.tex",
+  "ordem": 3,
+  "hash": "fe7e9aa34ebd7c17500f37b756c6779c1cbd6b97d4e8adbdc6476862881533a4",
+  "traducao": "Em {{MATH_22}}, {{MATH_23}} é {{CMD_24}}{{CMD_25}}crescente{{CMD_26}} {{CMD_27}}decrescente{{CMD_28}}{{CMD_29}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest3.tex",
+  "ordem": 4,
+  "hash": "79c08c76d933824745798f0f6d6ffcc57d73e1b10b3b48163cc02684050e04e0",
+  "traducao": "Em {{MATH_30}}, {{MATH_31}} é {{CMD_32}}{{CMD_33}}crescente{{CMD_34}} {{CMD_35}}decrescente{{CMD_36}}{{CMD_37}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest3.tex",
+  "ordem": 5,
+  "hash": "b5058ab37ee1652131b4e97a8cd9abd97664678320f40d651b9ca6654542a9ca",
+  "traducao": " é um {{CMD_38}}{{CMD_39}}máximo local{{CMD_40}} {{CMD_41}}mínimo local{{CMD_42}} {{CMD_43}}nenhum dos dois{{CMD_44}}{{CMD_45}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest3.tex",
+  "ordem": 6,
+  "hash": "9a1bb7c88e75b27a32cda2a6b723e3dbf32b29bd7ed79ae108443b53da770772",
+  "traducao": " é um {{CMD_46}}{{CMD_47}}máximo local{{CMD_48}} {{CMD_49}}mínimo local{{CMD_50}} {{CMD_51}}nenhum dos dois{{CMD_52}}{{CMD_53}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest3.tex",
+  "ordem": 7,
+  "hash": "a626f808ebcc0591c525f9621a57917ef9b7bc2d17327100e226f16469ea7fb1",
+  "traducao": " é um {{CMD_54}}{{CMD_55}}máximo local{{CMD_56}} {{CMD_57}}mínimo local{{CMD_58}} {{CMD_59}}nenhum dos dois{{CMD_60}}{{CMD_61}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest5.tex",
+  "ordem": 0,
+  "hash": "d3f0309ed354350ec00ac1a19557c5371705bef6f6251739319298979e23f33a",
+  "traducao": "A função {{MATH_1}} tem dois pontos críticos.  Se\nchamarmos esses pontos críticos de {{MATH_2}} e {{MATH_3}}, e os ordenarmos de modo que {{MATH_4}}, então"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest5.tex",
+  "ordem": 1,
+  "hash": "43eb75d5967d7820b5960a5bb15885e07987e2c694e2520810324b1af9f5db98",
+  "traducao": "Em {{MATH_5}}, {{MATH_6}} é {{CMD_7}}{{CMD_8}}crescente{{CMD_9}} {{CMD_10}}decrescente{{CMD_11}}{{CMD_12}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest5.tex",
+  "ordem": 2,
+  "hash": "4821786c24d6abc095f39144685bfb66856fe07838260d68ea12f224769e8a0a",
+  "traducao": "Em {{MATH_13}}, {{MATH_14}} é {{CMD_15}}{{CMD_16}}crescente{{CMD_17}} {{CMD_18}}decrescente{{CMD_19}}{{CMD_20}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest5.tex",
+  "ordem": 3,
+  "hash": "a9add7cd125e8fed01c3f702308abddc6ef299542f1af30b30d37bd9be7d88e2",
+  "traducao": "Em {{MATH_21}}, {{MATH_22}} é {{CMD_23}}{{CMD_24}}crescente{{CMD_25}} {{CMD_26}}decrescente{{CMD_27}}{{CMD_28}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest5.tex",
+  "ordem": 4,
+  "hash": "dce8d019e8cbb3db55063cd12394b1e5fc65a4696246a3d1b87ccac4d5813e79",
+  "traducao": " é um {{CMD_29}}{{CMD_30}}máximo local{{CMD_31}} {{CMD_32}}mínimo local{{CMD_33}} {{CMD_34}}nenhum dos dois{{CMD_35}}{{CMD_36}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFirstDerivativeTest5.tex",
+  "ordem": 5,
+  "hash": "a360c7835d7230f449f17e7ba7d733781dc14838e2f02c58179c4d10d9ba5a9f",
+  "traducao": " é um {{CMD_37}}{{CMD_38}}máximo local{{CMD_39}} {{CMD_40}}mínimo local{{CMD_41}} {{CMD_42}}nenhum dos dois{{CMD_43}}{{CMD_44}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFromGraph1.tex",
+  "ordem": 0,
+  "hash": "9c3ee0f0791592c9d045b2e2eab1c26a09dcdb46fc9a53e3597630f1ad0d1bad",
+  "traducao": "  Seja {{MATH_1}} uma função definida em {{MATH_2}}. O gráfico de {{MATH_3}} é dado na figura abaixo.\n\n  {{CMD_4}}\n  {{ENV_5}}\n  {{CMD_6}}\n  Selecione todos os valores de {{MATH_7}} em que a função {{MATH_8}} tem um ponto crítico.\n\n{{CMD_9}}\n{{CMD_10}}{{MATH_11}}{{CMD_12}}\n{{CMD_13}}{{MATH_14}}{{CMD_15}}\n{{CMD_16}}{{MATH_17}}{{CMD_18}}\n{{CMD_19}}{{MATH_20}}{{CMD_21}}\n{{CMD_22}}{{MATH_23}}{{CMD_24}}\n{{CMD_25}}{{MATH_26}}{{CMD_27}}\n{{CMD_28}}{{MATH_29}}{{CMD_30}}\n{{CMD_31}}{{MATH_32}}{{CMD_33}}\n{{CMD_34}}{{MATH_35}}{{CMD_36}}\n{{CMD_37}}{{MATH_38}}{{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFromGraph1.tex",
+  "ordem": 1,
+  "hash": "1a52f175b765e3651c15b8d66ab0aea049d853d46d53071ead1849c9c884cb92",
+  "traducao": "    Selecione todos os valores de {{MATH_41}} em que a função {{MATH_42}} tem um ponto crítico tal que {{MATH_43}}.\n{{CMD_44}}\n{{CMD_45}}{{MATH_46}}{{CMD_47}}\n{{CMD_48}}{{MATH_49}}{{CMD_50}}\n{{CMD_51}}{{MATH_52}}{{CMD_53}}\n{{CMD_54}}{{MATH_55}}{{CMD_56}}\n{{CMD_57}}{{MATH_58}}{{CMD_59}}\n{{CMD_60}}{{MATH_61}}{{CMD_62}}\n{{CMD_63}}{{MATH_64}}{{CMD_65}}\n{{CMD_66}}{{MATH_67}}{{CMD_68}}\n{{CMD_69}}{{MATH_70}}{{CMD_71}}\n{{CMD_72}}{{MATH_73}}{{CMD_74}}\n{{CMD_75}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFromGraph1.tex",
+  "ordem": 2,
+  "hash": "493f3576367f8c2ba24550924f38e1ac97b6aed855a8d45bb7cb5dd3eed94520",
+  "traducao": "    Selecione todos os valores de {{MATH_76}} em que a função {{MATH_77}} tem um ponto crítico tal que {{MATH_78}} não está definida.\n{{CMD_79}}\n{{CMD_80}}{{MATH_81}}{{CMD_82}}\n{{CMD_83}}{{MATH_84}}{{CMD_85}}\n{{CMD_86}}{{MATH_87}}{{CMD_88}}\n{{CMD_89}}{{MATH_90}}{{CMD_91}}\n{{CMD_92}}{{MATH_93}}{{CMD_94}}\n{{CMD_95}}{{MATH_96}}{{CMD_97}}\n{{CMD_98}}{{MATH_99}}{{CMD_100}}\n{{CMD_101}}{{MATH_102}}{{CMD_103}}\n{{CMD_104}}{{MATH_105}}{{CMD_106}}\n{{CMD_107}}{{MATH_108}}{{CMD_109}}\n{{CMD_110}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFromGraph1.tex",
+  "ordem": 3,
+  "hash": "002234c06184ef56723936a04dc653c1ad0972589cf5da8b9197d286d9c432db",
+  "traducao": "    Selecione todos os valores de {{MATH_111}} em que a função {{MATH_112}} tem um ponto crítico, mas não tem extremo local.\n{{CMD_113}}\n{{CMD_114}}{{MATH_115}}{{CMD_116}}\n{{CMD_117}}{{MATH_118}}{{CMD_119}}\n{{CMD_120}}{{MATH_121}}{{CMD_122}}\n{{CMD_123}}{{MATH_124}}{{CMD_125}}\n{{CMD_126}}{{MATH_127}}{{CMD_128}}\n{{CMD_129}}{{MATH_130}}{{CMD_131}}\n{{CMD_132}}{{MATH_133}}{{CMD_134}}\n{{CMD_135}}{{MATH_136}}{{CMD_137}}\n{{CMD_138}}{{MATH_139}}{{CMD_140}}\n{{CMD_141}}{{MATH_142}}{{CMD_143}}\n{{CMD_144}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFromGraph1.tex",
+  "ordem": 4,
+  "hash": "3659019fc4d6ad6b0e0a4224e56d0cd6c7ed54bf29028918dce37c0e2eceb433",
+  "traducao": "    Selecione todos os valores de {{MATH_145}} em que a função {{MATH_146}} tem um mínimo local.\n{{CMD_147}}\n{{CMD_148}}{{MATH_149}}{{CMD_150}}\n{{CMD_151}}{{MATH_152}}{{CMD_153}}\n{{CMD_154}}{{MATH_155}}{{CMD_156}}\n{{CMD_157}}{{MATH_158}}{{CMD_159}}\n{{CMD_160}}{{MATH_161}}{{CMD_162}}\n{{CMD_163}}{{MATH_164}}{{CMD_165}}\n{{CMD_166}}{{MATH_167}}{{CMD_168}}\n{{CMD_169}}{{MATH_170}}{{CMD_171}}\n{{CMD_172}}{{MATH_173}}{{CMD_174}}\n{{CMD_175}}{{MATH_176}}{{CMD_177}}\n{{CMD_178}}\n{{CMD_179}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFromGraph1.tex",
+  "ordem": 5,
+  "hash": "a69644e703783fd409eb53d0994081400bca2118c65870c4bab71c051786f2ae",
+  "traducao": "    Selecione todos os valores de {{MATH_180}} em que a função {{MATH_181}} tem um máximo local.\n{{CMD_182}}\n{{CMD_183}}{{MATH_184}}{{CMD_185}}\n{{CMD_186}}{{MATH_187}}{{CMD_188}}\n{{CMD_189}}{{MATH_190}}{{CMD_191}}\n{{CMD_192}}{{MATH_193}}{{CMD_194}}\n{{CMD_195}}{{MATH_196}}{{CMD_197}}\n{{CMD_198}}{{MATH_199}}{{CMD_200}}\n{{CMD_201}}{{MATH_202}}{{CMD_203}}\n{{CMD_204}}{{MATH_205}}{{CMD_206}}\n{{CMD_207}}{{MATH_208}}{{CMD_209}}\n{{CMD_210}}{{MATH_211}}{{CMD_212}}\n{{CMD_213}}\n{{CMD_214}}\n{{CMD_215}}\n   {{CMD_216}}\n  {{ENV_217}}\n  {{CMD_218}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinFromGraph1.tex",
+  "ordem": 6,
+  "hash": "09cc962deab9f130a2c07bf48e4d719d81cf42808ad85d49668eef66112bb050",
+  "traducao": "    Selecione todos os valores de {{MATH_219}} em que a função {{MATH_220}} tem um ponto de inflexão.\n{{CMD_221}}\n{{CMD_222}}{{MATH_223}}{{CMD_224}}\n{{CMD_225}}{{MATH_226}}{{CMD_227}}\n{{CMD_228}}{{MATH_229}}{{CMD_230}}\n{{CMD_231}}{{MATH_232}}{{CMD_233}}\n{{CMD_234}}{{MATH_235}}{{CMD_236}}\n{{CMD_237}}{{MATH_238}}{{CMD_239}}\n{{CMD_240}}{{MATH_241}}{{CMD_242}}\n{{CMD_243}}{{MATH_244}}{{CMD_245}}\n{{CMD_246}}{{MATH_247}}{{CMD_248}}\n{{CMD_249}}{{MATH_250}}{{CMD_251}}\n{{CMD_252}}\n{{CMD_253}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest1.tex",
+  "ordem": 0,
+  "hash": "9aa52e1a860149d6172c4ff3e538c5a1cc904422f6a45607254a2a81b30a401c",
+  "traducao": "A função {{MATH_1}} tem dois pontos críticos. Se chamarmos\nesses pontos críticos de {{MATH_2}} e {{MATH_3}}, ordenados de modo que {{MATH_4}},\nentão"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest1.tex",
+  "ordem": 1,
+  "hash": "e4b0c5cf8de457872d241aca99b0618eba1a9dfd4d720190fa508489bbea85e0",
+  "traducao": " é {{CMD_5}}{{CMD_6}}positiva{{CMD_7}} {{CMD_8}}negativa{{CMD_9}}{{CMD_10}}, então {{MATH_11}} é um {{CMD_12}}{{CMD_13}}máximo{{CMD_14}} {{CMD_15}}mínimo{{CMD_16}}{{CMD_17}} local."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest1.tex",
+  "ordem": 2,
+  "hash": "9d5aeb8350e8abf4559537d5e1522f998ed3719f63ca4389606320713e969075",
+  "traducao": " é {{CMD_18}}{{CMD_19}}positiva{{CMD_20}} {{CMD_21}}negativa{{CMD_22}}{{CMD_23}}, então {{MATH_24}} é um {{CMD_25}}{{CMD_26}}máximo{{CMD_27}} {{CMD_28}}mínimo{{CMD_29}}{{CMD_30}} local."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest2.tex",
+  "ordem": 0,
+  "hash": "9aa52e1a860149d6172c4ff3e538c5a1cc904422f6a45607254a2a81b30a401c",
+  "traducao": "A função {{MATH_1}} tem dois pontos críticos. Se chamarmos\nesses pontos críticos de {{MATH_2}} e {{MATH_3}}, ordenados de modo que {{MATH_4}},\nentão"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest2.tex",
+  "ordem": 1,
+  "hash": "e4b0c5cf8de457872d241aca99b0618eba1a9dfd4d720190fa508489bbea85e0",
+  "traducao": " é {{CMD_5}}{{CMD_6}}positiva{{CMD_7}} {{CMD_8}}negativa{{CMD_9}}{{CMD_10}}, então {{MATH_11}} é um {{CMD_12}}{{CMD_13}}máximo{{CMD_14}} {{CMD_15}}mínimo{{CMD_16}}{{CMD_17}} local."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest2.tex",
+  "ordem": 2,
+  "hash": "9d5aeb8350e8abf4559537d5e1522f998ed3719f63ca4389606320713e969075",
+  "traducao": " é {{CMD_18}}{{CMD_19}}positiva{{CMD_20}} {{CMD_21}}negativa{{CMD_22}}{{CMD_23}}, então {{MATH_24}} é um {{CMD_25}}{{CMD_26}}máximo{{CMD_27}} {{CMD_28}}mínimo{{CMD_29}}{{CMD_30}} local."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest3.tex",
+  "ordem": 0,
+  "hash": "9275bee785f53666d4c1471eb955ac805211e84b37a0dfcacc527431860bfed8",
+  "traducao": "A função {{MATH_1}} tem um único ponto crítico, {{MATH_2}}.\n{{MATH_3}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest3.tex",
+  "ordem": 1,
+  "hash": "951596df4250da4813dadd485c17c3a1cd6b87cb385406f240f25c7d0d782bd4",
+  "traducao": " é {{CMD_4}}{{CMD_5}}positiva{{CMD_6}} {{CMD_7}}negativa{{CMD_8}}{{CMD_9}}, então {{MATH_10}} é um {{CMD_11}}{{CMD_12}}máximo{{CMD_13}} {{CMD_14}}mínimo{{CMD_15}}{{CMD_16}} local."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest4.tex",
+  "ordem": 0,
+  "hash": "9be79923432839e1900997b7c6ab08b929df754c51a91992eedabfcc16597e70",
+  "traducao": "A função {{MATH_1}} tem um único ponto crítico, {{MATH_2}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest4.tex",
+  "ordem": 1,
+  "hash": "4de6f9f4dd4ae38328f914512834470764866cc505f9badc9f143458246cdd09",
+  "traducao": " é {{CMD_3}}{{CMD_4}}positiva{{CMD_5}} {{CMD_6}}negativa{{CMD_7}}{{CMD_8}}, então {{MATH_9}} é um {{CMD_10}}{{CMD_11}}máximo{{CMD_12}} {{CMD_13}}mínimo{{CMD_14}}{{CMD_15}} local."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest5.tex",
+  "ordem": 0,
+  "hash": "67091371c876380a67edb428c6b607b60f779dc09b99f2009d7c9d4e2b29cefb",
+  "traducao": "A função {{MATH_1}} tem dois pontos críticos. Se\nchamarmos esses pontos críticos de {{MATH_2}} e {{MATH_3}}, ordenados de modo que {{MATH_4}}, então"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest5.tex",
+  "ordem": 1,
+  "hash": "0e0f28a41e72bb8a2d339ed0b24794953f207db9f5c83128c52e974f2a71edae",
+  "traducao": "Em {{MATH_5}}, o teste da segunda derivada\n{{CMD_6}}\n{{CMD_7}}Indica um máximo local{{CMD_8}}\n{{CMD_9}}Indica um mínimo local{{CMD_10}}\n{{CMD_11}}Falha, mas o teste da primeira derivada indica um máximo local{{CMD_12}}\n{{CMD_13}}Falha, mas o teste da primeira derivada indica um mínimo local{{CMD_14}}\n{{CMD_15}}Falha, e o teste da primeira derivada indica que não é um extremo local{{CMD_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest5.tex",
+  "ordem": 2,
+  "hash": "2bbda1ce195432bbcad26964ad239ac542a0920dd9e1203e852faa188dec83f3",
+  "traducao": "Em {{MATH_18}}, o teste da segunda derivada\n{{CMD_19}}\n{{CMD_20}}Indica um máximo local{{CMD_21}}\n{{CMD_22}}Indica um mínimo local{{CMD_23}}\n{{CMD_24}}Falha, mas o teste da primeira derivada indica um máximo local{{CMD_25}}\n{{CMD_26}}Falha, mas o teste da primeira derivada indica um mínimo local{{CMD_27}}\n{{CMD_28}}Falha, e o teste da primeira derivada indica que não é um extremo local{{CMD_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest6.tex",
+  "ordem": 0,
+  "hash": "9be79923432839e1900997b7c6ab08b929df754c51a91992eedabfcc16597e70",
+  "traducao": "A função {{MATH_1}} tem um único ponto crítico, {{MATH_2}}."
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSecondDerivativeTest6.tex",
+  "ordem": 1,
+  "hash": "022fb523e6d8578476947fb9ed0ee8bac67a443bd4d5a9c83fa8bbfc3d1c0ddc",
+  "traducao": "Em {{MATH_3}}, o teste da segunda derivada\n{{CMD_4}}\n{{CMD_5}}Indica um máximo local{{CMD_6}}\n{{CMD_7}}Indica um mínimo local{{CMD_8}}\n{{CMD_9}}Falha, mas o teste da primeira derivada indica um máximo local{{CMD_10}}\n{{CMD_11}}Falha, mas o teste da primeira derivada indica um mínimo local{{CMD_12}}\n{{CMD_13}}Falha, e o teste da primeira derivada indica que não é um extremo local{{CMD_14}}\n{{CMD_15}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart1.tex",
+  "ordem": 0,
+  "hash": "9122af2958cb14c14251c2d07a45f67d0b48ebb12cb9600d829809e59da75c29",
+  "traducao": "Um quadro de sinais da derivada de uma função {{MATH_1}} está representado abaixo. Cada linha tracejada indica um ponto em que {{MATH_2}}:"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart1.tex",
+  "ordem": 1,
+  "hash": "4bd75d7dad70bea4f06f7ff55e7c90ecce8a50e0668162868e4b22c71a342a04",
+  "traducao": "No intervalo {{MATH_3}}, {{MATH_4}} é\n{{CMD_5}}\n\t{{CMD_6}}Crescente{{CMD_7}}\n\t{{CMD_8}}Decrescente{{CMD_9}}\n\t{{CMD_10}}Não monótona{{CMD_11}}\n\t{{CMD_12}}Impossível dizer{{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart1.tex",
+  "ordem": 2,
+  "hash": "1df40c4e3caca1046628c77bb19865e36ba92eeda4a430fcaff4a3b5f1fa34e2",
+  "traducao": "Em {{MATH_15}}, {{MATH_16}} tem um\n{{CMD_17}}\n\t{{CMD_18}}Máximo local{{CMD_19}}\n\t{{CMD_20}}Mínimo local{{CMD_21}}\n\t{{CMD_22}}Nenhum dos dois{{CMD_23}}\n\t{{CMD_24}}Impossível dizer{{CMD_25}}\n{{CMD_26}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart1.tex",
+  "ordem": 3,
+  "hash": "db26684ca1f49a281bb7e0d259c8be230f493c894023d653ddbed09ab54418ac",
+  "traducao": "Em {{MATH_27}}, {{MATH_28}} tem um\n{{CMD_29}}\n\t{{CMD_30}}Máximo local{{CMD_31}}\n\t{{CMD_32}}Mínimo local{{CMD_33}}\n\t{{CMD_34}}Nenhum dos dois{{CMD_35}}\n\t{{CMD_36}}Impossível dizer{{CMD_37}}\n{{CMD_38}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart2.tex",
+  "ordem": 0,
+  "hash": "895bc0a3977eb7a840b16360b48559b24861e286fa1886793e6d580ba854d4a0",
+  "traducao": "Um quadro de sinais da derivada de uma função {{MATH_1}} está representado abaixo. Cada linha tracejada indica um ponto em que {{MATH_2}}:"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart2.tex",
+  "ordem": 1,
+  "hash": "4bd75d7dad70bea4f06f7ff55e7c90ecce8a50e0668162868e4b22c71a342a04",
+  "traducao": "No intervalo {{MATH_3}}, {{MATH_4}} é\n{{CMD_5}}\n\t{{CMD_6}}Crescente{{CMD_7}}\n\t{{CMD_8}}Decrescente{{CMD_9}}\n\t{{CMD_10}}Não monótona{{CMD_11}}\n\t{{CMD_12}}Impossível dizer{{CMD_13}}\n{{CMD_14}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart2.tex",
+  "ordem": 2,
+  "hash": "1df40c4e3caca1046628c77bb19865e36ba92eeda4a430fcaff4a3b5f1fa34e2",
+  "traducao": "Em {{MATH_15}}, {{MATH_16}} tem um\n{{CMD_17}}\n\t{{CMD_18}}Máximo local{{CMD_19}}\n\t{{CMD_20}}Mínimo local{{CMD_21}}\n\t{{CMD_22}}Nenhum dos dois{{CMD_23}}\n\t{{CMD_24}}Impossível dizer{{CMD_25}}\n{{CMD_26}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart2.tex",
+  "ordem": 3,
+  "hash": "cb03d4fb069c7f62dee17bb8794e66441ae78244d4034048f8d5d6c84b360ad5",
+  "traducao": "Qual das afirmações a seguir é verdadeira?\n{{CMD_27}}\n\t{{CMD_28}}Para todo {{MATH_29}}, {{MATH_30}}{{CMD_31}}\n\t{{CMD_32}}Para todo {{MATH_33}}, {{MATH_34}}{{CMD_35}}\n\t{{CMD_36}}Para todo {{MATH_37}}, {{MATH_38}}{{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart3.tex",
+  "ordem": 0,
+  "hash": "6283a4d7b015ed682eff5fea8b56e019d8cb2719b3fef23b9a90440000b77259",
+  "traducao": "Um quadro de sinais da derivada de uma função {{MATH_1}} está representado abaixo. {{MATH_2}} tem domínio {{MATH_3}} e é contínua nesse domínio. Cada linha tracejada indica um ponto em que {{MATH_4}}:"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart3.tex",
+  "ordem": 1,
+  "hash": "5a43677bd0814644ed120037abefb7ccc6d5df411bec38544ee00f65a38626ef",
+  "traducao": "Quais das afirmações a seguir são necessariamente verdadeiras? Marque todas as que se aplicam.\n{{CMD_5}}\n\t{{CMD_6}}{{MATH_7}} tem um máximo absoluto em {{MATH_8}}{{CMD_9}}\n\t{{CMD_10}}{{MATH_11}} tem um mínimo absoluto em {{MATH_12}}{{CMD_13}}\n\t{{CMD_14}}Para todo {{MATH_15}}, {{MATH_16}}{{CMD_17}}\n\t{{CMD_18}}O mínimo absoluto de {{MATH_19}} ocorre em {{MATH_20}}{{CMD_21}}\n\t{{CMD_22}}{{MATH_23}} tem um máximo local em {{MATH_24}}{{CMD_25}}\n{{CMD_26}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart4.tex",
+  "ordem": 0,
+  "hash": "895bc0a3977eb7a840b16360b48559b24861e286fa1886793e6d580ba854d4a0",
+  "traducao": "Um quadro de sinais da derivada de uma função {{MATH_1}} está representado abaixo. Cada linha tracejada indica um ponto em que {{MATH_2}}:"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinSignChart4.tex",
+  "ordem": 1,
+  "hash": "56d3291530baf1f05473552b340b0e0850ae2f886354d077da5249f35c9e410e",
+  "traducao": "Quais das afirmações a seguir são necessariamente verdadeiras? Marque todas as que se aplicam.\n{{CMD_3}}\n\t{{CMD_4}}{{MATH_5}} tem um máximo absoluto em {{MATH_6}}{{CMD_7}}\n\t{{CMD_8}}{{MATH_9}} tem um mínimo absoluto em {{MATH_10}}{{CMD_11}}\n\t{{CMD_12}}{{MATH_13}}{{CMD_14}}\n\t{{CMD_15}}O máximo absoluto de {{MATH_16}} ocorre em {{MATH_17}}{{CMD_18}}\n\t{{CMD_19}}{{MATH_20}} tem um máximo local em {{MATH_21}}{{CMD_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse1.tex",
+  "ordem": 0,
+  "hash": "f1486c30dbbc0d7831bacd88f400759a44bbe9f60cf781b98f161349f5ac91db",
+  "traducao": "\tSe {{MATH_1}}, então a função {{MATH_2}} tem um extremo local em {{MATH_3}}.\n\n\t{{CMD_4}}\n  Lembre-se da função {{MATH_5}}. Como {{MATH_6}}, segue que {{MATH_7}}, mas {{MATH_8}} não tem extremos locais: ela é crescente em {{MATH_9}}.\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse1.tex",
+  "ordem": 1,
+  "hash": "78c0af9cede14d043bf1c9bb9365be435193e144b1fff0fb805c0c8dcfd4bcb0",
+  "traducao": "Verdadeiro{{CMD_11}}\n\t\t{{CMD_12}}Falso{{CMD_13}}\n\t{{CMD_14}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse10.tex",
+  "ordem": 0,
+  "hash": "0dc45d0d02324299a2f7f0c031c2fedf935ff5dc18cb11b7a173f623c5cb0f4c",
+  "traducao": "Se {{MATH_1}} e {{MATH_2}} têm, ambas, um mínimo local em {{MATH_3}}, então o produto {{MATH_4}} também tem um mínimo local em {{MATH_5}}.\n\t{{CMD_6}}\nSejam {{MATH_7}}, {{MATH_8}} e {{MATH_9}}. Tanto {{MATH_10}} quanto {{MATH_11}} têm um mínimo local em {{MATH_12}}. Mas o produto {{MATH_13}} tem um máximo local nesse ponto.{{CMD_14}}\nObserve que {{MATH_15}}.\n{{CMD_16}}\n{{CMD_17}}\n  {{CMD_18}}Verdadeiro{{CMD_19}}\n  {{CMD_20}}Falso{{CMD_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse2.tex",
+  "ordem": 0,
+  "hash": "e1bb18b561d9757f69df70e58f97a6143f9fb7928de966011656281946325494",
+  "traducao": "\tUm mesmo ponto pode ser, ao mesmo tempo, máximo local e mínimo local de uma mesma função.\n\t{{CMD_1}}\nPense em uma função {{MATH_2}} definida por {{MATH_3}}.\n{{CMD_4}}\n\t{{CMD_5}}\n\t\t{{CMD_6}}Verdadeiro{{CMD_7}}\n\t\t{{CMD_8}}Falso{{CMD_9}}\n\t{{CMD_10}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse3.tex",
+  "ordem": 0,
+  "hash": "4ddf5c4cab33d9af52f16fc27ab1f8b17418eb5e0264ad85712f46ea98058561",
+  "traducao": "\tUma função definida em um intervalo {{CMD_1}}fechado{{CMD_2}} necessariamente tem um extremo local.\n\t{{CMD_3}}\n Pense em {{MATH_4}}, em {{MATH_5}}. A função não tem pontos críticos e, portanto, não tem extremos locais.\n{{CMD_6}}\n\t{{CMD_7}}\n\t\t{{CMD_8}}Verdadeiro{{CMD_9}}\n\t\t{{CMD_10}}Falso{{CMD_11}}\n\t{{CMD_12}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse4.tex",
+  "ordem": 0,
+  "hash": "a0f39f938e9754f88771c30cf4989780fc4cc1e41032916fd838bb1fd7ad8774",
+  "traducao": "\tSe {{MATH_1}} é contínua, {{MATH_2}} quando {{MATH_3}} e {{MATH_4}} quando {{MATH_5}}, então {{MATH_6}} é um máximo local.\n\t{{CMD_7}}\n Pense em {{MATH_8}}. Ela tem um mínimo local em {{MATH_9}}.\n {{CMD_10}}\n\t{{CMD_11}}\n\t\t{{CMD_12}}Verdadeiro{{CMD_13}}\n\t\t{{CMD_14}}Falso{{CMD_15}}\n\t{{CMD_16}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse5.tex",
+  "ordem": 0,
+  "hash": "b9f1496297229f52ea9a44292d0adff834722f4f4963ce45fe669b99e7491613",
+  "traducao": "\tSe {{MATH_1}} tem um máximo local em {{MATH_2}}, então o seu quadrado {{MATH_3}} também deve ter um máximo local em {{MATH_4}}.\n\t{{CMD_5}}\n\tPense em {{MATH_6}}. O gráfico de {{MATH_7}} é uma parábola. {{MATH_8}} tem um máximo local em {{MATH_9}}, mas {{MATH_10}}, em que {{MATH_11}}, tem um mínimo local em {{MATH_12}}.\n\t{{CMD_13}}\n\t{{CMD_14}}\n\t\t{{CMD_15}}Verdadeiro{{CMD_16}}\n\t\t{{CMD_17}}Falso{{CMD_18}}\n\t{{CMD_19}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse6.tex",
+  "ordem": 0,
+  "hash": "c7ed50c5699cd8aad48a8f4807aa249174454f8e2a78b13b95e09b8786dbc965",
+  "traducao": "\tSe {{MATH_1}} não existe, então {{MATH_2}} não pode ter um extremo local em {{MATH_3}}\n{{CMD_4}}\nPense em {{MATH_5}} e {{MATH_6}}.\n{{CMD_7}}\n\t{{CMD_8}}\n\t\t{{CMD_9}}Verdadeiro{{CMD_10}}\n\t\t{{CMD_11}}Falso{{CMD_12}}\n\t{{CMD_13}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse7.tex",
+  "ordem": 0,
+  "hash": "08246d6b9f99da1a22014315b5ab8a193c02c5c060b0369f4de1222be98086e8",
+  "traducao": "\tSe {{MATH_1}} e {{MATH_2}} têm, ambas, um mínimo local em {{MATH_3}}, então a soma {{MATH_4}} também tem um mínimo local em {{MATH_5}}.\n\t{{CMD_6}}\n\t\t{{CMD_7}}Verdadeiro{{CMD_8}}\n\t\t{{CMD_9}}Falso{{CMD_10}}\n\t{{CMD_11}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse8.tex",
+  "ordem": 0,
+  "hash": "bc0415575a7eaac794c356c1bba21ea3230b63868c600f89c9296b6cb5768ed8",
+  "traducao": "\tSe {{MATH_1}} em {{MATH_2}} e {{MATH_3}}, então {{MATH_4}} é um máximo local.\n\t\t{{CMD_5}}\nUse o teste da segunda derivada.\n{{CMD_6}}\n\t{{CMD_7}}\n\t\t{{CMD_8}}Verdadeiro{{CMD_9}}\n\t\t{{CMD_10}}Falso{{CMD_11}}\n\t{{CMD_12}}"
+ },
+ {
+  "arquivo": "maximumsAndMinimums/exercises/maxMinTrueFalse9.tex",
+  "ordem": 0,
+  "hash": "ba09ec1ec341d42f186e0df406de831f304f93607b0974850f27313cf68f31e3",
+  "traducao": "\tSe {{MATH_1}} é derivável e decrescente em {{MATH_2}}, então {{MATH_3}} em {{MATH_4}}\n\t{{CMD_5}}\nPense em {{MATH_6}} em {{MATH_7}}. {{MATH_8}} é derivável e decrescente, mas {{MATH_9}}.\n{{CMD_10}}\n\t{{CMD_11}}\n\t\t{{CMD_12}}Verdadeiro{{CMD_13}}\n\t\t{{CMD_14}}Falso{{CMD_15}}\n\t{{CMD_16}}"
+ }
+]

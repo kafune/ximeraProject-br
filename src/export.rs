@@ -1,4 +1,9 @@
-use crate::{db, models::Segment, parser};
+use crate::{
+    db,
+    models::Segment,
+    parser,
+    translations::{self, ProtectedMap},
+};
 use anyhow::{bail, Context, Result};
 use std::{fs, path::Path};
 use walkdir::WalkDir;
@@ -31,6 +36,7 @@ pub fn export_tree(
         }
     }
     let mut report = ExportReport::default();
+    let protected = db::protected_translations(&conn)?;
     for file in db::file_records(&conn)? {
         let segs = db::segments_for_file(&conn, file.id)?;
         for seg in &segs {
@@ -46,7 +52,8 @@ pub fn export_tree(
                 bail!("segmento pendente {} em {}", seg.id, file.path)
             };
         }
-        let result = translated_source(&file.source, &segs).map_err(anyhow::Error::msg)?;
+        let result =
+            translated_source(&file.source, &segs, &protected).map_err(anyhow::Error::msg)?;
         let target = output.join(&file.path);
         if let Some(p) = target.parent() {
             fs::create_dir_all(p)?
@@ -59,8 +66,16 @@ pub fn export_tree(
 
 /// Rebuilds a stored file with its completed translations. Drafts and pending
 /// segments keep the original prose, so the export and the reader always agree.
-pub fn translated_source(source: &str, segments: &[Segment]) -> Result<String, String> {
+/// Protected snippets inside completed segments receive their registered
+/// translations (see `translations::localize_protected`).
+pub fn translated_source(
+    source: &str,
+    segments: &[Segment],
+    protected: &ProtectedMap,
+) -> Result<String, String> {
     let mut result = source.to_owned();
+    let translated_file = segments.iter().any(Segment::is_complete);
+    let mut gap_end = source.len();
     for segment in segments.iter().rev() {
         let original = parser::reconstruct(&segment.original, &segment.placeholders)?;
         if result.get(segment.start..segment.end) != Some(original.as_str()) {
@@ -69,13 +84,36 @@ pub fn translated_source(source: &str, segments: &[Segment]) -> Result<String, S
                 segment.id
             ));
         }
+        if translated_file {
+            localize_gap(&mut result, segment.end..gap_end, protected);
+        }
+        gap_end = segment.start;
         if segment.is_complete() {
             let translation = preserve_edge_whitespace(&segment.original, &segment.translated);
-            let translated = parser::reconstruct(&translation, &segment.placeholders)?;
+            let placeholders =
+                translations::localized_placeholders(&segment.placeholders, protected);
+            let translated = parser::reconstruct(&translation, &placeholders)?;
             result.replace_range(segment.start..segment.end, &translated);
         }
     }
+    if translated_file {
+        localize_gap(&mut result, 0..gap_end, protected);
+    }
     Ok(result)
+}
+
+/// Protected text between two segments (a `\begin{theorem}[Title]` with no
+/// prose next to it, for example) never reaches a translator. Whole-snippet
+/// entries of the protected map still apply there, once the file has at least
+/// one finished translation, so an untouched file stays byte-identical.
+fn localize_gap(result: &mut String, range: std::ops::Range<usize>, protected: &ProtectedMap) {
+    if range.is_empty() || protected.is_empty() {
+        return;
+    }
+    let localized = translations::localize_snippets(&result[range.clone()], protected);
+    if localized != result[range.clone()] {
+        result.replace_range(range, &localized);
+    }
 }
 
 /// Translators rarely retype the whitespace around a segment, yet it is what
@@ -124,6 +162,9 @@ mod tests {
             start: 0,
             end: source.len(),
         };
-        assert_eq!(translated_source(source, &[segment]).unwrap(), source);
+        assert_eq!(
+            translated_source(source, &[segment], &ProtectedMap::new()).unwrap(),
+            source
+        );
     }
 }

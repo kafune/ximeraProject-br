@@ -1,0 +1,374 @@
+[
+ {
+  "arquivo": "logarithmicDifferentiation/titlePage.tex",
+  "ordem": 0,
+  "hash": "5e4910f356047b9919c2c522cf83e80c1a4f7a5a0df7d9eb121231812a64555f",
+  "traducao": "Derivação logarítmica{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/titlePage.tex",
+  "ordem": 2,
+  "hash": "0453c7d5053e1669662c768d6c0bffe7917a0ea9514e173417b4aa7d97c2e337",
+  "traducao": " Identificar situações em que logaritmos podem ser usados para ajudar a encontrar derivadas.\n\t{{CMD_4}} Usar a derivação logarítmica para simplificar o cálculo de derivadas.\n\t{{CMD_5}} Calcular derivadas de funções elevadas a funções.\n\t{{CMD_6}} Reconhecer a diferença entre uma variável na base e uma variável no expoente.\n{{CMD_7}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 0,
+  "hash": "d0d06cc566986aec002ee2857649ecd2553c59a17093724eabbab7b1cac7967d",
+  "traducao": "Da multiplicação à adição{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos pensam sobre derivadas e logaritmos.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 1,
+  "hash": "0f2aac58fcb16f42a8b27f76b3396277671806c8ba40497491979af0a2346f9b",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 2,
+  "hash": "8f4c25f63533f1b8a0e2cc2986826260f354c8bc6f5ddf8134dbf8a4511bce70",
+  "traducao": " Riley, por que a regra do produto é tão mais difícil do que a regra da soma?\n{{CMD_7}} Desde a segunda série eu sei que multiplicação é\n  {{CMD_8}}mais difícil{{CMD_9}} do que adição.\n{{CMD_10}} Eu sei! Eu li em algum lugar que uma régua de cálculo, de algum jeito,\n  transforma ``multiplicação em adição.''\n{{CMD_11}} Uau! Como será que isso funciona?\n{{CMD_12}} Eu {{CMD_13}}acho{{CMD_14}} que tem alguma coisa a ver com logaritmos?\n{{CMD_15}} O quê? Como é que isso funciona?\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 3,
+  "hash": "be67755426d0df5b785116a8afd6a0caef2754fc8223184ed87f820712b5a56a",
+  "traducao": "Devyn tem razão: os logaritmos são usados (e foram inventados) para converter\nproblemas difíceis de multiplicação em problemas mais simples de adição."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 4,
+  "hash": "8ca4156c52b94bc86c8900ae52aa451ffe3a1f612e51d0668a7ae8f6364636ae",
+  "traducao": "  Seja {{MATH_17}}. Calcule\n  {{MATH_18}}\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 5,
+  "hash": "a31575ee812dcd98decd9f98306725dad18a57cad00a3a5749bf7fcc7e079a3e",
+  "traducao": "Agora, vamos ver o que acontece se fizermos o mesmo problema, mas tomando primeiro o\nlogaritmo natural de ambos os lados:\n{{ENV_20}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 6,
+  "hash": "9518f2c5e325e05d00796fc22aa04bd1e541242a09336f9c232d50fc32149fee",
+  "traducao": "Agora vamos derivar ambos os lados da equação.\nPela regra da cadeia,\n{{MATH_21}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 7,
+  "hash": "8a8ac79e38d1c38319654ecf7e0dc0ec13820c4a011e15c3720f902788b48591",
+  "traducao": "  Calcule {{COMMENT_22}}\n  {{MATH_23}}\n{{CMD_24}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 8,
+  "hash": "20b441d7b0bf6ac4494f10dc0e97416853b674a55ba5b65379684bfc28d06adc",
+  "traducao": "  Calcule {{COMMENT_25}}\n  {{MATH_26}}\n{{CMD_27}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 9,
+  "hash": "8ebf4d5ba15a3b901b70b414864782c204f3b34f5b4fa7a08db741b36331cd39",
+  "traducao": "  Calcule {{COMMENT_28}}\n  {{MATH_29}}\n{{CMD_30}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/breakGround.tex",
+  "ordem": 10,
+  "hash": "7f7f2695b0c2d95b8efae8817a4edfa468aea3198f11d647030021dfd5c7585e",
+  "traducao": "Assim, temos\n{{ENV_31}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 0,
+  "hash": "0e4c2a2960c686488b171c69dddf841b6850b0132f11305d5872e7842db2cec4",
+  "traducao": "Derivação logarítmica{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  Usamos logaritmos para nos ajudar a derivar.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 1,
+  "hash": "653f4c0226ee823675f6cd76079414315ee185d2b5d2806c71f5d5157e97dd8e",
+  "traducao": "Os logaritmos foram desenvolvidos originalmente como uma ferramenta de cálculo, principalmente\npor causa de sua famosa propriedade:\n{{MATH_7}}\n{{CMD_8}}\n{{ENV_9}}\n{{COMMENT_10}}\n{{COMMENT_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 2,
+  "hash": "d00815db66c4beafefda2aca4490fad7420a3d527434fa3580e784b68e6fcbe0",
+  "traducao": "Antes da época das calculadoras e dos computadores, esse era um conhecimento\nessencial para qualquer pessoa que trabalhasse com cálculos."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 3,
+  "hash": "fbef92bc450d8babe2df5d816111b9928412e96b4a6d6afdd5ffdbd22d1cf0f5",
+  "traducao": "  Calcule {{MATH_13}} usando logaritmos.\n  {{CMD_14}}\n    Comece escrevendo os dois números em notação científica\n    {{MATH_15}}\n    Em seguida, usamos uma tábua de logaritmos, que fornece {{MATH_16}} para valores de\n    {{MATH_17}} entre {{MATH_18}} e {{MATH_19}}. Reproduzimos abaixo parte de uma\n    tábua desse tipo.\n    {{CMD_20}}\n       {{ENV_21}}\n    {{CMD_22}}\n    Pela tábua, vemos que\n    {{MATH_23}}\n    Somando esses números, obtemos {{MATH_24}}.\n    Essencialmente, neste ponto sabemos o seguinte:\n    {{CMD_25}}\n    {{ENV_26}}\n    {{CMD_27}}\n    Usando a tábua novamente, vemos que\n    {{MATH_28}}. Como estávamos\n    trabalhando em notação científica, precisamos multiplicar isso por\n    {{MATH_29}}. Nossa resposta final é\n    {{MATH_30}}\n    Como {{MATH_31}}, essa é uma boa aproximação.\n  {{CMD_32}}\n{{CMD_33}}\nA moral da história é:\n{{CMD_34}}\n      {{CMD_35}}Os logaritmos nos permitem usar adição no lugar de multiplicação.{{CMD_36}}\n{{CMD_37}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 4,
+  "hash": "26eb11c82874c46b63e01ad5c3395510cec7e36b35cc7ca6eabf6b30aee7f5b2",
+  "traducao": "Derivação logarítmica{{CMD_38}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 5,
+  "hash": "2ad9a203c314176f6fead29d382694bd60f3ad20534a6919c45a2b03591464f9",
+  "traducao": "Ao calcular derivadas, tanto a regra do produto quanto a regra do quociente podem ser trabalhosas de usar. Os logaritmos vão salvar o dia. Um ponto-chave é o seguinte:\n{{MATH_39}}\nque segue da regra da cadeia. Vamos ver um exemplo ilustrativo para entender como isso é usado na prática."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 6,
+  "hash": "aa175438c64aa068b580e71f2a07effdcbecce2cd5bf25c1f2b035abbb40cc78",
+  "traducao": "\tCalcule:\n\t{{MATH_40}}\n\t{{CMD_41}}\n\t\tLembre-se das propriedades dos logaritmos:\n\t\t{{CMD_42}}\n\t\t\t{{CMD_43}} {{MATH_44}}\n\t\t\t{{CMD_45}} {{MATH_46}}\n\t\t\t{{CMD_47}} {{MATH_48}}\n\t\t{{CMD_49}}\n\n\t\tEmbora pudéssemos usar a regra do produto e a regra do quociente para resolver este problema, seria tedioso. Comece tomando o logaritmo da função a ser derivada.\n\t\t{{ENV_50}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 7,
+  "hash": "0c24baf804b8d234a33585799f2683d48a984ba33140aadcf776d74803d7ba79",
+  "traducao": "\t\tFazendo {{MATH_51}}, podemos escrever\n\t\t{{MATH_52}}\n\t\tDerivando ambos os lados, encontramos\n\t\t{{MATH_53}}\n\t\tPor fim, isolamos {{MATH_54}} e escrevemos\n\t\t{{MATH_55}}\n\t{{CMD_56}}\n{{CMD_57}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 8,
+  "hash": "3fafcba67aa7347422f8f0e82fe9bec3bdb8c5e41c7a1a62a785f96b6fe51616",
+  "traducao": "O processo acima é chamado de {{CMD_58}}derivação logarítmica{{CMD_59}}. Ele começa tomando o logaritmo natural da função e, em seguida, usa as propriedades dos logaritmos para simplificar.\nA derivação logarítmica também nos permite calcular derivadas novas."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 9,
+  "hash": "e7709ad2ed202214ed6510e7f1d6d589e04b992040f310f2f33f7f91cc9eb939",
+  "traducao": "\tPara  {{MATH_60}}, calcule:\n\t{{MATH_61}}\n\t{{CMD_62}}\n\t\tA função {{MATH_63}} é complicada de derivar. Não podemos usar a regra da\n\t\tpotência, pois o expoente não é uma constante; a função também não é uma função exponencial, já que a base não é uma constante. Porém, se fizermos {{MATH_64}}, podemos escrever\n\t\t{{ENV_65}}\n\t\tDerivando ambos os lados, encontramos\n\t\t{{MATH_66}}\n\t\tAgora podemos isolar {{MATH_67}},\n\t\t{{MATH_68}}\n\n\t\tOutra maneira: podemos escrever\n\t\t{{MATH_69}}\n\t\tPortanto,\n\t\t{{MATH_70}}\n\t\tpela regra da cadeia e pela regra do produto.\n\n\t\tAgora, segue  que\n\t\t{{MATH_71}}\n\t{{CMD_72}}\n{{CMD_73}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 10,
+  "hash": "40711abfb4c2593c066224aeb669ace469e35bb854ebf6931a60c365d9009b34",
+  "traducao": "A função do exemplo anterior, {{MATH_74}}, é um tipo de função que chamamos de {{CMD_75}}função torre{{CMD_76}}. Funções torre são funções escritas como {{MATH_77}}, uma exponencial em que tanto a base quanto o expoente dependem da variável.\nA derivação logarítmica é um método para derivar uma função torre. No entanto, também podemos escrever\n{{MATH_78}}\nReescrevendo dessa forma, podemos derivar funções torre usando a regra da cadeia e a regra do produto. No exemplo anterior, a derivada de {{MATH_79}} foi calculada pelos dois métodos.\nVamos derivar mais uma função torre usando os dois métodos."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 11,
+  "hash": "a905aa419afbf1f4571d7dd96b76d4a46807388615f241bf8c3dba912d0352a9",
+  "traducao": "\tCalcule a derivada de {{MATH_80}} de duas maneiras: por derivação logarítmica e usando a regra da cadeia e a regra do produto.\n\t{{CMD_81}}\n\t\tComeçamos com o método da derivação logarítmica.\n\t\t{{ENV_82}}\n\t\tDerivando ambos os lados, obtemos:\n\t\t{{ENV_83}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 12,
+  "hash": "69606aad982f7798e2f8cf294a32029d6c489081287819197dcebb66191c688c",
+  "traducao": "\t\tVamos derivar {{MATH_84}} mais uma vez, mas agora usando a regra da cadeia e a regra do produto.\n\t\tComeçamos reescrevendo a função torre como uma exponencial de base constante {{MATH_85}}.\n\t\t{{MATH_86}}\n\t\tUsando a regra da cadeia, encontramos:\n\t\t{{ENV_87}}\n\t\tReescrevendo {{MATH_88}} como {{MATH_89}}, vemos que os dois métodos deram a mesma derivada {{MATH_90}}.\n\t{{CMD_91}}\n{{CMD_92}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 13,
+  "hash": "739105dcc4b59b139cb8602a854a9954c24c15200ff807e2690ff7154afa7598",
+  "traducao": "\tCalcule:\n\t{{MATH_93}}\n\t{{CMD_94}}\n\t\tA função {{MATH_95}} é uma função definida por partes.  Se {{MATH_96}},\n\t\t{{ENV_97}}\n\t\tA função {{MATH_98}} não está definida em {{MATH_99}}.  Se {{MATH_100}},\n\t\t{{ENV_101}}\n\t{{CMD_102}}\n{{CMD_103}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 14,
+  "hash": "340e9088f63690b3f4abc51519cf147465d1b15192b7d38c6f1a54d5eacdb41f",
+  "traducao": "O próximo  exemplo será útil quando quisermos usar a derivação logarítmica para funções que  assumem valores negativos."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 15,
+  "hash": "a523bc6a5240d3472835f3f73571bfe4edeb7d35ed2d8988fe64cbb147078fd0",
+  "traducao": "\tCalcule:\n\t{{MATH_104}}\n\t{{CMD_105}}\n\t\tPelo exemplo anterior e pela regra da cadeia,\n\t\t{{ENV_106}}\n\t{{CMD_107}}\n{{CMD_108}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 16,
+  "hash": "1327cd46e55c13afeb961af189064064055a13af5f0ca5db8cad0d1d11739a51",
+  "traducao": "\tCalcule:\n\t{{MATH_109}}\n\n\t{{CMD_110}}\n\t\tObserve que a função aqui é a soma de dois termos. As propriedades dos logaritmos listadas acima mostram que logaritmos de produtos podem ser simplificados, mas logaritmos de somas não.\n\t\tEm vez de tentar a derivação logarítmica, vamos usar a regra da soma para derivadas e derivar cada termo separadamente.\n\n\t\tChame {{MATH_111}}, e os termos individuais de {{MATH_112}} e {{MATH_113}}. Isso significa que {{MATH_114}}.\n\t\tA regra da soma diz que {{MATH_115}}, então derivamos cada termo separadamente.\n\n\t\tPara calcular {{MATH_116}}, usamos a regra da cadeia:\n\t\t{{MATH_117}}\n\n\t\tPara calcular {{MATH_118}}, usamos a derivação logarítmica (como {{MATH_119}} é um produto de fatores, cada um deles elevado a uma potência, os logaritmos vão ajudar a simplificar isso).\n\t\t{{ENV_120}}\n\t\tEntão\n\t\t{{MATH_121}}\n\t\tque calculamos como:\n\t\t{{ENV_122}}\n\n\t\tA derivada da função inteira é {{MATH_123}}:\n\t\t{{ENV_124}}\n\t{{CMD_125}}\n\n{{CMD_126}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 17,
+  "hash": "4fac74d63c01b740923973e8e089f26541fcd2ae5857b997b52d61cee0198c1a",
+  "traducao": "Demonstração da regra da potência{{CMD_127}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 18,
+  "hash": "030e87711cafb0d81cb1e934e7d38a64efb2fdb338e1ec4d5b4326bd1402fac7",
+  "traducao": "Por fim, lembre-se de que, anteriormente, só demonstramos a regra da potência para\nexpoentes inteiros positivos. Agora vamos usar a derivação logarítmica para dar\numa demonstração para todos os expoentes reais. Reenunciamos a regra da potência\npor conveniência:"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 19,
+  "hash": "6ca3dd96def759d4bbcd9348e2eb28f9f59f3f2a3f39844a09debdee4414ee44",
+  "traducao": "\tPara qualquer  número real {{MATH_128}},\n\t{{MATH_129}}\n\t{{CMD_130}}\n\n\t\tVamos usar a derivação logarítmica. Faça {{MATH_131}}. Escreva\n\t\t{{ENV_132}}\n\t\tAgora derive ambos os lados e isole {{MATH_133}}\n\t\t{{ENV_134}}\n\t\tSempre que {{MATH_135}} está no domínio de {{MATH_136}}, a definição de derivada em {{MATH_137}} implica que  {{MATH_138}}, se {{MATH_139}}, e {{MATH_140}}, se {{MATH_141}}, de modo que a regra da potência vale também em {{MATH_142}}.\n\n\t\tAssim, vemos que a regra da potência vale para todos os expoentes reais (não nulos).\n\t{{CMD_143}}\n{{CMD_144}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/digInLogarithmicDifferentiation.tex",
+  "ordem": 20,
+  "hash": "75928dd6a0097a096a50e55d781fea8198c7d0f19606ca8bb3f77d71a792840c",
+  "traducao": "Embora a derivação logarítmica possa parecer estranha e nova no começo, com um pouco de prática ela vai parecer muito mais natural para você."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivative1.tex",
+  "ordem": 0,
+  "hash": "7630d8ad9df36b7e2848213b8f61aa1ec78fc1a9e933f840a98adcf75df52ddb",
+  "traducao": " Determine uma equação da reta tangente à curva {{MATH_1}} {{CMD_2}}no ponto em que {{MATH_3}}.\n{{ENV_4}}\n{{CMD_5}} Determine uma equação da reta tangente à curva {{MATH_6}} {{CMD_7}}no ponto em que {{MATH_8}}.\n{{ENV_9}}\n{{CMD_10}} Determine a interseção com o eixo x da reta tangente do item (b).\n{{ENV_11}}\n{{CMD_12}} Use o resultado do item (c) para completar a afirmação a seguir.{{CMD_13}}\nA reta tangente à curva {{MATH_14}} no ponto {{MATH_15}}  intersecta o eixo x no ponto\n{{ENV_16}}\n{{CMD_17}}\n{{CMD_18}}\n{{CMD_19}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivative4.tex",
+  "ordem": 0,
+  "hash": "d09673fb6e9c86be22dd8daca5c2558c33c15a9d4f9a420ab9284ea8e56d30b5",
+  "traducao": "Calcule as derivadas a seguir."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivativeApplication1.tex",
+  "ordem": 0,
+  "hash": "224a50657329f56f56674cfc819260497bbe5ee7ef32076e2775cfbf41899ab2",
+  "traducao": "O número total de pessoas que contraíram um resfriado comum até o instante {{MATH_1}} dias após o surto em uma ilha é dado por\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivativeApplication1.tex",
+  "ordem": 1,
+  "hash": "6164df397408064eae99339666da6a9d493c9a5af6849149de603d4dcd1229a9",
+  "traducao": "O gráfico de {{MATH_3}} no intervalo {{MATH_4}} é dado abaixo."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivativeApplication1.tex",
+  "ordem": 2,
+  "hash": "79631d5f486f78e6600ed53b604044ef769cb2ec0fa68b83c17c192ca1999ed4",
+  "traducao": "A taxa com que o número de pessoas que contraíram o resfriado está variando é\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivativeApplication1.tex",
+  "ordem": 3,
+  "hash": "888b29bd74bd58436e8c30c6e59781d322751ef08dd010db7f1e13a7b1bba545",
+  "traducao": "Calcule o intervalo em que {{MATH_6}} é crescente:\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivativeApplication1.tex",
+  "ordem": 4,
+  "hash": "14e6981c5c64d3be18b699b655919418d222e2382cab0f0c031c8bdc7a3a7f19",
+  "traducao": "O instante em que o número de pessoas que contraíram o resfriado está crescendo mais rapidamente é\n{{MATH_8}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivativeApplication1.tex",
+  "ordem": 5,
+  "hash": "68aaf1427d70843036f1e3b241b60989ac82738f49e8a7dfa6d7f5e90179449f",
+  "traducao": "O limite de {{MATH_9}} quando {{MATH_10}} tende a {{MATH_11}} é\n{{MATH_12}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivativeApplication1.tex",
+  "ordem": 6,
+  "hash": "29557601f6684283fd525a614ce34475ce45443611db212d0d963a7853bd7c5e",
+  "traducao": "Escolha a melhor interpretação do limite acima.\n{{CMD_13}}\n{{CMD_14}}O número de pessoas que contraíram o resfriado continuará crescendo a longo prazo.{{CMD_15}}\n{{CMD_16}}O número de pessoas que contraíram o resfriado deixará de crescer a longo prazo.{{CMD_17}}\n{{CMD_18}}O número de pessoas que contraíram o resfriado diminuirá a longo prazo.{{CMD_19}}\n{{CMD_20}}O número de pessoas que contraíram o resfriado oscilará a longo prazo.{{CMD_21}}\n{{CMD_22}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivativeApplication1.tex",
+  "ordem": 7,
+  "hash": "4d6f461c5b6ab10272fec08bee21b8a703f7e6e6f8073609258791f779a128d5",
+  "traducao": "A taxa média de variação de {{MATH_23}} no intervalo de tempo {{MATH_24}}, arredondada para uma casa decimal, é\n{{MATH_25}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivativeApplication1.tex",
+  "ordem": 8,
+  "hash": "31dd94acd6f91c2b792eaaa1f08152c1be65b93af8eca511f9b6584199336c7d",
+  "traducao": "A taxa de crescimento instantânea de {{MATH_26}} em {{MATH_27}}, arredondada para uma casa decimal, é\n{{MATH_28}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/expDerivativeApplication1.tex",
+  "ordem": 9,
+  "hash": "a45229c1693fba2cc588cd352a1b1faa6717e9bfa4c6fefb5c550e5d4ad9f1e8",
+  "traducao": "Parece que\n{{MATH_29}}\nIsso pode ser explicado porque\n{{MATH_30}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/inversesExpLog2.tex",
+  "ordem": 0,
+  "hash": "fa31c074b3dd5054fbfd8043afacb3f20ca623c3c6d59b646ff47e22f2f36db1",
+  "traducao": "Seja {{MATH_1}}. Calcule"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/inversesExpLog3.tex",
+  "ordem": 0,
+  "hash": "f37ff7e2113ac09ba2208b6017ce37523f97ccee58fc39a30e7377f1cd210075",
+  "traducao": "Seja {{MATH_1}}. Calcule\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/inversesExpLog4.tex",
+  "ordem": 0,
+  "hash": "6bdabf2374fd2ab5be696635642f66935a77ba06b573b4525dd259b5107af4e7",
+  "traducao": "Seja {{MATH_1}}. Calcule\n{{MATH_2}}\n{{CMD_3}}\n\tPara inserir sua resposta no Ximera, você precisará reescrever {{MATH_4}} como {{MATH_5}}, o que vem da fórmula de mudança de base.\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/inversesExpLog5.tex",
+  "ordem": 0,
+  "hash": "f37ff7e2113ac09ba2208b6017ce37523f97ccee58fc39a30e7377f1cd210075",
+  "traducao": "Seja {{MATH_1}}. Calcule\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/inversesFunction6.tex",
+  "ordem": 0,
+  "hash": "a6be38daee0c7b3b505554a8572f2e7a955c3e68e626815f3f25610992c2574a",
+  "traducao": "Se {{MATH_1}} e {{MATH_2}}, estime {{MATH_3}}.\n{{CMD_4}}\n{{MATH_5}}\n{{CMD_6}}\n{{CMD_7}}\n{{CMD_8}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/logDerivative1.tex",
+  "ordem": 0,
+  "hash": "f9640a998d5fd5aae9ae89b64644cea88344173f99efe806a2705e2de0ebac91",
+  "traducao": "Calcule as derivadas a seguir.\n{{ENV_1}}\n{{CMD_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/logDerivative2.tex",
+  "ordem": 0,
+  "hash": "106f9b9f9decc4ed8d34e7ad7e7f40ba9564021b5d22e366197e6a44d3251300",
+  "traducao": "Calcule os limites a seguir.{{CMD_1}}\nDica: use a definição de derivada de uma função em um ponto.\n{{CMD_2}}\n{{CMD_3}}  {{MATH_4}}{{CMD_5}}\n{{CMD_6}}\nObserve que"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/logDerivative2.tex",
+  "ordem": 1,
+  "hash": "4e4eee1a86f2449cbe2a65847bd4d4d41b5ce444ef112d2b1fa4a9ad3d403980",
+  "traducao": "Observe que"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/logDerivative2.tex",
+  "ordem": 2,
+  "hash": "c5da3f8634e88bf7190b4d2ca33642af9ac08ef2f4bd1f01de0e58622bebf252",
+  "traducao": "para {{MATH_7}}.\n{{CMD_8}}\n{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}{{MATH_13}}{{CMD_14}}\n{{CMD_15}}{{MATH_16}}{{CMD_17}}\n{{CMD_18}}\n{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/logDerivative3.tex",
+  "ordem": 0,
+  "hash": "9afbeddbddbbc4abe3eec41af07f1286601d89765da6a57f739ff2a90f8028a3",
+  "traducao": "Calcule as derivadas a seguir.\n{{CMD_1}}\n{{CMD_2}} {{MATH_3}}{{CMD_4}}\n{{CMD_5}}{{MATH_6}}{{CMD_7}}\n{{CMD_8}}\n{{CMD_9}}\n{{CMD_10}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/logarithmicDifferentiation1.tex",
+  "ordem": 0,
+  "hash": "d7c2a3c24c117d0d2612e851836a96a636d0c0785259e543ad50c18374c01e1a",
+  "traducao": "Calcule as derivadas a seguir.\n{{ENV_1}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/logarithmicDifferentiation2.tex",
+  "ordem": 0,
+  "hash": "385542a78b76168d9fccae2aa817ee2b6a60ae23b4f0d812a54ae69a2fb1da40",
+  "traducao": "Calcule {{MATH_1}} usando derivação logarítmica."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/logarithmicDifferentiation2.tex",
+  "ordem": 1,
+  "hash": "c70f0c8fc1350cbb9989092ead39a88b89d9a9c7bc868cfb713b0e1b8a31d175",
+  "traducao": "Primeiro, tome o ln (logaritmo natural) de ambos os lados e simplifique, usando as propriedades dos logaritmos."
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/logarithmicDifferentiation2.tex",
+  "ordem": 2,
+  "hash": "67fe7d976dc3e985d03bf58db84e6ff26222b2ce744bbb1b35eb8141314c68ff",
+  "traducao": "Agora, derive ambos os lados.{{CMD_2}}"
+ },
+ {
+  "arquivo": "logarithmicDifferentiation/exercises/logarithmicDifferentiation2.tex",
+  "ordem": 3,
+  "hash": "7a86581cc2163c51ef36c2e8fbace3da152a9c86d3ac227a9577cdec87c44949",
+  "traducao": "Agora, isole {{MATH_3}}.\n{{ENV_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ }
+]

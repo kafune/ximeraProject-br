@@ -1,0 +1,602 @@
+[
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/titlePage.tex",
+  "ordem": 0,
+  "hash": "29f1b34df58134a3940dcf8a0eca421a1d390e220c4502adce40833421a5b9f3",
+  "traducao": "Primeiro teorema fundamental do cálculo{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Após concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/titlePage.tex",
+  "ordem": 2,
+  "hash": "90402160e42aec0d783b7c41ecf5477f0c489cf227bed1c26cd29d9e4e10df3e",
+  "traducao": " Definir funções acumulação.\n\t{{CMD_4}} Calcular e avaliar funções acumulação.\n\t{{CMD_5}} Enunciar o primeiro teorema fundamental do cálculo.\n\t{{CMD_6}} Calcular derivadas de funções acumulação usando o primeiro teorema fundamental do cálculo.\n\t{{CMD_7}} Usar funções acumulação para obter informações sobre a função original.\n\t{{CMD_8}} Compreender a relação entre a função e a derivada de sua função acumulação.\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/breakGround.tex",
+  "ordem": 0,
+  "hash": "9a00cef7cd5894c7cb616ccd45024b896944cccf6765efb197f4bd1b92ab9cc6",
+  "traducao": "O que há em um problema de cálculo?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem do que trata o cálculo.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/breakGround.tex",
+  "ordem": 1,
+  "hash": "0f2aac58fcb16f42a8b27f76b3396277671806c8ba40497491979af0a2346f9b",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/breakGround.tex",
+  "ordem": 2,
+  "hash": "4349d0e475119a4dc362ffe88ce36f6ad02acef82ac84d95fcd727e53573f040",
+  "traducao": " Riley! Como você sabe quando está fazendo um problema de cálculo?\n{{CMD_7}} Hmmm. Acho que, se você calcula uma derivada, está fazendo um problema de cálculo.\n{{CMD_8}} O que mais?\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/breakGround.tex",
+  "ordem": 3,
+  "hash": "e470f8553088a7acc73734c50309d507481393579c8b5100405bf419601feca6",
+  "traducao": "  Vamos ouvir sua resposta à pergunta de Devyn acima.\n  {{CMD_10}}\n    As respostas podem variar.\n  {{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 0,
+  "hash": "1eb97687c101fd12da193e5d937407fbf0b9bed5f9553ede58eb11c22b9f468c",
+  "traducao": "O primeiro teorema fundamental do cálculo{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\n  A taxa com que a área acumulada sob uma curva cresce é descrita\n  exatamente pela própria curva.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 1,
+  "hash": "13aef16ad39be4bce736f7dac18f052749f10169a785782777b159bfd2daab31",
+  "traducao": "Funções acumulação{{CMD_7}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 2,
+  "hash": "fb3ce6fab9ea0ef4ea0111d5b2577975ef861a250ac4a58135b5c6fb51c181d9",
+  "traducao": "Embora a integral definida calcule uma área com sinal, que é um número\nfixo, há uma maneira de transformá-la em uma função."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 3,
+  "hash": "b6aaec53a5fcf4366e8068f557ec7b564cf1be31f9c047a8b8bbe7d3b47df6e3",
+  "traducao": "Dada uma função {{MATH_8}} contínua em {{MATH_9}}, uma {{CMD_10}}, para {{MATH_11}}, é definida por\n{{MATH_12}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 4,
+  "hash": "23091a43f7f242520e35df6626057684c35d5254df80ebd5f993efa38a17b982",
+  "traducao": "Uma coisa que você pode notar é que uma função acumulação parece\nter duas variáveis: {{MATH_13}} e {{MATH_14}}. Vamos ver se conseguimos explicar\nisso. Considere o gráfico a seguir:\n{{CMD_15}}\n{{ENV_16}}\n{{CMD_17}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 5,
+  "hash": "13ca210ef27e3f963cdbe9b9202514ba43b1374a2c7d3858ee819f5870a79337",
+  "traducao": "Uma função acumulação {{MATH_18}} mede a área com sinal da região, sobre\n{{MATH_19}}, compreendida entre {{MATH_20}} e o eixo {{MATH_21}}. Logo, {{MATH_22}} desempenha o papel de\num ``marcador de posição'' que nos permite calcular {{MATH_23}}. Por outro lado,\n{{MATH_24}} é o {{CMD_25}}número específico{{CMD_26}} que usamos para delimitar a\nregião que determinará a área entre {{MATH_27}} e o eixo {{MATH_28}} e,\nportanto, o valor de {{MATH_29}}."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 6,
+  "hash": "b643f1a6c40ce6b933f829f842f4dfaf4a8e7cd2ade069d2439311b0c45790b4",
+  "traducao": "Na figura interativa abaixo, está traçado o gráfico de uma função {{MATH_30}}, e uma função acumulação {{MATH_31}} é dada por {{MATH_32}}.\nUse o controle deslizante para ajustar o valor de {{MATH_33}}. Observe como a região sombreada no gráfico muda e o que acontece com o valor de {{MATH_34}}\nquando o gráfico de {{MATH_35}} está acima do eixo {{MATH_36}} e quando o gráfico de {{MATH_37}} está abaixo do eixo {{MATH_38}}.\n{{CMD_39}}\n\t{{CMD_40}}\n{{CMD_41}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 7,
+  "hash": "b8eb78efb53fdda6df6108316ac8684033a854fdfed45304a718b4976bd9f11f",
+  "traducao": "  Dado\n  {{MATH_42}}\n  quanto vale {{MATH_43}}?\n  {{CMD_44}}\n    {{MATH_45}}\n  {{CMD_46}}\n  {{CMD_47}}\n    Quanto vale {{MATH_48}}?\n    {{CMD_49}}\n      {{MATH_50}}\n    {{CMD_51}}\n  {{CMD_52}}\n  {{CMD_53}}\n    Quanto vale {{MATH_54}}?\n    {{CMD_55}}\n      {{MATH_56}}\n    {{CMD_57}}\n  {{CMD_58}}\n{{CMD_59}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 8,
+  "hash": "2881c26c1f8017751f0564aed108c0a91d5607ba87f7ae85b295e7f87e7fe442",
+  "traducao": "Considere a seguinte função acumulação para {{MATH_60}}.\n{{MATH_61}}\nConsiderando o intervalo {{MATH_62}}, onde {{MATH_63}} é crescente? Onde\n{{MATH_64}} é decrescente? Quando {{MATH_65}} tem extremos locais?"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 9,
+  "hash": "ffe0a3e82165338cdfe5572d809080812ecd5527c862511dd2cc76ad3402b8a8",
+  "traducao": "Abaixo vemos o gráfico de {{MATH_66}} junto com a área com sinal medida pela\nfunção acumulação.\n{{CMD_67}}\n{{ENV_68}}\n{{COMMENT_69}}\n{{COMMENT_70}}\n{{CMD_71}}\nA função acumulação começa em zero e, então, à medida que {{MATH_72}} cresce,\n{{MATH_73}} é {{CMD_74}}{{CMD_75}}crescente{{CMD_76}}{{CMD_77}}decrescente{{CMD_78}}{{CMD_79}}, pois\na função acumula área com sinal negativo."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 10,
+  "hash": "dd33663cb7f43bef78c290bc78c40932963c02e624caac42e4c9ae9de03358e4",
+  "traducao": "Porém, quando {{MATH_80}}, {{MATH_81}} começa a acumular área com sinal positivo\ne, portanto, é\n{{CMD_82}}{{CMD_83}}crescente{{CMD_84}}{{CMD_85}}decrescente{{CMD_86}}{{CMD_87}}. Assim, {{MATH_88}}\né crescente em {{MATH_89}}, decrescente em {{MATH_90}} e, portanto, tem um\nmínimo local em {{MATH_91}}.\n{{CMD_92}}\n{{CMD_93}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 11,
+  "hash": "1615af63af12b5ff0701f6079666525ecbad57b4f60afda554356058a1c7cacd",
+  "traducao": "Trabalhar com a função acumulação nos leva a uma pergunta: quanto vale\n{{MATH_94}}\nquando {{MATH_95}}? A convenção geral é que\n{{MATH_96}}\nCom isso em mente, vamos considerar mais um exemplo."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 12,
+  "hash": "6fc201bbf20321f405b29dc19ecf5edecf6e8e01216dd492e5cc2606a22dc632",
+  "traducao": "Considere a seguinte função acumulação para {{MATH_97}}.\n{{MATH_98}}\nOnde {{MATH_99}} é crescente? Onde {{MATH_100}} é decrescente? Quando\n{{MATH_101}} tem extremos locais?\n{{CMD_102}}\nDo exemplo anterior, sabemos que {{MATH_103}} é crescente em\n{{MATH_104}}. Como {{MATH_105}} continua positiva em {{MATH_106}} e daí em diante, {{MATH_107}}\né {{CMD_108}}{{CMD_109}}crescente{{CMD_110}}{{CMD_111}}decrescente{{CMD_112}}{{CMD_113}} em\n{{MATH_114}}. Por outro lado, sabemos do exemplo anterior\nque {{MATH_115}} é\n{{CMD_116}}{{CMD_117}}crescente{{CMD_118}}{{CMD_119}}decrescente{{CMD_120}}{{CMD_121}} em\n{{MATH_122}}.\n{{CMD_123}}\n{{ENV_124}}\n{{COMMENT_125}}\n{{COMMENT_126}}\n{{CMD_127}}\nPara valores à esquerda de {{MATH_128}}, {{MATH_129}} continua decrescente, pois cada vez\nmenos área com sinal positivo é acumulada. Logo, {{MATH_130}} é crescente em\n{{MATH_131}}, decrescente em {{MATH_132}} e, portanto, tem um mínimo\nabsoluto em {{MATH_133}}.\n{{CMD_134}}\n{{CMD_135}}\nO ponto principal a extrair desses exemplos é que uma função\nacumulação\n{{MATH_136}}\né crescente exatamente quando {{MATH_137}} é positiva e é decrescente\nexatamente quando {{MATH_138}} é negativa. Em resumo, parece que {{MATH_139}} está\nse comportando de modo muito parecido com {{MATH_140}}."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 13,
+  "hash": "9b746c334ba900ff7dc0a7909a352e3ff83aaff4708306bc8da6c04ce8eaad58",
+  "traducao": "O primeiro teorema fundamental do cálculo{{CMD_141}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 14,
+  "hash": "c507172100bd8db6f63897176dd5ea3416a29952b41f22519a5da31e78af6127",
+  "traducao": "Seja {{MATH_142}} uma função contínua nos números reais e considere\n{{MATH_143}}\nDo nosso trabalho anterior, sabemos que {{MATH_144}} é crescente quando {{MATH_145}} é\npositiva e que {{MATH_146}} é decrescente quando {{MATH_147}} é negativa. Além disso, com\numa observação cuidadosa, podemos até ver que {{MATH_148}} tem concavidade para cima quando {{MATH_149}}\né positiva e que {{MATH_150}} tem concavidade para baixo quando {{MATH_151}} é negativa.\nPensando no que aprendemos sobre a relação entre uma\nfunção e suas derivadas primeira e segunda, não é tão difícil\nadivinhar que deve haver uma conexão entre {{MATH_152}} e a função\n{{MATH_153}}. Esse é um bom palpite; confira nosso próximo teorema:"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 15,
+  "hash": "879343b2bd8f20393b835aa1804d107e3f6c8c3e8e1e175d1974342241d89872",
+  "traducao": "\tSuponha que {{MATH_154}} é contínua nos números reais e seja\n\t{{MATH_155}}\n\tEntão {{MATH_156}}.\n{{CMD_157}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 16,
+  "hash": "f43dc41fa4b49d87d41552e7fff2811b2746d2d18f8d91e266c32e871151b602",
+  "traducao": "O primeiro teorema fundamental do cálculo diz que uma função\nacumulação de {{MATH_158}} é uma antiderivada de {{MATH_159}}. Outra maneira de dizer isso é:\n{{CMD_160}}\n  {{ENV_161}}\n{{CMD_162}}\nIsso pode ser lido assim:\n{{CMD_163}}{{CMD_164}}{{CMD_165}}A {{CMD_166}} com que a {{CMD_167}} sob uma  {{CMD_168}} cresce é descrita exatamente por essa mesma  {{CMD_169}}.{{CMD_170}}\n{{CMD_171}}\nNessa forma, o primeiro teorema fundamental do cálculo serve como uma nova fórmula de atalho de derivação, que usamos ao derivar funções acumulação."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 17,
+  "hash": "5c0ad4b891af4abf1c8b64a03df055866eb5d7787365ce3d2ed14f1cbc9284fe",
+  "traducao": "  Determine a derivada\n  {{MATH_172}}\n  {{CMD_173}}\n\tPelo primeiro teorema fundamental do cálculo, {{MATH_174}}\n\tObserve que o efeito é que substituímos a variável do integrando por {{MATH_175}}, e o valor de {{MATH_176}} não importa.\n  {{CMD_177}}\n{{CMD_178}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 18,
+  "hash": "a7dd3f3ef8b495293418d60fad19468c3ea600546e582f27fd8828fc02423da0",
+  "traducao": "  Determine a derivada\n  {{MATH_179}}\n  {{CMD_180}}\n\t{{MATH_181}}\n  {{CMD_182}}\n{{CMD_183}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 19,
+  "hash": "81fbd1e6c03135a68657e50f115932c0b3b772b7d3aac22c4021f7f30327f31c",
+  "traducao": "Agora que estamos trabalhando com funções acumulação, vamos ver o que acontece quando as compomos com outras funções."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 20,
+  "hash": "77d18e9468df74428e234699ecfadf432a9b1fa138c43983bb9e982a76d05ade",
+  "traducao": "  Determine a derivada\n  {{MATH_184}}\n  {{CMD_185}}\n    Considere\n    {{MATH_186}}\n    e defina {{MATH_187}}. Agora\n    {{MATH_188}}\n    O primeiro teorema fundamental do cálculo afirma que {{MATH_189}}. A regra da cadeia nos dá\n    {{ENV_190}}\n  {{CMD_191}}\n{{CMD_192}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 21,
+  "hash": "72fccd917fc777870c91b02c8cb65dd3842c89c9e30529bf64e2803ee2370f50",
+  "traducao": "Vamos praticar isso mais uma vez."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 22,
+  "hash": "f7bba616e045bbe8db0c39d51c24f74686457dee61363ec736aa99493825a2cc",
+  "traducao": "  Determine a\n  derivada\n  {{MATH_193}}\n  {{CMD_194}}\n    Considere\n    {{MATH_195}}\n    e defina {{MATH_196}}. Agora\n    {{MATH_197}}\n    O primeiro teorema fundamental do cálculo afirma que {{MATH_198}}. A regra da cadeia nos dá\n    {{ENV_199}}\n  {{CMD_200}}\n{{CMD_201}}\n{{CMD_202}}\nDado o gráfico de uma função {{MATH_203}} no intervalo {{MATH_204}}, esboce o gráfico da função acumulação\n {{MATH_205}}\n{{CMD_206}}\n{{ENV_207}}\n{{COMMENT_208}}\n{{COMMENT_209}}\n{{CMD_210}}\n{{CMD_211}}\nPrimeiro, calculamos {{MATH_212}} em alguns pontos significativos.\n{{MATH_213}}\n{{MATH_214}}\n{{MATH_215}}\n{{MATH_216}}\n{{MATH_217}}\n{{MATH_218}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 23,
+  "hash": "d2284cde2dcd37d10cff7678ab9c0a00e351343dcf33dddc9906accfd3a0312f",
+  "traducao": "Como {{MATH_219}}, segue que a função {{MATH_220}} é crescente no intervalo\n{{MATH_221}}\ne decrescente no intervalo\n{{MATH_222}}\nComo a função {{MATH_223}}, a derivada de {{MATH_224}}, é crescente em {{MATH_225}},  {{MATH_226}} tem concavidade para cima no intervalo\n{{MATH_227}}\nComo {{MATH_228}} é constante no intervalo  {{MATH_229}}, {{MATH_230}} é linear em {{MATH_231}}."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 24,
+  "hash": "642601fa0cfcd5f176d17cf7660e0dc08451600040f67f56c80f5ba09626b66c",
+  "traducao": "A função {{MATH_232}} tem um mínimo local e absoluto em\n{{MATH_233}}\ne o máximo absoluto em\n{{MATH_234}}\nAgora estamos prontos para esboçar o gráfico de {{MATH_235}} no mesmo sistema de eixos do gráfico de {{MATH_236}}.\n{{CMD_237}}\n{{ENV_238}}\n{{COMMENT_239}}\n{{COMMENT_240}}\n{{CMD_241}}\n{{CMD_242}}\n{{CMD_243}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 25,
+  "hash": "1729bce9730a6383c252de06c08bed8d386612e28e6808c81a34b27539cfcfb4",
+  "traducao": "E se a função {{MATH_244}} for a função velocidade de um objeto que se move ao longo de uma reta, isto é, {{MATH_245}}, {{MATH_246}}?"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 26,
+  "hash": "d4eb87948f7047b2e80b45779cff1e5e5095261190780f8c2f14bb994a09265a",
+  "traducao": "Qual é o significado de uma função acumulação nesse caso?"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 27,
+  "hash": "211f6f7f3002b03bbe3ba980fb258d3de6b4e3c55d33f13518c2ecbfa92154e7",
+  "traducao": "Nesse caso, usamos variáveis diferentes, pois queremos que {{MATH_247}} seja uma função do tempo, {{MATH_248}}. Com esse ajuste, definimos a função acumulação {{MATH_249}} da seguinte forma.\n{{MATH_250}}\nComo a integral\n{{MATH_251}}\ndá o deslocamento do objeto no intervalo de tempo {{MATH_252}}, segue que\n{{MATH_253}}\nonde {{MATH_254}} dá a posição do objeto no instante {{MATH_255}}.\nSe derivarmos essa equação em relação a {{MATH_256}}, obtemos\n{{MATH_257}}\nComo {{MATH_258}}, temos que\n{{MATH_259}}\nEste é o primeiro teorema fundamental do cálculo!"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus.tex",
+  "ordem": 28,
+  "hash": "22c77a172ebfaac3f7f5c3462da8f9de1f8c299c1642fcfd9e53026495278b86",
+  "traducao": "\tSuponha que {{MATH_260}}. Aproxime o valor de {{MATH_261}}.\n\t{{CMD_262}}\n\t\tComeçamos calculando {{MATH_263}}, a aproximação linear de {{MATH_264}} no ponto {{MATH_265}}.\n\t\t{{ENV_266}}\n\t\tA função de aproximação linear é {{MATH_267}}.\n\t\tIsso nos dá {{MATH_268}}.\n\t{{CMD_269}}\n{{CMD_270}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC1.tex",
+  "ordem": 0,
+  "hash": "9b48485c97924131ba53ab1a396bc642845530b3f98bec1ec5f47faef03d5ca7",
+  "traducao": "Considere o seguinte limite de somas de Riemann de uma função {{MATH_1}} em {{MATH_2}}.\n{{MATH_3}}\nSelecione a opção abaixo que expressa esse limite como uma integral definida."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC1.tex",
+  "ordem": 1,
+  "hash": "d36e13a4058ac5e54bd8b694574f91704ee5da8fbc677c03e890de61df25f73e",
+  "traducao": "Nenhuma das anteriores{{CMD_4}}\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC10.tex",
+  "ordem": 0,
+  "hash": "9d6caaca1c6cc0816509b8a19792870c0da626fe05c0b467b969bbadc99917fa",
+  "traducao": "O gráfico de {{MATH_1}} em {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC10.tex",
+  "ordem": 1,
+  "hash": "403c5a942bb53a62b8f89a2e75805707b547a426458a3fb1964bce2859adeab0",
+  "traducao": "Seja {{MATH_3}} para {{MATH_4}}."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC10.tex",
+  "ordem": 2,
+  "hash": "dc175378b683a3354811adbef47ae398f805f99d71c644264474a00d7c0cf693",
+  "traducao": " é\n{{MATH_5}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC10.tex",
+  "ordem": 3,
+  "hash": "c998033b5ead051db5a3f0b79f452b3de715523f567221e5957ebb2f8dd58b39",
+  "traducao": " tem concavidade para baixo e é crescente em {{MATH_6}}.\n{{CMD_7}}\nLembre-se: a função {{MATH_8}} é a derivada de {{MATH_9}}!\nEntão, no intervalo em que {{MATH_10}} é positiva e decrescente, a função {{MATH_11}} é crescente e tem concavidade para baixo!"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC10.tex",
+  "ordem": 4,
+  "hash": "7f72244e17cd2fb1138e801fb024a5ece3600a1a8dc1b181844ccdeac3f0c692",
+  "traducao": "Confira o gráfico de {{MATH_12}} para encontrar esse intervalo.\n{{CMD_13}}\n{{MATH_14}} atinge seu máximo em {{MATH_15}}.\n{{CMD_16}}\nLembre-se: a função {{MATH_17}} é a derivada de {{MATH_18}}!{{CMD_19}}\nConfira o gráfico de {{MATH_20}}!{{CMD_21}}\nHá dois pontos críticos, pois {{MATH_22}} e {{MATH_23}}. {{CMD_24}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC10.tex",
+  "ordem": 5,
+  "hash": "e65ab61109c5b69074a180a33117e5bef209e7c445808d1dd5f1c75909cf24d6",
+  "traducao": "O máximo absoluto é um máximo local, porque {{MATH_25}} é decrescente em {{MATH_26}}, crescente em {{MATH_27}} e, depois, novamente decrescente em {{MATH_28}}."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC2.tex",
+  "ordem": 0,
+  "hash": "1a71ea12271d5cd435aa6df73953909d1d587937b2c0667a313925ed6641da13",
+  "traducao": "Calcule as expressões a seguir.\n{{ENV_1}}\n{{CMD_2}}\nObservação: a função {{MATH_3}} é ímpar; o intervalo de integração {{MATH_4}}\n{{CMD_5}}\n{{ENV_6}}\n{{CMD_7}}\nObservação: {{MATH_8}} é um número (integral definida!).  Temos de calcular a derivada de uma constante!\n{{CMD_9}}\n{{ENV_10}}\n{{CMD_11}}\nAplique o primeiro teorema fundamental do cálculo!\n{{CMD_12}}\n{{ENV_13}}\n{{CMD_14}}\nAplique o primeiro teorema fundamental do cálculo e a regra da cadeia!\n{{CMD_15}}\nCalcule\n{{MATH_16}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC2.tex",
+  "ordem": 1,
+  "hash": "1c7298e91f1ee5c51c4f4ad53320a8feb754e428dd30e69ba27aeb83ac29cf31",
+  "traducao": "Nenhuma das respostas anteriores{{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC3.tex",
+  "ordem": 0,
+  "hash": "deb21c73dcca796d65caabde1df0fa14e4a7ec2ba71a4ad2b17294f9529f200d",
+  "traducao": "Calcule\n{{MATH_1}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC3.tex",
+  "ordem": 1,
+  "hash": "c4e4f70fb6e153af2bc9aa0371331785594700b970f7670f803dbdc1a415907f",
+  "traducao": "Nenhuma das anteriores{{CMD_2}}\n{{CMD_3}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC4.tex",
+  "ordem": 0,
+  "hash": "063fd5c71b59a3f1b199b42b90bc66ae1138f5e559f773112c8288cc53204f46",
+  "traducao": "O gráfico de {{MATH_1}} é mostrado abaixo."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC4.tex",
+  "ordem": 1,
+  "hash": "cd3f236a21afd0dd8e42518ba36dc373e9fd0a3a9aa86fc7494b904cf65dd6cd",
+  "traducao": "Sejam\n{{MATH_2}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC4.tex",
+  "ordem": 2,
+  "hash": "b9dd9fcce9fc1a539d539bd7ee199af65fa09afc8454b2b16e16457e6cacd1cd",
+  "traducao": "Calcule as expressões a seguir.\n{{ENV_3}}\n{{CMD_4}}\nLembre-se: {{MATH_5}}. Essa integral definida dá a área com sinal da região entre a curva {{MATH_6}} e o intervalo {{MATH_7}} no eixo {{MATH_8}}. Use geometria!\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC4.tex",
+  "ordem": 3,
+  "hash": "1e019913344640901deac40f55950b258b6bd4f1392c1d49af6d0f5c4e0a03bc",
+  "traducao": "Lembre-se: {{MATH_10}}.\n{{CMD_11}}\n{{ENV_12}}\n{{CMD_13}}\nLembre-se: {{MATH_14}}\n{{CMD_15}}\n{{CMD_16}}\nLembre-se: {{MATH_17}}. Determine o valor {{MATH_18}} a partir do gráfico.\n{{CMD_19}}\nPara {{MATH_20}}, podemos expressar {{MATH_21}} como\n{{MATH_22}}\n{{CMD_23}}\nLembre-se: {{MATH_24}} para  {{MATH_25}}.\n{{CMD_26}}\n{{CMD_27}}\nLembre-se: {{MATH_28}} para  {{MATH_29}}. {{MATH_30}} é uma função linear no intervalo {{MATH_31}}.\n{{CMD_32}}\nPara {{MATH_33}}, podemos expressar {{MATH_34}} como\n{{MATH_35}}\n{{CMD_36}}\nLembre-se: {{MATH_37}} para  {{MATH_38}}.  Essa integral definida dá a área com sinal da região entre o gráfico de {{MATH_39}} e o intervalo {{MATH_40}} no eixo {{MATH_41}}.\nEssa região é um triângulo de base {{MATH_42}} e altura {{MATH_43}}. Calcule a área do triângulo!\n{{CMD_44}}\n{{MATH_45}}\n{{CMD_46}}\nEssa integral dá a área da região entre o gráfico de {{MATH_47}} e o intervalo {{MATH_48}} no eixo {{MATH_49}}. Use geometria!\nEla pode ser expressa como {{MATH_50}}.\n{{CMD_51}}\n{{CMD_52}}\n{{CMD_53}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC5.tex",
+  "ordem": 0,
+  "hash": "3c705c53e180d8ea0a5b9d0d6e20d660eca5c3bda4c0d8d913f64ab2aacc4804",
+  "traducao": "O gráfico de {{MATH_1}} em {{MATH_2}} é dado abaixo"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC5.tex",
+  "ordem": 1,
+  "hash": "bd87f47cc6eadba7b291e7c22660f3e6314d8892188dc7ca9c0858c25e9d0663",
+  "traducao": "Seja\n{{MATH_3}}\npara {{MATH_4}}."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC5.tex",
+  "ordem": 2,
+  "hash": "7f03d38b2447cd237b0a10e4d88c67d87afaf553a1ab42814a04dd4e0961e5e1",
+  "traducao": "Então sabemos que {{MATH_5}} é {{CMD_6}}{{CMD_7}}positivo{{CMD_8}}{{CMD_9}}negativo{{CMD_10}}{{CMD_11}}zero{{CMD_12}}{{CMD_13}}. Além disso, {{MATH_14}} é {{CMD_15}}{{CMD_16}}positivo{{CMD_17}}{{CMD_18}}negativo{{CMD_19}}{{CMD_20}}zero{{CMD_21}}{{CMD_22}} e {{MATH_23}} é {{CMD_24}}{{CMD_25}}positivo{{CMD_26}}{{CMD_27}}negativo{{CMD_28}}{{CMD_29}}zero{{CMD_30}}{{CMD_31}}.\n{{CMD_32}}\nLembre-se: {{MATH_33}}. Isso dá a área com sinal.\n{{CMD_34}}\n{{CMD_35}}\nLembre-se: {{MATH_36}}. Isso dá a área com sinal.{{CMD_37}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC5.tex",
+  "ordem": 3,
+  "hash": "3967fe72d1be9e0d6134810a15366163d4b42e073427b0016a50d4ffa9b43b9b",
+  "traducao": ". {{CMD_38}}\n A primeira integral é negativa e a segunda, positiva.\n {{CMD_39}}\n {{CMD_40}}\nLembre-se: {{MATH_41}}\n{{CMD_42}}\n {{CMD_43}}\nLembre-se: {{MATH_44}}\n{{CMD_45}}\nDetermine a solução do problema de valor inicial {{MATH_46}} e {{MATH_47}}.\n{{CMD_48}}\n{{CMD_49}}{{MATH_50}}{{CMD_51}}\n{{CMD_52}}{{MATH_53}}{{CMD_54}}\n{{CMD_55}}{{MATH_56}}{{CMD_57}}\n{{CMD_58}}{{MATH_59}}{{CMD_60}}\n{{CMD_61}}{{MATH_62}}{{CMD_63}}\n{{CMD_64}}{{MATH_65}}{{CMD_66}}\n{{CMD_67}}Nenhuma das anteriores{{CMD_68}}\n{{CMD_69}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC5.tex",
+  "ordem": 4,
+  "hash": "e65a8b57460d354ab77c21eabe293406a792c9aaf78ff049d64e652f23a1788c",
+  "traducao": "Determine uma expressão para {{MATH_70}}.\n{{CMD_71}}\n{{CMD_72}}{{MATH_73}}{{CMD_74}}\n{{CMD_75}}{{MATH_76}}{{CMD_77}}\n{{CMD_78}}{{MATH_79}}{{CMD_80}}\n{{CMD_81}}{{MATH_82}}{{CMD_83}}\n{{CMD_84}}Nenhuma das anteriores{{CMD_85}}\n{{CMD_86}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC5.tex",
+  "ordem": 5,
+  "hash": "a846be80bb66ff8894324c37b8054f27b55f293cd34d07503ae1f548346d7cd3",
+  "traducao": "Determine a soma de Riemann do ponto médio para {{MATH_87}} em {{MATH_88}} com 2 subintervalos.\n{{CMD_89}}\n{{CMD_90}}{{MATH_91}}{{CMD_92}}\n{{CMD_93}}{{MATH_94}}{{CMD_95}}\n{{CMD_96}}{{MATH_97}}{{CMD_98}}\n{{CMD_99}}{{MATH_100}}{{CMD_101}}\n{{CMD_102}}{{MATH_103}}{{CMD_104}}\n{{CMD_105}}{{MATH_106}}{{CMD_107}}\n{{CMD_108}}Nenhuma das anteriores{{CMD_109}}\n{{CMD_110}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC6.tex",
+  "ordem": 0,
+  "hash": "9d6caaca1c6cc0816509b8a19792870c0da626fe05c0b467b969bbadc99917fa",
+  "traducao": "O gráfico de {{MATH_1}} em {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC6.tex",
+  "ordem": 1,
+  "hash": "bd87f47cc6eadba7b291e7c22660f3e6314d8892188dc7ca9c0858c25e9d0663",
+  "traducao": "Seja\n{{MATH_3}}\npara {{MATH_4}}."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC6.tex",
+  "ordem": 2,
+  "hash": "78efe823b5f49ee3d08e0dcd28274ecde462b60e3d200ee9b56d28a4d69e2005",
+  "traducao": "Calcule as expressões a seguir.\n{{ENV_5}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC7.tex",
+  "ordem": 0,
+  "hash": "1165b1725e7970808369d061cce0b263f9266f7d99714abeb29f5e60e93bbda7",
+  "traducao": "Calcule {{MATH_1}}.\n{{CMD_2}}\n{{CMD_3}}{{MATH_4}}{{CMD_5}}\n{{CMD_6}}{{MATH_7}}{{CMD_8}}\n{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}{{MATH_13}}{{CMD_14}}\n{{CMD_15}}{{MATH_16}}{{CMD_17}}\n{{CMD_18}}Nenhuma das anteriores{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC7.tex",
+  "ordem": 1,
+  "hash": "33ab7aeec928161aaae69a86a7bd7516e03cce3012ab8d6bacc8293640dd5996",
+  "traducao": "Calcule {{MATH_21}}.\n{{CMD_22}}\n{{CMD_23}}{{MATH_24}}{{CMD_25}}\n{{CMD_26}}{{MATH_27}}{{CMD_28}}\n{{CMD_29}}{{MATH_30}}{{CMD_31}}\n{{CMD_32}}{{MATH_33}}{{CMD_34}}\n{{CMD_35}}{{MATH_36}}{{CMD_37}}\n{{CMD_38}}Nenhuma das anteriores{{CMD_39}}\n{{CMD_40}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC8.tex",
+  "ordem": 0,
+  "hash": "43d7ed85b352358b27d7c9d9adf93826aa0e5eae375dd60dd9c9b1940142d887",
+  "traducao": "O gráfico de {{MATH_1}} é dado abaixo."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC8.tex",
+  "ordem": 1,
+  "hash": "955c81a2dffa9b0519df5f3a79e92a6a37662479b93ceb853ec2030f5cfa6834",
+  "traducao": "Seja {{MATH_2}}."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC8.tex",
+  "ordem": 2,
+  "hash": "24b4e1cd65f122e5f58763afeb7b264c483df5c8f6db24ba7f25e14cffebe612",
+  "traducao": "Calcule as expressões a seguir.\n{{ENV_3}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC8.tex",
+  "ordem": 3,
+  "hash": "e8534807cf36b1c626214aa94edea5ea84eb4c0a821320265b557ccc35b29c2a",
+  "traducao": "O gráfico de {{MATH_4}} é dado abaixo."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC8.tex",
+  "ordem": 4,
+  "hash": "c3f2bb4d127c6c4e19add20cf2cf125002c5b36625e95bfcec766b302cc12246",
+  "traducao": "Calcule as expressões a seguir.\n{{ENV_5}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC8.tex",
+  "ordem": 5,
+  "hash": "3b182c7819555a51f04915ec120e959818926acee1bf1bf368056cfba88eafef",
+  "traducao": "Resolva o problema de valor inicial {{MATH_6}} e {{MATH_7}} em termos de {{MATH_8}}.\n{{CMD_9}}\nLembre-se: a função {{MATH_10}} é uma antiderivada de {{MATH_11}}.\n{{CMD_12}}\n{{CMD_13}}\nPortanto, qualquer antiderivada de {{MATH_14}} pode ser escrita como {{MATH_15}}, para alguma constante {{MATH_16}}.{{CMD_17}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC8.tex",
+  "ordem": 6,
+  "hash": "5426c4f75b6a59dc71bd9375644211b4bfc0eefeb623b9076f56110d4d5b8b95",
+  "traducao": "Qualquer função desse tipo satisfaz a equação diferencial\n {{MATH_18}}: {{CMD_19}}\n {{MATH_20}}!{{CMD_21}}\nDetermine a constante C que também satisfaz a condição inicial:\n{{MATH_22}}\n{{CMD_23}}\n{{MATH_24}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC9.tex",
+  "ordem": 0,
+  "hash": "9d6caaca1c6cc0816509b8a19792870c0da626fe05c0b467b969bbadc99917fa",
+  "traducao": "O gráfico de {{MATH_1}} em {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC9.tex",
+  "ordem": 1,
+  "hash": "403c5a942bb53a62b8f89a2e75805707b547a426458a3fb1964bce2859adeab0",
+  "traducao": "Seja {{MATH_3}} para {{MATH_4}}."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FFTOC9.tex",
+  "ordem": 2,
+  "hash": "a132151a71de4ea84ae10b65b67f143763f88cd147b7bf0fddecabc53dd73c0d",
+  "traducao": "Calcule as expressões a seguir.\n{{ENV_5}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOC1Table1.tex",
+  "ordem": 0,
+  "hash": "51730e7443b307764d1703c8c9dd0565da65c5a44c187c861d7463fc6a762b12",
+  "traducao": "Seja {{MATH_1}}, e suponha que {{MATH_2}} tenha a seguinte tabela\nde valores.  Quanto vale {{MATH_3}}?"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOC1Table1.tex",
+  "ordem": 1,
+  "hash": "15f83306a1c6efe46019d767a16e93a72e3d65ae69fa065e0ee2908b320ccbd4",
+  "traducao": "Pelo primeiro teorema fundamental do cálculo, {{MATH_4}}.\n{{CMD_5}}\n{{CMD_6}}\nPortanto, {{MATH_7}}.\n{{CMD_8}}\n{{CMD_9}}\n  {{MATH_10}}\n{{CMD_11}}\n{{CMD_12}}\n{{CMD_13}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOC1Table2.tex",
+  "ordem": 0,
+  "hash": "7e5a7db72ad50c84d3920d6c5fbaa845445ea10984faabac1bebb7442117b1e2",
+  "traducao": "Seja {{MATH_1}}, e suponha que {{MATH_2}} tenha a seguinte tabela de valores.  Quanto vale {{MATH_3}}?"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOC1Table3.tex",
+  "ordem": 0,
+  "hash": "78ce8c056d3b95f366793a3dd757fe4e2014f55822bf0dcbb18591bee376f0c5",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}}.  As funções {{MATH_3}} e {{MATH_4}} têm a seguinte tabela de valores.  Quanto vale {{MATH_5}}?"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOC1Table3.tex",
+  "ordem": 1,
+  "hash": "aa75a9e1b8be79398079bc9497b8a64207b08c2c91974ea99cf58c5749dacc8d",
+  "traducao": "Aplique a regra do produto!\n{{CMD_6}}\n{{CMD_7}}\nAplique a regra do produto e o primeiro teorema fundamental do cálculo!{{CMD_8}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOC1Table5.tex",
+  "ordem": 0,
+  "hash": "78ce8c056d3b95f366793a3dd757fe4e2014f55822bf0dcbb18591bee376f0c5",
+  "traducao": "Sejam {{MATH_1}} e {{MATH_2}}.  As funções {{MATH_3}} e {{MATH_4}} têm a seguinte tabela de valores.  Quanto vale {{MATH_5}}?"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOC1Table5.tex",
+  "ordem": 1,
+  "hash": "42f4b2e3109e76eb545da6fc6382e627d743db0b0ac6bb75d5832db78a500037",
+  "traducao": "Aplique a regra da cadeia!\n{{CMD_6}}\n{{CMD_7}}\n{{MATH_8}}\n{{CMD_9}}\n{{CMD_10}}\n\t{{MATH_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse1.tex",
+  "ordem": 0,
+  "hash": "7bc0579ccc584d01aa801164b7fb3833692d43351561851507e596a6a482ea5d",
+  "traducao": "Verdadeiro ou falso: para qualquer função contínua {{MATH_1}}, {{MATH_2}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse1.tex",
+  "ordem": 1,
+  "hash": "b7e1f40870d7f4d62e54eb4217aea21aa2aba7ac2654e4610c3820be1df3f730",
+  "traducao": "Quando derivamos a função do lado esquerdo, obtemos{{CMD_3}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse1.tex",
+  "ordem": 2,
+  "hash": "0673d69ff78439adfb40182f626c701aa63586c0f636a134a72a8cd425151a29",
+  "traducao": "."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse1.tex",
+  "ordem": 3,
+  "hash": "85b0cffe4cf5cf3f9da81a96474f3564d9e6749bba0f003cbd3157f6de570566",
+  "traducao": "Quando derivamos a função do lado direito, obtemos"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse1.tex",
+  "ordem": 4,
+  "hash": "0673d69ff78439adfb40182f626c701aa63586c0f636a134a72a8cd425151a29",
+  "traducao": "."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse1.tex",
+  "ordem": 5,
+  "hash": "55c02a94fb17aa2e903340bf2ca4a48a49adfbd714f0f80f151088968816ba32",
+  "traducao": "As duas derivadas NÃO SÃO IGUAIS.\nPortanto, as funções NÃO SÃO IGUAIS.\n{{CMD_4}}\n{{CMD_5}}\n\t{{CMD_6}}\n\t\t{{CMD_7}}Verdadeiro{{CMD_8}}\n\t\t{{CMD_9}}Falso{{CMD_10}}\n\t{{CMD_11}}\n{{CMD_12}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse2.tex",
+  "ordem": 0,
+  "hash": "8b29c4259638353910abe9d6b3e8144f422e784531ab7d720abdf2819060d047",
+  "traducao": "Verdadeiro ou falso: se {{MATH_1}} é contínua em {{MATH_2}},  {{MATH_3}} e  {{MATH_4}}, então {{MATH_5}} é uma função constante"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse2.tex",
+  "ordem": 1,
+  "hash": "d463a289010b5500ef5e4e9d9fa7de56c35a8d917c55cbcfb6c43ff4dec39dc8",
+  "traducao": "Para todo {{MATH_6}},"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse2.tex",
+  "ordem": 2,
+  "hash": "0628779d2362f61b2fadb24974fbb5b61c259d611403733059f617b13616b672",
+  "traducao": " OU\n\n\n Para todo {{MATH_7}},\n\n\n {{MATH_8}}.\n\n\n A derivada da função {{MATH_9}} é zero para todos os números reais. Portanto, a função é constante.\n{{CMD_10}}\n{{CMD_11}}\n\t{{CMD_12}}\n\t\t{{CMD_13}}Verdadeiro{{CMD_14}}\n\t\t{{CMD_15}}Falso{{CMD_16}}\n\t{{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse3.tex",
+  "ordem": 0,
+  "hash": "7181af6d98a6beb06c040a9c44b7998b18855ad06bcf43845f0993608b4f2ba7",
+  "traducao": "Verdadeiro ou falso: se {{MATH_1}} é contínua em {{MATH_2}},  então {{MATH_3}} também deve ser contínua em {{MATH_4}}."
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse3.tex",
+  "ordem": 1,
+  "hash": "3144783c476c5e85316861ae12d3b0d191b778c1ad8c55750fa1d80f931abc22",
+  "traducao": "Verdadeiro{{CMD_5}}\n\t\t{{CMD_6}}Falso{{CMD_7}}\n\t{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse5.tex",
+  "ordem": 0,
+  "hash": "1de1351c0ce6d92a2995c87be91480bd0ff0f86583cae3e4dde8c3f82c2e6d18",
+  "traducao": "Verdadeiro ou falso: se {{MATH_1}} é crescente em {{MATH_2}}, então {{MATH_3}} também é crescente em {{MATH_4}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse5.tex",
+  "ordem": 1,
+  "hash": "3144783c476c5e85316861ae12d3b0d191b778c1ad8c55750fa1d80f931abc22",
+  "traducao": "Verdadeiro{{CMD_5}}\n\t\t{{CMD_6}}Falso{{CMD_7}}\n\t{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse6.tex",
+  "ordem": 0,
+  "hash": "a95370108dbdd5bbe1d4d0acd0f5074e38505e3952eceb95cabcc9e416fb7f03",
+  "traducao": "Verdadeiro ou falso: se {{MATH_1}} é negativa em {{MATH_2}}, então {{MATH_3}} é decrescente em {{MATH_4}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse6.tex",
+  "ordem": 1,
+  "hash": "3144783c476c5e85316861ae12d3b0d191b778c1ad8c55750fa1d80f931abc22",
+  "traducao": "Verdadeiro{{CMD_5}}\n\t\t{{CMD_6}}Falso{{CMD_7}}\n\t{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse7.tex",
+  "ordem": 0,
+  "hash": "f9b49b966aeef69be53ceedccd12ef5727ce77792a4e69288acd9e29b35bbcf9",
+  "traducao": "Verdadeiro ou falso: se {{MATH_1}} é contínua em {{MATH_2}}, então {{MATH_3}} é derivável em {{MATH_4}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCTrueFalse7.tex",
+  "ordem": 1,
+  "hash": "3144783c476c5e85316861ae12d3b0d191b778c1ad8c55750fa1d80f931abc22",
+  "traducao": "Verdadeiro{{CMD_5}}\n\t\t{{CMD_6}}Falso{{CMD_7}}\n\t{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCWeird1.tex",
+  "ordem": 0,
+  "hash": "6846ddb57a39c112271e317828e6207becdbf14479db9365a7cb4d4d84de183e",
+  "traducao": "Existe alguma função {{MATH_1}} satisfazendo\n{{MATH_2}}\nSe existir, qual é essa função?"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FTOCWeird1.tex",
+  "ordem": 1,
+  "hash": "247b763756858b56645d37f9b7efe9471ec406941bd5b2fa0f4e329ee79c667e",
+  "traducao": "  Se existir tal função, escreva-a abaixo. Caso contrário, escreva apenas: DNE\n  {{CMD_3}}\nA função {{MATH_4}} é uma antiderivada de {{MATH_5}}.\n  Portanto, {{MATH_6}}!\n    {{CMD_7}}\n  {{MATH_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "firstFundamentalTheoremOfCalculus/exercises/FirstFTOC7.tex",
+  "ordem": 0,
+  "hash": "d26bee66d98be706d442fcb1a11a8b7866663c5d238c6848e6c23798e7ef44c1",
+  "traducao": "Portanto, estamos derivando uma constante!\n{{CMD_1}}\n{{CMD_2}}\n{{CMD_3}}"
+ }
+]

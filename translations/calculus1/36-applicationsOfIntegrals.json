@@ -1,0 +1,686 @@
+[
+ {
+  "arquivo": "applicationsOfIntegrals/titlePage.tex",
+  "ordem": 0,
+  "hash": "91e0e07e28ed383c8bdab31750b31816d3dca9f54625cda7460e17a72dbb4cfa",
+  "traducao": "Aplicações de integrais{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/titlePage.tex",
+  "ordem": 1,
+  "hash": "2c2436d6aca5963a25263551a6ad4aa499d42ceeba5431ba9b27943ddcdb7bc8",
+  "traducao": "Depois de concluir esta seção, os estudantes devem ser capazes de fazer o seguinte."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/titlePage.tex",
+  "ordem": 2,
+  "hash": "00d10137549346dc59089b0d79f2c55262a8fc0b22dad2c7e55af1c02daa4de2",
+  "traducao": " Dada uma função velocidade, calcular o deslocamento e a distância percorrida.\n\t{{CMD_4}} Dada uma função velocidade, determinar a função posição.\n\t{{CMD_5}} Dada uma função aceleração, determinar a função velocidade.\n\t{{CMD_6}} Entender a diferença entre deslocamento e distância percorrida.\n\t{{CMD_7}} Entender a relação entre posição, velocidade e aceleração.\n\t{{CMD_8}} Calcular a variação de uma quantidade.\n\t{{CMD_9}} Calcular o valor médio de uma função em um intervalo.\n\t{{CMD_10}} Entender que o valor médio de uma função em um intervalo é atingido pela função nesse intervalo."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/breakGround.tex",
+  "ordem": 0,
+  "hash": "3374ccca4af6f823eaea8b27f3f9daee507aca3dd0916bdbb6e451f847895423",
+  "traducao": "O que isso poderia representar?{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nDois jovens matemáticos discutem se as integrais estão definidas corretamente.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/breakGround.tex",
+  "ordem": 1,
+  "hash": "0f2aac58fcb16f42a8b27f76b3396277671806c8ba40497491979af0a2346f9b",
+  "traducao": "Confira este diálogo entre dois estudantes de cálculo (baseado em uma história\nreal):"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/breakGround.tex",
+  "ordem": 2,
+  "hash": "67a59ff2f0a4fae2c11a67b488fd5a140e5f1719ff5a40a49abb318e68caa41b",
+  "traducao": " Riley, eu gosto de integrais.\n{{CMD_7}} Eu me sinto chique quando desenho um sinal de integral.\n{{CMD_8}} Eu sei! Uma integral calcula a área com sinal entre uma curva\n  {{MATH_9}} e o eixo {{MATH_10}}. Mas por que área {{CMD_11}}com sinal{{CMD_12}}? Talvez devêssemos\n  simplesmente calcular a área comum de sempre.\n{{CMD_13}} Faz sentido para mim!\n{{CMD_14}} A menos que{{CMD_15}} talvez existam outras aplicações em que\n  a área ``com sinal'' faça mais sentido.\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/breakGround.tex",
+  "ordem": 3,
+  "hash": "32c36880a78aab88340e07a4bea9a7c6bbb21ab1aa4a44dcd543408f6b9fc50c",
+  "traducao": "Uma maneira realmente boa de pensar nas integrais é que elas\n``acumulam taxas''."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/breakGround.tex",
+  "ordem": 4,
+  "hash": "b51442766bfcc5454464658f19d093fb454e4fafedc29dc0309a53c47fd27513",
+  "traducao": "  Escreva tantos exemplos de ``taxas'' e ``taxas acumuladas'' quantos conseguir. Por exemplo:\n  {{CMD_17}}\n    {{MATH_18}} milhas por hora é uma taxa, e {{MATH_19}} milhas é então uma taxa acumulada.\n  {{CMD_20}}\n  {{CMD_21}}\n  {{CMD_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 0,
+  "hash": "7f34986c15aefbb534a3a2abcd87f51b1b3ec012dead9123cf8f6922c61c7a2d",
+  "traducao": "Aplicações de integrais{{CMD_1}}{{PREAMBLE_2}}{{CMD_3}}\n{{CMD_4}}\nApresentamos mais contextos para entender integrais.\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 1,
+  "hash": "840d6a9f7247cf12feb35ade64b069e75b0a1973965bf3692c7f1784579a1abf",
+  "traducao": "Velocidade e deslocamento, velocidade escalar e distância{{CMD_7}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 2,
+  "hash": "943ab494d484395510925051081827e165a18507b4e55efea9b461231eaf9ead",
+  "traducao": "Algumas grandezas incluem uma ``direção'' que é relativa a algum ponto fixo."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 3,
+  "hash": "3a45d0a3932fa5d2196890baf9996b716fcb286ec60109aa6ff87b2c334f3a3d",
+  "traducao": " é a {{CMD_8}} de um objeto no instante {{MATH_9}}. Ela representa a ``variação da posição'' no instante {{MATH_10}}.\n\t  {{CMD_11}} {{MATH_12}} é a {{CMD_13}} de um objeto no instante {{MATH_14}}. Ela dá a localização em relação à origem.\n\t  \t{{MATH_15}}\n\t  {{CMD_16}} {{MATH_17}} é o {{CMD_18}}, a distância entre a localização inicial e a localização final.\n  {{CMD_19}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 4,
+  "hash": "583d252ff868fd9c09f7256c244a8c0a0dce2e29e2a77a4d22b6c00533c2f885",
+  "traducao": "Por outro lado, {{CMD_20}}velocidade escalar{{CMD_21}} e {{CMD_22}}distância{{CMD_23}} são grandezas sem ``direção''."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 5,
+  "hash": "197cb18057fbad784264a3241a9dc8c6dce1ecb390be2c90a5dc49d6c37c90b0",
+  "traducao": " é a {{CMD_24}}.\n\t  {{CMD_25}} {{MATH_26}} é a {{CMD_27}} percorrida.\n  {{CMD_28}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 6,
+  "hash": "fa6b63bfaa6f10d4f459517f2cebe102988f0faed5bd4ffd31373cff9a00554b",
+  "traducao": "  Considere uma partícula cuja velocidade no instante {{MATH_29}} é dada por {{MATH_30}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 7,
+  "hash": "916020eb67ca03a893bd3dbfb9d58ce8a88e7ed41380a3f4d3966ab6b4aae56f",
+  "traducao": "Qual é o deslocamento da partícula de {{MATH_31}} a {{MATH_32}}? Isto\né, calcule:\n{{MATH_33}}\nQual é o deslocamento da partícula de {{MATH_34}} a {{MATH_35}}? Isto é, calcule:\n{{MATH_36}}\nQual é a distância percorrida pela partícula de {{MATH_37}} a {{MATH_38}}?\nIsto é, calcule:\n{{MATH_39}}\nQual é a distância percorrida pela partícula de {{MATH_40}} a {{MATH_41}}?\nIsto é, calcule:\n{{MATH_42}}\n{{CMD_43}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 8,
+  "hash": "a6e2f62e876a75c263073b5ef8d3ffef8b569fa14217a952afcb64d78822ea6b",
+  "traducao": " Variação líquida de uma quantidade {{CMD_44}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 9,
+  "hash": "f098235ac1edcca538de7a073a5c642d0480ce0ebad41b6e3d18f44b616ce6e0",
+  "traducao": "Podemos aplicar os teoremas fundamentais do cálculo a uma variedade de problemas em que tanto a acumulação quanto a taxa de variação desempenham papéis importantes.\nPor exemplo, podemos considerar um tanque que está sendo abastecido com combustível a uma certa taxa. Dada a taxa, podemos perguntar qual é a quantidade de combustível no\ntanque em um certo instante. Ou um tanque que está sendo esvaziado a uma taxa dada, ou uma cultura de bactérias crescendo em uma placa de Petri,\nou a população de uma cidade, etc.\nIsso nos leva ao nosso próximo teorema."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 10,
+  "hash": "2a26640361227160c22c4b2f69c3595360aca1a7e113020eba05fb56bc833fce",
+  "traducao": "\tSeja {{MATH_45}} a quantidade de alguma substância/população no instante {{MATH_46}}.\n\n\tSuponha que a função {{MATH_47}} seja contínua e derivável e que sua derivada, {{MATH_48}}, seja contínua em algum intervalo de tempo {{MATH_49}}.\n\n\n\tEntão a {{CMD_50}}variação líquida{{CMD_51}}, {{MATH_52}}, da quantidade {{MATH_53}} ao longo do intervalo de tempo {{MATH_54}} é dada por\n\t{{MATH_55}}\n{{CMD_56}}\n{{CMD_57}}\n\tIsso vem do segundo teorema fundamental do cálculo.\n\tÉ claro que {{MATH_58}}, o que dá a variação da quantidade {{MATH_59}} ao longo do intervalo de tempo {{MATH_60}}. É a diferença entre a quantidade no fim do intervalo de tempo e a quantidade no início do intervalo de tempo.\n\n\tO lado direito da equação, a integral definida, dá a ``acumulação de uma taxa''.\n\tVocê pode pensar nessa integral definida como o limite de somas de Riemann, em que cada soma de Riemann é a\n\t``soma das variações da quantidade em pequenos intervalos de tempo''.\n{{CMD_61}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 11,
+  "hash": "d95342db737f309ac5b89e904c3ef60d14237ea3104963ec400030cfee3fb0b3",
+  "traducao": "Um experimento é conduzido no qual uma cultura de bactérias é cultivada em uma placa de Petri. A população inicial foi estimada em 1200 células.\nA taxa de crescimento da população é estimada em {{MATH_62}} células/dia.\n{{CMD_63}}\n{{CMD_64}} Quanto a população cresceu durante os três primeiros dias do experimento?\n{{CMD_65}}\nO crescimento da população durante os três primeiros dias do experimento é dado por:\n{{ENV_66}}\nDurante os três primeiros dias, a população cresceu aproximadamente 226 células.\n{{CMD_67}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 12,
+  "hash": "ab8f5377d08b7f3af182b5ccb9074d85ba2415b521957601297c276789975854",
+  "traducao": " Calcule a soma de Riemann à direita da função {{MATH_68}} no intervalo {{MATH_69}} com {{MATH_70}}.\nO que essa soma de Riemann aproxima? Essa aproximação é uma estimativa por falta ou por excesso, e por quê?"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 13,
+  "hash": "8efda22fff2478a406c3de4e91e105b4a06ac7f49057074818a967517ef9ed8e",
+  "traducao": "Essa soma de Riemann aproxima a variação da população durante os três primeiros dias do experimento.\nEsperamos que ela seja uma estimativa por falta, porque a função {{MATH_71}} é decrescente e esta é uma soma de Riemann à direita."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 14,
+  "hash": "67689e246630177138892006f89e9c66491ad0622f21481a6e383f2da2931746",
+  "traducao": "Como {{MATH_72}}, {{MATH_73}}. Como estamos usando uma soma de Riemann à direita, nossos pontos amostrais serão\n{{MATH_74}}.\n{{ENV_75}}\n{{CMD_76}}\n{{CMD_77}} Determine a população em um instante qualquer {{MATH_78}}.\n{{CMD_79}}\n{{ENV_80}}\nPortanto, para {{MATH_81}},\n{{MATH_82}}\n{{CMD_83}}\n{{CMD_84}}\n{{CMD_85}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 15,
+  "hash": "d654a75464c6bb9b051bb20e3d615e28b5da845099cf16a8e23270290992f391",
+  "traducao": "Valor médio de uma função contínua{{CMD_86}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 16,
+  "hash": "f34105345cb6f222187ca6ca12355f2e8e0cbc5be2893d0f08bef41cdd1854de",
+  "traducao": "Pensar em integrais definidas como ``área com sinal'' funciona muito bem\nenquanto for possível de fato visualizar a ``área''. Em alguns casos, uma\nmetáfora melhor para integrais vem da ideia de {{CMD_87}}valor\n  médio{{CMD_88}}. Olhando para trás, para a sua época de matemático ainda mais jovem,\nvocê talvez se lembre da ideia de {{CMD_89}}média{{CMD_90}}:\n{{MATH_91}}\nSe quisermos conhecer {{MATH_92}}, o valor médio de uma função no intervalo {{MATH_93}}, uma abordagem\ningênua seria introduzir {{MATH_94}} pontos igualmente espaçados\nno intervalo {{MATH_95}}\n{{MATH_96}}\ne escolher um ponto amostral {{MATH_97}} em cada intervalo {{MATH_98}}, {{MATH_99}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 17,
+  "hash": "2f928dde5aa945db13d8d65811cff01b05d14c879a376138cb0c16a8337ca4a8",
+  "traducao": "Vamos aproximar o valor médio de {{MATH_100}} no intervalo {{MATH_101}} pela média de {{MATH_102}},\n{{MATH_103}}, {{CMD_104}} e {{MATH_105}}:\n{{MATH_106}}\nMultiplicando essa última expressão por {{MATH_107}}:\n{{ENV_108}}\nem que {{MATH_109}}. Ah! No lado direito temos uma soma de Riemann!"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 18,
+  "hash": "02d202664fc4b370ba6d56279118c6eedc547e36aa743d529fe7a59dd14e357a",
+  "traducao": "O que acontecerá quando {{MATH_110}}?"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 19,
+  "hash": "ccaaa57ed2b11c3f58f903c4cc41b14bb1f63dc98b5cceb8625e25e87411f95e",
+  "traducao": "Tomamos o limite quando {{MATH_111}}:\n{{MATH_112}}\nIsso nos leva à nossa próxima definição:"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 20,
+  "hash": "e28661982b119b9aae84d03f29346777d2f5605afd5c3def2cdeb564865c6adc",
+  "traducao": "  Seja {{MATH_113}} contínua em {{MATH_114}}. O {{CMD_115}} de {{MATH_116}} em\n  {{MATH_117}} é dado por\n  {{MATH_118}}\n{{CMD_119}}\nMultiplicando essa equação por {{MATH_120}}, obtemos que\n {{MATH_121}}\nSe {{MATH_122}} for positiva, o valor médio da função dá a altura de um único retângulo cuja área é igual a\n{{MATH_123}}\n{{CMD_124}}\n  {{ENV_125}}\n{{CMD_126}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 21,
+  "hash": "7399de06e5b33dae15ac8f76535f3cb3c51bc0846b05af85976076ed8247e24d",
+  "traducao": "Uma aplicação dessa definição é dada no próximo exemplo."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 22,
+  "hash": "9adf00f0dca24420242042a15dd5514335ff1825f236364036f3f8d175a89e7e",
+  "traducao": "Um objeto se move para a frente e para trás ao longo de uma reta com velocidade\ndada por {{MATH_127}} em {{MATH_128}}, em que {{MATH_129}} é medido em segundos\ne {{MATH_130}} em pés/s."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 23,
+  "hash": "8561a673b1664acf11573a0951c8cca2e8becad2063df64d86acaf9739a3fe32",
+  "traducao": "Qual é a velocidade média do objeto?\n{{CMD_131}}\nPela definição, a velocidade média é:\n{{ENV_132}}\n{{CMD_133}}\n{{CMD_134}}\n{{CMD_135}}\nEscolha {{CMD_136}}todas{{CMD_137}} as expressões corretas para {{MATH_138}}, a velocidade média de um objeto que se move ao longo de uma reta no intervalo de tempo {{MATH_139}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 24,
+  "hash": "6593b87d48e06153bb510f99361446ad6c3b6913517926b87a7ee8b78808d0ad",
+  "traducao": "(Lembrete: {{MATH_140}} é a função posição e {{MATH_141}} é a aceleração.)\n{{CMD_142}}\n{{CMD_143}}{{MATH_144}}{{CMD_145}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 25,
+  "hash": "a018952f984934343195c1434ade02f75da61b28fb6da2bf178456ec0560a711",
+  "traducao": "Já sabemos que\n{{MATH_146}}\nTambém sabemos que a função posição é dada por\n{{MATH_147}}\nPortanto,\n{{MATH_148}}\nLogo, podemos calcular a velocidade média usando tanto a função posição quanto a função velocidade.\n{{CMD_149}}\n{{CMD_150}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 26,
+  "hash": "774e87ba05617ac2cea36a6a0012f09d1de897586eb66b3740d553e1a8b2b71a",
+  "traducao": "Quando calculamos a média de um conjunto finito de valores, não importa\nem que ordem colocamos esses valores. Quando calculamos o valor médio de uma\nfunção, porém, precisamos ter mais cuidado."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 27,
+  "hash": "735ee1b819db6314b0500904d59faf41b6205ac87fe7f800bae2011cd5d877ff",
+  "traducao": "Por exemplo, há pelo menos duas maneiras diferentes de dar sentido a uma\nfrase vaga como ``A altura média de um ponto do semicírculo\nunitário''\n{{CMD_151}}\n  {{ENV_152}}\n{{CMD_153}}\nUma maneira de dar sentido a ``A altura média de um ponto do\nsemicírculo unitário'' é calcular o valor médio da função\n{{MATH_154}}\nno intervalo {{MATH_155}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 28,
+  "hash": "47d3665173ffc3fe2da141b72c9bad57bdc9584ea5a33e0d5b5f88538a15c7d8",
+  "traducao": "  Calcule o valor médio da função\n  {{MATH_156}}\n  no intervalo {{MATH_157}}.\n  {{CMD_158}}\n    Pela definição, queremos calcular\n    {{MATH_159}}\n    Calculando essa integral geometricamente, encontramos que o valor médio\n    é {{MATH_160}}.\n  {{CMD_161}}\n{{CMD_162}}\nOutra maneira de dar sentido a ``A altura média de um ponto do\nsemicírculo unitário'' é o valor médio da função\n{{MATH_163}}\nem {{MATH_164}}, já que {{MATH_165}} é a altura do ponto do\ncírculo unitário no ângulo {{MATH_166}}.\n{{CMD_167}}\n  Calcule o valor médio da função\n  {{MATH_168}}\n  no intervalo {{MATH_169}}.\n  {{CMD_170}}\n    Pela definição, queremos calcular\n    {{MATH_171}}\n    Calculando essa integral geometricamente, encontramos que o valor médio\n    é {{MATH_172}}.\n  {{CMD_173}}\n{{CMD_174}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 29,
+  "hash": "69d45ff60fe91206820e39788c423073e1300dcd277ec88ba892f629ce84aa8a",
+  "traducao": "Veja se você consegue entender intuitivamente por que a média usando {{MATH_175}} deve\nser maior do que a média usando {{MATH_176}}.  {{COMMENT_177}}\n{{COMMENT_178}}\n{{COMMENT_179}}\n{{COMMENT_180}}\n{{COMMENT_181}}\n{{COMMENT_182}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 30,
+  "hash": "8df05cade8cdd65fef5178e0183eca5d1c02979f57a3d93a6ededa876df00454",
+  "traducao": "Teorema do valor médio para integrais{{CMD_183}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 31,
+  "hash": "d2b43853604145cc9bd78aadc1dcf2dd300dac9c7434212f37d55d64680fc924",
+  "traducao": "Assim como temos um teorema do valor médio para derivadas, também temos um\nteorema do valor médio para integrais."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 32,
+  "hash": "4d25837bcfc068c6fa18c32a7b133ec432a0ed50a1f8d2d7b67e26151d3891a0",
+  "traducao": "\tSeja {{MATH_184}} contínua em {{MATH_185}}. Existe um valor {{MATH_186}} em {{MATH_187}}\n\ttal que\n\t{{MATH_188}}\n{{CMD_189}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 33,
+  "hash": "40b3dbdc227767563bae8d76b676c5ab7ee7f4b6e36b36b831010b87fc4b09c1",
+  "traducao": "Assim como o teorema do valor intermediário e o teorema do valor médio para derivadas, esta é uma afirmação {{CMD_190}}existencial{{CMD_191}}. Ela nos diz que tal número {{MATH_192}} existe. Ela não nos diz como calculá-lo. Se quisermos calcular o valor de {{MATH_193}}, teremos de recorrer às nossas habilidades algébricas."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 34,
+  "hash": "ff08c15a9d818c20f28356f99d78100275cd7a210c6ac41e9e2f5cd03635bc1e",
+  "traducao": "O teorema do valor médio para integrais nos diz:\n{{CMD_194}}\n\t{{CMD_195}}O valor médio de uma função contínua pertence à imagem da função.{{CMD_196}}\n{{CMD_197}}\n{{CMD_198}}\nDefina uma função acumulação (de área), {{MATH_199}},\n{{MATH_200}}\nComo {{MATH_201}} é contínua no intervalo {{MATH_202}} e derivável no intervalo {{MATH_203}}, podemos aplicar o teorema do valor médio à função {{MATH_204}} no intervalo {{MATH_205}}.\nPortanto, existe um número {{MATH_206}} em {{MATH_207}} tal que\n{{MATH_208}}\nMas sabemos que {{MATH_209}} e que {{MATH_210}}.\nPortanto,\n{{MATH_211}}\n{{CMD_212}}\nIlustramos os princípios envolvidos nessa versão do teorema do valor\nmédio no exemplo a seguir."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/digInApplicationsOfIntegrals.tex",
+  "ordem": 35,
+  "hash": "9c67bb03cd9238a2facb32e46e94055859e6d13aa8b396e3bde859614ff6ecf5",
+  "traducao": "  Seja {{MATH_213}}. Considere {{MATH_214}}. Determine um valor {{MATH_215}} garantido pelo teorema do valor médio.\n  {{CMD_216}}\n    Primeiro precisamos calcular {{MATH_217}}.\n    {{MATH_218}}\n    Assim, procuramos um valor {{MATH_219}} em {{MATH_220}} tal que {{MATH_221}}.\n    {{MATH_222}}\n    Há outro ponto desse tipo: {{MATH_223}}.\n   De fato,\n    {{MATH_224}}\nUm gráfico de {{MATH_225}}, junto com um retângulo de altura\n{{MATH_226}}, é mostrado abaixo. A área do retângulo é a\nmesma que a área sob {{MATH_227}} em {{MATH_228}}. Os dois pontos {{MATH_229}} e {{MATH_230}} também aparecem na figura.\nLembre-se de que {{MATH_231}}.\n{{CMD_232}}\n  {{ENV_233}}\n{{CMD_234}}\n  {{CMD_235}}\n{{CMD_236}}\n{{CMD_237}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/05_02_ex_16.tex",
+  "ordem": 0,
+  "hash": "eb83e5f5e0c61cd6d6cbe0913808765ae862bb999b7b05231b50aa314f2afb4f",
+  "traducao": "Um objeto é lançado verticalmente para cima de uma altura de {{MATH_1}} pés. A velocidade do objeto é dada por\n{{MATH_2}}, em que {{MATH_3}} é medido em segundos e a velocidade em pés/s."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/05_02_ex_16.tex",
+  "ordem": 1,
+  "hash": "e20fbed7d89b79383fe53445190314179574512517c47bd34699985a93907d01",
+  "traducao": " Qual é a velocidade máxima do objeto? {{CMD_4}}{{MATH_5}}{{CMD_6}}\n{{CMD_7}} Qual é o deslocamento máximo do objeto em relação à sua posição inicial? {{CMD_8}}{{MATH_9}}{{CMD_10}}\n{{CMD_11}} Quando ocorre o deslocamento máximo? {{CMD_12}}{{MATH_13}}{{CMD_14}}\n{{CMD_15}} Quando o objeto atingirá o solo (isto é, chegará à altura de {{MATH_16}} pés)? Dê o valor exato! {{CMD_17}}{{MATH_18}}{{CMD_19}}\n{{CMD_20}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals1.tex",
+  "ordem": 0,
+  "hash": "9701613a12ec2c945b10531ce0729e0f614c213bd02e8e535b5859f6d32a81b1",
+  "traducao": "Considere uma partícula que se move ao longo de uma reta. Sua aceleração e sua velocidade inicial são dadas por\n{{ENV_1}}\npara {{MATH_2}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals1.tex",
+  "ordem": 1,
+  "hash": "9763a4d3bc6b074b92721350c0baf87f2357741a0e3ff93be622d119fe08082f",
+  "traducao": "A velocidade da partícula no instante {{MATH_3}} é\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals1.tex",
+  "ordem": 2,
+  "hash": "c1cceec5a165779097c722390410a6222f119fea257b77bfb1b74cad04a11990",
+  "traducao": "A {{CMD_5}}distância{{CMD_6}} total que a partícula percorre no intervalo {{MATH_7}} é\n{{MATH_8}}\n{{CMD_9}}\nObserve que\n{{MATH_10}}\nPortanto, {{MATH_11}} é negativa no intervalo {{MATH_12}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals1.tex",
+  "ordem": 3,
+  "hash": "57e828c54d32cd2073159694ceff9699325736dfbe15dc7c153e454278d77f01",
+  "traducao": "Temos de calcular a integral\n{{MATH_13}}\nPortanto,\n{{MATH_14}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals10.tex",
+  "ordem": 0,
+  "hash": "0f4e7375dcd5bd3f4b484aa6e67c7529cdfd34a1843af1d8c7d837cd67799838",
+  "traducao": "Uma cultura de células tem população inicial de 200 em {{MATH_1}}. A taxa de crescimento das células é dada por\n{{MATH_2}}\nem que {{MATH_3}} é medida em células por hora."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals10.tex",
+  "ordem": 1,
+  "hash": "a4f57577a32d8a5978cd485824c0a0a45f0836f891ee6cb0a338a40e24e23b93",
+  "traducao": "O número de células após 2 horas (arredondado para o inteiro mais próximo) é\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals10.tex",
+  "ordem": 2,
+  "hash": "9dfc37d1c201be46d40c4efbd285d8754d87fd59240800396057c89c4c128930",
+  "traducao": "Para {{MATH_5}}, o número de células é dado por\n{{MATH_6}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals10.tex",
+  "ordem": 3,
+  "hash": "71e56edbd877a3c75ff7234f40d3fd5fae063d3c47df39ccfcab479fe6ad506f",
+  "traducao": "A população limite da cultura é\n{{MATH_7}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals10.tex",
+  "ordem": 4,
+  "hash": "5926952a1f7b696c6e10188736ea3ff243427c1969ef389b9cf50d0fda8dab5f",
+  "traducao": "Vemos então que a cultura {{CMD_8}}{{CMD_9}}cresce sem limite{{CMD_10}}{{CMD_11}}se estabiliza em uma população finita e não nula{{CMD_12}}{{CMD_13}}morre a longo prazo{{CMD_14}}{{CMD_15}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals11.tex",
+  "ordem": 0,
+  "hash": "002f0af46f8f344347667f7456dc10466e9639bfac40b0d9353f8b1589578a1b",
+  "traducao": "Calcule a integral a seguir.\n{{MATH_1}}\n{{CMD_2}}\n\tQual é a derivada de {{MATH_3}}?\n{{CMD_4}}\n{{CMD_5}}\n{{CMD_6}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals12.tex",
+  "ordem": 0,
+  "hash": "d03198b74c8c6377f8a99736e64844dadc4904b307fbb425c84ab1068526d29a",
+  "traducao": "Selecione a expressão que é igual a {{MATH_1}}.\n{{CMD_2}}\n{{CMD_3}}{{MATH_4}}{{CMD_5}}\n{{CMD_6}}{{MATH_7}}{{CMD_8}}\n{{CMD_9}}{{MATH_10}}{{CMD_11}}\n{{CMD_12}}{{MATH_13}}{{CMD_14}}\n{{CMD_15}}{{MATH_16}}{{CMD_17}}\n{{CMD_18}}{{MATH_19}}{{CMD_20}}\n{{CMD_21}}Nenhuma das respostas anteriores{{CMD_22}}\n{{CMD_23}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals2.tex",
+  "ordem": 0,
+  "hash": "e243dfe9b14480198f7cfdd8fcbf1b8d22f5b767c7e5bcb5b666c3fb195cce31",
+  "traducao": "Uma refinaria produz petróleo a uma taxa variável dada por\n{{MATH_1}}\npara {{MATH_2}}. Aqui {{MATH_3}} é medido em dias e {{MATH_4}} é medida em barris."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals2.tex",
+  "ordem": 1,
+  "hash": "0d613b20a519640e3b20420a4f4f65db5b280b8f831109a9ce2b213a0ec3e5f5",
+  "traducao": "Selecione o número de barris produzidos nos primeiros 10 dias.\n{{CMD_5}}\n{{CMD_6}}1800{{CMD_7}}\n{{CMD_8}}18000{{CMD_9}}\n{{CMD_10}}19900{{CMD_11}}\n{{CMD_12}}21000{{CMD_13}}\n{{CMD_14}}19000{{CMD_15}}\n{{CMD_16}}Nenhuma das respostas anteriores.{{CMD_17}}\n{{CMD_18}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals3.tex",
+  "ordem": 0,
+  "hash": "fa638dcefcdb17e5684d1f66f02ed8cda644e93e38ea3492f1e8631fa2374feb",
+  "traducao": "Considere um objeto que se move ao longo de uma reta com velocidade dada por\n{{MATH_1}}\npara {{MATH_2}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals3.tex",
+  "ordem": 1,
+  "hash": "70deec87be0713a3a328f95e3029086a677271ccb80085376178ccf4e14919ca",
+  "traducao": "Selecione a expressão que representa a {{CMD_3}}distância{{CMD_4}} total que o objeto percorre no intervalo {{MATH_5}}.\n{{CMD_6}}\n{{CMD_7}}{{MATH_8}}{{CMD_9}}\n{{CMD_10}}{{MATH_11}}{{CMD_12}}\n{{CMD_13}}{{MATH_14}}{{CMD_15}}\n{{CMD_16}}{{MATH_17}}{{CMD_18}}\n{{CMD_19}}Nenhuma das respostas anteriores{{CMD_20}}\n{{CMD_21}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals4.tex",
+  "ordem": 0,
+  "hash": "cc6df7bdf388a8fe96992a72919eb82d0026bea03ea40e624241a98aabd27910",
+  "traducao": "O gráfico de uma função {{MATH_1}} no intervalo {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals4.tex",
+  "ordem": 1,
+  "hash": "32deae2802da1931dbdc86421c5b864eb499db33620567872296571eaa0a9202",
+  "traducao": "Usando geometria, podemos calcular {{MATH_3}} como\n{{MATH_4}}\nCom isso, podemos calcular {{MATH_5}}, o valor médio de {{MATH_6}} em {{MATH_7}}.\n{{MATH_8}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals4.tex",
+  "ordem": 2,
+  "hash": "11476b960fee4e550c1f6369f9b594b2cf0a5207e1b15068aea91196a3f2d136",
+  "traducao": "O retângulo de base {{MATH_9}} que tem área {{MATH_10}} tem altura\n{{MATH_11}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals4.tex",
+  "ordem": 3,
+  "hash": "a19c7d6f89e47c4ae9158f9b1cf29dfa5d8728a527295d78c2b7795aeb8a2da9",
+  "traducao": "Os pontos de {{MATH_12}} em que {{MATH_13}}, da esquerda para a direita, são\n{{MATH_14}}\n e\n {{MATH_15}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals5.tex",
+  "ordem": 0,
+  "hash": "f036575cbd3bb6a4c5272378125d44301b8ce1c0505ac13be42bf5df74c24c8c",
+  "traducao": "Considere uma partícula que se move ao longo de uma reta com aceleração e velocidade inicial dadas por\n{{ENV_1}}\npara {{MATH_2}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals5.tex",
+  "ordem": 1,
+  "hash": "417068ecc52d028a04d7ee80ea3ab2d49173e097698d9d8b809ff4974abab5f1",
+  "traducao": "A função velocidade da partícula em função de {{MATH_3}} é\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals5.tex",
+  "ordem": 2,
+  "hash": "b190f26752f54bc974cbaf20c80edb7573e686031158dfdc6f86c198ef644521",
+  "traducao": "A {{CMD_5}}distância total{{CMD_6}} que a partícula percorre no intervalo {{MATH_7}} é {{MATH_8}}.\n{{CMD_9}}\n\tObserve que {{MATH_10}}\nPortanto, {{MATH_11}} é positiva em {{MATH_12}} e negativa em {{MATH_13}}.\n{{CMD_14}}\n{{CMD_15}}\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals6.tex",
+  "ordem": 0,
+  "hash": "00ed7c281c146158e48970ce63c3d0486233060c30d6685de0910dac0e147ca0",
+  "traducao": "Considere uma partícula que se move ao longo de uma reta. A figura abaixo mostra a função velocidade da partícula. Suponha que em {{MATH_1}} a partícula esteja na origem.\nA velocidade é medida em m/s e o tempo em segundos.\n{{CMD_2}}\n  {{ENV_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals6.tex",
+  "ordem": 1,
+  "hash": "3ef3074f8815d73e0d440a057503b68f9fdda446ccbd34363c0d56c5eb284905",
+  "traducao": "O deslocamento da partícula entre {{MATH_5}} e {{MATH_6}} é {{MATH_7}} m."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals6.tex",
+  "ordem": 2,
+  "hash": "19305cba9e2495d357d91ebcd28de406fa916290e5e72d066e4d0b672acb0168",
+  "traducao": "A velocidade média da partícula no intervalo {{MATH_8}} é {{MATH_9}} m/s."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals6.tex",
+  "ordem": 3,
+  "hash": "fcefffd05b0d4540cc9b47eec1bed2ddea72652e5cc35e3edb5255119fa07731",
+  "traducao": "A {{CMD_10}}distância{{CMD_11}} total percorrida entre {{MATH_12}} e {{MATH_13}} é {{MATH_14}} m."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals6.tex",
+  "ordem": 4,
+  "hash": "8f605a2f4e7ce54c764220da641b767d431c0631aa0ad44a71b87f0356aa017a",
+  "traducao": "A posição da partícula em {{MATH_15}} é {{MATH_16}} m."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals6.tex",
+  "ordem": 5,
+  "hash": "08d37691d80d450ee4311e85e4355dba9a8170c0098f45b150bd86af8da001a1",
+  "traducao": "A posição da partícula em {{MATH_17}} é {{MATH_18}} m."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals6.tex",
+  "ordem": 6,
+  "hash": "7f4b36f73510ddb9d1c8413783d3b883df62872a352c76d3a719d90ef74fce0c",
+  "traducao": "A função posição, {{MATH_19}}, para {{MATH_20}} é dada por\n{{MATH_21}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals6.tex",
+  "ordem": 7,
+  "hash": "4b71cfc34d01ac0774233a0dfd6b8a9d2fe87e3d0d81851c4ca9e0fd97ce0e2f",
+  "traducao": "A função aceleração da partícula no intervalo {{MATH_22}} é\n{{MATH_23}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals7.tex",
+  "ordem": 0,
+  "hash": "415aefcccc3888bc175609d62257ae2fbeed802fcd6306c67d507dc3659ee0b3",
+  "traducao": "Considere um objeto que se move ao longo de uma reta com velocidade e posição inicial dadas por\n{{ENV_1}}\npara {{MATH_2}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals7.tex",
+  "ordem": 1,
+  "hash": "404a2f9079ba237af26e65a3c351a14d3628746be12571ddace135a8ee3bb6f2",
+  "traducao": "A função posição do objeto para {{MATH_3}} é dada por\n{{MATH_4}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 0,
+  "hash": "310423cc4e51049da2434a558eba202d68256b9a45f58ea4f56cdc927aa64adf",
+  "traducao": "O gráfico de {{MATH_1}} no intervalo {{MATH_2}} é dado abaixo."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 1,
+  "hash": "c27249e492159bdfb7b8f93adafa40fb3a45cbc0e3956e67a08b55ed037c3048",
+  "traducao": "Usando geometria, podemos calcular {{MATH_3}} e descobrir que vale {{MATH_4}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 2,
+  "hash": "9ba49b8a45937d247f7a3b894a5cbcfe32513597f75188d979fcc1b1f902ac65",
+  "traducao": "Novamente usando geometria, podemos calcular {{MATH_5}} e descobrir que vale {{MATH_6}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 3,
+  "hash": "f4dc3307eae330e91761b852e42e49bbc3d09e03d2dc9b00254231b8df5c5f10",
+  "traducao": "Por fim, podemos usar geometria para descobrir que {{MATH_7}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 4,
+  "hash": "4e4f048fcce369a806b2de522b7dcaa19b762409532791ce1179adc4ad002807",
+  "traducao": "O valor médio de {{MATH_8}} em {{MATH_9}} é\n{{MATH_10}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 5,
+  "hash": "d96eac74f50e0d88d63cc38eea441ef72cd7bcd2ae9eb417c9a273095387a00e",
+  "traducao": "Os pontos {{MATH_11}} de {{MATH_12}} em que {{MATH_13}} são\n{{MATH_14}}\n e\n  {{MATH_15}}\n   (responda da esquerda para a direita).\n\n{{CMD_16}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 6,
+  "hash": "7231c9f9f0fba9154c4fbb7b114bd6100975a7fddf1c3735dc4749c475262697",
+  "traducao": "Como {{MATH_17}}, o ponto {{MATH_18}} só pode ser encontrado nos intervalos em que {{MATH_19}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 7,
+  "hash": "7e136ac7ba3f49517f88c8d28f53aee2ea2372cb2423eee6725bde16f9bac3a1",
+  "traducao": "Examinando o gráfico de {{MATH_20}}, vemos que os únicos intervalos desse tipo são {{MATH_21}} e {{MATH_22}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 8,
+  "hash": "1886230305c42e7cc90b64dc40a4eaa2438c3e7fa32612044806df9dd6e8a28e",
+  "traducao": "A partir do gráfico, podemos concluir que"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 9,
+  "hash": "3a28cb8c72fc6c3070939c6c66eab253067e6ba1d87a291375bb2f5afddb3422",
+  "traducao": ", para {{MATH_23}}; e que\n\n\n {{MATH_24}}, para {{MATH_25}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals8.tex",
+  "ordem": 10,
+  "hash": "497cc3dec2b5dae7376c40323fd9e0abdbd61045370bdc87d089f8e643188262",
+  "traducao": "Agora podemos resolver a equação\n{{MATH_26}}\n{{CMD_27}}\n{{CMD_28}}\n{{CMD_29}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals9.tex",
+  "ordem": 0,
+  "hash": "6bba7238c4905b1659e9eb427ff75da9434e8468cbd6fe9753b11ed745406bb0",
+  "traducao": "A velocidade de um objeto que se move ao longo de uma reta é dada pela função\n{{MATH_1}}\n[{{MATH_2}} é medida em m/s e {{MATH_3}} em segundos.]"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals9.tex",
+  "ordem": 1,
+  "hash": "1e7fbf66c45e76defc5e88c2196ba3e2ced84ac8785259ee4f9f6098f2e1e18d",
+  "traducao": "A velocidade atinge seu máximo em {{MATH_4}} s e {{MATH_5}} s (responda da esquerda para a direita)."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals9.tex",
+  "ordem": 2,
+  "hash": "215a75e4181c1ffd9d4fcecdeacb474b5d0e985db58fbe6c2544492dca12a91e",
+  "traducao": "A velocidade é zero em {{MATH_6}} s, {{MATH_7}} s e {{MATH_8}} s (responda da esquerda para a direita)."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals9.tex",
+  "ordem": 3,
+  "hash": "22fd0ce7c204eb9d4723376427ec20c5304d9dc58c225a42511a6a0796fbea64",
+  "traducao": "A distância total que o objeto percorre no intervalo {{MATH_9}} é {{MATH_10}} m."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals9.tex",
+  "ordem": 4,
+  "hash": "54dd3c05901e3bc978e53deb6906b2539e78659976359dd079dde7045b791167",
+  "traducao": "A distância total que o objeto percorre no intervalo {{MATH_11}} é {{MATH_12}} m."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals9.tex",
+  "ordem": 5,
+  "hash": "26051dbb39f1c87b19cce42aa6be4844a5d40cee51a792269eabd3fb9d1d69bd",
+  "traducao": "O deslocamento do objeto no intervalo {{MATH_13}} é {{MATH_14}} m."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/applicationsOfIntegrals9.tex",
+  "ordem": 6,
+  "hash": "b774bf67bf2f9ddd0faf56edaf228fdbc8adf190da64c47187c1ae9563c08da1",
+  "traducao": "A {{CMD_15}}velocidade média{{CMD_16}} do objeto no intervalo {{MATH_17}} é {{MATH_18}} m/s."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue1.tex",
+  "ordem": 0,
+  "hash": "3ebf54fef8f1412ef907ceb9c8bdb54525c6da96bbf3335c57a4e0cccb59a70d",
+  "traducao": "Determine o valor médio de {{MATH_1}} no intervalo {{MATH_2}}.\n{{CMD_3}}\n\tAplique a fórmula do valor médio:\n\t {{MATH_4}}\n{{CMD_5}}\n{{CMD_6}}\n\tPara o denominador, observe que você pode simplificar:\n\t{{MATH_7}}\n{{CMD_8}}\n{{CMD_9}}\n\t{{MATH_10}}\n{{CMD_11}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue2.tex",
+  "ordem": 0,
+  "hash": "78f225e81f8bae6c08504cb627391bd7a30ff3d15473e355243a861fe3cb5d08",
+  "traducao": "Determine o valor médio de {{MATH_1}} no intervalo {{MATH_2}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue2.tex",
+  "ordem": 1,
+  "hash": "76eaac937f67fd03eddf545a82e57fb0f51fe82ee486b451a460fe6bf88ad51f",
+  "traducao": "\tO valor médio é {{MATH_3}}\n{{CMD_4}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue4.tex",
+  "ordem": 0,
+  "hash": "7091921e82fe64c1a7f3016b6074e55d1c9c7da816eccce00c292ff8fd0b37ad",
+  "traducao": "Se um objeto cai com aceleração constante de {{MATH_1}} e velocidade inicial {{MATH_2}},"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue4.tex",
+  "ordem": 1,
+  "hash": "5a59efce0645e5bd9eb8b24cabe6f2c5e92fa4e12919ebfdec242aae785000e0",
+  "traducao": "qual é a sua velocidade média no intervalo {{MATH_3}}?"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue4.tex",
+  "ordem": 2,
+  "hash": "6ac3033ad2d924c8cfb0a77d95faf2ab9e421e234c9796f0a0f494ef2fc0e8c7",
+  "traducao": "Você pode aplicar a fórmula:"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue4.tex",
+  "ordem": 3,
+  "hash": "dfeda489be23304563ab34ed164fa0433f13bf95190cc423702c77727c8da86f",
+  "traducao": "Você precisa resolver o PVI:"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue4.tex",
+  "ordem": 4,
+  "hash": "83318b805871d84e14532d0bc415f7d028502f05489674c4d2bb1f094aedb637",
+  "traducao": "Lembre-se: {{MATH_4}}!\n{{CMD_5}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue4.tex",
+  "ordem": 5,
+  "hash": "6bab9551f208a0ad6b8804f330f3932bddab9c3987fa8b2edb42c46ee56d763d",
+  "traducao": "\tA velocidade média do objeto é \n\t{{MATH_6}}\n{{CMD_7}}\n{{CMD_8}}\n{{CMD_9}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue5.tex",
+  "ordem": 0,
+  "hash": "a1c66a6b13b6e7b16ba7b84e27a2f011286db87ffb428ee8e6ece3a10dd80a7b",
+  "traducao": "Seja {{MATH_1}} uma função.  Considere a função {{MATH_2}}, que fornece a média de {{MATH_3}} no intervalo {{MATH_4}}, para {{MATH_5}}."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue5.tex",
+  "ordem": 1,
+  "hash": "21b0e7b29f3459ff09dbfdd36e8c353e137874cb58db2fbe8e3479f0b0fde858",
+  "traducao": "Suponha que {{MATH_6}} tenha um máximo local em {{MATH_7}}; então {{MATH_8}} (responda com um número).  Agora, a fórmula de {{MATH_9}} é\n{{ENV_10}}\nComo {{MATH_11}} (responda com um número), podemos concluir que {{MATH_12}} (responda com uma expressão em termos de {{MATH_13}})."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue5.tex",
+  "ordem": 2,
+  "hash": "efb510a2e5e7add9a57f31eb86db27caf17f310bc5c86b5101c13acff3287cff",
+  "traducao": "Suponha que {{MATH_14}}.  Para qual valor de {{MATH_15}} a função {{MATH_16}} é máxima?\n{{CMD_17}}\nVocê precisa encontrar um ponto crítico de {{MATH_18}}.\nIsso significa que temos de resolver a equação"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue5.tex",
+  "ordem": 3,
+  "hash": "f55a95fa14c8c622c240cdb302f0382fdda74ad1f90a0bd295b94610076f2ab1",
+  "traducao": "Isso equivale a resolver \n{{MATH_19}}\n{{CMD_20}}\n{{CMD_21}}\nvamos resolver a equação\n{{MATH_22}}\n{{MATH_23}}\n{{MATH_24}}\n{{MATH_25}}\nDivida por {{MATH_26}}.\n{{MATH_27}}\nResolva para {{MATH_28}}.\nComo sabemos que a função {{MATH_29}} tem um máximo nesse ponto?\n{{CMD_30}}\n{{MATH_31}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue6.tex",
+  "ordem": 0,
+  "hash": "8ae7f31ef0940f48871455e79f74ad918bd2f2852f6bf348e32b4031ab620bb6",
+  "traducao": "O gráfico da velocidade, {{MATH_1}}, de um objeto que se move ao longo de uma reta é dado acima.\nA velocidade é medida em m/min e o tempo em minutos."
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue6.tex",
+  "ordem": 1,
+  "hash": "cbef8e0dfcadb5a4c8363edda050088ec87012f5713f18b75d78d2114b3fface",
+  "traducao": "Qual é a velocidade média no intervalo de tempo {{MATH_2}}?"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue6.tex",
+  "ordem": 2,
+  "hash": "83f6a2c950fcb91a2b9e2d1df1250142513a13ef64ef922cfd7f6426e080faee",
+  "traducao": "\t\tA velocidade média é \n\t\t{{MATH_3}}\n\t{{CMD_4}}"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue6.tex",
+  "ordem": 3,
+  "hash": "865b3c1a61606f7daa395fbdd68e1431a4064dd404707d80a00528b79195e93f",
+  "traducao": "Qual valor de {{MATH_5}} verifica o Teorema do Valor Médio para integrais?  Em outras palavras, em que instante {{MATH_6}} a velocidade é igual ao valor médio da velocidade em {{MATH_7}}?"
+ },
+ {
+  "arquivo": "applicationsOfIntegrals/exercises/averageValue6.tex",
+  "ordem": 4,
+  "hash": "f8e46b4d805e7c2fd51f623b37f441df9bf0116c3b5fbd3c17da7c557d2e4036",
+  "traducao": "Temos de resolver a equação\n{{MATH_8}}\n\t\tComo {{MATH_9}} para {{MATH_10}}, segue que a solução está no intervalo {{MATH_11}}.\n\t\tMas, pelo gráfico, segue que {{MATH_12}}, para {{MATH_13}}.\n\t\t\n\t\tPortanto, temos de resolver a equação\n\t\t\n\t\t{{MATH_14}}\n{{CMD_15}}\n{{MATH_16}} \n\tem\n\t{{MATH_17}}"
+ }
+]
