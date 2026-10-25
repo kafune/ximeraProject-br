@@ -1,0 +1,114 @@
+<!-- traduz-render: b21574dcb44021cfc3e988e78c268e743e6a7b304b1ba6db84e57304d6a4931a -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>
+Considere a curva \(y^2 = x^2(x+1)\), cujo gráfico é dado abaixo:
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/implicitDifferentiation/exercises/implicitWeird1-4546dab015ef4b30b87c121f3108f750.svg" /> </div>
+<p class='noindent'>Use derivação implícita para escrever \(\frac {dy}{dx}\) em termos de \(x\) e de \(y\).
+</p><p class='noindent'>\[ \frac {dy}{dx} = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \]
+</p><p class='noindent'>A equação da reta tangente a essa curva no ponto \((3,6)\) é
+</p><p class='noindent'>\[ y = \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \]
+</p><p class='noindent'>Um ponto difícil de analisar nesse gráfico é o ponto \((0,0)\), já que ali a curva parece duas
+retas que se cruzam. Gostaríamos de conhecer a equação dessas duas “retas
+tangentes”. Nossa fórmula para \(\frac {dy}{dx}\) não ajuda, a princípio, pois obtemos \(\frac {0}{0}\) quando
+substituímos \((0,0)\) nessa fórmula.
+</p><p class='noindent'>Como a fórmula só falha no ponto \((0,0)\), um caminho possível é tentar calcular o limite
+das inclinações quando \((x,y)\) se aproxima de \((0,0)\) ao longo da curva.
+</p><p class='noindent'>Podemos resolver para a “parte de cima” da curva como \(y = \sqrt {x^2(x+1)}\). A outra metade da curva é
+\(y = -\sqrt {x^2(x+1)}\).
+</p><p class='noindent'>Usando \(y = \sqrt {x^2(x+1)}\), vemos que, para pontos no primeiro quadrante do plano, podemos escrever \(\frac {dy}{dx}\)
+como função de \(x\) na forma \[ \frac {dy}{dx} = \class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \] e \[ \lim _{x \to 0^+} \frac {dy}{dx} = 1 \] Assim, as equações das duas “retas tangentes” são \(y=x\) e
+\(y=-x\).
+</p><p class='noindent'>Também poderíamos ter chegado a esse resultado de maneira mais intuitiva, da
+seguinte forma:
+</p><p class='noindent'>Na equação \(y^2 = x^2+x^3\), quando \(x\) está muito próximo de \(0\), todos os termos serão muito pequenos,
+mas o termo \(x^3\) será pequeno até mesmo em comparação com \(x^2\). Assim, a curva deve se
+parecer muito com a curva \(y^2 = x^2\) perto de \((0,0)\). Mas \(y^2 = x^2\) é equivalente a \((y-x)(y+x)=0\), que é exatamente o par
+de retas \(y=x\) e \(y=-x\).    </p></div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"\\frac {3x^2+2x}{2y}","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"\\frac {11}{4}(x-3)+6","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"\\frac {3x^2+2x}{2\\sqrt {x^2(x+1)}}","format":"expression","given":false,"antiderivative":false}}</script>

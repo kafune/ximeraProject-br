@@ -1,0 +1,166 @@
+<!-- traduz-render: d11303f05765ebe5342c2a885e009f5f73c83c2482efd41429b09328184cd5dd -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Aqui fazemos uma conexão entre o gráfico de uma função, sua derivada e suas
+derivadas de ordem superior. 
+</div>
+<div class='maketitle'></div><div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-2r1'></a> Dizemos que uma função \(f\) é <strong>crescente</strong> em um intervalo \(I\) se \(f(x_{1})&lt;f(x_{2})\) para todos os pares de
+números \(x_{1}\), \(x_{2}\) em \(I\) tais que \(x_{1}&lt;x_{2}\).<br class='newline' />Dizemos que uma função \(f\) é <strong>decrescente</strong> em um intervalo \(I\) se \(f(x_{1})&gt;f(x_{2})\) para todos os pares de
+números \(x_{1}\), \(x_{2}\) em \(I\) tais que \(x_{1}&lt;x_{2}\).<br class='newline' /></div>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Quais das funções famosas a seguir são crescentes em \(\left (0,\frac {\pi }{2}\right )\)? <div class='select-all' id='problem3' titletext=' Select All'><a id='x1-3r2'></a> <span class='choice correct ' id='choice1'>\(\sin {(x)}\) </span><span class='choice  ' id='choice2'>\(\sin {(2x)}\) </span><span class='choice  ' id='choice3'>\(\cos {(x)}\) </span><span class='choice correct ' id='choice4'>\(\tan {(x)}\) </span><span class='choice  ' id='choice5'>\(\cot {(x)}\) </span><span class='choice correct ' id='choice6'>\(f(x)=x^2\) </span><span class='choice  ' id='choice7'>\(g(x)=\dfrac {1}{x}\)</span> </div> <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-4r3'></a>A
+função \(\cos {(x)}\) não é crescente em \(I=\Bigl (0,\frac {\pi }{2}\Bigr )\), porque, se tomarmos um par de números em \(I\), digamos, \(x_{1}=\frac {\pi }{6}\)
+e \(x_{2}=\frac {\pi }{3}\), então \(x_{1}&lt;x_{2}\), mas <br class='newline' />\(f(x_{1})&gt;f(x_{2})\), já que \(f(x_{1})=\cos {\Bigl (\frac {\pi }{6}\Bigr )}=\frac {\sqrt {3}}{2}\) e \(f(x_{2})=\cos {}\Bigl (\frac {\pi }{3}\Bigr )=\frac {1}{2}\). </div>    </div>
+<div class='problem-environment question' id='problem5' numbered='' role='article' titletext=' Question'>    Considere o gráfico da função \(f\) abaixo: <div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs-b631a83a4091f5018620b7958d01772a.svg" /> </div> Em quais dos intervalos a seguir \(f\) é crescente? <div class='select-all' id='problem6' titletext=' Select All'><a id='x1-5r4'></a> <span class='choice correct ' id='choice8'>\((-\infty ,a)\) </span><span class='choice  ' id='choice9'>\((-\infty ,b)\) </span><span class='choice  ' id='choice10'>\((a,b)\) </span><span class='choice  ' id='choice11'>\((a,+\infty )\) </span><span class='choice correct ' id='choice12'>\((b,+\infty )\)</span> </div> <div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-6r5'></a> A função \(f\) não é
+crescente no intervalo \((-\infty ,b)\), porque, se escolhermos um par de números em \((-\infty ,b)\), digamos, \(x_{1}=a\) e \(x_{2}=0\),
+então \(x_{1}&lt;x_{2}\), mas \(f(x_{1})&gt;f(x_{2})\). </div>    </div>
+<p class='noindent'>Pense nas retas tangentes ao gráfico da função nos intervalos que você encontrou
+nesta pergunta. Há algo que as inclinações de todas essas retas tangentes têm em
+comum? Todas são POSITIVAS! Olhe para o intervalo \((a,b)\). Nesse intervalo, as
+inclinações das retas tangentes são todas NEGATIVAS. Percebeu que as
+inclinações positivas apareceram quando a função era crescente e as inclinações
+negativas apareceram quando a função era decrescente? Isso não foi por
+acaso.
+</p><p class='noindent'>Como a derivada nos dá uma fórmula para a inclinação da reta tangente a
+uma curva, podemos obter informações sobre uma função apenas a partir
+do sinal da derivada. Em particular, temos o seguinte teorema </p><div class='theorem-like problem-environment theorem' id='problem8' titletext=' theorem'><a id='x1-7r6'></a><span class='theorem-like-title'>Teste de
+                                                                  
+
+                                                                  
+crescimento/decrescimento</span> Uma função \(f\) é <strong>crescente</strong> em qualquer intervalo \(I\) em que \(f'(x)&gt;0\)
+para todo \(x\) em \(I\).<br class='newline' />Uma função \(f\) é <strong>decrescente</strong> em qualquer intervalo \(I\) em que \(f'(x)&lt;0\) para todo \(x\) em
+\(I\).<br class='newline' /></div>
+<div class='problem-environment question' id='problem9' numbered='' role='article' titletext=' Question'>   Abaixo  esboçamos  o  gráfico  de  \(y=f(x)\):  <div aria-labelledby='image-alt-2' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs-9b9ac808c445ad758713c365d7ffd4f6.svg" /> </div> A primeira derivada é positiva ou negativa no intervalo \(-1&lt;x&lt;1/2\)?  <div class='multiple-choice' id='problem10' titletext=' Multiple Choice'><span class='choice  ' id='choice13'>Positiva </span><span class='choice correct ' id='choice14'>Negativa</span> </div>
+</div>
+<div class='problem-environment question' id='problem11' numbered='' role='article' titletext=' Question'>   Abaixo  esboçamos  o  gráfico  de  \(y=f'(x)\):  <div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs-2cdb24dfd08d5387a355bdb6165aefd4.svg" /> </div> A função \(f\) é crescente ou decrescente no intervalo \(-1&lt;x&lt;0\)?  <div class='multiple-choice' id='problem12' titletext=' Multiple Choice'><span class='choice correct ' id='choice15'>Crescente </span><span class='choice  ' id='choice16'>Decrescente</span> </div>
+<div class='theorem-like problem-environment explanation' id='problem13' titletext=' explanation'><a id='x1-8r7'></a>Pelo gráfico de \(f'\) podemos ver que \(f'(x)&gt;0\) para todo \(x\) em \((-1,0)\). Então, o teorema acima implica
+que a função \(f\) é crescente nesse intervalo. </div>    </div>
+<p class='noindent'>Chamamos a derivada da derivada de <strong>segunda derivada</strong>, a derivada da segunda
+derivada (a derivada da derivada da derivada) de <strong>terceira derivada</strong>, e assim por
+diante. Temos uma notação especial para as derivadas de ordem superior,
+                                                                  
+
+                                                                  
+confira:
+     </p><dl class='description'><dt class='description'>
+Primeira derivada: </dt><dd class='description'>
+     <p class='noindent'>\(\ddx f(x) = f'(x) = f^{(1)}(x)\).
+     </p></dd><dt class='description'>
+Segunda derivada: </dt><dd class='description'>
+     <p class='noindent'>\(\dd [~^2]{x^2} f(x) = f''(x) = f^{(2)}(x)\).
+     </p></dd><dt class='description'>
+Terceira derivada: </dt><dd class='description'>
+     <p class='noindent'>\(\dd [~^3]{x^3} f(x) = f'''(x) = f^{(3)}(x)\).</p></dd></dl>
+<p class='noindent'>Usamos os fatos acima em nosso próximo exemplo.
+</p>
+<div class='theorem-like problem-environment example' id='problem14' titletext=' example'><a id='x1-9r8'></a>Aqui temos os gráficos, sem rótulos, de \(f\), \(f'\) e \(f''\): <div aria-labelledby='image-alt-4' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs-b370face7312b9045323a975369c5773.svg" /> </div> Identifique cada curva acima como o gráfico de \(f\), \(f'\) ou \(f''\). <div class='theorem-like problem-environment explanation' id='problem15' titletext=' explanation'><a id='x1-10r9'></a>Aqui vemos três curvas, \(A\), \(B\) e \(C\).
+Como \(A\) é <span class='word-choice' id='word-choice16'><a id='x1-11r10'></a><span class='choice  ' id='choice17'>positiva </span><span class='choice  ' id='choice18'>negativa </span><span class='choice correct ' id='choice19'>crescente </span><span class='choice  ' id='choice20'>decrescente</span></span> quando \(B\) é positiva e <span class='word-choice' id='word-choice17'><a id='x1-12r11'></a><span class='choice  ' id='choice21'>positiva</span><span class='choice  ' id='choice22'>negativa</span><span class='choice  ' id='choice23'>crescente</span><span class='choice correct ' id='choice24'>decrescente</span></span> quando \(B\) é negativa, vemos que \[ A'=B. \] Como \(B\) é
+crescente quando \(C\) é <span class='word-choice' id='word-choice18'><a id='x1-13r12'></a><span class='choice correct ' id='choice25'>positiva</span><span class='choice  ' id='choice26'>negativa</span><span class='choice  ' id='choice27'>crescente </span><span class='choice  ' id='choice28'>decrescente</span></span> e decrescente
+quando \(C\) é <span class='word-choice' id='word-choice19'><a id='x1-14r13'></a><span class='choice  ' id='choice29'>positiva</span><span class='choice correct ' id='choice30'>negativa</span><span class='choice  ' id='choice31'>crescente</span><span class='choice  ' id='choice32'>decrescente</span></span>, vemos que \[ B'=C. \] Logo, \(f=A\), \(f'=B\) e \(f''=C\). </div>
+</div>
+<div class='theorem-like problem-environment example' id='problem20' titletext=' example'><a id='x1-15r14'></a>Aqui temos os gráficos, sem rótulos, de \(f\), \(f'\) e \(f''\): <div aria-labelledby='image-alt-5' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs-efba4cc8f11e573c732f40026946b02f.svg" /> </div> Identifique cada curva acima como o gráfico de \(f\), \(f'\) ou \(f''\). <div class='theorem-like problem-environment explanation' id='problem21' titletext=' explanation'><a id='x1-16r15'></a>Aqui vemos três curvas, \(A\), \(B\) e \(C\).
+Como \(B\) é <span class='word-choice' id='word-choice22'><a id='x1-17r16'></a><span class='choice  ' id='choice33'>positiva</span><span class='choice  ' id='choice34'>negativa</span><span class='choice correct ' id='choice35'>crescente</span><span class='choice  ' id='choice36'>decrescente</span></span> quando \(A\) é positiva e <span class='word-choice' id='word-choice23'><a id='x1-18r17'></a><span class='choice  ' id='choice37'>positiva</span><span class='choice  ' id='choice38'>negativa</span><span class='choice  ' id='choice39'>crescente</span><span class='choice correct ' id='choice40'>decrescente</span></span> quando \(A\) é negativa, vemos que \[ B'=A. \] Como \(A\) é
+crescente quando \(C\) é <span class='word-choice' id='word-choice24'><a id='x1-19r18'></a><span class='choice correct ' id='choice41'>positiva</span><span class='choice  ' id='choice42'>negativa</span><span class='choice  ' id='choice43'>crescente</span><span class='choice  ' id='choice44'>decrescente</span></span> e decrescente
+quando \(C\) é <span class='word-choice' id='word-choice25'><a id='x1-20r19'></a><span class='choice  ' id='choice45'>positiva</span><span class='choice correct ' id='choice46'>negativa</span><span class='choice  ' id='choice47'>crescente</span><span class='choice  ' id='choice48'>decrescente</span></span>, vemos que \[ A'=C. \] Logo, \(f=\class{xm-given}{B}\), \(f'=\class{xm-given}{A}\) e \(f''=\class{xm-given}{C}\). </div>
+</div>
+<div class='theorem-like problem-environment example' id='problem26' titletext=' example'><a id='x1-21r20'></a>Aqui temos os gráficos, sem rótulos, de \(f\), \(f'\) e \(f''\): <div aria-labelledby='image-alt-6' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInHigherOrderDerivativesAndGraphs-098c54bedb3645ec1c5fd7e6eec81765.svg" /> </div> Identifique cada curva acima como o gráfico de \(f\), \(f'\) ou \(f''\). <div class='theorem-like problem-environment explanation' id='problem27' titletext=' explanation'><a id='x1-22r21'></a>Aqui vemos três curvas, \(A\), \(B\) e \(C\).
+Como \(C\) é <span class='word-choice' id='word-choice28'><a id='x1-23r22'></a><span class='choice  ' id='choice49'>positiva</span><span class='choice  ' id='choice50'>negativa</span><span class='choice correct ' id='choice51'>crescente</span><span class='choice  ' id='choice52'>decrescente</span></span> quando \(B\) é positiva e <span class='word-choice' id='word-choice29'><a id='x1-24r23'></a><span class='choice  ' id='choice53'>positiva</span><span class='choice  ' id='choice54'>negativa</span><span class='choice  ' id='choice55'>crescente</span><span class='choice correct ' id='choice56'>decrescente</span></span> quando \(B\) é negativa, vemos que \[ C'=B. \] Como \(B\) é
+crescente quando \(A\) é <span class='word-choice' id='word-choice30'><a id='x1-25r24'></a><span class='choice correct ' id='choice57'>positiva</span><span class='choice  ' id='choice58'>negativa</span><span class='choice  ' id='choice59'>crescente</span><span class='choice  ' id='choice60'>decrescente</span></span> e decrescente
+quando \(A\) é <span class='word-choice' id='word-choice31'><a id='x1-26r25'></a><span class='choice  ' id='choice61'>positiva</span><span class='choice correct ' id='choice62'>negativa</span><span class='choice  ' id='choice63'>crescente</span><span class='choice  ' id='choice64'>decrescente</span></span>, vemos que \[ B'=A. \] Logo, \(f=\class{xm-given}{C}\), \(f'=\class{xm-given}{B}\) e \(f''=\class{xm-given}{A}\). </div>
+</div>
+<script type="application/json" class="xm-answers">{}</script>

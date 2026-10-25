@@ -1,0 +1,192 @@
+<!-- traduz-render: 11b7d2b5dfd3e70aea4920fe07ba19db004f4b3668944cde4c340a858a8eb564 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+O que se pode dizer sobre limites que têm a forma não nulo sobre zero? 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Vamos direto ao ponto:
+</p>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-2r1'></a>Dizemos que um limite \[ \lim _{x\to a} \frac {f(x)}{g(x)} \] é da forma \(\relax \boldsymbol {\tfrac {\#}{0}}\) se \[ \lim _{x\to a} f(x) = k\qquad \text {e}\qquad \lim _{x\to a} g(x) =0. \] onde \(k\) é alguma constante não nula.
+</div>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Quais dos limites a seguir são da forma \(\relax \boldsymbol {\tfrac {\#}{0}}\)? <div class='select-all' id='problem3' titletext=' Select All'><a id='x1-3r2'></a> <span class='choice correct ' id='choice1'>\(\lim _{x\to -1} \frac {1}{(x+1)^2}\) </span><span class='choice  ' id='choice2'>\(\lim _{x\to 2}\frac {x^2-3x+2}{x-2}\) </span><span class='choice  ' id='choice3'>\(\lim _{x\to 0}\frac {\sin (x)}{x}\) </span><span class='choice correct ' id='choice4'>\(\lim _{x\to 2}\frac {x^2-3x-2}{x-2}\) </span><span class='choice correct ' id='choice5'>\(\lim _{x\to 1}\frac {e^x}{\ln (x)}\)</span> </div>    </div>
+<p class='noindent'>Vamos ver o que acontece com limites da forma \(\relax \boldsymbol {\tfrac {\#}{0}}\).
+</p>
+<div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-4r3'></a>Considere a função \[ f(x) = \frac {1}{(x+1)^2}. \] Use uma tabela de valores para investigar \(\lim _{x\to -1} \frac {1}{(x+1)^2}\). <div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-5r4'></a>Preencha a tabela
+abaixo: \[ \begin{array}{c|c|c} x &amp; (x+1)^{2} &amp; f(x) = \frac {1}{(x+1)^2}\\ \hline -1.1 &amp; 0.01 &amp; 100 \\ -1.01 &amp; 0.0001 &amp; 10000 \\ -1.001 &amp; 0.000001 &amp; \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \\ -1.0001 &amp; 0.00000001 &amp; \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \\ -0.9 &amp; 0.01 &amp; \class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \\ -0.99 &amp; 0.0001 &amp; \class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}} \\ -0.999 &amp; 0.000001 &amp; \class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}} \\ -0.9999 &amp; 0.00000001 &amp; \class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}} \\ \end{array} \] O que a tabela nos diz sobre \[ \lim _{x\to -1} \frac {1}{(x+1)^2}? \] Parece que o limite não existe, pois a
+expressão \[ \frac {1}{(x+1)^2} \] fica cada vez maior à medida que \(x\) se aproxima de \(-1\). Como \[ \lim _{x\to -1} 1 = 1 \qquad \text {e}\qquad \lim _{x\to -1}(x+1)^2 = 0 \] temos que
+\[ \lim _{x\to -1} \frac {1}{(x+1)^2}\qquad \text {é da forma }\numOverZero \]
+<p class='noindent'>Além disso, à medida que \(x\) se aproxima de \(-1\): </p>
+     <ul class='itemize1'>
+     <li class='itemize'>O numerador é positivo.
+     </li>
+     <li class='itemize'>O denominador se aproxima de zero e é positivo.</li></ul>
+<p class='noindent'>Logo, a expressão \[ \frac {1}{(x+1)^2} \] ficará arbitrariamente grande à medida que \(x\) se aproxima de \(-1\). Podemos
+ver isso no gráfico de \(f\). </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/indeterminateForms/digInLimitsOfTheFormNonZeroOverZero-c54e986ef0a3d27340408dc859858fb8.svg" /> </div> </div>
+                                                                  
+
+                                                                  
+</div>
+<p class='noindent'>Agora estamos prontos para nossa próxima definição.
+</p>
+<div class='theorem-like problem-environment definition' id='problem6' titletext=' definition'><a id='x1-6r5'></a>Se \(f(x)\) cresce arbitrariamente à medida que \(x\) se aproxima de \(a\), escrevemos \[ \lim _{x\to a} f(x) = \infty \] e dizemos que
+o limite de \(f(x)\) é <strong>infinito</strong> quando \(x\) tende a \(a\).<br class='newline' />
+<p class='noindent'>Se \(|f(x)|\) cresce arbitrariamente à medida que \(x\) se aproxima de \(a\) e \(f(x)\) é negativa,
+escrevemos \[ \lim _{x\to a} f(x) = -\infty \] e dizemos que o limite de \(f(x)\) é <strong> menos infinito</strong> quando \(x\) tende a \(a\).
+</p></div>
+<p class='noindent'>Observação: dizer que ”o limite é igual a infinito” não significa que o limite existe.
+Isso apenas nos permite descrever com mais precisão o comportamento da função \(f\)
+perto de \(a\) do que dizer ”o limite não existe”.<br class='newline' />
+</p><p class='noindent'>Vamos considerar mais alguns exemplos.
+</p>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-7r6'></a>Calcule: \[ \lim _{x\to -2} \frac {e^x}{(x+2)^4} \] <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-8r7'></a>Primeiro, vamos olhar para a forma desse limite. Fazemos isso calculando
+separadamente os limites do numerador e do denominador: \[ \lim _{x\to -2} e^x = \class{xm-given}{\frac {1}{e^2}}\qquad \text {e}\lim _{x\to -2}\left ((x+2)^4\right ) = 0. \] Portanto, esse limite
+é da forma \(\relax \boldsymbol {\tfrac {\#}{0}}\). Essa forma é <strong>determinada</strong>, pois implica que o limite não
+existe.<br class='newline' />Mas podemos fazer melhor do que isso! À medida que \(x\) se aproxima de \(-2\):
+     <ul class='itemize1'>
+     <li class='itemize'>O numerador é um número <span class='word-choice' id='word-choice9'><a id='x1-9r8'></a><span class='choice correct ' id='choice6'>positivo</span><span class='choice  ' id='choice7'>negativo</span></span>.
+     </li>
+     <li class='itemize'>O denominador é <span class='word-choice' id='word-choice10'><a id='x1-10r9'></a><span class='choice correct ' id='choice8'>positivo</span><span class='choice  ' id='choice9'>negativo</span></span> e está se aproximando de zero.</li></ul>
+<p class='noindent'>Isso significa que \[ \lim _{x\to -2} \frac {e^x}{(x+2)^4} = \infty . \]
+</p>
+</div> </div><p> Neste exemplo, quando dizemos “À medida que \(x\) se aproxima de \(-2\)”, não
+queremos dizer que estamos verificando um único valor de \(x\). Queremos dizer
+TODOS os valores de \(x\) que estão suficientemente próximos de \(-2\). Verificar um
+único valor não é suficiente para justificar se o numerador será positivo ou
+negativo para todos os valores de \(x\) suficientemente próximos de \(-2\). Montar
+um quadro de sinais ou traçar o gráfico do numerador pode ajudar nessa
+determinação.
+</p><div class='theorem-like problem-environment example' id='problem11' titletext=' example'><a id='x1-11r10'></a>Calcule: \[ \lim _{x\to 3^+} \frac {x^2-9x+14}{x^2-5x+6} \] <div class='theorem-like problem-environment explanation' id='problem12' titletext=' explanation'><a id='x1-12r11'></a>Primeiro, vamos olhar para a forma desse limite, o que fazemos calculando
+separadamente os limites do numerador e do denominador. \[ \lim _{x\to 3^+} \left (x^2-9x+14\right ) = \class{xm-given}{-4}\qquad \text {e}\lim _{x\to 3^+}\left (x^2-5x+6\right ) = 0 \] Esse limite é da forma \(\relax \boldsymbol {\tfrac {\#}{0}}\).
+Em seguida, devemos fatorar o numerador e o denominador para ver se conseguimos
+simplificar um pouco o problema. \begin{align*}  \lim _{x\to 3^+}\frac {x^2-9x+14}{x^2-5x+6} &amp;= \lim _{x\to 3^+}\frac {\cancel {(x-2)}(x-7)}{\cancel {(x-2)}(x-3)}\\ &amp;= \lim _{x\to 3^+}\frac {x-7}{x-3}  \end{align*}
+                                                                  
+
+                                                                  
+<p class='noindent'>Cancelar um fator \(x-2\) no numerador e no denominador significa que podemos verificar
+mais facilmente o comportamento desse limite. À medida que \(x\) se aproxima de \(3\) pela
+direita: </p>
+     <ul class='itemize1'>
+     <li class='itemize'>O numerador é um número <span class='word-choice' id='word-choice13'><a id='x1-13r12'></a><span class='choice  ' id='choice10'>positivo</span><span class='choice correct ' id='choice11'>negativo</span></span>.
+     </li>
+     <li class='itemize'>O denominador é <span class='word-choice' id='word-choice14'><a id='x1-14r13'></a><span class='choice correct ' id='choice12'>positivo</span><span class='choice  ' id='choice13'>negativo</span></span> e está se aproximando de zero.</li></ul>
+<p class='noindent'>Isso significa que \[ \lim _{x\to 3^+} \frac {x^2-9x+14}{x^2-5x+6} = -\infty . \] </p></div> </div><p> Novamente, para determinar se o numerador será positivo ou
+negativo para todo \(x\) suficientemente próximo de \(3\), mas maior do que ele, não
+podemos substituir um único valor de \(x\). (Mesmo substituir \(x=3.0000001'\) não seria suficiente
+para justificar nosso resultado.) Temos de verificar o sinal para TODOS os
+valores de \(x\) que estão suficientemente próximos de \(3\), mas são maiores do que
+ele.
+</p><p class='noindent'>Aqui está nosso último exemplo.
+</p>
+<div class='theorem-like problem-environment example' id='problem15' titletext=' example'><a id='x1-15r14'></a>Calcule: \[ \lim _{x\to 3} \frac {x^2-9x+14}{x^2-5x+6} \] <div class='theorem-like problem-environment explanation' id='problem16' titletext=' explanation'><a id='x1-16r15'></a>Já consideramos parte deste exemplo, mas agora vamos considerar o limite
+bilateral. Já sabemos que \[ \lim _{x\to 3} \frac {x^2-9x+14}{x^2-5x+6} = \lim _{x\to 3}\frac {x-7}{x-3}, \] e que esse limite é da forma \(\relax \boldsymbol {\tfrac {\#}{0}}\). Também sabemos que, à
+medida que \(x\) se aproxima de \(3\) pela direita,
+     <ul class='itemize1'>
+     <li class='itemize'>O numerador é um número negativo.
+     </li>
+     <li class='itemize'>O denominador é positivo e está se aproximando de zero.</li></ul>
+<p class='noindent'>Logo, nossa função se aproxima de \(-\infty \) pela direita.
+</p><p class='noindent'>À medida que \(x\) se aproxima de \(3\) pela esquerda, </p>
+     <ul class='itemize1'>
+     <li class='itemize'>O numerador é negativo.
+     </li>
+     <li class='itemize'>O denominador é negativo e está se aproximando de zero.</li></ul>
+                                                                  
+
+                                                                  
+<p class='noindent'>Logo, nossa função se aproxima de \(\infty \) pela esquerda. Isso significa que \[ \lim _{x\to 3} \frac {x^2-9x+14}{x^2-5x+6} = \class{xm-given}{DNE}. \]  Podemos
+confirmar os resultados dos dois exemplos anteriores olhando para o gráfico de \(y=\frac {x^2-9x+14}{x^2-5x+6}\): \[ \graph [xmin=-10,xmax=15,ymin=-10,ymax=10]{\frac {x^2-9x+14}{x^2-5x+6}} \]  </p></div>
+</div>
+<p class='noindent'>Algumas pessoas acham que os matemáticos estão caindo no misticismo quando
+falamos de infinito e menos infinito. No entanto, quando escrevemos \[ \lim _{x\to a} f(x) = \infty \qquad \text {e}\qquad \lim _{x\to a} g(x) = -\infty \] tudo o que
+queremos dizer é que, à medida que \(x\) se aproxima de \(a\), \(f(x)\) fica arbitrariamente grande e \(|g(x)|\)
+fica arbitrariamente grande, com \(g(x)\) assumindo valores negativos. Estamos usando \(\pm \infty \) para
+indicar direções, e não um valor específico.
+</p>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"1000000","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"100000000","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"100","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"10000","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"1000000","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"100000000","format":"expression","given":false,"antiderivative":false}}</script>

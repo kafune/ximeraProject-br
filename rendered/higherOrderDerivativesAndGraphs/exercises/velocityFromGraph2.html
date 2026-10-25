@@ -1,0 +1,222 @@
+<!-- traduz-render: f622bc093aa5d16d39d8caf83bacf9db9ac074b02de0908bd85432b36c534c41 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>
+<p class='noindent'>Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-806a2a6a7d1b756e4066461e9f980cd5.svg" /> </div>
+<p class='noindent'>A velocidade média do objeto no intervalo \(\left [0,6\right ]\) é \[ v_{\text {méd}} = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\text {m/s}. \]    </p></div>
+<div class='problem-environment exercise' id='problem2' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-2' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-c4164666e7337a8e7f6f31b3e6e1d10d.svg" /> </div>
+<p class='noindent'>Escolha a melhor descrição do formato do gráfico de \(s\) no intervalo de tempo \(\left (0,1\right )\). </p><div class='multiple-choice' id='problem3' titletext=' Multiple Choice'><span class='choice  ' id='choice1'>Crescente e com concavidade para cima </span><span class='choice correct ' id='choice2'>Crescente e com concavidade para baixo </span><span class='choice  ' id='choice3'>Decrescente e com concavidade para cima </span><span class='choice  ' id='choice4'>Decrescente e com concavidade para
+                                                                  
+
+                                                                  
+baixo</span> </div>    </div>
+<div class='problem-environment exercise' id='problem4' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-33e1c92bc128e2dc067fcc8fde1e5c2e.svg" /> </div>
+<p class='noindent'>Escolha a alternativa que completa a afirmação sobre a velocidade.<br class='newline' />
+</p><p class='noindent'>No intervalo \((0,1)\), a velocidade é </p><div class='multiple-choice' id='problem5' titletext=' Multiple Choice'><span class='choice  ' id='choice5'>crescente, porque a função \(s\) é crescente nesse intervalo
+</span><span class='choice  ' id='choice6'>decrescente, porque a função \(s\) é decrescente nesse intervalo </span><span class='choice  ' id='choice7'>crescente, porque o
+gráfico de \(s\) tem concavidade para cima nesse intervalo </span><span class='choice  ' id='choice8'>decrescente, porque o gráfico
+de \(s\) tem concavidade para cima nesse intervalo </span><span class='choice  ' id='choice9'>crescente, porque o gráfico de \(s\) tem
+concavidade para baixo nesse intervalo </span><span class='choice correct ' id='choice10'>decrescente, porque o gráfico de \(s\)
+tem concavidade para baixo nesse intervalo </span><span class='choice  ' id='choice11'>zero </span><span class='choice  ' id='choice12'>positiva e constante</span> </div>
+</div>
+<div class='problem-environment exercise' id='problem6' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-4' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-fc010513a061c45735fc453977d94b76.svg" /> </div>
+<p class='noindent'>Escolha a alternativa que completa a afirmação sobre a velocidade.<br class='newline' />
+</p><p class='noindent'>No intervalo \((1,3)\), a velocidade é </p><div class='multiple-choice' id='problem7' titletext=' Multiple Choice'><span class='choice  ' id='choice13'>crescente, porque a função \(s\) é crescente nesse intervalo
+</span><span class='choice  ' id='choice14'>decrescente, porque a função \(s\) é decrescente nesse intervalo </span><span class='choice  ' id='choice15'>crescente, porque o
+gráfico de \(s\) tem concavidade para cima nesse intervalo </span><span class='choice  ' id='choice16'>decrescente, porque o gráfico
+de \(s\) tem concavidade para cima nesse intervalo </span><span class='choice  ' id='choice17'>crescente, porque o gráfico de \(s\) tem
+concavidade para baixo nesse intervalo </span><span class='choice  ' id='choice18'>decrescente, porque o gráfico de \(s\)
+tem concavidade para baixo nesse intervalo </span><span class='choice correct ' id='choice19'>zero </span><span class='choice  ' id='choice20'>positiva e constante</span> </div>
+</div>
+<div class='problem-environment exercise' id='problem8' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-5' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-ae1808d954a8719dbe731af6e213484f.svg" /> </div>
+<p class='noindent'>Escolha a alternativa que completa a afirmação sobre a velocidade.<br class='newline' />
+</p><p class='noindent'>No intervalo \((3,4)\), a velocidade é </p><div class='multiple-choice' id='problem9' titletext=' Multiple Choice'><span class='choice  ' id='choice21'>crescente, porque a função \(s\) é crescente nesse intervalo
+</span><span class='choice  ' id='choice22'>decrescente, porque a função \(s\) é decrescente nesse intervalo </span><span class='choice correct ' id='choice23'>crescente, porque o
+gráfico de \(s\) tem concavidade para cima nesse intervalo </span><span class='choice  ' id='choice24'>decrescente, porque o gráfico
+de \(s\) tem concavidade para cima nesse intervalo </span><span class='choice  ' id='choice25'>crescente, porque o gráfico de \(s\) tem
+concavidade para baixo nesse intervalo </span><span class='choice  ' id='choice26'>decrescente, porque o gráfico de \(s\)
+tem concavidade para baixo nesse intervalo </span><span class='choice  ' id='choice27'>zero </span><span class='choice  ' id='choice28'>positiva e constante</span> </div>
+</div>
+<div class='problem-environment exercise' id='problem10' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-6' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-6dc03cc53126c5b5c4f0e0b501807ddf.svg" /> </div>
+<p class='noindent'>Escolha a alternativa que completa a afirmação sobre a velocidade.<br class='newline' />
+</p><p class='noindent'>No intervalo \((4,6)\), a velocidade é </p><div class='multiple-choice' id='problem11' titletext=' Multiple Choice'><span class='choice  ' id='choice29'>crescente, porque a função \(s\) é crescente nesse intervalo
+</span><span class='choice  ' id='choice30'>decrescente, porque a função \(s\) é decrescente nesse intervalo </span><span class='choice  ' id='choice31'>crescente, porque o
+gráfico de \(s\) tem concavidade para cima nesse intervalo </span><span class='choice  ' id='choice32'>decrescente, porque o gráfico
+de \(s\) tem concavidade para cima nesse intervalo </span><span class='choice  ' id='choice33'>crescente, porque o gráfico de \(s\) tem
+concavidade para baixo nesse intervalo </span><span class='choice correct ' id='choice34'>decrescente, porque o gráfico de \(s\)
+tem concavidade para baixo nesse intervalo </span><span class='choice  ' id='choice35'>zero </span><span class='choice  ' id='choice36'>positiva e constante</span> </div>
+</div>
+<div class='problem-environment exercise' id='problem12' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-7' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-fc010513a061c45735fc453977d94b76.svg" /> </div>
+<p class='noindent'>Escolha a alternativa que completa a afirmação sobre a aceleração.<br class='newline' />
+</p><p class='noindent'>No intervalo \((0,1)\), a aceleração </p><div class='multiple-choice' id='problem13' titletext=' Multiple Choice'><span class='choice  ' id='choice37'>é positiva. </span><span class='choice correct ' id='choice38'>é negativa. </span><span class='choice  ' id='choice39'>é zero. </span><span class='choice  ' id='choice40'>assume valores
+tanto positivos quanto negativos. </span><span class='choice  ' id='choice41'>é inconclusiva, pois a partir do gráfico de s não
+podemos concluir nada sobre a aceleração. </span> </div>    </div>
+<div class='problem-environment exercise' id='problem14' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-8' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-aa4f064c030ea6cf6594359f40e998b6.svg" /> </div>
+<p class='noindent'>Escolha a alternativa que completa a afirmação sobre a aceleração.<br class='newline' />
+</p><p class='noindent'>No intervalo \((1,3)\), a aceleração </p><div class='multiple-choice' id='problem15' titletext=' Multiple Choice'>
+<span class='choice  ' id='choice42'>é positiva. </span><span class='choice  ' id='choice43'>é negativa. </span><span class='choice correct ' id='choice44'>é zero. </span><span class='choice  ' id='choice45'>assume valores tanto positivos quanto
+negativos. </span><span class='choice  ' id='choice46'>é inconclusiva, pois a partir do gráfico de s não podemos concluir nada
+                                                                  
+
+                                                                  
+sobre a aceleração. </span> </div>    </div>
+<div class='problem-environment exercise' id='problem16' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-9' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-33e1c92bc128e2dc067fcc8fde1e5c2e.svg" /> </div>
+<p class='noindent'>Escolha a alternativa que completa a afirmação sobre a aceleração.<br class='newline' />
+</p><p class='noindent'>No intervalo \((3,4)\), a aceleração </p><div class='multiple-choice' id='problem17' titletext=' Multiple Choice'>
+<span class='choice correct ' id='choice47'>é positiva. </span><span class='choice  ' id='choice48'>é negativa. </span><span class='choice  ' id='choice49'>é zero. </span><span class='choice  ' id='choice50'>assume valores tanto positivos quanto
+negativos. </span><span class='choice  ' id='choice51'>é inconclusiva, pois a partir do gráfico de s não podemos concluir nada
+sobre a aceleração. </span> </div>    </div>
+<div class='problem-environment exercise' id='problem18' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-10' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-852b4d127d76514452cbc6851153b0a1.svg" /> </div>
+                                                                  
+
+                                                                  
+<p class='noindent'>Escolha a alternativa que completa a afirmação sobre a aceleração.<br class='newline' />
+</p><p class='noindent'>No intervalo \((4,6)\), a aceleração </p><div class='multiple-choice' id='problem19' titletext=' Multiple Choice'>
+<span class='choice  ' id='choice52'>é positiva. </span><span class='choice correct ' id='choice53'>é negativa. </span><span class='choice  ' id='choice54'>é zero. </span><span class='choice  ' id='choice55'>assume valores tanto positivos quanto
+negativos. </span><span class='choice  ' id='choice56'>é inconclusiva, pois a partir do gráfico de s não podemos concluir nada
+sobre a aceleração. </span> </div>    </div>
+<div class='problem-environment exercise' id='problem20' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-11' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-de6c3aa4497dcc8687b1ec36c1b272a9.svg" /> </div>
+<p class='noindent'>Seja \(v(t)\) a velocidade do objeto no instante \(t\). Escolha o maior valor entre as alternativas
+a seguir. </p><div class='multiple-choice' id='problem21' titletext=' Multiple Choice'><span class='choice  ' id='choice57'>\(v(3.1)\) </span><span class='choice correct ' id='choice58'>\(v(4.5)\) </span><span class='choice  ' id='choice59'>\(v(5)\) </span><span class='choice  ' id='choice60'>\(v(5.5)\)</span> </div>    </div>
+<div class='problem-environment exercise' id='problem22' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-12' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-fc010513a061c45735fc453977d94b76.svg" /> </div>
+<p class='noindent'>Em qual dos instantes a seguir a velocidade escalar é máxima? </p><div class='multiple-choice' id='problem23' titletext=' Multiple Choice'><span class='choice  ' id='choice61'>1s </span><span class='choice  ' id='choice62'>3s </span><span class='choice correct ' id='choice63'>4s </span><span class='choice  ' id='choice64'>5s</span> </div>
+</div>
+<div class='problem-environment exercise' id='problem24' numbered='' role='article' titletext=' Exercise'>  Um objeto começa a se mover ao longo de uma reta horizontal no instante
+\(t=0\)s e para no instante \(t=6\)s. Sua posição em relação à origem no instante \(t\)
+é dada por \(s(t)\), representada no gráfico abaixo, onde \(s\) é medida em metros. <div aria-labelledby='image-alt-13' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/exercises/velocityFromGraph2-a0a19fa5e37ef8de01f779df77c612fe.svg" /> </div>
+<p class='noindent'>Em que instante o objeto está mais distante da origem e a que distância da origem
+ele está nesse instante? </p><div class='multiple-choice' id='problem25' titletext=' Multiple Choice'><span class='choice  ' id='choice65'>1s, 1m </span><span class='choice  ' id='choice66'>1s, 3m </span><span class='choice  ' id='choice67'>4s, 6m </span><span class='choice  ' id='choice68'>4s, 2m </span><span class='choice  ' id='choice69'>6s, 6m </span><span class='choice correct ' id='choice70'>6s, 4m </span><span class='choice  ' id='choice71'>6s,
+\(\sqrt {52}\)m</span> </div>    </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"\\frac {2}{3}","format":"expression","given":false,"antiderivative":false}}</script>

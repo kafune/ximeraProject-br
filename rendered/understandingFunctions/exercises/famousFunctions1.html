@@ -1,0 +1,127 @@
+<!-- traduz-render: 395398b24fae943313318f465b5d563390643308d211a84471473fad976f3bf9 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>
+Para cada função famosa dada, determine seu domínio e sua imagem e associe-a ao
+seu gráfico.
+     <ul class='itemize1'>
+     <li class='itemize'>\(y=\sin \left (x\right )\) Domínio: \(\left (\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\right )\) Imagem: \(\left [\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}\right ]\) Gráfico: \(\class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}}\)
+     </li>
+     <li class='itemize'>\(y=\cos \left (x\right )\) Domínio: \(\left (\class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-7}{\phantom{\rule{7em}{1.5em}}}}\right )\) Imagem: \(\left [\class{xm-answer}{\cssId{xm-answer-8}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-9}{\phantom{\rule{7em}{1.5em}}}}\right ]\) Gráfico: \(\class{xm-answer}{\cssId{xm-answer-10}{\phantom{\rule{7em}{1.5em}}}}\)
+     </li>
+     <li class='itemize'>\(y=e^x\) Domínio: \(\left (\class{xm-answer}{\cssId{xm-answer-11}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-12}{\phantom{\rule{7em}{1.5em}}}}\right )\) Imagem: \(\left (\class{xm-answer}{\cssId{xm-answer-13}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-14}{\phantom{\rule{7em}{1.5em}}}}\right )\) Gráfico: \(\class{xm-answer}{\cssId{xm-answer-15}{\phantom{\rule{7em}{1.5em}}}}\)
+     </li>
+     <li class='itemize'>\(y=\ln \left (x\right )\) Domínio: \(\left (\class{xm-answer}{\cssId{xm-answer-16}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-17}{\phantom{\rule{7em}{1.5em}}}}\right )\) Imagem: \(\left (\class{xm-answer}{\cssId{xm-answer-18}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-19}{\phantom{\rule{7em}{1.5em}}}}\right )\) Gráfico: \(\class{xm-answer}{\cssId{xm-answer-20}{\phantom{\rule{7em}{1.5em}}}}\)
+     </li>
+     <li class='itemize'>\(y=x\) Domínio: \(\left (\class{xm-answer}{\cssId{xm-answer-21}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-22}{\phantom{\rule{7em}{1.5em}}}}\right )\) Imagem: \(\left (\class{xm-answer}{\cssId{xm-answer-23}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-24}{\phantom{\rule{7em}{1.5em}}}}\right )\) Gráfico: \(\class{xm-answer}{\cssId{xm-answer-25}{\phantom{\rule{7em}{1.5em}}}}\)
+     </li>
+     <li class='itemize'>\(y=x^2\) Domínio: \(\left (\class{xm-answer}{\cssId{xm-answer-26}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-27}{\phantom{\rule{7em}{1.5em}}}}\right )\) Imagem: \(\left [\class{xm-answer}{\cssId{xm-answer-28}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-29}{\phantom{\rule{7em}{1.5em}}}}\right )\) Gráfico: \(\class{xm-answer}{\cssId{xm-answer-30}{\phantom{\rule{7em}{1.5em}}}}\)
+     </li>
+     <li class='itemize'>\(y=\sqrt {x}\) Domínio: \(\left [\class{xm-answer}{\cssId{xm-answer-31}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-32}{\phantom{\rule{7em}{1.5em}}}}\right )\) Imagem: \(\left [\class{xm-answer}{\cssId{xm-answer-33}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-34}{\phantom{\rule{7em}{1.5em}}}}\right )\) Gráfico: \(\class{xm-answer}{\cssId{xm-answer-35}{\phantom{\rule{7em}{1.5em}}}}\)
+     </li>
+     <li class='itemize'>\(y=\left |x\right |\) Domínio: \(\left (\class{xm-answer}{\cssId{xm-answer-36}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-37}{\phantom{\rule{7em}{1.5em}}}}\right )\) Imagem: \(\left [\class{xm-answer}{\cssId{xm-answer-38}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-39}{\phantom{\rule{7em}{1.5em}}}}\right )\) Gráfico: \(\class{xm-answer}{\cssId{xm-answer-40}{\phantom{\rule{7em}{1.5em}}}}\)</li></ul>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/exercises/famousFunctions1-3da7c6c9c161ee2fba5429e08c7df64a.svg" /> </div>
+<div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/exercises/famousFunctions1-9dce84f84daa681270ba202557f02cce.svg" /> </div>
+<div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/exercises/famousFunctions1-b87f599100b0c07bc20603730051dda4.svg" /> </div>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/exercises/famousFunctions1-8d5be307539e336d4e6c664fb0f9e1cb.svg" /> </div>
+<div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/exercises/famousFunctions1-47ddcf41f9f69d78b532dfcb75175e54.svg" /> </div>
+<div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/exercises/famousFunctions1-7cd79db9e4118ea398147bdd06cd97c0.svg" /> </div>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-7' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/exercises/famousFunctions1-f6cecdb4507873e0313703a5093fade4.svg" /> </div>
+<div aria-labelledby='image-alt-8' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/exercises/famousFunctions1-d39a995c357ad9bb949edfed1961313f.svg" /> </div>
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"-\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-10":{"answer":"E","format":"expression","given":false,"antiderivative":false},"xm-answer-11":{"answer":"-\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-12":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-13":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-14":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-15":{"answer":"D","format":"expression","given":false,"antiderivative":false},"xm-answer-16":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-17":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-18":{"answer":"-\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-19":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-20":{"answer":"C","format":"expression","given":false,"antiderivative":false},"xm-answer-21":{"answer":"-\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-22":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-23":{"answer":"-\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-24":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-25":{"answer":"F","format":"expression","given":false,"antiderivative":false},"xm-answer-26":{"answer":"-\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-27":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-28":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-29":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"-1","format":"expression","given":false,"antiderivative":false},"xm-answer-30":{"answer":"H","format":"expression","given":false,"antiderivative":false},"xm-answer-31":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-32":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-33":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-34":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-35":{"answer":"B","format":"expression","given":false,"antiderivative":false},"xm-answer-36":{"answer":"-\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-37":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-38":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-39":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"1","format":"expression","given":false,"antiderivative":false},"xm-answer-40":{"answer":"G","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"A","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"-\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-7":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-8":{"answer":"-1","format":"expression","given":false,"antiderivative":false},"xm-answer-9":{"answer":"1","format":"expression","given":false,"antiderivative":false}}</script>

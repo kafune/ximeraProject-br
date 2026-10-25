@@ -1,0 +1,136 @@
+<!-- traduz-render: c47076daea00820d228fe4d52624e4c4b26684fe251fcbbf97a8bbf03c594f3b -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Deduzimos a derivada da função exponencial natural. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Não sabemos nada sobre derivadas que nos permita calcular as derivadas de funções
+exponenciais sem colocar a mão na massa. Vamos trabalhar um pouco com a
+definição de derivada: </p><div class='theorem-like problem-environment explanation' id='problem1' titletext=' explanation'><a id='x1-2r1'></a>\begin{align*}  \ddx a^x &amp;=\lim _{h\to 0} \frac {a^{x+h}-a^x}{h} \\ &amp;=\lim _{h\to 0} \frac {a^xa^{h}-a^x}{h} \\ &amp;=\lim _{h\to 0} a^x\frac {\class{xm-given}{a^{h}-1}}{h} \\ &amp;=a^x\lim _{h\to 0} \frac {a^{h}-1}{h} \\ &amp;=a^x \cdot \underbrace {\text {(constante)}}_{\lim _{h\to 0} \frac {a^{h}-1}{h}}  \end{align*}
+</div>
+<p class='noindent'>Há duas coisas interessantes a observar aqui: ficamos com um limite que envolve \(h\),
+mas não \(x\), o que significa que, seja lá o que \(\lim _{h\to 0} (a^h-1)/h\) for, desde que exista, sabemos que é um
+número ou, em outras palavras, uma constante. Isso significa que \(a^x\) tem uma
+propriedade notável:
+     </p><blockquote class='quote'>
+     <p class='noindent'><strong>A derivada de uma função exponencial é uma constante
+     vezes ela mesma.</strong></p></blockquote>
+<p class='noindent'>Infelizmente, está além do escopo deste texto calcular o limite \[ \lim _{h\to 0} \frac {a^h-1}{h}.\] No entanto, podemos
+olhar alguns exemplos. Considere \((2^h-1)/h\) e \((3^h-1)/h\):
+</p>
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/rulesOfDifferentiation/digInTheDerivativeOfEToTheX-70a1a6639a50a641fbd5862aa8e703c3.svg" /> </div>
+<p class='noindent'>Embora essas tabelas não provem que temos um padrão, acontece que \[ \lim _{h\to 0}\frac {2^h-1}{h} \approx .7 \qquad \text {e}\qquad \lim _{h\to 0} \frac {3^h-1}{h} \approx 1.1. \] Além disso,
+se você fizer mais exemplos, escolhendo outros valores para a base \(a\), verá que o limite
+varia no mesmo sentido que o valor de \(a\): \(a\) maior, limite maior; \(a\) menor, limite menor.
+Como já podemos ver, alguns desses limites serão menores que \(1\) e outros maiores que \(1\).
+Em algum lugar entre \(a=2\) e \(a=3\) o limite será exatamente \(1\). Isso acontece quando \[ a = e = 2.718281828459045\dots . \] Vamos
+definir o número \(e\) por essa propriedade na próxima definição: </p><div class='theorem-like problem-environment definition' id='problem2' titletext=' definition'><a id='x1-3r2'></a> O número denotado
+por \(e\), chamado <strong>número de Euler</strong>, é definido como o número que satisfaz a seguinte
+relação \[ \lim _{h\to 0} \frac {e^h-1}{h} = 1.\] </div>
+<p class='noindent'>Usando essa definição, vemos que a função \(e^x\) tem a seguinte propriedade realmente
+                                                                  
+
+                                                                  
+notável.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem3' titletext=' theorem'><a id='x1-4r3'></a><span class='theorem-like-title'>A derivada da função exponencial natural</span> A derivada da função exponencial natural
+é a própria função exponencial natural. Em outras palavras, \[ \ddx e^x = e^x. \] <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-5r4'></a>Pela definição de
+derivada por limite, escreva \begin{align*}  \ddx e^x&amp;=\lim _{h\to 0} \frac {e^{x+h}-e^x}{h} \\ &amp;=\lim _{h\to 0} \frac {e^xe^{h}-e^x}{h} \\ &amp;=\lim _{h\to 0} \class{xm-given}{e^x}\frac {e^{h}-1}{h} \\ &amp;=e^x\lim _{h\to 0} \frac {e^{h}-1}{h} \\ &amp;=e^x\cdot 1\\ &amp;=e^x.  \end{align*}
+</div> </div>
+<p class='noindent'>Logo, \(e^x\) é a sua própria derivada. Em outras palavras, a inclinação do gráfico de \(e^x\) é
+igual à sua altura, ou seja, à sua segunda coordenada. Dito de outro modo, a função \(f(x)=e^x\)
+passa pelo ponto \((a,e^a)\) e tem inclinação \(e^a\) nesse ponto, seja qual for o valor de
+\(a\).
+</p>
+<div class='problem-environment question' id='problem5' numbered='' role='article' titletext=' Question'>  Qual é a inclinação da reta tangente ao gráfico da função \(f(x) = e^x\) em \(x = 5\)?  A inclinação é \(\class{xm-given}{e^5}\).
+</div>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-6r5'></a>Calcule: \[ \ddx \left (8\sqrt {x} + 7e^x \right ) \] <div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-7r6'></a>Escreva comigo: \begin{align*}  \ddx \left (8\sqrt {x} + 7e^x \right ) &amp;= 8\ddx x^{1/2} + 7\ddx e^x\\ &amp;= 4x^{-1/2} + 7 \class{xm-given}{e^x}.  \end{align*}
+</div> </div>
+<script type="application/json" class="xm-answers">{}</script>

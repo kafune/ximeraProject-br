@@ -1,0 +1,173 @@
+<!-- traduz-render: bf9d29238a77b6dec328373e1f5b8e6b77eaae133cd038ccc5b0721e0d36cef5 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Aqui examinamos o que a segunda derivada nos diz sobre a geometria das
+funções. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Até agora, sabemos determinar se uma função é crescente ou decrescente
+olhando para o sinal de sua derivada. Se tudo o que sabemos sobre \(f\) é onde ela
+cresce e onde decresce, não temos informação suficiente para descrever com
+precisão como \(f\) está se comportando. Considere as quatro possibilidades a
+seguir:
+</p>
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInConcavity-f7d85f4ba20e9ad32439f0ae466eb172.svg" /> </div>
+<p class='noindent'>Nos dois gráficos da coluna da esquerda, \(f\) é decrescente. Nos dois gráficos da coluna
+                                                                  
+
+                                                                  
+da direita, \(f\) é crescente. Qual é a diferença entre as duas fileiras? A concavidade. </p><div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-2r1'></a>
+Seja \(f\) uma função derivável em um intervalo aberto \(I\).<br class='newline' />Dizemos que o gráfico de \(f\) tem <strong>concavidade para cima</strong> em \(I\) se \(f'\), a derivada de \(f\), é
+<strong>crescente</strong> em \(I\).<br class='newline' />Dizemos que o gráfico de \(f\) tem <strong>concavidade para baixo</strong> em \(I\) se \(f'\), a derivada de \(f\), é
+<strong>decrescente</strong> em \(I\). </div><p> Isto é, o gráfico de \(f\) tem concavidade para cima se, localmente, ele
+fica acima de suas retas tangentes, e tem concavidade para baixo se, localmente, ele
+fica abaixo de suas retas tangentes.
+</p><p class='noindent'>Os gráficos de duas funções, \(f\) e \(g\), ambas crescentes no intervalo dado, são apresentados
+abaixo. </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInConcavity-2435a752bb45fe2733814d7eb88ca53a.svg" /> </div>
+<div class='theorem-like problem-environment example' id='problem2' titletext=' example'><a id='x1-3r2'></a>Abaixo é dado o gráfico de \(y=f(x)\), com domínio \(\left (-\frac {3}{2} , \frac {3}{2} \right )\). <div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInConcavity-7a06e00c9b9379417040138a4a8ec887.svg" /> </div> Em quais intervalos \(f\) tem concavidade para cima? Em quais intervalos \(f\) tem
+concavidade para baixo? <div class='theorem-like problem-environment explanation' id='problem3' titletext=' explanation'><a id='x1-4r3'></a>Vamos desenhar algumas retas tangentes no gráfico. <div aria-labelledby='image-alt-4' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInConcavity-99ca3346757f07b9ea96a72129aa31aa.svg" /> </div>
+<p class='noindent'>O gráfico está acima das retas tangentes para \(x\) em \(\left (-\frac {3}{2}, 0\right )\), e abaixo das retas tangentes que
+esboçamos em \(\left (0, \frac {3}{2}\right )\).
+</p><p class='noindent'>Portanto, \(f\) tem concavidade para cima em \(\left (\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}, \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\right )\) e concavidade para baixo em \(\left (\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}}, \class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}\right )\). </p></div> </div><p> Nesse
+exemplo, examine o intervalo em que \(f\) tinha concavidade para cima. No início desse
+intervalo, \(f\) era decrescente e, no fim, \(f\) era crescente. As inclinações nesse intervalo
+aumentaram de um valor negativo para um valor positivo. No intervalo em que \(f\) tinha
+concavidade para baixo, as inclinações começaram positivas e terminaram negativas.
+As inclinações nesse intervalo eram decrescentes.
+</p><p class='noindent'>Sabemos que o sinal da derivada nos diz se uma função é crescente ou decrescente em
+um certo ponto. Da mesma forma, o sinal da segunda derivada \(f''(x)\) nos diz se \(f'(x)\) é
+crescente ou decrescente em \(x\). Vamos usar isso para acrescentar mais detalhes ao
+quadro acima.
+</p>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInConcavity-0386dccf9f68b3d25ba5d76d6a363705.svg" /> </div>
+<p class='noindent'>Se estamos tentando entender a forma do gráfico de uma função, saber onde ele tem
+concavidade para cima e onde tem concavidade para baixo nos ajuda a obter
+uma imagem mais precisa. Vale a pena resumir o que já vimos em um único
+teorema.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem4' titletext=' theorem'><a id='x1-5r4'></a><span class='theorem-like-title'>Teste de concavidade</span> Seja \(I\) um intervalo aberto.
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-7x1'>Se \(f''(x)&gt;0\) para todo \(x\) em \(I\), então o gráfico de \(f\) tem concavidade para cima em \(I\).
+     </li>
+                                                                  
+
+                                                                  
+<li class='enumerate' id='x1-9x2'>Se \(f''(x)&lt;0\) para todo \(x\) em \(I\), então o gráfico de \(f\) tem concavidade para baixo em \(I\).</li></ol>
+</div>
+<p class='noindent'>Vamos começar com informações sobre onde uma função é crescente/decrescente/côncava
+para cima/côncava para baixo e ver se conseguimos usá-las para entender o
+comportamento da função. </p><div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-10r5'></a>Seja \(f\) uma função contínua e suponha que:
+     <ul class='itemize1'>
+     <li class='itemize'>\(f'(x) &gt; 0\) para \(-1&lt; x&lt;1\).
+     </li>
+     <li class='itemize'>\(f'(x) &lt; 0\) para \(-2&lt; x&lt;-1\) e \(1&lt;x&lt;2\).
+     </li>
+     <li class='itemize'>\(f''(x) &gt; 0\) para \(-2&lt;x&lt;0\) e \(1&lt;x&lt; 2\).
+     </li>
+     <li class='itemize'>\(f''(x) &lt; 0\) para \(0&lt;x&lt; 1\).</li></ul>
+<p class='noindent'>Esboce um possível gráfico de \(f\). </p><div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-11r6'></a>Comece marcando onde a derivada muda de sinal e
+indique os intervalos em que \(f\) é crescente e os intervalos em que \(f\) é decrescente. A
+função \(f\) tem derivada negativa de \(-2\) a \(x=\class{xm-given}{-1}\). Isso significa que \(f\) é <span class='word-choice' id='word-choice7'><a id='x1-12r7'></a><span class='choice  ' id='choice1'>crescente</span><span class='choice correct ' id='choice2'>decrescente</span></span>
+nesse intervalo. A função \(f\) tem derivada positiva de \(x=\class{xm-given}{-1}\) a \(x=\class{xm-given}{1}\). Isso significa que \(f\) é <span class='word-choice' id='word-choice8'><a id='x1-13r8'></a><span class='choice correct ' id='choice3'>crescente</span><span class='choice  ' id='choice4'>decrescente</span></span> nesse intervalo. Finalmente, a função \(f\) tem derivada
+negativa de \(x=\class{xm-given}{1}\) a \(2\). Isso significa que \(f\) é <span class='word-choice' id='word-choice9'><a id='x1-14r9'></a><span class='choice  ' id='choice5'>crescente</span><span class='choice correct ' id='choice6'>decrescente</span></span> nesse intervalo. <div aria-labelledby='image-alt-6' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInConcavity-056e73eff485ba7d81191841ae56b221.svg" /> </div> Agora devemos esboçar a concavidade: <span class='word-choice' id='word-choice10'><a id='x1-15r10'></a><span class='choice correct ' id='choice7'>concavidade para cima</span><span class='choice  ' id='choice8'>concavidade
+para baixo</span></span> quando a segunda derivada é positiva, <span class='word-choice' id='word-choice11'><a id='x1-16r11'></a><span class='choice  ' id='choice9'>concavidade para
+cima</span><span class='choice correct ' id='choice10'>concavidade para baixo</span></span> quando a segunda derivada é negativa. <div aria-labelledby='image-alt-7' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInConcavity-981516dc8742d05068d03a78ad256aaa.svg" /> </div> Finalmente, podemos esboçar nossa curva: <div aria-labelledby='image-alt-8' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/higherOrderDerivativesAndGraphs/digInConcavity-1ec44f0abaa5a26433323bd25c5415e5.svg" /> </div> </div> </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"-\\frac {3}{2}","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"\\frac {3}{2}","format":"expression","given":false,"antiderivative":false}}</script>

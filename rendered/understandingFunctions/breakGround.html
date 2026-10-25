@@ -1,0 +1,135 @@
+<!-- traduz-render: a0bb9bd81f188c085f12c00cd9ce14830681caad8a0f5422ac3122ed878e96a7 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Dois jovens matemáticos examinam uma função (ou duas!). 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Confira este diálogo entre dois estudantes de cálculo (baseado em uma história
+real):
+     </p><dl class='dialogue'><dt class='actor'>
+Devyn </dt><dd class='speech'>Riley, tenho uma pergunta urgente.
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Diga. Me conte tudo.
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Pense na função \[ f(x) = \frac {x^2 - 3x + 2}{x-2}. \]
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>OK.
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Essa função é igual a \(g(x) = x-1\)?
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Bom, se eu traço os gráficos na minha calculadora, elas parecem iguais.
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Eu sei!
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>E suponho que, se eu escrever \begin{align*}  f(x) &amp;= \frac {x^2 - 3x + 2}{x-2} \\ &amp;= \frac {(x-1)(x-2)}{x-2} \\ &amp;= x-1 \\ &amp;= g(x).  \end{align*}
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Claro! Mas e quando \(x=2\)? Nesse caso \[ g(2) = 1\qquad \text {mas}\qquad f(2) \text { não está definido!} \]
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Certo, \(f(2)\) não está definido porque não podemos dividir por zero. Hmm. Agora
+     vejo o problema. Eita!</dd></dl>
+<div class='problem-environment problem' id='problem1' numbered='' role='article' titletext=' Problem'>  No contexto acima, \(f\) e \(g\) são a mesma função?  <div class='multiple-choice' id='problem2' titletext=' Multiple Choice'><span class='choice  ' id='choice1'>sim </span><span class='choice correct ' id='choice2'>não</span> </div>     </div>
+<div class='problem-environment problem' id='problem3' numbered='' role='article' titletext=' Problem'>  Suponha que \(f\) e \(g\) sejam funções, mas que o domínio de \(f\) seja diferente do domínio
+de \(g\). Será que \(f\) e \(g\) podem ser, na verdade, a mesma função?  <div class='multiple-choice' id='problem4' titletext=' Multiple Choice'><span class='choice  ' id='choice3'>sim </span><span class='choice correct ' id='choice4'>não</span>
+</div>
+<div class='feedback' data-feedback='attempt' id='feedback5' titletext=' Feedback (attempt)'>O domínio de uma função faz parte dos “dados” da função. Uma função não é uma
+regra para transformar a entrada na saída, mas sim a relação entre uma coleção
+especificada de entradas (o domínio) e as saídas possíveis (a imagem). </div>
+</div>
+                                                                  
+
+                                                                  
+<div class='problem-environment problem' id='problem6' numbered='' role='article' titletext=' Problem'>  A mesma função pode ser representada por fórmulas diferentes?  <div class='multiple-choice' id='problem7' titletext=' Multiple Choice'><span class='choice correct ' id='choice5'>sim </span><span class='choice  ' id='choice6'>não</span> </div>    <div class='problem-environment problem' id='problem8' numbered='' role='article' titletext=' Problem'>   \(f(x) = |x|\)
+e \(g(x) = \sqrt {x^2}\) são a mesma função?
+<div class='multiple-choice' id='problem9' titletext=' Multiple Choice'><span class='choice correct ' id='choice7'>Elas são a mesma função, embora sejam representadas por fórmulas diferentes. </span><span class='choice  ' id='choice8'>Elas são funções diferentes porque têm fórmulas diferentes.</span> </div>    </div>    </div>
+<div class='problem-environment problem' id='problem10' numbered='' role='article' titletext=' Problem'>  Sejam \(f(x) = \sin ^2(x)\) e \(g(u) = \sin ^2(u)\). O domínio de cada uma dessas funções é o conjunto de todos os
+números reais. Qual das afirmações a seguir é verdadeira? <div class='multiple-choice' id='problem11' titletext=' Multiple Choice'><span class='choice  ' id='choice9'>Não há informação
+suficiente para determinar se \(f = g\). </span><span class='choice correct ' id='choice10'>As funções são iguais. </span><span class='choice  ' id='choice11'>Se \(x \neq u\), então \(f \neq g\). </span><span class='choice  ' id='choice12'>Temos \(f \neq g\), pois \(f\)
+usa a variável \(x\) e \(g\) usa a variável \(u\).</span> </div>    </div>
+<script type="application/json" class="xm-answers">{}</script>

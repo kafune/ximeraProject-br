@@ -1,0 +1,222 @@
+<!-- traduz-render: bced373485eed417f7a560ad3860e1157f9440c72054cfc9122b843fd33e0f86 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Nesta seção, derivamos equações que contêm mais de uma variável em um dos
+lados. 
+</div>
+<div class='maketitle'></div>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Revisão da regra da cadeia</h3>
+<p class='noindent'>A derivação implícita é, na verdade, apenas uma aplicação da regra da cadeia.
+Então lembre-se:
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-1001r1'></a><span class='theorem-like-title'>Regra da cadeia</span> Se \(f(x)\) e \(g(x)\) são deriváveis, então \[ \ddx f(g(x)) = f'(g(x))g'(x). \] </div>
+<p class='noindent'>De particular utilidade nesta seção é o seguinte. Se \(y\) é uma função derivável de \(x\) e se \(f\)
+é uma função derivável, então \[ \ddx (f(y)) = f'(y) \cdot \ddx (y) = f'(y) \dd [y]{x}. \]
+</p>
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Derivação implícita</h3>
+<p class='noindent'>As funções com que lidamos até agora foram definidas <em>explicitamente</em> em termos
+da variável independente. Por exemplo: \[ y=3x^2-2x+1,\qquad y=e^{3x}, \qquad y = \frac {x-2}{x^2-3x+2}. \] No entanto, isso nem sempre é
+necessário, ou sequer possível. Às vezes escolhemos, ou somos obrigados, a
+definir uma função <em>implicitamente </em>. Nesse caso, a variável dependente não é
+expressa explicitamente em termos de uma variável independente. Alguns
+exemplos são: \[ x^2+y^2 = 4,\qquad x^3+y^3 = 9xy, \qquad x^4+3x^2 = x^{2/3}+y^{2/3} + 1. \] Sua primeira inclinação pode ser simplesmente resolver cada
+uma dessas equações para \(y\) e seguir alegremente o seu caminho. No entanto,
+isso pode ser difícil ou até impossível de fazer. Como frequentemente nos
+deparamos com o problema de calcular derivadas de funções desse tipo,
+precisamos de um método que nos permita calcular derivadas de funções definidas
+implicitamente.
+</p><p class='noindent'>Vamos começar com um exemplo básico. </p><div class='theorem-like problem-environment example' id='problem2' titletext=' example'><a id='x1-2001r2'></a>Considere a curva (um círculo) definida
+por: \[ x^2 + y^2 = 1 \]
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-2003x1'>
+     <p class='noindent'>Determine a inclinação da reta tangente ao círculo no ponto \(\left (\frac {\sqrt {2}}{2},\frac {\sqrt {2}}{2}\right )\). </p><div class='theorem-like problem-environment explanation' id='problem3' titletext=' explanation'><a id='x1-2004r3'></a><div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+     <img alt='[Picture]' src="/rendered/implicitDifferentiation/digInImplicitDifferentiation-1072642c3a8e454e4ee46c8193651538.svg" /> </div>
+     <p class='noindent'>A curva definida pela equação \(x^2 + y^2 = 1\) não é o gráfico de uma função. Se resolvermos
+     para \(y\), obtemos duas soluções: \(y=\sqrt {1-x^2}\) e \(y=-\sqrt {1-x^2}\). O ponto \(\left (\frac {\sqrt {2}}{2},\frac {\sqrt {2}}{2}\right )\) está no gráfico da função \(f(x)=\sqrt {1-x^2}\). Vamos
+     calcular a derivada de \(f\). \[ f'(x)=\frac {\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}}{2\sqrt {1-x^2}} \] Portanto, a inclinação da reta tangente no ponto \(\left (\frac {\sqrt {2}}{2},\frac {\sqrt {2}}{2}\right )\) é
+     dada por \[ \text {inclinação}=f'\left (\frac {\sqrt {2}}{2}\right )=\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \] </p></div>
+     </li>
+<li class='enumerate' id='x1-2006x2'>
+     <p class='noindent'>Determine a inclinação da reta tangente ao círculo no ponto \(\left (\frac {\sqrt {2}}{2},-\frac {\sqrt {2}}{2}\right )\).
+</p>
+     <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-2007r4'></a><div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/implicitDifferentiation/digInImplicitDifferentiation-023fcee3eb28dd9cc27d84df03ad26ab.svg" /> </div> A curva definida pela
+     equação \(x^2 + y^2 = 1\) não é o gráfico de uma função. Se resolvermos para \(y\), obtemos duas
+     soluções: \(y=\sqrt {1-x^2}\) e \(y=-\sqrt {1-x^2}\). O ponto \(\left (\frac {\sqrt {2}}{2},-\frac {\sqrt {2}}{2}\right )\) está no gráfico da função \(f(x)=-\sqrt {1-x^2}\). Vamos calcular a derivada
+     de \(f\). \[ f'(x)=\frac {\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}}}{2\sqrt {1-x^2}} \] Portanto, a inclinação da reta tangente no ponto \(\left (\frac {\sqrt {2}}{2},-\frac {\sqrt {2}}{2}\right )\) é dada por
+     \[ \text {inclinação}=f'\left (\frac {\sqrt {2}}{2}\right )=\class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}} \]
+                                                                  
+
+                                                                  
+     <p class='noindent'>Observe que tivemos de derivar duas vezes, sem falar que precisamos primeiro
+     resolver para \(y\) em termos de \(x\) para conseguir calcular essas duas inclinações.
+     </p></div></li></ol>
+</div><p> Vamos adotar uma abordagem diferente, a saber, vamos usar derivação implícita.
+</p><div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-2008r5'></a>Considere a curva (um círculo) definida por: \[ x^2 + y^2 = 1 \]
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-2010x1'>Calcule \(\dd [y]{x}\).
+     </li>
+<li class='enumerate' id='x1-2012x2'>Determine a inclinação da reta tangente ao círculo em \(\left (\frac {\sqrt {2}}{2},\frac {\sqrt {2}}{2}\right )\).
+     </li>
+<li class='enumerate' id='x1-2014x3'>Determine a inclinação da reta tangente ao círculo em \(\left (\frac {\sqrt {2}}{2},-\frac {\sqrt {2}}{2}\right )\).</li></ol>
+<div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-2015r6'></a>
+<p class='noindent'>A curva definida pela equação \(x^2 + y^2 = 1\) não é o gráfico de uma função. Se resolvermos para \(y\),
+obtemos duas soluções: \(y=\sqrt {1-x^2}\) e \(y=-\sqrt {1-x^2}\). Portanto, podemos dizer que qualquer ponto \((x,y)\) da curva
+está no gráfico de alguma função \(f\). Partindo de \[ x^2 + y^2 = 1 \] derivamos ambos os lados da
+equação em relação a \(x\) e obtemos \[ \ddx \left (x^2+y^2\right ) = \ddx 1. \] Aplicando a regra da soma, vemos que \[ \ddx x^2+\ddx y^2 = 0. \] Vamos
+examinar cada um desses termos separadamente. Para começar, \[ \ddx x^2 = \class{xm-given}{2x}. \] Por outro lado, \(\ddx y^2\) é
+um pouco diferente. Aqui supomos que \(y = f(x)\) para alguma função \(f\), definida em algum
+intervalo aberto (isso vale para todos os pontos com \(-1&lt;x&lt;1\)). Logo, pela regra da cadeia,
+\begin{align*}  \ddx y^2 &amp;= \ddx (f(x))^2 \\ &amp;= 2\cdot f(x) \cdot f'(x) \\ &amp;= 2y\dd [y]{x}.  \end{align*}
+</p><p class='noindent'>Juntando tudo isso, ficamos com a equação \[ 2x + 2y\dd [y]{x} =0 \] Neste ponto, resolvemos para \(\dd [y]{x}\). Escreva
+\begin{align*}  2x + 2y\dd [y]{x} &amp;= 0\\ 2y \dd [y]{x} &amp;= -2x\\ \dd [y]{x} &amp;= \class{xm-given}{\frac {-x}{y}}.  \end{align*}
+</p><p class='noindent'>Observação: note que a derivada \(\dd [y]{x} \) está expressa em termos de ambas as variáveis, \(x\) e \(y\).
+Isso não deveria ser surpresa. Se você pensar bem, a função e sua derivada
+não são determinadas apenas pelo valor de \(x\). Lembre-se do que acontece se
+\(x=\frac {\sqrt {2}}{2}\).
+</p>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/implicitDifferentiation/digInImplicitDifferentiation-b11b57899a2ff740f8176fd001de7f8d.svg" /> </div> Há dois pontos diferentes na
+curva com coordenada \(x\) \(x=\frac {\sqrt {2}}{2}\).
+<p class='noindent'>A vantagem da expressão para \(\dd [y]{x} \) que obtivemos acima é que ela pode ser usada para
+calcular a inclinação da reta tangente em cada um desses dois pontos, e em qualquer
+outro ponto da curva, onde estiver definida.
+</p><p class='noindent'>Assim, para a segunda parte do problema, basta substituir \(x=\frac {\sqrt {2}}{2}\) e \(y=\frac {\sqrt {2}}{2}\) na expressão acima;
+logo, a inclinação da reta tangente nesse ponto é \(\class{xm-given}{-1}\). Para a terceira parte do problema,
+basta substituir \(x=\frac {\sqrt {2}}{2}\) e \(y=-\frac {\sqrt {2}}{2}\) na expressão acima; logo, a inclinação da reta tangente nesse
+ponto é \(\class{xm-given}{1}\).
+</p><p class='noindent'>Podemos confirmar nossos resultados olhando o gráfico da curva e da nossa reta
+tangente: \[ \graph {x^2+y^2=1,-x+\sqrt {2}} \]  </p></div> </div>
+<p class='noindent'>Vejamos outro exemplo ilustrativo:
+</p>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-2016r7'></a>Considere a curva definida por: \[ x^3+y^3 = 9xy \] <div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/implicitDifferentiation/digInImplicitDifferentiation-de2c33468837fb6e35a13dadb919e379.svg" /> </div>
+                                                                  
+
+                                                                  
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-2018x1'>Calcule \(\dd [y]{x}\).
+     </li>
+<li class='enumerate' id='x1-2020x2'>Determine a inclinação da reta tangente a essa curva em \((4,2)\).</li></ol>
+<div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-2021r8'></a>Partindo de \[ x^3+y^3 = 9xy, \] derivamos ambos os lados da equação em relação a \(x\) e obtemos \[ \ddx \left (x^3+y^3\right ) = \ddx 9xy. \]
+Aplicando a regra da soma, obtemos \[ \ddx x^3+\ddx y^3 = \ddx 9xy. \] Vamos examinar cada um desses termos
+separadamente. Para começar, \[ \ddx x^3 = \class{xm-given}{3x^2}. \] Por outro lado, \(\ddx y^3\) é um pouco diferente. Aqui
+você supõe que \(y = f(x)\), em algum intervalo \(I\), e, portanto, pela regra da cadeia,
+\begin{align*}  \ddx y^3 &amp;= \ddx (f(x))^3 \\ &amp;= 3(f(x))^2 \cdot f'(x) \\ &amp;= 3y^2\dd [y]{x}.  \end{align*}
+<p class='noindent'>Considerando o último termo, \(\ddx 9xy\), supomos que \(y=f(x)\), em algum intervalo \(I\). Logo,
+\begin{align*}  \ddx 9xy &amp;= 9\ddx \Bigl (x\cdot f(x)\Bigr ) \\ &amp;= 9 \left (x\cdot f'(x) + f(x)\right )\\ &amp;= 9x \dd [y]{x} + 9y.  \end{align*}
+</p><p class='noindent'>Juntando tudo isso, ficamos com a equação \[ 3x^2 + 3y^2\dd [y]{x} =9x \dd [y]{x} + 9y. \] Neste ponto, resolvemos para \(\dd [y]{x}\). Escreva
+\begin{align*}  3x^2 + 3y^2\dd [y]{x} &amp;= 9x \dd [y]{x} + 9y\\ 3y^2\dd [y]{x} - 9x \dd [y]{x} &amp;= 9y - 3x^2\\ \dd [y]{x}\left (3y^2-9x\right )&amp;= 9y - 3x^2\\ \dd [y]{x} &amp;=\frac {9y - 3x^2}{3y^2-9x} = \frac {3y - x^2}{y^2-3x}.  \end{align*}
+</p><p class='noindent'>Para a segunda parte do problema, basta substituir \(x=4\) e \(y=2\) na fórmula acima;
+logo, a inclinação da reta tangente em \((4,2)\) é \(\frac {5}{4}\). Incluímos um gráfico para o seu
+deleite visual: </p><div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/implicitDifferentiation/digInImplicitDifferentiation-59560d7ecd9a8c80427ae9b4b419f2e7.svg" /> </div>
+</div>
+</div>
+<p class='noindent'>Você pode pensar que o passo em que resolvemos para \(\dd [y]{x}\) poderia ser difícil em alguns
+casos. Na verdade, <em>isso nunca acontece</em>. Todas as ocorrências de \(\dd [y]{x}\) surgem da
+aplicação da regra da cadeia, e sempre que a regra da cadeia é usada ela deixa um
+único \(\dd [y]{x}\) multiplicado por alguma outra expressão. Logo, nossa expressão é linear em \(\dd [y]{x}\), e
+sempre será possível agrupar os termos que contêm \(\dd [y]{x}\) e colocar o \(\dd [y]{x}\) em evidência,
+                                                                  
+
+                                                                  
+exatamente como nos exemplos anteriores.
+</p><p class='noindent'>Um último exemplo:
+</p>
+<div class='theorem-like problem-environment example' id='problem9' titletext=' example'><a id='x1-2022r9'></a>Considere a curva definida por \[ \cos (xy) - \frac {y}{x} = 4x^2 y^3. \] Calcule \(\dd [x]{y}\). <div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-2023r10'></a>Primeiro, observe que o problema pede \(\dd [x]{y}\), e
+<strong>não</strong> \(\dd [y]{x}\). Isso significa que as variáveis trocaram de lugar! Não se preocupe, tudo é
+exatamente igual. Aplicamos \(\dd {y}\) a ambos os lados da equação e obtemos \[ \dd {y} \left ( \cos (xy) - \frac {y}{x} \right ) = \dd {y} (4x^2 y^3) \] o que nos dá \[ -\class{xm-given}{\sin (xy)} \left (y \dd [x]{y} + x \right ) - \frac {x - y \dd [x]{y}}{x^2} = 8xy^3 \dd [x]{y} + 12 x^2 y^2. \]
+Distribuindo e multiplicando por \(x^2\), obtemos \begin{align*}  -x^2 y \sin (xy) \dd [x]{y} &amp;- x^3 \sin (xy) - x + y \dd [x]{y}\\ &amp;= 8x^3y^3 \dd [x]{y} + 12x^4y^2.  \end{align*}
+<p class='noindent'>Agrupando os termos, fatorando e dividindo, finalmente chegamos a \begin{align*}  -x^2 y \sin (xy) \dd [x]{y} &amp;+ y \dd [x]{y} - 8x^3y^3 \dd [x]{y} \\ &amp;= x^3 \sin (xy) + x + 12x^4 y^2  \end{align*}
+</p><p class='noindent'>logo, \[ \left ( y - x^2y\sin (xy) - 8x^3 y^3 \right ) \dd [x]{y} = x^3 \sin (xy) + x + 12x^4 y^2 \] e agora vemos que \[ \dd [x]{y} = \frac {x^3 \sin (xy) + x + 12x^4 y^2}{y - x^2y\sin (xy) - 8x^3 y^3}. \] </p></div> </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"-2x","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"-1","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"2x","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"1","format":"expression","given":false,"antiderivative":false}}</script>

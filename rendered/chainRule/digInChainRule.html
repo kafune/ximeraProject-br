@@ -1,0 +1,145 @@
+<!-- traduz-render: 5b16c33ab6dcbcf8c335d2aee9176a8538df8bef9809104b968383e9b01469d8 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Aqui calculamos derivadas de composições de funções 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Até agora vimos como calcular a derivada de uma função construída a partir de
+outras funções por adição, subtração, multiplicação e divisão. Há outra maneira
+muito importante de combinar funções: a composição. A <em>regra da cadeia</em> nos permite
+lidar com esse caso. Considere \[ h(x) = \sin (1+2x). \] Embora existam várias maneiras diferentes de
+derivar essa função, se fizermos \(f(x) = \sin (x)\) e \(g(x) = 1+2x\), então podemos escrever \(h(x) = f(g(x))\). A pergunta
+é: podemos calcular a derivada de uma composição de funções usando as
+derivadas das funções que a compõem, \(f(x)\) e \(g(x)\)? Para isso, precisamos da <em>regra da
+cadeia</em>.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>Regra da cadeia</span> Se \(f\) e \(g\) são deriváveis, então \[ \ddx f(g(x)) = f'(g(x))g'(x). \] </div>
+<p class='noindent'>Vai ser preciso um pouco de prática para que o uso da regra da cadeia se torne
+natural; ela é mais complicada do que as regras de derivação que vimos até aqui.
+Vamos voltar ao nosso exemplo motivador.
+</p>
+<div class='theorem-like problem-environment example' id='problem2' titletext=' example'><a id='x1-3r2'></a>Calcule: \[ \ddx \sin (1+2x) \]
+<div class='theorem-like problem-environment explanation' id='problem3' titletext=' explanation'><a id='x1-4r3'></a>Faça \(f(x) = \sin (x)\) e \(g(x) = 1+2x\); então \[ f'(x) = \class{xm-given}{\cos (x)} \qquad \text {e}\qquad g'(x) = \class{xm-given}{2}.\] Logo \begin{align*}  \ddx \sin (1+2x) &amp;= \ddx f(g(x))\\ &amp;=f'(g(x))g'(x) \\ &amp;= \cos (\class{xm-given}{1+2x})\cdot \class{xm-given}{2}\\ &amp;= 2\cos (1+2x).  \end{align*}
+</div> </div>
+<p class='noindent'>Vamos ver uma cadeia de composições mais complicada.
+</p>
+<div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-5r4'></a>Calcule: \[ \ddx \sqrt {1+\sqrt {x}} \]
+<div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-6r5'></a>Faça \(f(x)=\sqrt {x}\) e \(g(x)=1+x\). Logo, \[\sqrt {1+\sqrt {x}}=f(g(\class{xm-given}{f}(x))) \] e, pela regra da cadeia, sabemos que \[ \ddx f(g(f(x))) = f'(g(f(x)))g'(f(x))f'(x).\] Como \[ f'(x) = \class{xm-given}{\frac {1}{2\sqrt {x}}} \qquad \text {e}\qquad g'(x) = \class{xm-given}{1} \] temos que \[ \ddx \sqrt {1+\sqrt {x}} = \frac {1}{2\sqrt {1+\sqrt {x}}}\cdot 1\cdot \class{xm-given}{\frac {1}{2\sqrt {x}}}. \] </div>
+</div>
+<p class='noindent'>A regra da cadeia nos permite derivar composições de funções que, de outra forma,
+seriam difíceis de tratar.
+</p>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-7r6'></a>Calcule: \[ \ddx e^{\sin (x^2)} \]
+<div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-8r7'></a>Faça \(f(x) = \class{xm-given}{e^x}\), \(g(x) = \class{xm-given}{\sin (x)}\) e \(h(x) = \class{xm-given}{x^2}\), de modo que \(f(g(h(x))) = e^{\sin (x^2)}\). Agora \begin{align*}  \ddx e^{\sin (x^2)} &amp;= \ddx f(g(h(x)))\\ &amp;= f'(g(h(x))) \cdot g'(h(x)) \cdot h'(x)\\ &amp;= e^{\class{xm-given}{\sin (x^2)}} \cdot \cos (\class{xm-given}{x^2}) \cdot \class{xm-given}{2x}.  \end{align*}
+</div> </div>
+<p class='noindent'>Usando a regra da cadeia, a regra da potência e a regra do produto, é possível evitar
+completamente o uso da regra do quociente.
+</p>
+<div class='theorem-like problem-environment example' id='problem8' titletext=' example'><a id='x1-9r8'></a>Calcule: \[ \ddx \frac {x^3}{x^2+1} \]
+<div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-10r9'></a>Reescrevendo isso como \[ \ddx x^3(x^2+1)^{-1}, \] faça \(f(x) = \class{xm-given}{x^{-1}}\) e \(g(x) = \class{xm-given}{x^2+1}\), de modo que \(f(g(x)) = (x^2 + 1)^{-1}\). Agora \[ x^3(x^2+1)^{-1} = x^3 f(g(x)), \] e, pelas regras do produto e
+da cadeia, \[ \ddx x^3 f(g(x)) = \class{xm-given}{3x^2} \cdot f(g(x))+ \class{xm-given}{x^3} \cdot f'(g(x))g'(x). \] Como \(f'(x) = \class{xm-given}{\frac {-1}{x^2}}\) e \(g'(x) = \class{xm-given}{2x}\), escrevemos \[ \ddx \frac {x^3}{x^2+1} = \frac {3x^2}{x^2+1}-\frac {2x^4}{(x^2+1)^2}. \] </div> </div>
+                                                                  
+
+                                                                  
+<p class='noindent'>Agora que estamos nos acostumando com a regra da cadeia, tente mais um. </p><div class='theorem-like problem-environment example' id='problem10' titletext=' example'><a id='x1-11r10'></a>Suponha
+que \(f\) é uma função cujos valores são dados na tabela a seguir.
+<div class='center'>
+
+<div class='tabular'> <table class='tabular' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /><col id='TBL-1-3' /></colgroup><tr class='hline' style='border-top:1px solid #000'><td></td><td></td><td></td></tr><tr class='hline' style='border-top:1px solid #000'><td></td><td></td><td></td></tr><tr id='TBL-1-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-1-1' style='white-space:nowrap; text-align:center;'> x  </td><td class='td11' id='TBL-1-1-2' style='white-space:nowrap; text-align:center;'> f(x)  </td><td class='td11' id='TBL-1-1-3' style='white-space:nowrap; text-align:center;'> f’(x)  </td>
+</tr><tr class='hline' style='border-top:1px solid #000'><td></td><td></td><td></td></tr><tr id='TBL-1-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-2-1' style='white-space:nowrap; text-align:center;'> 1  </td><td class='td11' id='TBL-1-2-2' style='white-space:nowrap; text-align:center;'>  -3   </td><td class='td11' id='TBL-1-2-3' style='white-space:nowrap; text-align:center;'>  4    </td>
+</tr><tr id='TBL-1-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-3-1' style='white-space:nowrap; text-align:center;'> 2  </td><td class='td11' id='TBL-1-3-2' style='white-space:nowrap; text-align:center;'>  5   </td><td class='td11' id='TBL-1-3-3' style='white-space:nowrap; text-align:center;'>  -1   </td>
+</tr><tr id='TBL-1-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-4-1' style='white-space:nowrap; text-align:center;'> 3  </td><td class='td11' id='TBL-1-4-2' style='white-space:nowrap; text-align:center;'>  2   </td><td class='td11' id='TBL-1-4-3' style='white-space:nowrap; text-align:center;'>  0    </td>
+</tr><tr class='hline' style='border-top:1px solid #000'><td></td><td></td><td></td></tr></table>                                                                  </div></div>
+<p class='noindent'>Determine \(\displaystyle \eval { \ddx \left ( (4x-3) f\left ( x^2+1\right ) \right )}_{x=1}\) </p><div class='theorem-like problem-environment explanation' id='problem11' titletext=' explanation'><a id='x1-12r11'></a>No nível mais externo, esta é um produto de \(4x-3\) por \(f\left (x^2+1\right )\), então começamos
+pela regra do produto. \begin{align*}  \ddx \left ( (4x-3) f\left ( x^2+1\right ) \right ) &amp;= (\class{xm-given}{4} ) \cdot f\left ( x^2+1\right ) \\ &amp;+ (4x-3) \cdot \ddx \left ( f\left ( x^2+1\right ) \right ) \\ &amp;= 4 f(x^2+1) + (4x-3) f'( x^2+1 ) \cdot (\class{xm-given}{2x} )\\ &amp;= 4 f(x^2 + 1) + (4x-3) f'(x^2+1) \cdot 2x.  \end{align*}
+<p class='noindent'>Avaliando em \(x=1\), obtemos: \begin{align*}  \eval { \ddx \left ( (4x-3) f\left ( x^2+1\right ) \right )}_{x=1} &amp;= 4 f(2) + (1) f'(2) \cdot 2\\ &amp;= 4 \cdot ( \class{xm-given}{5} ) + 2 \cdot (\class{xm-given}{-1})\\ &amp;= \class{xm-given}{18}.  \end{align*}
+</p>
+</div> </div>
+<script type="application/json" class="xm-answers">{}</script>

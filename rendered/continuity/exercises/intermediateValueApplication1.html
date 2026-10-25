@@ -1,0 +1,113 @@
+<!-- traduz-render: f4fee4edd1712ffc8fa12f526083cae567d7443913571f6e068a6d371075ad11 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>   Em uma manhã de janeiro, às 5 da manhã, a temperatura do ar no aeroporto de
+Columbus era de \(-2^{\circ }\)F. Ao meio-dia, a temperatura era de \(4^{\circ }\)F. Use o teorema do valor
+intermediário para mostrar que, em algum instante daquela manhã, a temperatura
+foi exatamente \(0^{\circ }\)F.
+Vamos resolver o problema em etapas.
+<p class='noindent'>ETAPA 1
+</p><p class='noindent'>Para usar o teorema do valor intermediário, temos de definir uma função
+adequada.
+</p><p class='noindent'>Defina uma função \(T\), em que \(T(t)\), \(5\le t\le 12\), fornece a temperatura do ar no aeroporto de
+Columbus no instante \(t\), medida em \(^{\circ }\)F.
+</p><p class='noindent'>É razoável supor que \(T\) é contínua em seu domínio, \([5,12]\).
+</p><p class='noindent'>ETAPA 2
+</p>
+<div class='problem-environment exercise' id='problem2' numbered='' role='article' titletext=' Exercise'>
+<p class='noindent'>Então, \[ T(5)=\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}, T(12)=\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}. \]
+</p>
+</div>  <div class='problem-environment exercise' id='problem3' numbered='' role='article' titletext=' Exercise'>   Seja \(L=0\). Selecione todas as afirmações a seguir que estão corretas.
+<div class='select-all' id='problem4' titletext=' Select All'><a id='x1-2r1'></a> <span class='choice  ' id='choice1'>Como \(T(-2)&lt; L&lt;T(4)\), o TVI implica que existe um número \(c\) em \(\left (-2,4\right )\) tal que \(T(c)=L\). </span><span class='choice correct ' id='choice2'>Como \(T(5) &lt; L&lt;T(12)\), o TVI
+implica que existe um número \(c\) em \(\left (5,12\right )\) tal que \(f(c)=L\). </span><span class='choice  ' id='choice3'>Como \(-2&lt; L&lt; 4\), o TVI implica que existe um
+número \(c\) em \(\left (-2,4\right )\) tal que \(T(c)=L\). </span><span class='choice correct ' id='choice4'>Como \(-2&lt; L&lt; 4\), o TVI implica que existe um número \(c\) em \(\left (5,12\right )\) tal que \(f(c)=L\).</span>
+</div>
+</div> Quando aplicamos o teorema do valor intermediário a \(T\) no intervalo \(\left [5,12\right ]\) com \(L=0\), temos
+garantida a existência de pelo menos um ponto \(c\) tal que \[ T(c)=\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \]    </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"-2","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"4","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"0","format":"expression","given":false,"antiderivative":false}}</script>

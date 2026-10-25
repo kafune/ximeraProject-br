@@ -41,6 +41,8 @@ sudo apt install texlive-latex-extra texlive-pictures texlive-science texlive-ex
 git clone --depth 1 https://github.com/XimeraProject/ximeraLatex ~/texmf/tex/latex/ximeraLatex
 ```
 
+A única fonte que não compila é `rulesOfDifferentiation/exercises/flashcards.tex`: ela gera os exercícios com Sage (`sagesilent`) e não faz parte do xourse do curso.
+
 Variáveis: `TRADUZ_XIMERA_SOURCE` (árvore do curso; padrão `courses/ximera-calculus-1-calculus1`), `TRADUZ_XIMERA_RENDERED` (saída; padrão `rendered`), `TRADUZ_XIMERA_RENDERER` (`local`, `docker` ou `none`) e `TRADUZ_XIMERA_IMAGE`.
 
 A folha de estilo, as fontes, o MathJax e a biblioteca de comparação de respostas ficam em `static/ximera/` (origens e licenças em `static/ximera/NOTICE.md`; `deploy/build-ximera-assets.sh` regenera). A interatividade (dicas, múltipla escolha, caixas de resposta, comentários) é reimplementada em `static/ximera/reader.js` e guarda as respostas no navegador.

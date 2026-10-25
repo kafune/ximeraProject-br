@@ -1,0 +1,211 @@
+<!-- traduz-render: 9fbc3793bc17002997fd1840f02a5d24b9c9bacbf68e1ff75922aeef4fba101b -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Usamos a linguagem do cálculo para descrever gráficos de funções. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Nesta seção, revisamos as implicações gráficas dos limites e do sinal da
+primeira e da segunda derivada. Você já sabe tudo isso: é que o assunto é
+importante o bastante para ser visto mais de uma vez, juntando todas as
+peças.
+</p>
+<div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-2r1'></a>Esboce o gráfico de uma função \(f\) que tenha as seguintes propriedades:
+     <ul class='itemize1'>
+     <li class='itemize'>\(f(0)=0\)
+     </li>
+     <li class='itemize'>\(\lim _{x \to 10^+} f(x) = +\infty \)
+     </li>
+     <li class='itemize'>\(\lim _{x \to 10^-} f(x) = -\infty \)
+     </li>
+     <li class='itemize'>\(f'(x)&lt;0\) em \((-\infty ,0) \cup (6,10) \cup (10,14)\)
+     </li>
+     <li class='itemize'>\(f'(x)&gt;0\) em \((0,6) \cup (14,\infty )\)
+     </li>
+     <li class='itemize'>\(f''(x)&lt;0\) em \((4,10)\)
+     </li>
+     <li class='itemize'>\(f''(x)&gt;0\) em \((-\infty ,4) \cup (10,\infty )\)</li></ul>
+<div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Tente primeiro por conta própria e depois confira com um colega ou veja a versão
+online.
+<div class='foldable' data-original='expandable' id='foldable3'>xmhintA primeira coisa que faremos é marcar o ponto \((0,0)\) e indicar a assíntota vertical
+apropriada, decorrente das condições sobre os limites. Também marcamos todos os
+lugares em que \(f'\) ou \(f''\) mudam de sinal.
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions-48870b6af2c6e05c8d18f4e536152671.svg" /> </div>
+</div>
+<div class='foldable' data-original='expandable' id='foldable4'>xmhintAgora classificamos o comportamento em cada um dos intervalos:
+     <ul class='itemize1'>
+     <li class='itemize'>Em \((-\infty , 0)\), \(f\) é <span class='word-choice' id='word-choice5'><a id='x1-4r3'></a><span class='choice  ' id='choice1'>crescente </span><span class='choice correct ' id='choice2'>decrescente</span></span> e tem concavidade para <span class='word-choice' id='word-choice6'><a id='x1-5r4'></a><span class='choice correct ' id='choice3'>cima</span><span class='choice  ' id='choice4'>baixo</span></span>
+     </li>
+     <li class='itemize'>Em \((0, 4)\), \(f\) é <span class='word-choice' id='word-choice7'><a id='x1-6r5'></a><span class='choice correct ' id='choice5'>crescente </span><span class='choice  ' id='choice6'>decrescente</span></span> e tem concavidade para <span class='word-choice' id='word-choice8'><a id='x1-7r6'></a><span class='choice correct ' id='choice7'>cima</span><span class='choice  ' id='choice8'>baixo</span></span>
+     </li>
+     <li class='itemize'>Em \((4, 6)\), \(f\) é <span class='word-choice' id='word-choice9'><a id='x1-8r7'></a><span class='choice correct ' id='choice9'>crescente </span><span class='choice  ' id='choice10'>decrescente</span></span> e tem concavidade para <span class='word-choice' id='word-choice10'><a id='x1-9r8'></a><span class='choice  ' id='choice11'>cima</span><span class='choice correct ' id='choice12'>baixo</span></span>
+     </li>
+     <li class='itemize'>Em \((6, 10)\), \(f\) é <span class='word-choice' id='word-choice11'><a id='x1-10r9'></a><span class='choice  ' id='choice13'>crescente </span><span class='choice correct ' id='choice14'>decrescente</span></span> e tem concavidade para <span class='word-choice' id='word-choice12'><a id='x1-11r10'></a><span class='choice  ' id='choice15'>cima</span><span class='choice correct ' id='choice16'>baixo</span></span>
+     </li>
+     <li class='itemize'>Em \((10, 14)\), \(f\) é <span class='word-choice' id='word-choice13'><a id='x1-12r11'></a><span class='choice  ' id='choice17'>crescente </span><span class='choice correct ' id='choice18'>decrescente</span></span> e tem concavidade para <span class='word-choice' id='word-choice14'><a id='x1-13r12'></a><span class='choice correct ' id='choice19'>cima</span><span class='choice  ' id='choice20'>baixo</span></span>
+     </li>
+     <li class='itemize'>Em \((14, \infty )\), \(f\) é <span class='word-choice' id='word-choice15'><a id='x1-14r13'></a><span class='choice correct ' id='choice21'>crescente </span><span class='choice  ' id='choice22'>decrescente</span></span> e tem concavidade para <span class='word-choice' id='word-choice16'><a id='x1-15r14'></a><span class='choice correct ' id='choice23'>cima</span><span class='choice  ' id='choice24'>baixo</span></span></li></ul>
+</div>
+<div class='foldable' data-original='expandable' id='foldable17'>xmhintUsando todas essas informações, somos levados a esboçar algo como o
+seguinte:
+<div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions-bffdf7688f1184752f705478a3f98d11.svg" /> </div></div></div> </div>
+<div class='theorem-like problem-environment example' id='problem18' titletext=' example'><a id='x1-16r15'></a>Esboce o gráfico de uma função \(f\) que tenha as seguintes propriedades:
+     <ul class='itemize1'>
+     <li class='itemize'>\(f(0)=1\)
+     </li>
+     <li class='itemize'>\(f(6)=2\)
+     </li>
+     <li class='itemize'>\(\lim _{x \to 6^+} f(x) = 3\)
+     </li>
+     <li class='itemize'>\(\lim _{x \to 6^-} f(x) = 1\)
+     </li>
+     <li class='itemize'>\(f'(x)&lt;0\) em \((-\infty ,1)\)
+     </li>
+     <li class='itemize'>\(f'(x)&gt;0\) em \((1,6)\)
+     </li>
+     <li class='itemize'>\(f'(x) = -2\) em \((6, \infty )\)
+     </li>
+     <li class='itemize'>\(f''(x)&lt;0\) em \((2.5,5)\)
+     </li>
+     <li class='itemize'>\(f''(x)&gt;0\) em \((-\infty ,2.5) \cup (5,6)\)</li></ul>
+<div class='theorem-like problem-environment explanation' id='problem19' titletext=' explanation'><a id='x1-17r16'></a>Tente primeiro por conta própria e depois confira com um colega ou veja a versão
+online.
+<div class='foldable' data-original='expandable' id='foldable20'>xmhintA primeira coisa que faremos é marcar os pontos \((0,1)\) e \((6,2)\), e os “buracos” em \((6,3)\) e \((6,1)\)
+decorrentes das condições sobre os limites. Podemos desenhar imediatamente como \(f\)
+fica em \((6,\infty )\), já que ali ela é linear com inclinação \(2\) e precisa se conectar ao
+buraco em \((6,2)\). Também marcamos todos os lugares em que \(f'\) ou \(f''\) mudam de
+sinal.
+<div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions-8e9b9c42ebec3d7738ba8416d1dd05bf.svg" /> </div>
+</div>
+<div class='foldable' data-original='expandable' id='foldable21'>xmhintAgora classificamos o comportamento em cada um dos intervalos:
+     <ul class='itemize1'>
+     <li class='itemize'>Em \((-\infty , 1)\), \(f\) é <span class='word-choice' id='word-choice22'><a id='x1-18r17'></a><span class='choice  ' id='choice25'>crescente </span><span class='choice correct ' id='choice26'>decrescente</span></span> e tem concavidade para <span class='word-choice' id='word-choice23'><a id='x1-19r18'></a><span class='choice correct ' id='choice27'>cima</span><span class='choice  ' id='choice28'>baixo</span></span>
+                                                                  
+
+                                                                  
+     </li>
+     <li class='itemize'>Em \((1, 2.5)\), \(f\) é <span class='word-choice' id='word-choice24'><a id='x1-20r19'></a><span class='choice correct ' id='choice29'>crescente </span><span class='choice  ' id='choice30'>decrescente</span></span> e tem concavidade para <span class='word-choice' id='word-choice25'><a id='x1-21r20'></a><span class='choice correct ' id='choice31'>cima</span><span class='choice  ' id='choice32'>baixo</span></span>
+     </li>
+     <li class='itemize'>Em \((2.5, 5)\), \(f\) é <span class='word-choice' id='word-choice26'><a id='x1-22r21'></a><span class='choice correct ' id='choice33'>crescente </span><span class='choice  ' id='choice34'>decrescente</span></span> e tem concavidade para <span class='word-choice' id='word-choice27'><a id='x1-23r22'></a><span class='choice  ' id='choice35'>cima</span><span class='choice correct ' id='choice36'>baixo</span></span>
+     </li>
+     <li class='itemize'>Em \((5, 6)\), \(f\) é <span class='word-choice' id='word-choice28'><a id='x1-24r23'></a><span class='choice correct ' id='choice37'>crescente </span><span class='choice  ' id='choice38'>decrescente</span></span> e tem concavidade para <span class='word-choice' id='word-choice29'><a id='x1-25r24'></a><span class='choice correct ' id='choice39'>cima</span><span class='choice  ' id='choice40'>baixo</span></span></li></ul>
+</div>
+<div class='foldable' data-original='expandable' id='foldable30'>xmhintUsando todas essas informações, somos levados a desenhar algo como o
+seguinte:
+<div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions-7592faefa0074782bedc4698b2a180b0.svg" /> </div></div></div> </div>
+<div class='theorem-like problem-environment example' id='problem31' titletext=' example'><a id='x1-26r25'></a>O gráfico de \(f'\) (a derivada de \(f\)) é mostrado abaixo.
+<p class='noindent'>Suponha que \(f\) é contínua em todos os números reais.
+</p>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/conceptsOfGraphingFunctions/digInConceptsOfGraphingFunctions-f69fb5602546fa938329d12d2511b67b.svg" /> </div>
+<div class='problem-environment question' id='problem32' numbered='' role='article' titletext=' Question'>  Em quais dos intervalos a seguir \(f\) é crescente? <div class='select-all' id='problem33' titletext=' Select All'><a id='x1-27r26'></a> <span class='choice correct ' id='choice41'>\((-\infty ,0)\) </span><span class='choice  ' id='choice42'>\((0,1)\) </span><span class='choice  ' id='choice43'>\((1,2)\) </span><span class='choice correct ' id='choice44'>\((2,3)\) </span><span class='choice  ' id='choice45'>\((3,\infty )\)</span> </div> <div class='foldable' data-original='expandable' id='foldable34'>xmhint\(f\) é crescente
+onde \(f'(x)&gt;0\), isto é, nos intervalos \((-\infty , 0)\) e \((2,3)\).</div>   </div>
+<div class='problem-environment question' id='problem35' numbered='' role='article' titletext=' Question'>  Quais dos pontos a seguir são pontos críticos de \(f\)? <div class='select-all' id='problem36' titletext=' Select All'><a id='x1-28r27'></a> <span class='choice correct ' id='choice46'>\(x=0\) </span><span class='choice  ' id='choice47'>\(x=1\) </span><span class='choice correct ' id='choice48'>\(x=2\) </span><span class='choice correct ' id='choice49'>\(x=3\)</span> </div>
+<div class='foldable' data-original='expandable' id='foldable37'>xmhint\(f\) tem pontos críticos nos zeros de \(f'\) e nos lugares em que \(f'\) não existe. Neste
+caso, \(x=0\), \(x=2\) e \(x=3\).</div>   </div>
+<div class='problem-environment question' id='problem38' numbered='' role='article' titletext=' Question'>  Onde ocorrem os máximos locais? <div class='select-all' id='problem39' titletext=' Select All'><a id='x1-29r28'></a> <span class='choice correct ' id='choice50'>\(x=0\) </span><span class='choice  ' id='choice51'>\(x=1\) </span><span class='choice  ' id='choice52'>\(x=2\) </span><span class='choice correct ' id='choice53'>\(x=3\)</span> </div> <div class='foldable' data-original='expandable' id='foldable40'>xmhintUm máximo local ocorre em
+um ponto crítico no qual a função passa de crescente a decrescente, isto é, a
+derivada passa de positiva a negativa. Neste caso, vemos que os máximos locais
+ocorrem em \(x=0\) e \(x=3\).</div>   </div>
+<div class='problem-environment question' id='problem41' numbered='' role='article' titletext=' Question'>  Onde ocorre um ponto de inflexão? <div class='select-all' id='problem42' titletext=' Select All'><a id='x1-30r29'></a> <span class='choice  ' id='choice54'>\(x=0\) </span><span class='choice correct ' id='choice55'>\(x=1\) </span><span class='choice  ' id='choice56'>\(x=2\) </span><span class='choice  ' id='choice57'>\(x=3\)</span> </div>
+<div class='foldable' data-original='expandable' id='foldable43'>xmhintUm ponto de inflexão ocorre quando a concavidade de \(f\) muda. Isso se reflete
+na mudança de sinal de \(f''\). Neste gráfico, isso só acontece em um ponto, a saber,
+\(x=1\).</div>
+</div>
+<div class='problem-environment question' id='problem44' numbered='' role='article' titletext=' Question'>  Em quais dos intervalos a seguir \(f\) tem concavidade para baixo? <div class='select-all' id='problem45' titletext=' Select All'><a id='x1-31r30'></a> <span class='choice correct ' id='choice58'>\((-\infty ,0)\) </span><span class='choice correct ' id='choice59'>\((0,1)\) </span><span class='choice  ' id='choice60'>\((1,2)\) </span><span class='choice  ' id='choice61'>\((2,3)\) </span><span class='choice  ' id='choice62'>\((3,\infty )\)</span>
+</div>
+<div class='foldable' data-original='expandable' id='foldable46'>xmhint\(f\) tem concavidade para baixo quando \(f''(x)&lt;0\). Neste gráfico, isso ocorre para \(x&lt;1\).
+Portanto, a resposta correta é selecionar tanto \((-\infty , 0)\) quanto \((0,1)\).</div>   </div>
+</div>
+<script type="application/json" class="xm-answers">{}</script>

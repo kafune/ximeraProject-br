@@ -1,0 +1,144 @@
+<!-- traduz-render: 7d21707641063ca2541019745f32cbefec368c8e1ab8aff42435b0cd4650664e -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Damos uma explicação para a regra do produto e a regra da cadeia. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Agora que conhecemos as diferenciais, vamos usá-las para dar alguma intuição sobre
+por que as regras do produto e da cadeia são verdadeiras.
+</p>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Explicação da regra do produto</h3>
+<p class='noindent'>As aproximações lineares podem nos ajudar a explicar por que a regra do produto
+funciona.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-1001r1'></a><span class='theorem-like-title'>A regra do produto</span> Se \(f\) e \(g\) são deriváveis, então \[ \ddx f(x)g(x) = f(x)g'(x)+f'(x)g(x). \] <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-1002r2'></a>Para começar, precisamos de alguma
+maneira de entender a função \[ A(x) = f(x) \cdot g(x). \] Uma interpretação da multiplicação é que ela é a
+área de um retângulo \(f(x) \times g(x)\): <div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/linearApproximation/digInExplanationOfTheProductAndChainRules-8f40d8a7744ca4fb98531a456a4e139d.svg" /> </div> Para
+entender a derivada do produto, precisamos entender como a área, \(A\), varia conforme \(x\)
+varia. Se alterarmos as entradas de \(f\) e \(g\) em \(\d x\), então o tamanho do retângulo muda: <div aria-labelledby='image-alt-2' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/linearApproximation/digInExplanationOfTheProductAndChainRules-c631610b2825b2eb71acf972f924f8d8.svg" /> </div> Porém, sabemos
+do nosso trabalho anterior que \begin{align*}  f(x+\d x) &amp;\approx f(x) + \d f,\\ g(x+\d x) &amp;\approx g(x) + \d g,\\  \end{align*}
+<p class='noindent'>de modo que agora nossa figura fica assim: </p><div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/linearApproximation/digInExplanationOfTheProductAndChainRules-8cb978454aebf001264d3d0c0393a3a8.svg" /> </div> Observe que, se pensarmos em \(A(x) = f(x)\cdot g(x)\), também podemos rotular nossa figura da seguinte
+forma: <div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/linearApproximation/digInExplanationOfTheProductAndChainRules-5c873c029c28aa2ab147cf38a1c1ebcc.svg" /> </div> Finalmente, a partir
+das figuras acima e lembrando que \begin{align*}  \d f &amp;= f'(x) \d x\\ \d g &amp;= g'(x) \d x,  \end{align*}
+<p class='noindent'>vemos que \begin{align*}  \d A &amp;= f(x) \d g + g(x) \d f + \d f \d g\\ &amp;=f(x) g'(x) \d x + g(x) f'(x) \d x + f'(x) g'(x) \left (\d x\right )^2.  \end{align*}
+                                                                  
+
+                                                                  
+</p><p class='noindent'>Dividindo ambos os lados por \(\d x\), vemos que \[ \dd [A]{x} = f(x) g'(x) + g(x) f'(x) + f'(x) g'(x) \d x \] e, fazendo \(\d x\) tender a zero, vemos que \[ A'(x) = f(x) g'(x) + g(x) f'(x). \] </p></div>
+</div>
+
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Explicação da regra da cadeia</h3>
+<p class='noindent'>Agora usaremos aproximações lineares para ajudar a explicar por que a regra da
+cadeia é verdadeira.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem3' titletext=' theorem'><a id='x1-2001r3'></a><span class='theorem-like-title'>Regra da cadeia</span> Se \(f\) e \(g\) são deriváveis, então \[ \ddx f(g(x)) = f'(g(x))g'(x). \] <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-2002r4'></a>Vamos tentar entender isso
+geometricamente. No que segue, as funções \(f\) e \(g\) parecem retas; porém, o
+jovem matemático deve perceber que <strong>não</strong> estamos olhando para retas de
+verdade; em vez disso, estamos olhando para \(f\) e \(g\) suficientemente “ampliadas”
+para que pareçam retas. Primeiro considere um gráfico de \(g\) em relação a \(x\): <div aria-labelledby='image-alt-5' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/linearApproximation/digInExplanationOfTheProductAndChainRules-ef114a2ef9565170dffc77be1d3ea775.svg" /> </div> Agora considere um
+                                                                  
+
+                                                                  
+gráfico de \(f\) em relação a \(g\): <div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/linearApproximation/digInExplanationOfTheProductAndChainRules-0530512b824629789d68d5f1490b4d27.svg" />
+</div> Se combinarmos esses gráficos, deitando o gráfico de \(g\) de lado, obtemos: <div aria-labelledby='image-alt-7' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/linearApproximation/digInExplanationOfTheProductAndChainRules-2b375a02f5f1a8132a7985e7f0d5f721.svg" /> </div>
+Ah! Disso vemos que \begin{align*}  \d f &amp;= f'(g) \d g\\ &amp;= f'(g(x)) g'(x) \d x,  \end{align*}
+<p class='noindent'>logo \[ \dd [f]{x} = f'(g(x))g'(x). \] </p></div> </div>
+<p class='noindent'>Essas “explicações” não pretendem ser o fim da história para a regra do produto e
+a regra da cadeia; esperamos que sejam, antes, o começo. Conforme você
+aprender mais matemática, essas explicações serão refinadas e tornadas
+precisas.
+</p>
+<script type="application/json" class="xm-answers">{}</script>

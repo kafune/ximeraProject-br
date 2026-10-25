@@ -1,0 +1,216 @@
+<!-- traduz-render: 2641edd73bf000a4065955c8d45f4f2c49cd3e762b66d85e425cbbf5ff2a6fd1 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Agora colocamos nossas habilidades de otimização para trabalhar. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Um <strong>problema de otimização</strong> é um problema em que você precisa maximizar ou
+minimizar alguma quantidade, dadas algumas restrições. Isso pode ser feito usando
+as ferramentas de cálculo diferencial que já desenvolvemos.
+</p><p class='noindent'>Talvez o problema de otimização mais básico seja gerado pela seguinte pergunta:
+     </p><blockquote class='quote'>
+     <p class='noindent'>Entre todos os retângulos de perímetro fixo, qual tem a maior área?</p></blockquote>
+<p class='noindent'>Não vamos resolver esse problema de forma abstrata; vamos resolvê-lo com
+números.
+</p>
+<div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-2r1'></a>Entre todos os retângulos de perímetro \(12\), quais comprimentos de lado dão a maior
+área? <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>A figura abaixo mostra quatro retângulos de perímetro \(12\). Há infinitos
+retângulos com essa propriedade, e entre todos eles temos que encontrar aquele com a
+área máxima. Com a ajuda do cálculo, podemos resolver facilmente esse
+problema.
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/optimization/digInOptimization-1ebc8d80e99bf3f728c5b34e06472e3a.svg" /> </div>
+<p class='noindent'>Primeiro, vamos desenhar um retângulo genérico de perímetro \(12\).
+</p>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/optimization/digInOptimization-7a913e710b9d6bb4cbb2a555072f2bbd.svg" /> </div>
+<p class='noindent'>A área do retângulo é \[ A = x\cdot y. \] Para podermos usar as técnicas do cálculo, temos que
+expressar a área como função de uma única variável.
+</p><p class='noindent'>Para isso, temos que expressar uma das variáveis, digamos \(y\), em termos de \(x\). Como
+podemos fazer isso?
+</p><p class='noindent'>Lembre-se de que temos a restrição: “…retângulos de perímetro \(12\)…”
+</p><p class='noindent'>Se um retângulo tem perímetro \(12\), então \(2x+2y=12\), e podemos resolver para \(y\) em termos de \(x\),
+\[ y=\class{xm-given}{6-x}. \]
+</p><p class='noindent'>Logo, a área de um retângulo de perímetro \(12\) pode ser expressa como função de uma
+única variável, \(x\), \[ A(x) = x\left (\class{xm-given}{6-x}\right ). \] No entanto, para que os comprimentos dos lados façam sentido
+fisicamente, devemos supor que \(x&gt;0\) e \(6-x&gt;0\).
+</p><p class='noindent'>Portanto, o domínio da função \(A\) é o intervalo \(\left (\class{xm-given}{0},\class{xm-given}{6}\right )\).
+</p><p class='noindent'>Assim, para maximizar a área do retângulo, temos que encontrar o máximo global da
+função \(A\) no intervalo \((0,6)\). Como o domínio de \(A\) é um intervalo aberto, o máximo global
+(se existir!) tem que ser um máximo local e, portanto, ocorre em um ponto crítico.
+Assim, temos que encontrar todos os pontos críticos de \(A\) no intervalo \((0,6)\). Como \[ A'(x) = \class{xm-given}{6-2x}, \] para
+encontrar os pontos críticos, temos que resolver a equação \[ \class{xm-given}{6-2x} = 0. \] Segue que o único ponto
+crítico de \(A\) está em \(x=\class{xm-given}{3}\).
+</p><p class='noindent'>Podemos fazer um quadro de sinais para \(A'(x)\) no intervalo \((0,6)\): </p><div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/optimization/digInOptimization-a0ffa4f1f924ec68acf26d97cf91ec1e.svg" /> </div>
+<p class='noindent'>Como \(A'(x)\) é positiva em \((0,3)\) e negativa em \((3,6)\), a função \(A\) tem um máximo global em \(x=3\). Isso
+acontece exatamente quando o retângulo é um quadrado! </p></div> </div>
+<p class='noindent'>Um passo fundamental é explicar por que \(x=3\) é de fato o máximo. Acima, basicamente
+                                                                  
+
+                                                                  
+usamos fatos sobre a derivada. Abaixo, usamos um argumento semelhante.
+</p>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-4r3'></a>Entre todos os retângulos de área \(100\), qual tem o menor perímetro? <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-5r4'></a>A figura abaixo
+mostra quatro retângulos diferentes de área \(100\). Há infinitos retângulos com essa
+propriedade, e entre todos eles temos que encontrar aquele com o perímetro mínimo.
+Vamos resolver esse problema usando cálculo.
+<div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/optimization/digInOptimization-92b764410649559950f2ec0213316672.svg" /> </div>
+<p class='noindent'>Primeiro, fazemos um desenho. Aqui está um retângulo com área \(100\).
+</p>
+<div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/optimization/digInOptimization-f9545f6c3f64a766a3edcaf7c307bce6.svg" /> </div> O perímetro do retângulo é \[ P = 2x+2y. \] Para podermos usar as técnicas do cálculo, temos que
+expressar o perímetro como função de uma única variável.
+<p class='noindent'>Para isso, temos que expressar uma das variáveis, digamos \(y\), em termos de \(x\), usando a
+restrição \(A=x\cdot y=100\), \[ y=\class{xm-given}{\frac {100}{x}}. \]
+</p><p class='noindent'>Logo, o perímetro de um retângulo com área \(100\) pode ser expresso como função de uma
+única variável, \(x\), \[ P(x) = 2x+2\left (\class{xm-given}{\frac {100}{x}}\right ). \] Novamente, para que os comprimentos dos lados façam sentido
+fisicamente, devemos supor que \(x&gt;0\).
+</p><p class='noindent'>Portanto, o domínio da função \(P\) é o intervalo \((\class{xm-given}{0},\class{xm-given}{\infty })\).
+</p><p class='noindent'>Assim, para minimizar o perímetro do retângulo, temos que encontrar o mínimo
+global da função \(P\) no intervalo \(\left (0,\infty \right )\).
+                                                                  
+
+                                                                  
+</p><p class='noindent'>Como o domínio de \(P\) é um intervalo aberto, o mínimo global (se existir!) tem que ser
+um mínimo local e, portanto, ocorre em um ponto crítico. Assim, temos que
+encontrar todos os pontos críticos de \(P\) no intervalo \((0,\infty )\). Como \[ P'(x) = \class{xm-given}{2-\frac {200}{x^2}}, \] para encontrar os pontos
+críticos, temos que resolver a equação \[ \class{xm-given}{2-\frac {200}{x^2}} = 0. \] Resolvendo para \(x\), obtemos \(x=\pm \class{xm-given}{10}\). Apenas o valor
+\(x=\class{xm-given}{10}\) está no domínio de \(P\). Como \(P'(x)\) está definida em todo o intervalo \((0,\infty )\), não há
+mais valores críticos, e não há extremidades. Há um máximo local, um
+mínimo local ou nenhum dos dois em \(x=10\)? A segunda derivada é \[ P''(x)=\class{xm-given}{400/x^3}, \] e \(P''(10)&gt;0\), logo há um
+mínimo local. Como há apenas um ponto crítico, esse também é o mínimo
+global.
+</p><p class='noindent'>Assim, o retângulo com menor perímetro é o quadrado \(10\times 10\).
+</p><p class='noindent'>Podemos ilustrar nosso resultado com o gráfico de \(P\). </p><div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/optimization/digInOptimization-1a60048bcf492128ed0be6d3b7181b46.svg" /> </div> </div> </div>
+<p class='noindent'>Logo, o cálculo nos dá uma <strong>razão</strong> para <strong>por que</strong> um quadrado é o retângulo que
+tem, ao mesmo tempo, </p>
+     <ul class='itemize1'>
+     <li class='itemize'>a maior área para um dado perímetro.
+     </li>
+     <li class='itemize'>o menor perímetro para uma dada área.</li></ul>
+<p class='noindent'>Nós podemos ter terminado com os retângulos, mas eles não terminaram conosco.
+Aqui está um problema em que há mais restrições sobre os possíveis comprimentos
+dos lados do retângulo.
+</p>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-6r5'></a>Determine o retângulo de maior área que cabe dentro do gráfico da parábola \(y=x^2\)
+abaixo da reta \(y=a\), em que \(a\) é uma constante positiva não especificada, com o
+lado superior do retângulo sobre a reta horizontal \(y=a\). Veja a figura abaixo: <div aria-labelledby='image-alt-7' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/optimization/digInOptimization-fa29cb5760c34f72547158fc5960c838.svg" /> </div> <div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-7r6'></a>
+<p class='noindent'>A figura abaixo mostra três retângulos desse tipo. Há infinitos retângulos assim, um
+para cada escolha de \(x\) em \((0,\sqrt {a})\).
+</p>
+<div aria-labelledby='image-alt-8' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/optimization/digInOptimization-89264ca882e3ba5684602b60e47e6133.svg" /> </div>
+<p class='noindent'>Queremos maximizar \(A\), a área do retângulo. O canto inferior direito do retângulo está
+em \((x,x^2)\) e, uma vez escolhido esse ponto, o retângulo fica completamente determinado.
+Seja \(h\) a altura e \(w\) a largura do retângulo.
+</p><p class='noindent'>Então \[ A=w\cdot h, \] em que \[ w=2x \text { e } h=\class{xm-given}{a-x^2}. \] Portanto, podemos expressar a área \(A\) como função de \(x\) \[ A(x)=2x\left (\class{xm-given}{a-x^2}\right ). \] Queremos o
+valor máximo de \(A(x)\) quando \(x\) está em \([0,\sqrt {a}]\). Você pode objetar que não deveríamos permitir \(x=0\)
+ou \(x=\sqrt {a}\), já que nesses casos o “retângulo” não tem largura ou não tem altura, e portanto
+não é “realmente” um retângulo. Mas o problema fica um pouco mais fácil se
+simplesmente permitirmos tais retângulos, que têm área zero, pois assim podemos
+aplicar o teorema do valor extremo e ver que de fato temos um valor máximo e um
+valor mínimo.
+                                                                  
+
+                                                                  
+     </p><blockquote class='quote'>
+     <p class='noindent'><strong>Neste ponto, você deve esboçar o gráfico da função, se
+     puder.</strong></p></blockquote>
+<p class='noindent'>Fazendo \(0=A'(x)=\class{xm-given}{-6x^2+2a}\), encontramos \(x=\class{xm-given}{\sqrt {a/3}}\) como o único ponto crítico. Testando esse ponto e as duas
+extremidades (pois o máximo também poderia estar lá), temos \(A(0)=A(\sqrt {a})=\class{xm-given}{0}\) e \(A(\sqrt {a/3})=\class{xm-given}{(4/9)\sqrt {3}a^{3/2}}\). Logo, a área
+máxima ocorre quando o retângulo tem dimensões \(2\sqrt {a/3}\times (2/3)a\). </p></div> </div>
+<p class='noindent'>Novamente, observe que acima usamos o teorema do valor extremo para garantir que
+encontramos o máximo.
+</p>
+<script type="application/json" class="xm-answers">{}</script>

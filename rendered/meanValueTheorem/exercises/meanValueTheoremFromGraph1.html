@@ -1,0 +1,123 @@
+<!-- traduz-render: b67b7da6a4f5c40a12764cd7d1e2531715e980976e0490264271be906710e202 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>  Seja \(f\) uma função definida em \([0,4]\). O gráfico de \(f\) é dado na figura abaixo. Com base no gráfico,
+responda às perguntas a seguir. <div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/meanValueTheorem/exercises/meanValueTheoremFromGraph1-5844c5808d81571548df8c9cb8cd0603.svg" /> </div>
+<p class='noindent'>Selecione a afirmação correta. </p><div class='foldable' data-original='expandable' id='foldable2'>xmhintLembre-se de que uma função \(g\) precisa ser
+contínua em um intervalo fechado \([a,b]\) e derivável em um intervalo aberto \((a,b)\) para que
+possamos aplicar o teorema do valor médio. Se as condições acima são satisfeitas, o
+teorema do valor médio (TVM) garante que existe um ponto \(c\) em \((a,b)\) tal que \(f'(c)=\frac {f(b)-f(a)}{b-a}\).</div><div class='select-all' id='problem3' titletext=' Select All'><a id='x1-2r1'></a> <span class='choice correct ' id='choice1'>A
+função \(f\) satisfaz as condições do TVM em seu domínio. </span><span class='choice  ' id='choice2'>A função \(f\) não satisfaz as
+condições do TVM em seu domínio, porque \(f\) não é contínua em seu domínio. </span><span class='choice  ' id='choice3'>A
+função \(f\) não satisfaz as condições do TVM em seu domínio, porque \(f\) não é
+derivável em \((0,4)\).</span> </div>    </div>   <div class='problem-environment exercise' id='problem4' numbered='' role='article' titletext=' Exercise'>   <div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/meanValueTheorem/exercises/meanValueTheoremFromGraph1-734b6a2f90ea5face7e56f1ac2859527.svg" />
+</div>
+                                                                  
+
+                                                                  
+Seja \(m\) a inclinação da reta secante que passa pelos pontos \((0,f(0))\) e \((4,f(4))\) (veja a figura acima).
+Selecione a afirmação correta.
+<div class='select-all' id='problem5' titletext=' Select All'><a id='x1-3r2'></a> <span class='choice  ' id='choice4'>\(m=4\) </span><span class='choice  ' id='choice5'>\(m=-4\) </span><span class='choice correct ' id='choice6'>\(m=1\) </span><span class='choice  ' id='choice7'>\(m=-1\) </span><span class='choice  ' id='choice8'>\(m=0\) </span><span class='choice  ' id='choice9'>\(m=8\) </span><span class='choice  ' id='choice10'>\(m=-8\) </span><span class='choice  ' id='choice11'>\(m=2\) </span><span class='choice  ' id='choice12'>\(m=6\) </span><span class='choice  ' id='choice13'>\(m=8\)</span> </div>    </div>   <div class='problem-environment exercise' id='problem6' numbered='' role='article' titletext=' Exercise'>   Complete a afirmação abaixo a respeito da
+função \(f\) no intervalo \([0,4]\).
+Selecione todas as alternativas corretas. (Observe que \(m\), a inclinação da reta secante
+que passa pelos pontos \((0,f(0))\) e \((4,f(4))\), foi calculada no exercício anterior.)
+<p class='noindent'>AFIRMAÇÃO:
+</p><p class='noindent'>O teorema do valor médio garante que existe um ponto \(c\) no intervalo aberto \((0,4)\) tal que </p><div class='select-all' id='problem7' titletext=' Select All'><a id='x1-4r3'></a> <span class='choice 
+' id='choice14'>\(f'(c)=4\) </span><span class='choice  ' id='choice15'>\(f(c)=4\) </span><span class='choice  ' id='choice16'>\(f(c)=m\) </span><span class='choice correct ' id='choice17'>\(f'(c)=m\) </span><span class='choice correct ' id='choice18'>\(f'(c)=1\) </span><span class='choice  ' id='choice19'>\(f(c)=1\) </span><span class='choice  ' id='choice20'>\(f'(c)=-1\) </span><span class='choice  ' id='choice21'>\(f(c)=-1\) </span><span class='choice correct ' id='choice22'>\(f'(c)=\frac {f(4)-f(0)}{4}\) </span><span class='choice  ' id='choice23'>\(f(c)=\frac {f(4)-f(0)}{4}\)</span> </div>    </div>
+<div class='problem-environment exercise' id='problem8' numbered='' role='article' titletext=' Exercise'>  Encontre um ponto \(c\) em \((0,4)\), garantido pelo TVM, tal que
+<p class='noindent'>\(f'(c)=\frac {f(4)-f(0)}{4-0}\). Selecione a alternativa correta. </p><div class='foldable' data-original='expandable' id='foldable9'>xmhintObserve a figura abaixo. Ela mostra que a
+<strong>reta secante</strong> que passa pelos pontos \((0,f(0))\) e \((4,f(4))\) é <strong>paralela</strong> à <strong>reta tangente</strong> à curva \(y=f(x)\) no
+ponto \(x=\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\). <div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/meanValueTheorem/exercises/meanValueTheoremFromGraph1-b88035ed0c673d24f1904097214cc772.svg" /> </div></div><div class='select-all' id='problem10' titletext=' Select All'><a id='x1-5r4'></a> <span class='choice  ' id='choice24'>\(c=1\) </span><span class='choice correct ' id='choice25'>\(c=2\) </span><span class='choice  ' id='choice26'>\(c=3\) </span><span class='choice  ' id='choice27'>\(c=4\)</span>
+</div>
+</div>  <div class='problem-environment exercise' id='problem11' numbered='' role='article' titletext=' Exercise'>  Encontre uma equação da reta tangente à curva \(y=f(x)\) no ponto em que \(x=2\). <div class='foldable' data-original='expandable' id='foldable12'>xmhintVocê
+tem informação suficiente para escrever a equação de uma reta: você conhece as
+coordenadas de um ponto \((c,f(c)\) e a inclinação da reta (tangente), \(f'(c)\).</div>Selecione todas as
+alternativas corretas.
+<div class='select-all' id='problem13' titletext=' Select All'><a id='x1-6r5'></a> <span class='choice  ' id='choice28'>\(y=1\) </span><span class='choice  ' id='choice29'>\(y=2\) </span><span class='choice  ' id='choice30'>\(y=f'(x)\) </span><span class='choice  ' id='choice31'>\(y-2=1(x-1)\) </span><span class='choice  ' id='choice32'>\(y=x+1\) </span><span class='choice correct ' id='choice33'>\(y-1=1(x-2)\) </span><span class='choice correct ' id='choice34'>\(y=x-1\) </span><span class='choice  ' id='choice35'>\(y=f(x)\)</span> </div>    </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"2","format":"expression","given":false,"antiderivative":false}}</script>

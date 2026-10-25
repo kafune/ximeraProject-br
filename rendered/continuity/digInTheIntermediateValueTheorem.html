@@ -1,0 +1,199 @@
+<!-- traduz-render: 252fc7923b523cd5254274025a639ca28bf84ce6c3f70678b22632694d0a9e45 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+<p class='noindent'>Aqui vemos uma consequência de uma função ser contínua.</p> 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>O <em>teorema do valor intermediário</em> não deve ser tratado com descaso. Depois de
+compreendido, ele pode parecer “óbvio”, mas os matemáticos não devem subestimar
+o seu poder.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>Teorema do valor intermediário</span><a class='ximera-label' id='theorem:IVT'></a> Se \(f\) é uma função contínua para todo \(x\) no intervalo
+fechado \([a,b]\) e \(d\) é qualquer valor estritamente entre \(f(a)\) e \(f(b)\), então existe um número \(c\) em \((a, b)\) tal
+que \(f(c) = d\). </div>
+<p class='noindent'>Se você é uma pessoa mais visual, imagine uma função contínua da qual você conhece o
+valor em duas extremidades, \(x=a\) e \(x=b\), mas não sabe realmente o que a função faz entre os
+pontos \(x=a\) e \(x=b\): </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/continuity/digInTheIntermediateValueTheorem-7ff623bd01588f79737fa4c275b78ccd.svg" /> </div><p> O
+teorema do valor intermediário diz que, apesar de você não saber realmente o que a
+função está fazendo entre as extremidades, existe um ponto \(x=c\) que fornece um <em>valor
+intermediário</em> para \(f\).
+</p><p class='noindent'>Agora, vamos contrastar isso com uma situação em que a conclusão do teorema do
+valor intermediário não vale.
+</p>
+                                                                  
+
+                                                                  
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Considere a seguinte situação, <div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/continuity/digInTheIntermediateValueTheorem-c5ab1a23571385120babb9197fc6ec36.svg" /> </div> e selecione todas as afirmações verdadeiras: <div class='select-all' id='problem3' titletext=' Select All'><a id='x1-3r2'></a> <span class='choice correct ' id='choice1'>\(f\) é contínua em \((a,b)\). </span><span class='choice correct ' id='choice2'>\(f\) é contínua em \([a,b)\).
+</span><span class='choice  ' id='choice3'>\(f\) é contínua em \((a,b]\). </span><span class='choice  ' id='choice4'>\(f\) é contínua em \([a,b]\). </span><span class='choice  ' id='choice5'>Existe um ponto \(c\) em \([a,b]\) com \(f(c) = d\).</span> </div>
+</div>
+<p class='noindent'>Com base na pergunta acima, não é difícil perceber que cada uma das hipóteses do
+teorema do valor intermediário é necessária.
+</p><p class='noindent'>Vamos ver o teorema do valor intermediário em ação.
+</p>
+<div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-4r3'></a>Explique por que a função \(f(x)=x^3 + 3x^2+x-2\) tem um zero entre \(0\) e \(1\).
+<div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-5r4'></a>Como \(f\) é um polinômio, vemos que \(f\) é contínua para todos os números reais.
+Vamos aplicar o TVI aqui. Sejam \(a=\class{xm-given}{0}\), \(b=\class{xm-given}{1}\) e \(d=\class{xm-given}{0}\), já que \(f(a)=f(0)=\class{xm-given}{-2}\), \(f(b)=f(1)=\class{xm-given}{3}\) e \(0\) está entre \(f(a)=-2\) e \(f(b)=3\). Então, pelo
+teorema do valor intermediário, existe um ponto \(c\) no intervalo \((0,1)\) tal que \(f(c)=d=\class{xm-given}{0}\). </div>
+</div>
+<p class='noindent'>Este exemplo também aponta o caminho para um método simples de aproximar
+raízes.
+</p>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-6r5'></a>Aproxime uma raiz de \(f(x) =x^3 + 3x^2+x-2\) entre \(0\) e \(1\) com precisão de uma casa decimal.
+<div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-7r6'></a>Novamente, como \(f\) é um polinômio, vemos que \(f\) é contínua para todos os números
+reais. Considere a tabela \[ \begin{array}{c|c} x &amp; f(x) \\ \hline 0.1 &amp; -1.869\\ 0.2 &amp;-1.672\\ 0.3 &amp; -1.403\\ 0.4 &amp; -1.056\\ 0.5 &amp; -0.625\\ 0.6 &amp; -0.104\\ 0.7 &amp; 0.513 \end{array} \] Pelo teorema do valor intermediário, \(f\) tem uma raiz entre \(0.6\) e
+\(0.7\). Repetindo o processo \[ \begin{array}{c|c} x &amp; f(x) \\ \hline 0.61 &amp;-0.046719\\ 0.62 &amp; 0.011528 \end{array} \] e usando o teorema do valor intermediário, podemos concluir
+que \(f\) tem uma raiz entre \(0.61\) e \(0.62\), e a raiz é \(0.6\) arredondada para uma casa decimal. </div>
+</div>
+<p class='noindent'>O teorema do valor intermediário pode ser usado para mostrar que curvas se
+cruzam:
+</p>
+<div class='theorem-like problem-environment example' id='problem8' titletext=' example'><a id='x1-8r7'></a>Explique por que os gráficos das funções \(f(x) = x^2\ln (x)\) e \( g(x) = 2x\cos (\ln (x))\) se intersectam no intervalo \([1,e]\). <div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-9r8'></a>Para
+começar, observe que tanto \(f\) quanto \(g\) são funções contínuas no intervalo \([1,e]\) e, portanto, \(h = f-g\)
+                                                                  
+
+                                                                  
+também é uma função contínua no intervalo \([1,e]\). Agora \begin{align*}  h(1) &amp;= f(1) - g(1) \\ &amp;= (\class{xm-given}{1})^2\cdot \ln (\class{xm-given}{1}) - 2\cdot \class{xm-given}{1}\cdot \cos (\ln (\class{xm-given}{1}))\\ &amp;= \class{xm-given}{-2}.  \end{align*}
+<p class='noindent'>e, de modo semelhante, \begin{align*}  h(e) &amp;= f(e) - g(e) \\ &amp;= e^2\cdot \class{xm-given}{1} - 2\cdot e\cos (\class{xm-given}{1})  \end{align*}
+</p><p class='noindent'>Como \(e&gt;2\) e \(0 &lt; \cos (1)&lt;1\), vemos que a expressão acima é positiva. Portanto, \(h(1)&lt;0&lt;h(e)\) e, pelo teorema do
+valor intermediário, existe um número \(c\) em \((1,e)\) tal que \[h(c)=0.\] Mas isso significa que \[ f(c)-g(c)=0, \] e que \(f(c)=g(c)\).
+Portanto, as curvas \(y=f(x)\) e \(y=g(x)\) se intersectam no ponto \((c,f(c))\).
+</p><p class='noindent'>Podemos ver esse ponto de interseção olhando para os gráficos de \(y=f(x)\) e \(y=g(x)\) no intervalo
+dado. \[ \graph [xmin=1,xmax=e,ymin=-10,ymax=10]{x^2\ln (x), 2x\cos (\ln (x))} \]  </p></div> </div>
+<p class='noindent'>Agora passamos a um exemplo mais sutil:
+</p>
+<div class='theorem-like problem-environment example' id='problem10' titletext=' example'><a id='x1-10r9'></a>Suponha que você tenha dois gatos, Roxy e Yuri. Existe algum instante em
+que Roxy e Yuri têm a mesma quantidade de água em seus potes, supondo
+que:
+     <ul class='itemize1'>
+     <li class='itemize'>Eles começam e terminam de beber nos mesmos instantes.
+     </li>
+     <li class='itemize'>Roxy começa com mais água do que Yuri e deixa menos água sobrando
+     em seu pote do que Yuri.</li></ul>
+<div class='theorem-like problem-environment explanation' id='problem11' titletext=' explanation'><a id='x1-11r10'></a>Para resolver este problema, considere duas funções:
+     <ul class='itemize1'>
+     <li class='itemize'>\(W_{\mathrm {Roxy}}(t) =\) a quantidade de água no pote de Roxy no instante \(t\).
+     </li>
+     <li class='itemize'>\(W_{\mathrm {Yuri}}(t) =\) a quantidade de água no pote de Yuri no instante \(t\).</li></ul>
+<p class='noindent'>Agora, se \(t_\mathrm {início}\) é o instante em que os gatos começam a beber e \(t_\mathrm {fim}\) é o instante em que os
+gatos terminam de beber, então temos \[ W_\mathrm {Roxy}(t_\mathrm {início})-W_{\mathrm {Yuri}}(t_\mathrm {início}) &gt; 0\] e \[ W_\mathrm {Roxy}(t_\mathrm {fim})-W_{\mathrm {Yuri}}(t_\mathrm {fim}) &lt; 0. \] Como a quantidade de água em um pote
+no instante \(t\) é uma função contínua, já que a água é “lambida” em quantidades
+contínuas, \[ W_\mathrm {Roxy}-W_{\mathrm {Yuri}} \] é uma função contínua e, portanto, o teorema do valor intermediário se
+aplica. Como \(W_\mathrm {Roxy}-W_{\mathrm {Yuri}}\) é positiva em \(t_\mathrm {início}\) e negativa em \(t_\mathrm {fim}\), existe algum instante \(t_\mathrm {igual}\) em que o valor é
+zero, ou seja, \[ W_\mathrm {Roxy}(t_\mathrm {igual})- W_{\mathrm {Yuri}}(t_\mathrm {igual}) =0 \] o que significa que há a mesma quantidade de água em cada um dos
+potes. </p></div> </div>
+<p class='noindent'>E, finalmente, um exemplo em que o teorema do valor intermediário <em>não</em> se
+aplica.
+</p>
+                                                                  
+
+                                                                  
+<div class='theorem-like problem-environment example' id='problem12' titletext=' example'><a id='x1-12r11'></a>Suponha que você tenha dois gatos, Roxy e Yuri. Existe algum instante em que
+Roxy e Yuri têm a mesma quantidade de ração seca em seus potes, supondo
+que:
+     <ul class='itemize1'>
+     <li class='itemize'>Eles começam e terminam de comer nos mesmos instantes.
+     </li>
+     <li class='itemize'>Roxy começa com mais ração do que Yuri e deixa menos ração sem comer
+     do que Yuri.</li></ul>
+<div class='theorem-like problem-environment explanation' id='problem13' titletext=' explanation'><a id='x1-13r12'></a>Aqui poderíamos tentar a mesma abordagem de antes, definindo:
+     <ul class='itemize1'>
+     <li class='itemize'>\(F_{\mathrm {Roxy}}(t) =\) a quantidade de ração seca no pote de Roxy no instante \(t\).
+     </li>
+     <li class='itemize'>\(F_{\mathrm {Yuri}}(t) =\) a quantidade de ração seca no pote de Yuri no instante \(t\).</li></ul>
+<p class='noindent'>No entanto, neste caso, a quantidade de ração em um pote no instante \(t\) <strong>não</strong> é uma
+função contínua! Isso porque a ração seca consiste em grãos discretos e não é comida
+de maneira contínua. Logo, o teorema do valor intermediário <strong>não se aplica</strong>, e não
+podemos fazer nenhuma afirmação definitiva a respeito da pergunta acima. </p></div>
+</div>
+<p class='noindent'>Para uma leitura extra interessante, confira: </p>
+     <ul class='itemize1'>
+     <li class='itemize'>   <a href='http://www.jstor.org/stable/10.4169/college.math.j.42.4.254' target='_blank'><em>The intermediate value theorem is NOT obvious—and I am going to
+     prove it to you</em>, S.M. Walk, College Math Journal, setembro de 2011</a>.</li></ul>
+<script type="application/json" class="xm-answers">{}</script>

@@ -1,0 +1,185 @@
+<!-- traduz-render: 7124c4b53cc119ad107104625191c69eb51a9ba8516b2b154dee0e2f09a44b80 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Queremos calcular limites aos quais as leis dos limites não se aplicam. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Na seção anterior calculamos limites usando continuidade e as leis dos limites. E os
+limites que não podem ser calculados diretamente por esses métodos? Considere o
+seguinte limite, \[ \lim _{x\to 2}\frac {x^2-3x+2}{x-2}. \] Aqui \[ \lim _{x\to 2}\left (x^2-3x+2\right ) = 0\qquad \text {e}\qquad \lim _{x\to 2}\left (x-2\right ) = 0 \] diante disso, você pode pensar que o limite é um ou zero.
+<strong>Calma lá</strong>. Esse limite é de uma <em>forma indeterminada</em>. O que isso quer dizer?
+Continue lendo, jovem matemático.
+</p>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-2r1'></a>Dizemos que um limite \[ \lim _{x\to a} \frac {f(x)}{g(x)} \] é da forma \(\relax \boldsymbol {\tfrac {0}{0}}\) se \[ \lim _{x\to a} f(x) = 0\quad \text {e}\quad \lim _{x\to a} g(x) =0. \] </div>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Quais dos limites a seguir são da forma \(\relax \boldsymbol {\tfrac {0}{0}}\)? <div class='select-all' id='problem3' titletext=' Select All'><a id='x1-3r2'></a> <span class='choice correct ' id='choice1'>\(\lim _{x\to 0}\frac {\sin (x)}{x}\) </span><span class='choice  ' id='choice2'>\(\lim _{x\to 0}\frac {\cos (x)}{x}\) </span><span class='choice  ' id='choice3'>\(\lim _{x\to 0}\frac {x^2-3x+2}{x-2}\) </span><span class='choice correct ' id='choice4'>\(\lim _{x\to 2}\frac {x^2-3x+2}{x-2}\) </span><span class='choice  ' id='choice5'>\(\lim _{x\to 3}\frac {x^2-3x+2}{x-3}\)</span> </div>    </div>
+<div class='theorem-like problem-environment warning' id='problem4' titletext=' warning'><a id='x1-4r3'></a>O símbolo \(\relax \boldsymbol {\tfrac {0}{0}}\) <strong>não</strong> é o número \(0\) dividido por \(0\). É apenas uma notação abreviada. Ele
+significa que o limite \(\lim _{x\to a} \frac {f(x)}{g(x)}\) tem a propriedade de que \[ \lim _{x\to a} f(x) = 0\quad \text {e}\quad \lim _{x\to a} g(x) =0. \] Ao escrever a forma de um limite,
+NUNCA escrevemos \(\lim _{x \to a}\dfrac {f(x)}{g(x)}=\frac {0}{0}\). É o \(=\) que torna essa afirmação matematicamente incorreta. Em
+vez disso, escreva: \(\lim _{x \to a}\dfrac {f(x)}{g(x)}\) é da forma \(\frac {0}{0}\) </div>
+<p class='noindent'>Para encontrar a forma de \(\lim _{x \to a}\dfrac {f(x)}{g(x)}\), calcule os limites do numerador e do denominador
+SEPARADAMENTE. Não basta “substituir \(x=a\)”. “Substituir” só pode ser feito depois
+que se percebe que a função é contínua.
+</p><p class='noindent'>Vamos terminar o exemplo com a função acima.
+</p>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-5r4'></a>Calcule: \[ \lim _{x\to 2}\frac {x^2-3x+2}{x-2} \] <div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-6r5'></a>Para encontrar a forma, observe que \(\lim _{x\to 2}(x^2-3x+2)=0\) e \(\lim _{x\to 2}(x-2)=0\). Isso significa que nosso
+limite tem a forma \(\relax \boldsymbol {\tfrac {0}{0}}\). No entanto, note que, se supusermos \(x\ne 2\), podemos escrever
+\[ \frac {x^2-3x+2}{x-2} = \frac {(x-2)(\class{xm-given}{x-1})}{(x-2)} = \class{xm-given}{x-1}. \]
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/indeterminateForms/digInLimitsOfTheFormZeroOverZero-3b78637a39ef71b4b44054dc9647af21.svg" />     <img alt='[Picture]' src="/rendered/indeterminateForms/digInLimitsOfTheFormZeroOverZero-dedf35c2ffa859f6554a1a619aca6d88.svg" /> </div> Assim, “nossa função” é igual ao polinômio \(x-1\) em todo lugar, exceto em \(x=2\). Portanto,
+para todos os valores de \(x\) próximos de \(2\), “nossa função” é igual ao polinômio \(x-1\)!
+Isso significa que \[ \lim _{x\to 2}\frac {x^2-3x+2}{x-2} = \lim _{x\to 2} (x-1). \] Mas agora precisamos calcular o limite de um polinômio,
+\(\lim _{x\to 2} (x-1) =\class{xm-given}{1}\).
+                                                                  
+
+                                                                  
+<p class='noindent'>Logo \[ \lim _{x\to 2}\frac {x^2-3x+2}{x-2} = \class{xm-given}{1}. \] </p></div> </div>
+<p class='noindent'>Vamos considerar mais alguns exemplos da forma \(\relax \boldsymbol {\tfrac {0}{0}}\).
+</p>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-7r6'></a>Calcule: \[ \lim _{x\to 1}\frac {x-1}{x^2+2x-3}. \] <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-8r7'></a>Primeiro, observe que \[ \lim _{x\to 1}\left (x-1\right )=0 \quad \text {e}\quad \lim _{x\to 1}\left (x^2+2x-3\right ) = 0. \] Logo, esse limite é da forma \(\relax \boldsymbol {\tfrac {0}{0}}\). Novamente, não
+podemos aplicar a lei do quociente nem qualquer outra lei dos limites. Também não
+podemos usar continuidade. Afinal, “nossa função” não é contínua em \(x=1\), pois não
+está definida em \(x=1\).
+<p class='noindent'>O que pode ser feito? Podemos tentar cancelar um fator que tende a \(0\) no numerador e
+no denominador. Como \(\class{xm-given}{(x-1)}\) é um fator que tende a \(0\) no numerador, vamos ver se
+conseguimos fatorar um \(\class{xm-given}{(x-1)}\) no denominador também. \begin{align*}  \lim _{x\to 1}\frac {x-1}{x^2+2x-3}&amp;=\lim _{x\to 1}\frac {\cancel {x-1}}{\cancel {(x-1)}\class{xm-given}{(x+3)}} \\ &amp;=\lim _{x\to 1}\frac {1}{\class{xm-given}{x+3}}\\ &amp;=\frac {1}{4}.  \end{align*}
+</p>
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem9' titletext=' example'><a id='x1-9r8'></a>Calcule: \[ \lim _{x\to 1} \frac {\frac {1}{x+1}-\frac {3}{x+5}}{x-1}. \] <div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-10r9'></a>Encontramos a forma desse limite olhando separadamente para os limites
+do numerador e do denominador. O limite do numerador é: \begin{align*}  \lim _{x\to 1}\left (\frac {1}{x+1}-\frac {3}{x+5}\right )&amp;= \lim _{x\to 1}\frac {x+5-3(x+1)}{(x+1)(x+5)}\\ &amp;= \lim _{x\to 1}\frac {-2x+2}{(x+1)(x+5)}\\ &amp;= \frac {0}{12}\\ &amp;=0  \end{align*}
+<p class='noindent'>O limite do denominador é: \[ \lim _{x\to 1}\left (x-1\right )=0 \] Nosso limite é, portanto, da forma \(\relax \boldsymbol {\tfrac {0}{0}}\) e provavelmente
+podemos fatorar um termo que tende a \(0\) tanto no numerador quanto no denominador.
+\[ \lim _{x\to 1} \frac {\frac {1}{x+1}-\frac {3}{x+5}}{x-1} \] Olhando para o denominador, esperamos que esse termo seja \((x-1)\). Infelizmente, não é
+imediatamente óbvio como fatorar um \((x-1)\) no numerador. Então, devemos primeiro
+simplificar a fração composta multiplicando-a por \[ 1 = \frac {(x+1)(x+5)}{(x+1)(x+5)} \] isso nos permitirá cancelar
+imediatamente \begin{align*}  \lim _{x\to 1}&amp; \frac {\frac {1}{x+1}-\frac {3}{x+5}}{x-1} \cdot \frac {(x+1)(x+5)}{(x+1)(x+5)} \\ &amp;= \lim _{x\to 1}\frac {(x+5)-3(x+1)}{(x+1)(x+5)(x-1)}.  \end{align*}
+</p><p class='noindent'>Agora vamos expandir o numerador. Observe que não queremos expandir o
+denominador, porque já temos um \((x-1)\) fatorado no denominador, e esse era o objetivo. \[ \lim _{x\to 1}\frac {(x+5)-3(x+1)}{(x+1)(x+5)(x-1)} \]
+\begin{align*}  &amp;= \lim _{x\to 1}\frac {x+5-3x-3}{(x+1)(x+5)(x-1)} \\ &amp;= \lim _{x\to 1}\frac {-2x+2}{(x+1)(x+5)(x-1)}\\ &amp;= \lim _{x\to 1}\frac {-2\cancel {(x-1)}}{(x+1)(x+5)\cancel {(x-1)}}\\ &amp;= \lim _{x\to 1}\frac {-2}{(x+1)(x+5)}.  \end{align*}
+</p><p class='noindent'>Agora podemos ver que o limite de “nossa função” é igual ao limite de uma função
+racional \(\frac {-2}{(x+1)(x+5)}\). Essa função racional é contínua em seu domínio e, portanto, em \(x=1\). Logo
+\begin{align*}  \lim _{x\to 1} \frac {\frac {1}{x+1}-\frac {3}{x+5}}{x-1}&amp;=\lim _{x\to 1}\frac {-2}{(x+1)(x+5)}\\ &amp;= \frac {-2}{(1+1)(1+5)} \\ &amp;=\class{xm-given}{\frac {-1}{6}}.  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>Vamos ver mais um exemplo.
+</p>
+<div class='theorem-like problem-environment example' id='problem11' titletext=' example'><a id='x1-11r10'></a>Calcule: \[ \lim _{x\to -1} \frac {\sqrt {x+5}-2}{x+1}. \]
+<div class='theorem-like problem-environment explanation' id='problem12' titletext=' explanation'><a id='x1-12r11'></a>Observe que \[ \lim _{x\to -1} \left (\sqrt {x+5}-2\right )=0\quad \text {e}\quad \lim _{x\to -1} \left (x+1\right ) =0. \] Nosso limite é, novamente, da forma \(\relax \boldsymbol {\tfrac {0}{0}}\) e provavelmente podemos fatorar
+um termo que tende a \(0\) tanto no numerador quanto no denominador. Olhando para o
+denominador, suspeitamos que esse termo seja \((x+1)\). Infelizmente, não é imediatamente
+óbvio como fatorar um \((x+1)\) no numerador.
+<p class='noindent'>Vamos usar uma técnica algébrica chamada <strong>multiplicação pelo conjugado</strong>. Essa
+técnica é útil quando você está tentando simplificar uma expressão que se parece
+com \[ \sqrt {\text {algo}} \pm \text {outra coisa}. \] Ela tira proveito da regra da diferença de quadrados \[ a^2-b^2=(a-b)(a+b). \] No nosso caso, usaremos \(a=\sqrt {x+5}\)
+e \(b=2\). Escreva \[ \lim _{x\to -1} \frac {\sqrt {x+5}-2}{x+1} \] \begin{align*}  &amp;= \lim _{x\to -1} \frac {\left (\sqrt {x+5}-2\right )}{(x+1)} \cdot \frac {\left (\sqrt {x+5}+2\right )}{\left (\sqrt {x+5}+2\right )} \\ &amp;=\lim _{x\to -1} \frac {\class{xm-given}{\left (\sqrt {x+5}\right )^2-2^2}}{(x+1)\left (\sqrt {x+5}+2\right )} \\ &amp;=\lim _{x\to -1} \frac {x+5-4}{(x+1)\left (\sqrt {x+5}+2\right )} \\ &amp;=\lim _{x\to -1} \frac {\cancel {(x+1)}}{\cancel {(x+1)}\left (\sqrt {x+5}+2\right )} \\ &amp;=\lim _{x\to -1} \frac {1}{\sqrt {x+5}+2}\\ &amp;= \frac {1}{\sqrt {-1+5}+2}\\ &amp;=\class{xm-given}{\frac {1}{4}}.  \end{align*}
+</p>
+                                                                  
+
+                                                                  
+</div> </div>
+<p class='noindent'>Todos os exemplos desta seção são limites da forma \(\relax \boldsymbol {\tfrac {0}{0}}\). Quando você encontrar um
+limite da forma \(\relax \boldsymbol {\tfrac {0}{0}}\), deve tentar usar técnicas algébricas para chegar a uma função
+contínua cujo limite você consiga calcular.
+</p><p class='noindent'>Observe que resolvemos vários exemplos de limites da forma \(\relax \boldsymbol {\tfrac {0}{0}}\) e obtivemos
+respostas diferentes em cada um. Isso nos mostra que saber apenas que a forma
+do limite é \(\relax \boldsymbol {\tfrac {0}{0}}\) não é suficiente para calcular o limite. A moral da história é
+</p>
+<div class='center'>
+<p class='noindent'><strong>Limites da forma \(\relax \boldsymbol {\tfrac {0}{0}}\) podem assumir qualquer valor.</strong></p></div>
+<div class='theorem-like problem-environment definition' id='problem13' titletext=' definition'><a id='x1-13r12'></a> Uma forma que não nos dá nenhuma informação sobre se o limite existe ou não e,
+caso o limite exista, nenhuma informação sobre o valor do limite, é chamada de
+<strong>forma indeterminada</strong>.
+<p class='noindent'>Uma forma que dá informação sobre se o limite existe ou não e, caso exista, dá
+informação sobre o valor do limite, é chamada de <strong>forma determinada</strong>.
+</p></div>
+<p class='noindent'>Por fim, talvez você fique incomodado por termos introduzido uma forma, a saber \(\relax \boldsymbol {\tfrac {0}{0}}\),
+só para acabar dizendo que ela não dá nenhuma informação sobre o valor do limite.
+Mas é exatamente isso que torna as formas indeterminadas interessantes… elas são
+um mistério!
+</p>
+<script type="application/json" class="xm-answers">{}</script>

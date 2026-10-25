@@ -1,0 +1,238 @@
+<!-- traduz-render: 51efa45249983d482675a8ac5ba43179e9304e0397fd543cc711821b32b9ba62 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class="abstract">
+A substituição recebe um significado físico. 
+</div>
+<div class="maketitle"></div>
+<p class="noindent" >Na física, tomamos grandezas mensuráveis do mundo real e tentamos encontrar
+relações significativas entre elas. Um exemplo básico disso seria o conceito físico de
+<strong>força</strong>. Uma força aplicada a um objeto altera o movimento desse objeto. Mas a
+questão é que, em um nível básico, \[ \mathrm {força} = \mathrm {massa} \cdot \mathrm {aceleração}. \] e, embora possamos dar uma interpretação
+física a essa definição aritmética, no fim das contas força é simplesmente “massa
+vezes aceleração”. A unidade de força no SI é o <strong>newton</strong>, definido como \[ 1\unit {N} = 1\unit {kg}\cdot \unit {m}/\unit {s}^2. \]   </p><div role="article" class="problem-environment question" id="problem1" numbered="" titletext=" Question">   Para
+ter uma noção do que é um newton, considere o seguinte: se uma maçã
+tem massa de \(0.1\unit {kg}\), que força essa maçã exerceria sobre a sua mão devido à
+aceleração da gravidade?  \[ F = (0.1) \cdot (-9.8) = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\unit {N}, \]  <div class="feedback" data-feedback="attempt" id="feedback2" titletext=" Feedback (attempt)">Logo, o “peso” de uma maçã é aproximadamente \(1\unit {N}\). </div>
+</div>
+<p class="noindent" >De modo parecido, a ideia de <strong>energia cinética</strong> é a “energia” que os objetos têm por
+estarem em movimento. Ela é definida pela fórmula \[ E_k = \frac {m \cdot v^2}{2}. \] A unidade de energia no SI é o
+<strong>joule</strong>, definido como \[ 1\unit {J} = 1\unit {kg}\cdot \unit {m}^2/\unit {s}^2 = 1\unit {N}\cdot \unit {m}. \] Para ter uma noção do “tamanho” de um joule, considere o
+seguinte: se uma maçã tem massa de \(0.1\unit {kg}\) e é solta de uma altura de \(1\unit {m}\), então
+aproximadamente \(1\) joule de energia é liberado quando ela atinge o chão. Vamos ver se
+conseguimos explicar por que isso é verdade.
+</p>
+<div class="theorem-like problem-environment example" id="problem3" titletext=" example"><a 
+ id="x1-2r1"></a>Se uma maçã tem massa de \(0.1\unit {kg}\) e é solta de uma altura de \(1\unit {m}\), quanta energia é
+liberada quando ela atinge o chão? Suponha que a aceleração da gravidade
+seja \(-9.8\unit {m}/\unit {s}^2\). <div class="theorem-like problem-environment explanation" id="problem4" titletext=" explanation"><a 
+ id="x1-3r2"></a>Primeiro precisamos encontrar a velocidade com que a maçã atinge o
+chão. Seja \(a(t)=-9.8\) a aceleração no instante \(t\) e \(v(t)\) a velocidade. Como \(v(0) = 0\), sabemos que
+\begin{align*}  v(t) &amp;= \int _0^t a(x) \d x\\ &amp;= \int _0^t \class{xm-given}{-9.8} \d x \\ &amp;= \class{xm-given}{-9.8t}.  \end{align*}
+<p class="noindent" >Agora precisamos saber quanto tempo a maçã leva para atingir o chão depois de ser
+solta de uma altura de \(1\) metro. Para isso, vamos precisar de uma fórmula
+para a posição. Aqui \(s(0) = 1\), então vamos precisar usar uma integral indefinida:
+\begin{align*}  s(t)&amp;=\int v(t) \d t\\ &amp;= \int \class{xm-given}{-9.8t} \d t \\ &amp;= \class{xm-given}{\frac {-9.8 t^2}{2}} + C  \end{align*}
+</p><p class="noindent" >Como \(s(0)= 1\), escreva comigo \[ s(0) = \frac {-9.8 \cdot 0}{2} + C = \class{xm-given}{1}, \] logo \(C =1\) e \(s(t) = \frac {-9.8 t^2}{2}+1\). Resolver a equação \[ s(t) = 0 \] para \(t\) nos dá o instante em que
+a maçã atinge o chão. Escreva comigo \begin{align*}  s(t) &amp;= 0 \\ \frac {-9.8 t^2}{2} +1 &amp;= 0\\ -9.8 t^2 &amp;=-2\\ t^2 &amp;=\frac {2}{9.8}\\ t &amp;=\sqrt {\frac {2}{9.8}}.  \end{align*}
+</p><p class="noindent" >Então a maçã atinge o chão após \(\sqrt {\frac {2}{9.8}}\) segundos. Finalmente, a fórmula da energia
+cinética é \begin{align*}  E_k &amp;= \frac {m \cdot v^2}{2} \\ &amp;= \frac {0.1 \cdot \left (a\cdot t\right )^2}{2} \\ &amp;= \frac {0.1 \cdot \left ((-9.8)\cdot \sqrt {\frac {2}{9.8}}\right )^2}{2} \\ &amp;= \frac {0.1 \cdot (9.8)^2\cdot \frac {2}{9.8}}{2} \\ &amp;= \frac {0.1 \cdot 9.8\cdot 2}{2} \\ &amp;= 0.98.  \end{align*}
+</p><p class="noindent" >Ah! Então a energia cinética liberada por uma maçã solta de uma altura de \(1\) metro é
+aproximadamente \(1\) joule. </p></div> </div>
+<p class="noindent" >Finalmente, <strong>trabalho</strong> é definido como força acumulada ao longo de uma distância.
+Observe que deve haver alguma força <em>na direção</em> (ou na direção oposta) em que o
+objeto está se movendo para que isso seja considerado <em>trabalho</em>.   </p><div role="article" class="problem-environment question" id="problem5" numbered="" titletext=" Question">   Quais das
+alternativas a seguir são exemplos em que trabalho desse tipo está sendo
+realizado? <div class="select-all" id="problem6" titletext=" Select All"><a 
+ id="x1-4r3"></a> <span class="choice  "   id="choice1">estudar cálculo</span> <span class="choice correct "   id="choice2">um carro freando até parar ao longo de
+                                                                  
+
+                                                                  
+uma distância de \(100\unit {ft}\)</span> <span class="choice correct "   id="choice3">um jovem matemático escalando uma montanha</span> <span class="choice  "   id="choice4">um
+jovem matemático parado, segurando um livro de cálculo de \(1000\) páginas por \(10\)
+minutos</span> <span class="choice  "   id="choice5">um jovem matemático andando por aí com um livro de cálculo de \(1000\)
+páginas</span> <span class="choice correct "   id="choice6">um jovem matemático levantando um livro de cálculo de \(1000\) páginas</span> </div>
+<div class="feedback" data-feedback="attempt" id="feedback7" titletext=" Feedback (attempt)">Estudar cálculo pode “parecer” trabalho, mas não é (em geral) um exemplo de
+força acumulada ao longo de uma distância e, portanto, nenhum trabalho é
+realizado.
+<p class="noindent" >Por outro lado, um carro freando é uma mudança de movimento e, portanto, uma
+força é aplicada. Como essa força é aplicada ao longo de uma distância, há trabalho
+realizado.
+</p><p class="noindent" >Escalar uma montanha também é um exemplo de trabalho, pois a pessoa aplica
+força para vencer a aceleração da gravidade ao longo da distância que está
+escalando.
+</p><p class="noindent" >Nenhum trabalho é realizado ao segurar um livro de cálculo, pois não há força
+acumulada ao longo de uma distância.
+</p><p class="noindent" >Também não há trabalho realizado quando alguém anda por aí com um livro de
+cálculo; isso ocorre porque a “força” está em uma direção perpendicular ao
+movimento.
+</p><p class="noindent" >Finalmente, quando alguém levanta um livro de cálculo, está movendo o livro contra
+a força devida à aceleração da gravidade. Logo, há trabalho realizado. </div>    </p></div> Podemos
+escrever a definição de trabalho na linguagem do cálculo como \[ W = \int _{s_0}^{s_1} F(s) \d s. \] A unidade de
+trabalho no SI também é o <strong>joule</strong>. Para ajudar a entender isso, \(1\) joule é
+aproximadamente o trabalho realizado quando você levanta uma maçã por um
+metro.
+<p class="noindent" >Vamos ver novamente por que isso é verdade. </p><div class="theorem-like problem-environment example" id="problem8" titletext=" example"><a 
+ id="x1-5r4"></a>Se uma maçã tem massa de \(0.1\unit {kg}\), quanto
+trabalho é necessário para levantar essa maçã \(1\) metro? Suponha que a aceleração da
+gravidade seja \(-9.8\unit {m}/\unit {s}^2\). <div class="theorem-like problem-environment explanation" id="problem9" titletext=" explanation"><a 
+ id="x1-6r5"></a>Bem, o trabalho é calculado por \[ W = \int _{s_0}^{s_1} F(s) \d s. \] Como força é massa vezes
+aceleração, \begin{align*}  F(s) &amp;= 0.1\cdot \class{xm-given}{(-9.8)} \\ &amp;= \class{xm-given}{-0.98}.  \end{align*}
+<p class="noindent" >Assim, nossa integral se torna \begin{align*}  \int _{0}^{1} \class{xm-given}{-0.98} \d s &amp;= \eval {\class{xm-given}{-0.98 s}}_0^1\\ &amp;=\class{xm-given}{-0.98}.  \end{align*}
+</p><p class="noindent" >Ah! Então levantar uma maçã \(1\) metro requer \(\class{xm-given}{-0.98}\) joules de trabalho. O sinal é
+negativo porque estamos levantando a maçã <strong>contra</strong> a força gravitacional. </p></div>
+</div>
+<p class="noindent" >Agora temos uma pergunta:
+     </p><blockquote class="quote">
+     <p class="noindent" ><strong>Por  que  trabalho  e  energia  cinética  têm  as  mesmas
+     unidades?</strong></p></blockquote>
+<p class="noindent" >Uma maneira de responder a isso é por meio do <em>teorema trabalho-energia</em>.
+</p>
+<div class="theorem-like problem-environment theorem" id="problem10" titletext=" theorem"><a 
+ id="x1-7r6"></a><span class="theorem-like-title">Teorema trabalho-energia</span> Suponha que um objeto de massa \(m\) esteja se movendo ao
+                                                                  
+
+                                                                  
+longo de uma reta. Se \(s_0\) e \(s_1\) são as posições inicial e final, \(v_0\) e \(v_1\) são as velocidades inicial e
+final, e \(F(s)\) é a força que atua sobre o objeto em cada posição, então \[ W = \int _{s_0}^{s_1} F(s) \d s = \frac {m\cdot v_1^2}{2} - \frac {m\cdot v_0^2}{2}. \] <div class="theorem-like problem-environment explanation" id="problem11" titletext=" explanation"><a 
+ id="x1-8r7"></a>Primeiro
+precisamos deixar clara toda a nossa notação. Sejam:
+     <ul class="itemize1">
+     <li class="itemize">
+     <p class="noindent" >\(s(t)\) a posição em função do tempo,
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(v(t)\) a velocidade em função do tempo,
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(a(s)\) a aceleração em função da posição,
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(t_0\) o instante inicial,
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(t_1\) o instante final,</p></li></ul>
+<p class="noindent" >então também temos que </p>
+     <ul class="itemize1">
+     <li class="itemize">
+     <p class="noindent" >\(s(t_0)\) representa a posição inicial, \(s_0\),
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(s(t_1)\) representa a posição final, \(s_1\),
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(v(t_0)\) representa a velocidade inicial, \(v_0\),
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(v(t_1)\) representa a velocidade final, \(v_1\).</p></li></ul>
+                                                                  
+
+                                                                  
+<p class="noindent" >Agora escreva comigo, \[ W = \int _{s_0}^{s_1} F(s) \d s = \int _{s(t_0)}^{s(t_1)} F(s) \d s \] aqui estamos trabalhando com funções da distância. Vamos
+usar a fórmula de substituição, </p><div class="image-environment" role="img" aria-labelledby="image-alt-1"> <img 
+src="/rendered/workingWithSubstitution/digInTheWorkEnergyTheorem-b9f9ed92cb94f92e6e3836ef97cf571d.svg" alt="[Picture]"  /> </div>
+transformando da direita para a esquerda, para ver que \[ \int _{s(t_0)}^{s(t_1)} F(s) \d s = \int _{t_0}^{t_1} F(s(t)) s'(t) \d t \] e agora estamos trabalhando
+com funções do tempo. Como \(s'(t) = v(t)\), podemos escrever \[ \int _{t_0}^{t_1} F(s(t)) s'(t) \d t = \int _{t_0}^{t_1} F(s(t)) v(t) \d t \] e agora lembre-se de que \(F=m\cdot a\),
+então \[ \int _{t_0}^{t_1} F(s(t)) v(t) \d t = \int _{t_0}^{t_1} m\cdot a(s(t)) v(t) \d t. \] Porém, \(a(s(t)) = v'(t)\), então, reorganizando, temos \[ \int _{t_0}^{t_1} m\cdot a(s(t)) v(t) \d t = m\cdot \int _{t_0}^{t_1} v(t) v'(t)\d t. \] Agora aplicamos a fórmula de
+substituição de novo, desta vez transformando da esquerda para a direita <div class="image-environment" role="img" aria-labelledby="image-alt-2">
+<img 
+src="/rendered/workingWithSubstitution/digInTheWorkEnergyTheorem-ea14fcc0c3a13b4b0fa5d92593d26b90.svg" alt="[Picture]"  /> </div> e assim vemos que \[ m\cdot \int _{t_0}^{t_1} v(t) v'(t)\d t = m\cdot \int _{v(t_0)}^{v(t_1)} v \d v \] e estamos
+trabalhando com funções da velocidade. Por fim, fazendo \(v(t_0) = v_0\) e \(v(t_1) = v_1\), podemos calcular essa
+integral, \begin{align*}  m \cdot \int _{v_0}^{v_1} v \d v &amp;= m \cdot \eval {\frac {v^2}{2}}_{v_0}^{v_1}\\ &amp;=\frac {m\cdot v_1^2}{2} - \frac {m\cdot v_0^2}{2}.  \end{align*}
+</div> </div>
+<p class="noindent" >O teorema trabalho-energia diz que: </p><div class="image-environment" role="img" aria-labelledby="image-alt-3"> <img 
+src="/rendered/workingWithSubstitution/digInTheWorkEnergyTheorem-2a1b3d1470ce9dd6a11d9125514e792c.svg" alt="[Picture]"  /> </div> Isso pode ser interpretado assim:
+     <blockquote class="quote">
+     <p class="noindent" ><strong>A  <span style="color:#007D4D;">acumulada</span>  <span style="color:#56008F;">força</span>  <span style="color:#007D4D;">ao  longo  da  distância</span>  é  a
+     <span style="color:#004DB2;">variação da energia cinética</span>.</strong></p></blockquote>
+<p class="noindent" >Além disso, isso responde à nossa pergunta inicial sobre por que trabalho e
+energia cinética têm as mesmas unidades. Em essência, a energia alimenta o
+trabalho.
+</p>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"-0.98","format":"expression","given":false,"antiderivative":false}}</script>

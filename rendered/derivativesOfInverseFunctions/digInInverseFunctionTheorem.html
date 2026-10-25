@@ -1,0 +1,147 @@
+<!-- traduz-render: 40ebe0a9617c86dff1ce0c792c3b39ff49a66d941db0e69f74f73574a49bbc0b -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Vemos o fundamento teórico por trás do cálculo da derivada de uma função inversa
+em um ponto. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Há um porém em todas as explicações dadas acima, em que calculamos derivadas de
+funções inversas. Para escrever algo como \[ \ddx (e^y)=e^y\cdot y' \] precisamos saber que a função \(y\) <em>tem</em>
+derivada. O <em>Teorema da Função Inversa</em> garante isso.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>Teorema da função inversa</span><a class='ximera-label' id='theorem:IFT'></a> Se \(f\) é uma função derivável que é injetora perto de \(a\) e \(f'(a) \neq 0\),
+então
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-4x1'>\(f^{-1}(x)\) está <strong>definida</strong> para \(x\) perto de \(b=f(a)\),
+     </li>
+<li class='enumerate' id='x1-6x2'>\(f^{-1}(x)\) é <strong>derivável</strong> perto de \(b=f(a)\),
+     </li>
+<li class='enumerate' id='x1-8x3'>e, por último, mas não menos importante: \[ \eval {\ddx f^{-1}(x)}_{x=b} = \frac {1}{f'(a)}\qquad \text {onde}\qquad b = f(a). \]</li></ol>
+<div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-9r2'></a>Vamos explicar apenas o último resultado. Sabemos que \[ f(f^{-1}(x)) = x, \] e agora usamos a regra da
+cadeia para escrever \begin{align*}  \ddx f(f^{-1}(x)) &amp;= f'(f^{-1}(x)) (f^{-1})'(x)\\ &amp;=1.  \end{align*}
+<p class='noindent'>Isolando \((f^{-1})'(x)\), vemos que \[ (f^{-1})'(x) = \frac {1}{f'(f^{-1}(x))}. \] Isso é o que escrevemos acima. </p></div> </div>
+<p class='noindent'>Vale a pena dar mais uma evidência a favor da fórmula acima, desta vez baseada em
+incrementos na função, \(\Delta f\), e em incrementos na variável, \(\Delta x\). Considere este gráfico de uma
+                                                                  
+
+                                                                  
+função \(f\) e de sua inversa: </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/derivativesOfInverseFunctions/digInInverseFunctionTheorem-3d5182d108abcafa9db4259e6e2cdc29.svg" />
+</div><p> Como o gráfico da inversa de uma função é a reflexão do gráfico da função em
+relação à reta \(y=x\), vemos que os incrementos são “trocados” na reflexão. Logo, vemos
+que \[ \dfrac {\Delta f^{-1}}{\Delta {x}} = \dfrac {\Delta x}{\Delta f}=\dfrac {1}{\dfrac {\Delta f}{\Delta x}}. \] Tomando o limite quando \(\Delta x\) tende a \(0\), obtemos a expressão para a derivada de \(f^{-1}\).
+<br class='newline' />\[ \dd [f^{-1}]{x} = \dfrac {1}{ \dd [f]{x} } \]
+</p><p class='noindent'>O teorema da função inversa nos dá uma receita para calcular as derivadas de
+inversas de funções em pontos.
+</p>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-10r3'></a>Seja \(f\) uma função derivável que tem inversa. Na tabela abaixo, damos vários valores
+tanto de \(f\) quanto de \(f'\): \[ \begin{array}{|c|c|c|}\hline x &amp; f &amp; f' \\ \hline \hline 2 &amp; 0 &amp; 2 \\ \hline 3 &amp;1 &amp;5 \\ \hline 4 &amp; 3 &amp; 0 \\ \hline \end{array} \] Calcule \[ \ddx f^{-1}(x)\;\text {em $x=1$.} \] <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-11r4'></a>Da tabela acima, vemos que \[ 1 = f(\class{xm-given}{3}). \] Logo, pelo teorema da
+função inversa, \[ \left (f^{-1}\right )' (1)= \frac {1}{f'(\class{xm-given}{3})} = \class{xm-given}{\frac {1}{5}}. \] </div> </div>
+<p class='noindent'>Se um exemplo é bom, três são melhores ainda:
+</p>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-12r5'></a>Seja \(f\) uma função derivável que tem inversa. Na tabela abaixo, damos vários valores
+tanto de \(f\) quanto de \(f'\): \[ \begin{array}{|c|c|c|}\hline x &amp; f &amp; f' \\ \hline \hline 2 &amp; 0 &amp; 2 \\ \hline 3 &amp; 1 &amp;5 \\ \hline 4 &amp; 3 &amp; 0 \\ \hline \end{array} \] Calcule \[ \left (f^{-1}\right )'(0) \] <div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-13r6'></a>Observe que \[ \left (f^{-1}\right )'(0) = \ddx f^{-1}(x)\;\text {em $x=0$.} \] Da tabela acima, vemos que \[ 0 = f(\class{xm-given}{2}). \] Logo, pelo
+teorema da função inversa, \[ \left (f^{-1}\right )'(0) = \frac {1}{f'(\class{xm-given}{2})} = \class{xm-given}{\frac {1}{2}}. \] </div> </div>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-14r7'></a>A função \(g(x) = x^2 + 3\) é injetora quando restrita ao intervalo \((0, \infty )\). Seja \(g^{-1}(x)\) a inversa dessa restrição.
+Determine uma equação da reta tangente ao gráfico de \(y=g^{-1}(x)\) no ponto \((7, 2)\). <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-15r8'></a>Como \(g(2) = (2)^2 + 3 = 7\), sabemos
+que \((7, 2)\) se refere a um ponto do gráfico de \(g^{-1}\). Para encontrar a inclinação da reta,
+precisamos calcular \(\left ( g^{-1}\right )'(7)\).
+<p class='noindent'>Pelo teorema da função inversa, sabemos que: \begin{align*}  \left ( g^{-1}\right )'(7) &amp;= \dfrac {1}{g'\left ( g^{-1}(7) \right )}\\ &amp;= \dfrac {1}{g'\left ( 2 \right )}.  \end{align*}
+</p><p class='noindent'>Como \(g'(x) = 2x\), isso dá \(\left ( g^{-1}\right )'(7) = \dfrac {1}{4}\).
+</p><p class='noindent'>Uma equação da reta tangente pode ser dada por: \[ y-2 = \dfrac {1}{4}(x-7) \] </p></div> </div>
+                                                                  
+
+                                                                  
+<p class='noindent'>Por fim, vamos ver um exemplo em que o teorema não se aplica.
+</p>
+<div class='theorem-like problem-environment example' id='problem9' titletext=' example'><a id='x1-16r9'></a>Seja \(f\) uma função derivável que tem inversa. Na tabela abaixo, damos vários valores
+tanto de \(f\) quanto de \(f'\): \[ \begin{array}{|c|c|c|}\hline x &amp; f &amp; f' \\ \hline \hline 2 &amp; 0 &amp; 2 \\ \hline 3 &amp; 1 &amp; 4 \\ \hline 4 &amp; 3 &amp; 0 \\ \hline \end{array} \] Calcule \[ \eval {\ddx f^{-1}(x)}_{x=3} \] <div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-17r10'></a>Da tabela acima, vemos que \[ 3 = f(\class{xm-given}{4}). \] Ah! Mas aqui, \(f'(\class{xm-given}{4}) = \class{xm-given}{0}\), então
+não temos garantia de que a inversa exista perto do ponto \(x=3\) e, mesmo que existisse, a
+inversa não seria derivável ali. </div> </div>
+<script type="application/json" class="xm-answers">{}</script>

@@ -1,0 +1,210 @@
+<!-- traduz-render: 3087064b5dc8321afcd910c9d061e5dee580528783790f0de517ceb2f03efc37 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Aprendemos uma nova técnica, chamada substituição, para nos ajudar a resolver
+problemas envolvendo integração. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Calcular antiderivadas não é tão fácil quanto calcular derivadas. Um dos problemas é
+que a regra da cadeia pode ser difícil de “desfazer”. Temos um método geral
+chamado “integração por substituição” que ajuda, em certa medida, com essa
+dificuldade.
+</p><p class='noindent'>Se as funções forem deriváveis, podemos aplicar a regra da cadeia e obter \[ \ddx f(g(x)) = f'(g(x))g'(x) \] Se as
+derivadas forem contínuas, podemos usar essa igualdade para calcular uma integral
+definida. A saber, \begin{align*}  \int _a^b f'(g(x))g'(x) \d x &amp;= \eval {f(g(x))}_a^b \\ &amp;= f(g(b)) - f(g(a)). \\  \end{align*}
+</p><p class='noindent'>Por outro lado, também é verdade que \begin{align*}  \int _{g(a)}^{g(b)} f'(u)\d u &amp;= \eval {f(u)}_{g(a)}^{g(b)}\\ &amp;= f(g(b)) - f(g(a)). \\  \end{align*}
+</p><p class='noindent'>Como os lados direitos dessas igualdades são iguais, os lados esquerdos também
+devem ser iguais. Então, segue que
+</p><p class='noindent'>\[ \int _a^b f'(g(x))g'(x) \d x = \int _{g(a)}^{g(b)} f'(u)\d u . \]
+</p><p class='noindent'>Essa observação simples nos leva ao teorema a seguir.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>Fórmula de substituição para integrais</span> Seja \(g'\) a derivada de uma função \(g\) e seja \(f'\) a
+derivada de uma função \(f\). Se \(g'\) é contínua no intervalo \([a,b]\) e \(f'\) é contínua no intervalo \([g(a),g(b)]\),
+então \[ \int _a^b f'(g(x)) g'(x) \d x =\int _{g(a)}^{g(b)} f'(u) \d u. \] </div>
+<p class='noindent'>A integral da direita parece ser muito mais simples do que a integral original. Então,
+ao calcular uma integral difícil, tentamos aplicar esse teorema e substituir a integral
+original por uma mais simples. Podemos fazer isso desde que as condições do teorema
+sejam satisfeitas.
+</p><p class='noindent'>Vamos aplicar a Fórmula de Substituição para Integrais (FSI) ao exemplo a
+seguir.
+</p>
+<div class='theorem-like problem-environment example' id='problem2' titletext=' example'><a id='x1-3r2'></a>Calcule: \[ \int _0^2 x e^{x^2}\d x \] <div class='theorem-like problem-environment explanation' id='problem3' titletext=' explanation'><a id='x1-4r3'></a>Por que achamos que a FSI pode ser útil neste exemplo?
+<p class='noindent'>Essa integral tem a estrutura \[ \int _a^b f'(g(x)) g'(x) \d x , \] de modo que possamos aplicar a FSI?
+</p><p class='noindent'>Fazemos \(g(x) =x^2\), de modo que \(g'(x)dx =2xdx\), e observamos que
+</p><p class='noindent'>\[ \int _0^2 x e^{x^2}\d x =\frac {1}{2}\int _0^{2} e^{\underbrace {x^2}}\underbrace {2x\d x}=\frac {1}{2}\int _0^{2} e^{g(x)}g'(x)\d x \] Assim, escrevemos a integral em uma forma adequada para a aplicação da FSI.
+Portanto, podemos colocar \(u\) no lugar de \(g(x)\) e \(\d u\) no lugar de \(g'(x)\d x\) e escrever
+</p><p class='noindent'>\[ \int _0^2 x e^{x^2}\d x=\frac {1}{2}\int _0^{2} e^{g(x)}g'(x)\d x=\frac {1}{2}\int _{g(0)}^{g(2)} e^{u}\d u \] Agora, calculamos as extremidades: \begin{align*}  g(0) &amp;= 0^2 = 0 \\ g(2) &amp;=2^2 = 4.  \end{align*}
+</p><p class='noindent'>Podemos calcular facilmente a última integral \[ \frac {1}{2}\int _{g(0)}^{g(2)} e^{u}\d u= \frac {1}{2}\int _{0}^{4} e^{u}\d u=\frac {1}{2}\eval {e^u}_0^4=\frac {1}{2}\left (\class{xm-given}{e^4}-e^0\right )=\frac {\class{xm-given}{e^4}-1}{2} \] Em resumo,
+                                                                  
+
+                                                                  
+</p><p class='noindent'>\[ \int _0^2 x e^{x^2}\d x=\frac {1}{2}\int _{0}^{4} e^{u}\d u \] A figura abaixo ilustra as duas integrais. </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/substitution/digInIdeaOfSubstitution-cbfdb41787d80e3a633c26808efd4fe1.svg" /> <img alt='[Picture]' src="/rendered/substitution/digInIdeaOfSubstitution-47d09292f9f4e710ff75412674f66879.svg" /> </div> As duas áreas sombreadas
+na figura, \(A= \int _0^2 x e^{x^2}\d x\) e \(B=\frac {1}{2}\int _{0}^{4} e^{u}\d u\), parecem ser iguais, e isso confirma o que foi estabelecido antes por
+meio do cálculo.
+<p class='noindent'>Portanto, sempre que nos deparamos com o problema de calcular uma integral difícil,
+tentamos substituí-la por uma mais simples, desde que as duas integrais representem
+a mesma área líquida.
+</p>
+</div> </div>
+<p class='noindent'>Podemos resolver um problema como esse de um modo um pouco diferente. Vamos
+fazer o mesmo exemplo de novo, mas desta vez pensando em termos de
+diferenciais.
+</p>
+<div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-5r4'></a><a class='ximera-label' id='main example'></a> Calcule: \[ \int _0^2 x e^{x^2}\d x \] <div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-6r5'></a>Aqui vamos fazer \[ u=g(x) = x^2. \] Então \[ \d u =g'(x)\d x=2x\d x. \] Aqui, estamos pensando em termos de
+diferenciais. Podemos isolar \(\d x\) para obter \[ \d x = \frac {\d u}{2x}. \]
+<p class='noindent'>Usando essa igualdade, podemos escrever
+</p><p class='noindent'>\begin{align*}  \int _0^2 x e^{x^2}\d x &amp;= \int _{g(0)}^{g(2)} x e^{u} \frac {\d u}{2x}\\ &amp;= \int _{0}^{4} \frac {e^u}{2}\d u .  \end{align*}
+                                                                  
+
+                                                                  
+</p><p class='noindent'>Observe que substituímos a nova variável \(u\) tanto no integrando quanto nos
+limites de integração. Quando fazemos a substituição, precisamos atualizar
+os limites de integração, reescrevendo-os em termos da nova variável de
+substituição.
+</p><p class='noindent'>A partir daqui, podemos continuar como fizemos antes e escrever \[ \int _{0}^{4} \frac {e^u}{2}\d u= \frac {\class{xm-given}{e^4} -e^0}{2}. \] </p></div> </div>
+<p class='noindent'>Por fim, às vezes queremos simplesmente lidar com a antiderivada por si só. Vamos
+repetir o exemplo mais uma vez para demonstrar essa abordagem.
+</p>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-7r6'></a>Calcule: \[ \int _0^2 x e^{x^2}\d x \] <div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-8r7'></a>Podemos aplicar o Segundo Teorema Fundamental do Cálculo e, para isso,
+precisamos primeiro calcular uma integral indefinida. \[ \int x e^{x^2} \d x. \]
+<p class='noindent'>Como antes, fazemos \(u=g(x)=x^2\) e calculamos \(\d u = 2x \d x\), pensando em termos de diferenciais. Agora
+vemos que \[ \int x e^{x^2} \d x = \int x e^{u} \frac {\d u}{2x} = \int \frac {e^{u}}{2}\d u . \] Logo \[ \int x e^{x^2} \d x = \frac {e^{u}}{2}+C . \] Isso não parece certo, pois precisamos encontrar uma antiderivada
+da função \( x e^{x^2},\) e nosso resultado é uma função de \(u\). Podemos corrigir isso facilmente,
+bastando substituir \(u\) por \(g(x)=x^2\). Portanto, \[ \int xe^{x^2}\d x =\frac {e^{u}}{2}+C= \frac {e^{x^2}}{2}+C . \] Finalmente, podemos aplicar o STFC
+\begin{align*}  \int _0^2 x e^{x^2}\d x &amp;=\eval {\frac {e^{x^2}}{2}}_0^2\\ &amp;= \frac {\class{xm-given}{e^4} -e^0}{2}.  \end{align*}
+</p>
+</div> </div><p> Neste caso, como usamos a substituição para encontrar a integral indefinida, não
+precisamos modificar os limites de integração ao calcular a integral definida. Porém,
+tivemos o passo extra de reescrever a antiderivada em termos da variável original. Se
+você seguir esse método, observe que estará realizando dois cálculos separados. O
+primeiro usa a substituição para calcular a antiderivada (sem nenhum limite de
+integração); depois, usa-se esse resultado para calcular a integral definida por meio
+do STFC.
+</p><h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Mais exemplos</h3>
+<p class='noindent'>Com alguma experiência, (em geral) não é tão difícil ver o que substituir
+por \(u\). Vamos resolver os exemplos a seguir do mesmo modo que fizemos no
+Exemplo <a href='#x1-5r4'>4</a>. </p><div class='theorem-like problem-environment example' id='problem8' titletext=' example'><a id='x1-1001r8'></a>Calcule: \[ \int x^4(x^5+1)^{9} \d x \] <div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-1002r9'></a>Aqui fazemos \(u = \class{xm-given}{x^5+1}\), de modo que \(\d u = \class{xm-given}{5x^4} \d x\). Então segue que \(\d x=\frac {\d u}{5x^4}\). Portanto
+\begin{align*}  \int x^4(x^5+1)^{9} \d x &amp;= \int x^4 (u)^{9} \frac {\d u}{5x^4} \\ &amp;= \frac {1}{5} \int u^{9} \d u\\ &amp;=\frac {u^{10}}{ \class{xm-given}{50}}.  \end{align*}
+<p class='noindent'>Observe que este exemplo é uma integral indefinida, e não uma integral definida, o
+que significa que não há limites de integração. Assim, não precisamos nos preocupar
+em mudar as extremidades da integral. Porém, precisamos desfazer a substituição na
+nossa resposta, de modo que a resposta final seja uma função de \(x\). Lembrando que \(u= x^5+1\),
+temos nossa resposta final \[ \int x^4(x^5+1)^{9} \d x= \frac {(x^5+1)^{10}}{\class{xm-given}{50}}+C. \] Lembrete: você sempre pode verificar seu resultado
+derivando.
+</p>
+</div> </div>
+<p class='noindent'>Se a substituição funciona para calcular uma integral (e nem sempre é o caso!), um
+truque comum para descobrir o que substituir é localizar a parte “feia” da função
+                                                                  
+
+                                                                  
+que está sendo integrada. Substituímos, então, o “interior” dessa parte feia. Embora
+essa técnica certamente não seja rigorosa, ela pode se mostrar muito útil. Isso vale
+especialmente para estudantes que estão começando a aprender a técnica da
+substituição. Os dois próximos problemas são exemplos muito bons dessa
+filosofia.
+</p>
+<div class='theorem-like problem-environment example' id='problem10' titletext=' example'><a id='x1-1003r10'></a>Calcule: \[ \int _{-1}^0 12x^3 \cos ({x^4}) \d x \] <div class='theorem-like problem-environment explanation' id='problem11' titletext=' explanation'><a id='x1-1004r11'></a>A parte “feia” da função que está sendo integrada é \(\cos ({x^4})\). O “interior” desse
+termo é, então, \(x^4\). Portanto, uma boa possibilidade é tentar \[ u =g(x)= x^4. \] Então \[ \d u = (4x^3) \d x \qquad \Rightarrow \qquad \d x = \class{xm-given}{\frac {1}{4x^3}} \d u \] e assim
+\begin{align*}  \int _{-1}^0 12x^3 \cos ({x^4}) \d x &amp;= \int _{g(-1)}^{g(0)} 12 x^3 \cos ({u}) \class{xm-given}{\frac {1}{4x^3}} \d u \\ &amp;= \int _{\class{xm-given}{1}}^{\class{xm-given}{0}} 3 \cos ({u}) \d u \\ &amp;= \eval {3\sin ({u})}_{\class{xm-given}{1}}^{\class{xm-given}{0}} \\ &amp;= \class{xm-given}{3(0-\sin ({1}))}.  \end{align*}
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem12' titletext=' example'><a id='x1-1005r12'></a>Calcule: \[ \int _{1}^{e^{\frac {\pi }{4}}} \frac {\cos (\ln (x))}{x} \d x \] <div class='theorem-like problem-environment explanation' id='problem13' titletext=' explanation'><a id='x1-1006r13'></a>Aqui a parte “feia” é \(\cos (\ln (x))\). Então substituímos o interior: \[ u=g(x)=\class{xm-given}{\ln (x)}. \] Então \[ \d u = \class{xm-given}{\frac {1}{x}} \d x \qquad \Rightarrow \qquad \d x = \class{xm-given}{x} \d u. \] Observe que
+\begin{align*}  g(1) &amp;= \ln (1) = \class{xm-given}{0} \\ g \left ( e^{\frac {\pi }{4}} \right ) &amp;= \ln \left ( e^{\frac {\pi }{4}} \right ) = \class{xm-given}{\frac {\pi }{4}}.  \end{align*}
+<p class='noindent'>Em seguida, substituímos de volta na integral original e resolvemos: \begin{align*}  \int _{1}^{e^{\frac {\pi }{4}}} \frac {\cos (\ln (x))}{x} \d x &amp;= \int _0^{\frac {\pi }{4}} \frac {\cos (u)}{x} x \d u \\ &amp;= \int _0^{\frac {\pi }{4}} \cos (u) \d u \\ &amp;= \eval {\class{xm-given}{\sin (u)}}_{0}^{\frac {\pi }{4}} \\ &amp;= \frac {\sqrt {2}}{\class{xm-given}{2}} - \class{xm-given}{0} = \frac {\sqrt {2}}{\class{xm-given}{2}}.  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>Resumindo, se suspeitamos que uma dada função é a derivada de outra via regra da
+cadeia, introduzimos uma nova variável \(u=g(x)\), em que \(g\) é uma candidata provável
+para a função interna. Reescrevemos a integral inteiramente em termos de \(u\),
+sem que sobre nenhum \(x\) na expressão. Se conseguirmos integrar essa nova
+função de \(u\), então a antiderivada da função original é obtida substituindo \(u\) por
+\(g(x)\).
+</p>
+<script type="application/json" class="xm-answers">{}</script>

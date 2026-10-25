@@ -1,0 +1,220 @@
+<!-- traduz-render: 8206813268ccb5f80edd088475aa4b9dbd23fffe3c3e5bcdef8337f583d7441f -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Aqui vemos um teorema fundamental do cálculo. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Eis algumas perguntas interessantes envolvendo derivadas:
+     </p><ol class='enumerate1'>
+<li class='enumerate' id='x1-3x1'>Suponha que você lance uma bola para cima e depois a pegue de volta. A
+     velocidade da bola deve ter sido zero em algum instante?
+     </li>
+<li class='enumerate' id='x1-5x2'>Suponha que você dirija um carro por um trecho reto de rodovia, de um
+     pedágio até outro pedágio \(30\) milhas adiante, em meia hora. Você deve ter
+     dirigido a \(60\) milhas por hora em algum instante?
+     </li>
+<li class='enumerate' id='x1-7x3'>Suponha que duas funções diferentes tenham a mesma derivada. O que
+     podemos dizer sobre a relação entre essas duas funções?</li></ol>
+<p class='noindent'>Embora esses problemas pareçam muito diferentes, acontece que eles estão
+intimamente relacionados. Vamos começar de forma simples:
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-8r1'></a><span class='theorem-like-title'>Teorema de Rolle</span> Suponha que \(f\) seja derivável no intervalo \((a,b)\), contínua no intervalo \([a,b]\) e
+                                                                  
+
+                                                                  
+que \(f(a)=f(b)\). <div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/meanValueTheorem/digInMeanValueTheorem-c263e9e1483e797627e56c2f88db8e0e.svg" /> </div> Então \[ f'(c)=0 \] para algum
+\(c\) no intervalo aberto \((a,b)\).
+</div>
+<div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-9r2'></a>Se a função \(f\) for constante, então \(f'(c)=0\) para todos os pontos \(c\) do intervalo aberto
+\((a,b)\).
+<p class='noindent'>Se \(f\) não for constante, então ela deve atingir ambos os extremos absolutos no
+intervalo \([a,b]\), pelo Teorema do Valor Extremo. Um desses dois extremos distintos é
+atingido no intervalo aberto \((a,b)\), em algum ponto \(c\), e a função \(f\) tem um ponto crítico ali.
+Como \(f\) é derivável em \((a,b)\), segue que \(f'(c)=0\). </p></div>
+<p class='noindent'>Agora podemos responder à nossa primeira pergunta acima.
+</p>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-10r3'></a>Suponha que você lance uma bola para cima e depois a pegue de volta no mesmo
+ponto de onde a lançou. A velocidade da bola deve ter sido zero em algum instante?
+<div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-11r4'></a>Seja \(p(t)\) a posição da bola (na reta vertical) no instante \(t\). O intervalo de tempo em
+questão será \[ [t_\mathrm {início},t_\mathrm {fim}]. \] Podemos supor que \(p\) é contínua em \( [t_\mathrm {início},t_\mathrm {fim}]\) e derivável em \( (t_\mathrm {início},t_\mathrm {fim})\). Como \(p(t_\mathrm {início})=p(t_\mathrm {fim})\), podemos
+aplicar o Teorema de Rolle e concluir que, em algum instante \(c\) do intervalo de
+tempo dado, \(p'(c)=\class{xm-given}{0}\). Logo, a velocidade deve ter sido zero em algum instante. </div>
+</div>
+<p class='noindent'>O Teorema de Rolle é um caso particular de um teorema mais geral.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem5' titletext=' theorem'><a id='x1-12r5'></a><span class='theorem-like-title'>Teorema do valor médio</span><a class='ximera-label' id='thm:mvt'></a> Suponha que \(f\) tenha derivada no intervalo \((a,b)\) e seja contínua
+                                                                  
+
+                                                                  
+no intervalo \([a,b]\). <div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/meanValueTheorem/digInMeanValueTheorem-f34786a50d2930b4e83984c8b7005bf6.svg" /> </div> Então \[ f'(c)=\frac {f(b)-f(a)}{b-a} \]
+para algum \(c\) em \((a,b)\). </div>
+<p class='noindent'>Agora podemos responder à nossa segunda pergunta acima.
+</p>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-13r6'></a>Suponha que você dirija um carro por um trecho reto de rodovia, de um pedágio até
+outro pedágio \(30\) milhas adiante, em meia hora. Você deve ter dirigido a \(60\) milhas por
+hora em algum instante?
+<div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-14r7'></a>Seja \(p(t)\) a posição do carro no instante \(t\), e sejam \(0\) horas o instante inicial e \(1/2\)
+hora o instante final, de modo que \(p(0)=0\) e \(p(1/2)=30\). Podemos supor que \(p\) é contínua
+em \([0,1/2]\) e derivável em \((0,1/2)\). Agora, o Teorema do Valor Médio afirma que existe
+um instante \(c\) tal que \[ p'(c) = \frac {30-0}{1/2-0} = \class{xm-given}{60}\qquad \text {onde $0&lt;c&lt;1/2$.} \] Como a derivada da posição é a velocidade, isso diz
+que o carro deve ter sido dirigido a \(60\) milhas por hora em algum instante. </div>
+</div>
+<p class='noindent'>Agora vamos encarar o impensável: poderia existir uma função contínua \(f\) em \([a,b]\), cuja
+derivada é zero em \((a,b)\), que não seja constante? Como veremos, a resposta é
+“não”.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem8' titletext=' theorem'><a id='x1-15r8'></a>Se \(f'(x)=0\) para todo \(x\) em um intervalo \(I\), então \(f(x)\) é constante em \(I\). <div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-16r9'></a>Sejam \(a&lt; b\) dois pontos de
+\(I\). Como \(f\) é contínua em \([a,b]\) e derivável em \((a,b)\), pelo Teorema do Valor Médio
+sabemos que \[ \frac {f(b)-f(a)}{b-a} = f'(c) \] para algum \(c\) no intervalo \((a,b)\). Como \(f'(c)=0\), vemos que \(f(b)=f(a)\). Além disso,
+como \(a\) e \(b\) foram escolhidos arbitrariamente, \(f(x)\) deve ser a função constante. </div>
+</div>
+<p class='noindent'>Agora vamos responder à nossa terceira pergunta.
+</p>
+<div class='theorem-like problem-environment example' id='problem10' titletext=' example'><a id='x1-17r10'></a>Suponha que duas funções diferentes tenham a mesma derivada em algum intervalo \(I\).
+O que podemos dizer sobre a relação entre essas duas funções?
+<div class='theorem-like problem-environment explanation' id='problem11' titletext=' explanation'><a id='x1-18r11'></a>Defina \(h(x) = f(x) - g(x)\), de modo que \(h'(x) = f'(x) -g'(x)\). Então \(h'(x) = 0\) no intervalo \(I\). Isso significa que \(h(x) = k\) para todo \(x\) em \(I\), onde \(k\)
+                                                                  
+
+                                                                  
+é alguma constante. Logo, para todo \(x\) em \(I\), \[ f(x) = g(x) + k. \] </div> </div>
+<div class='theorem-like problem-environment example' id='problem12' titletext=' example'><a id='x1-19r12'></a>Descreva todas as funções cuja derivada é \(\sin (x)\). <div class='theorem-like problem-environment explanation' id='problem13' titletext=' explanation'><a id='x1-20r13'></a>Uma dessas funções é \(-\cos (x)\), logo todas essas
+funções têm a forma \(-\cos (x)+k\), <div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/meanValueTheorem/digInMeanValueTheorem-4456e49e7162f029394e2bdf0c623005.svg" /> </div> </div> </div>
+<p class='noindent'>Vamos investigar dois jovens matemáticos que correm para a aula.
+</p>
+<div class='theorem-like problem-environment example' id='problem14' titletext=' example'><a id='x1-21r14'></a>Dois estudantes, Devyn e Riley, apostaram uma corrida até a sala de aula por um
+corredor reto. Eles partem ao mesmo tempo e terminam empatados. Houve algum
+momento da corrida em que Devyn e Riley estavam correndo exatamente com a
+mesma velocidade? <div class='theorem-like problem-environment explanation' id='problem15' titletext=' explanation'><a id='x1-22r15'></a>Seja \(P_\mathrm {Devyn}\) a posição de Devyn em função do tempo, e seja \(P_\mathrm {Riley}\) a posição
+de Riley em função do tempo. Seja \(t_\mathrm {início}\) o instante de início da corrida e \(t_\mathrm {fim}\) o instante final
+da corrida. Defina \[ f(t) =P_\mathrm {Devyn}(t)-P_\mathrm {Riley}(t). \] Observe que podemos supor que \(P_\mathrm {Devyn}\) e \(P_\mathrm {Riley}(t)\) são contínuas em \([t_\mathrm {início},t_\mathrm {fim}]\) e que são
+deriváveis em \((t_\mathrm {início},t_\mathrm {fim})\). Logo, o mesmo vale para \(f\). Como os dois corredores partem e chegam
+no mesmo lugar, \begin{align*}  f(t_\mathrm {início}) = P_\mathrm {Devyn}(t_\mathrm {início})-P_\mathrm {Riley}(t_\mathrm {início}) &amp;= \class{xm-given}{0}\qquad \text {e}\\ f(t_\mathrm {fim})=P_\mathrm {Devyn}(t_\mathrm {fim})-P_\mathrm {Riley}(t_\mathrm {fim}) &amp;= \class{xm-given}{0}.\\  \end{align*}
+<p class='noindent'>Na verdade, isso nos mostra que a taxa de variação média de \[ f(t) = P_\mathrm {Devyn}(t)-P_\mathrm {Riley}(t) \qquad \text {em}\qquad [t_\mathrm {início},t_\mathrm {fim}] \] é \(\class{xm-given}{0}\). Logo, pelo teorema
+do valor médio, existe um ponto \(c\) \[ t_\mathrm {início}\le c \le t_{\mathrm {fim}} \] com \(f'(c) = \class{xm-given}{0}\). Porém, \[ \class{xm-given}{0} = f'(c) = P_\mathrm {Devyn}'(c)-P_\mathrm {Riley}'(c). \] Logo, em \(c\), \[ P_\mathrm {Devyn}'(c)=P_\mathrm {Riley}'(c), \] e isso significa que
+houve um instante em que eles estavam correndo exatamente com a mesma
+velocidade. </p></div> </div>
+<p class='noindent'>Vamos terminar com um exemplo baseado em cálculos.
+</p>
+<div class='theorem-like problem-environment example' id='problem16' titletext=' example'><a id='x1-23r16'></a>Determine o ponto \(c\) que satisfaz a conclusão do Teorema do Valor Médio para a
+função \(f(x) = e^x\) no intervalo \([0, 3]\). <div class='theorem-like problem-environment explanation' id='problem17' titletext=' explanation'><a id='x1-24r17'></a>Começamos observando que a função \(f(x)=e^x\) é contínua no intervalo
+fechado \([0, 3]\) e derivável no intervalo aberto \((0, 3)\). Isso significa que o Teorema do Valor Médio
+de fato se aplica a essa função.
+<p class='noindent'>Calculamos \(f(0) = \class{xm-given}{1}\) e \(f(3)=\class{xm-given}{e^3}\). Isso significa que a taxa de variação média de \(f\) no intervalo \([0, 3]\) é
+\(\dfrac {f(3)-f(0)}{3-0}=\class{xm-given}{(e^3-1)/3}\).
+</p><p class='noindent'>O valor de \(c\) estará no intervalo \((0, 3)\) e satisfará \(f'(c) = \dfrac {e^3-1}{3}\). Como \(f'(x) = e^x\), isso significa que \(c\) será a solução
+da equação \(\displaystyle e^c = \dfrac {e^3-1}{3}\). Tomando o logaritmo natural de ambos os lados dessa equação,
+                                                                  
+
+                                                                  
+obtemos \[c = \ln \left ( \dfrac {e^3-1}{3} \right ). \]
+</p><p class='noindent'>Como esse valor, arredondado (para duas casas decimais), é \(1.85\), ele de fato está no
+intervalo \((0,3)\), como exigido. </p></div>
+</div>
+<p class='noindent'>Em resumo, o Teorema do Valor Médio relaciona a função \(f\) e sua derivada, \(f'\). Como a
+derivada tem muitas interpretações, por exemplo, taxa de variação instantânea,
+inclinação da reta tangente, velocidade, não é surpresa que possamos usar o TVM
+em contextos diferentes.
+</p><p class='noindent'>Portanto, se a função \(f\) é contínua em \([a,b]\) e derivável em \((a,b)\), então o TVM garante
+que
+     </p><ol class='enumerate1'>
+<li class='enumerate' id='x1-26x1'>
+     <p class='noindent'>existe um ponto \(c\) em \((a,b)\) no qual a taxa de variação instantânea de \(f\) é igual
+     à taxa de variação média de \(f\) no intervalo \([a,b]\);
+     </p><p class='noindent'>ou
+     </p></li>
+<li class='enumerate' id='x1-28x2'>
+     <p class='noindent'>existe um ponto \(c\) em \((a,b)\) no qual a inclinação da reta tangente à curva \(y=f(x)\) é
+     igual à inclinação da reta secante que passa pelos pontos \((a,f(a))\) e \((b,f(b))\);
+     </p><p class='noindent'>ou
+     </p></li>
+<li class='enumerate' id='x1-30x3'>existe um ponto \(c\) no intervalo de tempo \((a,b)\) no qual a velocidade instantânea
+     é igual à velocidade média no intervalo de tempo \([a,b]\). Aqui, supomos que \(f\) é
+     a função posição de um objeto que se move ao longo de uma reta.</li></ol>
+<script type="application/json" class="xm-answers">{}</script>

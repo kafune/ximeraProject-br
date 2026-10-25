@@ -1,0 +1,254 @@
+<!-- traduz-render: 460aeb4add0544416044639a04feadad3a2228acee4017816bc78754b3786b90 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Vamos dar algumas orientações gerais para esboçar o gráfico de uma função. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Vamos direto ao ponto. Aqui usamos todas as ferramentas que conhecemos para
+esboçar o gráfico de \(y=f(x)\):
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'>Determine a interseção com o eixo \(y\), que é o ponto \((0,f(0))\). Marque esse ponto
+     no seu gráfico.
+     </li>
+     <li class='itemize'>Determine as assíntotas verticais, se houver; elas são os pontos \(x=a\) onde \(f(x)\) vai
+     para o infinito quando \(x\) tende a \(a\) (pela direita, pela esquerda ou por ambos
+     os lados).
+     </li>
+     <li class='itemize'>Se possível, determine as interseções com o eixo \(x\), os pontos onde \(f(x) = 0\). Marque
+     esses pontos no seu gráfico.
+     </li>
+     <li class='itemize'>Analise  o  comportamento  no  infinito:  quando  \(x \to \pm \infty \),  o  que  acontece  com
+     o  gráfico  de  \(f\)?  Ele  tem  assíntotas  horizontais,  cresce  ou  decresce
+     ilimitadamente, ou tem algum outro tipo de comportamento?
+     </li>
+     <li class='itemize'>Calcule \(f'\) e \(f''\).
+     </li>
+     <li class='itemize'>Determine os pontos críticos (os pontos onde \(f'(x) = 0\) ou \(f'(x)\) não está definida).
+     </li>
+     <li class='itemize'>Use  o  teste  da  primeira  ou  da  segunda  derivada  para  identificar  os
+     extremos  locais  e/ou  determinar  os  intervalos  em  que  sua  função  é
+     crescente/decrescente.
+                                                                  
+
+                                                                  
+     </li>
+     <li class='itemize'>Determine os candidatos a pontos de inflexão, os pontos onde \(f''(x) = 0\) ou \(f''(x)\) não
+     está definida.
+     </li>
+     <li class='itemize'>Identifique os pontos de inflexão e a concavidade.
+     </li>
+     <li class='itemize'>Determine um intervalo que mostre todo o comportamento relevante.</li></ul>
+<p class='noindent'>Neste ponto, você já deve ser capaz de esboçar o gráfico da sua função.
+</p>
+<div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-2r1'></a>Esboce o gráfico da função definida por \(f(x)=2x^3-3x^2-12x\).
+<p class='noindent'>A interseção com o eixo \(y\) é \((0,\class{xm-given}{0})\). Marque esse ponto no seu gráfico. </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/computationsForGraphingFunctions/digInComputationsForGraphingFunctions-1f158de9011fc7d542be9b8bea8f9845.svg" /> </div>
+<p class='noindent'>Quais das alternativas a seguir são assíntotas verticais? Selecione todas as
+alternativas que se aplicam.
+</p>
+<div class='select-all' id='problem2' titletext=' Select All'><a id='x1-3r2'></a> <span class='choice  ' id='choice1'>\(x=0\) </span><span class='choice  ' id='choice2'>\(x=1\) </span><span class='choice  ' id='choice3'>\(x=-1\) </span><span class='choice  ' id='choice4'>\(x=\sqrt {2}\) </span><span class='choice correct ' id='choice5'>Não há assíntotas verticais</span> </div>
+<p class='noindent'>Neste caso, \(f(x) =2x^3-3x^2-12x\), podemos determinar as interseções com o eixo \(x\). Há três interseções com
+o eixo \(x\). Vamos chamá-las de \(a\), \(b\) e \(c\), e ordená-las de modo que \(a&lt;b&lt;c\). Então
+</p><p class='noindent'>\begin{align*}  a &amp;= \class{xm-given}{\frac {3-\sqrt {105}}{4}},\\ b &amp;= \class{xm-given}{0}, \\ c &amp;= \class{xm-given}{\frac {3+\sqrt {105}}{4}}.  \end{align*}
+</p><p class='noindent'>Qual das alternativas a seguir descreve melhor o comportamento de \(f\) quando \(x \to \infty \)? </p><div class='multiple-choice' id='problem3' titletext=' Multiple Choice'><span class='choice correct ' id='choice6'>\(f\)
+cresce ilimitadamente. </span><span class='choice  ' id='choice7'>\(f\) decresce ilimitadamente. </span><span class='choice  ' id='choice8'>\(f\) tem uma assíntota horizontal. </span><span class='choice 
+' id='choice9'>\(f\) tem algum outro comportamento em \(\infty \).</span> </div> Qual das alternativas a seguir
+descreve melhor o comportamento de \(f\) quando \(x \to -\infty \)? <div class='multiple-choice' id='problem4' titletext=' Multiple Choice'><span class='choice  ' id='choice10'>\(f\) cresce ilimitadamente. </span><span class='choice correct ' id='choice11'>\(f\)
+                                                                  
+
+                                                                  
+decresce ilimitadamente. </span><span class='choice  ' id='choice12'>\(f\) tem uma assíntota horizontal. </span><span class='choice  ' id='choice13'>\(f\) tem algum outro
+comportamento em \(\infty \).</span> </div>
+<p class='noindent'>Calcule \(f'(x)\) e \(f''(x)\): \begin{align*}  f'(x) &amp;= \class{xm-given}{6x^2 -6x -12}\\ &amp;=6\left (\class{xm-given}{x^2-x-2}\right )\\ &amp;=6(x+1)\left (\class{xm-given}{x-2}\right ).  \end{align*}
+</p><p class='noindent'>Por outro lado, \begin{align*}  f''(x) &amp;= \class{xm-given}{12x-6}\\ &amp;=12\left (\class{xm-given}{x-\frac {1}{2}}\right ).  \end{align*}
+</p><p class='noindent'>Os pontos críticos são onde \(f'(x) = 0\); assim, precisamos resolver \(6(x+1)(x-2) = 0\) para \(x\). Essa equação tem
+duas soluções. Se as chamarmos de \(a\) e \(b\), com \(a&lt;b\), quais são \(a\) e \(b\)? \[ a = \class{xm-given}{-1}\qquad \text {e}\qquad b = \class{xm-given}{2}. \]
+</p><p class='noindent'>Marque os pontos críticos \(x=2\) e \(x=-1\) no seu gráfico. </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/computationsForGraphingFunctions/digInComputationsForGraphingFunctions-335ccdeaf3b2d4039c91ab9ca19b62c5.svg" /> </div> Como \(f'(x)=6(x+1)(x-2)\), e ambos os fatores \((x+1)\) e \((x-2)\) são negativos para \(x&lt;-1\), segue que \(f'(x)&gt;0\) e, portanto, nossa
+função é crescente em \((-\infty ,-1)\).
+<p class='noindent'>Da mesma forma, como para \(-1&lt;x&lt;2\) temos \((x+1)&gt;0\) e \((x-2)&lt;0\), a derivada é negativa nesse intervalo e,
+portanto, nossa função é decrescente em \((-1,2)\).
+</p><p class='noindent'>E, para \(x&gt;2\), ambos os fatores \((x+1)\) e \((x-2)\) são positivos e, portanto, nossa função é crescente em
+\((2,\infty )\).
+</p><p class='noindent'>Logo, \(x=-1\), correspondente ao ponto \((-1,7)\), é um máximo local, e \(x=2\), correspondente
+ao ponto \((2,-20)\), é um mínimo local de \(f(x)\). Identifique isso no seu gráfico. </p><div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/computationsForGraphingFunctions/digInComputationsForGraphingFunctions-9bb8fc5fde6a1fc7ea6424d92b474bd2.svg" /> </div>
+<p class='noindent'>Para localizar os pontos de inflexão, temos que resolver a equação \(f''(x) = 0\); assim,
+precisamos resolver \(12\left (x-\frac {1}{2}\right )=0\) para \(x\).
+</p><p class='noindent'>A solução dessa equação é \(x = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\).
+</p><p class='noindent'>Esse é apenas um <strong>possível</strong> ponto de inflexão; ainda temos que verificar se a
+concavidade muda nesse ponto.<br class='newline' />
+</p><p class='noindent'>Temos que \(f''(x)&lt;0\) para \(x&lt;\frac {1}{2}\); portanto, \(f\) tem concavidade para baixoem \(\left (-\infty ,\frac {1}{2}\right )\).<br class='newline' />
+</p><p class='noindent'>Da mesma forma, \(f''(x)&gt;0\) para \(x&gt;\frac {1}{2}\); portanto, \(f\) tem concavidade para cima em \(\left (\frac {1}{2},\infty \right )\).
+</p><p class='noindent'>Então a concavidade muda em \(x=\frac {1}{2}\) e, portanto, esse ponto é um ponto de inflexão.
+</p><p class='noindent'>Como todo o comportamento descrito acima ocorre no intervalo \([-2,4]\), temos
+agora um esboço completo de \(f(x)\) nesse intervalo; veja a figura abaixo. </p><div aria-labelledby='image-alt-4' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/computationsForGraphingFunctions/digInComputationsForGraphingFunctions-733f59cff4980405185f97a9681daadb.svg" /> </div>
+</div>
+                                                                  
+
+                                                                  
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-4r3'></a>Esboce o gráfico de \[ f(x) = \begin{cases} xe^x+2 &amp;\text {se $x&lt;0$} \\ x^4-x^2+3 &amp;\text {se $x \geq 0$}. \end{cases} \] OBSERVAÇÃO: \(\lim _{x \to -\infty }xe^x=0\). Você vai precisar desse limite para responder a
+algumas das perguntas abaixo.<br class='newline' />Tente fazer isso por conta própria primeiro; depois confira com um colega, com uma
+calculadora gráfica (como o   <a href='http://www.desmos.com' target='_blank'>Desmos</a>) ou com a versão online.
+<p class='noindent'>Como essa função é definida por partes, vamos analisar o gráfico de \(f\) nos intervalos \((-\infty ,0)\) e
+\([0,\infty )\) separadamente.
+</p><p class='noindent'>Como \(f\) é definida por partes, e potencialmente descontínua em \(0\), é importante
+entender o comportamento de \(f\) perto de \(x = 0\).
+</p><p class='noindent'>\[ \lim _{x \to 0^-} f(x) = \class{xm-given}{2} \]
+</p><p class='noindent'>\[ \lim _{x \to 0^+} f(x) = \class{xm-given}{3} \]
+</p><p class='noindent'>Além disso,
+</p><p class='noindent'>\[ f(0) = \class{xm-given}{3} \]
+</p><p class='noindent'>Registre essas informações no nosso gráfico com círculos preenchidos e vazios.
+</p>
+<div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/computationsForGraphingFunctions/digInComputationsForGraphingFunctions-72304f1ecfbb6e001568859b654900f2.svg" /> </div>
+<p class='noindent'>Quais das alternativas a seguir são assíntotas verticais em \((-\infty ,0)\)? Selecione todas as
+alternativas que se aplicam.
+</p>
+<div class='select-all' id='problem6' titletext=' Select All'><a id='x1-5r4'></a> <span class='choice  ' id='choice14'>\(x=0\) </span><span class='choice  ' id='choice15'>\(x=1\) </span><span class='choice  ' id='choice16'>\(x=-1\) </span><span class='choice  ' id='choice17'>\(x=\sqrt {2}\) </span><span class='choice correct ' id='choice18'>Não há assíntotas verticais</span> </div>
+<p class='noindent'>Quais das alternativas a seguir são assíntotas verticais em \((0,\infty )\)? Selecione todas as
+alternativas que se aplicam.
+</p>
+<div class='select-all' id='problem7' titletext=' Select All'><a id='x1-6r5'></a> <span class='choice  ' id='choice19'>\(x=0\) </span><span class='choice  ' id='choice20'>\(x=1\) </span><span class='choice  ' id='choice21'>\(x=-1\) </span><span class='choice  ' id='choice22'>\(x=\sqrt {2}\) </span><span class='choice correct ' id='choice23'>Não há assíntotas verticais</span> </div>
+<p class='noindent'>Qual das alternativas a seguir descreve melhor o comportamento de \(f\) quando
+\(x \to \infty \)?
+</p>
+                                                                  
+
+                                                                  
+<div class='multiple-choice' id='problem8' titletext=' Multiple Choice'><span class='choice correct ' id='choice24'>\(f\) cresce ilimitadamente. </span><span class='choice  ' id='choice25'>\(f\) decresce ilimitadamente. </span><span class='choice  ' id='choice26'>\(f\) tem uma assíntota
+horizontal \(y=2\). </span><span class='choice  ' id='choice27'>\(f\) tem algum outro comportamento em \(\infty \).</span> </div>
+<p class='noindent'>Qual das alternativas a seguir descreve melhor o comportamento de \(f\) quando
+\(x \to -\infty \)?
+</p>
+<div class='multiple-choice' id='problem9' titletext=' Multiple Choice'><span class='choice  ' id='choice28'>\(f\) cresce ilimitadamente. </span><span class='choice  ' id='choice29'>\(f\) decresce ilimitadamente. </span><span class='choice correct ' id='choice30'>\(f\) tem uma assíntota
+horizontal \(y = 2\). </span><span class='choice  ' id='choice31'>\(f\) tem algum outro comportamento em \(\infty \).</span> </div>
+<p class='noindent'>Marcamos a posição da assíntota horizontal:
+</p>
+<div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/computationsForGraphingFunctions/digInComputationsForGraphingFunctions-cc7028d7b011c91dae16014f721e74de.svg" /> </div>
+<p class='noindent'>A derivada de \(f\) em \((-\infty , 0)\) é \[ f'(x)= \class{xm-given}{xe^x+e^x}=e^x(\class{xm-given}{x+1}) \]
+</p><p class='noindent'>A derivada de \(f\) em \((0, \infty )\) é \[ f'(x)= \class{xm-given}{4x^3-2x}=4x\left (\class{xm-given}{x^2-\frac {1}{2}}\right ) \]
+</p><p class='noindent'>Os pontos críticos são os pontos onde \(f'(x) = 0\) ou \(f'(x)\) não existe. \(0\) é um ponto crítico, pois já
+vimos que é um ponto de descontinuidade de \(f\) e, portanto, \(f'(0)\) não existe ali. No
+intervalo \((-\infty , 0)\), \(f\) tem um ponto crítico em \(x = \class{xm-given}{-1}\). No intervalo \((0,\infty )\), \(f\) tem um ponto crítico em \(x = \class{xm-given}{\frac {1}{\sqrt {2}}}\).
+Marque os pontos críticos \(x=-1\) e \(x=\frac {1}{\sqrt {2}}\) no seu gráfico.
+</p><p class='noindent'>A função \(f\) tem um ponto crítico em \(x=-\frac {1}{\sqrt {2}}\)? Explique. </p><div class='multiple-choice' id='problem10' titletext=' Multiple Choice'><span class='choice  ' id='choice32'>Sim, porque \(f'\left (-\frac {1}{\sqrt {2}}\right )=0\). </span><span class='choice correct ' id='choice33'>Não, porque
+\(f'\left (-\frac {1}{\sqrt {2}}\right )\ne 0\). </span><span class='choice  ' id='choice34'>Sim, porque \(f'\left (-\frac {1}{\sqrt {2}}\right )\) não está definida. </span><span class='choice  ' id='choice35'>Não, porque \(f'\left (-\frac {1}{\sqrt {2}}\right )\) não está definida.</span> </div> <div aria-labelledby='image-alt-7' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/computationsForGraphingFunctions/digInComputationsForGraphingFunctions-65e522e34dfeb467cff25dc1e812c1ed.svg" /> </div>
+<p class='noindent'>No intervalo \((-\infty , -1)\), a derivada é \(f'(x)=e^x(x+1)\) e tem o mesmo sinal do fator \((x+1)\), que é negativo.<br class='newline' />
+</p><p class='noindent'>Portanto, \(f\) é  decrescente em \((-\infty , -1)\).
+</p><p class='noindent'>No intervalo \((-1, 0)\), a derivada \(f'(x)\) tem o mesmo sinal do fator \((x+1)\), que é positivo.
+</p><p class='noindent'>Portanto, \(f\) é  crescente em \((-1, 0)\).
+</p><p class='noindent'>No intervalo \(\left (0, \frac {1}{\sqrt {2}}\right )\), a derivada \(f'(x)\) não muda de sinal.
+</p><p class='noindent'>Como \(f'\left (\frac {1}{4}\right )= \frac {1}{16}-\frac {1}{2}&lt;0\), segue que \(f\) é decrescente em \(\left (0, \frac {1}{\sqrt {2}}\right )\).
+</p><p class='noindent'>No intervalo \(\left (\frac {1}{\sqrt {2}}, \infty \right )\), a derivada \(f'(x)\) não muda de sinal. Como \(f'(1)= 4\left (1-\frac {1}{2}\right )&gt;0\), \(f\) é  crescente em \(\left (\frac {1}{\sqrt {2}}, \infty \right )\). </p><div aria-labelledby='image-alt-8' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/computationsForGraphingFunctions/digInComputationsForGraphingFunctions-95ec6ee86785de0e8d5e3c1e46108fef.svg" /> </div> A segunda derivada de \(f\)
+em \((-\infty , 0)\) é \[ f''(x)= \class{xm-given}{xe^x+2e^x}=e^x(\class{xm-given}{x+2}) \]
+<p class='noindent'>A segunda derivada de \(f\) em \((0, \infty )\) é \[ f''(x)= \class{xm-given}{12x^2-2}=12\left (\class{xm-given}{x^2-\frac {1}{6}}\right ) \] Os candidatos a pontos de inflexão são os pontos onde
+\(f''(x) = 0\).
+</p><p class='noindent'>Em \((-\infty , 0)\), \(f''\) tem um zero, a saber, \(x = \class{xm-given}{-2}\). O sinal de \(f''\) muda de negativo para positivo]  nesse
+                                                                  
+
+                                                                  
+ponto.
+</p><p class='noindent'>Em \((0, \infty )\), \(f''\) tem um zero, a saber, \(x = \class{xm-given}{\frac {1}{\sqrt {6}}}\). O sinal de \(f''\) muda de negativo para positivo]  ao passar
+por esse ponto.
+</p>
+<div aria-labelledby='image-alt-9' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/computationsForGraphingFunctions/digInComputationsForGraphingFunctions-578333d2e630ec1ca94c08e43a0a5d43.svg" /> </div>
+<p class='noindent'>Como todo o comportamento descrito acima ocorre no intervalo \([-5,2]\), temos
+agora um esboço completo de \(y=f(x)\) nesse intervalo; veja a figura abaixo. </p><div aria-labelledby='image-alt-10' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/computationsForGraphingFunctions/digInComputationsForGraphingFunctions-2b3e58b88c4e347e5fc6212d867f2b63.svg" /> </div> </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"\\frac {1}{2}","format":"expression","given":false,"antiderivative":false}}</script>

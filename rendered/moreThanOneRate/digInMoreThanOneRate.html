@@ -1,0 +1,246 @@
+<!-- traduz-render: 33d139a0f829c4e718e4fc50f33aee0a88f23155124fc14208cbc65013f42dce -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Aqui resolvemos problemas abstratos de taxas relacionadas. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Suponha que temos duas variáveis \(x\) e \(y\), ambas variando em relação ao tempo. Um
+problema de <em>taxas relacionadas</em> é um problema em que conhecemos uma taxa,
+digamos \(\frac {dx}{dt}\), em um dado instante, e queremos determinar a outra (a taxa desconhecida
+está ”relacionada” à taxa conhecida).
+</p><p class='noindent'>Aqui, a regra da cadeia é a chave: se \(y\) está escrito em termos de \(x\) e nos é dada
+\(\dd [x]{t}\), então é fácil determinar \(\dd [y]{t}\) usando a regra da cadeia: \[ y=y(x) \] \[ \dd [y]{t}=\dd [y]{x}\cdot \dd [x]{t}. \] Em muitos casos,
+particularmente nos mais interessantes, nossas funções estarão relacionadas de
+alguma outra maneira. Mesmo assim, em cada caso usaremos a regra da cadeia para
+nos ajudar a determinar a taxa desejada. Nesta seção, resolveremos vários
+exemplos abstratos para enfatizar os conceitos matemáticos envolvidos. Em
+cada um dos exemplos abaixo, seguiremos essencialmente o mesmo plano de
+ataque:
+     </p><dl class='description'><dt class='description'>
+<strong>Introduza variáveis, identifique a taxa dada e a taxa desconhecida.</strong> </dt><dd class='description'>
+     <p class='noindent'>Atribua uma variável a cada quantidade que varia no tempo.
+     </p></dd><dt class='description'>
+<strong>Faça um desenho.</strong> </dt><dd class='description'>
+     <p class='noindent'>Se possível, desenhe um esquema com todas as informações relevantes.
+     </p></dd><dt class='description'>
+<strong>Encontre as equações.</strong> </dt><dd class='description'>
+     <p class='noindent'>Escreva equações que relacionem todas as variáveis relevantes.
+     </p></dd><dt class='description'>
+<strong>Derive em relação a t.</strong> </dt><dd class='description'>
+     <p class='noindent'>Aqui  usaremos  com  frequência  derivação  implícita  e  obteremos  uma
+     equação que relaciona a taxa dada e a taxa desconhecida.
+     </p></dd><dt class='description'>
+<strong>Substitua e resolva.</strong> </dt><dd class='description'>
+     <p class='noindent'>Calcule  cada  quantidade  no  instante  relevante  e  resolva  para  a  taxa
+     desconhecida.
+</p>
+     </dd></dl>
+                                                                  
+
+                                                                  
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Fórmulas</h3>
+<p class='noindent'>Para relacionar várias variáveis, podemos usar fórmulas conhecidas.
+</p><p class='noindent'>No próximo exemplo, consideramos um círculo em expansão e usamos as fórmulas do
+perímetro e da área de um círculo.
+</p>
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/moreThanOneRate/digInMoreThanOneRate-f3218bd21072a2b8d4e1c17dab47be9c.svg" /> </div> <div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-1001r1'></a>Imagine um círculo em
+expansão. Se sabemos que o perímetro está aumentando a uma taxa de \(4\) m/s, a que
+taxa a área está variando quando o raio é \(3\) metros? <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-1002r2'></a>
+<p class='noindent'>Primeiro, <strong>introduzimos as variáveis</strong> \(P\), \(r\) e \(A\), que denotam o perímetro, o raio e a
+área do círculo, nessa ordem.
+</p><p class='noindent'><strong>Identificamos</strong> a taxa dada, \(\frac {dP}{dt}=4\) m/s, e a taxa desconhecida, \(\frac {dA}{dt}\), no instante em que
+\(r=3\).
+</p><p class='noindent'>Em seguida, <strong>desenhamos uma figura</strong>. </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/moreThanOneRate/digInMoreThanOneRate-5d0c461018bfe240e86ad791bdec00fa.svg" /> </div> Agora precisamos <strong>encontrar equações</strong> que relacionem as variáveis \(P\), \(r\) e
+\(A\).
+<p class='noindent'>Naturalmente, pensamos nas fórmulas do perímetro e da área de um círculo \[ P = 2\cdot \pi \cdot \class{xm-given}{r} \qquad \text {e}\qquad A = \pi \cdot \class{xm-given}{r^{2}}. \]
+Sabemos que o perímetro do círculo está aumentando. Isso implica que o raio e a
+área do círculo também estão variando no tempo. Assim, observamos que \(P\), \(r\) e \(A\) são
+funções do tempo \[ P(t) = 2\cdot \pi \cdot r(t) \qquad \text {e}\qquad A(t) = \pi \cdot r(t)^2. \] <strong>Derivamos</strong> ambos os lados de cada equação em relação ao
+tempo, \(t\). Usando derivação implícita, obtemos
+</p><p class='noindent'>\[ \underbrace { \dfrac {d}{dt}P(t)}_{given\hspace {0.05in} rate} = 2\cdot \pi \cdot \dfrac {d}{dt}r(t) \qquad \text {e}\qquad \underbrace { \dfrac {d}{dt}A(t)}_{unknown \hspace {0.05in}rate} = 2\cdot \pi \cdot r(t) \cdot \dfrac {d}{dt}r(t). \]
+</p><p class='noindent'>Essas duas equações valem em algum intervalo de tempo. Em particular, ambas são
+verdadeiras no instante em que \(r=3\).
+</p><p class='noindent'>Sabemos que nesse instante \( \dfrac {d}{dt}P(t) = \class{xm-given}{4}\) e \(r = \class{xm-given}{3}\).
+</p><p class='noindent'>Agora <strong>calculamos</strong> as duas equações no instante em que \(r=3\).
+</p><p class='noindent'>\[ 4 = 2\cdot \pi \cdot \dfrac {d}{dt}r(t) \qquad \text {e}\qquad \dfrac {d}{dt}A(t) = 2\cdot \pi \cdot 3 \cdot \dfrac {d}{dt}r(t) \]
+</p><p class='noindent'>Da primeira equação, obtemos \begin{align*}  \dd {t}r(t)&amp;= 2/\pi \hspace {0.1in} m/s, \hspace {0.1in} when \hspace {0.1in} r=3.  \end{align*}
+                                                                  
+
+                                                                  
+</p><p class='noindent'>Usando esse resultado e a equação da direita, obtemos, no instante em que
+\(r=3\),
+</p><p class='noindent'>\begin{align*}  \dfrac {d}{dt}A(t) &amp;= 2\cdot \pi \cdot 3 \cdot 2/\pi \\ &amp;=\class{xm-given}{12}\hspace {0.1in} m^2/s.  \end{align*}
+</p><p class='noindent'>Logo, a área está aumentando a uma taxa de \(12\) \(m^2/s\) no instante em que \(r=3\) m. </p></div>
+</div>
+
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Triângulos retângulos</h3>
+<p class='noindent'>No próximo exemplo, consideramos um triângulo retângulo em expansão e
+usamos o Teorema de Pitágoras para relacionar as variáveis relevantes. </p><div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/moreThanOneRate/digInMoreThanOneRate-dd660cf7f8fdd399b96afa9a92b32c24.svg" /> </div>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-2001r3'></a>Imagine um triângulo retângulo em expansão. Se um cateto tem comprimento fixo de
+\(3\) m, o outro cateto está aumentando a uma taxa de \(2\) m/s e a hipotenusa está
+crescendo para acompanhar o cateto que aumenta, a que taxa a hipotenusa está
+crescendo quando ambos os catetos medem \(3\) m? <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-2002r4'></a>Primeiro, <strong>introduzimos as
+variáveis</strong> \(a\), \(b\) e \(c\), que denotam o comprimento fixo, o comprimento do cateto que
+está aumentando e o comprimento da hipotenusa, nessa ordem. Em seguida,
+<strong>identificamos</strong> a taxa dada \(\frac {db}{dt}=2\) m/s e a taxa desconhecida \(\frac {dc}{dt}\), quando \(b=3\). Agora,
+<strong>desenhamos uma figura</strong>. <div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/moreThanOneRate/digInMoreThanOneRate-59c49764cb9a752a4d00ab22d4e6b715.svg" />
+</div>
+<p class='noindent'>Em seguida, <strong>encontramos equações</strong> que relacionem as variáveis relevantes. Aqui
+usamos o Teorema de Pitágoras. \[ c^2 = a^2 + b^2 \] Observe que \(a=3\) é uma constante, e \(c\) e \(b\) são funções do
+tempo, \(t\). Então, <strong>derivamos</strong> ambos os lados da equação em relação a \(t\), usando
+derivação implícita
+</p><p class='noindent'>\[ 2\cdot c(t)\cdot \dfrac {d}{dt}c(t) = 2\cdot b\cdot \dfrac {d}{dt}b(t). \] Agora, <strong>calculamos</strong> todas as quantidades no instante em que \(b=3\), observando que \(\dfrac {db}{dt} = 2\) e
+que \(b = 3\). Portanto, \[ 2\cdot c\cdot \dfrac {dc}{dt}= \class{xm-given}{12},\hspace {0.08in} when\hspace {0.08in}b=3. \] Precisamos calcular \(c\), o comprimento da hipotenusa no instante em
+                                                                  
+
+                                                                  
+que \(b=3\). Aqui usamos o Teorema de Pitágoras \begin{align*}  c^2 &amp;= 3^2 + 3^2\\ &amp;=\class{xm-given}{18},  \end{align*}
+</p><p class='noindent'>Assim, vemos que \(c = 3\sqrt {2}\), quando \(b=3\). <br class='newline' />Então, <strong>resolvemos</strong> para a taxa no instante em que \(b=3\),<br class='newline' />\begin{align*}  6\sqrt {2}\cdot \dfrac {dc}{dt} &amp;= 12 \\ \dfrac {dc}{dt} &amp;= \sqrt {2}.  \end{align*}
+</p><p class='noindent'>Portanto, a hipotenusa está crescendo a uma taxa de \(\class{xm-given}{\sqrt {2}}\) m/s quando ambos os catetos
+medem \(3m\). </p></div> </div>
+
+<h3 class='sectionHead'><span class='titlemark'>3   </span> <a id='x1-30003'></a>Taxas angulares</h3>
+<p class='noindent'>Também podemos investigar problemas envolvendo taxas angulares.
+</p>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-3001r5'></a>Imagine um triângulo retângulo em expansão. Se um cateto tem comprimento fixo de
+\(3\) m, o outro cateto está aumentando a uma taxa de \(2\) m/s e a hipotenusa está
+crescendo para acompanhar o cateto que aumenta, a que taxa o ângulo oposto ao
+cateto fixo está variando quando ambos os catetos medem \(3\) m? <div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-3002r6'></a>Primeiro,
+<strong>introduzimos as variáveis</strong> \(a\), \(b\), \(c\), como no exemplo anterior, e \(\theta \), que denota o ângulo
+oposto ao cateto de comprimento fixo.
+<p class='noindent'><strong>Identificamos</strong> a taxa dada \(\frac {db}{dt}=2\) m/s e a taxa desconhecida \(\frac {d\theta }{dt}\), quando \(b=3\).
+</p><p class='noindent'>Em seguida, <strong>desenhamos uma figura</strong>. </p><div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/moreThanOneRate/digInMoreThanOneRate-c8f19df97b7503d3cea16da871f55191.svg" /> </div>
+<p class='noindent'>Agora <strong>encontramos equações</strong> que combinem as variáveis relevantes. Aqui
+observamos que \[ \tan (\theta ) = \frac {3}{\class{xm-given}{b}}. \] Como \(\theta \) e \(b\) são funções do tempo, <strong>derivamos</strong> ambos os lados da
+equação usando derivação implícita
+</p><p class='noindent'>\[ \sec ^2(\theta )\frac {d\theta }{dt} = \frac {-3}{b^2}\cdot \frac {db}{dt}. \] Agora, <strong>calculamos</strong> todas as quantidades no instante em que \(b=3\), lembrando que \(\frac {db}{dt} = 2\) e \(b = 3\), \[ \sec ^2(\theta )\cdot \dfrac {d\theta }{dt}= \frac {-3}{3^2}\cdot 2\\ = \frac {-2}{3} . \]
+Está claro que ainda precisamos calcular \( \sec ^2(\theta )\) no instante em que \(b=3\). Uma figura vai ajudar.
+                                                                  
+
+                                                                  
+</p><div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/moreThanOneRate/digInMoreThanOneRate-cedf1398697d7b4431c66e7e72e932d7.svg" />
+</div>
+<p class='noindent'>Como conhecemos os comprimentos dos dois catetos do triângulo retângulo, é mais
+fácil calcular
+</p><p class='noindent'>\(\tan (\theta )\) do que \(\sec (\theta )\). Lembre-se da identidade trigonométrica: \( \sec ^2(\theta )=1+ \tan ^2(\theta )\). \begin{align*}  \sec ^2(\theta )&amp;= 1+ \tan ^2(\theta )\\ &amp;= 1+\Bigl (\frac {3}{3}\Bigr )^2\\ &amp;= \class{xm-given}{2}  \end{align*}
+</p><p class='noindent'>Agora <strong>resolvemos</strong> para a taxa desconhecida, quando \(b=3\), \begin{align*}  2\cdot \dfrac {d\theta }{dt} &amp;= \frac {-2}{3}\\ \dfrac {d\theta }{dt}&amp;= \frac {-1}{3}  \end{align*}
+</p><p class='noindent'>Assim, quando \(b=3\), o ângulo está variando a \(\class{xm-given}{-1/3}\) radianos por segundo. </p></div> </div>
+
+<h3 class='sectionHead'><span class='titlemark'>4   </span> <a id='x1-40004'></a>Triângulos semelhantes</h3>
+<p class='noindent'>Por fim, fatos sobre triângulos semelhantes costumam ser úteis na resolução de
+problemas de taxas relacionadas.
+</p>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-4001r7'></a>A figura mostra dois triângulos retângulos que compartilham um ângulo
+(agudo). <div aria-labelledby='image-alt-7' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/moreThanOneRate/digInMoreThanOneRate-225912e817f6f96e09067619d092d3df.svg" /> </div> Se \(x\) está
+crescendo a partir do vértice a uma taxa de \(3\) m/s, a que taxa a área do triângulo
+menor está variando quando \(x = 5\) m? <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-4002r8'></a>Primeiro, <strong>introduzimos as variáveis</strong> \(h\)
+e \(A\), que denotam a altura e a área do triângulo menor, nessa ordem. Em
+seguida, <strong>identificamos</strong> a taxa dada \(\frac {dx}{dt}=3\) m/s e a taxa desconhecida \(\frac {dA}{dt}\), quando \(x=5\).
+Apesar de já termos uma bela figura, devemos fazer o que sempre fazemos e
+<strong>desenhar uma figura</strong>. Observe que acrescentamos informações à figura: <div aria-labelledby='image-alt-8' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/moreThanOneRate/digInMoreThanOneRate-803292eb70783e4399c5414bc143d927.svg" />
+</div>
+<p class='noindent'>Em seguida, <strong>encontramos equações</strong> que combinem as variáveis relevantes. Neste
+caso, há duas. A primeira é a fórmula da área de um triângulo: \[ A = \frac {1}{2} \cdot x \cdot h \] A segunda usa o fato
+de que o triângulo maior é semelhante ao triângulo menor, o que significa que as
+razões entre os lados correspondentes dos dois triângulos são iguais, \[ \frac {h}{x} = \frac {3}{\class{xm-given}{6}}\qquad \text {logo}\qquad h = \frac {1}{\class{xm-given}{2}}\cdot x \] Neste ponto,
+poderíamos <strong>derivar</strong> as duas equações, mas escolhemos um caminho mais simples e
+expressamos \(A\) em termos de \(x\) \begin{align*}  A&amp; = \frac {1}{2} \cdot x\cdot \underbrace { \frac {1}{2}\cdot x}_{h} .  \end{align*}
+</p><p class='noindent'>Portanto, \[ A=\frac {1}{4}\cdot x^2. \] Como \(A\) e \(x\) são ambas funções do tempo, <strong>derivamos</strong> ambos os lados desta
+equação em relação a \(t\)
+</p><p class='noindent'>\[ \frac {dA}{dt}=\frac {1}{4}\cdot 2\cdot x\cdot \frac {dx}{dt}. \] Em particular, quando \(x=5\), \[ \frac {dA}{dt}=\frac {1}{4}\cdot 2\cdot 5\cdot 3=\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}. \]
+</p><p class='noindent'>Logo, a área está variando a uma taxa de \( \frac {15}{2}\) \(\text {m}^2/\text {s}\) quando \(x=5\) m.
+</p>
+</div> </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"\\frac {15}{2}","format":"expression","given":false,"antiderivative":false}}</script>

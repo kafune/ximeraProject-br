@@ -1,0 +1,276 @@
+<!-- traduz-render: b8f79a6cd23e3d498995992c322bf960f055a0b0dd4a0c6c117c74755defd96b -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class="abstract">
+Aqui “desfazemos” funções. 
+</div>
+<div class="maketitle"></div>
+<p class="noindent" >Se uma função leva cada “entrada” a exatamente uma “saída”, uma inversa dessa
+função leva cada “saída” a exatamente uma “entrada”. Precisamos de uma definição
+mais formal para de fato dizer algo com rigor.
+</p>
+<div class="theorem-like problem-environment definition" id="problem1" titletext=" definition"><a 
+ id="x1-2r1"></a>Seja \(f\) uma função com domínio \(A\) e imagem \(B\): <div class="image-environment" role="img" aria-labelledby="image-alt-1"> <img 
+src="/rendered/understandingFunctions/digInInversesOfFunctions-149625cc96fccaa223316d6f9efe88a9.svg" alt="[Picture]"  /> </div> Seja \(g\) uma função com domínio \(B\) e imagem \(A\): <div class="image-environment" role="img" aria-labelledby="image-alt-2"> <img 
+src="/rendered/understandingFunctions/digInInversesOfFunctions-990c5b924d7faf982b8c31bd0766a3ee.svg" alt="[Picture]"  /> </div> Dizemos que \(f\) e \(g\) são <strong>inversas</strong> uma da outra se \(f(g(b)) = b\) para todo \(b\) em
+\(B\) e também \(g(f(a)) = a\) para todo \(a\) em \(A\). Nesse caso, às vezes escrevemos \(g = f^{-1}\). <div class="image-environment" role="img" aria-labelledby="image-alt-3">
+<img 
+src="/rendered/understandingFunctions/digInInversesOfFunctions-2ca00239a806c4c267b22052690eae5a.svg" alt="[Picture]"  /> </div> e <div class="image-environment" role="img" aria-labelledby="image-alt-4">
+<img 
+src="/rendered/understandingFunctions/digInInversesOfFunctions-0e96a3b8f5ec3631d65a0c4483673600.svg" alt="[Picture]"  /> </div> Assim, poderíamos reformular
+essas condições como \[ f(f^{-1}(x)) = x\qquad \text {e}\qquad f^{-1}(f(x)) = x. \] </div> Essas duas equações simples são um pouco mais sutis do que
+parecem à primeira vista.
+<div role="article" class="problem-environment question" id="problem2" numbered="" titletext=" Question">  Seja \(f\) uma função. Se o ponto \((1,9)\) está no gráfico de \(f\), que ponto deve estar no gráfico
+de \(f^{-1}\)?  \[ \left ( \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}, \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \right ) \]  <div class="feedback" data-feedback="attempt" id="feedback3" titletext=" Feedback (attempt)">Como \(f(1) = 9\), devemos ter \(f^{-1}(f(1)) = 1\), logo \(f^{-1}(9) = 1\). Portanto, \((9,1)\) está no gráfico de \(f^{-1}\). Essa
+é uma regra geral. Se \((a,b)\) está no gráfico de \(f\), então \((b,a)\) estará no gráfico de \(f^{-1}\). </div>
+</div>
+<div class="theorem-like problem-environment warning" id="problem4" titletext=" warning"><a 
+ id="x1-3r2"></a>Essa notação pode ser muito confusa. Fique atento: \begin{align*}  f^{-1}(x) &amp;= \text {a função inversa de $f$ calculada em $x$.}\\ f(x)^{-1} &amp;= \text {$\frac {1}{f(x)}$.}  \end{align*}
+</div>  <div role="article" class="problem-environment question" id="problem5" numbered="" titletext=" Question">   Qual das alternativas a seguir é a notação para a inversa da função \(\sin (\theta )\) no intervalo
+\([-\pi /2,\pi /2]\)? <div class="multiple-choice" id="problem6" titletext=" Multiple Choice"><span class="choice correct "   id="choice1">\(\sin ^{-1}(\theta )\)</span> <span class="choice  "   id="choice2">\(\sin (\theta )^{-1}\)</span> </div> <div class="feedback" data-feedback="attempt" id="feedback7" titletext=" Feedback (attempt)">\(\sin ^{-1}(\theta )\) é a função inversa de \(\sin (\theta )\) no intervalo \([-\pi /2,\pi /2]\).
+<p class="noindent" >Por outro lado, \[ \sin (\theta )^{-1} = \frac {1}{\sin (\theta )} \ne \sin ^{-1}(\theta ). \] </div>    </p></div>
+                                                                  
+
+                                                                  
+<div role="article" class="problem-environment question" id="problem8" numbered="" titletext=" Question">  Considere o gráfico de \(y=f(x)\) abaixo <div class="image-environment" role="img" aria-labelledby="image-alt-5"> <img 
+src="/rendered/understandingFunctions/digInInversesOfFunctions-5692f05627532ebb1d585f0e188f71dc.svg" alt="[Picture]"  /> </div> A função \(f\) é invertível em \(x=1\)? (Isto é, \(f^{-1}(1)\) existe?) <div data-original="expandable" id="foldable9" class="foldable">xmhintExiste exatamente um valor de
+\(b\) com \(f(b)=1\)?</div> <div class="multiple-choice" id="problem10" titletext=" Multiple Choice"><span class="choice correct "   id="choice3">sim</span> <span class="choice  "   id="choice4">não</span> </div>   <div role="article" class="problem-environment question" id="problem11" numbered="" titletext=" Question">   \[ f^{-1}(1) = \class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \]    </div>     </div>
+<p class="noindent" >Até agora, só lidamos com exemplos abstratos. Vamos ver se conseguimos ancorar
+essa ideia em um contexto da vida real.
+</p>
+<div class="theorem-like problem-environment example" id="problem12" titletext=" example"><a 
+ id="x1-4r3"></a>A função \[ f(t) = \left (\frac {9}{5}\right ) t + 32 \] recebe uma temperatura \(t\) em graus Celsius e a converte para
+Fahrenheit. O que a inversa dessa função diz a você? Qual é a inversa dessa
+função?
+<div class="theorem-like problem-environment explanation" id="problem13" titletext=" explanation"><a 
+ id="x1-5r4"></a>Se \(f\) converte medidas de temperatura em Celsius para medidas em Fahrenheit,
+então \(f^{-1}\) converte medidas de temperatura em Fahrenheit para medidas em
+Celsius.
+<p class="noindent" >Para encontrar a função inversa, primeiro observe que \[ f(f^{-1}(t)) = t \qquad \text {pela definição de funções inversas.} \] Agora escreva por extenso o
+lado esquerdo da equação \[ f(f^{-1}(t)) = \left (\frac {9}{5}\right ) f^{-1}(t)+32\qquad \text {pela regra de $f$} \] e resolva para \(f^{-1}(t)\). \begin{align*}  \left (\frac {9}{5}\right ) f^{-1}(t)+32 &amp;= t &amp;&amp;\text {pela regra de $f$}\\ \left (\frac {9}{5}\right ) f^{-1}(t)&amp;= t -32\\ f^{-1}(t) &amp;= \class{xm-given}{\left (\frac {5}{9}\right )(t - 32)}.  \end{align*}
+</p><p class="noindent" >Logo, \(f^{-1}(t) = \left (\frac {5}{9}\right )(t - 32)\) é a função inversa de \(f\), que converte uma medida em Fahrenheit de volta para
+uma medida em Celsius.
+</p><p class="noindent" >Por fim, poderíamos conferir nosso trabalho mais uma vez usando a definição de
+funções inversas. Já garantimos que \[ f(f^{-1}(t)) = t, \] pois resolvemos para \(f^{-1}\) em nosso cálculo. Por
+outro lado, \begin{align*}  f^{-1}(f(t))&amp;=f^{-1} \left (\left (\frac {9}{5}\right )t+32\right ) \\ &amp;= \frac {5}{9}\Big ( \left (\frac {9}{5}\right )t+32-32\Big )\\ &amp;=t  \end{align*}
+</p><p class="noindent" >o que mostra que \(f^{-1}(f(t)) = t\). </p></div> </div>
+<p class="noindent" >Examinamos várias funções para determinar suas funções inversas, mas essa história
+ainda não acabou. Nem toda função tem uma inversa, então precisamos aprender a
+verificar quando isso acontece.
+</p>
+<div role="article" class="problem-environment question" id="problem14" numbered="" titletext=" Question">  Seja \(f\) uma função, e imagine que os pontos \((2,3)\) e \((7,3)\) estão ambos em seu gráfico. \(f\) poderia
+ter uma função inversa?  <div class="multiple-choice" id="problem15" titletext=" Multiple Choice"><span class="choice  "   id="choice5">sim</span> <span class="choice correct "   id="choice6">não</span> </div> <div class="feedback" data-feedback="attempt" id="feedback16" titletext=" Feedback (attempt)">A função \(f\) <strong>não</strong> poderia ter uma função
+inversa. Imagine que tivesse. Então \(f^{-1}(f(2)) = 2\) e \(f^{-1}(f(7)) = 7\). Assim, teríamos tanto \(f^{-1}(3) = 2\) quanto \(f^{-1}(3) = 7\). Como uma
+<strong>função</strong> não pode levar a mesma entrada a duas saídas diferentes, \(f\) não pode ter uma
+                                                                  
+
+                                                                  
+função inversa. </div>     </div>
+<p class="noindent" >Olhe novamente para a última pergunta. Se duas entradas diferentes de uma função
+têm a mesma saída, não há esperança de que essa função tenha uma função inversa.
+Por quê? Porque a função inversa também precisa ser uma função, e uma função só
+pode ter uma saída para cada entrada. Mais especificamente, temos a seguinte
+definição.
+</p>
+<div class="theorem-like problem-environment definition" id="problem17" titletext=" definition"><a 
+ id="x1-6r5"></a>Uma função é chamada de <strong>injetora</strong> se cada valor de saída corresponde a
+exatamente um valor de entrada. </div>
+<div role="article" class="problem-environment question" id="problem18" numbered="" titletext=" Question">  Quais das alternativas a seguir são funções que também são injetoras? <div class="select-all" id="problem19" titletext=" Select All"><a 
+ id="x1-7r6"></a> <span class="choice  "   id="choice7">Associar
+palavras ao seu significado em um dicionário.</span> <span class="choice correct "   id="choice8">Dado um corredor correndo
+para a frente em uma pista reta, associar o tempo à posição do corredor.</span> <span class="choice  " 
+id="choice9">Associar pessoas à sua data de nascimento.</span> <span class="choice  "   id="choice10">Associar mães a seus filhos.</span> </div>
+<div class="feedback" data-feedback="attempt" id="feedback20" titletext=" Feedback (attempt)">
+     <ul class="itemize1">
+     <li class="itemize">
+     <p class="noindent" >Como palavras podem ter mais de uma definição, “associar palavras à sua
+     definição em um dicionário” não é uma função.
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >Como o corredor está correndo para a frente na pista reta, cada instante
+     corresponde a uma posição, e cada posição corresponde a um instante.
+     Logo, isso dá uma função injetora.
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >Como cada pessoa tem apenas uma data de nascimento, “associar pessoas
+     à sua data de nascimento” é uma função. No entanto, muitas pessoas têm
+     a mesma data de nascimento, logo essa função não é injetora.
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >Como mães podem ter mais (ou menos) de um filho, “associar mães a seus
+     filhos” não é uma função.</p></li></ul>
+</div>   </div>
+<div role="article" class="problem-environment question" id="problem21" numbered="" titletext=" Question">  Quais das funções a seguir são injetoras? Selecione todas as alternativas que se
+aplicam. <div class="select-all" id="problem22" titletext=" Select All"><a 
+ id="x1-8r7"></a> <span class="choice correct "   id="choice11">\(f(x) = x\)</span> <span class="choice  "   id="choice12">\(f(x) = x^2\)</span> <span class="choice  "   id="choice13">\(f(x) = x^3 - 4x\)</span> <span class="choice correct "   id="choice14">\(f(x) = x^3+4\)</span> </div>    </div>
+<p class="noindent" >Você deve se lembrar de que um gráfico dá \(y\) como função de \(x\) se toda reta vertical
+cruza o gráfico no máximo uma vez, e chamamos isso de <strong>teste da reta
+vertical</strong>. De modo semelhante, uma função é injetora se toda reta horizontal
+                                                                  
+
+                                                                  
+cruza o gráfico no máximo uma vez, e chamamos isso de <strong>teste da reta
+horizontal</strong>.
+</p>
+<div class="theorem-like problem-environment theorem" id="problem23" titletext=" theorem"><a 
+ id="x1-9r8"></a>Uma função é injetora em seu domínio se a reta horizontal \(y = b\) intersecta a curva \(y=f(x)\) em
+exatamente um ponto, para todos os valores \(b\) na imagem de \(f\). Isso é chamado de
+<strong>teste da reta horizontal</strong>. </div> Abaixo, apresentamos o gráfico de \(f(x)=-5x^2+30x+60\). Embora esse gráfico
+passe no teste da reta vertical e, portanto, represente \(y\) como função de \(x\),
+ele não passa no teste da reta horizontal, logo a função não é injetora. <div class="image-environment" role="img" aria-labelledby="image-alt-6">
+<img 
+src="/rendered/understandingFunctions/digInInversesOfFunctions-69738bd23b634c9961e3c6b95b56ec87.svg" alt="[Picture]"  /> </div> Embora a reta \(y=20\)
+intersecte a curva \(y=f(x)\) exatamente uma vez, a função \(f\) <strong>não é injetora</strong> em seu domínio,
+pois a reta \(y=80\) intersecta a curva duas vezes.
+<p class="noindent" >Como discutimos, só podemos encontrar a inversa de uma função quando ela é
+injetora. Se uma função não é injetora, mas ainda assim queremos uma inversa,
+precisamos restringir o domínio. Vamos ver o que isso significa nos próximos
+exemplos.
+</p>
+<div role="article" class="problem-environment question" id="problem24" numbered="" titletext=" Question">   Considere o gráfico da função \(f\) abaixo: <div class="image-environment" role="img" aria-labelledby="image-alt-7">
+                                                                  
+
+                                                                  
+<img 
+src="/rendered/understandingFunctions/digInInversesOfFunctions-0435e4fb591eddd5eb6667a475ae6869.svg" alt="[Picture]"  /> </div> Em quais dos intervalos a seguir \(f\) é injetora? <div class="select-all" id="problem25" titletext=" Select All"><a 
+ id="x1-10r9"></a> <span class="choice correct "   id="choice15">\([A,B]\)</span> <span class="choice  "   id="choice16">\([A,C]\)</span> <span class="choice correct "   id="choice17">\([B,D]\)</span> <span class="choice  "   id="choice18">\([C,E]\)</span> <span class="choice correct "   id="choice19">\([C,D]\)</span> </div>    </div>
+<p class="noindent" >Essa ideia de restringir o domínio é fundamental para entender funções como
+\(f(x) = \sqrt {x}\).
+</p>
+<div class="theorem-like problem-environment warning" id="problem26" titletext=" warning"><a 
+ id="x1-11r10"></a>Definimos \(f(x) = \sqrt {x}\) como a raiz quadrada positiva, para que possamos ter certeza de que \(f\) é
+uma função. Pensando na raiz quadrada como a inversa da função que eleva ao
+quadrado, podemos ver a questão um pouco mais claramente. Há dois valores de \(x\)
+cujo quadrado é \(9\). \[ x^2 = 9\qquad \text {significa $x=\pm 3$} \] Como exigimos que <strong>a raiz quadrada seja uma função</strong>,
+devemos ter apenas um valor de saída quando substituímos \(9\). Escolhemos a raiz
+quadrada positiva, o que significa que \[ \sqrt {9} =3. \] </div>
+<div class="theorem-like problem-environment example" id="problem27" titletext=" example"><a 
+ id="x1-12r11"></a>Considere a função \[ f(x) = x^2. \] \(f\) tem uma inversa? Se sim, qual é? Se não, tente restringir o
+domínio de \(f\) e encontre uma inversa no domínio restrito. <div class="theorem-like problem-environment explanation" id="problem28" titletext=" explanation"><a 
+ id="x1-13r12"></a>Neste caso, \(f\) não é injetora.
+No entanto, ela é injetora no intervalo \([0,\infty )\). Logo, podemos encontrar uma inversa de \(f(x)=x^2\)
+nesse intervalo. Substituímos \(f^{-1}(x)\) em \(f\) e escrevemos \begin{align*}  f(f^{-1}(x)) &amp;= \left (f^{-1}(x)\right )^2\\ x &amp;= \left (f^{-1}(x)\right )^2.  \end{align*}
+<p class="noindent" >Como o domínio de \(f\) é \([0, \infty )\), sabemos que \(x\) é positivo. Isso significa que
+podemos extrair a raiz quadrada de cada lado da equação e obter \[ \sqrt {x} = f^{-1}(x). \] </p><div class="image-environment" role="img" aria-labelledby="image-alt-8">
+                                                                  
+
+                                                                  
+<img 
+src="/rendered/understandingFunctions/digInInversesOfFunctions-80fdeb92793c95eae3cd86654a10401b.svg" alt="[Picture]"  /> </div> </div> </div>  <div role="article" class="problem-environment question" id="problem29" numbered="" titletext=" Question">  Considere o gráfico
+de \(y=f(x)\) abaixo <div class="image-environment" role="img" aria-labelledby="image-alt-9"> <img 
+src="/rendered/understandingFunctions/digInInversesOfFunctions-c293ddd87869915d852e1e670c49ace8.svg" alt="[Picture]"  /> </div> A função \(f\) é
+injetora no intervalo \([1,2]\)? <div class="multiple-choice" id="problem30" titletext=" Multiple Choice"><span class="choice correct "   id="choice20">sim</span> <span class="choice  "   id="choice21">não</span> </div>   <div role="article" class="problem-environment question" id="problem31" numbered="" titletext=" Question">   Seja \(f^{-1}\) a função inversa de \(f\) restrita ao
+domínio \([1,2]\).
+     <ol  class="enumerate1" >
+<li 
+  class="enumerate" id="x1-15x1">
+     <p class="noindent" >Determine o domínio de \(f^{-1}\).  \[ \text {O domínio de $f^{-1}$ é } \left [\class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}, \class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}}\right ] \]
+     </p></li>
+<li 
+  class="enumerate" id="x1-17x2">
+     <p class="noindent" >Determine o valor de \(f\left ( f^{-1}(0.5)\right )\).  \[ f\left ( f^{-1}(0.5)\right ) = \class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}} \]
+     </p></li>
+                                                                  
+
+                                                                  
+<li 
+  class="enumerate" id="x1-19x3">
+     <p class="noindent" >Escolha a afirmação correta a respeito de \(f^{-1}(0.5)\). </p><div class="multiple-choice" id="problem32" titletext=" Multiple Choice"><span class="choice correct "   id="choice22">\(f^{-1}(0.5)&gt;1.5\)</span> <span class="choice  "   id="choice23">\(f^{-1}(0.5)\le 1.5\)</span> <span class="choice  "   id="choice24">\(f^{-1}(0.5)\) não está definido</span>
+     </div></li></ol>
+</div>   </div>
+<div class="theorem-like problem-environment example" id="problem33" titletext=" example"><a 
+ id="x1-20r13"></a>Considere a função \[ f(x) = x^3. \] A função \(f\) tem uma inversa? Se sim, qual é? Se não, tente
+restringir o domínio de \(f\) e encontre uma inversa no domínio restrito. <div class="theorem-like problem-environment explanation" id="problem34" titletext=" explanation"><a 
+ id="x1-21r14"></a>Neste caso, \(f\) é
+injetora. Podemos escrever \begin{align*}  f(f^{-1}(x)) &amp;= \left (f^{-1}(x)\right )^3\\ x &amp;= \left (f^{-1}(x)\right )^3\\ \sqrt [3]{x} &amp;= f^{-1}(x).  \end{align*}
+<p class="noindent" >Para seu deleite visual, apresentamos um gráfico de \(y=f(x)=x^3\) e de \(y=f^{-1}(x)= \sqrt [3]{x}\). Observe
+que o gráfico de \(f^{-1}\) é a imagem de \(f\) refletida em relação à reta \(y=x\). </p><div class="image-environment" role="img" aria-labelledby="image-alt-10">
+<img 
+src="/rendered/understandingFunctions/digInInversesOfFunctions-6bad52a5879a9a10324cb8d4eb54ef5f.svg" alt="[Picture]"  /> </div> </div> </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"9","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"1","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"1.5","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"0.5","format":"expression","given":false,"antiderivative":false}}</script>

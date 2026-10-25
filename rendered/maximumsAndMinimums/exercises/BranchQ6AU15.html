@@ -1,0 +1,129 @@
+<!-- traduz-render: 1622a8da9f2d5c18ef812f56a9dfa4f47d50256f9e19685adcd1b54389dc1bc4 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<p><span class='learning-outcome'>Máximos e mínimos locais.  Pontos críticos.  Teste da primeira derivada.  Teste da segunda derivada.</span>
+</p><div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>
+<p class='noindent'>Seja \(f(x) = 20 + 8x^2 - x^4\).<br class='newline' />(a) Determine todos os pontos críticos de \(f\) e classifique-os, isto é, para cada ponto
+crítico de \(f\) decida se ele é um mínimo local, um máximo local ou nenhum dos dois.
+(b) Determine todos os pontos de inflexão de \(f\).
+</p><p class='noindent'>(a) Primeiro, temos de calcular \(f'(x)\).
+</p><p class='noindent'>\(f'(x) = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\).
+</p><p class='noindent'>Complete a afirmação abaixo.
+</p><p class='noindent'>As coordenadas x de todos os pontos críticos de \(f\) (da esquerda para a direita) são \(a=\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\), \(b=\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}}\) e
+\(c=\class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}\).
+</p>
+<div class='problem-environment exercise' id='problem2' numbered='' role='article' titletext=' Exercise'>  Agora calcule \[ f''(x)=\class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}} \]
+<p class='noindent'>Agora, vamos calcular a segunda derivada em todos os pontos críticos de \(f\) e aplicar o
+teste da segunda derivada para determinar se a função \(f\) tem um extremo
+local em algum desses pontos. \[ f''(a)=\class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}} \]   </p><div class='problem-environment exercise' id='problem3' numbered='' role='article' titletext=' Exercise'>   Como o valor de \(f''(a)\) é <span class='word-choice' id='word-choice4'><a id='x1-2r1'></a><span class='choice  ' id='choice1'>positivo</span><span class='choice correct ' id='choice2'>negativo</span><span class='choice 
+' id='choice3'>zero</span></span>, a função \(f\) <span class='word-choice' id='word-choice5'><a id='x1-3r2'></a><span class='choice correct ' id='choice4'>tem um máximo local</span><span class='choice  ' id='choice5'>tem um mínimo local</span><span class='choice  ' id='choice6'>não
+tem nem um máximo local nem um mínimo local</span><span class='choice  ' id='choice7'>possivelmente tem um
+máximo local, um mínimo local ou nenhum dos dois</span></span> em \(x=a\), pelo teste da
+segunda derivada. \[ f''(b)=\class{xm-answer}{\cssId{xm-answer-7}{\phantom{\rule{7em}{1.5em}}}} \]   <div class='problem-environment exercise' id='problem6' numbered='' role='article' titletext=' Exercise'>   Como o valor de \(f''(b)\) é <span class='word-choice' id='word-choice7'><a id='x1-4r3'></a><span class='choice correct ' id='choice8'>positivo</span><span class='choice  ' id='choice9'>negativo</span><span class='choice  ' id='choice10'>zero</span></span>, a
+função \(f\) <span class='word-choice' id='word-choice8'><a id='x1-5r4'></a><span class='choice  ' id='choice11'>tem um máximo local</span><span class='choice correct ' id='choice12'>tem um mínimo local</span><span class='choice  ' id='choice13'>não tem nem
+um máximo local nem um mínimo local</span><span class='choice  ' id='choice14'>possivelmente tem um máximo
+local, um mínimo local ou nenhum dos dois</span></span> em \(x=b\), pelo teste da segunda
+derivada.
+<p class='noindent'>\[ f''(c)=\class{xm-answer}{\cssId{xm-answer-8}{\phantom{\rule{7em}{1.5em}}}} \]  </p><div class='problem-environment exercise' id='problem9' numbered='' role='article' titletext=' Exercise'>  Como o valor de \(f''(c)\) é <span class='word-choice' id='word-choice10'><a id='x1-6r5'></a><span class='choice  ' id='choice15'>positivo</span><span class='choice correct ' id='choice16'>negativo</span><span class='choice  ' id='choice17'>zero</span></span>, a função \(f\) <span class='word-choice' id='word-choice11'><a id='x1-7r6'></a><span class='choice correct ' id='choice18'>tem um máximo
+local</span><span class='choice  ' id='choice19'>tem um mínimo local</span><span class='choice  ' id='choice20'>não tem nem um máximo local nem um mínimo local</span><span class='choice  ' id='choice21'>possivelmente tem um máximo local, um mínimo local ou nenhum dos dois</span></span> em \(x=c\), pelo
+teste da segunda derivada.<br class='newline' />
+<p class='noindent'>(b) Complete a afirmação abaixo.   </p><div class='problem-environment exercise' id='problem12' numbered='' role='article' titletext=' Exercise'>
+<p class='noindent'>Como \(f''(x)=\class{xm-answer}{\cssId{xm-answer-9}{\phantom{\rule{7em}{1.5em}}}}\), segue que pontos de inflexão podem ocorrer em (da esquerda para a direita) \(m=\class{xm-answer}{\cssId{xm-answer-10}{\phantom{\rule{7em}{1.5em}}}}\)
+e \(n=\class{xm-answer}{\cssId{xm-answer-11}{\phantom{\rule{7em}{1.5em}}}}\).<br class='newline' />
+</p><p class='noindent'>Para verificar se a função \(f\) tem um ponto de inflexão em \(x=m\) ou em \(x=n\), temos de verificar o
+sinal de \(f''(x)\) nos intervalos \((-\infty ,m)\), \((m,n)\) e \((n,+\infty )\).
+</p><p class='noindent'>Como \(a &lt; m &lt; b &lt; n &lt; c\), podemos usar os valores \(f''(a)\), \(f''(b)\) e \(f''(c)\) para determinar o sinal de \(f''(x)\) nesses intervalos.
+</p><div class='problem-environment exercise' id='problem13' numbered='' role='article' titletext=' Exercise'>
+<p class='noindent'>\(f''(x)\) é <span class='word-choice' id='word-choice14'><a id='x1-8r7'></a><span class='choice  ' id='choice22'>positiva</span><span class='choice correct ' id='choice23'>negativa</span><span class='choice  ' id='choice24'>zero</span></span> no intervalo \((-\infty ,m)\).<br class='newline' />
+</p><p class='noindent'>\(f''(x)\) é <span class='word-choice' id='word-choice15'><a id='x1-9r8'></a><span class='choice correct ' id='choice25'>positiva</span><span class='choice  ' id='choice26'>negativa</span><span class='choice  ' id='choice27'>zero</span></span> no intervalo \((m,n)\).<br class='newline' />
+</p><p class='noindent'>\(f''(x)\) é <span class='word-choice' id='word-choice16'><a id='x1-10r9'></a><span class='choice  ' id='choice28'>positiva</span><span class='choice correct ' id='choice29'>negativa</span><span class='choice  ' id='choice30'>zero</span></span> no intervalo \((n,+\infty )\).<br class='newline' /> </p><div class='problem-environment exercise' id='problem17' numbered='' role='article' titletext=' Exercise'>  Faça a escolha correta.<br class='newline' />
+<p class='noindent'>A função \(f\) <span class='word-choice' id='word-choice18'><a id='x1-11r10'></a><span class='choice correct ' id='choice31'>tem</span><span class='choice  ' id='choice32'>não tem</span></span> um ponto de inflexão em \(x=m\), porque o sinal de \(f''(x)\) <span class='word-choice' id='word-choice19'><a id='x1-12r11'></a><span class='choice correct ' id='choice33'>muda</span><span class='choice  ' id='choice34'>não muda</span> </span> em \(x=m\).<br class='newline' />A função \(f\) <span class='word-choice' id='word-choice20'><a id='x1-13r12'></a><span class='choice correct ' id='choice35'>tem</span><span class='choice  ' id='choice36'>não tem</span></span> um ponto de inflexão em \(x=n\), porque o sinal de \(f''(x)\) <span class='word-choice' id='word-choice21'><a id='x1-14r13'></a><span class='choice correct ' id='choice37'>muda</span><span class='choice  ' id='choice38'>não muda</span> </span> em \(x=n\).<br class='newline' />
+</p>
+</div>   </div>    </div>    </div>    </div>    </div>    </div>    </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"16x-4x^3","format":"expression","given":false,"antiderivative":false},"xm-answer-10":{"answer":"-\\frac {2}{\\sqrt {3}}","format":"expression","given":false,"antiderivative":false},"xm-answer-11":{"answer":"\\frac {2}{\\sqrt {3}}","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"-2","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"16-12x^2","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"-32","format":"expression","given":false,"antiderivative":false},"xm-answer-7":{"answer":"16","format":"expression","given":false,"antiderivative":false},"xm-answer-8":{"answer":"-32","format":"expression","given":false,"antiderivative":false},"xm-answer-9":{"answer":"16-12x^2","format":"expression","given":false,"antiderivative":false}}</script>

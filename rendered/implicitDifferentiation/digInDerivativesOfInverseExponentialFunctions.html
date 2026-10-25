@@ -1,0 +1,113 @@
+<!-- traduz-render: 845f1ab99c8d0090945f810ca0b393598ee232c05bdb51f06ca22a464af9f884 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Deduzimos as derivadas das inversas das funções exponenciais usando derivação
+implícita. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Geometricamente, há uma relação estreita entre os gráficos de \(e^x\) e \(\ln (x)\): eles são reflexões um
+do outro em relação à reta \(y=x\): </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/implicitDifferentiation/digInDerivativesOfInverseExponentialFunctions-b62a4848c9b503bc268c0d044a3871a6.svg" /> </div><p> Pode-se suspeitar que é possível usar o fato de que \(\ddx e^x = e^x\) para deduzir a derivada de \(\ln (x)\).
+Usaremos derivação implícita para explorar essa relação nos cálculos.
+</p><div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>A derivada do logaritmo natural</span> \[ \ddx \ln (x) = \frac {1}{x}. \] <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Lembre-se de que \[ \ln (x) = y \qquad \text {exatamente quando}\qquad e^y = x\qquad \text {e}\qquad x&gt;\class{xm-given}{0}. \] Logo, \begin{align*}  e^y &amp;= x\\ \ddx e^y &amp;= \ddx x &amp;\text {Derive ambos os lados.}\\ e^y \dd [y]{x} &amp;= 1 &amp;\text {Derivação implícita.}\\ \dd [y]{x} &amp;= \frac {1}{e^y} = \class{xm-given}{\frac {1}{x}}&amp;\text {Isole $\dd [y]{x}$.}  \end{align*}
+<p class='noindent'>Como \(y=\ln (x)\), \(\ddx \ln (x) = \class{xm-given}{\frac {1}{x}}\). </p></div> </div>
+<div class='problem-environment question' id='problem3' numbered='' role='article' titletext=' Question'>  Calcule: \[ \ddx \left (-\ln (\cos (x))\right ) \begin{prompt} = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \end{prompt} \]    </div>
+<p class='noindent'>A partir da derivada do logaritmo natural, podemos deduzir outro fato:
+</p>
+<div class='theorem-like problem-environment theorem' id='problem4' titletext=' theorem'><a id='x1-4r3'></a><span class='theorem-like-title'>A derivada de um logaritmo qualquer</span> Seja \(b\) um número real positivo. Então \[ \ddx \log _b(x) = \frac {1}{x\ln (b)}. \] <div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-5r4'></a>Aqui
+precisamos lembrar que \[ \log _b(x) = \frac {\ln (x)}{\class{xm-given}{\ln (b)}}. \] Assim, podemos escrever \begin{align*}  \ddx \log _b(x) &amp;= \ddx \frac {\ln (x)}{\class{xm-given}{\ln (b)}}\\ &amp;= \frac {1}{\ln (b)} \ddx \ln (x)\\ &amp;= \class{xm-given}{\frac {1}{x\ln (b)}}.  \end{align*}
+</div> </div>
+<div class='problem-environment question' id='problem6' numbered='' role='article' titletext=' Question'>  Calcule: \[ \ddx \log _7(x) \begin{prompt} = \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \end{prompt} \]    </div>
+<p class='noindent'>Também podemos calcular a derivada de uma função exponencial qualquer.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem7' titletext=' theorem'><a id='x1-6r5'></a><span class='theorem-like-title'>A derivada de uma função exponencial</span> \[ \ddx a^x = a^x\cdot \ln (a). \] <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-7r6'></a>Aqui precisamos ser um pouco astutos.
+Observe que \[ a^x = e^{\ln (a^x)} = e^{x\ln (a)}. \] Assim, podemos escrever \begin{align*}  \ddx a^x &amp;= \ddx e^{x\ln (a)}\\ &amp;= e^{x\ln (a)} \cdot \class{xm-given}{\ln (a)}\\ &amp;= \class{xm-given}{a^x\cdot \ln (a)}.  \end{align*}
+</div> </div>
+<div class='problem-environment question' id='problem9' numbered='' role='article' titletext=' Question'>  Calcule: \[ \ddx 7^x \begin{prompt} = \class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \end{prompt} \]    </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"\\tan (x)","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"1/(x \\ln (7))","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"7^x \\ln (7)","format":"expression","given":false,"antiderivative":false}}</script>

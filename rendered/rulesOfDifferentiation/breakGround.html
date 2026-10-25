@@ -1,0 +1,130 @@
+<!-- traduz-render: 0521c7e547f3e3ea502b5e0779972d545a671fe064ab4ce08d0e44c7f688bd8e -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\newcommand {\arraystretch }[0]{1.3}
+\)</div>
+<div class='abstract'>
+Dois jovens matemáticos pensam em “atalhos” para derivar. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Confira este diálogo entre dois estudantes de cálculo (baseado em uma história
+real):
+     </p><dl class='dialogue'><dt class='actor'>
+Devyn </dt><dd class='speech'>Eu odeio a definição de derivada por limite. Queria que houvesse um
+     jeito mais curto.
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Acho que encontrei um padrão para calcular derivadas.
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Sério? Eu adoro padrões!
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Eu sei! Olha só, montei uma tabela    \[ \begin{array}{c|c} f(x) &amp; f'(x)\\ \hline x^2 &amp; 2\cdot x^1\\ x^3 &amp; 3\cdot x^2\\ x^4 &amp; 4\cdot x^3 \end{array} \]  Então talvez, se tivermos uma
+     função \[ f(x) = x^n\quad \text {então}\qquad f'(x) = n\cdot x^{n-1}. \]
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Hmmm, será que funciona com raízes quadradas?
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Ah, é verdade, uma raiz quadrada é uma potência, basta escrever \[ f(x) = \sqrt {x} = x^{1/2}. \] Então
+     uma raiz quadrada é da forma \(x^n\).
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Vamos verificar. Se \(f(x) = \sqrt {x}\), \begin{align*}  f'(x) &amp;= \lim _{h\to 0} \frac {\sqrt {x+h} -\sqrt {x}}{h}\\ &amp;= \lim _{h\to 0} \left (\frac {\sqrt {x+h} - \sqrt {x}}{h}\cdot \frac {\sqrt {x+h} + \sqrt {x}}{\sqrt {x+h} + \sqrt {x}}\right )\\ &amp;= \lim _{h\to 0} \frac {x+h - x}{h(\sqrt {x+h} + \sqrt {x})}\\ &amp;= \lim _{h\to 0} \frac {\cancel {h}}{\cancel {h}(\sqrt {x+h} + \sqrt {x})}\\ &amp;= \lim _{h\to 0} \frac {1}{\sqrt {x+h} + \sqrt {x}}\\ &amp;= \frac {1}{\sqrt {x} + \sqrt {x}}\\ &amp;= \frac {1}{2\sqrt {x}}\\ &amp;= \frac {1}{2}\cdot x^{-1/2}.  \end{align*}
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Minha nossa! Funciona! Nesse caso \(f'(x) = n\cdot x^{n-1}\).
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Será que <em>sempre</em> funciona? Se sim, eu quero saber <em>por que</em> funciona! Que
+     outros padrões será que conseguimos encontrar?</dd></dl>
+<p class='noindent'>O padrão \[ \text {se} \qquad f(x) = x^n\quad \text {então}\qquad f'(x) = n\cdot x^{n-1} \] vale sempre que \(n\) é uma constante. Explicar por que ele funciona em geral
+vai levar algum tempo. Por enquanto, vamos ver se conseguimos usar esse padrão
+para resolver algumas derivadas com facilidade.
+</p>
+<div class='problem-environment problem' id='problem1' numbered='' role='article' titletext=' Problem'>  Usando o padrão encontrado acima, calcule: \[ \ddx x^{101} \begin{prompt}= \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \]    </div>
+<div class='problem-environment problem' id='problem2' numbered='' role='article' titletext=' Problem'>  Usando o padrão encontrado acima, calcule: \[ \ddx \frac {1}{x^{77}} \begin{prompt}= \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \]    </div>
+<div class='problem-environment problem' id='problem3' numbered='' role='article' titletext=' Problem'>  Usando o padrão encontrado acima, calcule: \[ \ddx \sqrt [5]{x} \begin{prompt}= \class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \]    </div>
+                                                                  
+
+                                                                  
+<div class='problem-environment problem' id='problem4' numbered='' role='article' titletext=' Problem'>  Usando o padrão encontrado acima, calcule: \[ \ddx x^e \begin{prompt}= \class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \]    </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"101 x^{100}","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"-77 x^{-78}","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"x^{-4/5}/5","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"e x^{e-1}","format":"expression","given":false,"antiderivative":false}}</script>

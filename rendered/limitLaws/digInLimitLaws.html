@@ -1,0 +1,330 @@
+<!-- traduz-render: e7841d34e4a331aa295430d8fa20a3a5e873e74bb490238191cef4840838147f -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class="abstract">
+Apresentamos as leis básicas para trabalhar com limites. 
+</div>
+<div class="maketitle"></div>Na seção anterior, conseguimos calcular os limites
+<p class="noindent" >\[ \lim _{x\to \pi } x^3=\pi ^3,\quad \lim _{x\to \pi } \sqrt {2}=\sqrt {2},\quad \lim _{x\to \pi } \cos (x)= -1, \]
+</p><p class="noindent" >usando a continuidade das funções \(x^3\), \(\sqrt {2}\) e \(\cos {x}\) em \(x=\pi \). Isso significa que podemos calcular os
+limites \begin{align*}  &amp;\lim _{x\to \pi } (x^3-\cos {x}),\\ &amp;\lim _{x\to \pi } \frac {\sqrt {2}}{\cos (x)},\\ &amp;\lim _{x\to \pi } (\sqrt {2}\cdot x^3\cdot \cos (x)), \text { ou}\\ &amp;\lim _{x\to \pi } \cos ({x^3})?  \end{align*}
+</p><p class="noindent" >Bem, não podemos usar a continuidade aqui, porque não sabemos se as funções \(x^3-\cos (x)\), \(\frac {\sqrt {2}}{\cos (x)}\), \(\sqrt {2}\cdot x^3\cdot \cos (x)\) e \(\cos ({x^3})\)
+são contínuas em \(x=\pi \), e
+</p><p class="noindent" >não temos nenhuma outra ferramenta disponível, já que gráficos e tabelas não são
+confiáveis. Evidentemente, precisamos de mais ferramentas para nos ajudar no
+cálculo de limites.
+</p><p class="noindent" >Nesta seção, apresentamos um punhado de regras, chamadas <em>Leis dos Limites</em>, que
+nos permitem determinar limites de várias combinações de funções.
+</p>
+<div class="theorem-like problem-environment theorem" id="problem1" titletext=" theorem"><a 
+ id="x1-2r1"></a><span class="theorem-like-title">Leis dos limites</span><a class="ximera-label" id="theorem:limit-laws"></a> Suponha que \(\lim _{x\to a}f(x)=L\) e \(\lim _{x\to a}g(x)=M\).
+     <dl class="description"><dt class="description">
+Lei da soma/diferença </dt><dd 
+class="description">
+     <p class="noindent" >\(\lim _{x\to a} (f(x) \pm g(x)) = \lim _{x\to a}f(x) \pm \lim _{x\to a}g(x)=L \pm M\).
+     </p></dd><dt class="description">
+Lei do produto </dt><dd 
+class="description">
+     <p class="noindent" >\(\lim _{x\to a} (f(x)g(x)) = \lim _{x\to a}f(x)\cdot \lim _{x\to a}g(x)=LM\).
+     </p></dd><dt class="description">
+Lei do quociente </dt><dd 
+class="description">
+     <p class="noindent" >\(\lim _{x\to a} \frac {f(x)}{g(x)} = \frac {\lim _{x\to a}f(x)}{\lim _{x\to a}g(x)}=\frac {L}{M}\), se \(M\ne 0\).</p></dd></dl>
+<p class="noindent" ><a class="ximera-label" id="thm:limit laws"></a> </p></div>
+<p class="noindent" >Em linguagem simples, “o limite de uma soma é igual à soma dos limites”, “o limite
+de um produto é igual ao produto dos limites”, etc.
+</p><p class="noindent" >Vamos examinar como as Leis dos Limites podem ser usadas no cálculo de
+limites.
+</p>
+<div class="theorem-like problem-environment example" id="problem2" titletext=" example"><a 
+ id="x1-3r2"></a>Calcule os limites a seguir usando as Leis dos Limites:
+     <ol  class="enumerate1" >
+<li 
+  class="enumerate" id="x1-5x1">
+     <p class="noindent" ><a class="ximera-label" id="lle1a"></a> \(\lim _{x\to \pi } (x^3-\cos {x})\)
+                                                                  
+
+                                                                  
+     </p></li>
+<li 
+  class="enumerate" id="x1-7x2">
+     <p class="noindent" ><a class="ximera-label" id="lle1b"></a> \(\lim _{x\to \pi } \frac {\sqrt {2}}{\cos {x}}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-9x3">
+     <p class="noindent" ><a class="ximera-label" id="lle1c"></a> \(\lim _{x\to \pi } (\sqrt {2}\cdot x^3\cdot \cos {x})\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-11x4">
+     <p class="noindent" ><a class="ximera-label" id="lle1d"></a> \(\lim _{x\to \pi } \cos ({x^3})\)</p></li></ol>
+<div class="theorem-like problem-environment explanation" id="problem3" titletext=" explanation"><a 
+ id="x1-12r3"></a>Para \(\lim _{x\to \pi } (x^3-\cos (x))\), escreva: \begin{align*}  \lim _{x\to \pi } (x^3-\cos (x))&amp;=\lim _{x\to \pi } x^3-\lim _{x\to \pi }\cos (x) &amp;&amp; \text {pela lei da diferença}\\ &amp;=\pi ^3-(-1)\\ &amp;=\pi ^3+1  \end{align*}
+<p class="noindent" >Para \(\lim _{x\to \pi } \frac {\sqrt {2}}{\cos (x)}\), escreva: \begin{align*}  \lim _{x\to \pi } \frac {\sqrt {2}}{\cos (x)}&amp;=\frac {\lim _{x\to \pi }\sqrt {2}}{\lim _{x\to \pi }\cos (x)} &amp;&amp; \text {pela lei do quociente}\\ &amp;=\frac {\sqrt {2}}{-1}\\ &amp;=-\sqrt {2}  \end{align*}
+</p><p class="noindent" >Para \(\lim _{x\to \pi } (\sqrt {2}\cdot x^3\cdot \cos (x))\), usando a Lei do Produto, podemos escrever: \[ \lim _{x\to \pi } (\sqrt {2}\cdot x^3\cdot \cos (x))=\lim _{x\to \pi } \sqrt {2}\cdot \lim _{x\to \pi }x^3\cdot \lim _{x\to \pi }\cos (x) \] \begin{align*}  &amp;=\sqrt {2}\cdot \pi ^3\cdot (-1)\\ &amp;=-\sqrt {2}\pi ^3  \end{align*}
+</p><p class="noindent" >Para \(\lim _{x\to \pi } \cos ({x^3})\), escreva: \[ \lim _{x\to \pi } \cos ({x^3})= \cdots \] A função \(\cos ({x^3})\) é uma combinação das funções \(\cos ({x})\) e \(x^3\), mas não é uma
+soma/diferença, nem um produto, nem um quociente dessas duas funções, de modo
+que não podemos aplicar nenhuma das Leis dos Limites. Essa função é uma
+composição das duas funções \(\cos (x)\) e \(x^3\). </p></div> </div> <div class="theorem-like problem-environment example" id="problem4" titletext=" example"><a 
+ id="x1-13r4"></a>
+     <ol  class="enumerate1" >
+<li 
+  class="enumerate" id="x1-15x1">
+     <p class="noindent" >Calcule o limite a seguir usando as leis dos limites: \[ \lim _{x\to 1}(5x^2+3x-2) \] </p><div class="theorem-like problem-environment explanation" id="problem5" titletext=" explanation"><a 
+ id="x1-16r5"></a>Bem, pegue seu lápis e
+     escreva comigo: \[ \lim _{x\to 1} (5x^2+3x-2) = \lim _{x\to 1} 5x^2 + \lim _{x\to 1} \class{xm-given}{3x} - \lim _{x\to 1}2 \] pela Lei da Soma/Diferença. Então, agora, \[ = 5\lim _{x\to 1} x^2 + 3\lim _{x\to 1} x - \lim _{x\to 1}\class{xm-given}{2} \] pela Lei do
+     Produto. Finalmente, pela continuidade de \(x^b\) e \(k\), \[ = 5(1)^2 + 3(1) - 2 =\class{xm-given}{6}. \]  Podemos verificar nossa
+     resposta observando o gráfico de \(y=f(x)\): \[ \graph {5x^2+3x-2} \]  </div>
+     </li>
+<li 
+  class="enumerate" id="x1-18x2">
+     <p class="noindent" >Use a definição de continuidade para determinar se a função polinomial \(f(x)=5x^2+3x-2\) é
+     contínua em \(x=1\). </p><div class="theorem-like problem-environment explanation" id="problem6" titletext=" explanation"><a 
+ id="x1-19r6"></a>Vamos usar a lista de verificação da continuidade que foi
+     mencionada logo abaixo da definição de continuidade.
+     <p class="noindent" >Começamos com o primeiro item da nossa lista de verificação da continuidade: \(f(1)\)
+     existe? Sabemos que \(f(1)=5(1)^2 + 3(1) - 2 = 6\), então sim. \(f(1)\) existe.
+     </p><p class="noindent" >O próximo item da nossa lista de verificação da continuidade pergunta se \(\lim _{x\to 1}f(x) exists\).
+     Como acabamos de calcular que \( \lim _{x\to 1} (5x^2+3x-2)=6\), sabemos que esse limite existe.
+     </p><p class="noindent" >O último item da nossa lista de verificação da continuidade pergunta se o valor
+     que encontramos para \(f(1)\) coincide com o valor que encontramos para \(\lim _{x\to 1}f(x)\). Como
+     ambos foram iguais a \(6\), essa condição também é satisfeita.
+                                                                  
+
+                                                                  
+     </p><p class="noindent" >Portanto, a função polinomial \(f\) é contínua em \(x=1\).
+     </p><p class="noindent" >Mas e quanto à continuidade em qualquer outro valor \(x\)? A função \(f\) é contínua
+     em todo o seu domínio?
+     </p><p class="noindent" >E quanto a qualquer outra função polinomial?
+     </p><p class="noindent" >Os polinômios são contínuos em seus domínios? </p></div></li></ol>
+</div>
+<p class="noindent" >Podemos generalizar o exemplo acima para obter os teoremas a seguir.
+</p>
+<div class="theorem-like problem-environment theorem" id="problem7" titletext=" theorem"><a 
+ id="x1-20r7"></a><span class="theorem-like-title">Continuidade das funções polinomiais</span> <strong>Todas as funções polinomiais</strong>, isto é, as
+funções da forma \[ f(x) = a_nx^n + a_{n-1}x^{n-1} + \dots + a_1 x + a_0 \] em que \(n\) é um inteiro positivo e cada coeficiente \(a_i\), \(i=0, 1,...,n\), é um número
+real, são <strong>contínuas para todos os números reais</strong>. <div class="theorem-like problem-environment explanation" id="problem8" titletext=" explanation"><a 
+ id="x1-21r8"></a>Para mostrar que
+qualquer polinômio, \(f\), é contínuo em qualquer número real, \(a\), temos que mostrar
+que \[ \lim _{x\to a} f(x)=f(a). \] Escreva comigo: \[ \lim _{x\to a} f(x) = \lim _{x\to a} (a_nx^n + a_{n-1}x^{n-1} + \dots + a_1 x + a_0 ) \] Agora, pela Lei da Soma, \[ = \lim _{x\to a} a_nx^n + \lim _{x\to a} a_{n-1}x^{n-1} + \dots + \lim _{x\to a}a_1 x + \lim _{x\to a} a_0 \] e, pela Lei do Produto,
+\begin{align*}  = \lim _{x\to a} a_n\cdot \lim _{x\to a}x^n + \lim _{x\to a} a_{n-1}\cdot \lim _{x\to a}x^{n-1} &amp;+ \dots \\ &amp;+ \lim _{x\to a}a_1 \cdot \lim _{x\to a}x + \lim _{x\to a} a_0  \end{align*}
+<p class="noindent" >e, pela continuidade, \[ = a_n\cdot a^n + a_{n-1}\cdot a^{n-1} + \dots + a_1 \cdot a + a_0 \] E isso é igual a…\[ =f(a) \] Como mostramos que \(\lim _{x\to a} f(x) = f(a)\), mostramos que \(f\) é
+contínua em \(x=a\). </p></div> </div>
+<div class="theorem-like problem-environment theorem" id="problem9" titletext=" theorem"><a 
+ id="x1-22r9"></a><span class="theorem-like-title">Continuidade das funções racionais</span> Uma <strong>função racional</strong> h, isto é, uma função da
+forma \[ h(x)=\frac {f(x)}{g(x)} \] em que \(f \)e \(g\) são polinômios, é <strong>contínua</strong> para todos os números reais, exceto
+onde \(g(x)=0\). Isto é, as funções racionais são contínuas onde quer que estejam definidas.
+<div class="theorem-like problem-environment explanation" id="problem10" titletext=" explanation"><a 
+ id="x1-23r10"></a>Seja \(a\) um número real tal que \(g(a)\neq 0\). Então, como \(g(x)\) é contínua em \(a\), \(\lim _{x\to a} g(x) \neq 0\). Portanto, escreva
+comigo, \[ \lim _{x \to a} h(x) = \lim _{x\to a} \frac {f(x)}{g(x)} \] e agora, pela Lei do Quociente, \[ \frac {\lim _{x\to a} f(x)}{ \lim _{x\to a} g(x)} \] e, pela continuidade dos polinômios,
+podemos agora fazer \(x=a\) \[ \frac {f(a)}{g(a)}=h(a). \] Como mostramos que \(\lim _{x\to a} h(x) = h(a)\), mostramos que \(h\) é contínua em \(x=a\). </div>
+</div>
+<div role="article" class="problem-environment question" id="problem11" numbered="" titletext=" Question">  Onde \(f(x) = \frac {x^2-3x+2}{x-2}\) é contínua?  <div class="multiple-choice" id="problem12" titletext=" Multiple Choice"><span class="choice  "   id="choice1">para todos os números reais</span> <span class="choice  "   id="choice2">em \(x=2\)</span> <span class="choice correct "   id="choice3">para todos os números
+reais, exceto \(x=2\)</span> <span class="choice  "   id="choice4">impossível dizer</span> </div>     </div>   <div role="article" class="problem-environment question" id="problem13" numbered="" titletext=" Question">   Verdadeiro ou falso: se \(f\) e \(g\) são
+funções contínuas em um intervalo \(I\), então \(f\pm g\) é contínua em \(I\).  <div class="multiple-choice" id="problem14" titletext=" Multiple Choice"><span class="choice correct "   id="choice5">Verdadeiro</span> <span class="choice  " 
+id="choice6">Falso</span> </div> <div class="feedback" data-feedback="attempt" id="feedback15" titletext=" Feedback (attempt)">Vamos supor que \(I\) é um intervalo aberto e que \(a\) é um número em \(I\).
+Lembre-se de que, como \(f\) e \(g\) são ambas contínuas em \(I\), ambas são contínuas em
+\(a\).
+<p class="noindent" >Isso significa que \( \lim _{x\to a}f(x)=f(a)\) e \( \lim _{x\to a}g(x)=g(a)\).
+</p><p class="noindent" >Agora, defina uma nova função, \(h\), em que \(h(x)= f(x)+g(x)\), para todo \(x\) em \(I\). Temos que mostrar que \(h\) é
+contínua em \(a\), ou seja, que
+</p><p class="noindent" >\[ \lim _{x\to a} h(x) = h(a). \] Vamos começar com
+</p><p class="noindent" >\[ \lim _{x\to a} h(x) = \lim _{x\to a} (f(x)+g(x)) = \lim _{x\to a} f(x)+\lim _{x\to a}g(x)\hspace {0.04in}by \hspace {0.04in}Sum\hspace {0.04in} Law, \] e, portanto,
+</p><p class="noindent" >\[ \lim _{x\to a} h(x) = f(a)+g(a)=h(a) \checkmark \] Provamos que \(h\) é contínua em qualquer número \(a\) em \(I\). Portanto, \(h\) é contínua em \(I\). De
+modo semelhante, podemos provar que \(f+g\) é contínua em qualquer intervalo \(I\),
+mostrando que ela é contínua à esquerda ou à direita nas extremidades. Podemos
+adaptar a demonstração para a função \(f-g\). </div>     </p></div>
+<div role="article" class="problem-environment question" id="problem16" numbered="" titletext=" Question">  Verdadeiro ou falso: se \(f\) e \(g\) são funções contínuas em um intervalo \(I\), então \(f/g\) é
+                                                                  
+
+                                                                  
+contínua em \(I\).  <div class="multiple-choice" id="problem17" titletext=" Multiple Choice"><span class="choice  "   id="choice7">Verdadeiro</span> <span class="choice correct "   id="choice8">Falso</span> </div> <div class="feedback" data-feedback="attempt" id="feedback18" titletext=" Feedback (attempt)">Nesse caso, \(f/g\) não será contínua nos valores de \(x\)
+em que \(g(x) = 0\). </div>     </div>
+<p class="noindent" >Ainda não sabemos como calcular o limite de uma composição de duas funções.
+Nosso próximo teorema fornece regras básicas sobre como os limites interagem com a
+composição de funções.
+</p>
+<div class="theorem-like problem-environment theorem" id="problem19" titletext=" theorem"><a 
+ id="x1-24r11"></a><span class="theorem-like-title">Lei do limite da composição</span> Se \(f(x)\) é contínua em \(b = \lim _{x\to a} g(x)\), então \[ \lim _{x\to a} f(g(x)) = f(\lim _{x\to a} g(x)). \] </div>
+<p class="noindent" >Como o limite de uma função contínua é igual ao valor da função, agora podemos
+passar os limites para dentro de funções contínuas.
+</p>
+<div class="theorem-like problem-environment corollary" id="problem20" titletext=" corollary"><a 
+ id="x1-25r12"></a><span class="theorem-like-title">Continuidade das funções compostas</span>
+<p class="noindent" >Se \(g\) é contínua em \(x=a\) e se \(f \) é contínua em \(g(a)\), então \(f(g(x))\) é contínua em \(x=a\).
+</p>
+</div> Usando a Lei do Limite da Composição, podemos calcular o último exemplo do
+início desta seção. <div class="theorem-like problem-environment example" id="problem21" titletext=" example"><a 
+ id="x1-26r13"></a>Calcule o limite a seguir usando as leis dos limites: \[ \lim _{x \to \pi }\cos ({x^3}) \] <div class="theorem-like problem-environment explanation" id="problem22" titletext=" explanation"><a 
+ id="x1-27r14"></a>Vamos usar a
+Lei do Limite da Composição. Seja \[ f(g(x))=\cos ({x^3}), \] em que \(f(x)=\cos (x)\) e \(g(x)=x^3\). Agora, a continuidade de \(x^3\) implica
+que \(\lim _{x \to \pi }g(x)=\pi ^3\). A continuidade de \(\cos (x)\) implica que \(f\) é contínua em \(\pi ^3=\lim _{x \to \pi }g(x)\). Agora, a Lei do Limite da
+Composição implica que \[ \lim _{x \to \pi }\cos ({x^3})= \cos \Bigl ({\lim _{x \to \pi } x^3}\Bigr )=\cos ({\pi ^3})\approx 0.91726. \]
+<p class="noindent" >Podemos confirmar nossos resultados conferindo o gráfico de \(y=f(g(x))\): \[ \graph {\cos ({x^3})} \]  </p></div> </div>
+<p class="noindent" >Muitas das Leis dos Limites e dos teoremas sobre continuidade desta seção podem
+parecer óbvios. Você pode estar se perguntando por que dedicamos uma seção inteira
+a esses teoremas. A resposta é que esses teoremas lhe dirão exatamente quando
+é fácil determinar o valor de um limite, e exatamente o que fazer nesses
+casos.
+</p><p class="noindent" >A coisa mais importante a aprender nesta seção é saber se as leis dos limites podem
+ser aplicadas a um determinado problema e quando precisamos fazer algo mais
+interessante. Começaremos a discutir esses casos mais interessantes na próxima
+seção.
+</p>
+<h3 class="sectionHead"><span class="titlemark">1   </span> <a 
+ id="x1-10001"></a>Uma lista de perguntas</h3>
+<p class="noindent" >Vamos testar isso.
+</p>
+<div role="article" class="problem-environment question" id="problem23" numbered="" titletext=" Question">  Este limite pode ser calculado diretamente pelas leis dos limites? \[ \lim _{x\to 2}\frac {x^2+3x+2}{x+2} \]  <div class="multiple-choice" id="problem24" titletext=" Multiple Choice"><span class="choice correct "   id="choice9">sim</span> <span class="choice  "   id="choice10">não</span> </div>   <div role="article" class="problem-environment question" id="problem25" numbered="" titletext=" Question">
+Calcule: \[ \lim _{x\to 2}\frac {x^2+3x+2}{x+2}\begin{prompt} =\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \] <div class="feedback" data-feedback="attempt" id="feedback26" titletext=" Feedback (attempt)">Como \(f(x)=\frac {x^2+3x+2}{x+2}\) é uma função racional e o denominador não é igual a \(0\), vemos que \(f(x)\) é
+contínua em \(x=2\). Assim, para determinar esse limite, basta substituir \(2\) em \(f(x)\). </div>    </div>
+</div>
+<div role="article" class="problem-environment question" id="problem27" numbered="" titletext=" Question">  Este limite pode ser calculado diretamente pelas leis dos limites? \[ \lim _{x\to 2}\frac {x^2-3x+2}{x-2} \]  <div class="multiple-choice" id="problem28" titletext=" Multiple Choice"><span class="choice  "   id="choice11">sim</span> <span class="choice correct "   id="choice12">não</span> </div> <div class="feedback" data-feedback="attempt" id="feedback29" titletext=" Feedback (attempt)">\(f(x) = \frac {x^2-3x+2}{x-2}\) é
+                                                                  
+
+                                                                  
+uma função racional, mas o denominador \(x-2\) é igual a \(0\) quando \(x=2\). Nenhum dos nossos
+teoremas atuais trata da situação em que o denominador de uma fração tende a \(0\). </div>
+</div>
+<div role="article" class="problem-environment question" id="problem30" numbered="" titletext=" Question">  Este limite pode ser calculado diretamente pelas leis dos limites? \[ \lim _{x\to 0} x\sin (1/x) \]  <div class="multiple-choice" id="problem31" titletext=" Multiple Choice"><span class="choice  "   id="choice13">sim</span> <span class="choice correct "   id="choice14">não</span> </div> <div class="feedback" data-feedback="attempt" id="feedback32" titletext=" Feedback (attempt)">Se
+tentássemos usar as leis dos limites para calcular este limite, teríamos primeiro que
+usar a Lei do Produto para dizer que \[ \lim _{x\to 0}x\sin (1/x)= \lim _{x\to 0} x \cdot \lim _{x\to 0} \sin (1/x). \] Só podemos usar essa lei se ambos os limites
+existirem, então precisamos verificar isso primeiro. Sabemos, pela continuidade, que \[ \lim _{x\to 0}x=0. \]
+Entretanto, também sabemos que \(\sin (1/x)\) oscila “descontroladamente” quando \(x\) tende a \(0\), e
+por isso o limite \[ \lim _{x\to 0} \sin (1/x) \]não existe. Portanto, não podemos usar a Lei do Produto. </div>
+</div>
+<div role="article" class="problem-environment question" id="problem33" numbered="" titletext=" Question">  Este limite pode ser calculado diretamente pelas leis dos limites? \[ \lim _{x\to 0} \cot (x^3) \]  <div class="multiple-choice" id="problem34" titletext=" Multiple Choice"><span class="choice  "   id="choice15">sim</span> <span class="choice correct "   id="choice16">não</span> </div>
+<div class="feedback" data-feedback="attempt" id="feedback35" titletext=" Feedback (attempt)">Observe que \[ \cot (x^3) = \frac {\cos (x^3)}{\sin (x^3)}. \] Se tentássemos usar as leis dos limites para calcular este limite,
+gostaríamos de usar a Lei do Quociente para dizer que \[ \lim _{x\to 0} \frac {\cos (x^3)}{\sin (x^3)} = \frac {\lim _{x\to 0} \cos (x^3)}{\lim _{x\to 0} \sin (x^3)}. \] Só podemos usar essa lei
+se ambos os limites existirem e o denominador não for \(0\). Suspeitamos que
+o limite do denominador pode ser igual a \(0\), então verificamos esse limite.
+\begin{align*}  \lim _{x\to 0} \sin (x^3) &amp;= \sin (\lim _{x\to 0}x^3)\\ &amp;=\sin (0) \\ &amp;=0.  \end{align*}
+<p class="noindent" >Isso significa que o denominador é zero e, portanto, não podemos usar a Lei do
+Quociente. </div>     </p></div>
+<div role="article" class="problem-environment question" id="problem36" numbered="" titletext=" Question">  Este limite pode ser calculado diretamente pelas leis dos limites? \[ \lim _{x\to 0}\sec ^2(e^x-1) \]  <div class="multiple-choice" id="problem37" titletext=" Multiple Choice"><span class="choice correct "   id="choice17">sim</span> <span class="choice  "   id="choice18">não</span> </div>   <div role="article" class="problem-environment question" id="problem38" numbered="" titletext=" Question">
+Calcule: \[ \lim _{x\to 0}\sec ^2(e^x-1)\begin{prompt} =\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \] <div class="feedback" data-feedback="attempt" id="feedback39" titletext=" Feedback (attempt)">Observe que \[ \lim _{x\to 0} \sec ^2(e^x-1) = \lim _{x\to 0} \frac {1}{\cos ^2(e^x-1)}. \] Se tentássemos usar as Leis dos Limites para calcular este
+limite, teríamos agora que usar a Lei do Quociente para dizer que \[ \lim _{x\to 0} \frac {1}{\cos ^2(e^x-1)} = \frac { \lim _{x\to 0}1}{ \lim _{x\to 0}\cos ^2(e^x-1)}. \] Só podemos usar
+essa lei se ambos os limites existirem e o denominador não for \(0\). Vamos verificar o
+denominador e o numerador separadamente. Primeiro, calculamos o limite do
+denominador: \begin{align*}  \lim _{x\to 0}\cos ^2(e^x-1) &amp;= (\lim _{x\to 0}\cos {(e^x-1)})^{2}\\ &amp;= \Bigl (\cos {\Big (\lim _{x\to 0}(e^x-1)\Bigr )}\Bigr )^{2}\\ &amp; =\cos ^2\Bigl (\lim _{x\to 0}(e^x-1)\Bigr )\\ &amp;=\cos ^2\Bigl (\lim _{x\to 0}(e^x)-\lim _{x\to 0}(1)\Bigr )\\ &amp;=\cos ^2(1-1)\\ &amp;= \cos ^2(0)\\ &amp;=1  \end{align*}
+<p class="noindent" >Portanto, o limite do denominador existe e não é igual a \(0\). Podemos usar a
+Lei do Quociente, então vamos calcular o limite do numerador: \[ \lim _{x\to 0}1=1 \] Logo, \[ \frac { \lim _{x\to 0}1}{ \lim _{x\to 0}\cos ^2(e^x-1)} = \frac {1}{1}=1 \] </div>    </p></div>
+</div>
+<div role="article" class="problem-environment question" id="problem40" numbered="" titletext=" Question">  Este limite pode ser calculado diretamente pelas leis dos limites? \[ \lim _{x\to 1}{(x-1)\cdot \csc (\ln (x))} \]  <div class="multiple-choice" id="problem41" titletext=" Multiple Choice"><span class="choice  "   id="choice19">sim</span> <span class="choice correct "   id="choice20">não</span> </div> <div class="feedback" data-feedback="attempt" id="feedback42" titletext=" Feedback (attempt)">Se
+tentássemos usar as leis dos limites para calcular este limite, teríamos que usar a Lei
+do Produto para dizer que \[ \lim _{x\to 1}{(x-1)\cdot \csc (\ln (x))}= \lim _{x\to 1}{(x-1)\cdot \lim _{x\to 1}\csc (\ln (x))}. \] Só podemos usar essa lei se ambos os limites existirem.
+Vamos verificar cada limite separadamente. \begin{align*}  \lim _{x\to 1} (x-1) &amp;= \lim _{x\to 1} (x)-\lim _{x\to 1}(1)\\ &amp;=1-1\\ &amp;=0.  \end{align*}
+<p class="noindent" >Logo, esse limite existe. Agora verificamos o outro fator. Observe que \[ \lim _{x\to 1}\csc (\ln (x)) = \frac {1}{\sin (\ln (x))}. \] Se
+tentássemos usar as leis dos limites para calcular este limite, teríamos agora
+que usar a Lei do Quociente para dizer que \[ \frac {1}{\sin (\ln (x))} = \frac {\lim _{x\to 1}1}{\lim _{x\to 1}\sin (\ln (x))}. \] Só podemos usar essa lei se
+ambos os limites existirem e o denominador não for igual a \(0\). O limite do
+numerador certamente existe, então vamos verificar o limite do denominador.
+\begin{align*}  \lim _{x\to 1}\sin (\ln (x)) &amp;= \sin (\lim _{x\to 1}\ln (x))\\ &amp;=\sin (\ln (1))\\ &amp;= \sin (0)\\ &amp;= 0  \end{align*}
+</p><p class="noindent" >Como o denominador é \(0\), não podemos aplicar a Lei do Quociente. </div>     </p></div>
+<div role="article" class="problem-environment question" id="problem43" numbered="" titletext=" Question">  Este limite pode ser calculado diretamente pelas leis dos limites? \[ \lim _{x\to 0} x\ln (x) \]  <div class="multiple-choice" id="problem44" titletext=" Multiple Choice"><span class="choice  "   id="choice21">sim</span> <span class="choice correct "   id="choice22">não</span> </div> <div class="feedback" data-feedback="attempt" id="feedback45" titletext=" Feedback (attempt)">Se
+tentássemos usar as leis dos limites para calcular este limite, teríamos que
+usar a Lei do Produto para dizer que \[ \lim _{x\to 0} x\ln (x) =\lim _{x\to 0} x \cdot \lim _{x\to 0}\ln (x). \] Só podemos usar essa lei se ambos
+os limites existirem. Sabemos que \(\lim _{x\to 0} x = 0\), mas e quanto a \(\lim _{x\to 0}\ln (x)\)? Não sabemos como
+                                                                  
+
+                                                                  
+determinar \(\lim _{x\to 0}\ln (x)\) usando as leis dos limites, porque \(0\) não está no domínio de \(\ln (x)\). </div>
+</div>
+<div role="article" class="problem-environment question" id="problem46" numbered="" titletext=" Question">  Este limite pode ser calculado diretamente pelas leis dos limites? \[ \lim _{x\to 0}\frac {2^x-1}{3^{x-1}} \]  <div class="multiple-choice" id="problem47" titletext=" Multiple Choice"><span class="choice correct "   id="choice23">sim</span> <span class="choice  " 
+id="choice24">não</span> </div>   <div role="article" class="problem-environment question" id="problem48" numbered="" titletext=" Question">   Calcule: \[ \lim _{x\to 0}\frac {2^x-1}{3^{x-1}}\begin{prompt} =\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \] <div class="feedback" data-feedback="attempt" id="feedback49" titletext=" Feedback (attempt)">Se tentássemos usar as leis dos limites para calcular este
+limite, teríamos que usar a Lei do Quociente para dizer que \[ \lim _{x\to 0}\frac {2^x-1}{3^{x-1}} = \frac {\lim _{x\to 0}(2^x-1)}{\lim _{x\to 0}(3^{x-1})}. \] Só podemos
+usar essa lei se ambos os limites existirem e o denominador não for igual a \(0\).
+Vamos verificar cada limite separadamente, começando pelo denominador
+\begin{align*}  \lim _{x\to 0}(3^{x-1}) &amp;=3^{\lim _{x\to 0}(x-1)}\\ &amp;=3^{-1}\\ &amp;=\frac {1}{3}  \end{align*}
+<p class="noindent" >Por outro lado, o limite do numerador é \begin{align*}  \lim _{x\to 0}(2^x-1) &amp;=\lim _{x\to 0}(2^x)-\lim _{x\to 0}(1)\\ &amp;=1-1\\ &amp;=0  \end{align*}
+</p><p class="noindent" >Os limites do numerador e do denominador existem, e o limite do denominador não é
+igual a \(0\), então podemos usar a Lei do Quociente. Obtemos: \[ \frac {\lim _{x\to 0}(2^x-1)}{\lim _{x\to 0}(3^{x-1})} =\frac {0}{\frac {1}{3}}=0. \] </div>    </p></div>     </div>
+<div role="article" class="problem-environment question" id="problem50" numbered="" titletext=" Question">  Este limite pode ser calculado diretamente pelas leis dos limites? \[ \lim _{x\to 0}(1+x)^{1/x} \]  <div class="multiple-choice" id="problem51" titletext=" Multiple Choice"><span class="choice  "   id="choice25">sim</span> <span class="choice correct "   id="choice26">não</span> </div>
+<div class="feedback" data-feedback="attempt" id="feedback52" titletext=" Feedback (attempt)">Não temos nenhuma lei dos limites para funções da forma \(f(x)^{g(x)}\), então não conseguimos
+calcular este limite. </div>     </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"3","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"1","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"0","format":"expression","given":false,"antiderivative":false}}</script>

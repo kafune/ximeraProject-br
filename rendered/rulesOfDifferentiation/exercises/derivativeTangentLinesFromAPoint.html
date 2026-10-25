@@ -1,0 +1,131 @@
+<!-- traduz-render: 7b11e0b440e3dc3b09492c9640b17db6a9960a07f1dad358e76a57d8093db3a5 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div role="article" class="problem-environment exercise" id="problem1" numbered="" titletext=" Exercise">
+A figura abaixo mostra o gráfico da função \(f\), em que \(f(x)=-x^2\), e o ponto \(P(0,3)\).
+<p class="noindent" >Determine as equações de todas as retas tangentes à curva \(y=f(x)\) que passam pelo ponto
+\(P\).
+</p>
+<div class="image-environment" role="img" aria-labelledby="image-alt-1"> <img 
+src="/rendered/rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint-b1ae1c9429c32328410c1ecd7f61876c.svg" alt="[Picture]"  /> </div>
+<p class="noindent" >Vamos resolver este problema em várias etapas.
+</p><p class="noindent" >ETAPA 1
+</p><p class="noindent" >Qualquer reta tangente desse tipo passa pelo ponto \(P(0,3)\) e tem uma inclinação, que
+chamaremos de \(m\). Portanto, sua equação é dada por \[ y-\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}=m(x-\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}) \] ETAPA 2
+</p><p class="noindent" >Agora precisamos encontrar uma expressão para a inclinação \(m\). </p><div class="image-environment" role="img" aria-labelledby="image-alt-2">
+<img 
+src="/rendered/rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint-2dcff2642e2b5eb351debddfa398c70a.svg" alt="[Picture]"  /> </div>
+<p class="noindent" >A reta é tangente à curva \(y=f(x)\) em algum ponto da curva, digamos \((a,f(a))=(a,-a^2)\). Portanto, a
+                                                                  
+
+                                                                  
+inclinação da reta tangente, m, é dada por \[ m =f'(a) \] e, expressando \(f'(a)\) em termos de \(a\), obtemos
+que \[ m= \class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} a.\\ \]
+</p><p class="noindent" >Portanto, uma equação da reta tangente é dada por \[ y-3=\class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}ax, \] em que \(a\) ainda precisa ser
+determinado.
+</p>
+<div data-original="expandable" id="foldable2" class="foldable">xmhintObserve que o ponto \((a,-a^2)\) pertence tanto à reta tangente quanto à curva
+\(y=f(x)\).
+<p class="noindent" >Portanto, o ponto \((a,-a^2)\) satisfaz a equação da reta tangente!
+</p><p class="noindent" >Substituindo \(x=a\) e \(y=-a^2\) na equação da reta, obtemos a equação \[ -a^2-3=-2a(a) \]
+</p><p class="noindent" >Resolva essa equação do segundo grau para \(a\)!</div>Encontramos duas soluções para \(a\)
+(escritas em ordem crescente)
+</p><p class="noindent" >\[ a=\class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}}\text { and } a=\class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}}. \]
+</p><p class="noindent" >Isso significa que há duas retas tangentes passando pelo ponto \(P\),
+</p><p class="noindent" >uma com inclinação (escritas em ordem crescente) \(m=\class{xm-answer}{\cssId{xm-answer-7}{\phantom{\rule{7em}{1.5em}}}}\) e a outra com inclinação
+\(m=\class{xm-answer}{\cssId{xm-answer-8}{\phantom{\rule{7em}{1.5em}}}}\).
+</p><p class="noindent" >Confira a figura! </p><div class="image-environment" role="img" aria-labelledby="image-alt-3"> <img 
+src="/rendered/rulesOfDifferentiation/exercises/derivativeTangentLinesFromAPoint-1b1bcc83490b08a0bf91ccf3fcac4176.svg" alt="[Picture]"  /> </div> ETAPA
+3
+<p class="noindent" >Existem exatamente duas retas que são tangentes à curva \(y=f(x)\) e passam pelo ponto \(P\). A
+primeira reta tem inclinação positiva e a segunda tem inclinação negativa, e suas
+equações, escritas nessa ordem, são: \begin{align*}  y &amp;= \class{xm-answer}{\cssId{xm-answer-9}{\phantom{\rule{7em}{1.5em}}}}\\ y &amp;= \class{xm-answer}{\cssId{xm-answer-10}{\phantom{\rule{7em}{1.5em}}}}\\  \end{align*}
+</p>
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"3","format":"expression","given":false,"antiderivative":false},"xm-answer-10":{"answer":"-2\\sqrt {3}x+3","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"-2","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"-2","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"-\\sqrt {3}","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"\\sqrt {3}","format":"expression","given":false,"antiderivative":false},"xm-answer-7":{"answer":"-2\\sqrt {3}","format":"expression","given":false,"antiderivative":false},"xm-answer-8":{"answer":"2\\sqrt {3}","format":"expression","given":false,"antiderivative":false},"xm-answer-9":{"answer":"2\\sqrt {3}x+3","format":"expression","given":false,"antiderivative":false}}</script>

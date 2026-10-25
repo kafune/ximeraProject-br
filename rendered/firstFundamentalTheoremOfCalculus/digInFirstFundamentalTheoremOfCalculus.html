@@ -1,0 +1,213 @@
+<!-- traduz-render: 6d299181be991da832feef379dc633c071d2217091ce814b77432a9ce8fa60e4 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+A taxa com que a área acumulada sob uma curva cresce é descrita exatamente pela
+própria curva. 
+</div>
+<div class='maketitle'></div>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Funções acumulação</h3>
+<p class='noindent'>Embora a integral definida calcule uma área com sinal, que é um número fixo, há
+uma maneira de transformá-la em uma função.
+</p>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-1001r1'></a>Dada uma função \(f\) contínua em \([a,b]\), uma <strong>função acumulação</strong>, para \(a\le x\le b\), é definida por
+\[ F(x) = \int _a^x f(t) \d t. \]
+</div><p> Uma coisa que você pode notar é que uma função acumulação parece ter duas
+variáveis: \(x\) e \(t\). Vamos ver se conseguimos explicar isso. Considere o gráfico a seguir: </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus-c0d142bb47cd61dc537e9d0317d7ae5d.svg" /> </div>
+<p class='noindent'>Uma função acumulação \(F\) mede a área com sinal da região, sobre \([a,x]\), compreendida
+entre \(f\) e o eixo \(t\). Logo, \(t\) desempenha o papel de um “marcador de posição” que nos
+permite calcular \(f\). Por outro lado, \(x\) é o <strong>número específico</strong> que usamos para
+delimitar a região que determinará a área entre \(f\) e o eixo \(t\) e, portanto, o valor de
+\(F\).
+</p><p class='noindent'>Na figura interativa abaixo, está traçado o gráfico de uma função \(f\), e uma função
+acumulação \(F\) é dada por \(F(x) = \int _{-3}^x f(t) \d t\). Use o controle deslizante para ajustar o valor de \(x\). Observe
+como a região sombreada no gráfico muda e o que acontece com o valor de \(F(x)\) quando o
+                                                                  
+
+                                                                  
+gráfico de \(f\) está acima do eixo \(x\) e quando o gráfico de \(f\) está abaixo do eixo \(x\).
+</p>
+<div class='center'>
+<p class='noindent'><iframe height='600px' src='https://www.desmos.com/calculator/wrh74xp96s' style='border: 1px solid #ccc' width='100%'>This browser does not support embedded elements.</iframe></p></div>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Dado \[ F(x) = \int _{-3}^x 4 \d t, \] quanto vale \(F(5)\)?  \[ F(5) = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \]    <div class='problem-environment question' id='problem3' numbered='' role='article' titletext=' Question'>   Quanto vale \(F(-5)\)?  \[ F(-5) = \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \]     </div>   <div class='problem-environment question' id='problem4' numbered='' role='article' titletext=' Question'>   Quanto vale \(F(-3)\)?  \[ F(-3) = \class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \]     </div>
+</div>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-1002r2'></a>Considere a seguinte função acumulação para \(f(x) = x^3\). \[ F(x) = \int _{-1}^x t^3 \d t. \] Considerando o intervalo \([-1,1]\), onde \(F\) é
+crescente? Onde \(F\) é decrescente? Quando \(F\) tem extremos locais?
+<div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-1003r3'></a>Abaixo vemos o gráfico de \(f\) junto com a área com sinal medida pela função acumulação. <div aria-labelledby='image-alt-2' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus-4f237a3cc07b0bfda5c538e5fcfc9d07.svg" /> </div> A função acumulação começa em zero e, então, à medida que \(x\) cresce, \(F\) é <span class='word-choice' id='word-choice7'><a id='x1-1004r4'></a><span class='choice  ' id='choice1'>crescente</span><span class='choice correct
+' id='choice2'>decrescente</span></span>, pois a função acumula área com sinal negativo.
+<p class='noindent'>Porém, quando \(x&gt;0\), \(F\) começa a acumular área com sinal positivo e, portanto, é <span class='word-choice' id='word-choice8'><a id='x1-1005r5'></a><span class='choice correct ' id='choice3'>crescente</span><span class='choice  ' id='choice4'>decrescente</span></span>. Assim, \(F\) é crescente em \((0,1)\), decrescente em \((-1,0)\) e, portanto, tem um
+mínimo local em \((0,0)\). </p></div> </div>
+<p class='noindent'>Trabalhar com a função acumulação nos leva a uma pergunta: quanto vale \[ \int _a^x f(t) \d t \] quando \(x&lt; a\)?
+A convenção geral é que \[ \int _a^b f(t) \d t = -\int _b^a f(t) \d t. \] Com isso em mente, vamos considerar mais um
+exemplo.
+</p>
+<div class='theorem-like problem-environment example' id='problem9' titletext=' example'><a id='x1-1006r6'></a>Considere a seguinte função acumulação para \(f(x) = x^3\). \[ F(x) = \int _{-1}^x t^3 \d t. \] Onde \(F\) é crescente? Onde \(F\) é decrescente?
+Quando \(F\) tem extremos locais? <div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-1007r7'></a>Do exemplo anterior, sabemos que \(F\) é crescente em \((0,1)\).
+Como \(f\) continua positiva em \(t=1\) e daí em diante, \(F\) é <span class='word-choice' id='word-choice11'><a id='x1-1008r8'></a><span class='choice correct ' id='choice5'>crescente</span><span class='choice  ' id='choice6'>decrescente</span></span> em \((0,\infty )\). Por
+outro lado, sabemos do exemplo anterior que \(F\) é <span class='word-choice' id='word-choice12'><a id='x1-1009r9'></a><span class='choice  ' id='choice7'>crescente</span><span class='choice correct ' id='choice8'>decrescente</span></span> em \((-1,0)\). <div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus-982ede7a6fc2067374f9345ae3553b20.svg" /> </div> Para valores à esquerda de \(t=-1\), \(F\) continua decrescente, pois cada vez menos área com
+sinal positivo é acumulada. Logo, \(F\) é crescente em \((0,\infty )\), decrescente em \((-\infty ,0)\) e, portanto, tem
+um mínimo absoluto em \((0,0)\). </div> </div><p> O ponto principal a extrair desses exemplos é que uma
+função acumulação \[ F(x) = \int _a^x f(t) \d t \] é crescente exatamente quando \(f\) é positiva e é decrescente
+exatamente quando \(f\) é negativa. Em resumo, parece que \(f\) está se comportando de
+modo muito parecido com \(F'\).
+</p>
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>O primeiro teorema fundamental do cálculo</h3>
+<p class='noindent'>Seja \(f\) uma função contínua nos números reais e considere \[ F(x) = \int _a^x f(t)\d t. \] Do nosso trabalho anterior,
+sabemos que \(F\) é crescente quando \(f\) é positiva e que \(F\) é decrescente quando \(f\) é negativa.
+Além disso, com uma observação cuidadosa, podemos até ver que \(F\) tem concavidade
+para cima quando \(f'\) é positiva e que \(F\) tem concavidade para baixo quando \(f'\) é
+negativa. Pensando no que aprendemos sobre a relação entre uma função e suas
+derivadas primeira e segunda, não é tão difícil adivinhar que deve haver uma
+conexão entre \(F'\) e a função \(f\). Esse é um bom palpite; confira nosso próximo
+teorema:
+</p>
+<div class='theorem-like problem-environment theorem' id='problem13' titletext=' theorem'><a id='x1-2001r10'></a><span class='theorem-like-title'>Primeiro teorema fundamental do cálculo</span> Suponha que \(f\) é contínua nos números
+reais e seja \[ F(x)=\int _a^x f(t)\d t. \] Então \(F'(x)=f(x)\). </div>
+<p class='noindent'>O primeiro teorema fundamental do cálculo diz que uma função
+acumulação de \(f\) é uma antiderivada de \(f\). Outra maneira de dizer isso é: </p><div aria-labelledby='image-alt-4' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus-da21169e0cc5c040a58b32505d3a2f29.svg" /> </div><p> Isso pode ser lido
+assim:
+     </p><blockquote class='quote'>
+     <p class='noindent'><strong>A <span style='color:#004DB2;'>taxa</span> com que a <span style='color:#007D4D;'>área acumulada</span> sob uma <span style='color:#56008F;'>curva</span>
+     cresce  é  descrita  exatamente  por  essa  mesma
+     curve.</strong></p></blockquote>
+<p class='noindent'>Nessa forma, o primeiro teorema fundamental do cálculo serve como uma nova
+fórmula de atalho de derivação, que usamos ao derivar funções acumulação.
+</p>
+<div class='theorem-like problem-environment example' id='problem14' titletext=' example'><a id='x1-2002r11'></a>Determine a derivada \[ \ddx \int _2^{x} \sqrt {t+15} \d t. \] <div class='theorem-like problem-environment explanation' id='problem15' titletext=' explanation'><a id='x1-2003r12'></a>Pelo primeiro teorema fundamental do cálculo, \[ \ddx \int _2^{x} \sqrt {t+15} \d t = \sqrt {\class{xm-given}{x}+15}. \] Observe que o
+efeito é que substituímos a variável do integrando por \(x\), e o valor de \(a\) não importa. </div>
+</div>
+<div class='problem-environment question' id='problem16' numbered='' role='article' titletext=' Question'>  Determine a derivada \[ \ddx \int _1^{x} \sin {t^2-3} \d t. \]  \[ \ddx \int _1^{x} \sin (t^2-3) \d t = \class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}} \]     </div>
+<p class='noindent'>Agora que estamos trabalhando com funções acumulação, vamos ver o que acontece
+quando as compomos com outras funções.
+</p>
+<div class='theorem-like problem-environment example' id='problem17' titletext=' example'><a id='x1-2004r13'></a>Determine a derivada \[ \ddx \int _2^{x^2} \ln (t) \d t. \] <div class='theorem-like problem-environment explanation' id='problem18' titletext=' explanation'><a id='x1-2005r14'></a>Considere \[ F(x) = \int _2^x \ln (t) \d t \] e defina \(h(x) = x^2\). Agora \[ \int _2^{x^2} \ln (t) \d t = F(h(x)). \] O primeiro teorema fundamental
+do cálculo afirma que \(F'(x) = \ln x\). A regra da cadeia nos dá \begin{align*}  \ddx \int _2^{x^2} \ln (t) \d t&amp;= \ddx F(h(x)) \\ &amp;= F' (h(x))h'(x) \\ &amp;= \ln (h(x)) h'(x) \\ &amp;= \class{xm-given}{\ln (x^2) 2x}.  \end{align*}
+</div> </div>
+<p class='noindent'>Vamos praticar isso mais uma vez.
+</p>
+<div class='theorem-like problem-environment example' id='problem19' titletext=' example'><a id='x1-2006r15'></a>Determine a derivada \[ \ddx \int _{\cos (x)}^5 t^3\d t. \] <div class='theorem-like problem-environment explanation' id='problem20' titletext=' explanation'><a id='x1-2007r16'></a>Considere \[ F(x) = \int _5^x t^3 \d t \] e defina \(h(x) = \class{xm-given}{\cos (x)}\). Agora \[ \int _{\cos (x)}^5 t^3\d t =- \int _{5}^{\cos (x)} t^3\d t = -F(h(x)). \] O primeiro teorema fundamental
+do cálculo afirma que \(F'(x) = x^3\). A regra da cadeia nos dá \begin{align*}  \ddx \int _{\cos (x)}^5 t^3\d t &amp;= \ddx (-F(h(x)))\\ &amp;= -F'(h(x))h'(x)\\ &amp;=-\left (h(x)\right )^3 h'(x)\\ &amp;=\class{xm-given}{-\cos ^3(x) (-\sin (x))}.  \end{align*}
+</div> </div> <div class='theorem-like problem-environment example' id='problem21' titletext=' example'><a id='x1-2008r17'></a>Dado o gráfico de uma função \(f\) no intervalo \([-1,5]\), esboce o gráfico da função acumulação \[ F(x) = \int _{-1}^x f(t) \d t, \hspace {0.2in} -1\le x\le 5. \] <div aria-labelledby='image-alt-5' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus-771cadf8a294c16785f982247d313f51.svg" /> </div> <div class='theorem-like problem-environment explanation' id='problem22' titletext=' explanation'><a id='x1-2009r18'></a>Primeiro, calculamos \(F\) em alguns pontos significativos. \[ F(-1) = \int _{-1}^{-1} f(t) \d t=\class{xm-given}{0}. \] \[ F(0) = \int _{-1}^{0} f(t) \d t=\class{xm-given}{-1.5}. \] \[ F(1) = \int _{-1}^{1} f(t) \d t=\class{xm-given}{-2}. \] \[ F(3) = \int _{-1}^{3} f(t) \d t=\class{xm-given}{0}. \] \[ F(4) = \int _{-1}^{4} f(t) \d t=\class{xm-given}{2}. \] \[ F(5) = \int _{-1}^{5} f(t) \d t=\class{xm-given}{4}. \]
+<p class='noindent'>Como \(F'(x)=f(x)\), segue que a função \(F\) é crescente no intervalo \[ \left (\class{xm-given}{1},\class{xm-given}{5}\right ) \] e decrescente no intervalo \[ \left (\class{xm-given}{-1},\class{xm-given}{1}\right ). \]
+Como a função \(f\), a derivada de \(F\), é crescente em \((-1,3)\), \(F\) tem concavidade para cima no
+intervalo \[ \left (\class{xm-given}{-1},\class{xm-given}{3}\right ). \] Como \(f\) é constante no intervalo \([3,5]\), \(F\) é linear em \([3,5]\).
+</p><p class='noindent'>A função \(F\) tem um mínimo local e absoluto em \[ x=\class{xm-given}{1}, \] e o máximo absoluto em \[ x=\class{xm-given}{5}. \] Agora estamos
+prontos para esboçar o gráfico de \(F\) no mesmo sistema de eixos do gráfico de \(f\). </p><div aria-labelledby='image-alt-6' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/firstFundamentalTheoremOfCalculus/digInFirstFundamentalTheoremOfCalculus-5628267a864b669e104cfbfd8db6345d.svg" /> </div> </div> </div>
+<p class='noindent'>E se a função \(f\) for a função velocidade de um objeto que se move ao longo de uma
+reta, isto é, \(f(t)=v(t)\), \(a \leq t \leq b\)?
+</p><p class='noindent'>Qual é o significado de uma função acumulação nesse caso?
+</p><p class='noindent'>Nesse caso, usamos variáveis diferentes, pois queremos que \(F\) seja uma função do
+tempo, \(t\). Com esse ajuste, definimos a função acumulação \(F\) da seguinte forma. \[ F(t)=\int _a^t v(z)\d z. \] Como
+                                                                  
+
+                                                                  
+a integral \[ \int _a^t v(z)\d z \] dá o deslocamento do objeto no intervalo de tempo \([a,t]\), segue que \[ s(t)-s(a)= \int _a^t v(z)\d z, \] onde \(s(t)\) dá a
+posição do objeto no instante \(t\). Se derivarmos essa equação em relação a \(t\),
+obtemos \[ s'(t)=\dd t \int _a^t v(z)\d z. \] Como \(s'(t)=v(t)\), temos que \[ v(t)=\dd t \int _a^t v(z)\d z. \] Este é o primeiro teorema fundamental do
+cálculo!
+</p>
+<div class='theorem-like problem-environment example' id='problem23' titletext=' example'><a id='x1-2010r19'></a>Suponha que \(\displaystyle F(x) = \int ^0_{x^2+x} \ln (t+e) \d t\). Aproxime o valor de \(F(0.1)\). <div class='theorem-like problem-environment explanation' id='problem24' titletext=' explanation'><a id='x1-2011r20'></a>Começamos calculando \(L\), a aproximação linear
+de \(F\) no ponto \(a=0\). \begin{align*}  F(0) &amp;= \int _{0^2+0}^0\ln (t+e) \d t\\ &amp;= 0.\\ F'(x) &amp;= \ddx \int _{x^2+x}^0 \ln (t+e) \d t\\ &amp;= - \ddx \int ^{x^2+x}_0 \ln (t+e) \d t\\ &amp;= -\ln (x^2+x+e)\cdot (2x+1)\\ F'(0) &amp;= -\ln (0+e)\cdot (2\cdot 0 + 1)\\ &amp;= \class{xm-given}{-1}  \end{align*}
+<p class='noindent'>A função de aproximação linear é \(L(x) = -1(x-0)+0 = -x\). Isso nos dá \(F(0.1) \approx L(0.1) = -0.1\). </p></div> </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"32","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"-8","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"\\sin (x^2-3)","format":"expression","given":false,"antiderivative":false}}</script>

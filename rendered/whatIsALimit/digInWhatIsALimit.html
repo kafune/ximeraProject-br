@@ -1,0 +1,317 @@
+<!-- traduz-render: 3dd5f38a170a273ce0aef0d84c08fcc5b12bf656113c09e7198ab7c9599f51e1 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class="abstract">
+Apresentamos os limites. 
+</div>
+<div class="maketitle"></div>
+<h3 class="sectionHead"><span class="titlemark">1   </span> <a 
+ id="x1-10001"></a>A ideia básica</h3>
+<p class="noindent" >Considere a função \[ f(x) = \frac {\sin (x)}{x}. \] Embora \(f(x)\) não esteja definida em \(x=0\),
+ainda podemos traçar \(f(x)\) em outros valores próximos de \(x = 0\). </p><div class="image-environment" role="img" aria-labelledby="image-alt-1">
+<img 
+src="/rendered/whatIsALimit/digInWhatIsALimit-c98cd7ff51a0346a7b7a5667f37a369a.svg" alt="[Picture]"  /> </div>
+<div role="article" class="problem-environment question" id="problem1" numbered="" titletext=" Question">  Use o gráfico de \(f(x) = \frac {\sin (x)}{x}\) acima para responder à pergunta a seguir: Quanto vale \(f(0)\)? <div class="multiple-choice" id="problem2" titletext=" Multiple Choice"><span class="choice  "   id="choice1">\(0\)</span> <span class="choice  "   id="choice2">\(f(0)\)</span> <span class="choice  "   id="choice3">\(1\)</span> <span class="choice correct
+"  id="choice4">\(f(0)\) não está definido</span> <span class="choice  "   id="choice5">é impossível dizer</span> </div>    </div>
+<p class="noindent" >Mesmo assim, podemos ver que, à medida que \(x\) se aproxima de zero, \(f(x)\) se
+aproxima de um. É a partir dessa situação que chegamos à nossa definição de
+limite.
+</p>
+<div class="theorem-like problem-environment definition" id="problem3" titletext=" definition"><a 
+ id="x1-1001r1"></a>Intuitivamente,
+<div class="center" 
+>
+<p class="noindent" >o <strong>limite</strong> de \(f(x)\) quando \(x\) se aproxima de \(a\) é \(L\),</p></div>
+<p class="noindent" >e escrevemos \[ \lim _{x\to a} f(x) = L, \] se o valor de \(f(x)\) fica tão próximo de \(L\) quanto se queira para todo \(x\)
+suficientemente próximo de \(a\), mas diferente dele. </p></div>
+<div role="article" class="problem-environment question" id="problem4" numbered="" titletext=" Question">  Use o gráfico de \(f(x) = \frac {\sin (x)}{x}\) acima para completar a afirmação a seguir: “Um bom palpite é
+que…” <div class="multiple-choice" id="problem5" titletext=" Multiple Choice"><span class="choice correct "   id="choice6">\(\lim _{x\to 0}\frac {\sin (x)}{x} = 1\).</span> <span class="choice  "   id="choice7">\(\lim _{x\to 1}\frac {\sin (x)}{x} = 0\).</span> <span class="choice  "   id="choice8">\(\lim _{x\to 1}f(x) = \frac {\sin (1)}{1}\).</span> <span class="choice  "   id="choice9">\(\lim _{x\to 0}f(x) = \frac {\sin (0)}{0}=\infty \).</span> </div>    </div>
+<div role="article" class="problem-environment question" id="problem6" numbered="" titletext=" Question">  Considere o gráfico de \(y=f(x)\) a seguir <div class="image-environment" role="img" aria-labelledby="image-alt-2">
+                                                                  
+
+                                                                  
+<p class="noindent" ><img 
+src="/rendered/whatIsALimit/digInWhatIsALimit-c53b259f386a1cc736b2c1bad83dd162.svg" alt="[Picture]"  /> </div> Use o gráfico
+para calcular os valores a seguir. Escreva DNE se o valor não existir.
+     </p><ol  class="enumerate1" >
+<li 
+  class="enumerate" id="x1-1003x1">
+     <p class="noindent" >\(f(-2) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-1005x2">
+     <p class="noindent" >\(\lim _{x\to -2}f(x)\begin{prompt}=\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-1007x3">
+     <p class="noindent" >\(f(-1) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-1009x4">
+     <p class="noindent" >\(\lim _{x\to -1}f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-1011x5">
+     <p class="noindent" >\(f(0) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+                                                                  
+
+                                                                  
+<li 
+  class="enumerate" id="x1-1013x6">
+     <p class="noindent" >\(\lim _{x\to 0} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-1015x7">
+     <p class="noindent" >\(f(1) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-7}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-1017x8">
+     <p class="noindent" >\(\lim _{x\to 1} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-8}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)</p></li></ol>
+</div>
+
+<h3 class="sectionHead"><span class="titlemark">2   </span> <a 
+ id="x1-20002"></a>Limites podem não existir</h3>
+<p class="noindent" >Limites podem não existir. Vamos ver como isso acontece.
+</p>
+<div class="theorem-like problem-environment example" id="problem7" titletext=" example"><a 
+ id="x1-2001r2"></a>Considere o gráfico de \(f(x) = \lfloor x\rfloor \). <div class="image-environment" role="img" aria-labelledby="image-alt-3"> <img 
+src="/rendered/whatIsALimit/digInWhatIsALimit-c09a2b84c9e3af4fe29f64cca2609542.svg" alt="[Picture]"  /> </div>
+Explique por que o limite \[ \lim _{x\to 2} f(x) \] não existe. <div class="theorem-like problem-environment explanation" id="problem8" titletext=" explanation"><a 
+ id="x1-2002r3"></a>A função \(\lfloor x \rfloor \) é a função que retorna o maior
+inteiro menor ou igual a \(x\). Lembre-se de que \[ \lim _{x\to 2} \lfloor x \rfloor = L \] se \(\lfloor x\rfloor \) pode ficar arbitrariamente próximo
+de \(L\) tomando \(x\) suficientemente próximo de \(2\), mas diferente dele. Então vamos
+examinar \(x\) próximo de \(2\), mas diferente dele. Agora a pergunta é: Quanto vale
+\(L\)?
+<p class="noindent" >Se esse limite existe, então deveríamos conseguir olhar suficientemente perto de \(x=2\),
+                                                                  
+
+                                                                  
+mas não exatamente nesse ponto, e ver que \(f\) se aproxima de algum número. Vamos
+olhar um gráfico: </p><div class="image-environment" role="img" aria-labelledby="image-alt-4"> <img 
+src="/rendered/whatIsALimit/digInWhatIsALimit-6a22228b1c7103a649d2d7a88fe533b4.svg" alt="[Picture]"  /> </div> Se
+olharmos o que acontece para valores de \(x\) cada vez mais próximos de \(x=2\), mas
+ficando à esquerda de 2, vemos que \(f(x) = 1\). No entanto, se deixarmos os valores de \(x\)
+ficarem cada vez mais próximos de \(x=2\), mas ficando à direita de 2, vemos <div class="image-environment" role="img" aria-labelledby="image-alt-5">
+<img 
+src="/rendered/whatIsALimit/digInWhatIsALimit-0c1c01cdb2cb54882ee3e4a5d622f4e4.svg" alt="[Picture]"  /> </div> Isto é, para valores de \(x\)
+próximos de \(2\), mas maiores que \(2\), \(f(x)=2\). Não conseguimos encontrar um único número do
+qual \(f(x)\) se aproxime quando \(x\) se aproxima de 2, e por isso o limite não existe. </div>
+</div>
+<p class="noindent" >Tabelas podem ajudar a fazer palpites sobre valores de limites, mas é preciso ter
+cuidado.
+</p>
+<div role="article" class="problem-environment question" id="problem9" numbered="" titletext=" Question">  Considere \(f(x) = \sin \left (\frac {\pi }{x}\right )\). Preencha as tabelas abaixo <strong>arredondando para três casas
+decimais</strong>: \[ \begin{array}{l|l} x &amp; f(x) \\ \hline 0.1 &amp; \begin{prompt}\class{xm-answer}{\cssId{xm-answer-9}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\\ 0.01 &amp; \begin{prompt}\class{xm-answer}{\cssId{xm-answer-10}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\\ 0.001 &amp; \begin{prompt}\class{xm-answer}{\cssId{xm-answer-11}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\\ 0.0001 &amp; \begin{prompt}\class{xm-answer}{\cssId{xm-answer-12}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\\ \end{array} \] Podemos nos apressar e dizer que, com base na tabela acima, \[ \lim _{x\to 0}\sin \left (\frac {\pi }{x}\right )=0. \] Mas
+lembre-se da definição de limite: \(L\) é o limite se o valor de \(f(x)\) fica tão próximo de \(L\)
+quanto se queira para <strong>todo</strong> \(x\) suficientemente próximo de \(a\), mas diferente
+dele.
+                                                                  
+
+                                                                  
+<p class="noindent" >A partir dessa tabela, podemos ver que \(f(x)(=0)\) fica tão próximo de \(L(=0)\) quanto se queira para
+<strong>alguns</strong> valores de \(x\) suficientemente próximos de \(a(=0)\). Mas isso não satisfaz a definição de
+limite, pelo menos, ainda não.
+</p><p class="noindent" >Mas, espere! Preencha outra tabela, <strong>arredondando para três casas decimais</strong>. \[ \begin{array}{l|l} x &amp; f(x) \\ \hline 0.3 &amp; \begin{prompt}\class{xm-answer}{\cssId{xm-answer-13}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \\ 0.03 &amp; \begin{prompt}\class{xm-answer}{\cssId{xm-answer-14}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \\ 0.003 &amp; \begin{prompt}\class{xm-answer}{\cssId{xm-answer-15}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \\ 0.0003 &amp; \begin{prompt}\class{xm-answer}{\cssId{xm-answer-16}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \end{array} \] O
+que essas duas tabelas nos dizem sobre \[ \lim _{x\to 0}\sin \left (\frac {\pi }{x}\right )? \] </p><div class="multiple-choice" id="problem10" titletext=" Multiple Choice"><span class="choice  "   id="choice10">\(\lim _{x\to 0}\sin \left (\frac {\pi }{x}\right ) = 0\)</span> <span class="choice  "   id="choice11">\(\lim _{x\to 0}\sin \left (\frac {\pi }{x}\right )=1\)</span> <span class="choice  "   id="choice12">\(\lim _{x\to 0}\sin \left (\frac {\pi }{x}\right ) = -.866\)</span> <span class="choice  "   id="choice13">\(\lim _{x\to 0}\sin \left (\frac {\pi }{x}\right ) = -.433\)</span> <span class="choice correct "   id="choice14">O limite não existe.</span> </div> <div class="feedback" data-feedback="attempt" id="feedback11" titletext=" Feedback (attempt)">O limite
+não existe. A primeira tabela mostra que sempre podemos encontrar um valor de \(x\) tão
+próximo de \(0\) quanto quisermos tal que \(f(x)=0\). No entanto, o limite não é igual a \(0\), pois a
+segunda tabela mostra que também podemos encontrar um valor de \(x\) tão próximo de \(0\)
+quanto quisermos tal que \(f(x)=-\frac {\sqrt {3}}{2}\). Na verdade, para qualquer número \(y\), \(-1\le y\le 1\), podemos encontrar
+um valor de \(x\) tão próximo de \(0\) quanto quisermos tal que \(f(x)=y\). Confira o gráfico da função \(f\).
+<div class="image-environment" role="img" aria-labelledby="image-alt-6"> <img 
+src="/rendered/whatIsALimit/digInWhatIsALimit-9d4a6f33f2086efd7b2961d851f0ad60.svg" alt="[Picture]"  /> </div> Vemos que \(f(x)\) oscila
+“descontroladamente” quando \(x\) se aproxima de \(0\) e, portanto, não se aproxima de
+nenhum número em particular. </div>    </div>
+
+<h3 class="sectionHead"><span class="titlemark">3   </span> <a 
+ id="x1-30003"></a>Limites laterais</h3>
+<p class="noindent" >Embora tenhamos visto que \(\lim _{x\to 2}\lfloor x\rfloor \) não existe, seu gráfico parece bem mais “comportado”
+perto de \(a=2\) do que o gráfico anterior perto de \(a=0\). Há mais a dizer sobre a função \(\lfloor x\rfloor \) e seu
+comportamento perto de \(a=2\).
+</p>
+<div class="theorem-like problem-environment definition" id="problem12" titletext=" definition"><a 
+ id="x1-3001r4"></a>Intuitivamente,
+<p class="noindent" >para a função \(f\), \(L\) é o <strong>limite à direita</strong> quando \(x\) se aproxima de \(a\),
+</p><p class="noindent" >e escrevemos \[ \lim _{x\to a^+} f(x) = L, \] se o valor de \(f(x)\) fica tão próximo de \(L\) quanto se queira para todo \(x&gt;a\)
+suficientemente próximo de \(a\).
+</p><p class="noindent" >Analogamente,
+                                                                  
+
+                                                                  
+</p><p class="noindent" >para a função \(f\), \(L\) é o <strong>limite à esquerda</strong> quando \(x\) se aproxima de \(a\),
+</p><p class="noindent" >e escrevemos \[ \lim _{x\to a^-} f(x) = L, \] se o valor de \(f(x)\) fica tão próximo de \(L\) quanto se queira para todo \(x&lt;a\)
+suficientemente próximo de \(a\).
+</p>
+</div>
+<div class="theorem-like problem-environment example" id="problem13" titletext=" example"><a 
+ id="x1-3002r5"></a>Calcule: \[ \lim _{x\to 2^-} f(x)\qquad \text {e}\qquad \lim _{x\to 2^+} f(x) \] usando o gráfico abaixo <div class="image-environment" role="img" aria-labelledby="image-alt-7"> <img 
+src="/rendered/whatIsALimit/digInWhatIsALimit-b3f7eba20055bdecf31a9bc5f538fdd2.svg" alt="[Picture]"  /> </div> <div class="theorem-like problem-environment explanation" id="problem14" titletext=" explanation"><a 
+ id="x1-3003r6"></a>Pelo gráfico, podemos ver que, à medida que \(x\) se aproxima de \(2\) pela esquerda, \(\lfloor x\rfloor \)
+permanece em \(y=1\) até exatamente o ponto em que \(x=2\). Logo, \[ \lim _{x\to 2^-} f(x)=1. \] Também pelo gráfico,
+podemos ver que, à medida que \(x\) se aproxima de \(2\) pela direita, \(\lfloor x\rfloor \) permanece em \(y=2\) até \(x=2\).
+Logo, \[ \lim _{x\to 2^+} f(x)=2. \] </div> </div>
+
+<h3 class="sectionHead"><span class="titlemark">4   </span> <a 
+ id="x1-40004"></a>Juntando tudo isso</h3>
+<p class="noindent" >Os limites laterais nos ajudam a falar sobre limites. </p><div class="theorem-like problem-environment theorem" id="problem15" titletext=" theorem"><a 
+ id="x1-4001r7"></a> Um limite \[ \lim _{x \to a} f(x) \] existe se, e somente
+se,
+     <ul class="itemize1">
+     <li class="itemize">
+     <p class="noindent" >\(\lim _{x \to a^-} f(x)\) existe
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\lim _{x \to a^+} f(x)\) existe
+     </p></li>
+     <li class="itemize">
+                                                                  
+
+                                                                  
+     <p class="noindent" >\(\lim _{x \to a^-} f(x) = \lim _{x \to a^+} f(x)\)</p></li></ul>
+<p class="noindent" >Nesse caso, \(\lim _{x \to a} f(x)\) é igual ao valor comum dos dois limites laterais. </p></div>
+<div role="article" class="problem-environment question" id="problem16" numbered="" titletext=" Question">  Calcule as expressões a seguir consultando o gráfico abaixo. Escreva DNE se
+o limite não existir. <div class="image-environment" role="img" aria-labelledby="image-alt-8"> <img 
+src="/rendered/whatIsALimit/digInWhatIsALimit-fc3e6d678f9a9fbcb79f933526679d9e.svg" alt="[Picture]"  />
+</div>
+     <ol  class="enumerate1" >
+<li 
+  class="enumerate" id="x1-4003x1">
+     <p class="noindent" >\(\lim _{x\to 4} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-17}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-4005x2">
+     <p class="noindent" >\(\lim _{x\to -3} f(x)\begin{prompt}=\class{xm-answer}{\cssId{xm-answer-18}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-4007x3">
+     <p class="noindent" >\(\lim _{x\to -3^-} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-19}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-4009x4">
+     <p class="noindent" >\(\lim _{x\to 0} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-20}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+                                                                  
+
+                                                                  
+     </p></li>
+<li 
+  class="enumerate" id="x1-4011x5">
+     <p class="noindent" >\(\lim _{x\to 0^-} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-21}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-4013x6">
+     <p class="noindent" >\(\lim _{x\to 0^+} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-22}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-4015x7">
+     <p class="noindent" >\(f(0) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-23}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-4017x8">
+     <p class="noindent" >\(f(-2) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-24}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-4019x9">
+     <p class="noindent" >\(\lim _{x\to -2^+} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-25}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-4021x10">
+     <p class="noindent" >\(\lim _{x\to -2^-} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-26}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-4023x11">
+     <p class="noindent" >\(\lim _{x\to 2^-} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-27}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+     </p></li>
+<li 
+  class="enumerate" id="x1-4025x12">
+     <p class="noindent" >\(\lim _{x\to 1} f(x) \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-28}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\)
+</p>
+     </li></ol>
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"1","format":"expression","given":false,"antiderivative":false},"xm-answer-10":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-11":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-12":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-13":{"answer":"-.866","format":"expression","given":false,"antiderivative":false},"xm-answer-14":{"answer":"-.866","format":"expression","given":false,"antiderivative":false},"xm-answer-15":{"answer":"-.866","format":"expression","given":false,"antiderivative":false},"xm-answer-16":{"answer":"-.866","format":"expression","given":false,"antiderivative":false},"xm-answer-17":{"answer":"8","format":"expression","given":false,"antiderivative":false},"xm-answer-18":{"answer":"6","format":"expression","given":false,"antiderivative":false},"xm-answer-19":{"answer":"6","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"1","format":"expression","given":false,"antiderivative":false},"xm-answer-20":{"answer":"DNE","format":"expression","given":false,"antiderivative":false},"xm-answer-21":{"answer":"-2","format":"expression","given":false,"antiderivative":false},"xm-answer-22":{"answer":"-1","format":"expression","given":false,"antiderivative":false},"xm-answer-23":{"answer":"-3/2","format":"expression","given":false,"antiderivative":false},"xm-answer-24":{"answer":"8","format":"expression","given":false,"antiderivative":false},"xm-answer-25":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-26":{"answer":"6","format":"expression","given":false,"antiderivative":false},"xm-answer-27":{"answer":"7","format":"expression","given":false,"antiderivative":false},"xm-answer-28":{"answer":"3","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"-2","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-7":{"answer":"DNE","format":"expression","given":false,"antiderivative":false},"xm-answer-8":{"answer":"-2","format":"expression","given":false,"antiderivative":false},"xm-answer-9":{"answer":"0","format":"expression","given":false,"antiderivative":false}}</script>

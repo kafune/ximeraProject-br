@@ -1,0 +1,201 @@
+<!-- traduz-render: b450c2fa0be302539a29cf19eb98731672e1351e0f11a74ad3e6e0742a2eca2d -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Aqui usamos limites para verificar se funções definidas por partes são contínuas. 
+</div>
+<div class='maketitle'></div><p>Antes de começarmos a falar sobre continuidade de funções definidas por partes,
+vamos relembrar todas as funções famosas que são contínuas em seus domínios.
+</p><div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>Continuidade das funções famosas</span><a class='ximera-label' id='theorem:continuity'></a> As funções a seguir são contínuas em seus
+domínios naturais:
+     <ul class='itemize1'>
+     <li class='itemize'>Funções constantes
+     </li>
+     <li class='itemize'>Polinômios
+     </li>
+     <li class='itemize'>Funções racionais
+     </li>
+     <li class='itemize'>Funções potência
+     </li>
+     <li class='itemize'>Funções exponenciais
+     </li>
+     <li class='itemize'>Funções logarítmicas
+     </li>
+     <li class='itemize'>Funções trigonométricas
+     </li>
+     <li class='itemize'>Funções trigonométricas inversas</li></ul>
+<p class='noindent'>Em essência, estamos dizendo que as funções listadas acima são contínuas em todos
+os pontos onde estão definidas.
+</p><p class='noindent'>Provamos anteriormente a continuidade dos polinômios usando a Lei da Soma, a Lei
+do Produto e a continuidade das funções potência.
+                                                                  
+
+                                                                  
+</p><p class='noindent'>Provamos anteriormente a continuidade das funções racionais usando a Lei do
+Quociente e a continuidade dos polinômios.
+</p><p class='noindent'>Podemos provar a continuidade das outras quatro funções trigonométricas usando a
+Lei do Quociente e a continuidade das funções seno e cosseno.
+</p><p class='noindent'>Como uma função contínua e sua inversa têm gráficos “sem quebras”, segue que a
+inversa de uma função contínua é contínua em seu domínio.
+</p><p class='noindent'>Isso implica que as funções trigonométricas inversas são contínuas em seus
+domínios.
+</p><p class='noindent'>Usando as Leis dos Limites, podemos provar que, dadas duas funções, ambas
+contínuas no mesmo intervalo, então sua soma, diferença, produto e quociente (onde
+estiver definido) também são contínuos no mesmo intervalo (onde estiverem
+definidos). </p></div>
+<p class='noindent'>Nesta seção, vamos trabalhar alguns exemplos envolvendo limites, continuidade e
+funções definidas por partes. Lembre-se de que uma função \(f\) é contínua em
+um ponto \(a\) se \(\displaystyle \lim _{x\to a}f(x) = f(a)\). Isso nos deu a <em>lista de verificação da continuidade</em>. Para
+determinar se uma função \(f\) é contínua em um ponto \(a\), devemos verificar
+que:
+     </p><ol class='enumerate1'>
+<li class='enumerate' id='x1-4x1'><a class='ximera-label' id='cc:val'></a> \(f(a)\) está definido,
+     </li>
+<li class='enumerate' id='x1-6x2'><a class='ximera-label' id='cc:lim'></a> \(\lim _{x\to a} f(x)\) existe e, então,
+     </li>
+<li class='enumerate' id='x1-8x3'><a class='ximera-label' id='cc:conc'></a> \(\lim _{x\to a} f(x) = f(a)\).</li></ol>
+<p class='noindent'>Nesta seção, como estamos lidando com funções definidas por partes, pode ser
+necessário considerar limites laterais para determinar se o item <a class='reference' href='#cc:lim'>cc:lim</a> vale para a nossa
+função. No entanto, o item <a class='reference' href='#cc:lim'>cc:lim</a> não menciona limites laterais. Ao usar a lista de
+verificação para justificar a continuidade de uma função, tenha o cuidado de
+mencionar as condições específicas que são exigidas.
+</p>
+<div class='theorem-like problem-environment example' id='problem2' titletext=' example'><a id='x1-9r2'></a>Considere a seguinte função definida por partes \[ f(x) = \begin{cases} \frac {x}{x-1} &amp;\text {se $x&lt;0$,}\\ e^{-x} + c &amp;\text {se $x\ge 0$}. \end{cases} \] Determine a constante \(c\) de modo que
+\(f\) seja contínua em \(x=0\).
+<div class='theorem-like problem-environment explanation' id='problem3' titletext=' explanation'><a id='x1-10r3'></a>A pergunta nos pede para encontrar o valor de \(c\) de modo que a função seja contínua
+em \(x=0\), então usamos a lista de verificação da continuidade. Começamos com o item <a class='reference' href='#cc:val'>cc:val</a>.
+                                                                  
+
+                                                                  
+Como \(f(0) = \class{xm-given}{0}\) existe, esse item está satisfeito.
+<p class='noindent'>Para o item <a class='reference' href='#cc:lim'>cc:lim</a>, a fim de calcular o limite, teremos de calcular dois limites laterais (pois
+a expressão de \(f(x)\) se \(x&lt;0\) é diferente da expressão de \(f(x)\) se \(x&gt;0\)). \begin{align*}  \lim _{x\to 0^-} f(x) &amp;= \lim _{x\to 0^-}\class{xm-given}{\frac {x}{x-1}}\\ &amp;= \frac {\class{xm-given}{0}}{-1}\\ &amp;=\class{xm-given}{0}.  \end{align*}
+</p><p class='noindent'>e \begin{align*}  \lim _{x\to 0^+} f(x) &amp;= \lim _{x\to 0^+}\left (e^{-x}+c\right )\\ &amp;= e^{\class{xm-given}{0}} + c\\ &amp;= \class{xm-given}{1+ c}  \end{align*}
+</p><p class='noindent'>Para que \(\displaystyle \lim _{x\to 0} f(x)\) exista, \[ 1 + c = 0\qquad \text {logo}\qquad c = \class{xm-given}{-1}. \] Assim, se \(c=-1\), o limite \(\displaystyle \lim _{x\to 0} f(x)=0\), o que significa que o item <a class='reference' href='#cc:lim'>cc:lim</a> está satisfeito.
+</p><p class='noindent'>Para o item <a class='reference' href='#cc:conc'>cc:conc</a>, precisamos verificar que o valor que encontramos para \(f(0)\) é o mesmo que
+o valor que encontramos para \(\displaystyle \lim _{x\to 0}f(x)\). Esses valores coincidem, então o item <a class='reference' href='#cc:conc'>cc:conc</a> está satisfeito.
+Isso prova que \(f\) é contínua em \(x=0\). </p></div> </div> <div class='theorem-like problem-environment warning' id='problem4' titletext=' warning'><a id='x1-11r4'></a>No exemplo anterior, observe que o trabalho não
+terminou quando encontramos o valor de \(c\). Para justificar a resposta, temos de
+verificar que as três condições da lista de verificação estão satisfeitas para o valor
+que encontramos. </div>
+<p class='noindent'>Considere o próximo exemplo, mais desafiador.
+</p>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-12r5'></a>Considere a seguinte função definida por partes \[ f(x) = \begin{cases} x+4 &amp;\text {se $x&lt;1$,}\\ ax^2+bx+2 &amp;\text {se $1\le x&lt; 3$,}\\ 6x+a-b &amp;\text {se $x\ge 3$.} \end{cases} \] Determine as constantes
+\(a\) e \(b\) de modo que \(f\) seja contínua tanto em \(x=1\) quanto em \(x=3\). <div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-13r6'></a>Este problema é
+mais desafiador porque temos mais incógnitas. No entanto, seja corajoso,
+intrépido matemático. Para encontrar \(a\) e \(b\) que tornem \(f\) contínua em \(x=1\), precisamos
+encontrar \(a\) e \(b\) tais que \[ \lim _{x\to 1} f(x) =f(\class{xm-given}{1}). \] Vamos começar com o item <a class='reference' href='#cc:val'>cc:val</a> da lista de verificação da
+continuidade em \(x=1\). \(f(1)=a+b+2\) existe para todos os valores de \(a\) e \(b\), então esse item está
+satisfeito.
+<p class='noindent'>Agora verificamos o item <a class='reference' href='#cc:lim'>cc:lim</a> da lista, confirmando que \(\displaystyle \lim _{x\to 1}f(x)\) existe. Para calcular \(\lim _{x\to 1}f(x)\), temos de
+calcular dois limites laterais (pois a expressão de \(f(x)\) se \(x&lt;1\) é diferente da expressão de \(f(x)\) se \(x&gt;1\)).
+Olhando para o limite pela esquerda, temos \begin{align*}  \lim _{x\to 1^-} f(x) &amp;= \lim _{x\to 1^-} \left (\class{xm-given}{x+4}\right ) \\ &amp;=\class{xm-given}{5}.  \end{align*}
+</p><p class='noindent'>Olhando para o limite pela direita, temos \begin{align*}  \lim _{x\to 1^+} f(x) &amp;= \lim _{x\to 1^+} \left (ax^2+bx+2\right ) \\ &amp;= \class{xm-given}{a+b+2}.  \end{align*}
+</p><p class='noindent'>Logo, para que o limite \(\lim _{x\to 1} f(x)\) exista, devemos ter \begin{align*}  5 &amp;= a+b+2\\ or\\ a+b &amp;= \class{xm-given}{3}.  \end{align*}
+</p><p class='noindent'>O item <a class='reference' href='#cc:conc'>cc:conc</a> fica então satisfeito no ponto \(x=1\) sempre que \(a+b=3\).
+</p><p class='noindent'>Para encontrar \(a\) e \(b\) que tornem \(f\) contínua em \(x=3\), precisamos encontrar \(a\) e \(b\) tais que \[ \lim _{x\to 3} f(x) =f(3). \]
+Vamos voltar à lista de verificação da continuidade no ponto \(x=3\). Para o item <a class='reference' href='#cc:val'>cc:val</a>, observe
+que \(f(3)=18+a-b\), que existe para todos os valores de \(a\) e \(b\).
+</p><p class='noindent'>Para verificar o item <a class='reference' href='#cc:lim'>cc:lim</a>, devemos confirmar que \(\lim _{x\to 3}f(x)\) existe. Novamente, a fórmula de \(f(x)\)
+muda em torno de \(x=3\), então verificamos os limites laterais. Pela esquerda:
+\begin{align*}  \lim _{x\to 3^-} f(x) &amp;= \lim _{x\to 3^-} \left (ax^2+bx+2\right ) \\ &amp;=a\cdot 9 + b\cdot 3 + 2.  \end{align*}
+</p><p class='noindent'>Olhando para o limite pela direita, temos \begin{align*}  \lim _{x\to 3^+} f(x) &amp;= \lim _{x\to 3^+} \left (6x+a-b\right ) \\ &amp;= \class{xm-given}{18+a-b}.  \end{align*}
+</p><p class='noindent'>Para que \(\lim _{x\to 3}f(x)\) exista, esses valores devem ser iguais. \begin{align*}  9a + 3b + 2 &amp;= 18+a-b\\ 8a + 4b -16 &amp;= 0\\ 2a + b &amp;= 4  \end{align*}
+</p><p class='noindent'>Isso significa que o item <a class='reference' href='#cc:lim'>cc:lim</a> está satisfeito para \(a\) e \(b\) com \(2a+b=4\).
+</p><p class='noindent'>O item <a class='reference' href='#cc:conc'>cc:conc</a> fica então satisfeito para todos os \(a\) e \(b\) com \(2a+b=4\), pois isso dá \(f(3) = 18+a+b\) e \(\lim _{x\to 3}f(x)=18+a+b = 9a+3b+2\).
+</p><p class='noindent'>Portanto, para que a função seja contínua TANTO em \(x=1\) QUANTO em \(x=3\),
+temos duas equações e duas incógnitas: \[ a+b=3 \qquad \text {e}\qquad 2a + b = 4. \] Fazendo \(b = 3-a\) e substituindo, obtemos
+                                                                  
+
+                                                                  
+\begin{align*}  2a+3-a&amp;=4 \\ a &amp;= 1,  \end{align*}
+</p><p class='noindent'>logo \[ a=\class{xm-given}{1}\qquad \text {e então}\qquad b =\class{xm-given}{2}. \] Vamos conferir: substituindo agora os valores de \(a\) e \(b\), encontramos \[ f(x) = \begin{cases} x+4 &amp;\text {se $x&lt;1$,}\\ \class{xm-given}{x^2+2x+2} &amp;\text {se $1\le x&lt; 3$,}\\ \class{xm-given}{6x-1} &amp;\text {se $x\ge 3$.} \end{cases} \] Agora \[ \lim _{x\to 1} f(x) = f(1) = 5, \] e \[ \lim _{x\to 3} f(x) = f(3) = 17. \]
+Assim, tomar \(a= \class{xm-given}{1}\) e \(b=\class{xm-given}{2}\) torna \(f\) contínua em \(x=1\) e \(x=3\).  Podemos confirmar nossos resultados
+olhando para o gráfico de \(y=f(x)\): \[ \graph [xmin=-10,xmax=10,ymin=0,ymax=30]{y=x+4\left \{x&lt;1\right \},y=x^2+2x+2\left \{1\leq x&lt;3\right \},y=6x-1\left \{3 \leq x\right \}} \]  </p></div> </div>
+<script type="application/json" class="xm-answers">{}</script>

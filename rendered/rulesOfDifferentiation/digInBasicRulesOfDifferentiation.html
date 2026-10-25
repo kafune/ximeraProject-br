@@ -1,0 +1,202 @@
+<!-- traduz-render: df9fd088c78243df8bf70125d9c61f5d4fd41422a9dc8dbc0b8d45abcd65eaab -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Deduzimos a regra da constante, a regra da potência e a regra da soma. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>É tedioso calcular um limite toda vez que precisamos conhecer a derivada de uma
+função. Felizmente, podemos desenvolver uma pequena coleção de exemplos e regras
+que nos permitem calcular rapidamente a derivada de quase qualquer função que
+provavelmente encontraremos. Vamos começar de forma simples e avançar até
+exemplos mais complicados.
+</p><p class='noindent'>Primeiro, apresentamos uma notação diferente para a derivada, que às vezes pode ser
+mais conveniente. </p><div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-2r1'></a> Há várias notações diferentes para a derivada. As duas que
+usaremos principalmente são \[ f'(x)= \ddx f(x). \] O valor da derivada em \(x=a\) também pode ser escrito
+usando duas notações diferentes \[ f'(a)= \eval {\ddx f(x)}_{x=a}. \] </div>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>A regra da constante</h3>
+<p class='noindent'>Os exemplos mais simples de funções, e portanto o melhor lugar para começar nossa
+investigação, são as funções constantes. Lembre-se de que as derivadas medem a taxa
+de variação de uma função em um dado ponto. Isso significa que a derivada de uma
+função constante é zero. Aqui estão algumas maneiras de pensar nessa situação.
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'>O  gráfico  de  uma  função  constante  é  uma  reta  horizontal,  então  a
+     inclinação da reta tangente é \(0\).
+     </li>
+     <li class='itemize'>Se \(s(t)\) representa a posição de um objeto em relação ao tempo e \(s(t)\) é constante,
+     então o objeto não está se movendo, de modo que sua velocidade é zero.
+     Logo, \(\dd {t} s(t) = 0\).
+     </li>
+     <li class='itemize'>Se  \(v(t)\)  representa  a  velocidade  de  um  objeto  em  relação  ao  tempo  e  \(v(t)\)  é
+     constante, então a aceleração do objeto é zero. Logo, \(\dd {t} v(t) = 0\).</li></ul>
+<p class='noindent'>Os exemplos acima nos levam ao nosso próximo teorema. Para ganhar intuição,
+você deveria calcular a derivada de \(f(x) = 6\) usando a definição de derivada por
+limite.
+                                                                  
+
+                                                                  
+</p>
+<div class='theorem-like problem-environment theorem' id='problem2' titletext=' theorem'><a id='x1-1001r2'></a><span class='theorem-like-title'>A regra da constante</span> Dada uma constante \(c\), \[ \ddx c = 0. \]
+<div class='theorem-like problem-environment explanation' id='problem3' titletext=' explanation'><a id='x1-1002r3'></a>Pela definição de derivada por limite, escreva \begin{align*}  \ddx c &amp;= \lim _{h\to 0}\frac {c-c}{\class{xm-given}{h}}\\ &amp;= \lim _{h\to 0} \frac {0}{h}\\ &amp;= \lim _{h\to 0} 0 = 0.  \end{align*}
+</div> </div>
+<div class='problem-environment question' id='problem4' numbered='' role='article' titletext=' Question'>  A quanto é igual \[ \ddx e \] ? <div class='foldable' data-original='expandable' id='foldable5'>xmhintLembre-se, \[ e = 2.718281828459045\dots . \]</div> É igual a \(\class{xm-given}{0}\).     </div>
+
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>A regra da potência</h3>
+<p class='noindent'>Em seguida, vamos examinar derivadas de potências de uma única variável. Para
+ganhar intuição, você deveria calcular a derivada de \(f(x) = x^3\) usando a definição de derivada
+por limite. Antes de calcular essa derivada, devemos lembrar o <em>Teorema
+Binomial</em>.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem6' titletext=' theorem'><a id='x1-2001r4'></a><span class='theorem-like-title'>Teorema binomial</span> Se \(n\) é um inteiro não negativo, então \[ (a+b)^n = a^nb^0 + \binom {n}{1} a^{n-1}b^1 + \dots + \binom {n}{n-1} a^{1}b^{n-1} + a^{0}b^n \] onde \[ \binom {n}{k} = \frac {n!}{k!(n-k)!}, \hspace {0.2in}k=0,1,...,n. \] </div>
+<p class='noindent'>O Teorema Binomial nos dá o padrão dos coeficientes na forma expandida de \[ (a+b)^n, \] o que
+nos ajudará a demonstrar nossa próxima regra de derivação.
+</p>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-2002r5'></a>Expanda \((x+h)^3\) usando o Teorema Binomial. <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-2003r6'></a>Aplicamos o Teorema Binomial à expressão
+em questão e, em seguida, simplificamos. \begin{align*}  (x+h)^3 &amp;= x^3h^0 + \binom {3}{1} x^{3-1}h^1 + \binom {3}{2} x^{3-2}h^2 + x^{0}h^3\\ &amp; = x^3 + \class{xm-given}{3} x^2 h + \class{xm-given}{3} xh^2 + h^3  \end{align*}
+</div> </div>
+<div class='theorem-like problem-environment theorem' id='problem9' titletext=' theorem'><a id='x1-2004r7'></a><span class='theorem-like-title'>A regra da potência</span><a class='ximera-label' id='T:powerrule'></a> Para qualquer número real \(n\), \[ \ddx x^n = n x^{n-1}. \]
+<div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-2005r8'></a>Neste momento, vamos demonstrar este teorema apenas para valores de
+\(n\) que são inteiros positivos. Mais adiante daremos a explicação completa.
+Pela definição de derivada por limite, escreva comigo \[ \ddx x^n = \lim _{ h\to 0} \frac {\left (\class{xm-given}{x+ h}\right )^n-x^n}{h}. \] Expanda o termo \((x+h)^n\): <div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/rulesOfDifferentiation/digInBasicRulesOfDifferentiation-fc38cc0db536f52283cd841f5b431429.svg" /> </div>
+Observe que estamos usando o Teorema Binomial para escrever \(\binom {n}{k}\) para os
+coeficientes. Cancelando os termos \(x^n\) e \(-x^n\), e notando que \(\binom {n}{1}= n\), escreva comigo
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/rulesOfDifferentiation/digInBasicRulesOfDifferentiation-a202d29fe4f81b33bb15425f7108aa34.svg" /></div>
+<p class='noindent'>já que todos os termos, exceto o primeiro, têm um fator \(h\). Portanto, \[ \ddx x^n = nx^{n-1}. \] </p></div> </div>
+<p class='noindent'>Vamos considerar vários exemplos. Começamos com algo básico.
+</p>
+<div class='theorem-like problem-environment example' id='problem11' titletext=' example'><a id='x1-2006r9'></a>Calcule: \[ \ddx x^{13} \] <div class='theorem-like problem-environment explanation' id='problem12' titletext=' explanation'><a id='x1-2007r10'></a>Aplicando a regra da potência, escrevemos \[ \ddx x^{13} = \class{xm-given}{13x^{12}}. \] </div> </div>
+<p class='noindent'>Às vezes, não é tão óbvio que se deva aplicar a regra da potência.
+</p>
+<div class='theorem-like problem-environment example' id='problem13' titletext=' example'><a id='x1-2008r11'></a>Calcule: \[ \ddx \frac {1}{x^4} \] <div class='theorem-like problem-environment explanation' id='problem14' titletext=' explanation'><a id='x1-2009r12'></a>Aplicando a regra da potência, escrevemos \[ \ddx \frac {1}{x^4} = \ddx x^{-4} = \class{xm-given}{-4x^{-5}}. \] </div> </div>
+<p class='noindent'>A regra da potência também se aplica a radicais, desde que os reescrevamos como
+expoentes.
+</p>
+<div class='theorem-like problem-environment example' id='problem15' titletext=' example'><a id='x1-2010r13'></a>Calcule: \[ \ddx \sqrt [5]{x} \] <div class='theorem-like problem-environment explanation' id='problem16' titletext=' explanation'><a id='x1-2011r14'></a>Aplicando a regra da potência, escrevemos \[ \ddx \sqrt [5]{x} = \ddx x^{1/5} = \class{xm-given}{\frac {x^{-4/5}}{5}}. \] </div> </div>
+
+<h3 class='sectionHead'><span class='titlemark'>3   </span> <a id='x1-30003'></a>A regra da soma</h3>
+<p class='noindent'>Queremos ser capazes de calcular derivadas de funções “um pedaço de cada vez”. A
+<em>regra da soma</em> nos permite fazer exatamente isso. A regra da soma diz que podemos
+somar as taxas de variação de duas funções para obter a taxa de variação da soma
+das duas funções. Por exemplo, vendo a derivada como a velocidade de um objeto, a
+regra da soma afirma que, para encontrar a velocidade de uma pessoa caminhando
+dentro de um ônibus em movimento, somamos a velocidade do ônibus e a velocidade
+da pessoa caminhando.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem17' titletext=' theorem'><a id='x1-3001r15'></a><span class='theorem-like-title'>A regra da soma</span><a class='ximera-label' id='theorem:sum rule'></a> Se \(f(x)\) e \(g(x)\) são deriváveis e \(c\) é uma constante, então
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-3003x1'><a class='ximera-label' id='SR:1'></a> \(\ddx \big ( f(x) + g(x)\big ) = f'(x) + g'(x)\),
+                                                                  
+
+                                                                  
+     </li>
+<li class='enumerate' id='x1-3005x2'>\(\ddx \big ( f(x) - g(x)\big ) = f'(x) - g'(x)\),
+     </li>
+<li class='enumerate' id='x1-3007x3'>\(\ddx \big (c\cdot f(x)\big ) = c\cdot f'(x)\).</li></ol>
+<div class='theorem-like problem-environment explanation' id='problem18' titletext=' explanation'><a id='x1-3008r16'></a>Vamos demonstrar apenas o item <a href='#x1-3003x1'>(a)</a> acima; os demais são semelhantes. Escreva
+comigo <div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/rulesOfDifferentiation/digInBasicRulesOfDifferentiation-7f9574100aa6efd4070fc8a94290bbaf.svg" /> </div> </div>
+</div>
+<div class='problem-environment question' id='problem19' numbered='' role='article' titletext=' Question'>  Usar notações diferentes para a derivada pode ser confuso. Quais das alternativas
+a seguir são o mesmo que o item (a) da Regra da Soma? <div class='select-all' id='problem20' titletext=' Select All'><a id='x1-3009r17'></a> <span class='choice correct ' id='choice1'>\((f(x) + g(x))' = f'(x) + g'(x)\) </span><span class='choice correct ' id='choice2'>\((f(x) + g(x))' = \ddx f(x) + \ddx g(x)\) </span><span class='choice  ' id='choice3'>\(\ddx f(x) + \ddx g(x) = f'(x) + g'(x)\) </span><span class='choice  ' id='choice4'>\((f'(x) + g(x))' = \ddx ( f(x) + g(x))\)</span> </div>
+</div>
+<div class='theorem-like problem-environment example' id='problem21' titletext=' example'><a id='x1-3010r18'></a>Suponha que temos duas funções, \(f\) e \(g\), e sabemos que \(f'(2) = 6\) e \(g'(2) = -3\). Qual é a inclinação da reta
+tangente ao gráfico de \(y=f(x) + g(x)\) em \(x = 2\)? <div class='theorem-like problem-environment explanation' id='problem22' titletext=' explanation'><a id='x1-3011r19'></a>A inclinação da reta tangente ao gráfico da função \(f(x) + g(x)\) em \(x = 2\)
+é a derivada \( \eval {\ddx \left (f(x)+g(x)\right )}_{x=2}\). Pela Regra da Soma, essa derivada é dada por \(f'(2) + g'(2)\). Neste caso, temos \(f'(2) + g'(2) = \class{xm-given}{3}\). </div>
+</div>
+<p class='noindent'>Agora temos as ferramentas para resolver alguns exemplos mais complicados.
+</p>
+<div class='theorem-like problem-environment example' id='problem23' titletext=' example'><a id='x1-3012r20'></a>Calcule: \[ \ddx \left ( x^5+\frac {1}{x}\right ) \] <div class='theorem-like problem-environment explanation' id='problem24' titletext=' explanation'><a id='x1-3013r21'></a>Escreva comigo \begin{align*}  \ddx \left (x^5+\frac {1}{x}\right ) &amp;= \ddx x^5 + \ddx x^{-1} \\ &amp;=\class{xm-given}{5x^4 - x^{-2}}.  \end{align*}
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem25' titletext=' example'><a id='x1-3014r22'></a>Calcule: \[ \ddx \left (\frac {3}{\sqrt [3]{x}}-2\sqrt {x}+\frac {1}{x^7}\right ) \] <div class='theorem-like problem-environment explanation' id='problem26' titletext=' explanation'><a id='x1-3015r23'></a>Escreva comigo \begin{align*}  \ddx &amp;\left (\frac {3}{\sqrt [3]{x}}-2\sqrt {x}+\frac {1}{x^7}\right )\\ &amp;= 3\ddx x^{-1/3} -2\ddx x^{1/2}+\ddx x^{-7}\\ &amp;=\class{xm-given}{-x^{-4/3} - x^{-1/2}-7x^{-8}}.  \end{align*}
+</div> </div>
+<script type="application/json" class="xm-answers">{}</script>

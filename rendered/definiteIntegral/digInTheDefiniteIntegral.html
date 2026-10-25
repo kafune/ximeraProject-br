@@ -1,0 +1,324 @@
+<!-- traduz-render: 0d3778b768d28e982b7d305e2ffa4d056c9e1bb4303d46571398bf2a51bae2b2 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Integrais definidas calculam a área líquida. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>O processo de aproximar áreas sob curvas nos levou à noção de soma de Riemann \[ A \approx \sum _{k=1}^n f(x_k^*)\Delta x, \]
+em que \(f\) é uma função contínua e não negativa no intervalo \([a,b]\), e \(x_k^*\) é um ponto amostral
+do \(k^{th}\) retângulo, \(k=1,2,..., n\).
+</p><p class='noindent'>O limite das somas de Riemann, quando \(n\to \infty \), dá a área exata entre a curva \(y=f(x)\) e o intervalo
+no eixo \(x\):
+</p><p class='noindent'>\[ A=\lim _{n\to \infty }\sum _{k=1}^n f(x_k^*)\Delta x. \] Não importa se consideramos apenas somas de Riemann à direita, ou à
+esquerda, ou do ponto médio, ou outras: o limite de qualquer tipo de soma de
+Riemann quando \(n\to \infty \) é igual à área, desde que \(f\) seja não negativa e contínua em
+\([a,b]\).
+</p><p class='noindent'>O que acontece quando uma função contínua \(f\) assume valores negativos no intervalo
+\([a,b]\)?
+</p><p class='noindent'>Ainda podemos formar somas de Riemann e tomar o limite.
+</p><p class='noindent'>A pergunta é: qual é o significado de uma soma de Riemann nesse caso?
+</p>
+<div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-2r1'></a>O gráfico da função \(f\) no intervalo \([0,10]\) é dado na figura abaixo.
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-ec2a3583bed08faf6983e1b71587398b.svg" /> </div>
+<p class='noindent'>A figura ilustra uma soma de Riemann à direita com \(n=5\) retângulos para \(f\) em \([0,10]\).
+\[ \sum _{k=1}^5 f(x_k^*)\Delta x= f(2)\Delta x+ f(4)\Delta x+ f(6)\Delta x+f(8)\Delta x+ f(10)\Delta x \]
+</p><p class='noindent'>Portanto, a soma de Riemann é a soma das <strong>áreas com sinal</strong> dos retângulos: os
+retângulos que ficam acima do eixo \(x\) contribuem com valores positivos, e os
+                                                                  
+
+                                                                  
+retângulos que ficam abaixo do eixo \(x\) contribuem com valores negativos para a soma
+de Riemann. \begin{align*}  \sum _{k=1}^5 f(x_k^*)\Delta x= &amp;\left (\underbrace {f(2)\Delta x}_{\text {não negativo}}+ \underbrace {f(4)\Delta x}_{\text {não negativo}}+ \underbrace {f(6)\Delta x}_{\text {não negativo}}\right )\\ &amp;+ \left (\underbrace {f(8)\Delta x}_{\text {negativo}}+ \underbrace {f(10)\Delta x}_{\text {negativo}}\right )  \end{align*}
+</p>
+</div>
+<p class='noindent'>Quando tomamos o limite das somas de Riemann, parece que deveríamos
+obter
+</p><p class='noindent'>\[ \lim _{n\to \infty }\sum _{k=1}^n f(x_k^*)\Delta x= A_1+(-A_2), \] em que as áreas \(A_1\) e \(A_2\) estão representadas na figura abaixo.
+</p><p class='noindent'>Em outras palavras, o limite das somas de Riemann parece ser igual à soma das áreas
+com sinal das regiões que ficam inteiramente acima ou abaixo do eixo \(x\). A área com
+sinal das regiões que ficam acima do eixo \(x\) é positiva, e a área com sinal das regiões
+que ficam abaixo do eixo \(x\) é negativa.
+</p>
+<div class='theorem-like problem-environment definition' id='problem2' titletext=' definition'><a id='x1-3r2'></a><span class='theorem-like-title'>Área líquida</span> Essa soma de áreas com sinal é chamada de <strong>área líquida</strong> da região
+entre o gráfico de \(f\) e o intervalo no eixo \(x\) . </div>
+<div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-02f97e9ee0a2ce536bd636f1f4d8ac17.svg" /> </div>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-4r3'></a>Calcule a área líquida limitada pelo gráfico de \(f(x) = \cos (x)\) e pelo eixo \(x\) entre \(x=0\) e \(x=\pi \). <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-5r4'></a>Vamos olhar o gráfico. <div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-186652ccc7f1e3acbd66ab6d03ec11c0.svg" /> </div> A área acima do eixo \(x\) e a área abaixo do eixo \(x\) são exatamente iguais. Isso significa
+que a área líquida é \(\class{xm-given}{0}\). </div> </div>
+<p class='noindent'>O limite das somas de Riemann existe para qualquer função contínua no intervalo \([a,b]\),
+mesmo que \(f\) assuma valores negativos em \([a,b]\). O limite das somas de Riemann
+dá a <strong>área líquida</strong> da região entre o gráfico de \(f\) e um intervalo no eixo
+\(x\).
+</p><p class='noindent'>Isso nos leva à seguinte definição. </p><div class='theorem-like problem-environment definition' id='problem5' titletext=' definition'><a id='x1-6r5'></a> Seja \(f\) uma função contínua no intervalo
+\([a,b]\). Definimos a <strong>integral definida</strong> de \(f\) em \([a,b]\) por \[ \int _a^b f(x) \d x=\lim _{n\to \infty }\sum _{k=1}^n f(x_k^*)\Delta x. \] </div><p> A integral definida é um
+número que dá a área líquida da região entre a curva \(y=f(x)\) e o eixo \(x\) no intervalo
+\([a,b]\).
+</p><div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-7r6'></a>O gráfico de uma função \(f\) no intervalo \([0,9]\) é dado na figura. As áreas das quatro regiões
+que ficam acima ou abaixo do eixo \(x\) estão indicadas na figura.
+<div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-cc83d3d17598c30996dd72055490b1d3.svg" /> </div> Considere a integral \[ \int _0^9 f(x) \d x \] Expresse a integral em termos das áreas \(A_1\), \(A_2\), \(A_3\) e \(A_4\). <div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-8r7'></a>\begin{align*}  \int _0^9 f(x) \d x&amp;= -A_1+A_2-A_3+A_4\\  \end{align*}
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem8' titletext=' example'><a id='x1-9r8'></a>Considere a integral \[ \int _0^{10}-x \d x. \] Calcule a integral de duas maneiras:
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-11x1'>interpretando a integral como a área líquida da região entre a curva \(y=-x\) e o
+     intervalo \([0,10]\) no eixo \(x\);
+     </li>
+<li class='enumerate' id='x1-13x2'>usando a definição de integral definida, isto é, calculando o limite das
+     somas de Riemann.</li></ol>
+<div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-14r9'></a>
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-16x1'>
+     <p class='noindent'>A área entre o eixo \(x\) e a curva pode ser calculada facilmente, pois é a área de um triângulo. </p><div aria-labelledby='image-alt-5' class='image-environment' role='img'>
+     <img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-1a2e0772908153c4d911e1d6b3701187.svg" /> </div>
+     <p class='noindent'>\[ A=\frac {1}{2}\cdot 10\cdot 10=\class{xm-given}{50}. \]
+     </p><p class='noindent'>Então, segue que
+     </p><p class='noindent'>\[ \int _0^{10}-x \d x=-A \]
+                                                                  
+
+                                                                  
+     </p></li>
+<li class='enumerate' id='x1-18x2'>
+     <p class='noindent'>Usamos a <strong>definição de integral definida</strong> e escrevemos \[ \int _0^{10}-x \d x=\lim _{n\to \infty }\sum _{k=1}^n f(x_k^*)\Delta x=\lim _{n\to \infty }\sum _{k=1}^n -x_k^*\Delta x \] Não importa que
+     tipo de soma de Riemann usamos, então escolhemos uma soma de Riemann à
+     direita.
+     </p><p class='noindent'>\[ \int _0^{10}-x \d x=\lim _{n\to \infty }\sum _{k=1}^n -x_k\Delta x \] Uma soma de Riemann à direita com \(n=5\) está ilustrada na figura abaixo. </p><div aria-labelledby='image-alt-6' class='image-environment' role='img'>
+     <img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-f22a587fb56d9afc85dd95ef059969f9.svg" /> </div>
+     <p class='noindent'>Podemos aplicar a regra do múltiplo constante para somas e limites:
+     \begin{align*}  \int _0^{10}-x \d x &amp;=\lim _{n\to \infty }\sum _{k=1}^n -x_k\Delta x\\ &amp;=\lim _{n\to \infty }\left (-\sum _{k=1}^n x_k\Delta x\right )\\ &amp;=-\lim _{n\to \infty }\sum _{k=1}^n x_k\Delta x  \end{align*}
+     </p><p class='noindent'>Agora podemos concluir nosso cálculo do limite das somas de Riemann à
+     direita. \begin{align*}  \int _0^{10}-x \d x&amp;=-\lim _{n\to \infty }\sum _{k=1}^n x_k\Delta x\\ &amp;=-\lim _{n\to \infty }\sum _{k=1}^n k\cdot \frac {10}{n}\cdot \frac {10}{n}\\ &amp;=-\lim _{n\to \infty }\left (\frac {10}{n}\right )^2\sum _{k=1}^n k\\ &amp;=-\lim _{n\to \infty }\left (\frac {10}{n}\right )^2\frac {n(n+1)}{2}\\ &amp;=-\lim _{n\to \infty }50\frac {n+1}{n}\\ &amp;=\class{xm-given}{-50}\\  \end{align*}
+</p>
+     </li></ol>
+</div> </div> <div class='theorem-like problem-environment example' id='problem10' titletext=' example'><a id='x1-19r10'></a>
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-21x1'>Expresse o limite como uma integral definida. \[ \lim _{n\to \infty } \sum _{k=1}^n \left (\sqrt {1-\left (-1+\frac {2k}{n}\right )^2}\right ) \left (\frac {2}{n}\right ) \]
+     </li>
+<li class='enumerate' id='x1-23x2'>
+     <p class='noindent'>Calcule este limite: \[ \lim _{n\to \infty } \sum _{k=1}^n \left (\sqrt {1-\left (-1+\frac {2k}{n}\right )^2}\right ) \left (\frac {2}{n}\right ) \]
+</p>
+     <div class='theorem-like problem-environment explanation' id='problem11' titletext=' explanation'><a id='x1-24r11'></a>
+                                                                  
+
+                                                                  
+         <ol class='enumerate2'>
+<li class='enumerate' id='x1-26x1'>
+         <p class='noindent'>Isto é um limite de somas de Riemann! Mais especificamente, é um
+         limite de somas de Riemann com \(n\) retângulos, em que \[ \Delta x = \class{xm-given}{\frac {2}{n}}, \]
+         </p><p class='noindent'>\[ x_k^* = -1+\frac {2k}{n}, \] \[ a= x_0^* = \class{xm-given}{-1}, \] e \[ b=x_n^* = \class{xm-given}{1}. \] Logo, podemos reescrever isso como \[ \lim _{n\to \infty } \sum _{k=1}^n \left (\sqrt {1-(x_k^*)^2}\right )=\int _{\class{xm-given}{-1}}^{\class{xm-given}{1}}\sqrt {1-x^2} \d x. \]
+         </p></li>
+<li class='enumerate' id='x1-28x2'>
+         <p class='noindent'>O limite calcula a área entre o eixo \(x\) e a curva
+         </p><p class='noindent'>\(y = \sqrt {1-x^2}\).  Vamos  ver:  </p><div aria-labelledby='image-alt-7' class='image-environment' role='img'>
+         <img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-5054951bb08209c16db4d92065b80606.svg" /> </div> Pela geometria, sabemos que esse semicírculo tem área \(\class{xm-given}{\pi /2}\). Logo
+         \[ \lim _{n\to \infty } \sum _{k=1}^n \left (\sqrt {1-(x_k^*)^2}\right )\Delta x =\class{xm-given}{\pi /2}. \]</li></ol>
+     </div></li></ol>
+</div>
+<p class='noindent'>A integral definida calcula a área líquida (soma das áreas com sinal) entre \(y=f(x)\) e o
+eixo \(x\) no intervalo \([a,b]\).   </p><div class='problem-environment question' id='problem12' numbered='' role='article' titletext=' Question'>   Considere o gráfico de uma função \(f\) no intervalo \([0,5]\). <div aria-labelledby='image-alt-8' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-457eb30628eabaf1c7499a21e4a03a35.svg" /> </div> Calcule a integral definida \[ \int _0^5 f(x) \d x. \] <div class='theorem-like problem-environment explanation' id='problem13' titletext=' explanation'><a id='x1-29r12'></a>A área líquida na figura acima é dada por
+\[ \int _0^5 f(x) \d x=A_1-A_2 \]
+<p class='noindent'>As áreas \(A_1\) e \(A_2\) são calculadas facilmente, pois ambas são áreas de triângulos.
+Portanto, \[ \int _0^5 f(x) \d x=\class{xm-given}{1.25} \] </p></div>    </div><p> Este exemplo tem mais a nos dizer do que apenas o valor da
+integral.
+</p><p class='noindent'>Observe que \[ \int _0^3 f(x) \d x= A_1, \] \[ \int _3^5 f(x) \d x=-A_2, \] e \[ \int _0^5 f(x) \d x=A_1-A_2. \] Segue que \[ \int _0^5 f(x) \d x= \int _0^3 f(x) \d x+ \int _3^5 f(x) \d x. \]
+</p><p class='noindent'>Isso parece uma propriedade da integral definida. Existem outras propriedades?
+</p>
+<div class='theorem-like problem-environment theorem' id='problem14' titletext=' theorem'><a id='x1-30r13'></a><span class='theorem-like-title'>Propriedades da integral definida</span> Sejam \(f\) e \(g\) definidas em um intervalo fechado \([a,b]\) que
+contém o valor \(c\), e seja \(k\) uma constante. Valem as seguintes propriedades:
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-32x1'>\(\int _a^a f(x)\d x = 0\)
+     </li>
+<li class='enumerate' id='x1-34x2'>\(\int _a^c f(x)\d x + \int _c^b f(x)\d x = \int _a^b f(x)\d x\)
+     </li>
+<li class='enumerate' id='x1-36x3'>\(\int _a^bf(x)\d x = -\int _b^a f(x)\d x\)
+     </li>
+<li class='enumerate' id='x1-38x4'>\(\int _a^bk\cdot f(x)\d x = k\cdot \int _a^bf(x)\d x\)
+     </li>
+<li class='enumerate' id='x1-40x5'>\(\int _a^b \left (f(x)\pm g(x)\right )\d x = \int _a^bf(x)\d x \pm \int _a^bg(x)\d x\)</li></ol>
+<div class='theorem-like problem-environment explanation' id='problem15' titletext=' explanation'><a id='x1-41r14'></a>Vamos tratar de cada propriedade, uma por vez:
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-43x1'>Aqui, não há “área sob a curva” quando a região não tem largura; logo,
+     essa integral definida é \(0\).
+     </li>
+<li class='enumerate' id='x1-45x2'>
+     <p class='noindent'>Isso afirma que a área total é a soma das áreas das
+     sub-regiões. Aqui, uma imagem vale mais que mil palavras: </p><div aria-labelledby='image-alt-9' class='image-environment' role='img'>
+     <img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-def5f257d053ad5cd04ebb0549fe7375.svg" /> </div> É importante notar que isso continua valendo mesmo que \(a&lt;b&lt;c\). Discutiremos isso
+     no próximo item.
+     </li>
+<li class='enumerate' id='x1-47x3'>Por enquanto, essa propriedade pode ser vista apenas como uma convenção
+     para fazer as outras propriedades funcionarem bem. Porém, mais adiante
+     veremos que essa propriedade tem uma justificativa própria.
+                                                                  
+
+                                                                  
+     </li>
+<li class='enumerate' id='x1-49x4'>Isso afirma que, quando multiplicamos uma função por um fator, digamos, \(7\), a
+     área da região delimitada também fica multiplicada por um fator de
+     \(7\).
+     </li>
+<li class='enumerate' id='x1-51x5'>Isso afirma que a integral da soma é a soma das integrais.</li></ol>
+</div> </div>
+<p class='noindent'>Devido à natureza geométrica da integração, propriedades geométricas das funções
+podem nos ajudar a calcular integrais.
+</p>
+<div class='theorem-like problem-environment example' id='problem16' titletext=' example'><a id='x1-52r15'></a>Calcule: \[ \int _0^6 |x-3| \d x \] <div class='theorem-like problem-environment explanation' id='problem17' titletext=' explanation'><a id='x1-53r16'></a>Isso pode parecer difícil à primeira vista. Talvez a primeira coisa a fazer seja olhar o gráfico de \(y=x-3\): <div aria-labelledby='image-alt-10' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-53fd3bec219c86aac7871e01497c597a.svg" /> </div> Agora podemos esboçar o gráfico de \(y=|x-3|\): <div aria-labelledby='image-alt-11' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-984ef3c7519f9bccbcfe4cc01fa1ace8.svg" /> </div> Lembre-se de que \(|x-3|\) é, na verdade, uma função definida por partes
+<p class='noindent'>\[ |x-3| = \begin{cases} x-3 &amp; \text {se $3\le x $}\\ -(x-3)&amp;\text {se $x&lt;3$}. \end{cases} \]
+</p><p class='noindent'>Agora vemos que, na realidade, temos dois triângulos, cada um com base \(3\) e altura \(3\).
+Logo \begin{align*}  \int _0^6 |x-3| \d x &amp;= \int _0^3 \class{xm-given}{3-x} \d x + \int _3^6 \class{xm-given}{x-3} \d x\\ &amp;= \frac {3\cdot 3}{2} + \frac {3\cdot 3}{2}\\ &amp;=\class{xm-given}{9}.  \end{align*}
+</p>
+</div> </div>
+<div class='theorem-like problem-environment definition' id='problem18' titletext=' definition'><a id='x1-54r17'></a>Uma função \(f\) é uma função <strong>ímpar</strong> se \[ f(-x) = -f(x), \] e uma função \(g\) é uma função <strong>par</strong> se \[ g(-x) = g(x). \]
+</div>
+<p class='noindent'>Os nomes <em>ímpar</em> e <em>par</em> vêm do fato de que essas propriedades são
+compartilhadas pelas funções da forma \(x^n\) em que \(n\) é ímpar ou par. Por
+exemplo, se \(f(x) = x^3\), então \[ f(-7) = -f(7), \] e se \(g(x) = x^4\), então \[ g(-7) = g(7). \] Geometricamente, as funções pares
+têm simetria em relação ao eixo \(y\) . O cosseno é uma função par: </p><div aria-labelledby='image-alt-12' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-094433437438f3bc66602dc0dbad00d9.svg" /> </div><p> Por outro lado, as funções ímpares têm \(180^\circ \) de <em>simetria
+rotacional</em> em torno da origem. O seno é uma função ímpar: </p><div aria-labelledby='image-alt-13' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-82839fdca2f78385dfb8a770cda776b8.svg" /> </div>   <div class='problem-environment question' id='problem19' numbered='' role='article' titletext=' Question'>   Seja \(f\) uma função ímpar definida para todos os números reais. Calcule: \[ \int _{-2}^2 f(x) \d x \begin{prompt}=\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\end{prompt} \]
+<div class='foldable' data-original='expandable' id='foldable20'>xmhintComo nossa função é ímpar, ela deve se parecer com algo assim: <div aria-labelledby='image-alt-14' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-2abd54d7b5ac23749be83f67f96b8bce.svg" /> </div></div><div class='foldable' data-original='expandable' id='foldable21'>xmhintA integral acima
+calcula a seguinte área líquida: <div aria-labelledby='image-alt-15' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-49b803461e729326674575e12000271a.svg" /> </div></div>   </div>
+<div class='problem-environment question' id='problem22' numbered='' role='article' titletext=' Question'>  Seja \(f\) uma função ímpar definida para todos os números reais. Quais das
+alternativas a seguir são iguais a \[ \int _2^4 f(x) \d x ? \] <div class='select-all' id='problem23' titletext=' Select All'><a id='x1-55r18'></a> <span class='choice  ' id='choice1'>\(\int _{4}^{2} f(x) \d x\) </span><span class='choice  ' id='choice2'>\(\int _{-4}^{-2} f(x) \d x\) </span><span class='choice correct ' id='choice3'>\(\int _{-2}^{-4} f(x) \d x\) </span><span class='choice correct ' id='choice4'>\(\int _{-2}^{4} f(x) \d x\) </span><span class='choice  ' id='choice5'>\(\int _{4}^{-2} f(x) \d x\) </span><span class='choice correct ' id='choice6'>\(\int _{2}^{-4} f(x) \d x\) </span><span class='choice  ' id='choice7'>\(\int _{-4}^{2} f(x) \d x\) </span><span class='choice correct ' id='choice8'>\(-\int _{-4}^{2} f(x) \d x\) </span><span class='choice correct ' id='choice9'>\(-\int _{-4}^{-2} f(x) \d x\)</span> </div>    </div>
+                                                                  
+
+                                                                  
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Área líquida versus área geométrica</h3>
+<p class='noindent'>Sabemos que a área líquida da região entre uma curva \(y=f(x)\) e o eixo \(x\) em \([a,b]\) é dada por \[ \int _a^b f(x) \d x. \]
+Por outro lado, se quisermos saber a <em>área geométrica</em>, ou seja, a área “de
+verdade”, calculamos \[ \int _a^b |f(x)| \d x. \] </p><div class='theorem-like problem-environment example' id='problem24' titletext=' example'><a id='x1-1001r19'></a>O gráfico de uma função \(f\) é dado na figura abaixo. <div aria-labelledby='image-alt-16' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-3a6a98c24cb0d7390151fe95baea925b.svg" /> </div>
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-1003x1'>Expresse a área geométrica da região entre a curva \(y=f(x)\) e o eixo \(x\) no intervalo
+     \([0,9]\) como uma integral definida.
+     </li>
+<li class='enumerate' id='x1-1005x2'>Expresse a área geométrica da região entre a curva \(y=f(x)\) e o eixo \(x\) no intervalo
+     \([0,9]\) em termos de integrais definidas de \(f\).
+     </li>
+<li class='enumerate' id='x1-1007x3'>
+     <p class='noindent'>Expresse a área geométrica da região entre a curva \(y=f(x)\) e o eixo \(x\) no intervalo
+     \([0,9]\) em termos das áreas \(A_1\), \(A_2\), \(A_3\) e \(A_4\).
+</p>
+     <div class='theorem-like problem-environment explanation' id='problem25' titletext=' explanation'><a id='x1-1008r20'></a>
+         <ol class='enumerate2'>
+                                                                  
+
+                                                                  
+<li class='enumerate' id='x1-1010x1'>
+         <p class='noindent'>A área geométrica é dada pela integral \[ \int _0^9 |f(x)| \d x \] A figura abaixo mostra o gráfico de \(|f|\). </p><div aria-labelledby='image-alt-17' class='image-environment' role='img'>
+         <img alt='[Picture]' src="/rendered/definiteIntegral/digInTheDefiniteIntegral-dc2829b20186721fb9326b3b203f99ad.svg" /> </div>
+         </li>
+<li class='enumerate' id='x1-1012x2'>
+         <p class='noindent'>Usando as propriedades das integrais definidas, podemos escrever
+         \begin{align*}  \int _0^9 |f(x)| \d x = \int _0^1 |f(x) |\d x &amp;+ \int _1^5 |f(x)| \d x\\ &amp;+ \int _5^8 |f(x)| \d x\\ &amp;+ \int _8^9 |f(x)| \d x  \end{align*}
+         </p><p class='noindent'>Reescrevendo os módulos: \begin{align*}  = \int _0^1 (-f(x)) \d x &amp;+ \int _1^5 f(x) \d x\\ &amp;+ \int _5^8 (-f(x)) \d x\\ &amp;+ \int _8^9 f(x) \d x  \end{align*}
+         </p><p class='noindent'>Colocando os sinais negativos para fora: \begin{align*}  = -\int _0^1 f(x) \d x &amp;+ \int _1^5 f(x) \d x\\ &amp;- \int _5^8 f(x) \d x\\ &amp;+ \int _8^9 f(x) \d x  \end{align*}
+         </p></li>
+<li class='enumerate' id='x1-1014x3'>\[ \int _0^9 |f(x)| \d x =A_1 +A_2+A_3+A_4 \]
+</li></ol>
+     </div></li></ol>
+</div>  <div class='problem-environment question' id='problem26' numbered='' role='article' titletext=' Question'>   Verdadeiro ou falso: \[ \int _a^b |f(x)| \d x = \left |\int _a^b f(x) \d x\right | \]  <div class='multiple-choice' id='problem27' titletext=' Multiple Choice'><span class='choice  ' id='choice10'>verdadeiro </span><span class='choice correct ' id='choice11'>falso</span> </div> <div class='feedback' data-feedback='attempt' id='feedback28' titletext=' Feedback (attempt)'>Considere \(f(x) = x\) no intervalo \([-1,1]\). Aqui \[ \int _a^b |f(x)| \d x = 1 \qquad \text {mas}\qquad \left |\int _a^b f(x) \d x\right | = 0. \] </div>
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"0","format":"expression","given":false,"antiderivative":false}}</script>
