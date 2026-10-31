@@ -402,6 +402,21 @@ fn copy_tree(source_root: &Path, work: &Path) -> Result<(), String> {
             fs::copy(entry.path(), &destination).map_err(io_error("copiando a fonte do curso"))?;
         }
     }
+    // `xmlatex` (the official Ximera Docker wrapper) refuses to run unless
+    // `git rev-parse --show-toplevel` succeeds inside /code, to confirm it
+    // was started from a repo root. Copying the real `.git` (tens of
+    // megabytes) on every render would be wasteful and `xmlatex` only checks
+    // that it exists, not its contents, so an empty repo is initialized
+    // here instead.
+    let output = Command::new("git")
+        .arg("init")
+        .arg("-q")
+        .arg(work)
+        .output()
+        .map_err(io_error("inicializando o git da cópia temporária"))?;
+    if !output.status.success() {
+        return Err(command_error("git init", &output.stdout, &output.stderr));
+    }
     Ok(())
 }
 
