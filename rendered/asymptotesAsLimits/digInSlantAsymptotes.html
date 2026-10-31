@@ -1,0 +1,155 @@
+<!-- traduz-render: dec76d5a56f9e3e6c4e9fbeea397d7ab5176c6750c61f92df3e82151d2fbfb42 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Exploramos funções que “disparam para o infinito” em certos pontos de seu
+domínio. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Se pensarmos em uma assíntota como uma “reta com a qual a função se parece
+quando a entrada ou a saída é grande”, então há três tipos de assíntotas, assim
+como há três tipos de retas: \begin{align*}  \text {Assíntotas verticais} \qquad &amp;\leftrightarrow \qquad \text {Retas verticais}\\ \text {Assíntotas horizontais}\qquad &amp;\leftrightarrow \qquad \text {Retas horizontais} \\ \text {Assíntotas oblíquas}\qquad &amp;\leftrightarrow \qquad \text {Retas oblíquas}  \end{align*}
+</p><p class='noindent'>Aqui criamos um termo novo, reta “oblíqua”, para designar uma reta cuja inclinação
+não é zero nem é indefinida. Vamos fazer uma rápida revisão dos diferentes tipos de
+assíntotas:
+</p><p class='noindent'><span class='paragraphHead'>Assíntotas verticais</span>
+Lembre-se de que uma função \(f\) tem uma assíntota vertical em \(x=a\) se pelo menos uma
+das condições a seguir vale: </p>
+     <ul class='itemize1'>
+     <li class='itemize'>\(\lim _{x\to a} f(x) = \pm \infty \),
+     </li>
+     <li class='itemize'>\(\lim _{x\to a^+} f(x) = \pm \infty \),
+     </li>
+     <li class='itemize'>\(\lim _{x\to a^-} f(x) = \pm \infty \).</li></ul>
+<p class='noindent'>Nesse caso, a assíntota é a reta vertical \[ x = a. \]
+</p><p class='noindent'><span class='paragraphHead'>Assíntotas horizontais</span>
+Também vimos que uma função \(f\) tem uma assíntota horizontal se \[ \lim _{x\to \infty } f(x) = L \qquad \text {ou}\qquad \lim _{x\to -\infty } f(x) = L, \] e, nesse caso, a
+assíntota é a reta horizontal \[ \l (x) = L. \]
+</p><p class='noindent'><span class='paragraphHead'>Assíntotas oblíquas</span>
+Por outro lado, uma <em>assíntota oblíqua</em> é um bicho um pouco diferente.
+</p>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-2r1'></a> Se existe uma reta não horizontal \(\l (x) = m\cdot x+b\) tal que \[ \lim _{x\to \infty }\left (f(x) - \l (x)\right ) = 0 \qquad \text {ou}\qquad \lim _{x\to -\infty } \left ( f(x) - \l (x)\right ) = 0, \] então \(\l \) é uma <strong>assíntota oblíqua</strong> de \(f\). </div>   <div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>
+                                                                  
+
+                                                                  
+Considere o gráfico da função a seguir. <div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/asymptotesAsLimits/digInSlantAsymptotes-07334d7983a5e6f16c61f0e993b8a2de.svg" /> </div> Qual é a assíntota oblíqua dessa função?  \[ \l (x) = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \]     </div>
+<p class='noindent'>Para encontrar assíntotas oblíquas analiticamente, é preciso obter as informações
+necessárias para determinar uma reta: </p>
+     <ul class='itemize1'>
+     <li class='itemize'>A inclinação.
+     </li>
+     <li class='itemize'>A interseção com o eixo \(y\).</li></ul>
+<p class='noindent'>Embora haja várias maneiras de fazer isso, vamos apresentar um método bastante
+geral.
+</p>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-3r2'></a>Determine a assíntota oblíqua de \[ f(x) = \frac {3x^2+x+2}{x+2}. \] <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-4r3'></a>Queremos saber se existe uma reta \(\l \) tal que \[ \lim _{x\to \infty }\left (f(x) - \l (x)\right ) = 0\qquad \text {ou}\qquad \lim _{x\to -\infty } \left ( f(x) - \l (x)\right ) = 0. \]
+Primeiro, vamos considerar o limite quando \(x\) tende a mais infinito. Vamos imaginar
+que temos uma reta assim, \[ \l (x) = m\cdot x + b \] e tentar encontrar os valores corretos de \(m\) e \(b\). Olhemos
+novamente para o nosso limite. Estamos supondo que: \[ \lim _{x \to \infty } \left (\frac {3x^2 + x + 2}{x+2} - (mx + b) \right ) = 0. \] Sabemos que \(f(x)\) é contínua em
+todo ponto, exceto em \(x = -2\), e que \(\l (x)\) é contínua em todo ponto, então podemos aplicar
+nossas leis dos limites longe de \(x = -2\). Estamos olhando para valores grandes de \(x\), então isso
+não é problema. Usamos o fato de que a soma dos limites é o limite da soma.
+\begin{align*}  \lim _{x \to \infty } \left ( \frac {3x^2 + x + 2}{x+2} \right ) - &amp;\lim _{x\to \infty } (mx+b) = 0 \\ \lim _{x \to \infty } \frac {3x^2 + x + 2}{x+2} = &amp;\lim _{x \to \infty } (mx+b)  \end{align*}
+<p class='noindent'>Estamos supondo que esses dois limites são iguais. Dividir o lado direito por \(x\) torna o
+limite igual a \(m\): \begin{align*}  m = \lim _{x \to \infty } \left (\frac {mx}{x} + \frac {b}{x}\right ) = \lim _{x \to \infty } \left (\frac {mx+b}{x}\right ).  \end{align*}
+</p><p class='noindent'>Para encontrar o valor de \(m\), então, podemos dividir o lado esquerdo por \(x\) e calcular o
+limite. Obtemos o seguinte. \begin{align*}  m &amp;=\lim _{x\to \infty }\frac {\frac {3x^2+x+2}{x+2}}{x}\\ &amp;= \lim _{x\to \infty }\frac {\frac {3x^2+x+2}{x+2}}{x}\\ &amp;= \lim _{x\to \infty }\frac {3x^2+x+2}{x^2+2x}\\ &amp;= \lim _{x\to \infty }\left (\frac {3x^2+x+2}{x^2+2x}\cdot \frac {1/x^2}{1/x^2}\right )\\ &amp;= \lim _{x\to \infty }\frac {3+1/x+2/x^2}{1+2/x}\\ &amp;= \class{xm-given}{3}.  \end{align*}
+</p><p class='noindent'>Logo, \(m=3\). Agora sabemos que \[ \lim _{x \to \infty }\frac {3x^2 +x+2}{x+2} = \lim _{x \to \infty } (3x + b) \] para algum valor de \(b\). Para encontrar a interseção com o
+                                                                  
+
+                                                                  
+eixo \(y\), \(b\), usamos um método parecido. Observe que \[ \lim _{x \to \infty }( 3x + b - 3x )= \lim _{x \to \infty } b = b, \] então, se subtrairmos \(3x\) do
+lado direito, sobra apenas \(b\). Como os dois lados são iguais, subtrair \(3x\) do lado
+esquerdo e calcular o limite nos dará o valor de \(b\). Escrevemos o seguinte.
+\begin{align*}  b &amp;=\lim _{x\to \infty } \left (\frac {3x^2+x+2}{x+2} - 3x\right )\\ &amp;=\lim _{x\to \infty } \left ( \frac {3x^2+x+2}{x+2} - \frac {3x^2 + 6x}{x+2}\right ) \\ &amp;=\lim _{x\to \infty } \frac {3x^2+x+2-3x^2-6x}{x+2}\\ &amp;=\lim _{x\to \infty } \frac {-5x+2}{x+2}\\ &amp;=\lim _{x\to \infty } \left (\frac {-5x+2}{x+2}\cdot \frac {1/x}{1/x}\right )\\ &amp;=\lim _{x\to \infty } \frac {-5+2/x}{1+2/x}\\ &amp;= \class{xm-given}{-5}.  \end{align*}
+</p><p class='noindent'>Por esse método, determinamos que \[ \lim _{x\to \infty }\left (\frac {3x^2+x+2}{x+2} - (3x-5) \right ) = 0. \] Em outras palavras, \(\l (x) = \class{xm-given}{3x-5}\) é uma assíntota oblíqua
+da nossa função \(f\). Você deve verificar que obtemos a mesma assíntota oblíqua \(\l (x) = \class{xm-given}{3x-5}\)
+quando tomamos o limite em menos infinito também.  Podemos confirmar nossos
+resultados olhando para os gráficos de \(y=f(x)\) e \(y=\l (x)\): \[ \graph [xmin=-40,xmax=40,ymin=-50,ymax=50]{\frac {3x^2+x+2}{x+2}, 3x-5} \]  </p></div> </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"x/2 -1","format":"expression","given":false,"antiderivative":false}}</script>

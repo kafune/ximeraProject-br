@@ -1,0 +1,138 @@
+<!-- traduz-render: bd5045019e5d901eb7b514bfac0a634782836af489efc7bd3264369d1df392c8 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Discutimos composições de funções. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Dadas duas funções, podemos compô-las. Vamos dar um exemplo em um “contexto
+real”.
+</p>
+<div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-2r1'></a>Seja \[ g(m) = \text {a quantidade de gasolina que se pode comprar com $m$ dólares,} \] e seja \[ f(g) = \text {a distância que se pode dirigir com $g$ galões de gasolina.} \] O que \(f(g(m))\) representa nesse contexto? <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Com \(f(g(m))\), primeiro relacionamos a
+distância que se pode dirigir com \(\class{xm-given}{g}\) galões de gasolina, e isso, por sua vez, é
+determinado pela quantidade de dinheiro \(\class{xm-given}{m}\) que se tem. Logo, \(f(g(m))\) representa a distância
+que se pode dirigir com \(\class{xm-given}{m}\) dólares. </div> </div>
+<p class='noindent'>A composição de funções pode ser pensada como colocar uma função dentro da
+outra. Usamos a notação \[ (f\circ g)(x) = f(g(x)). \] </p><div class='theorem-like problem-environment warning' id='problem3' titletext=' warning'><a id='x1-4r3'></a>A composição \(f\circ g\) só faz sentido se \[ \{\text {a imagem de $g$}\} \text { está contido em ou é igual a } \{\text {o domínio de $f$}\} \] </div><p> Em outras palavras, o
+domínio de uma função composta \(f\circ g\) é o conjunto das entradas \(x\) no domínio de \(g\) para
+as quais \(g(x)\) está no domínio de \(f\).
+</p><div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-5r4'></a>Suponha que temos funções \(f\) e \(g\) com: \begin{align*}  f(x)&amp;={{x}^{2}}+5x+4 &amp;&amp;\text {para $x$ em $(-\infty , \infty )$,}\\ g(x)&amp;= x+7 &amp;&amp;\text {para $x$ em $(-\infty , \infty )$.}\\  \end{align*}
+<p class='noindent'>Determine a fórmula de \(f(g(x))\) e diga qual é o seu domínio. </p><div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-6r5'></a>A imagem de \(g\) é \((-\infty , \infty )\), que é igual
+ao domínio de \(f\). Isso significa que o domínio de \(f\circ g\) é \((-\infty , \infty )\), pois, para qualquer \(x\) em \((-\infty , \infty )\), o valor \(g(x)\)
+está definido e estará no domínio de \(f\). Em seguida, substituímos \(x+7\) em cada ocorrência
+de \(\class{xm-given}{x}\) encontrada em \[ f(x)={{x}^{2}}+5x+4 \] e assim \begin{align*}  f(g(x)) &amp;=f(x+7)\\ &amp;=\class{xm-given}{{{(x+7)}^{2}}+5(x+7)+4}.  \end{align*}
+</div> </div>
+<p class='noindent'>Agora vamos tentar um exemplo com um domínio mais restrito.
+</p>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-7r6'></a>Suponha que temos funções \(f\) e \(g\) com: \begin{align*}  f(x)&amp;=x^2 &amp;&amp;\text {para $x$ em $(-\infty , \infty )$,}\\ g(x)&amp;= \sqrt {x} &amp;&amp;\text {para $x &gt; 0$.}\\  \end{align*}
+<p class='noindent'>Determine uma fórmula para \(f(g(x))\) e diga qual é o seu domínio. </p><div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-8r7'></a>O domínio
+de \(g\) é \((0, \infty )\). A partir disso, podemos ver que a imagem de \(g\) é o intervalo \(\left ( \class{xm-given}{0}, \infty \right )\). Esse
+intervalo está contido no domínio de \(f\). Isso significa que o domínio de \(f\circ g\) é
+\((0, \infty )\).
+<p class='noindent'>Em seguida, substituímos \(\class{xm-given}{\sqrt {x}}\) em cada ocorrência de \(x\) encontrada em \[ f(x)={{x}^{2}} \] e assim
+\begin{align*}  f(g(x))&amp;=f(\sqrt {x})\\ &amp;=\left (\sqrt {x}\right )^2.  \end{align*}
+</p><p class='noindent'>Podemos resumir nossos resultados como uma função definida por partes, o que fica
+um tanto interessante: \[ (f\circ g)(x) = \begin{cases} x &amp; \text {se $x &gt; 0$}\\ \text {indefinido} &amp;\text {caso contrário}. \end{cases} \] </p></div> </div>
+<div class='theorem-like problem-environment example' id='problem8' titletext=' example'><a id='x1-9r8'></a>Suponha que temos funções \(f\) e \(g\) com: \begin{align*}  f(x)&amp;=\sqrt {x} &amp;&amp;\text {para $x &gt; 0$,}\\ g(x)&amp;= x^2 &amp;&amp;\text {para $x$ em $(-\infty , \infty )$.}  \end{align*}
+<p class='noindent'>Determine a fórmula de \(f(g(x))\) e diga qual é o seu domínio. </p><div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-10r9'></a>Embora o domínio de \(g\) seja \((-\infty , \infty )\), a
+sua imagem é apenas \((0, \infty )\). Esse é exatamente o domínio de \(f\). Isso significa que, para
+qualquer \(x\) em \((-\infty , \infty )\), o valor de \(g(x)\) está em \((0,\infty )\), ou seja, ele pertence ao domínio de \(f\). Isso
+significa que o domínio de \(f\circ g\) é \((-\infty , \infty )\). Agora podemos substituir \(\class{xm-given}{x^2}\) em cada ocorrência de \(\class{xm-given}{x}\)
+encontrada em \[ f(x)=\sqrt {x} \] e assim \begin{align*}  f(g(x))&amp;=f(x^2)\\ &amp;=\sqrt {x^2},\\ &amp;=|x|.  \end{align*}
+                                                                  
+
+                                                                  
+</div> </div>
+<p class='noindent'>Compare e contraste os dois exemplos anteriores. Usamos as mesmas funções em
+cada exemplo, mas as compusemos de maneiras diferentes. As composições
+resultantes não são apenas diferentes: elas têm domínios diferentes! Ao
+determinar a composição de duas funções diferentes, lembre-se de que a ordem
+importa!
+</p>
+<script type="application/json" class="xm-answers">{}</script>

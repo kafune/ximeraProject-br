@@ -1,0 +1,211 @@
+<!-- traduz-render: 3fd7d989fdd8df647fe68facda11166828750f9bdf6a1b3780b553618dcfe5b3 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+O limite de uma função contínua em um ponto é igual ao valor da função nesse
+ponto. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Limites são simples de calcular quando podem ser obtidos substituindo o valor na
+função. Isto é, quando \[ \lim _{x\to a}f(x) = f(a). \] Chamamos essa propriedade de <em>continuidade</em>.
+</p>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-2r1'></a>Uma função \(f\) é <strong>contínua em um ponto</strong> \(a\) se \[ \lim _{x\to a}f(x) = f(a). \] </div>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Considere o gráfico da função \(f\) <div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/whatIsALimit/digInContinuity-b1b2912e6fbd5eb51cfd712de9c2677d.svg" /> </div> Qual das alternativas a seguir é verdadeira? <div class='multiple-choice' id='problem3' titletext=' Multiple Choice'><span class='choice  ' id='choice1'>\(f\) é contínua em \(x=0.5\) </span><span class='choice  ' id='choice2'>\(f\) é contínua em \(x=1\) </span><span class='choice correct ' id='choice3'>\(f\) é contínua em \(x=1.5\)</span> </div>
+</div>
+<p class='noindent'>É muito importante observar que dizer </p>
+<div class='center'>
+<p class='noindent'>“uma função \(f\) é contínua em um ponto \(a\)”</p></div>
+
+<p class='noindent'>é, na verdade, fazer <strong>três</strong> afirmações:
+     </p><ol class='enumerate1'>
+<li class='enumerate' id='x1-4x1'>\(f(a)\) está definido. Isto é, \(a\) pertence ao domínio de \(f\).
+     </li>
+                                                                  
+
+                                                                  
+<li class='enumerate' id='x1-6x2'>\(\lim _{x\to a} f(x)\) existe.
+     </li>
+<li class='enumerate' id='x1-8x3'>\(\lim _{x\to a} f(x) = f(a)\).</li></ol>
+<p class='noindent'>As duas primeiras afirmações são consequência da terceira, mas são importantes o
+bastante para que as separemos, a fim de destacar seu significado. Trate essas três
+afirmações como a “<strong>lista de verificação da continuidade</strong>”. <em>Usar a definição de
+continuidade para determinar se uma função é ou não contínua em um ponto
+significa verificar esses três itens</em>.
+</p>
+<div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-9r2'></a>Determine as descontinuidades (os pontos \(x\) em que uma função não é contínua) da
+função descrita abaixo: <div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/whatIsALimit/digInContinuity-71bf2ee03cc3edb6bec62dfe66ae6924.svg" />
+</div>
+<div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-10r3'></a>Para começar, \(f\) nem sequer está definida em \(x=\class{xm-given}{2}\); logo, \(f\) não pode ser contínua em
+\(x=\class{xm-given}{2}\).
+<p class='noindent'>Em seguida, pelo gráfico acima vemos que \(\lim _{x\to 4} f(x)\) não existe, porque \[ \lim _{x\to 4^-}f(x) = \class{xm-given}{1}\qquad \text {e}\qquad \lim _{x\to 4^+}f(x) \approx 3.3 \] Como \(\lim _{x\to 4} f(x)\) não existe, \(f\)
+não pode ser contínua em \(x=4\).
+</p><p class='noindent'>Vemos também que \(\lim _{x\to 6} f(x) \approx 2.9\), enquanto \(f(6) = \class{xm-given}{2}\). Logo, \(\lim _{x\to 6} f(x) \ne f(6)\), e portanto \(f\) não é contínua em \(x=6\). </p></div>
+</div>
+<p class='noindent'>A partir da definição de <em>continuidade em um ponto</em>, podemos agora definir o que
+significa uma função ser <em>contínua</em> em um intervalo aberto.
+</p>
+<div class='theorem-like problem-environment definition' id='problem6' titletext=' definition'><a id='x1-11r4'></a>Uma função \(f\) é <strong>contínua em um intervalo aberto</strong> \(I\) se \(\lim _{x\to a} f(x) = f(a)\) para todo \(a\) em \(I\).
+                                                                  
+
+                                                                  
+</div>
+<p class='noindent'>Falando de modo informal, uma função é contínua em um intervalo \(I\) se você
+consegue desenhar a função nesse intervalo sem nenhuma interrupção no gráfico.
+Costuma-se dizer que é possível desenhar o gráfico “sem tirar o lápis do
+papel”.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem7' titletext=' theorem'><a id='x1-12r5'></a><span class='theorem-like-title'>Continuidade das funções famosas</span><a class='ximera-label' id='theorem:continuity'></a> As funções a seguir são contínuas em seus
+domínios naturais, para \(k\) um número real e \(b\) um número real positivo:
+     <dl class='description'><dt class='description'>
+Função constante </dt><dd class='description'>
+     <p class='noindent'> \(f(x) =k\)
+     </p></dd><dt class='description'>
+Função identidade </dt><dd class='description'>
+     <p class='noindent'> \(f(x) = x\)
+     </p></dd><dt class='description'>
+Função potência </dt><dd class='description'>
+     <p class='noindent'> \(f(x)=x^b\)
+     </p></dd><dt class='description'>
+Função exponencial </dt><dd class='description'>
+     <p class='noindent'> \(f(x)=b^x\)
+     </p></dd><dt class='description'>
+Função logarítmica </dt><dd class='description'>
+     <p class='noindent'> \(f(x)=\log _b(x)\)
+     </p></dd><dt class='description'>
+Seno e cosseno </dt><dd class='description'>
+     <p class='noindent'>Tanto \(\sin (x)\) quanto \(\cos (x)\)</p></dd></dl>
+<p class='noindent'>Em essência, estamos dizendo que as funções listadas acima são contínuas onde quer
+que estejam definidas. (Isto é, em seus domínios naturais.) </p></div>
+<div class='problem-environment question' id='problem8' numbered='' role='article' titletext=' Question'>  Calcule: \(\lim _{x\to \pi } x^3\begin{prompt}= \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\) <div class='feedback' data-feedback='attempt' id='feedback9' titletext=' Feedback (attempt)'>A função \(f(x)=x^3\) é da forma \(x^b\) para um número real positivo \(b\). Portanto, \(f(x)=x^3\) é
+contínua para todos os valores reais positivos de \(x\). Em particular, \(f(x)\) é contínua em \(x=\pi \).
+Como \(x^3\) é contínua em \(\pi \), sabemos que \(\lim _{x\to \pi } f(x) = f(\pi )\). Isto é, \(\lim _{x\to \pi } x^3 = \pi ^3\). </div>    </div>   <div class='problem-environment question' id='problem10' numbered='' role='article' titletext=' Question'>   Calcule: \(\lim _{x\to \pi } \sqrt {2}\begin{prompt}= \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\) <div class='feedback' data-feedback='attempt' id='feedback11' titletext=' Feedback (attempt)'>A função \(f(x)= \sqrt {2}\) é
+uma constante. Portanto, \(f(x)=\sqrt {2}\) é contínua para todos os valores reais de \(x\). Em
+particular, \(f(x)\) é contínua em \(x=\pi \). Como \(f\) é contínua em \(\pi \), sabemos que \(\lim _{x\to \pi } f(x) = f(\pi )=\sqrt {2}\). Isto é, \(\lim _{x\to \pi } \sqrt {2}= \sqrt {2}\). </div>
+</div>  <div class='problem-environment question' id='problem12' numbered='' role='article' titletext=' Question'>   Calcule: \(\lim _{x\to \pi } \cos {x}\begin{prompt}= \class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}}\end{prompt}\) <div class='feedback' data-feedback='attempt' id='feedback13' titletext=' Feedback (attempt)'>A função \(f(x)= \cos {x}\) é contínua para todos os valores reais de \(x\). Em
+particular, \(f(x)\) é contínua em \(x=\pi \). Como \(f\) é contínua em \(\pi \), sabemos que \(\lim _{x\to \pi } f(x) = f(\pi )=-1\). Isto é, \(\lim _{x\to \pi } \cos {x}= -1\). </div>
+</div>
+                                                                  
+
+                                                                  
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Continuidade à esquerda e à direita</h3>
+<p class='noindent'>Neste ponto, temos um pequeno problema. Para funções como \(\sqrt {x}\), o domínio natural é \([0, \infty )\).
+Esse não é um intervalo aberto. O que significa dizer que \(\sqrt {x}\) é contínua em \(0\) se \(\sqrt {x}\)
+não está definida para \(x&lt;0\)? Para sair desse impasse, precisamos de uma nova
+definição:
+</p>
+<div class='theorem-like problem-environment definition' id='problem14' titletext=' definition'><a id='x1-1001r6'></a>Uma função \(f\) é <strong>contínua à esquerda</strong> em um ponto \(a\) se \(\lim _{x\to a^-} f(x) = f(a)\).
+<p class='noindent'>Uma função \(f\) é <strong>contínua à direita</strong> em um ponto \(a\) se \(\lim _{x\to a^+} f(x) = f(a)\). </p></div>
+<p class='noindent'>Isso nos permite falar de continuidade em intervalos fechados e semifechados.
+</p>
+<div class='theorem-like problem-environment definition' id='problem15' titletext=' definition'><a id='x1-1002r7'></a>Uma função \(f\) é
+     <ul class='itemize1'>
+     <li class='itemize'><strong>contínua em um intervalo fechado</strong> \([a,b]\) se \(f\) é contínua em \((a,b)\), contínua à
+     direita em \(a\) e contínua à esquerda em \(b\);
+     </li>
+     <li class='itemize'><strong>contínua  em  um  intervalo  semifechado</strong> \([a,b)\) se  \(f\)  é  contínua  em  \((a,b)\)  e
+     contínua à direita em \(a\);
+     </li>
+     <li class='itemize'><strong>contínua em um intervalo semifechado</strong> \((a,b]\) se \(f\) é \(f\) é contínua em \((a,b)\) e
+     contínua à esquerda em \(b\).</li></ul>
+<p class='noindent'>Os <strong>Intervalos de continuidade</strong> de \(f\) são a lista (separada por vírgulas) dos maiores
+intervalos nos quais \(f\) é contínua. </p></div>
+<div class='problem-environment question' id='problem16' numbered='' role='article' titletext=' Question'>  Aqui apresentamos o gráfico de uma função definida em \([0,10]\). <div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/whatIsALimit/digInContinuity-886f54d5a21b761beff4663e0351cb83.svg" /> </div> Determine os intervalos
+de continuidade da função. <div class='multiple-choice' id='problem17' titletext=' Multiple Choice'><span class='choice  ' id='choice4'>\([0,10]\) </span><span class='choice  ' id='choice5'>\([0,4)\) e \((4,10]\) </span><span class='choice  ' id='choice6'>\([0,4]\), \([4,6]\) e \([6,10]\) </span><span class='choice  ' id='choice7'>\((0,4)\), \((4,6)\) e \((6,10)\) </span><span class='choice  ' id='choice8'>\([0,4]\), \((4,6)\) e \([6,10]\) </span><span class='choice correct ' id='choice9'>\([0,4]\), \((4,6)\) e \((6,10]\) </span><span class='choice  ' id='choice10'>\([0,4)\), \((4,6)\) e \((6,10]\) </span><span class='choice  ' id='choice11'>\((0,4]\), \([4,6]\) e
+\([6,10)\)</span> </div> <div class='feedback' data-feedback='attempt' id='feedback18' titletext=' Feedback (attempt)'>Observe que nossa função é contínua à esquerda em \(x=4\), então podemos
+incluir \(4\) no intervalo \([0,4]\). O quatro não está incluído no intervalo \((4,6)\) porque nossa
+função não é contínua à direita em \(x=4\). Do mesmo modo, nossa função não é
+contínua nem à direita nem à esquerda em \(x=6\), então \(6\) não está incluído em
+nenhum intervalo. Nossa função é contínua à esquerda em \(x=0\) e contínua à
+direita em \(x=10\), por isso incluímos essas extremidades em nossos intervalos. </div>
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"\\pi ^3","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"\\sqrt {2}","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"-1","format":"expression","given":false,"antiderivative":false}}</script>

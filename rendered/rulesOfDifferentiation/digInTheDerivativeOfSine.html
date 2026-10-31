@@ -1,0 +1,136 @@
+<!-- traduz-render: 7c646e9135549b44c1cac523d69671c317e01bdfe252f69879bd597aa0a91d8d -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Deduzimos a derivada do seno. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Chegou a hora de visitar nossos dois amigos que se ocupam periodicamente de
+triângulos e círculos. Em particular, queremos mostrar que \[ \dd {\theta }\sin (\theta )=\cos (\theta ). \] Antes de enfrentarmos
+esse monstro, vamos lembrar um fato e deduzir um fato novo. Você pode se sentir
+desconfortável no começo, por não conseguir enxergar bem por que precisamos desses
+resultados, mas esse estilo de exposição é uma realidade da escrita técnica; é melhor
+se acostumar com ele.
+</p><p class='noindent'>Primeiro, lembre-se do fato de que \[ \lim _{\theta \to 0} \frac {\sin (\theta )}{\theta } = 1. \] Em seguida, vamos usar esse fato para deduzir
+nosso fato novo: </p><div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-2r1'></a>\[ \lim _{\theta \to 0}\frac {\cos (\theta )-1}{\theta } = 0. \] <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Escreva comigo: \begin{align*}  \lim _{\theta \to 0}\frac {\cos (\theta )-1}{\theta } &amp;= \lim _{\theta \to 0}\left (\frac {\cos (\theta )-1}{\theta }\cdot \frac {\cos (\theta )+1}{\cos (\theta )+1}\right )\\ &amp;=\lim _{\theta \to 0}\frac {\cos ^2(\theta )-1}{\theta (\cos (\theta )+1)}\\ &amp;=\lim _{\theta \to 0}\frac {-\sin ^2(\theta )}{\theta (\cos (\theta )+1)}\\ &amp;=-\lim _{\theta \to 0}\left (\frac {\sin (\theta )}{\theta }\cdot \frac {\sin (\theta )}{\cos (\theta )+1}\right )\\ &amp;=-\lim _{\theta \to 0}\class{xm-given}{\frac {\sin (\theta )}{\theta }} \cdot \lim _{\theta \to 0}\frac {\sin (\theta )}{\cos (\theta )+1}\\ &amp;= -1 \cdot \class{xm-given}{\frac {0}{2}} = 0.  \end{align*}
+</div> </div>
+<p class='noindent'>Depois dessas deliciosas entradas, estamos prontos para o prato principal.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem3' titletext=' theorem'><a id='x1-4r3'></a><span class='theorem-like-title'>A derivada do seno</span><a class='ximera-label' id='theorem:deriv sin'></a> Para qualquer ângulo \(\theta \) medido em radianos, a derivada de \(\sin (\theta )\) em
+relação a \(\theta \) é \(\cos (\theta )\). Em outras palavras, \[ \dd {\theta } \sin (\theta ) = \cos (\theta ). \] <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-5r4'></a>Usando a definição de derivada, escreva comigo \[ \dd {\theta } \sin (\theta ) = \lim _{h\to 0} \frac {\sin (\theta +h)-\sin (\theta )}{h} \]
+Agora usamos um truque e aplicamos a fórmula de adição de arcos para o seno, que
+diz que \(\sin (\alpha +\beta ) = \sin (\alpha )\cos (\beta )+\sin (\beta )\cos (\alpha )\), para escrever \begin{align*}  &amp;= \lim _{h\to 0} \frac {\sin (\theta )\cos (h)+\sin (h)\cos (\theta )-\sin (\theta )}{h} \\ &amp;= \lim _{h\to 0} \left (\frac {\sin (\theta )\cos (h)-\sin (\theta )}{h} + \frac {\sin (h)\cos {\theta }}{h} \right )\\ &amp;=\lim _{h\to 0} \left (\sin (\theta )\frac {\cos (h) - 1}{h}+\cos (\theta )\frac {\sin (h)}{h}\right ) \\ &amp;=\lim _{h\to 0} \sin (\theta )\frac {\cos (h) - 1}{h}+\lim _{h\to 0}\cos (\theta )\frac {\sin (h)}{h} \\ &amp;= \sin (\theta )\lim _{h\to 0}\frac {\cos (h) - 1}{h}+\cos (\theta )\lim _{h\to 0}\frac {\sin (h)}{h} \\ &amp;=\sin (\theta ) \cdot \class{xm-given}{0} + \cos (\theta ) \cdot \class{xm-given}{1}\\ &amp;= \cos (\theta ).  \end{align*}
+</div> </div>
+<div class='problem-environment question' id='problem5' numbered='' role='article' titletext=' Question'>  Qual é a inclinação da reta tangente ao gráfico de \(\sin (\theta )\) em \(\theta = \pi /4\)?  \[ \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \]  <div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-6r5'></a>A inclinação da reta
+tangente ao gráfico de \(\sin (\theta )\) em \(\theta = \pi /4\) é dada por \[ \eval {\ddx \sin (\theta )}_{\theta = \pi /4}=\cos (\pi /4)=\sqrt {2}/2. \]
+</div>   </div>
+<p class='noindent'>Para seu estímulo intelectual, considere a seguinte interpretação geométrica da
+derivada de \(\sin (\theta )\).
+</p>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/rulesOfDifferentiation/digInTheDerivativeOfSine-436caa7dbecef3f4250060cd49d49f59.svg" />
+</div>
+<p class='noindent'>A partir deste diagrama, vemos que aumentar \(\theta \) em uma pequena quantidade \(h\)
+aumenta \(\sin (\theta )\) em aproximadamente \(h\cos (\theta )\). Logo, \[ \frac {\Delta y}{\Delta \theta }\approx \frac {h\cos (\theta )}{h} = \cos (\theta ). \]
+</p><p class='noindent'>Dito tudo isso, a derivada de uma função mede a inclinação do gráfico de uma função. Se
+examinarmos os gráficos do seno e do cosseno lado a lado, deve ficar claro que o segundo
+parece descrever com precisão a inclinação do primeiro, e de fato isso é verdade. </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/rulesOfDifferentiation/digInTheDerivativeOfSine-395fc5b7f556239c9c2af20ba71fc152.svg" /> </div>
+<div class='problem-environment question' id='problem7' numbered='' role='article' titletext=' Question'>  Usando o gráfico acima, qual é o valor de \(x\) no intervalo \([0, 2\pi ]\) em que a tangente ao
+gráfico de \(f(x) = \sin (x)\) tem inclinação \(-1\)?  A reta tangente ao gráfico da função \(\sin (x)\) tem inclinação \(-1\)
+em \(x = \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\).     </div>
+<p class='noindent'>Dica de especialista: ao trabalhar com funções trigonométricas, você deve sempre ter
+                                                                  
+
+                                                                  
+em mente as representações gráficas delas.
+</p>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"\\sqrt {2}/2","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"\\pi ","format":"expression","given":false,"antiderivative":false}}</script>

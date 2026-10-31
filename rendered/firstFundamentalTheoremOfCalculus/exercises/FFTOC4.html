@@ -1,0 +1,109 @@
+<!-- traduz-render: e915783512d207c99c32bb967cc75fb4f849ac87cceb3f90a2436cd01e1c0ba5 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>
+O gráfico de \(f\) é mostrado abaixo.
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/firstFundamentalTheoremOfCalculus/exercises/FFTOC4-02087368b80b284b8e0e6ede97888083.svg" /> </div>
+<p class='noindent'>Sejam \[ A(x) = \int _0^x f(t) \d t \text { para } 0\leq x\leq 6 \text { e } F(x) = \int _3^x f(t) \d t \text { para } 3\leq x\leq 6. \]
+</p><p class='noindent'>Calcule as expressões a seguir. \begin{align*}  A(3) &amp;= \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\\  \end{align*}
+</p>
+<div class='foldable' data-original='expandable' id='foldable2'>xmhintLembre-se: \(A(3)= \int _0^3 f(t) \d t \). Essa integral definida dá a área com sinal da região entre a curva
+\(y=f(x)\) e o intervalo \([0,3]\) no eixo \(x\). Use geometria!</div>
+<p class='noindent'>\begin{align*}  F(3) &amp;= \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\\  \end{align*}
+</p>
+<div class='foldable' data-original='expandable' id='foldable3'>xmhintLembre-se: \(F(3)= \int _3^3 f(t) \d t \).</div>\begin{align*}  A'(1.5) &amp;= \class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}}  \end{align*}
+<div class='foldable' data-original='expandable' id='foldable4'>xmhintLembre-se: \(A'(x)=f(x)\)</div><div class='foldable' data-original='expandable' id='foldable5'>xmhintLembre-se: \(A'(1.5)=f(1.5)\). Determine o valor \(f(1.5)\) a partir do gráfico.</div>Para \(3\leq x\leq 6\),
+podemos expressar \(F'(x)\) como \[ F'(x) = \class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}. \] <div class='foldable' data-original='expandable' id='foldable6'>xmhintLembre-se: \(F'(x)=f(x)\) para \(3\leq x\leq 6\).</div><div class='foldable' data-original='expandable' id='foldable7'>xmhintLembre-se: \(F'(x)=f(x)\) para \(3\leq x\leq 6\). \(f\) é uma
+função linear no intervalo \([3,6]\).</div>Para \(3\leq x\leq 6\), podemos expressar \(F(x)\) como \[ F(x) = \class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}}. \] <div class='foldable' data-original='expandable' id='foldable8'>xmhintLembre-se: \(F(x)= \int _3^x f(t) \d t\) para \(3\leq x\leq 6\).
+Essa integral definida dá a área com sinal da região entre o gráfico de \(f\) e o
+intervalo \([3,x]\) no eixo \(x\). Essa região é um triângulo de base \((x-3)\) e altura \(f(x)\). Calcule a
+área do triângulo!</div>\[ \int _0^5\left |f(t)\right | \d t = \class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}} \] <div class='foldable' data-original='expandable' id='foldable9'>xmhintEssa integral dá a área da região entre o gráfico
+de \(|f|\) e o intervalo \([0,5]\) no eixo \(x\). Use geometria! Ela pode ser expressa como \(-A(3)+F(5)\).</div>
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"-2","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"-1","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"x-3","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"\\frac {(x-3)^2}{2}","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"4","format":"expression","given":false,"antiderivative":false}}</script>

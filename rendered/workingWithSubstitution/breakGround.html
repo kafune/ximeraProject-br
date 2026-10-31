@@ -1,0 +1,136 @@
+<!-- traduz-render: b6bc753d5dc47f3c071f8f22102ecb738af3eb19c5a79a6df636f66227e94403 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Dois jovens matemáticos discutem como integrais difíceis são quebra-cabeças. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Confira este diálogo entre dois estudantes de cálculo (baseado em uma história
+real):
+     </p><dl class='dialogue'><dt class='actor'>
+Devyn </dt><dd class='speech'>Ei, Riley, é só impressão minha ou integrais são meio divertidas?
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Eu sempre me sinto realizada quando termino uma.
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Eu sei! Além disso, mesmo que antiderivadas sejam difíceis, sempre
+     podemos conferir nosso trabalho calculando a derivada.
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Demais!
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Mas tem uma coisa me incomodando. Quando fazemos substituição,
+     temos que encontrar \(f\) e \(g\) tais que \[ \int f(g(x)) \cdot g'(x) \d x = \int f(g) \d g. \] Como escolhemos \(f\) e \(g\)?
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Bom, nunca, jamais escolha \(g(x) = x\), isso não muda nada!
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>E nunca, jamais escolha \(g(x)\) como o integrando inteiro, isso também não
+     ajuda.
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>De algum modo, precisamos “enxergar” uma função “aninhada” dentro
+     de outra.
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Não sei se existe um caminho fácil para fazer isso, acho que vai exigir
+     prática.</dd></dl>
+<p class='noindent'>Nos problemas a seguir, vamos usar a fórmula de substituição \[ \int f(g(x)) \cdot g'(x) \d x = \int f(g) \d g \] Embora você possa
+usar um método um pouco diferente para calcular suas integrais, as habilidades
+desenvolvidas ao responder aos problemas abaixo vão ajudar você em sua missão de
+conquistar o cálculo.
+</p>
+<div class='problem-environment problem' id='problem1' numbered='' role='article' titletext=' Problem'>  Considere \[ \int \sin ^5(3x) \cos (3x) \d x = \int f(g(x)) \cdot g'(x) \d x \] se \(g(x) = 3x\), e \[ \int f(g(x)) \cdot g'(x) \d x = \int f(g) \d g. \] qual é \(f(g)\)?  \[ f(g) = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \]     </div>
+<div class='problem-environment problem' id='problem2' numbered='' role='article' titletext=' Problem'>  Considere \[ \int \sin ^5(3x) \cos (3x) \d x = \int f(g(x)) \cdot g'(x) \d x \] se \(f(g) = \frac {g^5}{3}\), e \[ \int f(g(x)) \cdot g'(x) \d x = \int f(g) \d g. \] qual é \(g(x)\)?  \[ g(x) = \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \]     </div>
+                                                                  
+
+                                                                  
+<div class='problem-environment problem' id='problem3' numbered='' role='article' titletext=' Problem'>  Com suas próprias palavras, explique por que Devyn e Riley afirmam que nunca
+devemos escolher \(g(x) = x\) nem \(g(x)\) como o integrando inteiro. <div class='free-response' id='problem4' titletext=' Free Response'><a id='x1-2r1'></a> O objetivo da substituição é
+tornar a integral mais fácil de calcular. Suas escolhas para \(f\) e \(g\) devem tornar as coisas
+mais fáceis, não mais difíceis!
+<p class='noindent'>A menos que a derivada de \(g(x)\) seja \(1\), escolher \(g(x)\) como o integrando inteiro significa que
+não sobra nenhuma parte do integrando para ser a derivada de \(g\). Escolher \(g(x) = x\) significa
+que \(g'(x) = 1\), ou seja, você não simplificou a integral em nada. </p></div>    </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":" \\frac {\\sin ^5(g) \\cos (g)}{3}","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"\\sin (3 x)","format":"expression","given":false,"antiderivative":false}}</script>

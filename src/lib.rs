@@ -7,3 +7,4 @@ pub mod reader;
 pub mod routes;
 pub mod translations;
 pub mod ximera;
+pub mod xourse;

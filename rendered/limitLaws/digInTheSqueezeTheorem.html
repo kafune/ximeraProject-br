@@ -1,0 +1,159 @@
+<!-- traduz-render: fa65d3cad16494079d9f4e7e54479933d7da7e3042be89c888ef9aad3c31d2d2 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+O teorema do confronto nos permite calcular o limite de uma função difícil
+“espremendo-a” entre duas funções fáceis. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Em matemática, às vezes podemos estudar funções complicadas relacionando-as a
+funções mais simples. O <em>teorema do confronto</em> nos mostra uma situação em que isso
+é possível.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>Teorema do confronto</span> Suponha que \[ g(x) \leq f(x) \leq h(x) \] para todo \(x\) próximo de \(a\), mas não necessariamente
+igual a \(a\). Se \[ \lim _{x\to a} g(x) = L = \lim _{x\to a} h(x), \] então \(\lim _{x\to a} f(x) = L\). </div>
+<p class='noindent'><em>Tenha cuidado com a notação ao usar o teorema do confronto</em>. Não existe uma
+“desigualdade de três lados” envolvendo valores de limites no teorema do confronto.
+Para usar o teorema do confronto, você calcula os limites das duas funções que estão
+nas extremidades da desigualdade. Se eles forem iguais, então você conhece o limite
+da função que está no meio.
+</p>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Estou pensando em uma função \(f\). Sei que, para todo \(x\), \[ 0 \le f(x) \le x^2. \] Quanto vale \(\lim _{x\to 0} f(x)\)?  <div class='multiple-choice' id='problem3' titletext=' Multiple Choice'><span class='choice  ' id='choice1'>\(f(x)\) </span><span class='choice  ' id='choice2'>\(f(0)\) </span><span class='choice correct ' id='choice3'>\(0\) </span><span class='choice  ' id='choice4'>impossível dizer</span> </div>     </div>
+<div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-3r2'></a>Uma função contínua \(f\) satisfaz a propriedade \(8x-13 \leq f(x) \leq x^2+2x-4\). Quanto vale \(\lim _{x\to 3} f(x)\)? <div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-4r3'></a>\[ \lim _{x\to 3} \left (8x-13\right ) = \class{xm-given}{11}.\] \[ \lim _{x\to 3} \left (x^2+2x-4\right ) = \class{xm-given}{11}.\] Então \[\lim _{x\to 3} f(x) = \class{xm-given}{11}.\] </div>
+</div>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-5r4'></a>Considere  a  função  \[ f(x) = \begin{cases} \sqrt [5]{x}\sin \left (\frac {1}{x}\right ) &amp; \text {se $x \ne 0$,}\\ 0 &amp; \text {se $x = 0$,} \end{cases} \]  <div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/limitLaws/digInTheSqueezeTheorem-217bebc456aa613d8fcfa0303db5f610.svg" /> </div> Essa função é contínua em \(x=0\)? <div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-6r5'></a>Devemos mostrar que \(\lim _{x\to 0} f(x) = \class{xm-given}{0}\). Primeiro, vamos supor que \(x\ge 0\) e
+pequeno. Como \[ -1 \le \sin {\left (\frac {1}{x}\right )}\le 1 \]
+<p class='noindent'>multiplicando essas desigualdades por \(\sqrt [5]{x} \ge 0\) , obtemos \[ -\sqrt [5]{x} \le \sqrt [5]{x}\sin {\left (\frac {1}{x}\right )} \le \sqrt [5]{x} \] o que pode ser escrito
+como
+                                                                  
+
+                                                                  
+</p><p class='noindent'>\[ -\sqrt [5]{x} \le f(x) \le \sqrt [5]{x}, \] e, portanto, como \[ -\Big |\sqrt [5]{x}\Big | \le f(x) \le \Big |\sqrt [5]{x}\Big |, \]
+</p><p class='noindent'>Agora, vamos supor que \(x\le 0\) e pequeno. Como \[ -1\le \sin {\left (\frac {1}{x}\right )}\le 1 \] multiplicando essas desigualdades por \(\sqrt [5]{x} \le 0\) ,
+obtemos \[ \sqrt [5]{x} \le \sqrt [5]{x}\sin {\left (\frac {1}{x}\right )} \le -\sqrt [5]{x} \] o que pode ser escrito como \[ \sqrt [5]{x} \le f(x) \le -\sqrt [5]{x}. \]
+</p><p class='noindent'>Lembre-se de que \[ \Big |\sqrt [5]{x}\Big | = \begin{cases} -\sqrt [5]{x} &amp; \text {se $x &lt; 0$,}\\ \sqrt [5]{x} &amp; \text {se $x \ge 0$.} \end{cases} \] Portanto, para todos os valores pequenos de x, \[ -\Big |\sqrt [5]{x}\Big | \le f(x) \le \Big |\sqrt [5]{x}\Big |. \]
+</p><p class='noindent'>Como \[ \lim _{x\to 0} \left ( - \Big |\sqrt [5]{x}\Big | \right ) = \class{xm-given}{0} = \lim _{x\to 0}\Big |\sqrt [5]{x}\Big |, \] aplicamos o teorema do confronto e obtemos que
+</p><p class='noindent'>\(\lim _{x\to 0} f(x) = \class{xm-given}{0}\). Logo, \(f(x)\) é contínua.
+</p><p class='noindent'>Aqui vemos como a definição informal de continuidade, segundo a qual você
+consegue “desenhar o gráfico” sem “tirar o lápis do papel”, difere da definição
+formal.
+</p>
+<div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/limitLaws/digInTheSqueezeTheorem-4875668fcaf1a52d3f858f3965a332d4.svg" /> </div> </div> </div>
+<div class='theorem-like problem-environment example' id='problem8' titletext=' example'><a id='x1-7r6'></a>Calcule: \[ \lim _{\theta \to 0} \frac {\sin (\theta )}{\theta } \] <div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-8r7'></a>Para calcular esse limite, use o teorema do confronto. Primeiro, observe que
+só precisamos examinar \(\theta \in \left (\frac {-\pi }{2}, \frac {\pi }{2}\right )\) e, por enquanto, vamos supor que \(\theta \) é positivo. Considere os
+diagramas abaixo:
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-3' class='image-environment' role='img'><div class='tabular'>
+ <table class='tabular' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /><col id='TBL-1-3' /></colgroup><tr id='TBL-1-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-1-1' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/limitLaws/digInTheSqueezeTheorem-c579da227c0d945f2f0512a31bc204f6.svg" />  </td><td class='td11' id='TBL-1-1-2' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/limitLaws/digInTheSqueezeTheorem-ebda85857f46357f9dd69e71606e697f.svg" />  </td><td class='td11' id='TBL-1-1-3' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/limitLaws/digInTheSqueezeTheorem-4d27b8795e4b2a42b988bf3655dc14db.svg" />  </td>
+</tr></table>                                                                                                                                                   </div>
+</div>
+<p class='noindent'>A partir dos diagramas acima, vemos que \[ \text {Área do triângulo $A$} \le \text {Área do setor} \le \text {Área do triângulo $B$} \] e, calculando essas áreas, encontramos \[ \frac {\cos (\theta )\sin (\theta )}{2} \le \frac {\theta }{2} \le \frac {\tan (\theta )}{2}. \]
+Multiplicando tudo por \(2\) e lembrando que \(\tan (\theta ) = \frac {\sin (\theta )}{\cos (\theta )}\), obtemos \[ \cos (\theta )\sin (\theta ) \le \theta \le \frac {\sin (\theta )}{\cos (\theta )}. \] Dividindo tudo por \(\sin (\theta )\)
+e tomando os recíprocos (o que inverte as desigualdades), encontramos \[ \cos (\theta ) \le \frac {\sin (\theta )}{\theta } \le \frac {1}{\cos (\theta )}. \]
+Observe que \(\cos (-\theta ) = \cos (\theta )\) e \(\frac {\sin (-\theta )}{-\theta } = \frac {\sin (\theta )}{\theta }\), de modo que essas desigualdades valem para todo \(\theta \in \left (\frac {-\pi }{2}, \frac {\pi }{2}\right )\). Além
+disso, sabemos que \[ \lim _{\theta \to 0}\cos (\theta ) = \class{xm-given}{1} = \lim _{\theta \to 0}\frac {1}{\cos (\theta )}, \] e assim concluímos, pelo teorema do confronto, que \(\lim _{\theta \to 0}\frac {\sin (\theta )}{\theta } = \class{xm-given}{1}\). </p></div>
+</div>
+<p class='noindent'>Ao resolver um problema com o teorema do confronto, é preciso escrever uma espécie
+de poema matemático. Você tem que dizer ao seu amigável leitor exatamente quais
+funções está usando para “espremer” o seu limite.
+</p>
+<div class='theorem-like problem-environment example' id='problem10' titletext=' example'><a id='x1-9r8'></a>Calcule: \[ \lim _{x\to 0} \left (\sin (x) e^{\cos \left (\frac {1}{x^3}\right )}\right ) \] <div class='theorem-like problem-environment explanation' id='problem11' titletext=' explanation'><a id='x1-10r9'></a>Vamos traçar o gráfico dessa função para ver o que está acontecendo: <div aria-labelledby='image-alt-4' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/limitLaws/digInTheSqueezeTheorem-b0d1577119e0aa3874308abce010e7a7.svg" /> </div> Observação: como \[ -1 \le \cos {\left (\frac {1}{x^3}\right )}\le 1, \] segue que \[ e^{-1} \le e^{\cos {\left (\frac {1}{x^3}\right )}}\le e^{1}. \]
+                                                                  
+
+                                                                  
+<p class='noindent'>Essa observação é muito importante, pois a função \(\sin (x) e^{\cos \left (\frac {1}{x^3}\right )}\) tem dois fatores: </p><div aria-labelledby='image-alt-5' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/limitLaws/digInTheSqueezeTheorem-93ee22457118cf78a5ffa81a5fed2e66.svg" /> </div> Logo, temos que, quando \(0&lt; x&lt;\pi \), \[ 0 \le \sin (x) e^{\cos \left (\frac {1}{x^3}\right )} \le \sin (x) \class{xm-given}{e} \] e vemos
+que \[ \lim _{x\to 0^+}0 = \class{xm-given}{0} = \lim _{x\to 0^+} \sin (x) \class{xm-given}{e} \] e assim, pelo teorema do confronto, \[ \lim _{x\to 0^+}\left (\sin (x)e^{\cos \left (\frac {1}{x^3}\right )}\right )=\class{xm-given}{0}. \] De modo análogo, quando \(-\pi &lt;x&lt;0\), \[ \sin (x) \class{xm-given}{e} \le \sin (x) e^{\cos \left (\frac {1}{x^3}\right )} \le 0 \] e assim \[ \lim _{x\to 0^-}\sin (x) \class{xm-given}{e} =\class{xm-given}{0}=\lim _{x\to 0^-}0, \] e,
+novamente pelo teorema do confronto, \(\lim _{x\to 0^-}\left (\sin (x) e^{\cos \left (\frac {1}{x^3}\right )}\right )=0\). Logo, vemos que \[ \lim _{x\to 0}\left (\sin (x) e^{\cos \left (\frac {1}{x^3}\right )}\right )=\class{xm-given}{0}. \]
+<div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/limitLaws/digInTheSqueezeTheorem-9eb58e31cd11eb3d8ff4c14649313a3e.svg" /> </div> </div> </div>
+<script type="application/json" class="xm-answers">{}</script>

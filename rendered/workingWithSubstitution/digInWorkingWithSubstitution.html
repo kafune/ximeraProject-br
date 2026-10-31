@@ -1,0 +1,179 @@
+<!-- traduz-render: 04c09280b825b945f88d4db56f98fda176c71b4b20a4ea01a83276248039294b -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Exploramos problemas mais difíceis envolvendo substituição. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Começamos reenunciando a fórmula de substituição.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>Fórmula de substituição para integrais</span> Se \(g\) é derivável no intervalo \([a,b]\) e \(f\) é derivável no
+intervalo \([g(a),g(b)]\), e se ambas têm derivadas contínuas, então \[ \int _a^b f'(g(x)) g'(x) \d x =\int _{g(a)}^{g(b)} f'(u) \d u. \] </div>
+<p class='noindent'>Vamos resolver mais alguns exemplos.
+</p>
+<div class='theorem-like problem-environment example' id='problem2' titletext=' example'><a id='x1-3r2'></a>Calcule: \[ \int _{2}^{3} \frac {1}{x\ln (x)} \d x \] <div class='theorem-like problem-environment explanation' id='problem3' titletext=' explanation'><a id='x1-4r3'></a>Seja \[ u =\class{xm-given}{\ln (x)}, \] calculando \(\d u\), encontramos \[ \d u =\class{xm-given}{\frac {1}{x}}\d x \] e, isolando \(\d x\), obtemos \[ \d x = \class{xm-given}{x} \d u. \] Agora \begin{align*}  \int _{2}^{3} \frac {1}{x\ln (x)} \d x &amp;= \int _{g(2)}^{g(3)} \frac {1}{x \cdot u} x \d u \\ &amp;= \int _{\class{xm-given}{\ln (2)}}^{\class{xm-given}{\ln (3)}} \class{xm-given}{\frac {1}{u}} \d u\\ &amp;= \eval {\class{xm-given}{\ln (u)}}_{\class{xm-given}{\ln (2)}}^{\class{xm-given}{\ln (3)}}\\ &amp; = \ln (\ln (3)) - \ln (\ln (2)).  \end{align*}
+</div> </div>
+<p class='noindent'>O próximo exemplo exige uma técnica nova.
+</p>
+<div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-5r4'></a>Calcule: \[ \int x^3\sqrt {1-x^2}\d x \] <div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-6r5'></a>Aqui não é evidente que a regra da cadeia esteja envolvida. Porém, se ela
+estivesse envolvida, talvez um bom chute para \(g\) fosse \[ u = \class{xm-given}{1-x^2} \] e então \begin{align*}  \d u &amp;= \class{xm-given}{-2x} \d x, \\ \d x &amp;= \class{xm-given}{\frac {-1}{2x}} \d u.  \end{align*}
+<p class='noindent'>Agora consideramos a integral que estamos tentando calcular \[ \int x^3\sqrt {1-x^2}\d x \] e substituímos usando
+nosso trabalho acima. Escreva comigo \begin{align*}  \int x^3\sqrt {1-x^2}\d x &amp;= \int x^3 \class{xm-given}{\sqrt {u}} \left ( \class{xm-given}{\frac {-1}{2x}} \right ) \d u \\ &amp;= \int \frac {-x^2 \class{xm-given}{\sqrt {u}}}{2}\d u.  \end{align*}
+</p><p class='noindent'>Porém, não podemos continuar enquanto cada \(x\) não for substituído. Sabemos que
+\begin{align*}  u &amp;= 1-x^2 \\ \Rightarrow \qquad u -1 &amp;= -x^2\\ \Rightarrow \qquad \class{xm-given}{1- u} &amp;= x^2  \end{align*}
+</p><p class='noindent'>então agora podemos substituir \(x^2\) \[ \int x^3\sqrt {1-x^2}\d x = \int -\frac {\class{xm-given}{(1-u)} \sqrt {u}}{2}\d u. \] Neste ponto, estamos perto de terminar. Escreva
+\begin{align*}  \int -\frac {(1-u)\sqrt {u}}{2}\d u &amp;= \int \left (\frac {u\sqrt {u}}{2} - \frac {\sqrt {u}}{2}\right ) \d u \\ &amp;= \int \frac {\class{xm-given}{u^{3/2}}}{2} \d u - \int \frac {\sqrt {u}}{2} \d u \\ &amp;= \class{xm-given}{\frac {u^{5/2}}{5}} - \class{xm-given}{\frac {u^{3/2}}{3}}.  \end{align*}
+</p><p class='noindent'>Agora lembre-se de que \(u = 1-x^2\). Logo, nossa resposta final é \[ \int x^3\sqrt {1-x^2}\d x = \class{xm-given}{\frac {(1-x^2)^{5/2}}{5}} - \frac {(1-x^2)^{3/2}}{3}+C. \] </p></div> </div>
+<p class='noindent'>Às vezes não é óbvio como uma fração poderia ter sido obtida usando a regra da
+cadeia. Um truque comum, porém, é substituir o <em>denominador</em> da fração. Como todo
+truque, essa técnica nem sempre funciona. Mesmo assim, os dois próximos exemplos
+mostram como essa técnica pode ser usada.
+</p>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-7r6'></a>Calcule: \[ \int \frac {\sec (y) \tan (y) + \sec ^2(y)}{\sec (y) + \tan (y)} \d y \] <div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-8r7'></a>Substituímos \[ u = \sec (y) + \tan (y) \] e vemos imediatamente que \begin{align*}  \d u &amp;= \class{xm-given}{(\sec (y) \tan (y) + \sec ^2(y))} \d y,\\ \d y &amp;= \frac {1}{\class{xm-given}{\sec (y) \tan (y) + \sec ^2(y)}} \d u.  \end{align*}
+<p class='noindent'>Mas isso se cancela perfeitamente com o numerador! Assim, temos que \begin{align*}  \int \frac {\sec (y) \tan (y) + \sec ^2(y)}{\sec (y) + \tan (y)} \d y &amp;= \int \frac {1}{u} \d u \\ &amp;= \ln (|u|) + C \\ &amp;= \ln (| \sec (y) + \tan (y) |) + C.  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>Observe que \[ \frac {\sec (x) \tan (x) + \sec ^2(x)}{\sec (x) + \tan (x)} = \frac {\sec (x) (\tan (x) + \sec (x))}{\sec (x) + \tan (x)} = \sec (x) \] quando \(\sec (x) \neq - \tan (x)\). Assim, de um modo bastante artificial, acabamos de
+demonstrar
+</p>
+<div class='theorem-like problem-environment theorem' id='problem8' titletext=' theorem'><a id='x1-9r8'></a>\[ \int \sec (x) \d x = \ln (|\sec (x) + \tan (x)|) + C. \] </div>
+<p class='noindent'>Repare na variável deste próximo exemplo.
+                                                                  
+
+                                                                  
+</p>
+<div class='theorem-like problem-environment example' id='problem9' titletext=' example'><a id='x1-10r9'></a><a class='ximera-label' id='key example'></a> Calcule: \[ \int \frac {u}{1-u^2} \d u \] <div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-11r10'></a>Queremos substituir \(1-u^2\). Mas a variável “\(u\)” já foi usada…ESSA NÃO! Sem
+pânico! Podemos substituir usando a variável que quisermos. Em particular, vamos
+usar “\(w\)” neste problema. Então fazemos \[ w = 1 - u^2 \] e, portanto, \begin{align*}  \d w &amp;= \class{xm-given}{-2u} \d u,\\ \d u &amp;= \class{xm-given}{\frac {-1}{2u}} \d w.  \end{align*}
+<p class='noindent'>Logo \begin{align*}  \int \frac {u}{1-u^2} \d u &amp;= \int \frac {u}{w} \left ( \class{xm-given}{\frac {-1}{2u}} \right ) \d w \\ &amp;= - \frac {1}{2} \int \frac {1}{w} \d w \\ &amp;= - \frac {1}{2} \ln (|w|) + C \\ &amp;= - \frac {1}{2} \ln (|1-u^2|) + C.  \end{align*}
+</p>
+</div> Lembre-se: \[ \int _{g(a)}^{g(b)} f'(u) \d u=\int _{g(a)}^{g(b)} f'(w) \d w=\int _{g(a)}^{g(b)} f'(s) \d s. \] Assim, podemos chamar uma variável \(u\) por qualquer outro nome e “ela
+teria o mesmo doce perfume”.
+</div>
+<div class='theorem-like problem-environment example' id='problem11' titletext=' example'><a id='x1-12r11'></a><a class='ximera-label' id='example tan'></a> Calcule: \[ \int \tan (x) \d x \] <div class='theorem-like problem-environment explanation' id='problem12' titletext=' explanation'><a id='x1-13r12'></a>Começamos escrevendo \begin{align*}  \tan (x) &amp;= \frac {\sin (x)}{\cos (x)} \\ &amp;= \frac {\sin (x)}{\cos (x)} \cdot \frac {\cos (x)}{\cos (x)} \\ &amp;= \frac {\sin (x) \cos (x)}{1 - \sin ^2(x)}.  \end{align*}
+<p class='noindent'>Em seguida fazemos a substituição \[ s = \sin (x) \] e, assim, \begin{align*}  \d s &amp;= \class{xm-given}{\cos (x)} \d x,\\ \d x &amp;= \frac {1}{\class{xm-given}{\cos (x)}} \d s.  \end{align*}
+</p><p class='noindent'>Então \begin{align*}  \int \tan (x) \d x &amp;= \int \frac {\sin (x) \cos (x)}{1 - \sin ^2(x)} \d x \\ &amp;= \int \frac {s \cos (x)}{1 - s^2} \cdot \frac {1}{\class{xm-given}{\cos (x)}} \d s \\ &amp;= \int \frac {s}{1-s^2} \d s.  \end{align*}
+</p><p class='noindent'>Mas este é o mesmo problema do Exemplo <a class='reference' href='#key example'>key example</a>! E, portanto, sabemos que \begin{align*}  \int \tan (x) \d x &amp;= - \frac {1}{2} \ln (|1-s^2|) + C \\ &amp;= - \frac {1}{2} \ln (|1-\sin ^2 (x)|) + C \\ &amp;= - \frac {1}{2} \ln (|\cos ^2(x)|) + C \\ &amp;= \ln \left (|\cos ^2(x)|^{- \frac {1}{2}}\right ) + C \\ &amp;= \ln (|\sec (x)|) + C.  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>Acabamos de demonstrar
+</p>
+<div class='theorem-like problem-environment theorem' id='problem13' titletext=' theorem'><a id='x1-14r13'></a>\[ \int \tan (x) \d x = \ln (|\sec (x)|) + C. \] </div>
+<p class='noindent'>Observe que, no Exemplo <a class='reference' href='#example tan'>example tan</a>, poderíamos em vez disso ter feito a substituição \[ u = 1-\sin ^2(x). \] Isso nos
+teria levado à resposta mais rapidamente e sem usar o Exemplo <a class='reference' href='#key example'>key example</a>. Você está
+convidado a fazer essas contas por conta própria agora mesmo!
+</p><p class='noindent'>Encerramos esta seção com mais dois exemplos difíceis.
+</p>
+<div class='theorem-like problem-environment example' id='problem14' titletext=' example'><a id='x1-15r14'></a>Calcule: \[ \int \frac {e^{2x}}{1 - e^{2x}} \d x \] <div class='theorem-like problem-environment explanation' id='problem15' titletext=' explanation'><a id='x1-16r15'></a>Talvez a maior chave para resolver este problema seja lembrar que \[ e^{2x} = (\class{xm-given}{e^x})^2. \] Assim,
+podemos reescrever o problema \[ \int \frac {e^{2x}}{1 - e^{2x}} \d x = \int \frac {(\class{xm-given}{e^x})^2}{1 - (\class{xm-given}{e^x})^2} \d x. \] Agora, se fizermos a substituição \(u = e^x\), temos que
+\begin{align*}  \d u &amp;= \class{xm-given}{e^x} \d x,\\ \d x &amp;= \frac {1}{\class{xm-given}{e^x}} \d u,  \end{align*}
+<p class='noindent'>e \begin{align*}  \int \frac {e^{2x}}{1 - e^{2x}} \d x &amp;= \int \frac {(e^x)^2}{1 - u^2} \cdot \frac {1}{\class{xm-given}{e^x}} \d u \\ &amp;= \int \frac {e^x}{1-u^2} \d u \\ &amp;= \int \frac {u}{1-u^2} \d u.  \end{align*}
+</p><p class='noindent'>Mas agora voltamos ao Exemplo <a class='reference' href='#key example'>key example</a> e, portanto, sabemos que \begin{align*}  \int \frac {e^{2x}}{1 - e^{2x}} \d x &amp;= - \frac {1}{2} \ln (|1-u^2|) + C \\ &amp;= - \frac {1}{2} \ln (|1 - e^{2x}|) + C.  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>Novamente, no exemplo anterior poderíamos em vez disso ter feito a substituição \[ u = 1 - e^{2x} \] e
+evitado usar o Exemplo <a class='reference' href='#key example'>key example</a>. Em geral, sempre que você faz duas substituições
+sucessivas em um problema, poderia ter feito apenas uma substituição. Essa
+única substituição é a <em>composição</em> das duas substituições originais. Mas
+às vezes pode não ser óbvio fazer uma única substituição esperta, e então
+duas substituições fazem mais sentido. O próximo exemplo ajuda a ilustrar
+isso.
+</p>
+                                                                  
+
+                                                                  
+<div class='theorem-like problem-environment example' id='problem16' titletext=' example'><a id='x1-17r16'></a>Calcule: \[ \int _0^{16} \sqrt {4 - \sqrt {x}} \d x \] <div class='theorem-like problem-environment explanation' id='problem17' titletext=' explanation'><a id='x1-18r17'></a>Embora não seja nada óbvio, vamos tentar a substituição \[ u = \sqrt {x}. \] Então
+\begin{align*}  \d u &amp;= \class{xm-given}{\frac {1}{2 \sqrt {x}}} \d x,\\ \d x &amp;= 2 \sqrt {x} \d u = 2u \d u,  \end{align*}
+<p class='noindent'>e, assim, \begin{align*}  \int _0^{16} \sqrt {4 - \sqrt {x}} \d x &amp;= \int _{g(0)}^{g(16)} \class{xm-given}{\sqrt {4-u} \cdot 2u} \d u \\ &amp;= \int _{\class{xm-given}{0}}^{\class{xm-given}{4}} \class{xm-given}{2u \sqrt {4-u}} \d u.  \end{align*}
+</p><p class='noindent'>A partir daqui, fazemos agora a segunda (e mais óbvia) substituição \[ w = 4-u. \] Então \(u = 4-w\), e
+\begin{align*}  \d w &amp;= - \d u,\\ \d u &amp;= - \d w.  \end{align*}
+</p><p class='noindent'>Logo \begin{align*}  \int _0^{16} \sqrt {4 - \sqrt {x}} \d x &amp;= \int _0^4 2u \sqrt {4-u} \d u \\ &amp;= \int _{w(0)}^{w(4)} 2 (4-w) \sqrt {w} (-1) \d w \\ &amp;= - \int _{\class{xm-given}{4}}^{\class{xm-given}{0}} ( 8w^{\frac {1}{2}} - 2w^{\frac {3}{2}} ) \d w \\ &amp;= \int _{\class{xm-given}{0}}^{\class{xm-given}{4}} ( 8w^{\frac {1}{2}} - 2w^{\frac {3}{2}} ) \d w \\ &amp;= \eval { \class{xm-given}{8 \left ( \frac {2}{3} \right ) w^{\frac {3}{2}} - 2 \left ( \frac {2}{5} \right ) w^{\frac {5}{2}}} }_{0}^{4} \\ &amp;= \left ( \frac {16}{3} (4)^{\frac {3}{2}} - \frac {4}{5} (4)^{\frac {5}{2}} \right ) - \left ( 0 - 0 \right ) \\ &amp;= \frac {128}{3} - \frac {128}{5} \\ &amp;= \frac {256}{15}.  \end{align*}
+</p>
+</div> </div>
+<script type="application/json" class="xm-answers">{}</script>

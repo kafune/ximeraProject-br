@@ -1,0 +1,425 @@
+<!-- traduz-render: 75d59b71df75842bdedb1e487cafdf68b359ae6944c5015b24e74c3120075ff4 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Usamos derivadas para ajudar a localizar extremos. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Quer estejamos interessados em uma função como um objeto puramente
+matemático, quer em conexão com alguma aplicação ao mundo real, muitas vezes é
+útil saber como é o gráfico da função. Podemos obter uma boa ideia do
+gráfico usando certas informações cruciais fornecidas pelas derivadas da
+função.
+</p>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Extremos</h3>
+<p class='noindent'>Vamos começar com algumas definições. </p><div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-1001r1'></a>
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-1003x1'>Uma função \(f\) tem um <strong>máximo global</strong> em \(x=a\), se \(f(a) \geq f(x)\) para todo \(x\) no domínio
+     da função.
+     </li>
+<li class='enumerate' id='x1-1005x2'>Uma função \(f\) tem um <strong>mínimo global</strong> em \(x=a\), se \(f(a) \leq f(x)\) para todo \(x\) no domínio
+     da função.</li></ol>
+<p class='noindent'>Um <strong>extremo global</strong> é um máximo global ou um mínimo global. Esses
+pontos também são chamados, ocasionalmente, de <strong>extremos absolutos</strong>.
+</p></div>
+<p class='noindent'>Graficamente, os extremos globais correspondem aos pontos mais alto e mais baixo
+do gráfico de uma função.
+</p>
+<div class='theorem-like problem-environment example' id='problem2' titletext=' example'><a id='x1-1006r2'></a>Determine os extremos globais da função \(f(x) = x^2\). <div class='theorem-like problem-environment explanation' id='problem3' titletext=' explanation'><a id='x1-1007r3'></a>Examine o gráfico de \(y=x^2\). <div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-fc2b9075a3584367b68d4bc31e4ed405.svg" /> </div> Não há ponto mais alto nesse gráfico, já que \(\displaystyle \lim _{x\to \pm \infty }x^2 = \infty \), mas há um ponto mais
+baixo.
+<p class='noindent'>A função tem um mínimo global em \(x=0\) (o vértice da parábola) e não tem máximo
+global. </p></div> </div>
+<div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-1008r4'></a>Determine os extremos globais da função \(f(x) = \cos (x)\). <div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-1009r5'></a>Examine o gráfico de \(y=\cos (x)\). <div aria-labelledby='image-alt-2' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-abd11d40246b21b135b12cddb8241445.svg" /> </div> Pelo gráfico, \(\cos (x)\) tem valor máximo \(1\), que ocorre em todos os múltiplos pares de \(\pi \): em \(x=2\pi k\)
+para \(k\) inteiro qualquer. Todos esses pontos são máximos globais.
+<p class='noindent'>O valor mínimo \(-1\) ocorre nos múltiplos ímpares de \(\pi \): em \(x=(2k+1)\pi \) para \(k\) inteiro qualquer. Todos
+esses pontos são mínimos globais.
+</p>
+</div> </div>
+<p class='noindent'>As derivadas serão mais úteis quando considerarmos não os extremos globais,
+mas suas versões locais. Um <em>extremo local</em> de uma função \(f\) é um ponto \((a,f(a))\) do
+                                                                  
+
+                                                                  
+gráfico de \(f\) em que a coordenada \(y\) é maior (ou menor) do que todas as outras
+coordenadas \(y\) dos pontos do gráfico cujas coordenadas \(x\) estão “próximas de”
+\(a\).
+</p>
+<div class='theorem-like problem-environment definition' id='problem6' titletext=' definition'><a id='x1-1010r6'></a>
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-1012x1'>Uma função \(f\) tem um <strong>máximo local</strong> em \(x=a\), se \(f(a)\geq f(x)\) para todo \(x\) em algum
+     intervalo aberto I que contém \(a\).
+     </li>
+<li class='enumerate' id='x1-1014x2'>Uma função \(f\) tem um <strong>mínimo local</strong> em \(x=a\), se \(f(a)\leq f(x)\) para todo \(x\) em algum
+     intervalo aberto I que contém \(a\).</li></ol>
+<p class='noindent'>Um <strong>extremo local</strong> é um máximo local ou um mínimo local. Esses pontos também
+são chamados, às vezes, de <strong>extremos relativos</strong>. </p></div>
+<p class='noindent'>No próximo exemplo, esclarecemos a definição de mínimo local. </p><div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-1015r7'></a>Considere o gráfico
+de uma função \(f\): <div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-1c2e3d0a42668d728f072817aa976d04.svg" /> </div>
+Identifique os extremos locais de \(f\) e dê uma explicação. <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-1016r8'></a>Na figura acima, a função \(f\)
+tem um mínimo local em \[ a=\class{xm-given}{1}, \] porque podemos encontrar um intervalo <strong>aberto</strong> \(I\)
+(marcado na figura) que contém o número \[ a=\class{xm-given}{1}, \] e, para todos os números \(x\) em \(I\), a seguinte
+afirmação é verdadeira: \[ f\left (\class{xm-given}{1}\right )\le f\left (\class{xm-given}{x}\right ). \] </div> </div>
+<p class='noindent'>Os pontos de máximo e de mínimo locais são bastante característicos no gráfico de
+uma função e, portanto, são úteis para entender a forma do gráfico. Muitos
+problemas do mundo real e de diferentes áreas da ciência acabam se resumindo a
+encontrar o menor (ou o maior) valor que uma função atinge (por exemplo,
+                                                                  
+
+                                                                  
+podemos querer encontrar o custo mínimo com que determinada tarefa pode ser
+realizada).
+</p>
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Pontos críticos</h3>
+<p class='noindent'>Considere o gráfico da função \(f\). </p><div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-36f583c676445cd15eb6e0ed97407446.svg" /> </div><p> A função \(f\) tem quatro extremos locais: em \(x=-4\), \(x=-2\), \(x=0\) e \(x=4\). Observe que a função \(f\) <strong>não é
+derivável</strong> em \(x=-4\) e em \(x=-2\). Observe que \(f'(0)=0\) e \(f'(4)=0\).
+</p><p class='noindent'>Depois desse exemplo, o teorema a seguir não deve ser surpresa.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem9' titletext=' theorem'><a id='x1-2001r9'></a><span class='theorem-like-title'>Teorema de Fermat</span><a class='ximera-label' id='theorem:fermat'></a> Se \(f\) tem um extremo local em \(x=a\) e \(f\) é derivável em \(a\), então \(f'(a)=0\). </div>   <div class='problem-environment question' id='problem10' numbered='' role='article' titletext=' Question'>
+O Teorema de Fermat diz que, se \(f'(a) = 0\), então \(f\) tem um extremo local em \(x=a\)? <div class='multiple-choice' id='problem11' titletext=' Multiple Choice'><span class='choice  ' id='choice1'>sim </span><span class='choice correct ' id='choice2'>não</span> </div> <div class='feedback' data-feedback='attempt' id='feedback12' titletext=' Feedback (attempt)'>Considere \(f(x) = x^3\): \(f'(0) = 0\), mas \(f\) não tem máximo nem mínimo local em \(x=0\). </div>
+</div>
+<p class='noindent'>O Teorema de Fermat diz que os únicos pontos em que uma função pode ter um
+máximo ou mínimo local são pontos em que a derivada é zero ou em que a derivada
+não está definida. Como ilustração do primeiro cenário, considere os gráficos de \(f(x) = x^3-4.5x^2+6x\) e \(f'(x) = 3x^2-9x+6\). </p><div aria-labelledby='image-alt-5' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-91661d64e8e178c8cd69a6c4a44950db.svg" /> </div>  <div class='problem-environment question' id='problem13' numbered='' role='article' titletext=' Question'>  Faça a escolha correta
+que completa a frase abaixo. <br class='newline' />
+<p class='noindent'>No ponto \((1,f(1))\), a função \(f\) tem
+</p>
+<div class='multiple-choice' id='problem14' titletext=' Multiple Choice'><span class='choice correct ' id='choice3'>um máximo local </span><span class='choice  ' id='choice4'>um mínimo local </span><span class='choice  ' id='choice5'>nenhum extremo local</span> </div>    </div>   <div class='problem-environment question' id='problem15' numbered='' role='article' titletext=' Question'>   Selecione a
+afirmação correta. <div class='multiple-choice' id='problem16' titletext=' Multiple Choice'><span class='choice  ' id='choice6'>\(f'(1)\) não está definida </span><span class='choice  ' id='choice7'>\(f'(1)&gt;0\) </span><span class='choice correct ' id='choice8'>\(f'(1)=0\) </span><span class='choice  ' id='choice9'>\(f'(1)&lt;0\)</span> </div>    </div>   <div class='problem-environment question' id='problem17' numbered='' role='article' titletext=' Question'>   Faça a escolha correta que
+completa a frase abaixo. <br class='newline' />
+<p class='noindent'>No ponto \((1.5,f(1.5))\), a função \(f\) tem
+</p>
+<div class='multiple-choice' id='problem18' titletext=' Multiple Choice'><span class='choice  ' id='choice10'>um máximo local </span><span class='choice  ' id='choice11'>um mínimo local </span><span class='choice correct ' id='choice12'>nenhum extremo local</span> </div>    </div>   <div class='problem-environment question' id='problem19' numbered='' role='article' titletext=' Question'>   Selecione a
+afirmação correta. <div class='multiple-choice' id='problem20' titletext=' Multiple Choice'><span class='choice  ' id='choice13'>\(f'(1.5)\) não está definida </span><span class='choice  ' id='choice14'>\(f'(1.5)&gt;0\) </span><span class='choice  ' id='choice15'>\(f'(1.5)=0\) </span><span class='choice correct ' id='choice16'>\(f'(1.5)&lt;0\)</span> </div>    </div>
+<div class='problem-environment question' id='problem21' numbered='' role='article' titletext=' Question'>  Faça a escolha correta que completa a frase abaixo. <br class='newline' />
+<p class='noindent'>No ponto \((2,f(2))\), a função \(f\) tem
+</p>
+<div class='multiple-choice' id='problem22' titletext=' Multiple Choice'><span class='choice  ' id='choice17'>um máximo local </span><span class='choice correct ' id='choice18'>um mínimo local </span><span class='choice  ' id='choice19'>nenhum extremo local</span> </div>    </div>   <div class='problem-environment question' id='problem23' numbered='' role='article' titletext=' Question'>   Selecione a
+afirmação correta. <div class='multiple-choice' id='problem24' titletext=' Multiple Choice'><span class='choice  ' id='choice20'>\(f'(2)\) não está definida </span><span class='choice  ' id='choice21'>\(f'(2)&gt;0\) </span><span class='choice correct ' id='choice22'>\(f'(2)=0\) </span><span class='choice  ' id='choice23'>\(f'(2)&lt;0\)</span> </div>    </div><p> Como ilustração do segundo cenário,
+                                                                  
+
+                                                                  
+considere os gráficos de \(f(x) = x^{2/3}\) e \(f'(x) = \frac {2}{3x^{1/3}}\): </p><div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-bf2c480e884d886619921156194d3dea.svg" /> </div>
+<div class='problem-environment question' id='problem25' numbered='' role='article' titletext=' Question'>  Faça a escolha correta que completa a frase abaixo. <br class='newline' />
+<p class='noindent'>No ponto \((-2,f(-2))\), a função \(f\) tem
+</p>
+<div class='multiple-choice' id='problem26' titletext=' Multiple Choice'><span class='choice  ' id='choice24'>um máximo local </span><span class='choice  ' id='choice25'>um mínimo local </span><span class='choice correct ' id='choice26'>nenhum extremo local</span> </div>    </div>   <div class='problem-environment question' id='problem27' numbered='' role='article' titletext=' Question'>   Selecione a
+afirmação correta. <div class='multiple-choice' id='problem28' titletext=' Multiple Choice'><span class='choice  ' id='choice27'>\(f'(-2)\) não está definida </span><span class='choice  ' id='choice28'>\(f'(-2)&gt;0\) </span><span class='choice  ' id='choice29'>\(f'(-2)=0\) </span><span class='choice correct ' id='choice30'>\(f'(-2)&lt;0\)</span> </div>    </div>   <div class='problem-environment question' id='problem29' numbered='' role='article' titletext=' Question'>   Faça a escolha correta que
+completa a frase abaixo. <br class='newline' />
+<p class='noindent'>No ponto \((0,0)\), a função \(f\) tem
+</p>
+<div class='multiple-choice' id='problem30' titletext=' Multiple Choice'><span class='choice  ' id='choice31'>um máximo local </span><span class='choice correct ' id='choice32'>um mínimo local </span><span class='choice  ' id='choice33'>nenhum extremo local</span> </div>    </div>   <div class='problem-environment question' id='problem31' numbered='' role='article' titletext=' Question'>   Selecione a
+afirmação correta. <div class='multiple-choice' id='problem32' titletext=' Multiple Choice'><span class='choice correct ' id='choice34'>\(f'(0)\) não está definida </span><span class='choice  ' id='choice35'>\(f'(0)&gt;0\) </span><span class='choice  ' id='choice36'>\(f'(0)=0\) </span><span class='choice  ' id='choice37'>\(f'(0)&lt;0\)</span> </div>    </div>
+<p class='noindent'>Isso nos leva à próxima definição.
+</p>
+<div class='theorem-like problem-environment definition' id='problem33' titletext=' definition'><a id='x1-2002r10'></a> Suponha que uma função \(f\) esteja definida em um intervalo aberto I que
+contém um ponto \(a\). Então dizemos que a função \(f\) tem um <strong>ponto crítico</strong>
+em \(x=a\) se \[ f'(a) = 0\qquad \text {ou}\qquad \text {$f'(a)$ não existe.} \] Observe que, se uma função \(f\) tem um ponto crítico em \(x=a\), então o
+número \(a\) está dentro de algum intervalo aberto \(I\), e \(I\) está contido no domínio de
+\(f\).
+</div>
+<div class='theorem-like problem-environment warning' id='problem34' titletext=' warning'><a id='x1-2003r11'></a>Ao procurar pontos de máximo e de mínimo locais, tome cuidado para não cometer
+dois tipos de erro:
+     <ul class='itemize1'>
+     <li class='itemize'>Você pode se esquecer de que um máximo ou mínimo pode ocorrer onde
+     a derivada não existe e, assim, esquecer de verificar se a derivada existe
+                                                                  
+
+                                                                  
+     em todos os pontos.
+     </li>
+     <li class='itemize'>
+     <p class='noindent'>Você pode supor que todo lugar em que a derivada é zero é um ponto de
+     máximo ou mínimo local, mas isso não é verdade; considere os gráficos de \(f(x) = x^3\) e \(f'(x) = 3x^2\). </p><div aria-labelledby='image-alt-7' class='image-environment' role='img'>
+     <img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-05aa6607061cb770488d5b3496cf7ba9.svg" /> </div> Embora \(f'(0)=0\), não há
+     nem máximo nem mínimo em \(x=0\).</li></ul>
+</div>
+<p class='noindent'>Como tanto o máximo local quanto o mínimo local ocorrem em um ponto crítico,
+quando localizamos um ponto crítico precisamos determinar qual deles, se algum, de
+fato ocorre. </p><div class='theorem-like problem-environment example' id='problem35' titletext=' example'><a id='x1-2004r12'></a>Determine todos os pontos de máximo e de mínimo locais da função \(f(x)=x^3-x\).
+<div class='theorem-like problem-environment explanation' id='problem36' titletext=' explanation'><a id='x1-2005r13'></a>Escreva \[ \ddx f(x)=\class{xm-given}{3x^2-1}. \] Podemos facilmente expressar \(f'(x)\) como um produto de seus fatores \[ \ddx f(x)=3\left (x+\class{xm-given}{\frac {\sqrt {3}}{3}}\right )\left (x-\class{xm-given}{\frac {\sqrt {3}}{3}}\right ), \] o
+que implica que a função \(f\) tem apenas dois pontos críticos, \(x=-\frac {\sqrt {3}}{3}\) e \(x=\frac {\sqrt {3}}{3}\). Observe
+que a derivada \(f'(x)\) é um polinômio, e polinômios não mudam de sinal exceto,
+possivelmente, em seus zeros. Isso implica que a derivada \(f'(x)\) <strong>não muda de sinal</strong>
+nos intervalos \(\left (-\infty ,-\frac {\sqrt {3}}{3}\right )\), \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\) e \(\left (\frac {\sqrt {3}}{3},\infty \right )\), porque esses intervalos não contêm nenhum zero de
+\(f'(x)\).
+<div class='problem-environment question' id='problem37' numbered='' role='article' titletext=' Question'>  Selecione a afirmação correta sobre o sinal de \(f'(x)\) nos intervalos \(\left (-\infty ,-\frac {\sqrt {3}}{3}\right )\) e \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\). <div class='multiple-choice' id='problem38' titletext=' Multiple Choice'><span class='choice  ' id='choice38'>\(f'(x)&gt;0\) em \(\left (-\infty ,-\frac {\sqrt {3}}{3}\right )\) e \(f'(x)&gt;0\) em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\).  </span><span class='choice correct ' id='choice39'>\(f'(x)&gt;0\)
+em \(\left (-\infty ,-\frac {\sqrt {3}}{3}\right )\) e \(f'(x)&lt;0\) em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\).  </span><span class='choice  ' id='choice40'>\(f'(x)&lt;0\) em \(\left (-\infty ,-\frac {\sqrt {3}}{3}\right )\) e \(f'(x)&gt;0\) em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\).  </span><span class='choice  ' id='choice41'>\(f'(x)&lt;0\) em \(\left (-\infty ,-\frac {\sqrt {3}}{3}\right )\) e \(f'(x)&lt;0\) em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\)</span> </div>    </div> Se conhecemos o sinal da derivada em
+um intervalo, também sabemos se a função é crescente ou decrescente nesse intervalo.
+Isso nos ajudará a determinar se a função tem um extremo local no ponto crítico em
+que \(x=-\frac {\sqrt {3}}{3}\). <br class='newline' /> <div class='problem-environment question' id='problem39' numbered='' role='article' titletext=' Question'>
+<p class='noindent'>No ponto crítico em que \(x=-\frac {\sqrt {3}}{3}\), a função \(f\) tem <br class='newline' />
+</p>
+<div class='multiple-choice' id='problem40' titletext=' Multiple Choice'><span class='choice  ' id='choice42'>nenhum extremo local, porque \(f\) é crescente em \(\left (-\infty ,-\frac {\sqrt {3}}{3}\right )\) e crescente em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\).  </span><span class='choice correct ' id='choice43'>um máximo
+local, porque \(f\) é crescente em \(\left (-\infty ,-\frac {\sqrt {3}}{3}\right )\) e decrescente em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\).  </span><span class='choice  ' id='choice44'>um mínimo local, porque \(f\) é
+                                                                  
+
+                                                                  
+decrescente em \(\left (-\infty ,-\frac {\sqrt {3}}{3}\right )\) e crescente em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\).  </span><span class='choice  ' id='choice45'>nenhum extremo local, porque \(f\) é decrescente em \(\left (-\infty ,-\frac {\sqrt {3}}{3}\right )\)
+e decrescente em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\). </span> </div>    </div>   <div class='problem-environment question' id='problem41' numbered='' role='article' titletext=' Question'>   Selecione a afirmação correta sobre o sinal de \(f'(x)\) nos
+intervalos \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\) e \(\left (\frac {\sqrt {3}}{3},\infty \right )\). <br class='newline' />
+<div class='multiple-choice' id='problem42' titletext=' Multiple Choice'><span class='choice  ' id='choice46'>\(f'(x)&gt;0\) em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\) e \(f'(x)&gt;0\) em \(\left (\frac {\sqrt {3}}{3},\infty \right )\). </span><span class='choice  ' id='choice47'>\(f'(x)&gt;0\) em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\) e \(f'(x)&lt;0\) em \(\left (\frac {\sqrt {3}}{3},\infty \right )\). </span><span class='choice correct ' id='choice48'>\(f'(x)&lt;0\) em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\) e \(f'(x)&gt;0\) em \(\left (\frac {\sqrt {3}}{3},\infty \right )\). </span><span class='choice  ' id='choice49'>\(f'(x)&lt;0\) em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\) e \(f'(x)&lt;0\) em \(\left (\frac {\sqrt {3}}{3},\infty \right )\).</span> </div>    </div> Novamente, o sinal da
+derivada em um intervalo determina se a função é crescente ou decrescente nesse
+intervalo. Isso nos ajudará a determinar se a função tem um extremo local no ponto
+crítico em que \(x=\frac {\sqrt {3}}{3}\). <br class='newline' /> <div class='problem-environment question' id='problem43' numbered='' role='article' titletext=' Question'>
+<p class='noindent'>No ponto crítico em que \(x=\frac {\sqrt {3}}{3}\), a função \(f\) tem <br class='newline' />
+</p>
+<div class='multiple-choice' id='problem44' titletext=' Multiple Choice'><span class='choice  ' id='choice50'>nenhum extremo local, porque \(f\) é crescente em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\) e crescente em \(\left (\frac {\sqrt {3}}{3},\infty \right )\).  </span><span class='choice  ' id='choice51'>um máximo
+local, porque \(f\) é crescente em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\) e decrescente em \(\left (\frac {\sqrt {3}}{3},\infty \right )\).  </span><span class='choice correct ' id='choice52'>um mínimo local, porque \(f\) é
+decrescente em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\) e crescente em \(\left (\frac {\sqrt {3}}{3},\infty \right )\).  </span><span class='choice  ' id='choice53'>nenhum extremo local, porque \(f\) é decrescente em \(\left (-\frac {\sqrt {3}}{3},\frac {\sqrt {3}}{3}\right )\)
+e decrescente em \(\left (\frac {\sqrt {3}}{3},\infty \right )\). </span> </div>    </div> Suas respostas concordam com os gráficos de \(f\) e \(f'\) mostrados na
+figura abaixo? <div aria-labelledby='image-alt-8' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-e0f56d9301a71c82f3e9f9c9ff256593.svg" /> </div> </div>
+</div>
+
+<h3 class='sectionHead'><span class='titlemark'>3   </span> <a id='x1-30003'></a>O teste da primeira derivada</h3>
+<p class='noindent'>Vamos explorar mais a fundo e refinar o método da seção anterior para decidir se
+há um máximo ou mínimo local em um ponto crítico. Lembre-se de que
+</p>
+     <ul class='itemize1'>
+                                                                  
+
+                                                                  
+     <li class='itemize'>Se \(f'(x) &gt;0\) em um intervalo, então \(f\) é crescente nesse intervalo.
+     </li>
+     <li class='itemize'>Se \(f'(x) &lt;0\) em um intervalo, então \(f\) é decrescente nesse intervalo.</li></ul>
+<p class='noindent'>Então, como exatamente a derivada nos diz se há um máximo, um mínimo ou
+nenhum dos dois em um ponto? Use o <em>teste da primeira derivada</em>.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem45' titletext=' theorem'><a id='x1-3001r14'></a><span class='theorem-like-title'>Teste da primeira derivada</span><a class='ximera-label' id='T:fdt'></a> Suponha que \(f\) seja contínua em um intervalo aberto e que
+\(f\) tenha um ponto crítico em \(x=a\), para algum valor \(a\) nesse intervalo.
+     <ul class='itemize1'>
+     <li class='itemize'>Se \(f'(x)&gt;0\) à esquerda de \(a\) e \(f'(x)&lt;0\) à direita de \(a\), então a função \(f\) tem um máximo local
+     em \(a\).
+     </li>
+     <li class='itemize'>Se \(f'(x)&lt;0\) à esquerda de \(a\) e \(f'(x)&gt;0\) à direita de \(a\), então a função \(f\) tem um mínimo local
+     em \(a\).
+     </li>
+     <li class='itemize'>Se \(f'(x)\) tem o mesmo sinal à esquerda e à direita de \(a\), então a função \(f\) não tem
+     extremo local em \(a\).</li></ul>
+</div>
+<div class='theorem-like problem-environment example' id='problem46' titletext=' example'><a id='x1-3002r15'></a><a class='ximera-label' id='E:localextrema'></a> Considere a função \[ f(x) = \frac {x^4}{4}+\frac {x^3}{3}-x^2 \] Determine os intervalos em que \(f\) é crescente, os intervalos em
+que \(f\) é decrescente e identifique os extremos locais de \(f\).
+<div class='theorem-like problem-environment explanation' id='problem47' titletext=' explanation'><a id='x1-3003r16'></a>Comece calculando \[ \ddx f(x) = \class{xm-given}{x^3+x^2-2x}. \] Agora precisamos descobrir em quais intervalos \(f'\) é positiva e em
+quais é negativa. Para isso, resolva \[ f'(x) = \class{xm-given}{x^3+x^2-2x} =0. \] Fatore \(f'(x)\) \begin{align*}  f'(x) &amp;= \class{xm-given}{x^3+x^2-2x} \\ &amp;=x(\class{xm-given}{x^2+x-2})\\ &amp;=x(x+2)(\class{xm-given}{x-1}).  \end{align*}
+<p class='noindent'>Portanto, os pontos críticos (em que \(f'(x)=0\)) ocorrem em \(x=-2\), \(x=0\) e \(x=1\). Como a derivada, \(f'(x)\), é um
+polinômio, ela não muda de sinal nos intervalos entre seus zeros, isto é, entre
+os pontos críticos. Agora podemos verificar o sinal de \(f'(x)\) em alguns pontos
+<strong>entre</strong> os pontos críticos para descobrir onde \(f'(x)\) é positiva e onde é negativa:
+\begin{align*}  f'(-3)&amp;=\class{xm-given}{-12},\\ f'(0.5)&amp;=\class{xm-given}{-0.625},\\ f'(-1)&amp;=\class{xm-given}{2},\\ f'(2)&amp;=\class{xm-given}{8}.  \end{align*}
+</p><p class='noindent'>A partir disso, podemos montar uma quadro de sinais:
+</p>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-9' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-3dec641408335722bf1ba5def32cb427.svg" /> </div>
+<p class='noindent'>Logo, \(f\) é crescente em \((-2,0)\) e em \((1,\infty )\), e \(f\) é decrescente em \((-\infty ,-2)\) e em \((0,1)\). Além disso, pelo teste da
+primeira derivada, o máximo local está em \(x=0\), enquanto os mínimos locais estão em \(x=-2\) e
+\(x=1\).
+</p><p class='noindent'>Isso pode ser confirmado examinando os gráficos de \(f(x) =x^4/4 + x^3/3 -x^2\) e \(f'(x) = x^3 + x^2 -2x\). </p><div aria-labelledby='image-alt-10' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-f2bf43b384f8b4dee15fad50c13d2ccd.svg" /> </div> </div> </div>
+<p class='noindent'>Assim, vimos que, se \(f'\) é zero em um ponto e crescente em um intervalo que contém
+esse ponto, então \(f\) tem um mínimo local nesse ponto. Se \(f'\) é zero em um ponto e
+decrescente em um intervalo que contém esse ponto, então \(f\) tem um máximo local
+nesse ponto. Portanto, vemos que podemos obter informações sobre \(f\) estudando como
+\(f'\) varia. Isso nos leva à próxima seção.
+</p>
+<h3 class='sectionHead'><span class='titlemark'>4   </span> <a id='x1-40004'></a>Pontos de inflexão</h3>
+<p class='noindent'>Se estamos tentando entender a forma do gráfico de uma função, saber onde ela tem
+concavidade para cima e onde tem concavidade para baixo nos ajuda a obter
+uma imagem mais precisa. Vale a pena resumir o que já vimos em um único
+teorema.
+</p>
+                                                                  
+
+                                                                  
+<div class='theorem-like problem-environment theorem' id='problem48' titletext=' theorem'><a id='x1-4001r17'></a><span class='theorem-like-title'>Teste de concavidade</span> Suponha que \(f''(x)\) exista em um intervalo.
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-4003x1'>Se \(f''(x)&gt;0\) em um intervalo, então \(f\) tem concavidade para cima nesse intervalo.
+     </li>
+<li class='enumerate' id='x1-4005x2'>Se \(f''(x)&lt;0\) em um intervalo, então \(f\) tem concavidade para baixo nesse intervalo.</li></ol>
+</div>
+<p class='noindent'>De particular interesse são os pontos em que a concavidade muda de para cima para
+para baixo, ou de para baixo para para cima.
+</p>
+<div class='theorem-like problem-environment definition' id='problem49' titletext=' definition'><a id='x1-4006r18'></a> Se \(f\) é contínua em \(x=a\) e sua concavidade muda, de para cima para para baixo ou de
+para baixo para para cima, em \(x=a\), então \(f\) tem um <strong>ponto de inflexão</strong> em \(x=a\).
+</div>
+<p class='noindent'>É instrutivo ver alguns exemplos de pontos de inflexão: </p><div aria-labelledby='image-alt-11' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-81ae03a18f77519026ee9c180b9cde9e.svg" /> </div>
+<p class='noindent'>Também é instrutivo ver alguns contraexemplos de pontos de inflexão: </p><div aria-labelledby='image-alt-12' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-3e7486d04039bdc020cb4e5984f189ea.svg" /> </div>
+<p class='noindent'>Identificamos pontos de inflexão primeiro encontrando os \(x\) tais que \(f''(x)\) é zero ou não
+está definida e, depois, verificando se \(f''(x)\) de fato passa de positiva a negativa ou de
+negativa a positiva nesses pontos.
+</p>
+<div class='theorem-like problem-environment warning' id='problem50' titletext=' warning'><a id='x1-4007r19'></a>Mesmo que \(f''(a) = 0\), o ponto determinado por \(x=a\) pode <strong>não</strong> ser um ponto de inflexão. </div> <div class='theorem-like problem-environment example' id='problem51' titletext=' example'><a id='x1-4008r20'></a>Descreva
+a concavidade de \(f(x)=x^4\).
+<div class='theorem-like problem-environment explanation' id='problem52' titletext=' explanation'><a id='x1-4009r21'></a>Para começar, calcule a primeira e a segunda derivada de \(f(x)\) em relação a \(x\),
+\[ f'(x)=\class{xm-given}{4x^3}\qquad \text {e}\qquad f''(x)=\class{xm-given}{12x^2}. \]
+<p class='noindent'>Como \(f''(0)=0\), há potencialmente um ponto de inflexão em \(x=0\). Mas, para todo \(x\ne 0\), \(f''(x)&gt;0\). Logo, não há
+ponto de inflexão em \(x=0\). A curva tem concavidade para cima para todo \(x&lt;0\) e
+continua com concavidade para cima para todo \(x&gt;0\). </p></div> </div> <div class='theorem-like problem-environment example' id='problem53' titletext=' example'><a id='x1-4010r22'></a>Descreva a concavidade de
+\(f(x)=x^3-x\).
+<div class='theorem-like problem-environment explanation' id='problem54' titletext=' explanation'><a id='x1-4011r23'></a>Para começar, calcule a primeira e a segunda derivada de \(f(x)\) em relação a \(x\), \[ f'(x)=\class{xm-given}{3x^2-1}\qquad \text {e}\qquad f''(x)=\class{xm-given}{6x}. \]
+Como \(f''(0)=0\), há potencialmente um ponto de inflexão em \(x=0\). Usando pontos de teste,
+notamos que a concavidade de fato muda de para baixo para para cima;
+logo, há um ponto de inflexão em \(x=0\). A curva tem concavidade para baixo
+para todo \(x&lt;0\) e concavidade para cima para todo \(x&gt;0\); veja os gráficos de \(f(x) = x^3-x\) e \(f''(x) = 6x\). <div aria-labelledby='image-alt-13' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-b681d7a1d6ed779e13c474c122180cc8.svg" /> </div> </div> </div>
+<p class='noindent'>Observe que precisamos calcular e analisar a segunda derivada para entender a
+concavidade, então podemos muito bem tentar usar o teste da segunda derivada para
+máximos e mínimos. Se por algum motivo ele falhar, podemos então tentar um dos
+outros testes.
+</p>
+<h3 class='sectionHead'><span class='titlemark'>5   </span> <a id='x1-50005'></a>O teste da segunda derivada</h3>
+<p class='noindent'>Lembre-se do teste da primeira derivada:
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'>Se \(f'(x)&gt;0\) para todo \(x\) próximo e à esquerda de \(a\) e \(f'(x)&lt;0\) para todo \(x\) próximo e à direita
+     de \(a\), então a função \(f\) tem um máximo local em \(a\).
+     </li>
+     <li class='itemize'>Se \(f'(x)&lt;0\) para todo \(x\) próximo e à esquerda de \(a\) e \(f'(x)&gt;0\) para todo \(x\) próximo e à direita
+     de \(a\), então a função \(f\) tem um mínimo local em \(a\).</li></ul>
+<p class='noindent'>Suponha que uma função \(f\) tenha um ponto crítico em \(a\) e que \(f'(a)=0\). Se \(f'\) for decrescente em
+algum intervalo que contém \(a\), então ela passa de positiva a negativa em \(a\). Portanto, se
+\(f''\) é negativa em algum intervalo que contém \(a\), então \(f'\) é certamente decrescente, de
+modo que há um máximo local no ponto em questão. Por outro lado, se \(f'\) é crescente,
+                                                                  
+
+                                                                  
+então ela passa de negativa a positiva em \(a\). Portanto, se \(f''\) é positiva em um
+intervalo que contém \(a\), então \(f'\) é certamente crescente, de modo que há um
+mínimo local no ponto em questão. Resumimos isso no <em>teste da segunda
+derivada</em>.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem55' titletext=' theorem'><a id='x1-5001r24'></a><span class='theorem-like-title'>Teste da segunda derivada</span><a class='ximera-label' id='T:sdt'></a> Suponha que \(f''(x)\) seja contínua em um intervalo aberto e que \(f'(a)=0\)
+para algum valor de \(a\) nesse intervalo.
+     <ul class='itemize1'>
+     <li class='itemize'>Se \(f''(a) &lt;0\), então \(f\) tem um máximo local em \(a\).
+     </li>
+     <li class='itemize'>Se \(f''(a) &gt;0\), então \(f\) tem um mínimo local em \(a\).
+     </li>
+     <li class='itemize'>Se \(f''(a) =0\), então o teste é inconclusivo. Nesse caso, \(f\) pode ou não ter um extremo
+     local em \(x=a\).</li></ul>
+</div>
+<p class='noindent'>O teste da segunda derivada costuma ser a maneira mais fácil de identificar pontos
+de máximo e de mínimo locais. Às vezes o teste falha, e às vezes a segunda derivada é
+bastante difícil de calcular. Nesses casos, precisamos recorrer a um dos testes
+anteriores.
+</p>
+<div class='theorem-like problem-environment example' id='problem56' titletext=' example'><a id='x1-5002r25'></a>Mais uma vez, considere a função \[ f(x) = \frac {x^4}{4}+\frac {x^3}{3}-x^2 \] Use o teste da segunda derivada para localizar os
+extremos locais de \(f\).
+<div class='theorem-like problem-environment explanation' id='problem57' titletext=' explanation'><a id='x1-5003r26'></a>Comece calculando \[ f'(x) = \class{xm-given}{x^3 + x^2 -2x} \qquad \text {e}\qquad f''(x) = \class{xm-given}{3x^2 + 2x-2}. \] Usando a mesma técnica de antes, encontramos \[ f'(-2) = \class{xm-given}{0},\qquad f'(0) = \class{xm-given}{0}, \qquad f'(1) = \class{xm-given}{0}. \] Agora vamos
+tentar usar o teste da segunda derivada: \[ f''(-2) = \class{xm-given}{6}, \qquad f''(0) =\class{xm-given}{ -2}, \qquad f''(1) = \class{xm-given}{3}. \] Logo, vemos que \(f\) tem um mínimo
+local em \(x=-2\), um máximo local em \(x=0\) e um mínimo local em \(x=1\); veja abaixo os
+                                                                  
+
+                                                                  
+gráficos de \(f(x) =x^4/4 + x^3/3 -x^2\) e \(f''(x) = 3x^2 + 2x -2\): <div aria-labelledby='image-alt-14' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/digInMaximumsAndMinimums-ca107e8b2bcb59b39ac7ec78b4b0673c.svg" />
+</div>
+</div> </div>
+<div class='problem-environment question' id='problem58' numbered='' role='article' titletext=' Question'>  Se \(f''(a)=0\), o que o teste da segunda derivada nos diz? <div class='multiple-choice' id='problem59' titletext=' Multiple Choice'><span class='choice  ' id='choice54'>A função tem um extremo local
+em \(x=a\). </span><span class='choice  ' id='choice55'>A função não tem extremo local em \(x=a\). </span><span class='choice correct ' id='choice56'>Ele não dá nenhuma informação
+sobre se a função tem um extremo local em \(x=a\).</span> </div>
+</div>
+<script type="application/json" class="xm-answers">{}</script>

@@ -1,0 +1,109 @@
+<!-- traduz-render: 2f857bc5cd23d4799e3b760979468679425a180a6c1a0403402087bb80f997e3 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>   Calcule o limite e justifique sua resposta.<br class='newline' />
+     <ol class='enumerate1'>
+<li class='enumerate' id='x1-3x1'>\[ \lim _{x\to \frac {\pi }{2}}e^{\sin {x}} =\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \] Justificativa:<br class='newline' /> Observe que \(e^{\sin {x}} =f(g(x)) \), em que \[ f(x)=\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \hspace {0.2in}and \hspace {0.2in} g(x)=\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \] e ambas as funções, \(f\) e \(g\), são <span class='word-choice' id='word-choice2'><a id='x1-4r1'></a><span class='choice  ' id='choice1'>não contínuas</span><span class='choice correct ' id='choice2'>contínuas</span></span> em \( (-\infty ,\infty )\).<br class='newline' />Portanto, podemos aplicar a lei <span class='word-choice' id='word-choice3'><a id='x1-5r2'></a><span class='choice correct ' id='choice3'>da composição</span><span class='choice  ' id='choice4'>do produto</span></span> para
+     limites \[ \lim _{x\to \frac {\pi }{2}}e^{\sin {x}} = e^{\lim _{x\to \frac {\pi }{2}}\class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}} \] Como \(g\) é <span class='word-choice' id='word-choice4'><a id='x1-6r3'></a><span class='choice  ' id='choice5'>não contínua</span><span class='choice correct ' id='choice6'>contínua</span></span> em \(\frac {\pi }{2}\), temos \[ \lim _{x\to \frac {\pi }{2}}\sin {x}=\sin {\Bigl (\class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}}\Bigr )}=\class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}} \] e, portanto, \[ \lim _{x\to \frac {\pi }{2}}e^{\sin {x}} =e^{\class{xm-answer}{\cssId{xm-answer-7}{\phantom{\rule{7em}{1.5em}}}}} =\class{xm-answer}{\cssId{xm-answer-8}{\phantom{\rule{7em}{1.5em}}}} \]
+     ________________________________________________________________________________________________
+     </li>
+<li class='enumerate' id='x1-8x2'>
+     <p class='noindent'>\[ \lim _{x\to 2}\cos {\Bigl (\pi \frac {3x^{2}-4x+1}{4}\Bigr )} = \class{xm-answer}{\cssId{xm-answer-9}{\phantom{\rule{7em}{1.5em}}}} \] Justificativa:<br class='newline' />Observe que \(\cos {\Bigl (\pi \frac {3x^{2}-4x+1}{4}\Bigr )}=f(g(x)) \), em que \[ f(x)=\class{xm-answer}{\cssId{xm-answer-10}{\phantom{\rule{7em}{1.5em}}}} \hspace {0.2in}and \hspace {0.2in} g(x)=\class{xm-answer}{\cssId{xm-answer-11}{\phantom{\rule{7em}{1.5em}}}} \] e ambas as funções, \(f\) e \(g\), são <span class='word-choice' id='word-choice5'><a id='x1-9r4'></a><span class='choice  ' id='choice7'>não contínuas</span><span class='choice correct ' id='choice8'>contínuas</span></span>
+     em \( (-\infty ,\infty )\).<br class='newline' />Portanto, podemos aplicar a lei <span class='word-choice' id='word-choice6'><a id='x1-10r5'></a><span class='choice correct ' id='choice9'>da composição</span><span class='choice  ' id='choice10'>do produto</span></span> para limites
+     \[ \lim _{x\to 2}\cos {\Bigl (\pi \frac {3x^{2}-4x+1}{4}\Bigr )} =\cos {\Bigl (\lim _{x\to 2}\class{xm-answer}{\cssId{xm-answer-12}{\phantom{\rule{7em}{1.5em}}}}\Bigr )} \]
+     </p><p class='noindent'>Como \(g\) é <span class='word-choice' id='word-choice7'><a id='x1-11r6'></a><span class='choice  ' id='choice11'>não contínua</span><span class='choice correct ' id='choice12'>contínua</span></span> em \(2\), temos \[ \lim _{x\to 2}\pi \frac {3x^{2}-4x+1}{4}=\pi \frac {3\class{xm-answer}{\cssId{xm-answer-13}{\phantom{\rule{7em}{1.5em}}}}^{2}-4\class{xm-answer}{\cssId{xm-answer-14}{\phantom{\rule{7em}{1.5em}}}}+1}{4}=\class{xm-answer}{\cssId{xm-answer-15}{\phantom{\rule{7em}{1.5em}}}} \] e, portanto, \[ \lim _{x\to 2}\cos {\Bigl (\pi \frac {3x^{2}-4x+1}{4}\Bigr )} =\cos {\Bigl (\class{xm-answer}{\cssId{xm-answer-16}{\phantom{\rule{7em}{1.5em}}}} \Bigr )}= \class{xm-answer}{\cssId{xm-answer-17}{\phantom{\rule{7em}{1.5em}}}} \]
+     </p><p class='noindent'>_____________________________________________________________
+     </p></li>
+<li class='enumerate' id='x1-13x3'>\[ \lim _{x\to e^{3}}(\ln {x}+5)^{2} = \class{xm-answer}{\cssId{xm-answer-18}{\phantom{\rule{7em}{1.5em}}}} \] Justificativa: Observe que \((\ln {x}+5)^{2} =f(g(x)) \), em que \[ f(x)=\class{xm-answer}{\cssId{xm-answer-19}{\phantom{\rule{7em}{1.5em}}}} \hspace {0.2in}and \hspace {0.2in} g(x)=\class{xm-answer}{\cssId{xm-answer-20}{\phantom{\rule{7em}{1.5em}}}} \] A função \(f\) é <span class='word-choice' id='word-choice8'><a id='x1-14r7'></a><span class='choice  ' id='choice13'>não contínua</span><span class='choice correct ' id='choice14'>contínua</span></span>
+     em \( (-\infty ,\infty )\).<br class='newline' />A função \(g\) é <span class='word-choice' id='word-choice9'><a id='x1-15r8'></a><span class='choice  ' id='choice15'>um produto</span><span class='choice correct ' id='choice16'>uma soma</span></span> de duas funções contínuas, \(\ln {x}\) e \( \class{xm-answer}{\cssId{xm-answer-21}{\phantom{\rule{7em}{1.5em}}}}\).
+     Portanto, \(g\) é <span class='word-choice' id='word-choice10'><a id='x1-16r9'></a><span class='choice  ' id='choice17'>não contínua</span><span class='choice correct ' id='choice18'>contínua</span></span> em seu domínio \((\class{xm-answer}{\cssId{xm-answer-22}{\phantom{\rule{7em}{1.5em}}}},\class{xm-answer}{\cssId{xm-answer-23}{\phantom{\rule{7em}{1.5em}}}})\).<br class='newline' />Logo, podemos aplicar a lei <span class='word-choice' id='word-choice11'><a id='x1-17r10'></a><span class='choice correct ' id='choice19'>da composição</span><span class='choice  ' id='choice20'>do produto</span></span> para limites \[ \lim _{x\to e^{3}}(\ln {x}+5)^{2} =\Bigl (\lim _{x\to e^{3}}(\ln {x}+5)\Bigr )^{\class{xm-answer}{\cssId{xm-answer-24}{\phantom{\rule{7em}{1.5em}}}}} \]
+     Como \(g\) é <span class='word-choice' id='word-choice12'><a id='x1-18r11'></a><span class='choice  ' id='choice21'>não contínua</span><span class='choice correct ' id='choice22'>contínua</span></span> em \(e^{3}\), temos \[ \lim _{x\to e^{3}}(\ln {x}+5)=\ln {(\class{xm-answer}{\cssId{xm-answer-25}{\phantom{\rule{7em}{1.5em}}}})}+5=\class{xm-answer}{\cssId{xm-answer-26}{\phantom{\rule{7em}{1.5em}}}}+5=\class{xm-answer}{\cssId{xm-answer-27}{\phantom{\rule{7em}{1.5em}}}} \] e, portanto, \[ \lim _{x\to e^{3}}(\ln {x}+5)^{2} = \Bigl (\class{xm-answer}{\cssId{xm-answer-28}{\phantom{\rule{7em}{1.5em}}}}\Bigr )^{2} =\class{xm-answer}{\cssId{xm-answer-29}{\phantom{\rule{7em}{1.5em}}}} \]
+     ________________________________________________________________________________________________</li></ol>
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"e","format":"expression","given":false,"antiderivative":false},"xm-answer-10":{"answer":"\\cos {x}","format":"expression","given":false,"antiderivative":false},"xm-answer-11":{"answer":"\\pi \\frac {3x^{2}-4x+1}{4}","format":"expression","given":false,"antiderivative":false},"xm-answer-12":{"answer":"\\pi \\frac {3x^{2}-4x+1}{4}","format":"expression","given":false,"antiderivative":false},"xm-answer-13":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-14":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-15":{"answer":"\\frac {5\\pi }{4}","format":"expression","given":false,"antiderivative":false},"xm-answer-16":{"answer":"\\frac {5\\pi }{4}","format":"expression","given":false,"antiderivative":false},"xm-answer-17":{"answer":"-\\frac {\\sqrt {2}}{2}","format":"expression","given":false,"antiderivative":false},"xm-answer-18":{"answer":"64","format":"expression","given":false,"antiderivative":false},"xm-answer-19":{"answer":"x^{2}","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"e^{x}","format":"expression","given":false,"antiderivative":false},"xm-answer-20":{"answer":"\\ln {x}+5","format":"expression","given":false,"antiderivative":false},"xm-answer-21":{"answer":"5","format":"expression","given":false,"antiderivative":false},"xm-answer-22":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-23":{"answer":"\\infty ","format":"expression","given":false,"antiderivative":false},"xm-answer-24":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-25":{"answer":"e^{3}","format":"expression","given":false,"antiderivative":false},"xm-answer-26":{"answer":"3","format":"expression","given":false,"antiderivative":false},"xm-answer-27":{"answer":"8","format":"expression","given":false,"antiderivative":false},"xm-answer-28":{"answer":"8","format":"expression","given":false,"antiderivative":false},"xm-answer-29":{"answer":"64","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"\\sin {x}","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"\\sin {x}","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"\\frac {\\pi }{2}","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"1","format":"expression","given":false,"antiderivative":false},"xm-answer-7":{"answer":"1","format":"expression","given":false,"antiderivative":false},"xm-answer-8":{"answer":"e","format":"expression","given":false,"antiderivative":false},"xm-answer-9":{"answer":"-\\frac {\\sqrt {2}}{2}","format":"expression","given":false,"antiderivative":false}}</script>

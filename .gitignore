@@ -3,7 +3,6 @@
 /data/*.sqlite3-*
 /data/*.db
 /data/*.db-*
-/data/ximera-render/
 /data/backups/
 /data/deployed-commit
 /.work/

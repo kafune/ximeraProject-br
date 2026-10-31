@@ -1,0 +1,121 @@
+<!-- traduz-render: a77653dd436f3dc4d9a908575945244dc533c6357bfdfbb8bcdd9286ef05e6a7 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>
+Para as afirmações a seguir, selecione Verdadeiro se a afirmação for sempre
+verdadeira e selecione Falso se a afirmação puder ser falsa.
+<p class='noindent'>Sejam \(f\) e \(g\) duas funções definidas em \(\left (-1,1\right )\). Se \(f\) é contínua em \(\left (-1,1\right )\) e se \(\displaystyle \lim _{x\to 0}g(x)=0\), então \(\displaystyle \lim _{x\to 0}\left (f(x)g(x)\right ) = 0\).
+</p>
+<div class='multiple-choice' id='problem2' titletext=' Multiple Choice'><span class='choice correct ' id='choice1'>Verdadeiro </span><span class='choice  ' id='choice2'>Falso</span> </div>
+<div class='feedback' data-feedback='attempt' id='feedback3' titletext=' Feedback (attempt)'>Como \(f\) é contínua em \(\left (-1,1\right )\), sabemos que \(\displaystyle \lim _{x\to 0}f(x)\) existe. Isso nos permite usar a lei do produto
+para limites a fim de calcular o limite desejado. </div>
+<div class='problem-environment exercise' id='problem4' numbered='' role='article' titletext=' Exercise'>
+<p class='noindent'>Sejam \(f\) e \(g\) duas funções definidas em \(\left (-1,1\right )\). Se \(f\) é contínua em \(\left (-1,1\right )\) e se \(\displaystyle \lim _{x\to 0}g(x)=0\), então \(\displaystyle \lim _{x\to 0}\frac {g(x)}{f(x)} = 0\).
+</p>
+<div class='multiple-choice' id='problem5' titletext=' Multiple Choice'><span class='choice  ' id='choice3'>Verdadeiro </span><span class='choice correct ' id='choice4'>Falso</span> </div>
+<div class='feedback' data-feedback='attempt' id='feedback6' titletext=' Feedback (attempt)'>Por exemplo, tome \(f(x) = g(x) = x\); nesse caso, o limite é 1. </div>
+<div class='problem-environment exercise' id='problem7' numbered='' role='article' titletext=' Exercise'>
+<p class='noindent'>Sejam \(f\) e \(g\) duas funções definidas em \(\left (-1,1\right )\). Se \(f\) é contínua em \(\left (-1,1\right )\) e se \(\displaystyle \lim _{x\to 0}g(x)=0\), então \(\displaystyle \lim _{x\to 0}g(f(x)) = 0\).
+</p>
+<div class='multiple-choice' id='problem8' titletext=' Multiple Choice'><span class='choice  ' id='choice5'>Verdadeiro </span><span class='choice correct ' id='choice6'>Falso</span> </div>
+<div class='feedback' data-feedback='attempt' id='feedback9' titletext=' Feedback (attempt)'>Por exemplo, tome \(g(x) = x\) e \(f(x) = \frac {1}{2}\); nesse caso, o limite é \(\frac {1}{2}\). </div>
+<div class='problem-environment exercise' id='problem10' numbered='' role='article' titletext=' Exercise'>
+<p class='noindent'>Se \(f\) é contínua em \(\left [1,3\right ]\), e se \(f(1) = 4\) e \(f(3) = 0\), então a equação \(f(x) = e\) tem uma solução em \(\left (1,3\right )\).
+</p>
+<div class='multiple-choice' id='problem11' titletext=' Multiple Choice'><span class='choice correct ' id='choice7'>Verdadeiro </span><span class='choice  ' id='choice8'>Falso</span> </div>
+<div class='feedback' data-feedback='attempt' id='feedback12' titletext=' Feedback (attempt)'>\(f\) é contínua em \(\left [1,3\right ]\) e \(e\) está entre \(f(1)\) e \(f(3)\), então podemos aplicar o teorema do valor
+intermediário. </div>
+<div class='problem-environment exercise' id='problem13' numbered='' role='article' titletext=' Exercise'>
+<p class='noindent'>Se \(f\) é contínua em \(\left [1,3\right ]\), e se \(f(1) = e\) e \(f(3) = 0\), então a equação \(f(x) = \pi \) tem uma solução em \(\left (1,3\right )\).
+</p>
+<div class='multiple-choice' id='problem14' titletext=' Multiple Choice'><span class='choice  ' id='choice9'>Verdadeiro </span><span class='choice correct ' id='choice10'>Falso</span> </div>
+<div class='feedback' data-feedback='attempt' id='feedback15' titletext=' Feedback (attempt)'>\(\pi \) não está entre \(f(1)\) e \(f(3)\), então não podemos aplicar o teorema do valor intermediário.
+Considere, como contraexemplo, \(f\) sendo a reta que passa por \((1,e)\) e \((3,0)\). </div>
+</div>   </div>    </div>    </div>    </div>
+<script type="application/json" class="xm-answers">{}</script>

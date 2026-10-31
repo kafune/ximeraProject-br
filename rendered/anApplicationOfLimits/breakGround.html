@@ -1,0 +1,140 @@
+<!-- traduz-render: f5d0e608f91bcf6997d9ce6f3af5129f7995cffe22e4c1f05786c037a8d5e54e -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Dois jovens matemáticos discutem limites e velocidade instantânea. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Confira este diálogo entre dois estudantes de cálculo (baseado em uma história
+real):
+     </p><dl class='dialogue'><dt class='actor'>
+Devyn </dt><dd class='speech'>Ei, Riley, andei pensando sobre limites.
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Que incrível.
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Pois é! Sabe, limites me lembram de uma coisa…De como um GPS ou
+     um celular calcula a velocidade!
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Hum.  Um  GPS  consegue  calcular  a  nossa  localização.  Então,  para
+     calcular a velocidade a partir da posição, ele deve olhar para \[ \frac {\text {variação da posição}}{\text {variação do tempo}} \]
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>E então estudamos isso conforme a variação do tempo fica cada vez
+     mais perto de zero.
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Exatamente como nos limites em zero: podemos estudar algo olhando
+     <strong>perto</strong> de um ponto, mas <strong>não exatamente no</strong> ponto.
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Meu Deus. A vida é uma rica tapeçaria.
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Poeta, você sabe o que diz.</dd></dl>
+<p class='noindent'>Suponha que você faça uma viagem de carro de Columbus, Ohio, até
+Urbana-Champaign, Illinois. Suponha ainda que sua posição seja modelada por \[ s(t) = 36t^2 -4.8t^3 \qquad \text {(milhas a oeste de Columbus)} \] em
+que \(t\) é medido em horas e varia de \(0\) a \(5\) horas.
+</p>
+<div class='problem-environment problem' id='problem1' numbered='' role='article' titletext=' Problem'>  Qual é a velocidade média da viagem inteira? <div class='foldable' data-original='expandable' id='foldable2'>xmhintLembre-se: \[ \text {variação da distância} = \text {taxa}\cdot \text {variação do tempo}. \]</div><div class='foldable' data-original='expandable' id='foldable3'>xmhintLogo,
+\[ \frac {\Delta \text {distância}}{\Delta \text {tempo}} = \text {taxa}. \]</div><div class='foldable' data-original='expandable' id='foldable4'>xmhintLogo, \[ \frac {\Delta \text {distância}}{\Delta \text {tempo}} = \frac {300}{5}. \]</div> A velocidade média é de \(\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\) milhas por hora.     </div>
+<div class='problem-environment problem' id='problem5' numbered='' role='article' titletext=' Problem'>  Use uma calculadora para estimar a velocidade instantânea em \(t=2\). <div class='foldable' data-original='expandable' id='foldable6'>xmhintLembre-se:
+\[ \text {variação da distância} = \text {taxa}\cdot \text {variação do tempo}. \]</div><div class='foldable' data-original='expandable' id='foldable7'>xmhintLogo, \[ \frac {\Delta \text {distância}}{\Delta \text {tempo}} = \text {taxa}. \]</div><div class='foldable' data-original='expandable' id='foldable8'>xmhintCalcule \[ \frac {36 t^2 -4.8 t^3 -\left (36\cdot 2^2 -4.8\cdot 2^3\right ) }{ t-2} \] para \(t\) cada vez mais perto de \(2\).</div> A velocidade
+instantânea (arredondada para o décimo mais próximo) é de \(\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\) milhas por hora.
+</div>
+                                                                  
+
+                                                                  
+<div class='problem-environment problem' id='problem9' numbered='' role='article' titletext=' Problem'>  Considerando o trabalho acima, quando queremos calcular a velocidade
+instantânea, precisamos calcular \[ \frac {\text {variação da posição}}{\text {variação do tempo}} \] quando (selecione todas as alternativas que se
+aplicam): <div class='select-all' id='problem10' titletext=' Select All'><a id='x1-2r1'></a> <span class='choice  ' id='choice1'>A “variação do tempo” é zero. </span><span class='choice correct ' id='choice2'>A “variação do tempo” fica cada vez
+mais perto de zero. </span><span class='choice correct ' id='choice3'>A “variação do tempo” se aproxima de zero. </span><span class='choice  ' id='choice4'>A
+“variação do tempo” está perto de zero. </span><span class='choice correct ' id='choice5'>A “variação do tempo” tende a zero.</span> </div>
+</div>
+<p class='noindent'>Calcular velocidades médias para valores cada vez menores de \(t-2\), como fizemos acima,
+é tedioso. Mesmo assim, é exatamente assim que um GPS determina a velocidade a
+partir da posição! Para evitar esses cálculos tediosos, gostaríamos muito de ter uma
+fórmula.
+</p>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"60","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"86.4","format":"expression","given":false,"antiderivative":false}}</script>

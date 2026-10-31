@@ -1,0 +1,201 @@
+<!-- traduz-render: 41cda33bab04effc28146c3f7e59da96e6814d86eca1b70a7ed6f0ea8cf9d713 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class="abstract">
+Aqui estudamos a derivada de uma função como uma função por si só. 
+</div>
+<div class="maketitle"></div>
+<h3 class="sectionHead"><span class="titlemark">1   </span> <a 
+ id="x1-10001"></a>A derivada de uma função, como função</h3>
+<p class="noindent" >Primeiro, precisamos encontrar uma definição alternativa para \(f'(a)\), a derivada de uma
+função \(f\) em \(a\).
+</p><p class="noindent" >Vamos começar com a taxa de variação média da função \(f\) quando a
+entrada varia de \(a\) a \(x\). Vamos introduzir uma nova variável, \(h\), para denotar
+a diferença entre \(x\) e \(a\). Isto é, \(x-a=h\) ou \(x=a+h\). Dê uma olhada na figura abaixo. </p><div class="image-environment" role="img" aria-labelledby="image-alt-1">
+<img 
+src="/rendered/derivativeAsAFunction/digInTheDerivativeAsAFunction-10d5fb8e62733e794570c7ce224c1a4f.svg" alt="[Picture]"  /> </div> Agora podemos
+escrever \[ {\text {taxa de variação média }}=\frac {f(a+h)-f(a)}{(a+h)-a}=\frac {f(a+h)-f(a)}{h} \] O que acontece se \(h\to 0\)? Em outras palavras, qual é o significado do limite \[ \lim _{h\to 0} \frac {f(a+h)-f(a)}{h}?\] Esse
+limite representa \(f'(a)\), a taxa de variação instantânea de \(f\) em \(a\)! Portanto, temos uma
+maneira alternativa de escrever a definição da derivada no ponto \(a\), a saber,
+\[ f'(a) = \lim _{h\to 0} \frac {f(a+h)-f(a)}{h}. \]
+<div class="theorem-like problem-environment example" id="problem1" titletext=" example"><a 
+ id="x1-1001r1"></a>Seja \(f(x) = x^2-2x\). Usando a expressão alternativa para a derivada, determine a inclinação da reta
+tangente à curva \(y=f(x)\) no ponto \((2,f(2))\). <div class="theorem-like problem-environment explanation" id="problem2" titletext=" explanation"><a 
+ id="x1-1002r2"></a>A inclinação da reta tangente é dada pela derivada, \(f'(2)\). \[ f'(2) = \lim _{h\to 0}\frac {f\left (\class{xm-given}{2+h}\right )-f\left (2\right )}{h}. \]
+Agora substitua a função que conhecemos, \[ f'(2) = \lim _{h\to 0}\frac {(2+h)^2-2(2+h) -0}{h}.\] Agora expanda o numerador da fração, \[ f'(2) =\lim _{h\to 0} \frac {4+4h+h^2-4-2h }{h}. \]
+Agora combine os termos semelhantes, \[ f'(2) = \lim _{h\to 0} \frac {2h+h^2}{h}.\] Coloque \(h\) em evidência em todos os termos do
+numerador, \[ f'(2) = \lim _{h\to 0}\frac {\cancel {h}\left (2+h\right )}{\cancel {h}}. \] Calcule o limite, \[ f'(2) = \lim _{h\to 0}(2+h)=\class{xm-given}{2}. \] </div> </div>
+<p class="noindent" >Essa definição alternativa da derivada de \(f\) em \(a\), a saber, \[ f'(a) = \lim _{h\to 0}\frac {f(a+h)-f(a)}{h}, \] (desde que o limite
+exista), nos permite definir \(f'(x)\) para qualquer valor de \(x\), \[ f'(x) = \lim _{h\to 0}\frac {f(x+h)-f(x)}{h},\] (desde que o limite
+exista).
+                                                                  
+
+                                                                  
+</p><p class="noindent" >É assim que definimos uma nova função, \(f'\), a derivada de \(f\). O domínio de \(f'\) consiste em
+todos os pontos do domínio de \(f\) em que a função \(f\) é derivável. O valor \(f'(x)\) nos
+dá a taxa de variação instantânea de \(f\) em qualquer ponto \(x\) do domínio de
+\(f'\).<br 
+class="newline" />
+</p><p class="noindent" >Dada uma função \(f\) de algum conjunto de números reais nos números reais, a derivada
+\(f'\) também é uma função de algum conjunto de números reais nos números reais.
+Entender a relação entre as <em>funções</em> \(f\) e \(f'\) nos ajuda a entender qualquer situação (real
+ou imaginária) que envolva valores que variam.
+</p>
+<div class="theorem-like problem-environment example" id="problem3" titletext=" example"><a 
+ id="x1-1003r3"></a>Dada a função \(f(x) = 3x+2\), determine \(f'(x)\). <br 
+class="newline" />
+<div class="theorem-like problem-environment explanation" id="problem4" titletext=" explanation"><a 
+ id="x1-1004r4"></a>Comece com a definição de \(f'(x)\) \[ f'(x) = \lim _{h\to 0}\frac {f(x+h)-f(\class{xm-given}{x})}{h}. \] Substitua \(f\) pela sua fórmula, \[ f'(x) = \lim _{h\to 0}\frac {3(x+h)+2-\left (\class{xm-given}{3x+2}\right )}{h}. \] Simplifique o numerador, \[ f'(x) = \lim _{h\to 0}\frac {3\cancel {h}}{\cancel {h}}. \]
+Calcule o limite. \[ f'(x) = \lim _{h\to 0}{3}=\class{xm-given}{3}. \] </div> </div>
+<div class="theorem-like problem-environment example" id="problem5" titletext=" example"><a 
+ id="x1-1005r5"></a>Dada a função \(f(x) = |x|\), determine \(f'(x)\). <br 
+class="newline" />
+<div class="theorem-like problem-environment explanation" id="problem6" titletext=" explanation"><a 
+ id="x1-1006r6"></a>Lembre-se de que o domínio de \(f\) é \((-\infty , \infty )\) e que \(f\) pode ser vista como uma função definida
+por partes, já que \[ f(x) = |x|= \begin{cases} \class{xm-given}{-x} &amp;\text {se $x&lt;0$,}\\ \class{xm-given}{x} &amp;\text {se $x\ge 0$}. \end{cases} \] Primeiro vamos calcular \(f'(x)\) quando \(x&gt;0\). Comece com a definição de \(f'(x)\) \[ f'(x) = \lim _{h\to 0}\frac {f(x+h)-f(\class{xm-given}{x})}{h}.\]
+Substitua \(f\) pela sua fórmula, \[ f'(x) = \lim _{h\to 0}\frac {|x+h|-\class{xm-given}{|x|}}{h}. \] \[ f'(x) = \lim _{h\to 0}\frac {x+h-\class{xm-given}{x}}{h}.\] Observação: quando \(x&gt;0\), então, para todos os
+valores suficientemente pequenos de \(h\), segue que \(x+h&gt;0\). Portanto, \(|x+h|=x+h\). Agora temos
+\[ f'(x) = \lim _{h\to 0}\frac {h}{h}= \lim _{h\to 0}\class{xm-given}{1}=\class{xm-given}{1}.\]
+<p class="noindent" >Em seguida, calculamos a derivada \(f'(x)\) quando \(x&lt;0\). \[ f'(x) = \lim _{h\to 0}\frac {f(x+h)-f(\class{xm-given}{x})}{h}. \] Substitua \(f\) pela sua fórmula, \[ f'(x) = \lim _{h\to 0}\frac {|x+h|-\class{xm-given}{|x|}}{h}. \] \[ f'(x) = \lim _{h\to 0}\frac {-x-h-\class{xm-given}{-x}}{h}. \]
+Observação: quando \(x&lt;0\), então, para todos os valores suficientemente pequenos de \(h\),
+segue que \(x+h&lt;0\). Portanto, \(|x+h|=-(x+h)=-x-h\). Isso nos dá \[ f'(x) = \lim _{h\to 0}\frac {-h}{h}= \lim _{h\to 0}\class{xm-given}{-1}=\class{xm-given}{-1}.\]
+</p><p class="noindent" >O que falta fazer é verificar se a derivada \(f'(0)\) existe. Comece com a definição de \(f'(0)\) \[ f'(0) = \lim _{h\to 0}\frac {f(0+h)-f(\class{xm-given}{0})}{h}. \]
+Substitua \(f\) pela sua fórmula, \[ f'(0) = \lim _{h\to 0}\frac {|0+h|-\class{xm-given}{|0|}}{h}.\] \[ f'(0) = \lim _{h\to 0}\frac {|h|}{h}. \] Observação: quando \(h&gt;0\), então \(|h|=h\), mas, quando \(h&lt;0\), então \(|h|=-h\).
+Portanto, em vez de calcular o limite acima, vamos calcular os dois limites laterais e
+compará-los.
+</p><p class="noindent" >\[ \lim _{h\to 0^+}\frac {|h|}{h}= \lim _{h\to 0^+}\frac {h}{h}=\lim _{h\to 0^+}\class{xm-given}{1}=\class{xm-given}{1}; \] \[ \lim _{h\to 0^-}\frac {|h|}{h}= \lim _{h\to 0^-}\frac {-h}{h}=\lim _{h\to 0^-}\class{xm-given}{-1}=\class{xm-given}{-1};\] Como os dois limites laterais não são iguais, segue que \[ \lim _{h\to 0}\frac {|h|}{h} {\text { NÃO EXISTE!}}\] Portanto, \(f'(0)\) NÃO EXISTE, o
+que significa que \(f\) NÃO É DERIVÁVEL em \(x=0\)!
+</p><p class="noindent" >Resumindo, \[ f'(x) = \begin{cases} \class{xm-given}{-1} &amp;\text {se $x&lt;0$,}\\ \class{xm-given}{1} &amp;\text {se $x&gt; 0$}. \end{cases} \] </p></div> </div>
+<div role="article" class="problem-environment question" id="problem7" numbered="" titletext=" Question">  É verdade que, para qualquer função \(f\), o domínio de \(f'\) é igual ao domínio de \(f\)?  <div class="multiple-choice" id="problem8" titletext=" Multiple Choice"><span class="choice  " 
+id="choice1">sim</span> <span class="choice correct "   id="choice2">não</span> </div> <div class="feedback" data-feedback="attempt" id="feedback9" titletext=" Feedback (attempt)">Isso não é verdade. Considere a função \(f(x)=|x|\). O domínio de \(f\) é \((-\infty , \infty )\) e o domínio
+de \(f'\) é \((-\infty ,0)\cup (0,\infty )\)
+<p class="noindent" >Esse exemplo mostra que uma função \(f\) e sua derivada, \(f'\), podem ter domínios
+diferentes. </div>     </p></div>
+<div role="article" class="problem-environment question" id="problem10" numbered="" titletext=" Question">  Duas funções diferentes, digamos, \(f\) e \(g\), podem ter a mesma derivada?  <div class="multiple-choice" id="problem11" titletext=" Multiple Choice"><span class="choice correct "   id="choice3">sim</span> <span class="choice  "   id="choice4">não</span> </div>
+<div class="feedback" data-feedback="attempt" id="feedback12" titletext=" Feedback (attempt)">Muitas funções diferentes podem ter a mesma derivada. Considere duas funções
+diferentes, \(f\) e \(g\), definidas por<br 
+class="newline" />\(f(x)=x\) e \(g(x)=x+5\). Então, \(f'(x)=1\) e \(g'(x)=1\), para todos os números reais \(x\).<br 
+class="newline" />Logo, as derivadas dessas duas funções diferentes são iguais.
+                                                                  
+
+                                                                  
+</div>   </div>
+<p class="noindent" >Vamos comparar os gráficos de \(f\) e \(f'\) para as derivadas que calculamos até
+agora:
+</p><p class="noindent" >\[f(x)=x^2, f'(x)=2x\] </p><div class="image-environment" role="img" aria-labelledby="image-alt-2"> <img 
+src="/rendered/derivativeAsAFunction/digInTheDerivativeAsAFunction-cf7c4c9c99bc418dde2e3e7447e9ed78.svg" alt="[Picture]"  /> </div>
+<p class="noindent" >\[f(x)=3x+2, f'(x)=3\] </p><div class="image-environment" role="img" aria-labelledby="image-alt-3"> <img 
+src="/rendered/derivativeAsAFunction/digInTheDerivativeAsAFunction-539a3cf6d03bbfdb555f4f62c803f1c6.svg" alt="[Picture]"  /> </div>
+<p class="noindent" >\[f(x)=|x|, f'(x)=\begin{cases} 1 &amp; \text {for } x&gt;0 \\ -1 &amp; \text {for } x&lt;0 \end{cases}\]
+</p>
+                                                                  
+
+                                                                  
+<div class="image-environment" role="img" aria-labelledby="image-alt-4"> <img 
+src="/rendered/derivativeAsAFunction/digInTheDerivativeAsAFunction-7271aaa7ce9339a262c8fafc40e954ee.svg" alt="[Picture]"  /> </div>
+<div role="article" class="problem-environment question" id="problem13" numbered="" titletext=" Question">  Para cada um dos três pares de funções, descreva \(y=f(x)\) quando \(f'\) é positiva e quando \(f'\) é
+negativa.<br 
+class="newline" /> Quando \(f'\) é positiva, \(y=f(x)\) é <span class="word-choice" id="word-choice14"><a 
+ id="x1-1007r7"></a><span class="choice  "   id="choice5">positiva</span><span class="choice correct "   id="choice6">crescente</span><span class="choice  "   id="choice7">negativa</span><span class="choice  "   id="choice8">decrescente</span></span>. Quando \(f'\) é
+negativa, \(y=f(x)\) é <span class="word-choice" id="word-choice15"><a 
+ id="x1-1008r8"></a><span class="choice  "   id="choice9">positiva</span><span class="choice  "   id="choice10">crescente</span><span class="choice  "   id="choice11">negativa</span><span class="choice correct "   id="choice12">decrescente</span></span>     </div>
+<div role="article" class="problem-environment question" id="problem16" numbered="" titletext=" Question">  Aqui vemos o gráfico de \(f'\), a derivada de alguma função \(f\). <div class="image-environment" role="img" aria-labelledby="image-alt-5">
+<img 
+src="/rendered/derivativeAsAFunction/digInTheDerivativeAsAFunction-93c4da441f504365d22e3f954d7216e1.svg" alt="[Picture]"  /> </div>
+<p class="noindent" >Qual dos gráficos a seguir poderia ser \(y = f(x)\)? </p><div class="multiple-choice" id="problem17" titletext=" Multiple Choice"><span class="choice  "   id="choice13"> <img 
+src="/rendered/derivativeAsAFunction/digInTheDerivativeAsAFunction-b8a1faeee1556f7027266bbfaaab0db7.svg" alt="[Picture]"  /></span> <span class="choice correct "   id="choice14">
+<img 
+src="/rendered/derivativeAsAFunction/digInTheDerivativeAsAFunction-13036c5e2775ae7bb85377252e01ddca.svg" alt="[Picture]"  /></span> <span class="choice  "   id="choice15"> <img 
+src="/rendered/derivativeAsAFunction/digInTheDerivativeAsAFunction-50a5183d8beef360b152b2def2d330ff.svg" alt="[Picture]"  /></span>
+</div>
+                                                                  
+
+                                                                  
+</div>
+<script type="application/json" class="xm-answers">{}</script>

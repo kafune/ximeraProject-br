@@ -1,0 +1,124 @@
+<!-- traduz-render: f2f74747d4c0a567b2325438fe9e2c27e3dd46122d918545453e65ec885216a7 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='problem-environment exercise' id='problem1' numbered='' role='article' titletext=' Exercise'>  Seja \(f\) uma função definida em \((-8,8)\). O gráfico de \(f\) é dado na figura abaixo.
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/exercises/maxMinFromGraph1-bb5564472ecb72a893eed47b241dad3d.svg" /> </div> Selecione todos os valores de \(x\)
+em que a função \(f\) tem um ponto crítico.
+<div class='select-all' id='problem2' titletext=' Select All'><a id='x1-2r1'></a> <span class='choice  ' id='choice1'>\(x=-8\) </span><span class='choice  ' id='choice2'>\(x=-7\) </span><span class='choice correct ' id='choice3'>\(x=-4\) </span><span class='choice correct ' id='choice4'>\(x=-2\) </span><span class='choice correct ' id='choice5'>\(x=0\) </span><span class='choice  ' id='choice6'>\(x=1\) </span><span class='choice correct ' id='choice7'>\(x=2\) </span><span class='choice correct ' id='choice8'>\(x=4\) </span><span class='choice correct ' id='choice9'>\(x=6\) </span><span class='choice  ' id='choice10'>\(x=8\)</span> </div>
+<div class='problem-environment exercise' id='problem3' numbered='' role='article' titletext=' Exercise'>  <div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/exercises/maxMinFromGraph1-78f5529a57a1f322ff72339c8cd8ec2a.svg" /> </div>
+<p class='noindent'>Selecione todos os valores de \(x\) em que a função \(f\) tem um ponto crítico tal que \(f'(x)=0\). </p><div class='select-all' id='problem4' titletext=' Select All'><a id='x1-3r2'></a> <span class='choice  ' id='choice11'>\(x=-8\) </span><span class='choice  ' id='choice12'>\(x=-7\) </span><span class='choice 
+' id='choice13'>\(x=-4\) </span><span class='choice  ' id='choice14'>\(x=-2\) </span><span class='choice correct ' id='choice15'>\(x=0\) </span><span class='choice  ' id='choice16'>\(x=1\) </span><span class='choice  ' id='choice17'>\(x=2\) </span><span class='choice  ' id='choice18'>\(x=4\) </span><span class='choice correct ' id='choice19'>\(x=6\) </span><span class='choice  ' id='choice20'>\(x=8\)</span> </div>
+</div>
+                                                                  
+
+                                                                  
+<div class='problem-environment exercise' id='problem5' numbered='' role='article' titletext=' Exercise'>  <div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/exercises/maxMinFromGraph1-e5741d999b2144aae5831493c1870588.svg" /> </div>
+<p class='noindent'>Selecione todos os valores de \(x\) em que a função \(f\) tem um ponto crítico tal que \(f'(x)\) não
+está definida. </p><div class='select-all' id='problem6' titletext=' Select All'><a id='x1-4r3'></a> <span class='choice  ' id='choice21'>\(x=-8\) </span><span class='choice  ' id='choice22'>\(x=-7\) </span><span class='choice correct ' id='choice23'>\(x=-4\) </span><span class='choice correct ' id='choice24'>\(x=-2\) </span><span class='choice  ' id='choice25'>\(x=0\) </span><span class='choice  ' id='choice26'>\(x=1\) </span><span class='choice correct ' id='choice27'>\(x=2\) </span><span class='choice correct ' id='choice28'>\(x=4\) </span><span class='choice  ' id='choice29'>\(x=6\) </span><span class='choice  ' id='choice30'>\(x=8\)</span> </div>
+</div>
+<div class='problem-environment exercise' id='problem7' numbered='' role='article' titletext=' Exercise'>  <div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/exercises/maxMinFromGraph1-5ddd4683eb7c20311c931186a6fe854a.svg" /> </div>
+<p class='noindent'>Selecione todos os valores de \(x\) em que a função \(f\) tem um ponto crítico, mas não tem
+extremo local. </p><div class='select-all' id='problem8' titletext=' Select All'><a id='x1-5r4'></a> <span class='choice  ' id='choice31'>\(x=-8\) </span><span class='choice  ' id='choice32'>\(x=-7\) </span><span class='choice  ' id='choice33'>\(x=-4\) </span><span class='choice  ' id='choice34'>\(x=-2\) </span><span class='choice correct ' id='choice35'>\(x=0\) </span><span class='choice  ' id='choice36'>\(x=1\) </span><span class='choice  ' id='choice37'>\(x=2\) </span><span class='choice correct ' id='choice38'>\(x=4\) </span><span class='choice  ' id='choice39'>\(x=6\) </span><span class='choice  ' id='choice40'>\(x=8\)</span> </div>
+</div>
+                                                                  
+
+                                                                  
+<div class='problem-environment exercise' id='problem9' numbered='' role='article' titletext=' Exercise'>  <div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/exercises/maxMinFromGraph1-e5741d999b2144aae5831493c1870588.svg" /> </div>
+<p class='noindent'>Selecione todos os valores de \(x\) em que a função \(f\) tem um mínimo local. </p><div class='select-all' id='problem10' titletext=' Select All'><a id='x1-6r5'></a> <span class='choice  ' id='choice41'>\(x=-8\) </span><span class='choice  ' id='choice42'>\(x=-7\) </span><span class='choice  ' id='choice43'>\(x=-4\) </span><span class='choice  ' id='choice44'>\(x=-2\) </span><span class='choice  ' id='choice45'>\(x=0\)
+</span><span class='choice  ' id='choice46'>\(x=1\) </span><span class='choice  ' id='choice47'>\(x=2\) </span><span class='choice  ' id='choice48'>\(x=4\) </span><span class='choice correct ' id='choice49'>\(x=6\) </span><span class='choice  ' id='choice50'>\(x=8\)</span> </div>    </div>
+<div class='problem-environment exercise' id='problem11' numbered='' role='article' titletext=' Exercise'>  <div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/exercises/maxMinFromGraph1-2847c4c6a0d592efebfdd9ce77f531b9.svg" /> </div>
+<p class='noindent'>Selecione todos os valores de \(x\) em que a função \(f\) tem um máximo local. </p><div class='select-all' id='problem12' titletext=' Select All'><a id='x1-7r6'></a> <span class='choice  ' id='choice51'>\(x=-8\) </span><span class='choice  ' id='choice52'>\(x=-7\) </span><span class='choice correct ' id='choice53'>\(x=-4\) </span><span class='choice correct ' id='choice54'>\(x=-2\) </span><span class='choice  ' id='choice55'>\(x=0\)
+                                                                  
+
+                                                                  
+</span><span class='choice  ' id='choice56'>\(x=1\) </span><span class='choice correct ' id='choice57'>\(x=2\) </span><span class='choice  ' id='choice58'>\(x=4\) </span><span class='choice  ' id='choice59'>\(x=6\) </span><span class='choice  ' id='choice60'>\(x=8\)</span> </div>    </div>   <div class='problem-environment exercise' id='problem13' numbered='' role='article' titletext=' Exercise'>   <div aria-labelledby='image-alt-7' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/maximumsAndMinimums/exercises/maxMinFromGraph1-d90a4a07ef6bb62e790f9cf68214006e.svg" />
+</div>
+<p class='noindent'>Selecione todos os valores de \(x\) em que a função \(f\) tem um ponto de inflexão. </p><div class='select-all' id='problem14' titletext=' Select All'><a id='x1-8r7'></a> <span class='choice  ' id='choice61'>\(x=-8\) </span><span class='choice  ' id='choice62'>\(x=-7\) </span><span class='choice  ' id='choice63'>\(x=-4\) </span><span class='choice  ' id='choice64'>\(x=-2\) </span><span class='choice correct ' id='choice65'>\(x=0\) </span><span class='choice  ' id='choice66'>\(x=1\) </span><span class='choice correct ' id='choice67'>\(x=2\) </span><span class='choice correct ' id='choice68'>\(x=4\) </span><span class='choice  ' id='choice69'>\(x=6\) </span><span class='choice  ' id='choice70'>\(x=8\)</span> </div>    </div>
+</div>
+<script type="application/json" class="xm-answers">{}</script>

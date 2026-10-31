@@ -1,0 +1,225 @@
+<!-- traduz-render: ca881855c7b33aad27f7254ddeaf59ce5f0e63de6d5ad003b2e71309bf2e20a9 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Definimos o conceito de função. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>A vida é complexa. Parte dessa complexidade vem do fato de que existem muitas
+relações entre eventos aparentemente desconexos. Munidos da matemática, buscamos
+compreender o mundo. Talvez a relação “do mundo real” mais relevante
+seja
+     </p><blockquote class='quote'>
+     <p class='noindent'><strong>a posição de um objeto em função do tempo.</strong></p></blockquote>
+<p class='noindent'>Nossas observações parecem indicar que cada instante de tempo está associado a um
+único posicionamento dos objetos no universo. Você talvez já tenha ouvido o
+ditado
+     </p><blockquote class='quote'>
+     <p class='noindent'><strong>não se pode estar em dois lugares ao mesmo tempo,</strong></p></blockquote>
+<p class='noindent'>e é esse fato que motiva a nossa definição de função.
+</p>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-2r1'></a> Uma <strong>função</strong> é uma relação entre conjuntos em que, para cada entrada, existe
+exatamente uma saída. </div>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Se a nossa função é a “posição em função do tempo” de algum objeto, então a
+entrada é <div class='multiple-choice' id='problem3' titletext=' Multiple Choice'><span class='choice  ' id='choice1'>a posição </span><span class='choice correct ' id='choice2'>o tempo </span><span class='choice  ' id='choice3'>nenhuma das anteriores</span> </div> e a saída é <div class='multiple-choice' id='problem4' titletext=' Multiple Choice'><span class='choice correct ' id='choice4'>a posição </span><span class='choice  ' id='choice5'>o tempo </span><span class='choice  ' id='choice6'>nenhuma das anteriores</span> </div>    </div>
+<p class='noindent'>Algo tão simples quanto um dicionário poderia ser pensado como uma relação, já que
+ele associa <em>palavras</em> a <em>definições</em>. No entanto, um dicionário não é uma função, pois
+há palavras com várias definições. Por outro lado, se cada palavra tivesse uma única
+definição, então um dicionário seria uma função.
+</p>
+<div class='problem-environment question' id='problem5' numbered='' role='article' titletext=' Question'>  Quais das alternativas a seguir são funções? <div class='select-all' id='problem6' titletext=' Select All'><a id='x1-3r2'></a> <span class='choice  ' id='choice7'>Associar palavras à sua definição
+em um dicionário. </span><span class='choice correct ' id='choice8'>Dado um objeto se deslocando pelo espaço, associar o tempo à
+posição do objeto no espaço. </span><span class='choice correct ' id='choice9'>Associar pessoas à sua data de nascimento. </span><span class='choice  ' id='choice10'>Associar mães aos seus filhos.</span> </div> <div class='feedback' data-feedback='attempt' id='feedback7' titletext=' Feedback (attempt)'>
+     <ul class='itemize1'>
+     <li class='itemize'>Como as palavras podem ter mais de uma definição, “relacionar palavras
+     à sua definição em um dicionário” não é uma função.
+                                                                  
+
+                                                                  
+     </li>
+     <li class='itemize'>Como, em qualquer instante dado, os objetos não podem estar “em dois
+     lugares ao mesmo tempo”, isto é uma função.
+     </li>
+     <li class='itemize'>Como  cada  pessoa  tem  apenas  uma  data  de  nascimento,  “relacionar
+     pessoas à sua data de nascimento” é uma função.
+     </li>
+     <li class='itemize'>Como as mães podem ter mais (ou menos) de um filho, “relacionar mães
+     aos seus filhos” não é uma função.</li></ul>
+</div>   </div>
+<p class='noindent'>O que esperamos convencê-lo é de que as afirmações a seguir são verdadeiras:
+     </p><ol class='enumerate1'>
+<li class='enumerate' id='x1-5x1'>A definição de função está bem fundamentada em um contexto real.
+     </li>
+<li class='enumerate' id='x1-7x2'>A  definição  de  função  é  flexível  o  bastante  para  poder  ser  usada  na
+     modelagem de uma ampla gama de fenômenos.</li></ol>
+<p class='noindent'>Sempre que falamos de funções, devemos dizer explicitamente que tipo de coisas são
+as entradas e que tipo de coisas são as saídas. Em cálculo, as funções frequentemente
+definem uma relação de (um subconjunto de) os números reais (denotados por \(\RR \)) em
+(um subconjunto de) os números reais.
+</p>
+<div class='theorem-like problem-environment definition' id='problem8' titletext=' definition'><a id='x1-8r3'></a>Chamamos o conjunto das entradas de uma função de <strong>domínio</strong>, e chamamos o
+conjunto das saídas de uma função de <strong>imagem</strong>. </div>
+<div class='theorem-like problem-environment example' id='problem9' titletext=' example'><a id='x1-9r4'></a>Considere a função \(f\) que leva os números reais nos números reais tomando um
+número e associando-o ao seu cubo: \begin{align*}  1 &amp;\mapsto 1\\ -2 &amp;\mapsto -8\\ 1.5 &amp;\mapsto 3.375  \end{align*}
+<p class='noindent'>e assim por diante. Essa função pode ser <em>descrita</em> pela fórmula \(f(x)=x^3\) ou pelo gráfico mostrado na figura abaixo:
+                                                                  
+
+                                                                  
+</p><div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/digInForEachInputExactlyOneOutput-4945c7b03f31aaa5034c3ee42d195561.svg" /> </div> </div>
+<div class='theorem-like problem-environment warning' id='problem10' titletext=' warning'><a id='x1-10r5'></a>Uma função é uma relação (tal que, para cada entrada, existe exatamente uma
+saída) entre conjuntos. A fórmula e o gráfico são apenas descrições dessa
+relação.
+     <ul class='itemize1'>
+     <li class='itemize'>Uma fórmula <strong>descreve</strong> a relação usando símbolos.
+     </li>
+     <li class='itemize'>Um gráfico <strong>descreve</strong> a relação usando figuras.</li></ul>
+<p class='noindent'>A <strong>função é a relação em si</strong>, e independe de como ela é descrita. </p></div>
+<p class='noindent'>Nosso próximo exemplo talvez seja uma função nova para você. É a <em>função maior
+inteiro</em>.
+</p>
+<div class='theorem-like problem-environment example' id='problem11' titletext=' example'><a id='x1-11r6'></a>Considere a <strong>função maior inteiro</strong>. Essa função associa a cada número real \(x\) o maior
+inteiro menor do que ou igual a \(x\).
+<p class='noindent'>Às vezes as pessoas escrevem isso como \(f(x) = \lfloor x\rfloor \), em que esses símbolos esquisitos
+significam exatamente as palavras acima que descrevem a função. Para
+o seu deleite visual, aqui está um gráfico da função maior inteiro: </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/understandingFunctions/digInForEachInputExactlyOneOutput-5b928f038f6f1e5922ca7dec715f01dd.svg" /> </div> Observe que aqui temos várias entradas que produzem a mesma saída.
+Isso não é um problema! Para ser uma função, basta verificar que, para
+cada entrada, existe exatamente uma saída, e essa condição está satisfeita.
+</div>
+<div class='problem-environment question' id='problem12' numbered='' role='article' titletext=' Question'>  Calcule: \[ \lfloor 2.4 \rfloor \begin{prompt} =\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \end{prompt} \]   <div class='problem-environment question' id='problem13' numbered='' role='article' titletext=' Question'>   Calcule: \[ \lfloor -2.4 \rfloor \begin{prompt} =\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \end{prompt} \]    </div>    </div>
+<p class='noindent'>Note que ambas as funções descritas acima passam no chamado <em>teste da reta
+vertical</em>.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem14' titletext=' theorem'><a id='x1-12r7'></a>A curva \(y=f(x)\) representa \(y\) como função de \(x\) em \(x=a\) se, e somente se, a reta vertical \(x=a\) intersecta
+a curva \(y=f(x)\) em exatamente um ponto. Isso é chamado de <strong>teste da reta vertical</strong>.
+</div>
+<p class='noindent'>Às vezes o domínio e a imagem são o conjunto <em>inteiro</em> dos números reais, que em
+notação de intervalo é denotado por \((-\infty , \infty )\). Nos próximos exemplos, mostramos
+que nem sempre é esse o caso. (Ocasionalmente você verá uma notação
+alternativa para o conjunto de todos os números reais, \(\RR \). Para os nossos propósitos,
+conjuntos como o domínio e a imagem devem ser dados em notação de
+intervalo.)
+</p>
+<div class='theorem-like problem-environment example' id='problem15' titletext=' example'><a id='x1-13r8'></a>Considere a função que associa a cada número real não negativo a sua raiz quadrada
+positiva. Essa função pode ser descrita pela fórmula \[ f(x) = \sqrt {x}. \] O domínio é \(0\le x&lt;\infty \), que escrevemos
+em notação de intervalo como \([0,\infty )\). A imagem é \([0,\infty )\). Aqui está um gráfico de \(y=f(x)\): <div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/understandingFunctions/digInForEachInputExactlyOneOutput-d8e43fd8f75cb288189da71785c61308.svg" /> </div> </div>
+<p class='noindent'>Para realmente evidenciar a diferença entre uma função e a sua descrição, vamos
+considerar um exemplo de uma função com duas descrições diferentes.
+</p>
+<div class='theorem-like problem-environment example' id='problem16' titletext=' example'><a id='x1-14r9'></a>Explique por que \(\sqrt {x^2} = |x|\). <div class='theorem-like problem-environment explanation' id='problem17' titletext=' explanation'><a id='x1-15r10'></a>Embora \(\sqrt {x^2}\) possa parecer se simplificar para apenas \(x\), vamos ver o
+que acontece quando substituímos alguns valores. \[ \begin{aligned} \sqrt {3^2} &amp;= \sqrt {9}\\ &amp;=3, \end{aligned} \qquad \text {e}\qquad \begin{aligned} \sqrt {(-3)^2} &amp;= \sqrt {9}\\ &amp;=3. \end{aligned} \] Seja \(f(x)=\sqrt {x^2}\). Vemos que, para qualquer \(x\)
+negativo, \(x=-|x|\) e, portanto, \(f(x)=f(-|x|)=\sqrt {(-|x|)^2}=\sqrt {|x|^2}=\class{xm-given}{|x|}\). Logo \(\sqrt {x^2}\ne x\). Em vez disso, vemos que \(\sqrt {x^2} = |x|\). O domínio de
+\(f(x)=\sqrt {x^2}\) é \((-\infty ,\infty )\) e a imagem é \([0,\infty )\). Para o seu deleite visual, incluímos um gráfico de \(y=f(x)\): <div aria-labelledby='image-alt-4' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/understandingFunctions/digInForEachInputExactlyOneOutput-80a8f6fc1c06baa5715f6e03b1e06974.svg" /> </div> </div> </div>
+<p class='noindent'>Por fim, vamos considerar uma função cujo domínio é o conjunto de todos os
+números reais exceto um único ponto.
+</p>
+                                                                  
+
+                                                                  
+<div class='theorem-like problem-environment example' id='problem18' titletext=' example'><a id='x1-16r11'></a>As funções \[ f(x) = \frac {x^2 - 3x + 2}{x-2} = \frac {(x-2)(x-1)}{(x-2)} \] e \[ g(x) = x-1 \] são a mesma função? <div class='theorem-like problem-environment explanation' id='problem19' titletext=' explanation'><a id='x1-17r12'></a>Vamos usar uma sequência de passos para pensar
+sobre essa pergunta. Primeiro, e se compararmos os gráficos? Aqui vemos um gráfico
+de \(f\): <div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/digInForEachInputExactlyOneOutput-d5499a51b03a904e4927accb9f40384d.svg" /> </div> Por outro lado,
+aqui está um gráfico de \(g\): <div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/understandingFunctions/digInForEachInputExactlyOneOutput-430dc58306da0f5a5724f45d686f4d63.svg" /> </div> Segundo, e se compararmos os domínios? Não podemos calcular \(f\) em \(x=\class{xm-given}{2}\). É aí que \(f\)
+não está definida. Por outro lado, não há nenhum valor de \(x\) em que não possamos
+calcular \(g\). Em outras palavras, o domínio de \(g\) é \((-\infty , \infty )\).
+<p class='noindent'>Como essas duas funções não têm o mesmo gráfico e não têm o mesmo domínio, elas
+não podem ser a mesma função.
+</p><p class='noindent'>No entanto, se olharmos para as duas funções em todos os pontos exceto
+em \(x = 2\), podemos dizer que \(f(x)=g(x)\). Em outras palavras, \[ f(x)=x-1\qquad \text {quando}\qquad \text {$x \ne 2$}. \] Com esse exemplo, vemos
+que é fundamental levar em conta o domínio e a imagem de uma função. </p></div>
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"-3","format":"expression","given":false,"antiderivative":false}}</script>

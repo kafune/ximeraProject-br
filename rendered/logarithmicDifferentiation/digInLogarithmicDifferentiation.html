@@ -1,0 +1,214 @@
+<!-- traduz-render: 3bd2bc19e1c50d1c80048ff465f183e201d91e6554a4324aadd4d3b5a07e4538 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Usamos logaritmos para nos ajudar a derivar. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Os logaritmos foram desenvolvidos originalmente como uma ferramenta
+de cálculo, principalmente por causa de sua famosa propriedade: \[ \log _b(xy) = \log _b(x)+\log _b(y). \] </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/logarithmicDifferentiation/digInLogarithmicDifferentiation-c49682a2a6e3c8ac3ad7c0b433fdd8f1.svg" /> </div>
+<p class='noindent'>Antes da época das calculadoras e dos computadores, esse era um conhecimento
+essencial para qualquer pessoa que trabalhasse com cálculos.
+</p>
+<div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-2r1'></a>Calcule \(138\cdot 23.4\) usando logaritmos. <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Comece escrevendo os dois números em notação
+científica \[ \left (1.38\cdot 10^{2}\right )\cdot \left (2.34 \cdot 10^{1}\right ). \] Em seguida, usamos uma tábua de logaritmos, que fornece \(\log _{10}(N)\) para
+valores de \(N\) entre \(0\) e \(9\). Reproduzimos abaixo parte de uma tábua desse tipo. <div aria-labelledby='image-alt-2' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/logarithmicDifferentiation/digInLogarithmicDifferentiation-01bbe226ee57d0d9f8c5888a2f10858e.svg" /> </div> Pela tábua, vemos que \[ \log _{10}(1.38) \approx 0.1399\qquad \text {e}\qquad \log _{10}(2.34)\approx 0.3692 \] Somando esses números, obtemos \(0.5091\). Essencialmente, neste
+ponto sabemos o seguinte:
+<div class='center'>
+<p class='noindent'><img alt='[Picture]' src="/rendered/logarithmicDifferentiation/digInLogarithmicDifferentiation-2038de26bf7a66440286e226a55b5c7e.svg" /></p></div>
+                                                                  
+
+                                                                  
+<p class='noindent'>Usando a tábua novamente, vemos que \(\log _{10}(3.23)\approx 0.5091\). Como estávamos trabalhando em notação
+científica, precisamos multiplicar isso por \(10^3\). Nossa resposta final é \[ 3230 \approx 138\cdot 23.4 \] Como \(138\cdot 23.4 = 3229.2\), essa é
+uma boa aproximação. </p></div> </div><p> A moral da história é:
+     </p><blockquote class='quote'>
+     <p class='noindent'><strong>Os  logaritmos  nos  permitem  usar  adição  no  lugar  de
+     multiplicação.</strong></p></blockquote>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Derivação logarítmica</h3>
+<p class='noindent'>Ao calcular derivadas, tanto a regra do produto quanto a regra do quociente podem
+ser trabalhosas de usar. Os logaritmos vão salvar o dia. Um ponto-chave é o seguinte:
+\[ \ddx \ln (f(x)) = \frac {1}{f(x)}\cdot f'(x) = \frac {f'(x)}{f(x)} \] que segue da regra da cadeia. Vamos ver um exemplo ilustrativo para entender como
+isso é usado na prática.
+</p>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-1001r3'></a>Calcule: \[ \ddx \frac {x^9e^{4x}}{\sqrt {x-4}} \] <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-1002r4'></a>Lembre-se das propriedades dos logaritmos:
+     <ul class='itemize1'>
+     <li class='itemize'>\(\log _b(xy) = \log _b(x) + \log _b(y)\)
+     </li>
+     <li class='itemize'>\(\log _b(x/y) = \log _b(x) - \log _b(y)\)
+     </li>
+     <li class='itemize'>\(\log _b(x^y) = y\log _b(x)\)</li></ul>
+<p class='noindent'>Embora pudéssemos usar a regra do produto e a regra do quociente para resolver este
+problema, seria tedioso. Comece tomando o logaritmo da função a ser derivada.
+\begin{align*}  \ln \left (\frac {x^9e^{4x}}{\sqrt {x-4}} \right ) &amp;= \ln \left (\class{xm-given}{x^9e^{4x}}\right ) - \ln \left (\class{xm-given}{\sqrt {x-4}}\right )\\ &amp;= \ln \left (x^9\right )+\ln \left (e^{4x}\right ) - \ln \left ((x-4)^{1/2}\right )\\ &amp;= \class{xm-given}{9}\ln (x)+4x - \class{xm-given}{\frac {1}{2}}\ln (x-4).  \end{align*}
+</p><p class='noindent'>Fazendo \(f(x) = \frac {x^9e^{4x}}{\sqrt {x-4}}\), podemos escrever \[ \ln (f(x)) = 9\ln (x)+4x - \frac {1}{2}\ln (x-4).\] Derivando ambos os lados, encontramos \[ \frac {f'(x)}{f(x)} = \class{xm-given}{\frac {9}{x}+4} - \frac {1}{2(x-4)}.\] Por fim,
+isolamos \(f'(x)\) e escrevemos \[f'(x) = \left (\frac {9}{x}+4 - \frac {1}{2(x-4)}\right )\left (\class{xm-given}{\frac {x^9e^{4x}}{\sqrt {x-4}}}\right ). \] </p></div> </div>
+<p class='noindent'>O processo acima é chamado de <em>derivação logarítmica</em>. Ele começa tomando o
+logaritmo natural da função e, em seguida, usa as propriedades dos logaritmos para
+simplificar. A derivação logarítmica também nos permite calcular derivadas
+novas.
+</p>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-1003r5'></a>Para \(x&gt;0\), calcule: \[ \ddx x^x \] <div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-1004r6'></a>A função \(x^x\) é complicada de derivar. Não podemos usar a regra da
+                                                                  
+
+                                                                  
+potência, pois o expoente não é uma constante; a função também não é uma função
+exponencial, já que a base não é uma constante. Porém, se fizermos \(f(x) = x^x\), podemos
+escrever \begin{align*}  \ln (f(x)) &amp;= \ln \left (x^x\right )\\ &amp;=x\ln (x).  \end{align*}
+<p class='noindent'>Derivando ambos os lados, encontramos \[ \frac {f'(x)}{f(x)} = \class{xm-given}{1 + \ln (x)}. \] Agora podemos isolar \(f'(x)\), \[ f'(x) = x^x + x^x\ln (x). \]
+</p><p class='noindent'>Outra maneira: podemos escrever \[ x^x= e^{\ln (x^x)}=e^{x\ln (x)}. \] Portanto, \[ \ddx x^x=\ddx e^{x\ln (x)}=e^{x\ln (x)}\left (\ln (x)+1\right ), \] pela regra da cadeia e pela regra do
+produto.
+</p><p class='noindent'>Agora, segue que \[ \ddx x^x=x^x\left (\class{xm-given}{\ln (x)+1}\right ). \] </p></div> </div>
+<p class='noindent'>A função do exemplo anterior, \(x^x\), é um tipo de função que chamamos de <strong>função
+torre</strong>. Funções torre são funções escritas como \(f(x)^{g(x)}\), uma exponencial em que tanto a
+base quanto o expoente dependem da variável. A derivação logarítmica é um
+método para derivar uma função torre. No entanto, também podemos escrever \[ f(x)^{g(x)} = e^{\ln \left ( f(x)^{g(x)} \right )} = e^{g(x)\ln ( f(x) ) }. \]
+Reescrevendo dessa forma, podemos derivar funções torre usando a regra da cadeia
+e a regra do produto. No exemplo anterior, a derivada de \(x^x\) foi calculada
+pelos dois métodos. Vamos derivar mais uma função torre usando os dois
+métodos.
+</p>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-1005r7'></a>Calcule a derivada de \(f(x) = x^{\cos (x)}\) de duas maneiras: por derivação logarítmica e usando a regra
+da cadeia e a regra do produto. <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-1006r8'></a>Começamos com o método da derivação logarítmica.
+\begin{align*}  \ln ( f(x) ) &amp;= \ln \left ( x^{\cos (x)} \right ) \\ &amp;= \cos (x) \ln (x)  \end{align*}
+<p class='noindent'>Derivando ambos os lados, obtemos: \begin{align*}  \dfrac {f'(x)}{f(x)} &amp;= -\sin (x)\ln (x) + \dfrac {\cos (x)}{x} \\ f'(x) &amp;= f(x)\left ( -\sin (x)\ln (x) + \dfrac {\cos (x)}{x}\right )\\ &amp;= x^{\cos (x)} \left ( -\sin (x)\ln (x) + \dfrac {\cos (x)}{x}\right )  \end{align*}
+</p><p class='noindent'>Vamos derivar \(f\) mais uma vez, mas agora usando a regra da cadeia e a regra do
+produto. Começamos reescrevendo a função torre como uma exponencial de base
+constante \(e\). \[ f(x) = x^{\cos (x)} = e^{\ln \left (x^{\cos (x)} \right )} = e^{\cos (x) \ln (x)} \] Usando a regra da cadeia, encontramos: \begin{align*}  f'(x) &amp;= e^{\cos (x)\ln (x)}\left ( \cos (x)\ln (x)\right )'\\ &amp;= e^{\cos (x)\ln (x)}\left ( -\sin (x) \ln (x) + \dfrac {\cos (x)}{x}\right )  \end{align*}
+</p><p class='noindent'>Reescrevendo \(e^{\cos (x)\ln (x)}\) como \(x^{\cos (x)}\), vemos que os dois métodos deram a mesma derivada \(f'\). </p></div>
+</div>
+<div class='theorem-like problem-environment example' id='problem9' titletext=' example'><a id='x1-1007r9'></a>Calcule: \[ \ddx \ln {(|x|)} \] <div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-1008r10'></a>A função \(|x|\) é uma função definida por partes. Se \(x&gt;0\), \begin{align*}  \ddx \ln {(|x|)} &amp;= \ddx \ln {(\class{xm-given}{x})}\\ &amp;=\frac {1}{\class{xm-given}{x}}.  \end{align*}
+<p class='noindent'>A função \(\ln {(|x|)}\) não está definida em \(x=0\). Se \(x&lt;0\), \begin{align*}  \ddx \ln {(|x|)} &amp;= \ddx \ln {(\class{xm-given}{-x})}\\ &amp;=\frac {-1}{\class{xm-given}{-x}}\\ &amp;=\class{xm-given}{\frac {1}{x}}.  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>O próximo exemplo será útil quando quisermos usar a derivação logarítmica para
+funções que assumem valores negativos.
+</p>
+<div class='theorem-like problem-environment example' id='problem11' titletext=' example'><a id='x1-1009r11'></a>Calcule: \[ \ddx \ln {(|f(x)|)} \] <div class='theorem-like problem-environment explanation' id='problem12' titletext=' explanation'><a id='x1-1010r12'></a>Pelo exemplo anterior e pela regra da cadeia, \begin{align*}  \ddx \ln {(|f(x)|)} &amp;=\class{xm-given}{\frac {1}{f(x)}}\cdot f'(x).\\ &amp;=\frac {f'(x)}{\class{xm-given}{f(x)}}  \end{align*}
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem13' titletext=' example'><a id='x1-1011r13'></a>Calcule: \[ \ddx \left ( 6\sin ^2(x) + 3(x^2+1)^x(\cos (2x) + 3)^5\right ) \]
+<div class='theorem-like problem-environment explanation' id='problem14' titletext=' explanation'><a id='x1-1012r14'></a>Observe que a função aqui é a soma de dois termos. As propriedades dos
+logaritmos listadas acima mostram que logaritmos de produtos podem ser
+simplificados, mas logaritmos de somas não. Em vez de tentar a derivação
+logarítmica, vamos usar a regra da soma para derivadas e derivar cada termo
+                                                                  
+
+                                                                  
+separadamente.
+<p class='noindent'>Chame \(f(x) = 6\sin ^2(x) + 3(x^2+1)^x(\cos (2x) + 3)^5\), e os termos individuais de \(g(x) = 6\sin ^2(x)\) e \(h(x) = 3(x^2+1)^x(\cos (2x) + 3)^5\). Isso significa que \(f(x) = g(x) + h(x)\). A regra da soma diz que \(\ddx f(x) = \ddx g(x) + \ddx h(x)\),
+então derivamos cada termo separadamente.
+</p><p class='noindent'>Para calcular \(g'(x)\), usamos a regra da cadeia: \[ g'(x) = 12\sin (x)\cos (x). \]
+</p><p class='noindent'>Para calcular \(h'(x)\), usamos a derivação logarítmica (como \(h(x)\) é um produto de fatores, cada
+um deles elevado a uma potência, os logaritmos vão ajudar a simplificar isso).
+\begin{align*}  \ln ( h(x) ) &amp;= \ln \left ( 3(x^2+1)^x(\cos (2x) + 3)^5 \right ) \\ &amp;= \ln \left ( 3\right ) + \ln \left ((x^2+1)^x\right ) + \ln \left ( (\cos (2x) + 3)^5 \right ) \\ &amp;= \ln \left ( 3\right ) + x \ln (x^2+1) + 5 \ln (\cos (2x) + 3)  \end{align*}
+</p><p class='noindent'>Então \[ \ddx \ln ( h(x) ) = \ddx \left ( \ln \left ( 3\right ) + x \ln (x^2+1) + 5 \ln (\cos (2x) + 3) \right ) \] que calculamos como: \begin{align*}  \dfrac {h'(x)}{h(x)} &amp;= 0 + \left ( 1\cdot \ln (x^2+1) + x\cdot \dfrac {2x}{x^2+1}\right ) + 5 \cdot \dfrac {-2\sin (2x)}{\cos (2x)+3}\\ &amp;= \ln (x^2+1) + \dfrac {2x^2}{x^2+1} -10 \dfrac {\sin (2x)}{\cos (2x)+3}\\ h'(x) &amp;= h(x)\left (\ln (x^2+1) + \dfrac {2x^2}{x^2+1} -10 \dfrac {\sin (2x)}{\cos (2x)+3}\right )\\ &amp;= \left (3(x^2+1)^x(\cos (2x) + 3)^5\right )\left (\ln (x^2+1) + \dfrac {2x^2}{x^2+1} -10 \dfrac {\sin (2x)}{\cos (2x)+3}\right )  \end{align*}
+</p><p class='noindent'>A derivada da função inteira é \(f'(x) = g'(x) + h'(x)\): \begin{align*}  &amp;12\sin (x)\cos (x) + \\ &amp;\left (3(x^2+1)^x(\cos (2x) + 3)^5\right )\left (\ln (x^2+1) + \dfrac {2x^2}{x^2+1} -10 \dfrac {\sin (2x)}{\cos (2x)+3}\right ).  \end{align*}
+</p>
+</div>
+</div>
+
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Demonstração da regra da potência</h3>
+<p class='noindent'>Por fim, lembre-se de que, anteriormente, só demonstramos a regra da potência para
+expoentes inteiros positivos. Agora vamos usar a derivação logarítmica para dar uma
+demonstração para todos os expoentes reais. Reenunciamos a regra da potência por
+conveniência:
+</p>
+<div class='theorem-like problem-environment theorem' id='problem15' titletext=' theorem'><a id='x1-2001r15'></a><span class='theorem-like-title'>Regra da potência</span> Para qualquer número real \(n\), \[ \ddx x^n = n x^{n-1}. \] <div class='theorem-like problem-environment explanation' id='problem16' titletext=' explanation'><a id='x1-2002r16'></a>
+<p class='noindent'>Vamos usar a derivação logarítmica. Faça \(f(x) = x^n\). Escreva \begin{align*}  \ln (|f(x)|) &amp;= \ln \left (|x|^n\right ) , x\ne 0\\ &amp;= n\ln (|x|).  \end{align*}
+</p><p class='noindent'>Agora derive ambos os lados e isole \(f'(x)\) \begin{align*}  \frac {f'(x)}{f(x)} &amp;= \frac {n}{x}\\ f'(x) &amp;=\frac {n f(x)}{x}\\ &amp;= \class{xm-given}{n x^{n-1}}.  \end{align*}
+</p><p class='noindent'>Sempre que \(x=0\) está no domínio de \(f\), a definição de derivada em \(x=0\) implica que \(f'(0)=0\), se \(n\ne 1\), e \(f'(0)=1\), se
+\(n=1\), de modo que a regra da potência vale também em \(x=0\).
+</p><p class='noindent'>Assim, vemos que a regra da potência vale para todos os expoentes reais (não nulos). </p></div>
+</div>
+<p class='noindent'>Embora a derivação logarítmica possa parecer estranha e nova no começo, com um
+pouco de prática ela vai parecer muito mais natural para você.
+</p>
+<script type="application/json" class="xm-answers">{}</script>

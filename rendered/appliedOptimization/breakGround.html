@@ -1,0 +1,141 @@
+<!-- traduz-render: 424c7f266995e5746719823e87840f0ea8e2ce9ef6519b43e033ad51769a531b -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Dois jovens matemáticos discutem a otimização de latas de alumínio. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Confira este diálogo entre dois estudantes de cálculo (baseado em uma história
+real):
+     </p><dl class='dialogue'><dt class='actor'>
+Devyn </dt><dd class='speech'>Riley, você já reparou nas latas de alumínio?
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Tão recicláveis!
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Eu sei! Mas também reparei que algumas são baixas e largas, e outras
+     são altas e finas, e mesmo assim elas podem ter o mesmo volume!
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Que observador!
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Isso me deixou pensando: se quisermos fazer uma lata com volume \(V\),
+     que formato de lata usa menos alumínio?
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Ah! Isso parece um trabalho para o cálculo! O volume de uma lata cilíndrica
+     é dado por \[ V = \pi \cdot r^2 \cdot h \] onde \(r\) é o raio do cilindro e \(h\) é a altura do cilindro. Além disso, a
+     área da superfície é dada por \begin{align*}  A &amp;= \underbrace {\pi \cdot r^2}_{\text {fundo}} + \underbrace {2\cdot \pi \cdot r\cdot h}_{\text {lateral}} + \underbrace {\pi \cdot r^2}_{\text {tampa}}\\ &amp;= 2\cdot \pi \cdot r^2 + 2\cdot \pi \cdot r\cdot h.  \end{align*}
+     <p class='noindent'>De algum jeito queremos minimizar a área da superfície, porque ela é a
+     quantidade de alumínio usada, mas também queremos manter o volume
+     constante.
+     </p></dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Uau, temos letras demais aqui.
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>É, de algum jeito precisamos de uma única variável. Eita. Letras
+     demais.</dd></dl>
+<div class='problem-environment problem' id='problem1' numbered='' role='article' titletext=' Problem'>  Suponha que queremos construir uma lata de alumínio com volume \(V\) que use a
+menor quantidade possível de alumínio. No contexto acima, o que queremos
+minimizar? <div class='select-all' id='problem2' titletext=' Select All'><a id='x1-2r1'></a> <span class='choice correct ' id='choice1'>\(A\) </span><span class='choice  ' id='choice2'>\(V\) </span><span class='choice  ' id='choice3'>\(h\) </span><span class='choice  ' id='choice4'>\(r\)</span> </div>    </div>
+<div class='problem-environment problem' id='problem3' numbered='' role='article' titletext=' Problem'>  No contexto acima, o que deve ser considerado uma constante? <div class='select-all' id='problem4' titletext=' Select All'><a id='x1-3r2'></a> <span class='choice  ' id='choice5'>\(A\) </span><span class='choice correct ' id='choice6'>\(V\) </span><span class='choice  ' id='choice7'>\(h\) </span><span class='choice  ' id='choice8'>\(r\)</span> </div>
+</div>
+                                                                  
+
+                                                                  
+<p class='noindent'>Como Devyn e Riley perceberam, quando resolvemos esse tipo de problema,
+precisamos reduzir o problema a uma única variável.
+</p>
+<div class='problem-environment problem' id='problem5' numbered='' role='article' titletext=' Problem'>  Considere \(r\) como a variável e expresse \(A\) como função de \(r\). <div class='foldable' data-original='expandable' id='foldable6'>xmhintPrimeiro, vamos
+eliminar a variável \(h\). Sabemos que \(V\) é uma constante e que \[ V = \pi \cdot r^2 \cdot h \] então \(h=V/(\pi r^2)\). Substitua essa
+expressão para \(h\) na equação \[ A = 2\cdot \pi \cdot r^2 + 2\cdot \pi \cdot r \cdot h. \]</div> \[ A(r) = 2\cdot \pi \cdot r^2 + 2 \cdot V/ \class{xm-given}{r} \]     </div>
+<div class='problem-environment problem' id='problem7' numbered='' role='article' titletext=' Problem'>  Agora considere \(h\) como a variável e expresse \(A\) como função de \(h\). <div class='foldable' data-original='expandable' id='foldable8'>xmhintPrimeiro,
+vamos eliminar a variável \(r\). Sabemos que \(V\) é uma constante e que \[ V = \pi \cdot r^2 \cdot h \] então \(r=\sqrt {V/(\pi h)}\). Substitua
+essa expressão para \(h\) na equação \[ A = 2\cdot \pi \cdot r^2 + 2\cdot \pi \cdot r \cdot h. \]</div> \[ A(h) = 2\cdot V/\class{xm-given}{h}+ 2 \cdot \sqrt {V\pi h} \]     </div>
+<p class='noindent'>Observe que reduzimos (de um jeito ou de outro) essa função de duas variáveis a
+uma função de uma variável. Esse processo será um passo fundamental em
+praticamente todos os problemas da próxima seção.
+</p>
+<script type="application/json" class="xm-answers">{}</script>

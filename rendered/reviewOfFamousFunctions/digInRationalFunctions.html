@@ -1,0 +1,141 @@
+<!-- traduz-render: 20c3b92b578f4af5715c45f699cf7e2e0b3619ed0d0ddb8f53db147d0cf6ca7e -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Funções racionais são funções definidas por frações de polinômios. 
+</div>
+<div class='maketitle'></div>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>O que são funções racionais?</h3>
+<p class='noindent'>Na álgebra e no cálculo, os polinômios desempenham o mesmo papel que os inteiros
+desempenham na aritmética. Nós os somamos, subtraímos, multiplicamos e
+fatoramos. Não podemos dividi-los, porém, se só admitirmos resultados inteiros.
+(Como \(4\) não é um fator de \(7\), o quociente \(\dfrac {7}{4}\) não é um inteiro.) Se quisermos ser capazes
+de dividir inteiros, acabamos chegando aos <em>números racionais</em>, que são frações \(\dfrac {p}{q}\) em
+que \(p\) e \(q\) são inteiros e \(q \ne 0\).
+</p><p class='noindent'>A mesma ideia vale para os polinômios. Podemos somá-los, subtraí-los, multiplicá-los
+e fatorá-los. No entanto, para dividi-los precisamos começar a considerar as funções
+racionais.
+</p>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-1001r1'></a>Uma <strong>função racional</strong> na variável \(x\) é uma função <em>que pode ser escrita</em> na forma \[ f(x) = \frac {p(x)}{q(x)} \] em
+que \(p\) e \(q\) são funções polinomiais. O domínio de uma função racional é o conjunto de
+todos os números reais, exceto aqueles em que o denominador é igual a zero.
+</div>
+<p class='noindent'>Se \(p\) é uma função polinomial, então ela pode ser escrita na forma \(\dfrac {p(x)}{1}\), o que mostra que
+toda função polinomial é também uma função racional. Como uma função racional
+só tem zeros onde o polinômio do numerador tem zeros (desde que a fração esteja
+escrita na forma irredutível), funções como \(\sin (x)\), que têm infinitos zeros, não podem ser
+funções racionais.
+</p>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Quais das alternativas a seguir são funções racionais? <div class='select-all' id='problem3' titletext=' Select All'><a id='x1-1002r2'></a> <span class='choice correct ' id='choice1'>\(f(x) = 0\) </span><span class='choice correct ' id='choice2'>\(f(x) = \frac {3x+1}{x^2-4x+5}\) </span><span class='choice  ' id='choice3'>\(f(x)=e^x\) </span><span class='choice  ' id='choice4'>\(f(x)=\frac {\sin (x)}{\cos (x)}\) </span><span class='choice correct ' id='choice5'>\(f(x) = -4x^{-3}+5x^{-1}+7-18x^2\) </span><span class='choice  ' id='choice6'>\(f(x) = x^{1/2}-x +8\) </span><span class='choice  ' id='choice7'>\(f(x)=\frac {\sqrt {x}}{x^3-x}\)</span> </div> <div class='feedback' data-feedback='attempt' id='feedback4' titletext=' Feedback (attempt)'>Todos
+os polinômios podem ser vistos como funções racionais. </div>    </div>
+
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Como podem ser os gráficos?</h3>
+<p class='noindent'>Há uma variedade razoavelmente grande nos gráficos das funções racionais.
+</p>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-2001r3'></a>Aqui vemos os gráficos de quatro funções racionais.
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'><div class='tabular'> <table class='tabular' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /></colgroup><tr id='TBL-1-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-1-1' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInRationalFunctions-d76967793c780cc70f98e270abfc9f25.svg" />  </td><td class='td11' id='TBL-1-1-2' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInRationalFunctions-965bb84f2f24b42f8897e0947824eedc.svg" />  </td>
+</tr><tr id='TBL-1-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-2-1' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInRationalFunctions-99c3670382880da378660a8b895dbf07.svg" />  </td><td class='td11' id='TBL-1-2-2' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInRationalFunctions-0138348422d978ae1ab8baff6d2442fd.svg" />  </td>
+</tr></table>                                                                                      </div>
+</div> Associe as curvas \(A\), \(B\), \(C\) e \(D\) às funções \begin{align*}  &amp;\frac {x^2-3x+2}{x-2}, &amp;&amp;\frac {x^2-3x+2}{x+2}, \\ &amp;\frac {x-2}{x^2-3x+2}, &amp;&amp;\frac {x+2}{x^2-3x+2}.  \end{align*}
+<div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-2002r4'></a>Considere \(\frac {x^2-3x+2}{x-2}\). Essa função não está definida apenas em \(x=2\). Entre as curvas que vemos
+acima, \(\class{xm-given}{D}\) é a que não está definida exatamente em \(x=2\).
+<p class='noindent'>Agora considere \(\frac {x^2-3x+2}{x+2}\). Essa função não está definida apenas em \(x=-2\). A única função acima
+que não está definida exatamente em \(x=-2\) é a curva \(\class{xm-given}{A}\).
+</p><p class='noindent'>Agora considere \(\frac {x-2}{x^2-3x+2}\). Essa função não está definida nas raízes de \[ x^2-3x+2 = (x-2)(x-1). \] Logo, ela não está
+definida em \(x=2\) e em \(x=1\). Parece que tanto a curva \(B\) quanto a curva \(C\) serviriam. Distinguir
+entre essas duas curvas é bem fácil se calcularmos o valor da função em \(x=-2\). Confira.
+\begin{align*}  \eval {\frac {x-2}{x^2-3x+2}}_{x=-2} &amp;= \frac {-2-2}{(-2)^2-3(-2)+2}\\ &amp;= \frac {-4}{4+6+2}\\ &amp;=\frac {-4}{12}.  \end{align*}
+</p><p class='noindent'>Como esse valor é negativo, vemos que \(\frac {x-2}{x^2-3x+2}\) corresponde à curva \(\class{xm-given}{B}\).
+</p><p class='noindent'>Finalmente, só pode ser que a curva \(\class{xm-given}{C}\) corresponda a \(\frac {x+2}{x^2-3x+2}\). Vale observar que, se essa
+função for calculada em \(x=-2\), a saída é zero, e isso confirma o nosso trabalho acima. </p></div>
+</div>
+<script type="application/json" class="xm-answers">{}</script>

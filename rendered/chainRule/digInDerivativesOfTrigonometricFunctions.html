@@ -1,0 +1,155 @@
+<!-- traduz-render: d04a9a901d3962172740c1046d338dad3ca4f76e5dbc18ccbaa8f09b43a40ef5 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Usamos a regra da cadeia para desvendar as derivadas das funções trigonométricas. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Até este ponto do curso, estivemos ignorando uma grande classe de funções: as
+funções trigonométricas além de \(\sin (x)\). Sabemos que \[ \ddx \sin (x) = \cos (x). \]
+</p><p class='noindent'>Munidos desse fato, vamos descobrir as derivadas de todas as funções trigonométricas
+usuais.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>A derivada do cosseno</span> \[\ddx \cos (x) = -\sin (x). \] <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Lembre-se de que
+     <ul class='itemize1'>
+     <li class='itemize'>\(\cos (x) = \sin \left (\frac {\pi }{2}-x\right )\), e
+     </li>
+     <li class='itemize'>\(\sin (x) = \cos \left (\frac {\pi }{2}-x\right )\).</li></ul>
+<p class='noindent'>Agora \begin{align*}  \ddx \cos (x) &amp;= \ddx \sin \left (\frac {\pi }{2}-x\right )\\ &amp;=-\cos \left (\frac {\pi }{2}-x\right ) \\ &amp;= -\sin (x).  \end{align*}
+</p>
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-4r3'></a>Calcule: \[ \eval {\ddx \cos \left ( \frac {x^3}{2} \right )}_{x=\sqrt [3]{\pi }} \] <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-5r4'></a>Agora que conhecemos a derivada do cosseno, podemos combiná-la com a
+regra da cadeia, de modo que \[ \ddx \cos \left ( \frac {x^3}{2} \right ) = \class{xm-given}{\frac {3 x^2}{2}} \left (- \sin \left ( \frac {x^3}{2} \right ) \right ) \] e, portanto,
+<p class='noindent'>\begin{align*}  \eval {\ddx \cos \left ( \frac {x^3}{2} \right )}_{x=\sqrt [3]{\pi }} &amp;= \eval {\left ( \frac {3}{2} x^2 \left (- \sin \left ( \frac {x^3}{2} \right ) \right ) \right )}_{x=\sqrt [3]{\pi }} \\ &amp;= - \frac {3}{2}(\sqrt [3]{\pi })^2 \sin \left ( \frac {\pi }{2} \right ) \\ &amp;= -\frac {3}{2} \pi ^{\frac {2}{3}} \cdot \class{xm-given}{1} \\ &amp;=\class{xm-given}{\frac {-3 \pi ^{\frac {2}{3}}}{2}}.  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>Em seguida, temos:
+</p>
+<div class='theorem-like problem-environment theorem' id='problem5' titletext=' theorem'><a id='x1-6r5'></a><span class='theorem-like-title'>A derivada da tangente</span> \[ \ddx \tan (x) = \sec ^2(x). \]
+<div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-7r6'></a>
+<p class='noindent'>Vamos reescrever \(\tan (x)\) como \(\frac {\sin (x)}{\cos (x)}\) e usar a regra do quociente. Escreva comigo: \begin{align*}  \ddx \tan (x) &amp;= \ddx \frac {\sin (x)}{\cos (x)}\\ &amp;=\frac {\cos ^2(x) + \class{xm-given}{\sin ^2(x)}}{\cos ^2(x)}\\ &amp;=\frac {\class{xm-given}{1}}{\cos ^2(x)}\\ &amp;=\sec ^2(x).  \end{align*}
+</p>
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-8r7'></a>Calcule: \[ \ddx \left ( \frac {5x \tan (x)}{x^2 - 3} \right ) \] <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-9r8'></a>Aplicando a regra do quociente, a regra do produto e a derivada da
+tangente: \begin{align*}  \ddx &amp;\left ( \frac {5x \tan (x)}{x^2 - 3} \right ) \\ &amp;= \frac {(x^2 - 3) \cdot \ddx (\class{xm-given}{5x \tan (x)}) - 5x \tan (x) \cdot \ddx (\class{xm-given}{x^2 - 3})}{(x^2 - 3)^2} \\ &amp;= \frac {(x^2 - 3)(5 \tan (x) + 5x \class{xm-given}{\sec ^2(x)}) - 5x \tan (x) \cdot 2x}{(x^2 - 3)^2} \\ &amp;= \frac {5(x^2-3)(\tan (x)+x \sec ^2(x)) - 10x^2 \tan (x)}{(x^2-3)^2}  \end{align*}
+</div> </div>
+<p class='noindent'>Por fim, temos:
+                                                                  
+
+                                                                  
+</p>
+<div class='theorem-like problem-environment theorem' id='problem9' titletext=' theorem'><a id='x1-10r9'></a><span class='theorem-like-title'>A derivada da secante</span> \[ \ddx \sec (x) = \sec (x)\tan (x). \]
+<div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-11r10'></a>Vamos reescrever \(\sec (x)\) como \((\cos (x))^{-1}\) e usar a regra da potência e a regra da cadeia. Escreva
+\begin{align*}  \ddx \sec (x) &amp;= \ddx (\cos (x))^{-1}\\ &amp;=-1(\cos (x))^{-2}(\class{xm-given}{-\sin (x)}) \\ &amp;= \frac {\sin (x)}{\cos ^2(x)} \\ &amp;= \frac {1}{\cos (x)} \cdot \frac {\sin (x)}{\cos (x)} \\ &amp;= \sec (x)\tan (x).  \end{align*}
+</div> </div>
+<p class='noindent'>As derivadas da cotangente e da cossecante são semelhantes e ficam como exercícios.
+Juntando tudo isso, temos:
+</p>
+<div class='theorem-like problem-environment theorem' id='problem11' titletext=' theorem'><a id='x1-12r11'></a><span class='theorem-like-title'>Derivadas das funções trigonométricas</span>
+     <ul class='itemize1'>
+     <li class='itemize'>\(\ddx \sin (x) = \cos (x)\).
+     </li>
+     <li class='itemize'>\(\ddx \cos (x) = -\sin (x)\).
+     </li>
+     <li class='itemize'>\(\ddx \tan (x) = \sec ^2(x)\).
+     </li>
+     <li class='itemize'>\(\ddx \sec (x) = \sec (x)\tan (x)\).
+     </li>
+     <li class='itemize'>\(\ddx \csc (x) = -\csc (x)\cot (x)\).
+     </li>
+     <li class='itemize'>\(\ddx \cot (x) = -\csc ^2(x)\).</li></ul>
+</div>
+<div class='theorem-like problem-environment example' id='problem12' titletext=' example'><a id='x1-13r12'></a>Calcule: \[ \eval {\ddx ( \csc (x) \cot (x) )}_{x=\frac {\pi }{3}} \] <div class='theorem-like problem-environment explanation' id='problem13' titletext=' explanation'><a id='x1-14r13'></a>Aplicando a regra do produto e os fatos acima, sabemos que \[ \ddx ( \csc (x) \cot (x) ) = - \csc ^3(x) - \cot ^2(x)\class{xm-given}{\csc (x)} \] e, portanto, \[ \eval {\ddx ( \csc (x) \cot (x) )}_{x=\frac {\pi }{3}} \]
+\begin{align*}  &amp;= \eval { - \csc ^3(x) - \cot ^2(x) \class{xm-given}{\csc (x)}}_{x=\frac {\pi }{3}} \\ &amp;= - \frac {8}{3 \sqrt {3}} - \frac {1}{3}\cdot \class{xm-given}{2/\sqrt {3}}  \end{align*}
+</div> </div>
+<div class='theorem-like problem-environment warning' id='problem14' titletext=' warning'><a id='x1-15r14'></a>Ao trabalhar com derivadas de funções trigonométricas, sugerimos que você use
+<strong>radianos</strong> como medida de ângulo. Por exemplo, embora \[ \sin \left ((90^\circ \right )^2) = \sin \left (\left (\frac {\pi }{2}\right )^2\right ), \] é preciso ter cuidado com
+as derivadas, pois \[ \eval {\ddx \sin \left (x^2\right )}_{x=90^\circ } \ne \underbrace {2\cdot 90\cdot \cos (90^2)}_{\text {incorreto}} \] Alternativamente, poderíamos interpretar \(x^\circ \) como significando \(\frac {x\cdot \pi }{180}\), já
+que então \(90^\circ = \frac {90\cdot \pi }{180} = \frac {\pi }{2}\). Nesse caso, \[ 2\cdot 90^\circ \cdot \cos ((90^\circ )^2) = 2\cdot \frac {\pi }{2}\cdot \cos \left (\left (\frac {\pi }{2}\right )^2\right ). \] </div>
+<script type="application/json" class="xm-answers">{}</script>

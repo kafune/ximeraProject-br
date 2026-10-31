@@ -1,0 +1,281 @@
+<!-- traduz-render: 0b18c77d1d119bff5fd1f6d6112398085b8bff1a4d4bb8e565e09f5a49c3cb3d -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Revisamos as funções trigonométricas. 
+</div>
+<div class='maketitle'></div>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>O que são funções trigonométricas?</h3>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-1001r1'></a>Uma <strong>função trigonométrica</strong> é uma função que relaciona a medida de um
+ângulo de um triângulo retângulo a uma razão entre os lados do triângulo.
+</div>
+<p class='noindent'>As funções trigonométricas básicas são o cosseno e o seno. Elas são chamadas
+“trigonométricas” porque relacionam medidas de ângulos a medidas de triângulos.
+Dado um triângulo retângulo </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-aa2751e43762f47ae520c753054834fd.svg" /> </div><p> definimos \[ \cos (\theta ) = \frac {\text {cateto adjacente}}{\text {hipotenusa}}\qquad \text {e}\qquad \sin (\theta ) = \frac {\text {cateto oposto}}{\text {hipotenusa}}. \]
+Observe que os valores de seno e cosseno não dependem da escala do triângulo. Sendo
+bem explícitos, se ampliarmos ou reduzirmos um triângulo por um fator de escala
+\(k\),
+</p><div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-f191bf730e92e2bea8bcd9fdd2ebdbe3.svg" /> </div><p> \[ \cos (\theta ) = \frac {k\cdot \text {adjacent}}{k\cdot \text {hypotenuse}} =\frac {\text {adjacent}}{\text {hypotenuse}} \] e \[ \sin (\theta ) = \frac {k\cdot \text {cateto oposto}}{k\cdot \text {hipotenusa}} = \frac {\text {cateto oposto}}{\text {hipotenusa}}. \]
+</p><p class='noindent'>A esta altura, poderíamos simplesmente supor que, sempre que desenharmos um
+triângulo para calcular seno e cosseno, a hipotenusa será \(1\). Podemos fazer
+isso porque estamos apenas mudando a escala do triângulo e, como vimos
+acima, isso não faz absolutamente nenhuma diferença no cálculo de seno
+e cosseno. Logo, quando a hipotenusa é \(1\), descobrimos que uma maneira
+conveniente de pensar em seno e cosseno é por meio do círculo unitário: </p><div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-57898c38019545ac0cc36de608917ce0.svg" /> </div>
+<p class='noindent'>Se considerarmos todas as combinações possíveis de razões entre </p>
+<div class='center'>
+<p class='noindent'>cateto adjacente,       cateto oposto,       hipotenusa,</p></div>
+<p class='noindent'>(permitindo que o cateto adjacente e o cateto oposto sejam negativos, como no
+círculo unitário), obtemos todas as funções trigonométricas.
+</p>
+<div class='theorem-like problem-environment definition' id='problem2' titletext=' definition'><a id='x1-1002r2'></a> As funções trigonométricas são: \[ \begin{aligned} \cos (\theta ) &amp;= \frac {\text {adj}}{\text {hip}}\\ \sec (\theta ) &amp;= \frac {1}{\cos (\theta )}\\ \tan (\theta ) &amp;= \frac {\sin (\theta )}{\cos (\theta )}\qquad \end{aligned} \qquad \begin{aligned} \sin (\theta ) &amp;= \frac {\text {op}}{\text {hip}}\\ \csc (\theta ) &amp;= \frac {1}{\sin (\theta )}\\ \cot (\theta ) &amp;= \frac {\cos (\theta )}{\sin (\theta )} \end{aligned} \] em que o domínio de seno e cosseno é o
+conjunto de todos os números reais, e as outras funções trigonométricas estão
+definidas precisamente quando seus denominadores são diferentes de zero.
+</div>
+<div class='problem-environment question' id='problem3' numbered='' role='article' titletext=' Question'>  Quais das expressões a seguir são iguais a \(\sec (\theta )\)? <div class='select-all' id='problem4' titletext=' Select All'><a id='x1-1003r3'></a> <span class='choice correct ' id='choice1'>\(\frac {1}{\cos (\theta )}\) </span><span class='choice  ' id='choice2'>\(\frac {1}{\sin (\theta )}\) </span><span class='choice  ' id='choice3'>\(\frac {\text {adj}}{\text {hip}}\) </span><span class='choice correct ' id='choice4'>\(\frac {\text {hip}}{\text {adj}}\) </span><span class='choice  ' id='choice5'>\(\frac {\tan (\theta )}{\sin (\theta )}\) </span><span class='choice  ' id='choice6'>\(\frac {1}{\sin (\theta )\cdot \cot (\theta )}\)</span> </div> <div class='feedback' data-feedback='attempt' id='feedback5' titletext=' Feedback (attempt)'>Observe que \(\frac {\tan (\theta )}{\sin (\theta )}\ne \sec (\theta )\) e que \(\frac {1}{\sin (\theta )\cdot \cot (\theta )}\ne \sec (\theta )\),
+pois elas diferem quando \(\theta =0\). </div>    </div>
+
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Nem todos os ângulos vêm de triângulos.</h3>
+                                                                  
+
+                                                                  
+<p class='noindent'>Dado um triângulo retângulo como </p><div aria-labelledby='image-alt-4' class='image-environment' role='img'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-f45f56e195b1a3cef90c589fa47a6dfd.svg" /> </div><p> o ângulo \(\theta \)
+não pode ser negativo e não pode ultrapassar \(\frac {\pi }{2}\) radianos. Isso significa que, para falar
+das funções trigonométricas de <em>outros</em> ângulos, precisamos ser capazes de
+descrever as funções trigonométricas de um modo um pouco mais geral.
+Para isso, usamos o círculo unitário da seção anterior. Dado um ângulo \(\theta \),
+construímos o ângulo com lado inicial sobre o semieixo \(x\) positivo e vértice na
+origem.
+</p><div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-4399f045b01dd2a97bbc2f256b0a05f9.svg" /> </div><p> À medida que o ângulo \(\theta \)
+cresce cada vez mais, o lado terminal desse ângulo gira em torno do círculo. As
+funções trigonométricas do ângulo \(\theta \) são definidas em termos do lado terminal.
+</p><div class='theorem-like problem-environment definition' id='problem6' titletext=' definition'><a id='x1-2001r4'></a>Suponha que \((x,y)\) seja o ponto em que o lado terminal do ângulo de medida \(\theta \) intersecta o
+círculo unitário. Então as funções trigonométricas são definidas por \[\begin{aligned} \cos (\theta ) &amp;= x\\ \sec (\theta ) &amp;= \frac {1}{x}\\ \tan (\theta ) &amp;= \frac {y}{x}\qquad \end{aligned} \qquad \begin{aligned} \sin (\theta ) &amp;= y\\ \csc (\theta ) &amp;= \frac {1}{y}\\ \cot (\theta ) &amp;= \frac {x}{y} \end{aligned}\] desde que esses
+valores existam. </div><p> Pela figura, você vê que isso concorda com o que você já sabe
+sobre a trigonometria dos triângulos, mas nos permite estender a definição
+de seno e cosseno a todos os números reais, em vez de apenas ao intervalo
+\(\left ( 0, \frac {\pi }{2} \right )\)
+</p>
+<h3 class='sectionHead'><span class='titlemark'>3   </span> <a id='x1-30003'></a>Conexões com funções inversas</h3>
+                                                                  
+
+                                                                  
+<p class='noindent'>As funções trigonométricas aparecem com frequência em problemas, e muitas vezes
+estamos interessados em encontrar medidas específicas de ângulos. Por exemplo,
+você pode querer encontrar algum ângulo \(\theta \) tal que \[ \cos (\theta ) = .7 \] Logo, queremos ser capazes de
+“desfazer” as funções trigonométricas. No entanto, como as funções trigonométricas
+não são injetoras, ou seja, há infinitos ângulos com \(\cos (\theta ) = .7\), é impossível encontrar uma
+verdadeira função inversa para \(\cos (\theta )\). Mesmo assim, é útil ter algo parecido com uma
+inversa dessas funções, por mais imperfeita que seja. A abordagem usual é escolher
+uma coleção de ângulos que produza todos os valores possíveis exatamente
+uma vez. Se “descartarmos” todos os outros ângulos, a função resultante
+tem uma inversa de verdade. Em outras palavras, estamos restringindo o
+domínio da função trigonométrica para poder encontrar uma inversa. A
+função \(\cos (\theta )\) assume todos os valores entre \(-1\) e \(1\) exatamente uma vez no intervalo
+\([0,\pi ]\).
+</p>
+<div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-58004bfd0817e7dfc5e33e9a1508af31.svg" /> </div><p> Se restringirmos o domínio de \(\cos (\theta )\) a esse intervalo, então essa função restrita é injetora
+e, portanto, tem uma inversa.
+</p><div class='problem-environment question' id='problem7' numbered='' role='article' titletext=' Question'>  Qual arco do círculo unitário corresponde ao domínio restrito de \(\cos (\theta )\) descrito acima? <div class='multiple-choice' id='problem8' titletext=' Multiple Choice'><span class='choice 
+' id='choice7'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-805a11cae67ac55301dd683112c49f1a.svg" /></span> <span class='choice correct ' id='choice8'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-0fd18f3990476d4234331793c6ef58ca.svg" /></span> <span class='choice  ' id='choice9'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-a81e13bc91db85756d5adf961daff82a.svg" /></span> <span class='choice  ' id='choice10'>
+<img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-926f0bfb9ad8562ead9ce6e20994f18a.svg" /></span> </div>    </div>
+<p class='noindent'>De modo semelhante, precisamos restringir o domínio do seno para poder tomar uma
+inversa. A função \(\sin (\theta )\) assume todos os valores entre \(-1\) e \(1\) exatamente uma vez no intervalo
+\([-\pi /2,\pi /2]\).
+</p>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-7' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-61da6e8a9d6a201393fc293b21adc67d.svg" /> </div>
+<p class='noindent'>Se restringirmos o domínio de \(\sin (\theta )\) a esse intervalo, então essa função restrita é injetora
+e, assim, tem uma inversa.
+</p>
+<div class='problem-environment question' id='problem9' numbered='' role='article' titletext=' Question'>  Qual arco do círculo unitário corresponde ao domínio restrito de \(\sin (\theta )\) descrito acima? <div class='multiple-choice' id='problem10' titletext=' Multiple Choice'><span class='choice correct
+' id='choice11'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-c2284961b0269f49e34fb96a9137a50c.svg" /></span> <span class='choice  ' id='choice12'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-028081a6523aaf65bfe62caf3495369d.svg" /></span> <span class='choice  ' id='choice13'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-6c7699090ad3f2060313260e9c078da2.svg" /></span> <span class='choice  ' id='choice14'>
+<img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-f3261d1cd121fb8d7a97d98d6f57ce45.svg" /></span> </div>    </div>
+<p class='noindent'>Examinando tanto o seno quanto o cosseno em domínios restritos, podemos agora
+produzir as funções arco seno e arco cosseno:
+</p>
+<div aria-labelledby='image-alt-8' class='image-environment' role='img'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-e73a9029f97e5e7ea0e4c947535bca3a.svg" /> </div> <div aria-labelledby='image-alt-9' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-f3f3539190445cee643e8d4f67793155.svg" /> </div>
+<p class='noindent'>As funções \[ \arccos (x)\qquad \text {e}\qquad \arcsin (x) \] são chamadas “arco” porque fornecem o ângulo que o cosseno ou o seno
+usou para produzir o seu valor. É bastante comum escrever \[ \arccos (x) = \cos ^{-1}(x)\qquad \text {e}\qquad \arcsin (x) = \sin ^{-1}(x). \] No entanto, essa notação
+é enganosa, pois \(\cos ^{-1}(x)\) e \(\sin ^{-1}(x)\) não são verdadeiras funções inversas do cosseno e do seno.
+Lembre-se de que uma função e sua inversa desfazem uma à outra em qualquer
+ordem; por exemplo, \[ \sqrt [3]{x^3}=x\qquad \text {e}\qquad \left (\sqrt [3]{x}\right )^3=x. \] Como o arco seno é a inversa do seno restrito ao intervalo \([-\pi /2,\pi /2]\), isso
+não funciona com o seno e o arco seno; por exemplo, \[ \arcsin (\sin (\pi ))=0. \] embora seja verdade que \[ \sin (\arcsin (x)) = x\qquad \text {e}\qquad \cos (\arccos (x)) = x. \]   </p><div class='problem-environment question' id='problem11' numbered='' role='article' titletext=' Question'>
+Qual das afirmações a seguir é verdadeira? <div class='multiple-choice' id='problem12' titletext=' Multiple Choice'><span class='choice  ' id='choice15'>\(\sin ^{-1}(x)\) é a função inversa de \(\sin (x)\) </span><span class='choice correct ' id='choice16'>\(\sin \left (\sin ^{-1}\left (\frac {1}{2}\right )\right ) = \frac {1}{2}\) </span><span class='choice  ' id='choice17'>\(\sin ^{-1}\left (\sin \left (\frac {5\pi }{2}\right )\right ) = \frac {5\pi }{2}\) </span><span class='choice  ' id='choice18'>\(\sin ^{-1}(x) = \frac {1}{\sin (x)}\)</span> </div>
+</div>
+<div class='theorem-like problem-environment example' id='problem13' titletext=' example'><a id='x1-3001r5'></a>Calcule: \[ \arccos (\cos (5\pi /3)) \] <div class='theorem-like problem-environment explanation' id='problem14' titletext=' explanation'><a id='x1-3002r6'></a>A questão aqui é que \(5\pi /3\) pode não estar na imagem do arco cosseno. Para encontrar
+o número que procuramos, vamos consultar um círculo unitário que decoramos com
+                                                                  
+
+                                                                  
+o domínio do arco cosseno: <div aria-labelledby='image-alt-10' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-caa7b475f05d64a9c57cd08e9cf1ff44.svg" /> </div> Como os pontos \(5\pi /3\) e \(\pi /3\) têm a mesma coordenada \(x\), \(\cos (5\pi /3) = \cos (\pi /3)\). Logo, \[ \arccos (\cos (5\pi /3)) = \pi /3. \] </div> </div>
+<p class='noindent'>Agora que você tem uma noção de como \(\arcsin (x)\) e \(\arccos (x)\) se comportam, vamos examinar a
+tangente.
+</p>
+<div aria-labelledby='image-alt-11' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-9eeda028913fc808f6c4222d46cacc17.svg" /> </div>   <div class='problem-environment question' id='problem15' numbered='' role='article' titletext=' Question'>   Qual arco do círculo unitário corresponde ao domínio restrito de \(\tan (\theta )\) descrito
+acima? <div class='multiple-choice' id='problem16' titletext=' Multiple Choice'><span class='choice correct ' id='choice19'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-66da23b712cc0bb53ea9dbeef51f8f58.svg" /></span> <span class='choice  ' id='choice20'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-b9d31ec66d8199d5d1286b7cf12b11c8.svg" /></span> <span class='choice  ' id='choice21'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-f7928e26d98aa09285dd25d7fd29b8d8.svg" /></span> <span class='choice  ' id='choice22'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-71b57f7cd49d90aacb96d15e45382a3d.svg" /></span> </div>    </div><p> Mais uma vez, trabalhando apenas em um domínio restrito
+da tangente, podemos produzir uma função inversa, o arco tangente. Aqui vemos o
+gráfico de \(\arctan (x)\), a função inversa de \(\tan (\theta )\) quando seu domínio é restrito ao intervalo
+\((-\pi /2,\pi /2)\).
+</p><div aria-labelledby='image-alt-12' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-1d18210a1cc49520b49c453b5f1f048d.svg" /> </div>
+<div class='theorem-like problem-environment example' id='problem17' titletext=' example'><a id='x1-3003r7'></a>Calcule: \[ \arctan (\tan (5\pi /3)) \] <div class='theorem-like problem-environment explanation' id='problem18' titletext=' explanation'><a id='x1-3004r8'></a>A questão aqui é que \(5\pi /3\) pode não estar na imagem do arco
+tangente. Para encontrar o número que procuramos, vamos consultar
+um círculo unitário que decoramos com o domínio do arco tangente: <div aria-labelledby='image-alt-13' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-4be39566ab89a24ee106c9202e4d6945.svg" /> </div> Como os pontos \(5\pi /3\) e \(-\pi /3\) têm
+as mesmas coordenadas \(x\) e \(y\), \[ \arctan (\tan (5\pi /3)) = -\pi /3. \] </div> </div>
+<p class='noindent'>Agora apresentamos alguns fatos sobre as outras funções trigonométricas e
+trigonométricas “inversas”.
+                                                                  
+
+                                                                  
+</p>
+<div class='theorem-like problem-environment definition' id='problem19' titletext=' definition'><a id='x1-3005r9'></a>
+     <ul class='itemize1'>
+     <li class='itemize'>\(\arccos (x) = \theta \) significa que \(\cos (\theta ) = x\) e que \(\theta \) está em \([0, \pi ]\). O domínio de \(\arccos (x)\) é \([-1, 1]\).
+     </li>
+     <li class='itemize'>\(\arcsin (x) = \theta \) significa que \(\sin (\theta ) = x\) e que \(\theta \) está em \(\left [-\dfrac {\pi }{2}, \dfrac {\pi }{2}\right ]\). O domínio de \(\arcsin (x)\) é \([-1, 1]\).
+     </li>
+     <li class='itemize'>\(\arctan (x) = \theta \) significa que \(\tan (\theta ) = x\) e que \(\theta \) está em \(\left (-\dfrac {\pi }{2}, \dfrac {\pi }{2}\right )\). O domínio de \(\arctan (x)\) é \((-\infty , \infty )\).
+     </li>
+     <li class='itemize'>\(\arccot (x) = \theta \) significa que \(\cot (\theta ) = x\) e que \(\theta \) está em \((0, \pi )\). O domínio de \(\arccot (x)\) é \((-\infty , \infty )\).
+     </li>
+     <li class='itemize'>\(\arcsec (x) = \theta \) significa que \(\sec (\theta ) = x\) e que \(\theta \) está no intervalo \([0, \pi ]\), exceto \(\theta \neq \dfrac {\pi }{2}\), o que se escreve em
+     notação de intervalo como \(\left [0, \dfrac {\pi }{2}\right ) \cup \left (\dfrac {\pi }{2}, \pi \right ]\). O domínio de \(\arcsec (x)\) é o conjunto de todos os \(x\) com
+     valor absoluto maior ou igual a \(1\), o que se escreve em notação de intervalo
+     como \((-\infty , -1] \cup [1, \infty )\).
+     </li>
+     <li class='itemize'>\(\arccsc (x) = \theta \) significa que \(\csc (\theta ) = x\) e que \(\theta \) está em \(\left [-\frac {\pi }{2}, 0\right ) \cup \left (0, \frac {\pi }{2}\right ]\). O domínio de \(\arccsc (x)\) é \((-\infty , -1] \cup [1, \infty )\).</li></ul>
+</div>
+
+<h3 class='sectionHead'><span class='titlemark'>4   </span> <a id='x1-40004'></a>O poder do teorema de Pitágoras</h3>
+<p class='noindent'>O teorema de Pitágoras é provavelmente o teorema mais famoso de toda a
+matemática.
+</p>
+                                                                  
+
+                                                                  
+<div class='theorem-like problem-environment theorem' id='problem20' titletext=' theorem'><a id='x1-4001r10'></a><span class='theorem-like-title'>Teorema de Pitágoras</span> Dado um triângulo retângulo: <div aria-labelledby='image-alt-14' class='image-environment' role='img'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-944cc4884af015ecf7d3e967cfb2ae89.svg" /> </div> Temos que: \[ a^2 + b^2 = c^2 \] </div>
+<p class='noindent'>O teorema de Pitágoras fornece várias identidades trigonométricas fundamentais.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem21' titletext=' theorem'><a id='x1-4002r11'></a><span class='theorem-like-title'>Identidades pitagóricas</span> Valem as seguintes identidades: \[ \cos ^2\theta +\sin ^2\theta = 1 \qquad 1 + \tan ^2\theta = \sec ^2\theta \qquad \cot ^2\theta + 1 = \csc ^2\theta \] <div class='theorem-like problem-environment explanation' id='problem22' titletext=' explanation'><a id='x1-4003r12'></a>A partir do círculo unitário,
+podemos ver <div aria-labelledby='image-alt-15' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-52b9ef2d8805034b076fafa0f6f0a4b6.svg" /> </div> pelo teorema
+de Pitágoras que \[ \cos ^2(t) + \sin ^2(t) = 1. \] Se dividirmos essa expressão por \(\class{xm-given}{\cos ^2(t)}\), obtemos \[ 1 + \tan ^2(t) = \sec ^2(t) \] e, se dividirmos \(\cos ^2(t) + \sin ^2(t) = 1\) por \(\class{xm-given}{\sin ^2(t)}\),
+obtemos \[ \cot ^2(t) + 1 = \csc ^2(t). \] </div> </div>
+<p class='noindent'>Podemos simplificar expressões usando o teorema de Pitágoras
+</p>
+<div class='theorem-like problem-environment example' id='problem23' titletext=' example'><a id='x1-4004r13'></a>Suponha que \(\arctan (3/5) = \theta \). Calcule \(\sin (\theta )\). <div class='theorem-like problem-environment explanation' id='problem24' titletext=' explanation'><a id='x1-4005r14'></a>Se \(\arctan (3/5) = \theta \), então \begin{align*}  \tan (\arctan (3/5)) &amp;= \tan (\theta )\\ \class{xm-given}{3/5} &amp;= \tan (\theta ).  \end{align*}
+<p class='noindent'>Agora vamos usar o teorema de Pitágoras para deduzir \(\sin (\theta )\). Se \(\tan (\theta )=3/5\), o triângulo em questão
+deve ser semelhante a este triângulo: </p><div aria-labelledby='image-alt-16' class='image-environment' role='img'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-31a11582cdefec946408e368560ef1b1.svg" /> </div> A
+partir desse triângulo e do nosso trabalho acima, vemos que \[ \sin (\theta ) = \class{xm-given}{3/\sqrt {3^2+5^2}}. \] </div> </div>
+                                                                  
+
+                                                                  
+<p class='noindent'>Também usaremos o teorema de Pitágoras para nos ajudar a simplificar
+expressões abstratas, transformando-as em expressões que podemos calcular com
+facilidade.
+</p>
+<div class='theorem-like problem-environment example' id='problem25' titletext=' example'><a id='x1-4006r15'></a>Simplifique \[ \tan (\arccos (x)) \] <div class='theorem-like problem-environment explanation' id='problem26' titletext=' explanation'><a id='x1-4007r16'></a>Comece escrevendo \[ \theta = \arccos (x) \] Isso significa que \(\tan (\arccos (x)) = \tan (\theta )\). Aplique o cosseno a ambos os
+lados da equação acima: \begin{align*}  \cos (\theta ) &amp;= \cos (\arccos (x))\\ \cos (\theta ) &amp;= \class{xm-given}{x}.  \end{align*}
+<p class='noindent'>Agora vamos usar o teorema de Pitágoras para deduzir \(\tan (\theta )\). Se \(\cos (\theta )=x\), o triângulo em questão
+deve ser semelhante a este triângulo: </p><div aria-labelledby='image-alt-17' class='image-environment' role='img'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInTrigonometricFunctions-ff2d50fb3ad7cafe96ef3e72e5c97162.svg" /> </div> A partir desse triângulo e do nosso trabalho acima, vemos que \[ \tan (\arccos (x)) = \tan (\theta ) = \class{xm-given}{\frac {\sqrt {1-x^2}}{x}}. \] </div> </div>
+<script type="application/json" class="xm-answers">{}</script>

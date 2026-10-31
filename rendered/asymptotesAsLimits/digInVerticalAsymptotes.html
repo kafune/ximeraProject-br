@@ -1,0 +1,212 @@
+<!-- traduz-render: b407a02f677e8b7dc27b1e02753ace744b0efc87999c9105323e7ac614ced8cc -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Exploramos funções que “disparam para o infinito” perto de certos pontos.
+ 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Considere a função \[ f(x) = \frac {1}{(x+1)^2}. \] </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/asymptotesAsLimits/digInVerticalAsymptotes-096e67e1d8ad4f1cb340435be3e82bf4.svg" /> </div><p>
+Embora o \(\lim _{x\to -1} f(x)\) não exista, ainda assim algo pode ser dito.
+</p><div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-2r1'></a><a class='ximera-label' id='def:inflimit'></a> Se \(f(x)\) fica arbitrariamente grande quando \(x\) se aproxima de \(a\), escrevemos \[ \lim _{x\to a} f(x) = \infty \] e dizemos que
+o limite de \(f(x)\) é igual a <strong> infinito</strong> quando \(x\) tende a \(a\).
+<p class='noindent'>Se \(|f(x)|\) fica arbitrariamente grande quando \(x\) se aproxima de \(a\) e \(f(x)\) é negativa perto de \(a\),
+escrevemos \[ \lim _{x\to a} f(x) = -\infty \] e dizemos que o limite de \(f(x)\) é igual a <strong> menos infinito</strong> quando \(x\) tende a \(a\).
+</p></div>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Quais das alternativas a seguir estão corretas? <div class='select-all' id='problem3' titletext=' Select All'><a id='x1-3r2'></a> <span class='choice correct ' id='choice1'>\(\lim _{x\to -1} \frac {1}{(x+1)^2} = \infty \) </span><span class='choice  ' id='choice2'>\(\lim _{x\to -1} \frac {1}{(x+1)^2} \to \infty \) </span><span class='choice  ' id='choice3'>\(f(x) = \frac {1}{(x+1)^2}\), logo \(f(-1) = \infty \) </span><span class='choice correct ' id='choice4'>\(f(x) = \frac {1}{(x+1)^2}\), logo, quando \(x\to -1\), \(f(x) \to \infty \)</span> </div>
+</div>
+                                                                  
+
+                                                                  
+<p class='noindent'>Por outro lado, considere a função \[ f(x) = \frac {1}{(x-1)}. \] </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/asymptotesAsLimits/digInVerticalAsymptotes-0620eb0cdbef692af6adba174f03caa1.svg" /> </div><p> Embora os dois lados do limite quando \(x\) se aproxima de \(1\) não concordem, ainda
+podemos considerar os limites laterais. Vemos que \(\lim _{x\to 1^+} f(x) = \infty \) e \(\lim _{x\to 1^-} f(x) = -\infty \).
+</p><div class='theorem-like problem-environment definition' id='problem4' titletext=' definition'><a id='x1-4r3'></a><a class='ximera-label' id='def:vert asymptote'></a> Se pelo menos uma das condições a seguir vale:
+     <ul class='itemize1'>
+     <li class='itemize'>\(\lim _{x\to a} f(x) = \pm \infty \),
+     </li>
+     <li class='itemize'>\(\lim _{x\to a^+} f(x) = \pm \infty \),
+     </li>
+     <li class='itemize'>\(\lim _{x\to a^-} f(x) = \pm \infty \),</li></ul>
+<p class='noindent'>então a reta \(x=a\) é uma <strong>assíntota vertical</strong> de \(f\). </p></div>
+<div class='theorem-like problem-environment warning' id='problem5' titletext=' warning'><a id='x1-5r4'></a>Uma assíntota vertical é dada pela equação de uma reta vertical. </div>
+<p class='noindent'>Algo a observar nos exemplos a seguir: para encontrar assíntotas verticais, comece
+pelas descontinuidades. Se uma função é contínua em um ponto, o limite existe. Não
+pode haver assíntota vertical em um ponto assim. Para identificar as possíveis
+assíntotas verticais, encontre as descontinuidades e os pontos que não estão no
+domínio, mas dos quais é possível se aproximar por dentro do domínio (como as
+extremidades).
+</p>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-6r5'></a>Determine as assíntotas verticais de \[ f(x) = \frac {x^2-9x+14}{x^2-5x+6}. \]
+<div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-7r6'></a>Como \(f\) é uma função racional, ela é contínua em seu domínio. Então os únicos
+pontos em que a função pode ter uma assíntota vertical são os zeros do
+denominador. (Nesses pontos a função não existe, logo \(f\) não pode ser contínua
+                                                                  
+
+                                                                  
+ali.)
+<p class='noindent'>Comece fatorando o numerador e o denominador: \[ \frac {x^2-9x+14}{x^2-5x+6} = \frac {(x-2)(x-7)}{(x-2)(x-3)} \] Usando limites, precisamos
+investigar o que acontece com \( f(x)\) quando \(x\to 2\) e \(x\to 3\), já que \(2\) e \(3\) são os únicos zeros do
+denominador. Escreva \begin{align*}  \lim _{x\to 2} \frac {\cancel {(x-2)}(x-7)}{\cancel {(x-2)}(x-3)} &amp;= \lim _{x\to 2} \frac {(x-7)}{(x-3)}\\ &amp;= \frac {-5}{-1}\\ &amp;=5.  \end{align*}
+</p><p class='noindent'>Agora escreva \begin{align*}  \lim _{x\to 3} \frac {\cancel {(x-2)}(x-7)}{\cancel {(x-2)}(x-3)} &amp;= \lim _{x\to 3} \frac {(x-7)}{(x-3)}\\ &amp;= \lim _{x\to 3}\frac {-4}{x-3}.  \end{align*}
+</p><p class='noindent'>Considere os limites laterais separadamente.
+</p><p class='noindent'>Quando \(x\to 3^+\), a quantidade \((x-3)\) é positiva (porque \(x&gt;3\)) e se aproxima de \(0\), e o numerador é
+negativo. Esta é uma forma do tipo \(\relax \boldsymbol {\tfrac {\#}{0}}\), que é negativa para todo \(x\) suficientemente
+próximo de \(3\), porém maior que esse valor. Portanto, \(\displaystyle \lim _{x\to 3^+} f(x) = -\infty \). (<strong>Observação:</strong> calcular esse
+limite lateral já basta para justificar que \(x=3\) é uma assíntota vertical da função \(f\). Vamos
+calcular também o outro limite lateral para ver se algo pode ser dito sobre o limite
+bilateral.)
+</p><p class='noindent'>Quando \(x\to 3^-\), a quantidade \((x-3)\) é negativa (porque \(x&lt;3\)) e se aproxima de \(0\), e o numerador é
+negativo. Esta é uma forma do tipo \(\relax \boldsymbol {\tfrac {\#}{0}}\), que é positiva para todo \(x\) suficientemente
+próximo de \(3\), porém menor que esse valor. Portanto, \(\displaystyle \lim _{x\to 3^-} f(x) = \infty \). Como os dois limites laterais
+não concordam, \(\displaystyle \lim _{x\to 3}f(x)\) não existe.
+</p>
+<div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/asymptotesAsLimits/digInVerticalAsymptotes-4dd42c0dc686ea68ad147886f00baed8.svg" /> </div> Logo, temos uma
+assíntota vertical em \(x=3\). Como \(\displaystyle \lim _{x\to 2} f(x) = 5\), mas \(2\) não está no domínio de \(f\), o gráfico de \(f\) terá um
+buraco nesse ponto. Sabemos que não há outras assíntotas verticais porque a função \(f\)
+é contínua em \((-\infty , 2)\), \((2, 3)\) e \((3,\infty )\). </div> </div>
+<p class='noindent'>Observe que, nesse exemplo anterior, havia uma assíntota vertical em \(x=3\), mesmo que o
+número \(3\) não estivesse no domínio da função \(f\). Assíntotas verticais são definidas em
+termos de limites. O ponto importante é que podemos nos <em>aproximar</em> do número \(3\) por
+dentro do domínio de \(f\).
+</p>
+<div class='theorem-like problem-environment example' id='problem8' titletext=' example'><a id='x1-8r7'></a>Determine as assíntotas verticais de \[ g(x) = \frac {x^2\sin (x)}{e^{2x}\left (x^2-4x\right )}. \]
+<div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-9r8'></a>Esta função parece um pouco mais complicada do que a do exemplo anterior, mas o
+                                                                  
+
+                                                                  
+trabalho necessário é muito parecido. Vamos começar fatorando o numerador e o
+denominador. \[ \frac {x^2\sin (x)}{e^{2x}\left (x^2-4x\right )} = \frac {x\cdot x\sin (x)}{e^{2x}x\left (x-4\right )}.\]
+<p class='noindent'>O numerador \(x^2\sin (x)\) e o denominador \(e^{2x}x(x-4)\) são ambos contínuos em \((-\infty , \infty )\). Isso significa que as
+únicas possibilidades a verificar para assíntotas verticais são os números que anulam
+o denominador.
+</p><p class='noindent'>Usando limites, precisamos investigar o que acontece com \(g(x)\) quando \(x\to 0\) e \(x\to 4\), já que \(0\) e
+\(4\) são os únicos zeros do denominador (pois \(e^{2x}\) nunca se anula). Escrevemos
+\begin{align*}  \lim _{x\to 0} \frac {\cancel {x}\cdot x\sin (x)}{\cancel {x}e^{2x}(x-4)} &amp;= \lim _{x\to 0} \frac {x\sin (x)}{e^{2x}(x-4)}\\ &amp;= \frac {0}{1(-4)}\\ &amp;=0.  \end{align*}
+</p><p class='noindent'>Como \(\displaystyle \lim _{x\to 0}g(x)=0\), não há assíntota vertical em \(x=0\).
+</p><p class='noindent'>Voltamos nossa atenção ao limite quando \(x\) se aproxima de \(4\). Comecemos pelo
+limite pela direita. \[ \lim _{x\to 4^+} \frac {\cancel {x}\cdot x\sin (x)}{\cancel {x}e^{2x}(x-4)} = \lim _{x\to 4^+} \frac {x\sin (x)}{e^{2x}(x-4)} \] Este é um limite lateral da forma \(\relax \boldsymbol {\tfrac {\#}{0}}\). Vamos determinar o
+sinal da fração para \(x\) suficientemente próximo de \(4\), porém maior que esse
+valor.
+</p><p class='noindent'>Para o numerador, observe que \(\pi &lt; 4 &lt; \dfrac {3\pi }{2}\). Isso significa que \(\sin (4)\) é o seno de um ângulo do terceiro
+quadrante, o que o torna negativo. Como \(x\) está perto de \(4\), o fator \(x\) do numerador é
+positivo. O numerador é negativo para todo \(x\) suficientemente próximo de \(4\), porém
+maior que esse valor.
+</p><p class='noindent'>Quanto ao denominador, \(e^{2x}\) é sempre positivo. Como \(x&gt;4\), o fator \(x-4\) também é positivo. O
+denominador é positivo para todos os valores relevantes de \(x\).
+</p><p class='noindent'>Isso faz com que a fração \(\dfrac {x\sin (x)}{e^{2x}(x-4)}\) assuma valores negativos para todo \(x\) suficientemente
+próximo de \(4\), porém maior que esse valor. Isso significa que \(\displaystyle \lim _{x\to 4^+} g(x) = -\infty \).
+</p><p class='noindent'>Há uma assíntota vertical em \(x=4\). Não há outras, pois a única outra descontinuidade
+está em \(0\), mas \(\displaystyle \lim _{x\to 0}g(x)=0\).
+</p>
+</div>
+</div>
+<p class='noindent'>Em nosso último exemplo, trabalhamos com uma função cuja assíntota vertical NÃO
+está onde o denominador se anula.
+</p>
+<div class='theorem-like problem-environment example' id='problem10' titletext=' example'><a id='x1-10r9'></a>Determine as assíntotas verticais de \[ f(x) = \dfrac {\ln (x)}{x+5}. \]
+<div class='theorem-like problem-environment explanation' id='problem11' titletext=' explanation'><a id='x1-11r10'></a>O domínio do numerador, \(\ln (x)\), é \((0,\infty )\), e ele é contínuo em todo esse intervalo. O
+denominador, \(x+5\), é contínuo em \((-\infty , \infty )\) e se anula apenas em \(-5\). Assim, o domínio de \(f\) é \((0,\infty )\), e \(f\) é
+contínua nesse intervalo.
+<p class='noindent'>Há apenas um valor de \(x\) em que \(f\) poderia ter uma assíntota vertical: em \(x=0\). Ele não
+está no domínio de \(f\), mas é possível se aproximar dele por dentro do domínio. O
+ponto em que o denominador se anula, \(x=-5\), NÃO é uma possibilidade, porque não é
+possível se aproximar de \(-5\) por dentro de \((0,\infty )\), devido à lacuna na reta numérica entre \(-5\) e
+\(0\).
+</p><p class='noindent'>Como só podemos nos aproximar de \(0\) pela direita (permanecendo no domínio de \(f\)),
+                                                                  
+
+                                                                  
+devemos examinar o limite à direita: \[ \lim _{x\to 0^+} f(x) = \lim _{x\to 0^+} \dfrac {\ln (x)}{x+5}. \]
+</p><p class='noindent'>Para o numerador temos \(\lim _{x\to 0^+} \ln (x) = -\infty \), enquanto para o denominador temos \(\lim _{x\to 0^+} (x+5) = 5\). Isso significa que
+\(\lim _{x\to 0^+} f(x) = -\infty \).
+</p><p class='noindent'>Há uma assíntota vertical em \(x=0\). Não há outras porque \(f\) é contínua em seu domínio
+\((0,\infty )\).
+</p>
+</div> </div>
+<script type="application/json" class="xm-answers">{}</script>

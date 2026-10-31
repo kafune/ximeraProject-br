@@ -1,0 +1,169 @@
+<!-- traduz-render: 9f1bd9113e5d35fd7a5ef64500dd0e79ccfeb8ffccdc2f187383b3cdfc22726f -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Deduzimos as derivadas das funções trigonométricas inversas usando derivação
+implícita. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Agora vamos deduzir as derivadas do arco seno, do arco tangente e do arco
+secante.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>A derivada do arco seno</span> \[ \ddx \arcsin (x) = \frac {1}{\sqrt {1-x^2}}. \] <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Lembre-se de que \[ \arcsin (x) = \theta \] significa que \(\sin (\theta ) = x\) e \(\class{xm-given}{\frac {-\pi }{2}}\le \theta \le \class{xm-given}{\frac {\pi }{2}}\). Derivando
+implicitamente em relação a \(x\), vemos que \begin{align*}  \sin (\theta ) &amp;= x\\ \ddx \sin (\theta ) &amp;= \ddx x &amp;\text {Derive ambos os lados.}\\ \cos (\theta ) \cdot \theta ' &amp;= 1 &amp;\text {Derivação implícita.}\\ \theta ' &amp;= \frac {1}{\cos (\theta )} &amp;\text {Isole $\theta '$.}  \end{align*}
+<p class='noindent'>Embora \(\theta ' = \frac {1}{\cos (\theta )}\), precisamos da nossa resposta escrita em termos de \(x\). Como estamos
+supondo que \[ \sin (\theta ) = x, \] considere o seguinte triângulo junto com o círculo unitário: </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions-218fc997331063b12a124fb0b4bffe03.svg" /> </div> A partir do círculo
+unitário acima, vemos que \begin{align*}  \theta ' &amp;= \frac {1}{\cos (\theta )}\\ &amp;=\frac {\mathrm {hip}}{\mathrm {adj}}\\ &amp;= \class{xm-given}{\frac {1}{\sqrt {1-x^2}}}.  \end{align*}
+<p class='noindent'>Lembre-se de que \(\cos {x}\ge 0\) no intervalo \(\Bigl (-\frac {\pi }{2},\frac {\pi }{2}\Bigr )\).<br class='newline' />
+</p><p class='noindent'>Para sermos totalmente explícitos, \[ \ddx \theta = \ddx \arcsin (x) = \class{xm-given}{\frac {1}{\sqrt {1-x^2}}}. \]
+</p>
+</div> </div>
+<div class='problem-environment question' id='problem3' numbered='' role='article' titletext=' Question'>  Calcule: \[ \ddx \sin ^{-1}(x) \begin{prompt} = \class{xm-given}{1/\sqrt {1-x^2}} \end{prompt} \]    </div>
+<p class='noindent'>Podemos fazer algo parecido com o arco tangente.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem4' titletext=' theorem'><a id='x1-4r3'></a><span class='theorem-like-title'>A derivada do arco tangente</span> \[ \ddx \arctan (x) = \frac {1}{1+x^2}. \] <div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-5r4'></a>Para começar, observe que o Teorema da Função
+Inversa nos garante que essa derivada de fato existe. Lembre-se de que \[ \arctan (x) = \theta \] significa que \(\tan (\theta ) = x\)
+                                                                  
+
+                                                                  
+e \(\class{xm-given}{\frac {-\pi }{2}}&lt; \theta &lt; \class{xm-given}{\frac {\pi }{2}}\).
+<p class='noindent'>Derivando implicitamente em relação a \(x\), obtemos que \begin{align*}  \tan (\theta ) &amp;= x\\ \ddx \tan (\theta ) &amp;= \ddx x &amp;\text {Derive ambos os lados.}\\ \sec ^2(\theta ) \cdot \theta ' &amp;= 1 &amp;\text {Derivação implícita.}\\ \theta ' &amp;= \frac {1}{\sec ^2(\theta )}  \end{align*}
+</p><p class='noindent'>Lembre-se da identidade trigonométrica: \(\sec ^2(\theta )=1+\tan ^2(\theta )\).<br class='newline' />\begin{align*}  \theta ' &amp;= \frac {1}{1+\tan ^2(\theta )}  \end{align*}
+</p><p class='noindent'>Lembre-se de que, como vimos acima, \(\tan (\theta ) = x\).<br class='newline' />\begin{align*}  \theta ' &amp;= \frac {1}{1+x^2}  \end{align*}
+</p><p class='noindent'>Para sermos totalmente explícitos, \[ \ddx \theta = \ddx \arctan (x) = \class{xm-given}{\frac {1}{1+x^2}}. \] </p></div> </div>
+<div class='problem-environment question' id='problem6' numbered='' role='article' titletext=' Question'>  Calcule: \[ \ddx \tan ^{-1}(\sqrt {x}) \begin{prompt} = \class{xm-given}{1/(2\sqrt {x}(1+x))} \end{prompt} \]    </div>
+<p class='noindent'>Por fim, investigamos a derivada do arco secante.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem7' titletext=' theorem'><a id='x1-6r5'></a><span class='theorem-like-title'>A derivada do arco secante</span> \[ \ddx \arcsec (x) = \frac {1}{|x|\sqrt {x^2-1}}\qquad \text {for $|x|&gt;1$.} \] <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-7r6'></a>Lembre-se de que \[ \arcsec (x) = \theta \] significa que \(\sec (\theta ) = x\) e \(\class{xm-given}{0}\le \theta \le \class{xm-given}{\pi }\) com \(\theta \ne \class{xm-given}{\pi /2}\). Derivando
+implicitamente em relação a \(x\), vemos que \begin{align*}  \sec (\theta ) &amp;= x\\ \ddx \sec (\theta ) &amp;= \ddx x &amp;\text {Derive ambos os lados.}\\ \sec (\theta )\tan (\theta ) \cdot \theta ' &amp;= 1 &amp;\text {Derivação implícita.}\\ \theta ' &amp;= \frac {1}{\sec (\theta )\tan (\theta )} &amp;\text {Isole $\theta '$.}\\ \theta ' &amp;= \frac {\cos ^2(\theta )}{\sin (\theta )}.  \end{align*}
+<p class='noindent'>Embora \(\theta ' = \frac {\cos ^2(\theta )}{\sin (\theta )}\), precisamos da nossa resposta escrita em termos de \(x\). Como estamos supondo que \[ \sec (\theta ) = \frac {1}{\cos (\theta )}= x, \]
+podemos considerar o seguinte triângulo: </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'>  <img alt='[Picture]' src="/rendered/derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions-e9029b0cc804f660ea971b04efc08a7b.svg" /> </div>
+Agora podemos redimensionar esse triângulo por um fator de \(\frac {1}{x}\) para colocá-lo no
+círculo unitário: <div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/derivativesOfInverseFunctions/digInDerivativesOfInverseTrigonometricFunctions-da14663c619058d782c97d8e711478e4.svg" /> </div> A
+partir do círculo unitário acima, vemos que \begin{align*}  \theta ' &amp;= \frac {\cos ^2(\theta )}{\sin (\theta )}\\ &amp;= \frac { \left (\frac {\mathrm {adj}}{\mathrm {hip}}\right )^2}{\frac {\mathrm {op}}{\mathrm {hip}}}\\ &amp;= \frac {\left (\mathrm {adj}\right )^2}{\mathrm {op}} &amp;\text {Observe que $\mathrm {hip}=1$.}\\ &amp;= \frac {\class{xm-given}{1/x^2}}{\sqrt {1-1/x^2}}\\ &amp;= \frac {1}{|x|\sqrt {x^2-1}},  \end{align*}
+                                                                  
+
+                                                                  
+<p class='noindent'>Para sermos totalmente explícitos, \[ \ddx \theta = \ddx \arcsec (x) = \frac {1}{|x|\sqrt {x^2-1}}\qquad \text {para $|x|&gt;1$}. \] </p></div> </div>
+<div class='problem-environment question' id='problem9' numbered='' role='article' titletext=' Question'>  Calcule: \[ \ddx \sec ^{-1}(3x) \begin{prompt} = \class{xm-given}{\frac {1}{|x|\sqrt {(3x)^2-1}}} \end{prompt} \]    </div>
+<p class='noindent'>Deixamos para você, leitor, a tarefa de investigar as derivadas do arco cosseno, do
+arco cossecante e do arco cotangente. No entanto, em um gesto de amizade,
+apresentamos agora uma lista de fórmulas de derivadas das funções trigonométricas
+inversas.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem10' titletext=' theorem'><a id='x1-8r7'></a><span class='theorem-like-title'>Derivadas das funções trigonométricas inversas</span>
+     <ul class='itemize1'>
+     <li class='itemize'>\(\dd {x} \arcsin (x) = \frac {1}{\sqrt {1-x^2}}\)
+     </li>
+     <li class='itemize'>\(\dd {x} \arccos (x) = \frac {-1}{\sqrt {1-x^2}}\)
+     </li>
+     <li class='itemize'>\(\dd {x} \arctan (x) = \frac {1}{1+x^2}\)
+     </li>
+     <li class='itemize'>\(\dd {x} \arcsec (x) = \frac {1}{|x|\sqrt {x^2-1}}\) para \(|x|&gt;1\)
+     </li>
+     <li class='itemize'>\(\dd {x} \arccsc (x) = \frac {-1}{|x|\sqrt {x^2-1}}\) para \(|x|&gt;1\)
+     </li>
+     <li class='itemize'>\(\dd {x} \arccot (x) = \frac {-1}{1+x^2}\)</li></ul>
+</div>
+<p class='noindent'>Vamos praticar um pouco o uso dessas novas fórmulas-atalho. </p><div class='theorem-like problem-environment example' id='problem11' titletext=' example'><a id='x1-9r8'></a>Calcule: \[ \ddx \arccos ( x^5 ) \]
+<div class='theorem-like problem-environment explanation' id='problem12' titletext=' explanation'><a id='x1-10r9'></a>\[ \dfrac {-1}{\sqrt {1-(x^5)^2}} \cdot 5x^4\] </div>
+</div>
+<div class='theorem-like problem-environment example' id='problem13' titletext=' example'><a id='x1-11r10'></a>Calcule: \[ \ddx x^3 \arctan (\sqrt {x}) \]
+<div class='theorem-like problem-environment explanation' id='problem14' titletext=' explanation'><a id='x1-12r11'></a>\[ 3x^2 \cdot \arctan (\sqrt {x}) + x^3 \cdot \dfrac {1}{1 + (\sqrt {x})^2} \cdot \class{xm-given}{\frac {1}{2\sqrt {x}}}. \] </div> </div>
+<div class='theorem-like problem-environment example' id='problem15' titletext=' example'><a id='x1-13r12'></a>Calcule: \[ \ddx \dfrac {e^x}{\arcsin ( x )} \]
+<div class='theorem-like problem-environment explanation' id='problem16' titletext=' explanation'><a id='x1-14r13'></a>\[ \dfrac {e^x \arcsin (x) - e^x \dfrac {1}{\sqrt {1-x^2}}}{\left ( \arcsin (x)\right )^2}\] </div>
+                                                                  
+
+                                                                  
+</div>
+<div class='theorem-like problem-environment example' id='problem17' titletext=' example'><a id='x1-15r14'></a>Calcule: \[ \ddx \arcsec (x \ln (x^2+5) ) \]
+<div class='theorem-like problem-environment explanation' id='problem18' titletext=' explanation'><a id='x1-16r15'></a>\[ \dfrac {1}{|x\ln (x^2+5)|\sqrt {\left (x \ln (x^2+5)\right )^2-1}}\cdot \left ( \ln (x^2+5) + x \dfrac {2x}{x^2+5}\right ) \] </div>
+</div>
+<script type="application/json" class="xm-answers">{}</script>

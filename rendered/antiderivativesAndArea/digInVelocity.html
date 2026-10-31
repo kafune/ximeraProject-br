@@ -1,0 +1,183 @@
+<!-- traduz-render: ba7524ab01c2ca39fbdc2b6dbef9aa38cfb60eea36d9b991987783d63db3cb7a -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+ 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Um tema central deste curso tem sido que, muitas vezes, podemos compreender
+melhor uma função olhando para sua derivada e, em seguida, trabalhando no sentido
+inverso. Essa tem sido nossa abordagem para problemas de máximos e mínimos,
+esboço de curvas, aproximação linear e assim por diante. Então, na verdade, as
+antiderivadas têm sido importantes para nós desde o início.
+</p><p class='noindent'>Temos uma interpretação gráfica da derivada como a inclinação de uma reta
+tangente em um ponto. Ainda não encontramos uma interpretação gráfica da
+antiderivada.
+</p>
+<div class='problem-environment question' id='problem1' numbered='' role='article' titletext=' Question'>  Seja \(f\) a função constante \(4\). Seja \(F\) uma antiderivada qualquer de \(f\). Então \(F(5)-F(2) = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\). <div class='foldable' data-original='expandable' id='foldable2'>xmhintIsso
+é apenas uma maneira sofisticada de dizer que \(f\) é uma reta de inclinação \(4\), e estamos
+procurando a variação vertical correspondente a uma variação horizontal de \(5-2= 3\)</div><div class='foldable' data-original='expandable' id='foldable3'>xmhint\(F(5) - F(2) = 4(5-2) = 12\)</div>
+</div>
+<div class='problem-environment question' id='problem4' numbered='' role='article' titletext=' Question'>  A área da região delimitada pelo gráfico de \(f\), pelo eixo horizontal e pelas retas
+verticais \(x=2\) e \(x=5\) é \(\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}\).
+<div class='foldable' data-original='expandable' id='foldable5'>xmhint<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/antiderivativesAndArea/digInVelocity-f4d81fafc0cfdb93a34f38ce38d6f91a.svg" />
+</div></div><div class='foldable' data-original='expandable' id='foldable6'>xmhintTrata-se de um retângulo de altura \(4\) e largura \(3\), logo a área é \(12\)</div>   </div>
+<p class='noindent'>O fato de essas duas respostas serem iguais é o germe de uma das ideias mais
+“fundamentais” de todo o cálculo. Contudo, antes de darmos o próximo passo,
+convém olharmos primeiro para trás, para a época em que éramos matemáticos
+ainda mais jovens.
+</p><p class='noindent'>Há dois modelos básicos de multiplicação: uma perspectiva de “taxa vezes tempo” e
+uma perspectiva de “área”. Por exemplo, poderíamos interpretar \[ 3\times 4 \] como resposta à
+pergunta: </p>
+<div class='center'>
+<p class='noindent'>“Se estou andando a \(3 \textrm {mph}\) durante \(4\) horas, que distância percorri?”</p></div>
+<p class='noindent'>ou como resposta à pergunta </p>
+<div class='center'>
+<p class='noindent'>“Qual é a área de um retângulo de comprimento \(3\) e largura \(4\)?”</p></div>
+
+<p class='noindent'>É essa dupla interpretação que nos permitirá começar a entender um significado
+geométrico da antiderivada.
+</p><p class='noindent'>Seja \(v(t)\) a velocidade de um objeto no instante \(t\). </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/antiderivativesAndArea/digInVelocity-1d4d47b42dd0334604fa06af4fea0b09.svg" /> </div><p> e seja \(F\) uma
+antiderivada de \(f\). Suponha que queremos aproximar \(F(3) - F(1)\). Vamos obter uma aproximação
+usando \(4\) subintervalos.
+</p><p class='noindent'>\begin{align*} F(3) - F(1) &amp;= (F(3) - F(2.5))+(F(2.5) - F(2))+(F(2) - F(1.5))+(F(1.5) - F(1))\\ &amp;\approx F'(3)\frac {1}{2}+F'(2.5)\frac {1}{2}+F'(2)\frac {1}{2}+F'(1.5)\frac {1}{2}\\ &amp;=f(3)\frac {1}{2}+f(2.5)\frac {1}{2}+f(2)\frac {1}{2}+f(1.5)\frac {1}{2}  \end{align*}
+</p><p class='noindent'>Podemos visualizar isso como a soma das áreas de \(4\) retângulos. Observe que,
+enquanto os primeiros \(3\) termos são positivos, o último é negativo porque \(f(3)&lt;0\). Devemos
+pensar nesses retângulos como tendo <strong>área com sinal</strong>, em que a área é negativa
+quando fica abaixo do eixo \(x\).
+</p>
+<div aria-labelledby='image-alt-3' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/antiderivativesAndArea/digInVelocity-6bc85275ab1955d8c8bb82b70f592e17.svg" /> </div>
+<p class='noindent'>Ao aproximar \(f\) por uma função constante por partes, estamos aproximando \(F\) por uma
+função linear por partes:
+</p>
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/antiderivativesAndArea/digInVelocity-060fda4cc00d685a5e5f56978e8d72c6.svg" /> </div>
+<p class='noindent'>Por um lado, podemos interpretar cada \(F'(x)\Delta x\) como uma aproximação da variação da
+altura de \(F\) no subintervalo. Por outro lado, como \(F' =f\), podemos pensar em \(F'(x)\Delta x = f(x)\Delta x\) como a área
+de um retângulo com base no subintervalo e altura \(f(x)\). Assim, a variação total de \(F\) em \([1,3]\)
+pode ser reinterpretada como a soma das áreas com sinal dos retângulos sob
+\(f\).
+</p><p class='noindent'>Se tornarmos nossos subintervalos menores, a aproximação linear repetida deve ficar
+mais precisa, e a soma das áreas dos retângulos se aproxima cada vez mais da área
+sob a curva:
+</p>
+<div aria-labelledby='image-alt-5' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/antiderivativesAndArea/digInVelocity-16a9ee997ac9e039ba14ea943b87d164.svg" /> </div>
+<p class='noindent'>Então é razoável pensar que \(F(3) - F(1)\) deve ser exatamente igual à <strong>área com sinal</strong> sob o
+gráfico de \(f\).
+</p>
+<div class='theorem-like problem-environment definition' id='problem7' titletext=' definition'><a id='x1-2r1'></a>Para encontrar a <strong>área com sinal</strong> de \(f\) de \(x=a\) a \(x=b\), some as áreas (positivas) de todas as
+regiões que ficam acima do eixo \(x\) e subtraia as áreas de todas as regiões que ficam
+abaixo do eixo \(x\). </div>
+<div class='theorem-like problem-environment observation' id='problem8' titletext=' observation'><a id='x1-3r2'></a>Nossas investigações acima nos levam a suspeitar que, se \(F' = f\), então \(F(b) - F(a)\) deve ser igual à
+área com sinal sob \(f\) de \(a\) a \(b\). </div>
+<div class='problem-environment question' id='problem9' numbered='' role='article' titletext=' Question'>  Suponha que uma partícula esteja acelerando a uma taxa constante de \(3 \frac {m}{s^2}\), parta com
+velocidade \(-3 \frac {m}{s}\) e se desloque durante \(5\) segundos. Desenhe o gráfico da velocidade em
+função do tempo e use as ideias desta seção para calcular o deslocamento da
+partícula ao longo de seu percurso.
+<div class='foldable' data-original='expandable' id='foldable10'>xmhintO gráfico da velocidade em função do tempo é assim:
+                                                                  
+
+                                                                  
+<div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/antiderivativesAndArea/digInVelocity-d0dede2c2a44f37bf1a4fae0874e903f.svg" /> </div>
+</div>
+<div class='foldable' data-original='expandable' id='foldable11'>xmhintComo a velocidade é a derivada da posição em relação ao tempo, pela nossa
+discussão acima a variação da posição deve ser a área com sinal sob a curva da
+velocidade. Você pode calculá-la como a diferença entre as áreas de dois
+triângulos.</div>
+<div class='foldable' data-original='expandable' id='foldable12'>xmhintO triângulo azul tem área \(\frac {1}{2}(5-1)(12) = 24\), e o triângulo vermelho tem área \(\frac {1}{2}(1)(3) = \frac {3}{2}\). Assim, a área
+líquida é \(24-\frac {3}{2} = \frac {45}{2}\). Esse é o deslocamento da partícula!</div>
+<p class='noindent'>O deslocamento da partícula é de \(\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}}\) metros no sentido positivo.
+</p>
+<div class='feedback' data-feedback='attempt' id='feedback13' titletext=' Feedback (attempt)'>Você também poderia ter resolvido este problema encontrando uma antiderivada.
+Experimente esse método e veja como ele se compara. Essa geometria ajuda a
+esclarecer sua compreensão da aceleração constante? </div>    </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"12","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"12","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"\\frac {45}{2}","format":"expression","given":false,"antiderivative":false}}</script>

@@ -1,0 +1,272 @@
+<!-- traduz-render: fd6d495186ad26c20d3d5ac81f1c70a68829c92f82e17dd72ac13967e3579d84 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Calculamos a taxa de crescimento instantânea calculando o limite de taxas de
+crescimento médias. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Dada uma função, muitas vezes é útil conhecer a taxa com que a função varia.
+Para você ter uma ideia de por que isso é verdade, considere o seguinte:
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'>Se \(s(t)\) representa a <strong>posição</strong> de um objeto sobre uma reta (em relação ao
+     tempo), a taxa de variação fornece a <strong>velocidade</strong> do objeto.
+     </li>
+     <li class='itemize'>Se \(v(t)\) representa a <strong>velocidade</strong> de um objeto em relação ao tempo, a taxa
+     de variação fornece a <strong>aceleração</strong> do objeto.
+     </li>
+     <li class='itemize'>Se \(R(x)\) representa a receita gerada pela venda de \(x\) objetos, a taxa de variação
+     nos fornece a <strong>receita marginal</strong>, isto é, a receita adicional gerada pela
+     venda de uma unidade a mais. Observe que há uma suposição implícita
+     de que \(x\) é bem grande em comparação com \(1\).
+     </li>
+     <li class='itemize'>Se \(C(x)\) representa o custo de produzir \(x\) objetos, a taxa de variação nos fornece
+     o <strong>custo marginal</strong>, isto é, o custo adicional gerado pela venda de uma
+     unidade a mais. De novo, há uma suposição implícita de que \(x\) é bem
+     grande em comparação com \(1\).
+     </li>
+     <li class='itemize'>A taxa de variação de uma função pode nos ajudar a aproximar uma
+     função complicada por uma função simples.
+     </li>
+     <li class='itemize'>A taxa de variação de uma função pode ser usada para nos ajudar a
+     resolver equações que não conseguiríamos resolver por outros métodos.</li></ul>
+                                                                  
+
+                                                                  
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Das inclinações de retas secantes às inclinações de retas tangentes</h3>
+<p class='noindent'>Já faz um tempo que estamos calculando taxas de variação médias,
+</p><p class='noindent'>\[ {\text {average rate of change= }} \frac {\text {change in the function (output)}}{\text {change in the variable (input) }}. \]
+</p><p class='noindent'>Mais precisamente, a taxa de variação média de uma função \(f\) é dada por \[{\text {taxa de variação média de $f$ }} =\frac {f(x)-f(a)}{x-a},\] quando a
+entrada varia de \(a\) até \(x\).
+</p>
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-789829b73a21a90288866bb4e36ff4f1.svg" /></div>
+<p class='noindent'>O que acontece se calcularmos essa taxa de variação média de \(f\) para cada valor de \(x\) à
+medida que \(x\) se aproxima cada vez mais de \(a\)? Em outras palavras, qual é o significado
+do limite \[ \lim _{x\to a} \frac {f(x)-f(a)}{x-a},\] desde que o limite exista?
+</p><p class='noindent'>Naturalmente, chamamos esse limite de <strong>taxa de variação instantânea</strong> da função \(f\)
+em \(a\). </p><div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-1001r1'></a>(Neste exemplo, usaremos a abreviação AvRCh para a taxa de variação média e
+InRCh para a taxa de variação instantânea.)
+<p class='noindent'>Seja \(f(x)=2x^2+3\).
+     </p><ol class='enumerate1'>
+<li class='enumerate' id='x1-1003x1'>Determine a expressão da taxa de variação média de \(f\) entre os pontos \(a=2\) e \(x=-1\).
+     \[ AvRCh=\frac {f(-1)-f(2)}{-1-\left (\class{xm-given}{2}\right )}\] Agora calcule a função, \[ AvRCh=\frac {2(-1)^2+3-(2(2)^2+3)}{-1-\left (\class{xm-given}{2}\right )}.\] Simplifique, \[ AvRCh=\frac {5-11}{-3}=2. \]
+     </li>
+<li class='enumerate' id='x1-1005x2'>Determine a taxa de variação média de \(f\) entre os pontos \(a=2\) e \(x\), \(x\ne 2\). \[ AvRCh=\frac {f(x)-f(2)}{x-\class{xm-given}{2}} \] Agora
+     substitua a expressão da função, \[ AvRCh=\frac {2x^2+3-11}{x-\class{xm-given}{2}} \] Simplifique o numerador, \[ AvRCh=\frac {2x^2-8}{x-\class{xm-given}{2}}. \] Fatore, \[ AvRCh=\frac {2(x^2-4)}{x-2} \] Fatore
+     e cancele, \[ AvRCh=\frac {2(x+2)\cancel {(x-2)}}{\cancel {x-2}}=2(x+2). \]
+                                                                  
+
+                                                                  
+     </li>
+<li class='enumerate' id='x1-1007x3'>
+     <p class='noindent'>Determine a taxa de variação instantânea de \(f\) no ponto \(x=2\). \[ InRCh= \lim _{x\to 2} \frac {f(x)-f(2)}{x-2} \] Assim, a taxa
+     de variação instantânea é o limite, quando \(x\to 2\), das taxas de variação médias
+     de \(f\) entre os pontos \(a=2\) e \(x\), para \(x\ne 2\).
+     </p><p class='noindent'>Já calculamos uma expressão para a taxa de variação média para todo \(x\ne 2\).
+     Portanto, \[ InRCh=\lim _{x\to 2}2(x+2)=8.\]
+</p>
+     </li></ol>
+</div>
+<p class='noindent'>Esse mesmo limite \[ \lim _{x\to a} \frac {f(x)-f(a)}{x-a},\] também surge em um contexto completamente diferente.
+</p><p class='noindent'>Dê uma olhada na figura abaixo. A figura mostra o gráfico da função \(f\), dois pontos
+do gráfico, \((a,f(a))\) e \((x,f(x))\), e uma <strong>reta secante</strong> que passa por esses dois pontos.
+</p>
+<div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-f45db25e5768f2c56b0fb5260c81053c.svg" /></div>
+<p class='noindent'>A inclinação dessa reta secante é igual a \(\frac {f(x)-f(a)}{x-a}\)! Essa é exatamente a expressão da taxa de
+variação média de \(f\) quando a entrada varia de \(a\) até \(x\)!
+</p><p class='noindent'>Portanto, o cálculo para encontrar a inclinação da reta secante <strong>é exatamente o
+mesmo cálculo</strong> que o usado para calcular a taxa de variação média de uma
+função.
+</p><p class='noindent'>Como antes, podemos nos perguntar: o que acontece à medida que \(x\) se aproxima cada
+vez mais de \(a\)? Em outras palavras, qual é o significado do limite das inclinações das
+retas secantes que passam pelos pontos \((a,f(a))\) e \((x,f(x))\) à medida que \(x\) se aproxima cada vez mais
+de \(a\)?
+</p><p class='noindent'>Como podemos interpretar o limite \[ \lim _{x\to a} \frac {f(x)-f(a)}{x-a}, \] desde que o limite exista?
+                                                                  
+
+                                                                  
+</p><p class='noindent'>Esse cenário está ilustrado na figura abaixo. O que acontece quando \(x\to a\)? </p><div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-9ebf83e463302c22e897cb1cae99496d.svg" /></div>
+<p class='noindent'>Observe que todas as retas secantes da figura passam pelo ponto dado \((a,f(a))\). O que
+distingue essas retas são suas inclinações; a inclinação de cada reta é determinada
+por um ponto adicional sobre a reta, \((x,f(x))\). A figura sugere que “o limite das inclinações
+das retas secantes” é a inclinação de uma reta especial, chamada <strong>reta tangente</strong> à
+curva \(y=f(x)\) no ponto \((a,f(a))\). Observe como a reta tangente e a curva são indistinguíveis perto
+do ponto \((a,f(a))\). Se for possível “ampliar” o gráfico em \((a, f(a))\) o suficiente para que ele pareça
+uma linha reta, então essa reta é a <strong>reta tangente</strong> a \(f(x)\) no ponto \((a,f(a))\). Isso está ilustrado
+na figura abaixo.
+</p>
+<div aria-labelledby='image-alt-4' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-58f9b6e7bbe5a4e59078848b9449d345.svg" /></div>
+<p class='noindent'>Para ver isso de outra maneira, na figura interativa a seguir, veja o que
+acontece com a reta contínua (verde) quando você usa o controle deslizante
+para arrastar o ponto que começa em \((1.75, 4)\) cada vez mais perto de \((1,1)\) ao longo
+do gráfico. Como ela se compara com a reta tangente pontilhada (preta)?
+</p>
+                                                                  
+
+                                                                  
+<div class='center'>
+<p class='noindent'><iframe height='600px' src='https://www.desmos.com/calculator/exosk7irty' style='border: 1px solid #ccc' width='100%'>This browser does not support embedded elements.</iframe></p></div>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Cada uma das quatro figuras a seguir mostra o gráfico
+da mesma função \(f\) e uma reta que passa pelo ponto \((1,f(1))\).
+<div aria-labelledby='image-alt-5' class='image-environment' role='img'><div class='tabular'> <table class='tabular' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /></colgroup><tr id='TBL-1-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-1-1' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-1a77d6efc45f8d872e1eef3ceaf22476.svg" />  </td><td class='td11' id='TBL-1-1-2' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-e903f1b57ae99a38d5cb45955c04b359.svg" />  </td>
+</tr><tr id='TBL-1-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-2-1' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-cf3ab58f06d9d78536840e19a647a9c1.svg" />  </td><td class='td11' id='TBL-1-2-2' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-6759462ffd31c663f0db0b4e7cbfefdc.svg" />  </td>
+</tr></table>                                                                                       </div>
+</div> Apenas uma das figuras mostra a reta tangente à curva \(y=f(x)\) no ponto \((1,f(1))\). Qual delas? <div class='multiple-choice' id='problem3' titletext=' Multiple Choice'><span class='choice  ' id='choice1'>
+Figura A </span><span class='choice correct ' id='choice2'>Figura B </span><span class='choice  ' id='choice3'>Figura C </span><span class='choice  ' id='choice4'>Figura D</span> </div> <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-1008r2'></a>Apenas a reta da figura \(B\) parece
+indistinguível da curva \(y=f(x)\) perto do ponto \((1,f(1))\). </div>    </div>
+<p class='noindent'>O limite \[ \lim _{x\to a} \frac {f(x)-f(a)}{x-a},\] tem muitas interpretações diferentes, dependendo do contexto, como a
+inclinação da reta tangente, a taxa de variação instantânea e a velocidade
+instantânea. Portanto, esse limite merece um nome especial, que possa ser usado
+independentemente do contexto.
+</p>
+<div class='theorem-like problem-environment definition' id='problem5' titletext=' definition'><a id='x1-1009r3'></a> A <strong>derivada</strong> de \(f\) em \(a\), denotada por \(f'(a)\), é dada por \[ f'(a) = \lim _{x\to a} \frac {f(x) - f(a)}{x-a}, \] desde que o limite exista. Dizemos
+que \(f\) é <strong>derivável</strong> em \(a\) se esse limite existe. Caso contrário, dizemos que \(f\) é <strong>não
+derivável</strong> em \(a\). </div>
+<p class='noindent'>A definição da derivada nos permite definir reta tangente com precisão. </p><div class='theorem-like problem-environment definition' id='problem6' titletext=' definition'><a id='x1-1010r4'></a>Seja \(f\) uma
+função derivável em \(a\). A <strong> reta tangente à curva</strong> \(y=f(x)\) no ponto \((a,f(a))\) é a reta que passa pelo
+ponto \((a,f(a))\) e cuja inclinação é igual a \(f'(a)\). </div>
+                                                                  
+
+                                                                  
+<p class='noindent'>Usando a equação ponto-inclinação da reta, a reta tangente é dada pela equação
+\[ y = f(a)+f'(a)(x-a). \]
+</p>
+<div class='problem-environment question' id='problem7' numbered='' role='article' titletext=' Question'>  Seja \(f\) a função dada por \(f(x) = 4x-3\). Qual é a taxa de variação instantânea de \(f\) em \(a\), em que \(a\) é
+um número real qualquer? <div class='foldable' data-original='expandable' id='foldable8'>xmhintA taxa de variação é dada por \(f'(a)\) e, portanto, é a
+inclinação da reta tangente à curva \(y=f(x)\) no ponto \((a,f(a))\).</div><div class='foldable' data-original='expandable' id='foldable9'>xmhintA reta tangente à curva \(y=f(x) = 4x-3\) é
+simplesmente a própria curva!</div> A derivada é a inclinação da reta \(y= 4x-3\)! Portanto, \(f'(a)=\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\), para
+todo número real \(a\).  <div class='foldable' data-original='expandable' id='foldable10'>xmhintPodemos verificar esse raciocínio calculando \(f'(a)\) pela
+definição da derivada. \[ f'(a) = \lim _{x\to a} \frac {f(x) - f(a)}{x-a}.\] Substitua \(f\) por sua fórmula, \[ f'(a) = \lim _{x\to a} \frac {(4x-3)-(4a-3)}{x-a}.\] Simplifique o numerador, \[ f'(a) = \lim _{x\to a} \frac {4x-4a}{x-a}.\] Fatore
+o numerador, \[ f'(a) = \lim _{x\to a} \frac {4\cancel {(x-a)}}{\cancel {x-a}}.\] Calcule o limite, \[ f'(a) =4.\]</div>   </div>
+<p class='noindent'>A maioria das funções não é linear, e seus gráficos não são linhas retas. Para a
+maioria das funções, o cálculo da derivada não é tão simples quanto no exemplo
+anterior. </p><div class='theorem-like problem-environment example' id='problem11' titletext=' example'><a id='x1-1011r5'></a>Seja \(f(x) = 2x^2+3\).
+<p class='noindent'>Determine a inclinação da reta tangente à curva \(y=f(x)\) no ponto \((2,f(2))\). </p><div class='theorem-like problem-environment explanation' id='problem12' titletext=' explanation'><a id='x1-1012r6'></a>Encontrar a inclinação
+da reta tangente no ponto \((2,f(2))\) significa encontrar \(f'(2)\) \[ f'(2) = \lim _{x\to 2} \frac {f(x) - f(2)}{x-2}\] Esse limite nos dá a taxa de variação
+instantânea de \(f\) em \(a=2\), que foi calculada em nosso primeiro exemplo! Portanto, a
+inclinação da reta tangente é \[ f'(2) = \lim _{x\to 2} \frac {f(x) - f(2)}{x-2}=8. \] </div>  Podemos confirmar nossos resultados observando o
+gráfico de \(y=f(x)\) e a reta \(y=8x-5\). <div aria-labelledby='image-alt-6' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-7aff7a0837236f64ed819cd6786e0ddf.svg" /></div>
+</div>
+<div class='theorem-like problem-environment example' id='problem13' titletext=' example'><a id='x1-1013r7'></a>Seja \(f(x) = \frac {1}{3-x}\). Determine uma equação da reta tangente à curva \(y=f(x)\) no ponto \((2, 1)\). <div class='theorem-like problem-environment explanation' id='problem14' titletext=' explanation'><a id='x1-1014r8'></a>Para encontrar a
+equação de uma reta, precisamos de duas informações. Precisamos conhecer um
+ponto da reta e precisamos conhecer a inclinação da reta. Nesta pergunta, foi dado
+que o ponto \((2,1)\) está sobre a reta. Logo, precisamos encontrar a inclinação da reta
+tangente. Encontrar a inclinação da reta tangente no ponto \((2,1)\) significa encontrar
+\(f'(2)\).
+<p class='noindent'>Comece escrevendo a definição da derivada, \[ f'(2) = \lim _{x\to 2} \frac {f\left (\class{xm-given}{x}\right )-f\left (2\right )}{x-2} = \lim _{x\to 2} \frac {\frac {1}{3-x}-1}{x-2}. \] Multiplique por \(\frac {3-x}{3-x}\) para eliminar
+a fração do numerador, \[ f'(2) = \lim _{x\to 2} \frac {1 - \left (\class{xm-given}{3-x}\right )}{(x-2)(3-x)}. \] Combine os termos semelhantes do numerador,
+\[ f'(2) = \lim _{x\to 2} \frac {\cancel {x-2}}{\cancel {(x-2)}(3-x)}, \]
+                                                                  
+
+                                                                  
+</p><p class='noindent'>Calcule o limite quando \(x\) tende a \(2\), \[ f'(2)= \lim _{x\to 2} \frac {1}{3-x} = \class{xm-given}{1}. \] Estamos procurando uma equação da reta que
+passa pelo ponto \((2,1)\) com inclinação \(m = f'(2) = 1\). A fórmula ponto-inclinação nos diz que a reta tem
+equação dada por \[ y= 1+\class{xm-given}{x-2 }, \] ou, equivalentemente, \(y=x-1\).
+</p><p class='noindent'>Podemos confirmar nossos resultados observando o gráfico de \(y=f(x)\) e a reta \(y=x-1\). </p><div aria-labelledby='image-alt-7' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-efb79cdf965823010cc914ae06b618e6.svg" /></div>
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem15' titletext=' example'><a id='x1-1015r9'></a>Um objeto que se move ao longo de uma linha reta tem posição dada por \(s(t) = \sqrt {t+3}\), em que a
+posição é medida em metros e o tempo em segundos. Determine a velocidade
+(instantânea) do objeto no instante \(t=6\). <div class='theorem-like problem-environment explanation' id='problem16' titletext=' explanation'><a id='x1-1016r10'></a>A velocidade é a taxa de variação
+instantânea da posição em relação ao tempo. Estamos sendo solicitados a
+encontrar \(v(6)=s'(6)\). Precisamos ajustar a definição da derivada, isto é, substituir \(x\)
+por \(t\), \[ s'(6) = \lim _{t \to 6} \frac {s(t)-s(6)}{t-6} = \lim _{t\to 6} \frac {\sqrt {\class{xm-given}{t+3}}-3}{t-6}. \] Multiplique por \(\frac {\sqrt {t+3}+3}{\sqrt {t+3}+3}\) para racionalizar a expressão, \[ s'(6) = \lim _{t\to 6} \left (\frac {\sqrt {t+3}-3}{t-6} \right )\left (\frac {\sqrt {t+3}+3}{\sqrt {t+3}+3} \right ). \] Agora simplifique o
+numerador, \[ s'(6) = \lim _{t \to 6} \frac {t+3 - 9}{(t-6)\left (\sqrt {t+3}+3 \right )}. \] Combine os termos semelhantes, \[ s'(6)= \lim _{t \to 6} \frac {\cancel {t-6}}{\cancel {(t-6)}\left (\sqrt {t+3}+3\right )}. \] Calcule o limite quando \(t\) tende a \(6\),
+\[ s'(6)= \lim _{t\to 6} \frac {1}{\sqrt {t+3}+3}=\class{xm-given}{\frac {1}{6}}. \]
+<p class='noindent'>O objeto tem velocidade \(\frac {1}{6}\) \(\frac {\unit {m}}{\unit {s}}\) no instante \(t=6\).
+</p><p class='noindent'>Abaixo podemos ver o gráfico de \(s=s(t)\) e a reta tangente em \(t=6\), com inclinação \(\frac {1}{6}\). Observe,
+mais uma vez, como a reta se ajusta ao gráfico da função \(s\) perto do ponto
+                                                                  
+
+                                                                  
+\((6,3)\). </p><div aria-labelledby='image-alt-8' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/definitionOfTheDerivative/digInTheDerivativeViaLimits-8a7bd9ae26658ea792490be0d5a91606.svg" /></div>  </div>
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"4","format":"expression","given":false,"antiderivative":false}}</script>

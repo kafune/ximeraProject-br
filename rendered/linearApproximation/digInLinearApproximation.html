@@ -1,0 +1,338 @@
+<!-- traduz-render: fece00a3cba792858549e02a4a6e5394c9bc5abb52570c04e6d0516b5d37d6b9 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class="abstract">
+Usamos um método chamado “aproximação linear” para estimar o valor de uma
+função (complicada) em um ponto dado. 
+</div>
+<div class="maketitle"></div>
+<p class="noindent" >Dada uma função, uma <em>aproximação linear</em> é um nome pomposo para algo que você
+já conhece:
+     </p><blockquote class="quote">
+     <p class="noindent" ><strong>A reta tangente ao gráfico de uma função em um ponto
+     está muito próxima do gráfico da função perto desse ponto.</strong></p></blockquote>
+<p class="noindent" >Essa reta tangente é o gráfico de uma função linear, chamada de <strong>aproximação
+linear</strong>. </p><div class="theorem-like problem-environment example" id="problem1" titletext=" example"><a 
+ id="x1-2r1"></a>Seja \(f\) uma função derivável em algum intervalo I que contém o ponto
+\(a\). O gráfico de uma função \(f\) e a reta tangente à curva \(y=f(x)\) no ponto em que \(x=a\)
+são dados na figura abaixo. Determine a equação da reta tangente. <div class="image-environment" role="img" aria-labelledby="image-alt-1">
+<img 
+src="/rendered/linearApproximation/digInLinearApproximation-f6790a907f9c4e764e5acdfdb0ab974b.svg" alt="[Picture]"  /> </div> Primeiro, encontre a expressão
+para \(m\), a inclinação da reta tangente à curva \(y=f(x)\) no ponto \((a,f(a))\). Selecione a alternativa
+correta. <div class="multiple-choice" id="problem2" titletext=" Multiple Choice"><span class="choice  "   id="choice1">\(m= f(a)\)</span> <span class="choice correct "   id="choice2">\(m=f'(a)\)</span> <span class="choice  "   id="choice3">\(m= \frac {f(a)-f(0)}{a-0}\)</span> <span class="choice  "   id="choice4">\(m= \frac {f(a+h)-f(a)}{h}\)</span> <span class="choice  "   id="choice5"> Não temos informação suficiente para determinar a inclinação.</span>
+</div> Como sabemos que o ponto \((a,f(a))\) está sobre a reta tangente, podemos escrever uma
+equação da reta tangente.
+<p class="noindent" >\[ y= f(a)+f'(a)(x-a). \] Agora, definimos uma função, \(L\), por \(L(x)= f(a)+f'(a)(x-a)\). Essa função é linear e seu gráfico é a reta
+tangente à curva \(y=f(x)\) no ponto em que \(x=a\). Essa função merece um nome especial. </p></div> <div class="theorem-like problem-environment definition" id="problem3" titletext=" definition"><a 
+ id="x1-3r2"></a> Se \(f\) é
+uma função derivável em \(x=a\), então uma <strong>aproximação linear</strong> da função \(f\) em \(x=a\) é dada
+por \[ L(x) =f(a)+ f'(a)(x-a). \] </div>
+<p class="noindent" >Observe que o gráfico de \(L\) é simplesmente a reta tangente ao gráfico de \(f\) em
+\(x=a\).
+</p><p class="noindent" >Uma aproximação linear de \(f\) é uma “boa” aproximação desde que \(x\) não esteja “longe
+                                                                  
+
+                                                                  
+demais” de \(a\). Se “ampliarmos” o gráfico de \(f\) o suficiente, os gráficos de \(f\) e \(L\) ficam
+praticamente indistinguíveis.
+</p><p class="noindent" >Como primeiro exemplo, veremos como as aproximações lineares nos permitem
+aproximar cálculos “difíceis”.
+</p>
+<div class="theorem-like problem-environment example" id="problem4" titletext=" example"><a 
+ id="x1-4r3"></a>Seja \(f\) a função definida por \[ f(x) =\sqrt [3]{x}.\] Aproxime \(\sqrt [3]{50}\) usando \(L\), uma aproximação linear da função \(f\)
+em \(a=64\).
+<div class="theorem-like problem-environment explanation" id="problem5" titletext=" explanation"><a 
+ id="x1-5r4"></a>Para começar, escreva \[ \ddx f(x) = \ddx x^{1/3} = \frac {1}{3x^{\class{xm-given}{2/3}}}. \] \begin{align*}  L(x) &amp;= \class{xm-given}{4}+ \frac {1}{3\cdot 64^{2/3}} (x-64) \\ &amp;=4+ \frac {1}{\class{xm-given}{48}} (x-64) \\ &amp;= \frac {x}{48} +\frac {8}{3}.  \end{align*}
+<div class="image-environment" role="img" aria-labelledby="image-alt-2"> <img 
+src="/rendered/linearApproximation/digInLinearApproximation-69bd1071e6c0c3d9c1aa032299fd4576.svg" alt="[Picture]"  /> </div> Agora calculamos \(L(50)= \frac {50}{48} +\frac {8}{3}\).
+Isso foi fácil de calcular, já que \(L\) é uma função linear! Usando uma calculadora,
+podemos ver que \(L(50)= \frac {50}{48} +\frac {8}{3}\approx 3.71\) e que \(\sqrt [3]{50}\approx 3.68\). Portanto, \(L(50)\) não só é fácil de calcular, como também nos dá
+uma boa aproximação de \(\sqrt [3]{50}\). </div>
+<p class="noindent" >O que aconteceria se, em vez disso, escolhêssemos \(a=27\)?
+</p><p class="noindent" >Então usaríamos \(L_{27}\), a aproximação linear da função \(f\) em \(a=27\). Nesse caso, \(L_{27}=f(27)+f'(27)(x-27)=3+\frac {1}{27}(x-27)\).
+O gráfico de \(L_{27}\), junto com os gráficos de \(f\) e \(L=L_{64}\), é dado na figura abaixo. </p><div class="image-environment" role="img" aria-labelledby="image-alt-3">
+                                                                  
+
+                                                                  
+<img 
+src="/rendered/linearApproximation/digInLinearApproximation-e0546deacf2011caa7eaffe87887120b.svg" alt="[Picture]"  /> </div> Pela figura, podemos
+ver que
+<p class="noindent" >\(L_{27}(50)&gt;L_{64}(50)&gt;f(50)\).
+</p><p class="noindent" >Então a nossa escolha, \(a=64\), foi melhor! </p></div>
+<p class="noindent" >Com as calculadoras e os programas de computador modernos, pode não parecer
+necessário usar aproximações lineares. Na verdade, elas são bastante úteis. Em
+situações que exigem uma aproximação numérica explícita, elas nos permitem obter
+rapidamente uma estimativa grosseira, que pode servir de “prova dos nove” para um
+cálculo mais complexo. Em alguns cálculos complexos envolvendo funções, a
+aproximação linear torna possível um cálculo que, de outra forma, seria intratável,
+sem perda séria de precisão.
+</p>
+<div class="theorem-like problem-environment example" id="problem6" titletext=" example"><a 
+ id="x1-6r5"></a>Use uma aproximação linear de \(f(x) =\sin (x)\) em \(a=0\) para aproximar \(\sin (0.3)\). <div class="theorem-like problem-environment explanation" id="problem7" titletext=" explanation"><a 
+ id="x1-7r6"></a>Para começar, escreva \[ \ddx f(x) = \class{xm-given}{\cos (x)}, \] de
+modo que nossa aproximação linear é \begin{align*}  L(x) &amp;= 0+\class{xm-given}{\cos (0)}\cdot (x-0)\\ &amp;= x.  \end{align*}
+<div class="image-environment" role="img" aria-labelledby="image-alt-4"> <img 
+src="/rendered/linearApproximation/digInLinearApproximation-5091befadfd509a3c6ff67b38492dfd4.svg" alt="[Picture]"  /> </div> Logo, uma aproximação
+                                                                  
+
+                                                                  
+linear de \(\sin (x)\) em \(a=0\) é \(L(x) = x\), e assim \(L(0.3) = 0.3\). Comparando isso com \(\sin (.3) \approx 0.295\), vemos que a aproximação é muito
+boa. Por essa razão, é comum aproximar \(\sin (x)\) por sua aproximação linear \(L(x) = x\) quando \(x\) está
+perto de zero. </div> </div>
+<h3 class="sectionHead"><span class="titlemark">1   </span> <a 
+ id="x1-10001"></a>Estimativas por excesso ou por falta</h3>
+<p class="noindent" >Lembre-se de que, geometricamente, o valor real da função corresponde à coordenada
+\(y\) de um ponto do gráfico da função, e o valor aproximado corresponde à coordenada \(y\)
+de um ponto do gráfico da reta tangente. Temos uma terminologia para descrever a
+situação em que o gráfico da função está acima ou abaixo da reta tangente:
+concavidade.
+</p>
+<div class="theorem-like problem-environment theorem" id="problem8" titletext=" theorem"><a 
+ id="x1-1001r7"></a>Suponha que \(L\) seja a aproximação linear de uma função derivável \(f\) em \(a\). Suponha que \(b\)
+seja outro valor de \(x\) próximo de \(a\) e que \(I\) seja o intervalo aberto entre \(a\) e \(b\).
+Então:
+     <ul class="itemize1">
+     <li class="itemize">
+     <p class="noindent" >Se \(f\) tem concavidade para cima no intervalo \(I\), então o valor aproximado \(L(b)\) é
+     uma <strong>estimativa por falta</strong> de \(f(b)\).
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >Se \(f\) tem concavidade para baixo no intervalo \(I\), então o valor aproximado \(L(b)\)
+     é uma <strong>estimativa por excesso</strong> de \(f(b)\).</p></li></ul>
+</div> <div class="theorem-like problem-environment warning" id="problem9" titletext=" warning"><a 
+ id="x1-1002r8"></a>Para determinar se \(L(b)\) é uma estimativa por excesso ou por falta, não basta verificar o
+valor de \(f''\) em um único ponto. É a concavidade em todo o intervalo entre os pontos \(a\) e \(b\)
+que precisa ser verificada. </div>
+<div class="theorem-like problem-environment example" id="problem10" titletext=" example"><a 
+ id="x1-1003r9"></a>Aproxime o valor de \((0.9)^3\). Essa é uma estimativa por excesso ou por falta?
+<div class="theorem-like problem-environment explanation" id="problem11" titletext=" explanation"><a 
+ id="x1-1004r10"></a>Para fazer uma aproximação linear, precisamos escolher uma função e o ponto \(a\) a ser
+usado. Neste exemplo, faz sentido usar \(f(x) = x^3\) como função, o que significa que a pergunta
+está pedindo para aproximarmos \(f(0.9)\).
+<p class="noindent" >Para o ponto \(a\), precisamos de um valor próximo de \(0.9\) para o qual consigamos calcular \(f(a)\)
+e \(f'(a)\). Usar \(a=1\) funciona aqui, já que \(f(1) = \class{xm-given}{1}\) e \(f'(x) = 3x^2\), de modo que \(f'(1) = \class{xm-given}{3}\).
+</p><p class="noindent" >A função de aproximação linear é \(L(x) = 3(x-1)+1\). Isso dá \(L(0.9) = \class{xm-given}{0.7}\).
+</p><p class="noindent" >Essa é a nossa aproximação. Agora precisamos determinar se esse valor foi uma
+estimativa por excesso ou por falta. \(f''(x) = 6x\), que é positiva no intervalo \((0, \infty )\). Isso significa que \(f\)
+tem concavidade para cima no intervalo \((0.9, 1)\) (já que esse intervalo está contido em
+\((0,\infty )\)).
+                                                                  
+
+                                                                  
+</p><p class="noindent" >O valor aproximado é \(L(0.9)=0.7\), que é uma estimativa por falta porque \(f\) tem concavidade para
+cima no intervalo \((0.9,1)\). </p></div> </div>
+<p class="noindent" >Observe que indicamos apenas o intervalo \((0.9, 1)\) nesta resposta. Embora a função \(f\)
+tenha concavidade para cima em todo o intervalo \((0, \infty )\), é apenas o intervalo
+\((0.9, 1)\) que é relevante para esta pergunta, e por isso foi ele que incluímos na
+resposta.
+</p>
+<h3 class="sectionHead"><span class="titlemark">2   </span> <a 
+ id="x1-20002"></a>Diferenciais</h3>
+<p class="noindent" >O gráfico de uma função \(f\) e o gráfico de \(L\), a aproximação linear de \(f\) em \(a\), são
+mostrados na figura abaixo. Além disso, duas quantidades, \(\d x\) e \(\d f\), e um ponto \(P\) estão
+marcados na figura. Olhe a figura com atenção ao responder às perguntas
+abaixo.
+</p>
+<div class="image-environment" role="img" aria-labelledby="image-alt-5"> <img 
+src="/rendered/linearApproximation/digInLinearApproximation-8b1a80fa26b5a6213fa5f253b7c4ec55.svg" alt="[Picture]"  /> </div>  <div role="article" class="problem-environment question" id="problem12" numbered="" titletext=" Question">  Selecione todas as
+expressões corretas para a quantidade \(\d x\). <div data-original="expandable" id="foldable13" class="foldable">xmhintVocê pode ver que \(x=a+\d x\).</div><div class="select-all" id="problem14" titletext=" Select All"><a 
+ id="x1-2001r11"></a> <span class="choice  "   id="choice6">\(\d x=f(x)-f(a)\)</span> <span class="choice  "   id="choice7">\(\d x=f(x)-L(x)\)</span> <span class="choice correct "   id="choice8">\(\d x=x-a\)</span> <span class="choice  "   id="choice9">\(\d x=L(x)-f(a)\)</span> <span class="choice  "   id="choice10">\(\d x=L(x)-L(a)\)</span>
+</div>
+</div>  <div role="article" class="problem-environment question" id="problem15" numbered="" titletext=" Question">   Selecione todas as expressões corretas para a quantidade \(\d f\). <div data-original="expandable" id="foldable16" class="foldable">xmhintVocê pode ver
+que \(L(x)=f(a)+\d f\).</div><div data-original="expandable" id="foldable17" class="foldable">xmhintLembre-se: \(L(a)=f(a)\).</div><div class="select-all" id="problem18" titletext=" Select All"><a 
+ id="x1-2002r12"></a> <span class="choice  "   id="choice11">\(\d f=f(x)-f(a)\)</span> <span class="choice  "   id="choice12">\(\d f=f(x)-L(x)\)</span> <span class="choice  "   id="choice13">\(\d f=x-a\)</span> <span class="choice correct "   id="choice14">\(\d f=L(x)-f(a)\)</span> <span class="choice correct "   id="choice15">\(\d f=L(x)-L(a)\)</span>
+<p class="noindent" ></div>
+</p>
+</div>
+<div role="article" class="problem-environment question" id="problem19" numbered="" titletext=" Question">  Com base na figura e na expressão para \(L(x)\), selecione todas as expressões corretas
+para \(\d f\). <div data-original="expandable" id="foldable20" class="foldable">xmhintLembre-se: \(\d f=L(x)-f(a)=f(a)+f'(a)(x-a)-f(a)=f'(a)(x-a)=f'(a)\d x\).</div><div class="select-all" id="problem21" titletext=" Select All"><a 
+ id="x1-2003r13"></a> <span class="choice correct "   id="choice16"> \(\d f=f'(a)(x-a)\)</span> <span class="choice correct "   id="choice17"> \(\d f=f'(a)\d x\)</span> <span class="choice  "   id="choice18">\(\d f=f'(x-a)\)</span> <span class="choice  "   id="choice19">\(\d f=f'(x)\d x\)</span> <span class="choice  "   id="choice20">\(\d f=f'(x)(x-a)\)</span> </div>    </div>
+                                                                  
+
+                                                                  
+<p class="noindent" >Assim, podemos escrever \(\d f=f'(a)\d x\) e chamá-la de <strong>diferencial</strong> de \(f\) em \(a\). Observe que
+podemos definir uma diferencial em qualquer ponto \(x\) do domínio de \(f\), desde que \(f'(x)\)
+exista.
+</p><p class="noindent" >Os estudantes frequentemente confundem a diferencial \(df\) com a derivada \(f'(a)\). Lembre-se
+de que a derivada nos dá a <em>taxa</em> de variação no ponto, enquanto a diferencial \(df\) é uma
+<em>quantidade estimada</em> de variação.
+</p><p class="noindent" >Faremos isso na nossa próxima definição. </p><div class="theorem-like problem-environment definition" id="problem22" titletext=" definition"><a 
+ id="x1-2004r14"></a>Seja \(f\) uma função derivável, seja \(x\) um ponto
+do domínio de \(f\) e seja \(\d x\) uma quantidade, chamada de <strong>diferencial de \(x\)</strong>. Definimos \(\d f\), a
+diferencial de \(f\), em um ponto \(x\) por \[ \d f=f'(x)\cdot \d x \]
+<p class="noindent" >Geometricamente, as diferenciais podem ser interpretadas por meio do diagrama
+abaixo. </p><div class="image-environment" role="img" aria-labelledby="image-alt-6"> <img 
+src="/rendered/linearApproximation/digInLinearApproximation-c42d66bbdf3fd4415c3e56129c93c109.svg" alt="[Picture]"  /> </div>
+<p class="noindent" >Observe que agora vale (por definição!) que \[ f'(x)=\frac {\d f}{\d x}. \] </p></div> Não devemos nos surpreender, já que a
+inclinação da reta tangente na figura é \(f'(x)\), e essa inclinação também é dada por
+\(\frac {\d f }{\d x}\).
+<p class="noindent" >Essencialmente, as diferenciais nos permitem resolver os problemas apresentados nos
+exemplos anteriores de um ponto de vista ligeiramente diferente. Lembre-se de que,
+quando \(h\) está perto de zero, mas não é igual a zero, \[ f'(x) \approx \frac {f(x+h)-f(x)}{h}. \] Logo, \[ f'(x)h \approx f(x+h)-f(x). \] Podemos substituir a
+quantidade \(h\) por uma quantidade \(\d x\) e escrever \begin{align*}  f'(x)\cdot \d x &amp;\approx f(x+\d x)-f(x)\\ \d f &amp;\approx f(x+\d x)-f(x).  \end{align*}
+</p><p class="noindent" >Somando \(f(x)\) a ambos os lados, vemos que \[ f(x) + \d f\approx f(x+\d x) \] ou, equivalentemente, \[ f(x+\d x)\approx f(x) + \d f . \] Há contextos
+em que a linguagem das diferenciais é comum. Eis a estratégia básica: </p><div class="image-environment" role="img" aria-labelledby="image-alt-7">
+<img 
+src="/rendered/linearApproximation/digInLinearApproximation-3ab36b9fb5c0462659ae3d5a62f19070.svg" alt="[Picture]"  /> </div>
+<p class="noindent" >Vamos repetir nossos exemplos anteriores usando diferenciais.
+</p>
+<div class="theorem-like problem-environment example" id="problem23" titletext=" example"><a 
+ id="x1-2005r15"></a>Use diferenciais para aproximar \(\sqrt [3]{50}\). <div class="theorem-like problem-environment explanation" id="problem24" titletext=" explanation"><a 
+ id="x1-2006r16"></a>Tome \(f(x) = \sqrt [3]{x}\). Queremos saber \(\sqrt [3]{50}\). Como \(4^3 = 64\), tomamos \(x=64\).
+                                                                  
+
+                                                                  
+Fazendo \(\d x=50-64=-14\), temos \begin{align*}  \sqrt [3]{50} = f(x + \d x) &amp;\approx f(x) + \d f\\ &amp;\approx \sqrt [3]{64} + \d f.  \end{align*}
+<p class="noindent" >Aqui vemos o gráfico de \(y=\sqrt [3]{x}\) com as diferenciais acima marcadas: </p><div class="image-environment" role="img" aria-labelledby="image-alt-8">
+<img 
+src="/rendered/linearApproximation/digInLinearApproximation-1f0d2e280de15055e12731ca8a181fcf.svg" alt="[Picture]"  /> <a class="ximera-label" id="figure:diff sqrt3x"></a> </div> Agora precisamos
+calcular \(\d f\): \begin{align*}  \d f &amp;= f'(x) \cdot \d x\\ &amp;= \class{xm-given}{\frac {1}{3x^{2/3}}} \cdot \d x\\ &amp;= \frac {1}{3\cdot 64^{2/3}} \cdot (\class{xm-given}{-14})\\ &amp;= \frac {1}{3\cdot 64^{2/3}} \cdot (-14)\\ &amp;= \frac {-7}{24}  \end{align*}
+<p class="noindent" >Logo, \(f(50) \approx f(64) + \frac {-7}{24} \approx 3.71\). </p></div> </div>
+<div class="theorem-like problem-environment example" id="problem25" titletext=" example"><a 
+ id="x1-2007r17"></a>Use diferenciais para aproximar \(\sin (0.3)\). <div class="theorem-like problem-environment explanation" id="problem26" titletext=" explanation"><a 
+ id="x1-2008r18"></a>Tome \(y = \sin (x)\). Queremos saber \(\sin (0.3)\). Como \(\sin (0) = 0\), vamos tomar \(x = 0\) e \(\d x=0.3\).
+Escreva comigo \begin{align*}  \sin (0.3) = \sin (x + \d x) &amp;\approx \sin (x) + \d y\\ &amp;\approx 0 + \d y.  \end{align*}
+<p class="noindent" >Aqui vemos o gráfico de \(y=\sin (x)\) com as diferenciais acima marcadas: </p><div class="image-environment" role="img" aria-labelledby="image-alt-9">
+<img 
+src="/rendered/linearApproximation/digInLinearApproximation-0e2c9dd15d3dc0cc9f1e086966ccc230.svg" alt="[Picture]"  /> <a class="ximera-label" id="figure:diff sin"></a> </div> Agora precisamos calcular \(\d y\):
+\begin{align*}  \d y &amp;= \left (\ddx \sin (x)\right ) \cdot \d x\\ &amp;=\class{xm-given}{\cos (0)} \cdot \d x\\ &amp;= 1 \cdot (\class{xm-given}{0.3})\\ &amp;= 0.3  \end{align*}
+<p class="noindent" >Logo, \(\sin (0.3) \approx \sin (0) + 0.3 \approx 0.3\). </p></div> </div>
+<p class="noindent" >A conclusão é que aproximações lineares e diferenciais são simplesmente duas
+maneiras ligeiramente diferentes de fazer exatamente a mesma coisa.
+                                                                  
+
+                                                                  
+</p>
+<h3 class="sectionHead"><span class="titlemark">3   </span> <a 
+ id="x1-30003"></a>Aproximação do erro</h3>
+<p class="noindent" >As diferenciais também nos ajudam a estimar erros em situações da vida
+real.
+</p>
+<div class="theorem-like problem-environment example" id="problem27" titletext=" example"><a 
+ id="x1-3001r19"></a>Um copo contendo água é mostrado na figura abaixo. <div class="image-environment" role="img" aria-labelledby="image-alt-10">
+<img 
+src="/rendered/linearApproximation/digInLinearApproximation-ddf9b759492e5b9359dabc9c0ac9879d.svg" alt="[Picture]"  /> </div> Seja \(y\) a altura da água
+(medida em centímetros). O volume de água no copo (em mililitros), como função de
+\(y\), é dado por \[ V(y) = \frac {2\pi y^{3/2}}{\sqrt {3}}. \]
+<p class="noindent" >Há uma marca indicando quando o copo está cheio até \(250\) ml, a \(16.8\) cm da base do copo.
+Se o copo for cheio com um erro de até \(\pm 2\) milímetros em relação à marca,
+quais são os limites para o volume? </p><div class="theorem-like problem-environment explanation" id="problem28" titletext=" explanation"><a 
+ id="x1-3002r20"></a>Queremos saber o que uma pequena
+variação na altura, \(y\), provoca no volume \(V\). Essas pequenas variações podem
+ser modeladas pelas diferenciais \(\d V\) e \(\d y\). Como \[ \d V = V'(y) \d y \] e \(V'(y) = \class{xm-given}{\pi \sqrt {3 y}}\), usamos o fato de que \(\d y = \pm 0.2\) com \(y=\class{xm-given}{16.8}\)
+para ver que \[ \d V = \class{xm-given}{\pi \sqrt {3 \cdot 16.8}} \cdot 0.2. \] Logo, o volume vai variar em aproximadamente \(\pm \class{xm-given}{4.46062}\) mililitros. </div>
+</div>
+
+<h3 class="sectionHead"><span class="titlemark">4   </span> <a 
+ id="x1-40004"></a>Novos e velhos amigos</h3>
+<p class="noindent" >Você pode estar se perguntando, dado um gráfico \(y=f(x)\),
+     </p><blockquote class="quote">
+     <p class="noindent" >Qual é a diferença entre \(\Delta x\) e \(\d x\)? E entre \(\Delta y\) e \(\d y\)?</p></blockquote>
+                                                                  
+
+                                                                  
+<p class="noindent" >De qualquer forma, agora essa é uma pergunta urgente. A questão é a seguinte: \[ \frac {\Delta y}{\Delta x} \] é a
+<strong>taxa de variação média</strong> de \(y=f(x)\) em relação a \(x\). Por outro lado: \[ \frac {\d y}{\d x} \] é a <strong>taxa de variação
+instantânea</strong> de \(y=f(x)\) em relação a \(x\). Essencialmente, \(\Delta x\) e \(\d x\) são o mesmo tipo de coisa: são
+variações (em geral pequenas) de \(x\). No entanto, \(\Delta y\) e \(\d y\) são coisas bem diferentes.
+</p>
+     <ul class="itemize1">
+     <li class="itemize">
+     <p class="noindent" >\(\Delta y=f(x+\Delta x)-f(x)\); é a variação de \(y=f(x)\) associada a \(\Delta x\).
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\d y=L(x+\d x)-L(x)\); é a variação de \(y=L(x)\) associada a \(\Delta x=\d x\). \[ \d y =f'(x)\d x \] Observação: \( L(x+\d x)= f(x)+f'(x)\d x\).
+     </p><p class="noindent" >Portanto, a variação \begin{align*}  \d y &amp;= L(x+\d x)-L(x)\\ &amp;= f(x)+f'(x)\d x-L(x)\\ &amp;= f(x)+f'(x)\d x-f(x)\\ &amp;=f'(x)\d x  \end{align*}
+</p>
+     </li></ul>
+<div role="article" class="problem-environment question" id="problem29" numbered="" titletext=" Question">  Suponha que \(f(x) = x^2\). Se estamos no ponto \(x=1\) e \(\Delta x =\d x = 0.1\), quanto vale \(\Delta y\)? E \(\d y\)? <div data-original="expandable" id="foldable30" class="foldable">xmhint\( \Delta y=f(1+\Delta x)-f(1)=f(1.1)-f(1)\)</div><div data-original="expandable" id="foldable31" class="foldable">xmhint\(\d y=f'(1)\cdot \d x=f'(1)\cdot 0.1\)</div>
+\[ \Delta y = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}\qquad \d y = \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \]
+</div> As diferenciais podem ser confusas no começo. Porém, quando você as dominar, terá
+uma ferramenta poderosa à sua disposição.
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"0.21","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"0.2","format":"expression","given":false,"antiderivative":false}}</script>

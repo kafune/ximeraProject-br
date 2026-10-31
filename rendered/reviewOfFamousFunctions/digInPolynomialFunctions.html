@@ -1,0 +1,166 @@
+<!-- traduz-render: c06e3e3a44ffbae1d02865a4acc685b55b005e27cd4e4727fb34492f8e380079 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Os polinômios estão entre as nossas funções favoritas. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>As funções com que você tem mais familiaridade provavelmente são as funções
+polinomiais.
+</p>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>O que são funções polinomiais?</h3>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-1001r1'></a>Uma <strong>função polinomial</strong> na variável \(x\) é uma função <em>que pode ser escrita</em> na forma \[ f(x) = a_nx^n + a_{n-1}x^{n-1} + \dots + a_1 x + a_0 \]
+em que os \(a_i\) são todos constantes (chamados de <strong>coeficientes</strong>) e \(n\) é um número
+natural (chamado de <strong>grau</strong> quando \(n\ne 0\)). O domínio de uma função polinomial é \((-\infty ,\infty )\).
+</div>
+<p class='noindent'>Isso significa que a função \(f(x)=x\) é um polinômio de grau \(1\), com \(a_1 = 1\) e \(a_0 = 0\). A função \(g(x) = 2\) é um
+polinômio com \(n=0\) e \(a_0 = 2\). Do mesmo modo, toda função constante é uma função
+polinomial. No entanto, \(h(x) = \sqrt [3]{x} = x^{1/3}\) não é um polinômio, pois o expoente \(1/3\) não é um número
+natural.
+</p>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  Quais das funções a seguir são funções polinomiais? <div class='select-all' id='problem3' titletext=' Select All'><a id='x1-1002r2'></a> <span class='choice correct ' id='choice1'>\(f(x) = 0\) </span><span class='choice correct ' id='choice2'>\(f(x) = -9\) </span><span class='choice correct ' id='choice3'>\(f(x) = 3x+1\) </span><span class='choice  ' id='choice4'>\(f(x) = x^{1/2}-x +8\) </span><span class='choice  ' id='choice5'>\(f(x) = -4x^{-3}+5x^{-1}+7-18x^2\) </span><span class='choice correct ' id='choice6'>\(f(x) = (x+1)(x-1)+e^x - e^x \) </span><span class='choice  ' id='choice7'>\(f(x) = \frac {x^2 - 3x + 2}{x-2}\) </span><span class='choice correct ' id='choice8'>\(f(x) = x^7-32x^6-\pi x^3+45/84\)</span> </div>
+</div>
+<p class='noindent'>A expressão acima, “na variável \(x\)”, pode na verdade mudar. \[ y^2-4y +1 \] é um polinômio em \(y\), e \[ \sin ^2(x) + \sin (x) -3 \]
+é um polinômio em \(\sin (x)\).
+</p>
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Como podem ser os gráficos?</h3>
+<p class='noindent'>Curiosidade:
+</p>
+<div class='theorem-like problem-environment theorem' id='problem4' titletext=' theorem'><a id='x1-2001r3'></a><span class='theorem-like-title'>Teorema fundamental da álgebra</span> Todo polinômio da forma \[ a_n x^n + a_{n-1} x^{n-1} + \dots + a_1 x + a_0 \] em que os \(a_i\) são números
+reais (ou até complexos!) e \(a_n \ne 0\) tem exatamente \(n\) raízes complexas (possivelmente
+repetidas). </div>
+<p class='noindent'>Lembre-se: uma <strong>raiz</strong> é um ponto em que o polinômio se anula. O teorema acima é
+um fato profundo da matemática. O grande matemático Gauss demonstrou o
+teorema em 1799, em sua tese de doutorado.
+</p><p class='noindent'>Para nós, a consequência disso é que, quando traçamos o gráfico de um
+                                                                  
+
+                                                                  
+polinômio de grau \(n\), ele cruza o eixo \(x\) <em>no máximo</em> \(n\) vezes. Cada cruzamento
+corresponde a uma raiz real desse polinômio. (Raízes complexas não produzem
+cruzamentos!)
+</p>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-2002r4'></a>Esboce um gráfico aproximado da função \(f(x) = 2(x-1)^2(x+2)\).
+<div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-2003r5'></a>Recebemos \(f\) na forma fatorada, então reconhecemos que \(x=1\) é um zero de multiplicidade
+\(2\) e \(x=-2\) é um zero de multiplicidade \(1\). Isso significa que nosso gráfico terá interceptos com
+o eixo \(x\) nesses pontos.
+<p class='noindent'>Nesses interceptos com o eixo \(x\), o gráfico vai atravessar o eixo \(x\) como uma reta faz, ou
+vai tocar o eixo e dar meia-volta, como uma parábola faz em seu vértice? Para
+responder a isso, observe um quadro de sinais de \(f\).
+</p>
+<div class='center'>
+<p class='noindent'><img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInPolynomialFunctions-1133be4004ea16adc48e09d5f91277be.svg" /></p></div>
+<p class='noindent'>Observe que, em torno de \(x=-2\), apenas o fator \(x+2\) muda de sinal. Isso significa que \(f(x)\) vai
+mudar de sinal, então o gráfico atravessa o eixo \(x\) em \(x=-2\). Em \(x=1\), porém, o fator \((x-1)^2\) NÃO
+muda de sinal (por causa do expoente par). Isso significa que \(f(x)\) vai dar meia-volta
+nesse intercepto com o eixo \(x\). Observamos também que, para \(x\) no intervalo \((-\infty , -2)\), a função \(f\)
+é negativa e, para \(x\) em \((1,\infty )\), a função \(f\) é positiva. (Como \(f\) é um polinômio de grau ímpar,
+suas ‘pontas’ vão em direções opostas.) Juntando tudo isso, obtemos o gráfico a
+seguir.
+</p>
+<div class='center'>
+<p class='noindent'><img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInPolynomialFunctions-00d1956b6154d3bea2c67c4134ff228b.svg" /></p></div>
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-2004r6'></a>Aqui vemos os gráficos de quatro funções polinomiais.
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'><div class='tabular'> <table class='tabular' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /></colgroup><tr id='TBL-1-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-1-1' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInPolynomialFunctions-7d9048c5e51714f35af2575c5be408da.svg" />  </td><td class='td11' id='TBL-1-1-2' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInPolynomialFunctions-959c28ea2e880d11d738747888b76a8c.svg" />  </td>
+</tr><tr id='TBL-1-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-2-1' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInPolynomialFunctions-9a2b29566efcaa8c3bbf033348251725.svg" />  </td><td class='td11' id='TBL-1-2-2' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInPolynomialFunctions-fd4f23ac081536043420b4e2915cb064.svg" />  </td>
+</tr></table>                                                                                       </div>
+</div> Para cada uma das curvas, determine se o polinômio tem grau <strong>par</strong> ou <strong>ímpar</strong>, e se o
+coeficiente líder (aquele que acompanha a maior potência de \(x\)) do polinômio é
+<strong>positivo</strong> ou <strong>negativo</strong>. <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-2005r7'></a>
+     <ul class='itemize1'>
+     <li class='itemize'>A curva \(A\) é definida por um polinômio de grau <span class='word-choice' id='word-choice9'><a id='x1-2006r8'></a><span class='choice  ' id='choice9'>par</span><span class='choice correct ' id='choice10'>ímpar</span></span> com termo líder <span class='word-choice' id='word-choice10'><a id='x1-2007r9'></a><span class='choice correct ' id='choice11'>positivo</span><span class='choice  ' id='choice12'>negativo</span></span>.
+     </li>
+     <li class='itemize'>A curva \(B\) é definida por um polinômio de grau <span class='word-choice' id='word-choice11'><a id='x1-2008r10'></a><span class='choice  ' id='choice13'>par</span><span class='choice correct ' id='choice14'>ímpar</span></span> com termo líder <span class='word-choice' id='word-choice12'><a id='x1-2009r11'></a><span class='choice  ' id='choice15'>positivo</span><span class='choice correct ' id='choice16'>negativo</span></span>.
+     </li>
+     <li class='itemize'>A curva \(C\) é definida por um polinômio de grau <span class='word-choice' id='word-choice13'><a id='x1-2010r12'></a><span class='choice correct ' id='choice17'>par</span><span class='choice  ' id='choice18'>ímpar</span></span> com termo líder <span class='word-choice' id='word-choice14'><a id='x1-2011r13'></a><span class='choice correct ' id='choice19'>positivo</span><span class='choice  ' id='choice20'>negativo</span></span>.
+     </li>
+     <li class='itemize'>A curva \(D\) é definida por um polinômio de grau <span class='word-choice' id='word-choice15'><a id='x1-2012r14'></a><span class='choice correct ' id='choice21'>par</span><span class='choice  ' id='choice22'>ímpar</span></span> com termo líder <span class='word-choice' id='word-choice16'><a id='x1-2013r15'></a><span class='choice  ' id='choice23'>positivo</span><span class='choice correct ' id='choice24'>negativo</span></span>.</li></ul>
+</div> </div>
+<script type="application/json" class="xm-answers">{}</script>

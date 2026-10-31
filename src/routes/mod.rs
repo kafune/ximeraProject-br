@@ -2,6 +2,7 @@ pub mod chapters;
 pub mod glossary;
 pub mod reader;
 pub mod translator;
+use crate::ximera;
 use axum::{
     routing::{get, post, put},
     Router,
@@ -23,5 +24,9 @@ pub fn app(db: Db) -> Router {
         .route("/glossary", get(glossary::index).post(glossary::save))
         .route("/glossary/:term", post(glossary::delete))
         .nest_service("/static", tower_http::services::ServeDir::new("static"))
+        .nest_service(
+            ximera::RENDERED_URL,
+            tower_http::services::ServeDir::new(ximera::rendered_root()),
+        )
         .with_state(db)
 }

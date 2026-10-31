@@ -1,4 +1,4 @@
-use crate::models::{FileRecord, ParsedSegment, ReaderFile, Segment};
+use crate::models::{FileRecord, ParsedSegment, ReaderFile, Segment, XourseSource};
 use anyhow::{Context, Result};
 use rusqlite::{params, Connection, OptionalExtension, Transaction};
 use std::path::Path;
@@ -167,7 +167,9 @@ pub fn reader_course_files(conn: &Connection, file_id: i64) -> Result<Vec<Reader
                   WHEN s.status = 'traduzido' AND s.texto_traduzido != ''
                   THEN s.texto_traduzido
                 END,
-                s.placeholders_json
+                s.placeholders_json,
+                instr(f.fonte_original, '\\documentclass') > 0
+                  AND instr(f.fonte_original, '{ximera}') > 0
          FROM files f
          JOIN chapters ch ON ch.id = f.chapter_id
          JOIN courses c ON c.id = ch.course_id
@@ -202,10 +204,39 @@ pub fn reader_course_files(conn: &Connection, file_id: i64) -> Result<Vec<Reader
                 chapter: row.get(3)?,
                 title_translation: row.get(4)?,
                 title_placeholders: placeholders,
+                is_activity: row.get(6)?,
             })
         })?
         .collect::<rusqlite::Result<Vec<_>>>()?;
     Ok(files)
+}
+
+/// The xourse files of the course that contains `file_id`.
+pub fn xourse_sources(conn: &Connection, file_id: i64) -> Result<Vec<XourseSource>> {
+    let mut statement = conn.prepare(
+        "SELECT f.id, f.caminho_tex, f.fonte_original
+         FROM files f
+         JOIN chapters ch ON ch.id = f.chapter_id
+         WHERE ch.course_id = (
+           SELECT ch_current.course_id
+           FROM files f_current
+           JOIN chapters ch_current ON ch_current.id = f_current.chapter_id
+           WHERE f_current.id = ?1
+         )
+         AND instr(f.fonte_original, '\\documentclass') > 0
+         AND instr(f.fonte_original, '{xourse}') > 0
+         ORDER BY ch.ordem, f.ordem",
+    )?;
+    let sources = statement
+        .query_map([file_id], |row| {
+            Ok(XourseSource {
+                id: row.get(0)?,
+                path: row.get(1)?,
+                source: row.get(2)?,
+            })
+        })?
+        .collect::<rusqlite::Result<Vec<_>>>()?;
+    Ok(sources)
 }
 
 /// Chooses a useful place to resume translating an activity: unfinished work
@@ -312,29 +343,31 @@ pub fn first_pending(conn: &Connection) -> Result<Option<i64>> {
         )
         .optional()?)
 }
-pub type ChapterTree = Vec<(String, Vec<(String, Vec<(i64, i64, String)>)>)>;
+/// Chapters with their files (path, file id) and segments (id, order, status).
+pub type ChapterTree = Vec<(String, Vec<(String, i64, Vec<(i64, i64, String)>)>)>;
 pub fn chapters(conn: &Connection) -> Result<ChapterTree> {
-    let mut q = conn.prepare("SELECT c.nome,f.caminho_tex,s.id,s.ordem,s.status FROM chapters c JOIN files f ON f.chapter_id=c.id LEFT JOIN segments s ON s.file_id=f.id ORDER BY c.ordem,f.ordem,s.ordem")?;
+    let mut q = conn.prepare("SELECT c.nome,f.caminho_tex,f.id,s.id,s.ordem,s.status FROM chapters c JOIN files f ON f.chapter_id=c.id LEFT JOIN segments s ON s.file_id=f.id ORDER BY c.ordem,f.ordem,s.ordem")?;
     let mut answer: ChapterTree = vec![];
     for row in q.query_map([], |r| {
         Ok((
             r.get::<_, String>(0)?,
             r.get::<_, String>(1)?,
-            r.get::<_, Option<i64>>(2)?,
+            r.get::<_, i64>(2)?,
             r.get::<_, Option<i64>>(3)?,
-            r.get::<_, Option<String>>(4)?,
+            r.get::<_, Option<i64>>(4)?,
+            r.get::<_, Option<String>>(5)?,
         ))
     })? {
-        let (chapter, file, id, order, status) = row?;
+        let (chapter, file, file_id, id, order, status) = row?;
         if answer.last().map(|x| x.0.as_str()) != Some(chapter.as_str()) {
             answer.push((chapter, vec![]));
         }
         let files = &mut answer.last_mut().unwrap().1;
         if files.last().map(|x| x.0.as_str()) != Some(file.as_str()) {
-            files.push((file, vec![]));
+            files.push((file, file_id, vec![]));
         }
         if let (Some(id), Some(order), Some(status)) = (id, order, status) {
-            files.last_mut().unwrap().1.push((id, order, status));
+            files.last_mut().unwrap().2.push((id, order, status));
         }
     }
     Ok(answer)

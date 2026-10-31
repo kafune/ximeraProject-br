@@ -1,0 +1,425 @@
+<!-- traduz-render: 8cc572e52fe266af4d3c8954f40221ac37ed7e9a36f1c50b805ed1d868e06d0e -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class="abstract">
+Introduzimos as antiderivadas. 
+</div>
+<div class="maketitle"></div>
+<p class="noindent" >Calcular derivadas não é tão difícil. A esta altura, você deve ser capaz de derivar
+praticamente qualquer função que consiga escrever. No entanto, desfazer derivadas é
+bem mais difícil. Esse processo de desfazer uma derivada é chamado de calcular uma
+<em>antiderivada</em>.
+</p>
+<div class="theorem-like problem-environment definition" id="problem1" titletext=" definition"><a 
+ id="x1-2r1"></a>Uma função \(F\) é chamada de <strong>antiderivada</strong> de \(f\) em um intervalo se \[ F'(x) = f(x) \] para todo \(x\) no
+intervalo. </div>
+<div role="article" class="problem-environment question" id="problem2" numbered="" titletext=" Question">  Quantas antiderivadas \(f(x) = 2x\) possui?  <div class="multiple-choice" id="problem3" titletext=" Multiple Choice"><span class="choice  "   id="choice1">nenhuma</span> <span class="choice  "   id="choice2">uma</span> <span class="choice correct "   id="choice3">infinitas</span> </div>  <div class="feedback" data-feedback="attempt" id="feedback4" titletext=" Feedback (attempt)"><div class="image-environment" role="img" aria-labelledby="image-alt-1">
+<img 
+src="/rendered/antiderivatives/digInBasicAntiderivatives-62252827e799e7cbae8615c0a0008836.svg" alt="[Picture]"  /> </div> As funções \(x^2\), \(x^2-1.5\), \(x^2+2\), \(x^2+5\) e assim
+por diante são todas antiderivadas de \(2x\).
+<p class="noindent" >É claro que qualquer função \(x^2+C\), em que \(C\) é uma constante, é uma antiderivada de \(f\). Por
+quê? Porque \((x^2+C)'=2x=f(x)\).
+</p><p class="noindent" >Poderia existir alguma outra antiderivada de \(f\), digamos \(G\), tal que \(G(x)\) não seja a soma de \(x^2\)
+com uma constante? Nesse caso, para todo \(x\) teríamos \[ (G(x)-x^2)' = G'(x)-2x=f(x)-2x= \class{xm-given}{0} \] </div> Lembre-se: qualquer função
+cuja derivada é igual a \(0\) em algum intervalo é igual a uma constante nesse intervalo.
+Isso significa que a função \(G(x)-x^2=C\), para alguma constante \(C\). Isso implica que \(G(x)=x^2+C\), para todo x.
+</p></div>
+<div class="theorem-like problem-environment theorem" id="problem5" titletext=" theorem"><a 
+ id="x1-3r2"></a><span class="theorem-like-title">A família de antiderivadas</span><a class="ximera-label" id="theorem:FOA"></a>
+<p class="noindent" >Se \(F\) é uma antiderivada de \(f\), então a função \(f\) tem toda uma <strong>família de
+antiderivadas</strong>. Cada antiderivada de \(f\) é a soma de \(F\) com alguma constante \(C\).
+</p></div>
+<p class="noindent" >Quando escrevemos \(F(x)+C\), estamos denotando toda a família de antiderivadas de \(f\). Uma
+                                                                  
+
+                                                                  
+notação alternativa para essa família de antiderivadas foi introduzida por
+<a href="https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz" target="_blank">G.W. Leibniz</a> (1646-1716):
+</p>
+<div class="theorem-like problem-environment definition" id="problem6" titletext=" definition"><a 
+ id="x1-4r3"></a> Seja \(f\) uma função. A família de <em>todas</em> as antiderivadas de \(f\) é denotada por
+\[ \int f(x) \d x. \]
+<p class="noindent" >Isso é chamado de <strong>integral indefinida</strong> de \(f\). </p></div>
+<p class="noindent" >Segue que \[\int f(x) \d x =F(x)+C, \] em que \(F\) é qualquer antiderivada de \(f\) e \(C\) é uma constante arbitrária.
+</p><p class="noindent" >Abaixo está uma lista de antiderivadas básicas das nossas funções famosas. Observe
+que cada um desses exemplos vem diretamente do nosso conhecimento das derivadas
+básicas.
+</p>
+<div class="theorem-like problem-environment theorem" id="problem7" titletext=" theorem"><a 
+ id="x1-5r4"></a><span class="theorem-like-title">Integrais indefinidas básicas</span>
+     <ul class="itemize1">
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int k \d x= k x+C\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int \frac {1}{x} \d x= \ln |x|+C\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int x^n \d x= \frac {x^{n+1}}{n+1}+C\qquad (n\ne -1)\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int e^x \d x= e^x + C\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int a^x \d x= \frac {a^x}{\ln (a)}+C\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int \cos (x) \d x = \sin (x) + C\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int \sin (x) \d x = -\cos (x) + C\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int \sec ^2(x) \d x = \tan (x) + C\)
+                                                                  
+
+                                                                  
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int \csc ^2(x) \d x = -\cot (x) + C\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int \sec (x)\tan (x) \d x = \sec (x) + C\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int \csc (x)\cot (x) \d x = -\csc (x) + C\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int \frac {1}{x^2+1}\d x = \arctan {(x)} + C\)
+     </p></li>
+     <li class="itemize">
+     <p class="noindent" >\(\displaystyle \int \frac {1}{\sqrt {1-x^2}}\d x= \arcsin {(x)}+C\)</p></li></ul>
+</div>
+<p class="noindent" >Pode parecer que bastaria memorizar essas antiderivadas e que antiderivar
+seria tão fácil quanto derivar. Esse <strong>não</strong> é o caso. O problema surge quando
+tentamos combinar essas funções. Ao calcular derivadas, temos a <em>regra do
+produto</em> e a <em>regra da cadeia</em>. Os análogos dessas duas regras são muito mais
+difíceis de lidar quando calculamos antiderivadas. Porém, nem tudo está
+perdido.
+</p><p class="noindent" >Considere o exemplo a seguir. </p><div class="theorem-like problem-environment example" id="problem8" titletext=" example"><a 
+ id="x1-6r5"></a>Determine uma antiderivada da função \(h\) definida pela
+expressão
+<p class="noindent" >\(h(x)=\cos (x)+\frac {1}{x}\), para todo \(x\) em algum intervalo \(I\). </p><div class="multiple-choice" id="problem9" titletext=" Multiple Choice"><span class="choice  "   id="choice4">\(H(x)=\cos (x)+\frac {1}{x}\)</span> <span class="choice  "   id="choice5">\(H(x)=\sin (x)+\frac {1}{x^2}\)</span> <span class="choice correct "   id="choice6">\(H(x)=\sin (x)+\ln (x)\)</span> </div> <div class="feedback" data-feedback="attempt" id="feedback10" titletext=" Feedback (attempt)">Derive cada alternativa. Na última
+alternativa, obtemos \(H'(x)=\cos (x)+\frac {1}{x}=h(x)\). </div> </div>
+<p class="noindent" >É fácil verificar se uma antiderivada está correta: basta derivá-la e checar que \(H'(x)=h(x)\), para
+todo \(x\) em \(I\).
+</p><p class="noindent" >Observe que, no último exemplo, a função \(h\) é a soma de duas funções, \(f\) e \(g\), em que \(f(x)=\cos (x)\) e \(g(x)=\frac {1}{x}\),
+para \(x\) em \(I\).
+</p><p class="noindent" >Conhecemos antiderivadas de ambas as funções: \(F(x)=\sin (x)\) e \(G(x)=\ln (x)\), para \(x\) em \(I\), são antiderivadas de \(f\)
+e \(g\), respectivamente. Assim, neste exemplo vemos que a função \(F+G\) é uma antiderivada
+de \(f+g\). Em outras palavras, ”a soma de antiderivadas é uma antiderivada da
+soma”.
+</p><p class="noindent" >Isso é verdade em geral?
+</p><p class="noindent" >Vamos verificar se essa regra vale para qualquer par admissível de funções \(f\) e \(g\)
+definidas em algum intervalo \(I\).   </p><div role="article" class="problem-environment question" id="problem11" numbered="" titletext=" Question">   Sejam \(f\), \(g\), \(F\) e \(G\) quatro funções definidas em algum
+                                                                  
+
+                                                                  
+intervalo \(I\) tais que \(F\) é uma antiderivada de \(f\) e \(G\) é uma antiderivada de \(g\), isto
+é,
+<p class="noindent" >\(F'(x)=f(x)\) e \(G'(x)=g(x)\) para todo \(x\) em algum intervalo \(I\).
+</p><p class="noindent" >Determine uma antiderivada da função \(f+g\). </p><div data-original="expandable" id="foldable12" class="foldable">xmhintDerive a função \(F+G\).</div>Como \(\left (F(x)+G(x)\right )'=F'(x)+G'(x)=f(x)+g(x)\), segue que \(F+G\) é
+uma antiderivada de \(f+g\).
+<p class="noindent" >Resumindo: a soma de antiderivadas é uma antiderivada da soma.    </p></div> Provamos o
+teorema a seguir.
+<div class="theorem-like problem-environment theorem" id="problem13" titletext=" theorem"><a 
+ id="x1-7r6"></a><span class="theorem-like-title">Regra da soma para antiderivadas</span><a class="ximera-label" id="theorem:SRA"></a> Se \(F\) é uma antiderivada de \(f\) e \(G\) é uma antiderivada
+de \(g\), então \(F+G\) é uma antiderivada de \(f+g\).
+<p class="noindent" >De modo equivalente, usando integrais indefinidas, podemos escrever
+</p><p class="noindent" >\(\displaystyle \int \left (f(x)+g(x)\right ) \d x= \int f(x)\d x +\int g(x) \d x\). </p></div>
+<p class="noindent" >Em seguida, vamos tentar provar um análogo da regra do múltiplo constante para
+derivadas. Consideremos o exemplo a seguir. </p><div class="theorem-like problem-environment example" id="problem14" titletext=" example"><a 
+ id="x1-8r7"></a>Determine uma antiderivada da função \(h\),
+em que \(h(x)=5\sec ^{2}(x)\), para todo \(x\) em algum intervalo \(I\). <div class="multiple-choice" id="problem15" titletext=" Multiple Choice"><span class="choice correct "   id="choice7">\(H(x)=5\tan (x)\)</span> <span class="choice  "   id="choice8">\(H(x)=5\sec ^{2}(x)\)</span> <span class="choice  "   id="choice9">\(H(x)=\sec ^{2}(5x)\)</span> </div> <div class="feedback" data-feedback="attempt" id="feedback16" titletext=" Feedback (attempt)">Derive cada alternativa para \(H(x)\). Na
+primeira alternativa, obtemos \(H'(x)=5\sec ^{2}(x)=h(x)\). </div> </div>
+<p class="noindent" >É fácil reconhecer uma antiderivada: basta derivá-la e verificar se \(H'(x)=h(x)\), para todo \(x\) em \(I\).
+Observe que, neste exemplo, a função \(h\) é um múltiplo constante de \(f\), em que \(f(x)=\sec ^{2}(x)\). Por
+outro lado, sabemos que a função \(F\), definida por \(F(x)=\tan (x)\), é uma antiderivada de
+\(f\).
+</p><p class="noindent" >Se derivarmos a função \(5F\), obtemos \(\left (5F(x)\right )'=\left (5\tan (x)\right )'=5\left (\tan (x)\right )'=5\sec ^2(x)=5f(x)\), para \(x\) em \(I\).
+</p><p class="noindent" >Em outras palavras, “um múltiplo constante de uma antiderivada é uma antiderivada
+do múltiplo constante da função.” Isso é sempre verdade?
+</p><p class="noindent" >Vamos verificar se essa regra vale para qualquer constante \(k\) e qualquer função
+admissível \(f\) definida em algum intervalo \(I\).
+</p>
+<div role="article" class="problem-environment question" id="problem17" numbered="" titletext=" Question">  Seja \(k\) uma constante, seja \(f\) uma função definida em algum intervalo \(I\) e seja \(F\) uma
+antiderivada de \(f\), isto é,
+<p class="noindent" >\(F'(x)=f(x)\), para todo \(x\) em algum intervalo \(I\).
+</p><p class="noindent" >Determine uma antiderivada da função \(k f\). </p><div data-original="expandable" id="foldable18" class="foldable">xmhintDerive a função \(kF\).</div>Como \(\left (kF(x)\right )'=kF'(x)=kf(x)\),
+segue que \(kF\) é uma antiderivada de \(kf\). Resumindo: o múltiplo constante de uma
+antiderivada é uma antiderivada do múltiplo constante da função.    </div> Provamos
+o teorema a seguir. <div class="theorem-like problem-environment theorem" id="problem19" titletext=" theorem"><a 
+ id="x1-9r8"></a><span class="theorem-like-title">Regra do múltiplo constante para antiderivadas</span><a class="ximera-label" id="theorem:CMRA"></a> Se \(F\) é
+uma antiderivada de \(f\) e \(k\) é uma constante, então \(kF\) é uma antiderivada de
+\(kf\).
+<p class="noindent" >De modo equivalente, usando integrais indefinidas, podemos escrever \(\displaystyle \int kf(x) \d x= k\int f(x)\d x\). </p></div> Vamos
+colocar essas regras e nosso conhecimento das derivadas básicas para trabalhar.
+<div class="theorem-like problem-environment example" id="problem20" titletext=" example"><a 
+ id="x1-10r9"></a>Determine a antiderivada de \(3 x^7\). <div class="theorem-like problem-environment explanation" id="problem21" titletext=" explanation"><a 
+ id="x1-11r10"></a>Pelos teoremas acima, vemos que \begin{align*}  \int 3 x^7 \d x &amp;= 3 \int x^7 \d x\\ &amp;= 3 \cdot \class{xm-given}{\frac {x^8}{8}}+C.  \end{align*}
+</div> </div> A regra da soma para antiderivadas nos permite integrar termo a termo. Vejamos
+um exemplo disso.
+                                                                  
+
+                                                                  
+<div class="theorem-like problem-environment example" id="problem22" titletext=" example"><a 
+ id="x1-12r11"></a>Calcule: \[ \int \left (x^4 + 5x^2 - \cos (x)\right ) \d x \] <div class="theorem-like problem-environment explanation" id="problem23" titletext=" explanation"><a 
+ id="x1-13r12"></a>Vamos começar simplificando o problema com a regra da soma e a regra do
+múltiplo constante para antiderivadas: \begin{align*}  \int &amp;\left (x^4 + 5x^2 - \cos (x)\right ) \d x\\ &amp;= \int x^4 \d x + 5\int x^2 \d x - \int \cos (x) \d x.  \end{align*}
+<p class="noindent" >Agora podemos integrar termo a termo e obter \[ = \class{xm-given}{\frac {x^5}{5} + \frac {5x^3}{3} - \sin (x)}+C. \] </p></div> </div>
+<div class="theorem-like problem-environment warning" id="problem24" titletext=" warning"><a 
+ id="x1-14r13"></a>Embora a regra da soma para antiderivadas nos permita integrar termo a termo, não
+podemos integrar <em>fator a fator</em>, ou seja, em geral \[ \int f(x)g(x) \d x \ne \int f(x) \d x\cdot \int g(x) \d x. \] </div>
+<div class="theorem-like problem-environment example" id="problem25" titletext=" example"><a 
+ id="x1-15r14"></a>Um estudante afirma que \(\int 2x \cos (x) \d x = x^2 \sin (x) +C\). Determine se o estudante está certo ou errado.
+<div class="theorem-like problem-environment explanation" id="problem26" titletext=" explanation"><a 
+ id="x1-16r15"></a>Se o estudante estivesse certo, a derivada de \(x^2 \sin (x) +C\) em relação a \(x\) teria de ser \(2x \cos (x)\).
+Porém:
+<p class="noindent" >\[\ddx x^2 \sin (x) = \class{xm-given}{2x \sin (x) +x^2 \cos (x)} \]
+</p><p class="noindent" >Logo, o estudante está errado! </p></div> </div>
+<h3 class="sectionHead"><span class="titlemark">1   </span> <a 
+ id="x1-10001"></a>Calculando antiderivadas</h3>
+<p class="noindent" >Infelizmente, não podemos lhe dizer como calcular toda e qualquer antiderivada; nós
+as vemos como uma espécie de <em>quebra-cabeça</em>. Mais adiante, aprenderemos um
+punhado de técnicas para calcular antiderivadas. Contudo, uma maneira simples e
+robusta de calcular antiderivadas é chutar e verificar.
+</p><p class="noindent" ><span class="paragraphHead">Dicas para chutar antiderivadas</span>
+     </p><ol  class="enumerate1" >
+<li 
+  class="enumerate" id="x1-1002x1">
+     <p class="noindent" >Se possível, expresse a função que você está integrando em uma forma
+     conveniente para a integração.
+     </p></li>
+<li 
+  class="enumerate" id="x1-1004x2">
+     <p class="noindent" >Dê um chute para a antiderivada.
+     </p></li>
+<li 
+  class="enumerate" id="x1-1006x3">
+     <p class="noindent" >Calcule a derivada do seu chute.
+     </p></li>
+<li 
+  class="enumerate" id="x1-1008x4">
+     <p class="noindent" >Observe em que a derivada acima difere da função cuja antiderivada você
+     quer encontrar.
+                                                                  
+
+                                                                  
+     </p></li>
+<li 
+  class="enumerate" id="x1-1010x5">
+     <p class="noindent" >Modifique seu chute original <strong>multiplicando</strong> por constantes ou <strong>somando</strong>
+     novas funções.</p></li></ol>
+<div class="theorem-like problem-environment example" id="problem27" titletext=" example"><a 
+ id="x1-1011r16"></a>Calcule: \[ \int \frac {\sqrt {x}+1+x}{x} \d x \] <div class="theorem-like problem-environment explanation" id="problem28" titletext=" explanation"><a 
+ id="x1-1012r17"></a>Antes de chutar a solução, vamos expressar a função em uma
+forma conveniente para a integração. Por causa da regra da soma, é mais
+conveniente ter uma soma de funções do que um único termo complicado.
+\begin{align*}  \int \frac {\sqrt {x}+1+x}{x} \d x &amp;=\int \left (\frac {\sqrt {x}}{x}+\frac {1}{x}+\frac {x}{x}\right ) \d x\\ &amp;=\int \left (\frac {1}{\sqrt {x}}+\frac {1}{x}+1\right ) \d x\\ &amp;=\int \left (x^{-\frac {1}{2}}+\frac {1}{x}+1\right ) \d x  \end{align*}
+<p class="noindent" >Agora podemos aplicar a regra da soma. \[ \int \left (x^{-\frac {1}{2}}+\frac {1}{x}+1\right ) \d x=\int x^{-\frac {1}{2}}\d x+\int \frac {1}{x}\d x+\int 1 \d x \] Agora podemos terminar o problema. \[ \int \frac {\sqrt {x}+1+x}{x} \d x= \class{xm-given}{2}\sqrt {x}+\ln (x)+ \class{xm-given}{x} + C. \] </p></div>
+</div>
+<div class="theorem-like problem-environment example" id="problem29" titletext=" example"><a 
+ id="x1-1013r18"></a>Calcule: \[ \int \cos {(4x)} \d x \] <div class="theorem-like problem-environment explanation" id="problem30" titletext=" explanation"><a 
+ id="x1-1014r19"></a>Comece com o chute \[ \int \cos {(4x)} \d x \approx \sin {(4x)}. \] Aqui, usamos o símbolo \(\approx \) para indicar que isso é um
+chute, baseado no integrando. Calcule a derivada do seu chute para ver se ele está
+correto: \[ \ddx \sin {(4x)} = 4 \cos {(4x)}. \] Erramos por um fator de \(\frac {1}{4}\), então multiplique seu chute por essa constante. \[ \ddx \dfrac {1}{4} \sin {(4x)} = \cos {(4x)}. \]
+Isso nos dá a resposta. \[ \int \cos {(4x)} \d x = \class{xm-given}{\frac {1}{4}\sin {(4x)}}+C. \] </div> </div>
+<div class="theorem-like problem-environment example" id="problem31" titletext=" example"><a 
+ id="x1-1015r20"></a>Calcule: \[ \int 6 e^{5x+1} \d x \] <div class="theorem-like problem-environment explanation" id="problem32" titletext=" explanation"><a 
+ id="x1-1016r21"></a>Como o integrando aqui é uma exponencial, começaremos chutando uma
+exponencial. \[ \int 6e^{5x+1} \d x \approx e^{5x+1}. \] Derive nosso chute para verificá-lo: \[ \ddx e^{5x+1} = 5 e^{5x+1}. \] Parece que erramos por um fator
+constante. Vamos dividir por \(5\) para nos livrar do coeficiente do lado direito. \[ \ddx \dfrac {1}{5}e^{5x+1} = e^{5x+1}. \]
+Precisamos de um coeficiente \(6\) na exponencial, então multiplicamos por \(6\). \[ \ddx \dfrac {6}{5}e^{5x+1} = 6e^{5x+1}. \] Isso nos dá
+o resultado. \[ \int 6e^{5x+1} \d x = \dfrac {6}{5}\class{xm-given}{ e^{5x+1}} + C. \] </div>
+</div>
+<div class="theorem-like problem-environment example" id="problem33" titletext=" example"><a 
+ id="x1-1017r22"></a>Calcule: \[ \int \dfrac {1}{7}e^{2x}\cos {(3e^{2x}-5)} \d x \] <div class="theorem-like problem-environment explanation" id="problem34" titletext=" explanation"><a 
+ id="x1-1018r23"></a>Comece com o chute \[ \int \dfrac {1}{7}e^{2x}\cos {(3e^{2x}-5)} \d x \approx \sin (3e^{2x}-5). \] Calcule a derivada do seu chute para ver se ele
+está correto: \[ \ddx \sin (3e^{2x}-5) = 6e^{2x}\cos (3e^{2x}-5). \] Para nos livrar do coeficiente \(6\), dividimos ambos os lados. \[ \ddx \dfrac {1}{6}\sin (3e^{2x}-5) = e^{2x}\cos (3e^{2x}-5). \]
+Multiplique ambos os lados por \(\frac {1}{7}\) para obter o coeficiente correto. \[ \ddx \dfrac {1}{42}\sin (3e^{2x}-5) = \dfrac {1}{7}e^{2x}\cos (3e^{2x}-5). \] Portanto, \[ \int \dfrac {1}{7}e^{2x}\cos {(3e^{2x}-5)} \d x = \dfrac {1}{42}\class{xm-given}{\sin (3e^{2x}-5)} + C. \] </div>
+</div>
+<div class="theorem-like problem-environment example" id="problem35" titletext=" example"><a 
+ id="x1-1019r24"></a>Calcule: \[ \int x^2\sin {(x^3 -6)} \d x \] <div class="theorem-like problem-environment explanation" id="problem36" titletext=" explanation"><a 
+ id="x1-1020r25"></a>Comece com o chute \[ \int x^2\sin {(x^3 -6)} \d x \approx -\cos {(x^3 -6)}. \] Calcule a derivada do seu chute para ver se ele está
+correto: \[ \ddx \left (-\cos {(x^3 -6)}\right ) = 3x^2\sin {(x^3 -6)}. \] Erramos por um fator de \(1/3\), então multiplique nosso chute por essa constante
+para obter a solução, \[ \int x^2\sin {(x^3 -6)} \d x =- \class{xm-given}{\frac {1}{3}}\cos {(x^3 -6)}+C. \] </div> </div>
+<div class="theorem-like problem-environment example" id="problem37" titletext=" example"><a 
+ id="x1-1021r26"></a>Calcule: \[ \int \frac {x^3}{\sqrt {x^4 -6}} \d x \] <div class="theorem-like problem-environment explanation" id="problem38" titletext=" explanation"><a 
+ id="x1-1022r27"></a>Comece reescrevendo a integral indefinida como \[ \int x^3\left (x^4 -6\right )^{-1/2} \d x. \] Agora comece com o chute
+\[ \int x^3\left (x^4 -6\right )^{-1/2} \d x \approx \left (x^4 -6\right )^{1/2}. \] Calcule a derivada do seu chute para ver se ele está correto: \[ \ddx \left (x^4 -6\right )^{1/2} = (4/2)x^3\left (x^4 -6\right )^{-1/2}. \] Erramos por um fator
+de \(2/4\), então multiplique nosso chute por essa constante para obter a solução, \[ \int \frac {x^3}{\sqrt {x^4 -6}} \d x = \class{xm-given}{\frac {1}{2}}(x^4 -6)^{1/2}+C. \] </div>
+</div>
+<div class="theorem-like problem-environment example" id="problem39" titletext=" example"><a 
+ id="x1-1023r28"></a>Calcule: \[ \int xe^{x^2} \d x \] <div class="theorem-like problem-environment explanation" id="problem40" titletext=" explanation"><a 
+ id="x1-1024r29"></a>Tentamos chutar a antiderivada. Comece com o chute \[ \int xe^{x^2} \d x \approx e^{x^2}. \] Calcule a derivada
+do seu chute para ver se ele está correto: \[ \ddx e^{x^2} = 2xe^{x^2} . \] Ah! Então basta multiplicar nosso chute
+original por \(\frac {1}{2}\). Agora obtemos \[ \int xe^{x^2} \d x =\class{xm-given}{\frac {1}{2}}e^{x^2} + C. \] </div> </div> <div class="theorem-like problem-environment example" id="problem41" titletext=" example"><a 
+ id="x1-1025r30"></a>Calcule: \[ \int \frac {21x^2}{7x^3 + 3} \d x \] <div class="theorem-like problem-environment explanation" id="problem42" titletext=" explanation"><a 
+ id="x1-1026r31"></a>Notamos que o numerador é a derivada
+do denominador, isto é, a função que estamos integrando tem a forma \(\frac {f'(x)}{f(x)}\). \[ \int \frac {21x^2}{7x^3 + 3} \d x = \ln (7x^3+3). \]
+Calcule a derivada do seu chute para ver se ele está correto: \[ \ddx \ln (7x^3+3) = \frac {21x^2}{7x^3 + 3}. \] Portanto, \[ \int \frac {21x^2}{7x^3 + 3} \d x = \ln {(\class{xm-given}{7x^3+3})}+C. \] </div> </div>
+<div class="theorem-like problem-environment example" id="problem43" titletext=" example"><a 
+ id="x1-1027r32"></a>Calcule: \[ \int \frac {2x^2}{7x^3 + 3} \d x \] <div class="theorem-like problem-environment explanation" id="problem44" titletext=" explanation"><a 
+ id="x1-1028r33"></a>Começaremos com o chute \[ \int \frac {2x^2}{7x^3 + 3} \d x \approx \ln (7x^3+3). \] Calcule a derivada do seu chute para ver
+se ele está correto: \[ \ddx \ln (7x^3+3) = \frac {21x^2}{7x^3 + 3}. \] Erramos apenas por um fator de \(2/21\), então precisamos
+multiplicar nosso chute original por essa constante para obter a solução, \[ \int \frac {2x^2}{7x^3 + 3} \d x = \class{xm-given}{(2/21)\ln (7x^3+3)}+C. \] </div>
+</div>
+                                                                  
+
+                                                                  
+
+<h3 class="sectionHead"><span class="titlemark">2   </span> <a 
+ id="x1-20002"></a>Considerações finais</h3>
+<p class="noindent" >Calcular antiderivadas é um lugar onde intuição e cálculo mecânico se encontram.
+Não podemos lhe ensinar um método que sempre funcione. Além disso, apenas
+<em>entender</em> os exemplos acima provavelmente não será suficiente para você se
+tornar proficiente em calcular antiderivadas. Você precisa praticar, praticar,
+praticar!
+</p>
+<h3 class="sectionHead"><span class="titlemark">3   </span> <a 
+ id="x1-30003"></a>Equações diferenciais</h3>
+<p class="noindent" >As equações diferenciais mostram relações entre as taxas de variação de
+funções.
+</p><p class="noindent" >Uma <em>equação diferencial</em> é simplesmente uma equação que envolve uma derivada.
+Eis um exemplo: \[ a\cdot f'(x)+ b\cdot f(x) = g(x). \]   </p><div role="article" class="problem-environment question" id="problem45" numbered="" titletext=" Question">   Qual destas é uma equação diferencial? <div class="multiple-choice" id="problem46" titletext=" Multiple Choice"><span class="choice  "   id="choice10">\(x^2+3x-1=0\)</span> <span class="choice correct "   id="choice11">\(f'(x)=x^2+3x-1\)</span> <span class="choice  "   id="choice12">\(f(x)=x^2+3x-1\)</span> </div>
+</div>
+<p class="noindent" >Quando um matemático resolve uma equação diferencial, ele está encontrando
+<em>funções</em> que satisfazem a equação.   </p><div role="article" class="problem-environment question" id="problem47" numbered="" titletext=" Question">   Quais das funções a seguir resolvem a equação
+diferencial \[ f'(x) = f(x)? \] <div class="select-all" id="problem48" titletext=" Select All"><a 
+ id="x1-3001r34"></a> <span class="choice  "   id="choice13">\(f(x) = \sin (x)\)</span> <span class="choice  "   id="choice14">\(f(x) = x^2\)</span> <span class="choice correct "   id="choice15">\(f(x) = e^x\)</span> <span class="choice correct "   id="choice16">\(f(x) =6 e^x\)</span> <span class="choice  "   id="choice17">\(f(x) = e^{-x}\)</span> <span class="choice  "   id="choice18">\(f(x) = \tan (x)\)</span> </div>    </div> <div class="theorem-like problem-environment remark" id="problem49" titletext=" remark"><a 
+ id="x1-3002r35"></a>Podemos verificar diretamente que qualquer
+função \(f(x)=Ce^x\) é uma solução da nossa equação diferencial \(f'(x)=f(x)\). Poderia haver outras?
+Acontece que essas são as <em>únicas</em> soluções. Mas mostrar que não deixamos
+nenhuma de fora é um pouco delicado. <div data-original="expandable" id="foldable50" class="foldable"> <div class="theorem-like problem-environment explanation" id="problem51" titletext=" explanation"><a 
+ id="x1-3003r36"></a>Bem, suponha que temos uma função
+misteriosa \(f\) e tudo que sabemos é que \(f'(x)=f(x)\). Vamos definir uma nova função \(g(x)=f(x)/e^x\). Como o
+denominador nunca é 0, a regra do quociente nos diz que \[ g'(x)= \frac {e^x f'(x)- f(x) e^x}{(e^x)^2} = \frac {e^x\left (f'(x)- f(x)\right )}{(e^x)^2} = \frac {e^x\cdot 0}{(e^x)^2}=0. \] Mas sabemos
+que uma função com derivada 0 é constante, então \(g(x)=C\). Substituindo isso de
+volta na nossa fórmula para \(g(x)\), obtemos \(C=f(x)/e^x\). Agora rearranjamos para obter
+\(f(x)=Ce^x\).
+<p class="noindent" >Isso nos mostra que qualquer solução da nossa equação diferencial <em>deve</em> ser
+uma das funções que já encontramos. Nosso argumento depende de algumas
+características especiais deste problema; provar que encontramos todas as soluções
+possíveis de uma equação diferencial arbitrária é uma tarefa muito difícil! </p></div> </div>
+</div>
+<p class="noindent" >Uma função \(Ce^x\) é chamada de <strong>solução geral</strong> da equação diferencial. Como há
+infinitas soluções para uma equação diferencial, podemos impor uma condição
+adicional (digamos, \(f(0)=1\)), chamada de <strong>condição inicial</strong>. Quando nos pedem para
+encontrar uma função \(f\) que satisfaça tanto a equação diferencial (ED) quanto
+                                                                  
+
+                                                                  
+a condição inicial (CI), isso é chamado de <strong>problema de valor inicial</strong>
+(PVI). Vamos experimentar um. </p><div class="theorem-like problem-environment example" id="problem52" titletext=" example"><a 
+ id="x1-3004r37"></a>Resolva o problema de valor inicial (PVI):
+\begin{align*}  f'(x) &amp; = f(x) &amp;&amp; \text {(ED)} \\ f(0) &amp; = 1 &amp;&amp; \text {(CI)}  \end{align*}
+<div class="theorem-like problem-environment explanation" id="problem53" titletext=" explanation"><a 
+ id="x1-3005r38"></a>A figura abaixo mostra várias soluções da equação diferencial. <div class="image-environment" role="img" aria-labelledby="image-alt-2">
+<img 
+src="/rendered/antiderivatives/digInBasicAntiderivatives-79adc614e0707fc12fc659189d8b84a3.svg" alt="[Picture]"  /> </div> A figura sugere que a
+única solução do problema de valor inicial é a função \(f(x)=e^x\). Podemos verificar esse
+resultado.
+<p class="noindent" >Como todas as soluções da equação diferencial têm a forma \(f(x)=Ce^x\) e \(f(0)=1\), segue que \[ Ce^0 = 1. \] Portanto, \[ C = \class{xm-given}{1}. \]
+Assim, a <strong>única</strong> solução do problema de valor inicial dado é a função \(f(x)=e^x\). </p></div>
+</div>
+<div class="theorem-like problem-environment example" id="problem54" titletext=" example"><a 
+ id="x1-3006r39"></a>Resolva o problema de valor inicial (PVI): \begin{align*}  f'(x) &amp; = \sin (x) \\ f(0) &amp; = -1  \end{align*}
+<div class="theorem-like problem-environment explanation" id="problem55" titletext=" explanation"><a 
+ id="x1-3007r40"></a>Primeiro, temos que resolver a equação diferencial. A solução é claramente uma
+antiderivada de \(\sin (x)\). \[ f(x)=-\class{xm-given}{\cos (x)}+C, \] em que \(C\) é uma constante arbitrária. Encontramos a solução
+geral da ED, e essa família de soluções está ilustrada na figura abaixo. <div class="image-environment" role="img" aria-labelledby="image-alt-3">
+<img 
+src="/rendered/antiderivatives/digInBasicAntiderivatives-ebb4f85b5fe7b18ba1dfa9b04e6db113.svg" alt="[Picture]"  /> </div> Agora precisamos
+encontrar a solução que também satisfaz a condição inicial \(f(0)=-1\).
+                                                                  
+
+                                                                  
+<p class="noindent" >Como \[ f(0)=\class{xm-given}{-1}+C, \] segue que \[ -1=\class{xm-given}{-1}+C. \] Portanto, \[ C=\class{xm-given}{0}. \] A função \[ f(x)=\class{xm-given}{-\cos (x)}. \] é a solução do problema de valor inicial e
+está mostrada na figura acima. </p></div> </div>
+<script type="application/json" class="xm-answers">{}</script>

@@ -1,0 +1,224 @@
+<!-- traduz-render: 693dd1091076e5174572f463773e296f00069048ef813bef7492ddd4cceea918 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class="abstract">
+Dois jovens matemáticos discutem como esboçar os gráficos de funções. 
+</div>
+<div class="maketitle"></div>
+<p class="noindent" >Confira este diálogo entre dois estudantes de cálculo (baseado em uma história
+real):
+     </p><dl class="dialogue"><dt class="actor">
+Devyn </dt><dd 
+class="speech">Riley, beleza, eu sei esboçar o gráfico de algo quando me dão uma
+     descrição.
+     </dd><dt class="actor">
+Riley </dt><dd 
+class="speech">Sim, é até divertido, né?
+     </dd><dt class="actor">
+Devyn </dt><dd 
+class="speech">Eu sei! Mas agora não tenho certeza de como obter as informações de
+     que preciso.
+     </dd><dt class="actor">
+Riley </dt><dd 
+class="speech">Sabe, eu gostaria de montar um procedimento baseado em todos esses
+     fatos, que me dissesse como seria o gráfico de qualquer função.
+     </dd><dt class="actor">
+Devyn </dt><dd 
+class="speech">Eu também! Vamos ao trabalho!</dd></dl>
+<div role="article" class="problem-environment problem" id="problem1" numbered="" titletext=" Problem"> Abaixo está uma lista de características do gráfico de uma função.
+     <ol  class="enumerate1" >
+<li 
+  class="enumerate" id="x1-3x1">
+     <p class="noindent" >Determine os pontos \(x=a\) onde \(f(x)\) vai para o infinito quando \(x\) tende a \(a\) (pela
+     direita, pela esquerda ou por ambos os lados). Esses são os pontos onde \(f\)
+     tem uma assíntota vertical.
+     </p></li>
+<li 
+  class="enumerate" id="x1-5x2">
+     <p class="noindent" >Determine os pontos críticos (os pontos onde \(f'(x) = 0\) ou \(f'(x)\) não está definida).
+     </p></li>
+<li 
+  class="enumerate" id="x1-7x3">
+     <p class="noindent" >Identifique os pontos de inflexão e a concavidade.
+                                                                  
+
+                                                                  
+     </p></li>
+<li 
+  class="enumerate" id="x1-9x4">
+     <p class="noindent" >Determine um intervalo que mostre todo o comportamento relevante.
+     </p></li>
+<li 
+  class="enumerate" id="x1-11x5">
+     <p class="noindent" >Determine a interseção com o eixo \(y\), que é o ponto \((0,f(0))\). Marque esse ponto
+     no seu gráfico.
+     </p></li>
+<li 
+  class="enumerate" id="x1-13x6">
+     <p class="noindent" >Determine os candidatos a pontos de inflexão, os pontos onde \(f''(x) = 0\) ou \(f''(x)\) não
+     está definida.
+     </p></li>
+<li 
+  class="enumerate" id="x1-15x7">
+     <p class="noindent" >Se possível, determine as interseções com o eixo \(x\), os pontos onde \(f(x) = 0\). Marque
+     esses pontos no seu gráfico.
+     </p></li>
+<li 
+  class="enumerate" id="x1-17x8">
+     <p class="noindent" >Calcule \(f'\) e \(f''\).
+     </p></li>
+<li 
+  class="enumerate" id="x1-19x9">
+     <p class="noindent" >Analise  o  comportamento  no  infinito:  quando  \(x \to \pm \infty \),  o  que  acontece  com
+     o  gráfico  de  \(f\)?  Ele  tem  assíntotas  horizontais,  cresce  ou  decresce
+     ilimitadamente, ou tem algum outro tipo de comportamento?</p></li></ol>
+Use o teste da primeira ou da segunda derivada para identificar os extremos locais
+e/ou determinar os intervalos em que sua função é crescente/decrescente. Em que
+ordem devemos executar esses passos? Por exemplo, é preciso calcular \(f'\) antes de
+calcular \(f''\). Além disso, é preciso calcular \(f'\) antes de determinar os pontos críticos. Há
+mais de uma resposta correta. <div class="free-response" id="problem2" titletext=" Free Response"><a 
+ id="x1-20r1"></a> Aqui está uma resposta possível para essa pergunta.
+Compare-a com a sua!
+     <ol  class="enumerate1" >
+                                                                  
+
+                                                                  
+<li 
+  class="enumerate" id="x1-22x1">
+     <p class="noindent" >Determine a interseção com o eixo \(y\), que é o ponto \((0,f(0))\). Marque esse ponto
+     no seu gráfico.
+     </p></li>
+<li 
+  class="enumerate" id="x1-24x2">
+     <p class="noindent" >Determine as assíntotas verticais, se houver; elas são os pontos \(x=a\) onde \(f(x)\) vai
+     para o infinito quando \(x\) tende a \(a\) (pela direita, pela esquerda ou por ambos
+     os lados).
+     </p></li>
+<li 
+  class="enumerate" id="x1-26x3">
+     <p class="noindent" >Se possível, determine as interseções com o eixo \(x\), os pontos onde \(f(x) = 0\). Marque
+     esses pontos no seu gráfico.
+     </p></li>
+<li 
+  class="enumerate" id="x1-28x4">
+     <p class="noindent" >Analise  o  comportamento  no  infinito:  quando  \(x \to \pm \infty \),  o  que  acontece  com
+     o  gráfico  de  \(f\)?  Ele  tem  assíntotas  horizontais,  cresce  ou  decresce
+     ilimitadamente, ou tem algum outro tipo de comportamento?
+     </p></li>
+<li 
+  class="enumerate" id="x1-30x5">
+     <p class="noindent" >Calcule \(f'(x)\) e \(f''(x)\).
+     </p></li>
+<li 
+  class="enumerate" id="x1-32x6">
+     <p class="noindent" >Determine os pontos críticos (os pontos onde \(f'(x) = 0\) ou \(f'(x)\) não está definida).
+     </p></li>
+<li 
+  class="enumerate" id="x1-34x7">
+     <p class="noindent" >Use  o  teste  da  primeira  ou  da  segunda  derivada  para  identificar  os
+     extremos  locais  e/ou  determinar  os  intervalos  em  que  sua  função  é
+     crescente/decrescente.
+     </p></li>
+<li 
+  class="enumerate" id="x1-36x8">
+     <p class="noindent" >Determine os candidatos a pontos de inflexão, os pontos onde \(f''(x) = 0\) ou \(f''(x)\) não
+     está definida.
+                                                                  
+
+                                                                  
+     </p></li>
+<li 
+  class="enumerate" id="x1-38x9">
+     <p class="noindent" >Identifique os pontos de inflexão e a concavidade.
+     </p></li>
+<li 
+  class="enumerate" id="x1-40x10">
+     <p class="noindent" >Determine um intervalo que mostre todo o comportamento relevante</p></li></ol>
+<p class="noindent" ></div>   </p></div>
+<script type="application/json" class="xm-answers">{}</script>

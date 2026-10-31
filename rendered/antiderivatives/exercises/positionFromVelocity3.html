@@ -1,0 +1,106 @@
+<!-- traduz-render: 6101ec550bc1de8f23fa85db2f3c173c6cc8177f8d3d7c51e4915e5e9b1a55e7 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div role="article" class="problem-environment exercise" id="problem1" numbered="" titletext=" Exercise">
+O objeto está na origem quando começa a se mover ao longo da reta. A velocidade
+do objeto é dada pela função \[ v(t) = \begin{cases} t-2 &amp; 0\leq t\leq 4\\ 2\cos \left (\frac {\pi t}{2}\right ) &amp; 4&lt;t\leq 8 \end{cases}. \] (a) Determine \(s(t)\), a posição do objeto em um instante \(t\),
+para \(0\leq t\leq 8\). <div data-original="expandable" id="foldable2" class="foldable">xmhintResolva o PVI: \[ s'(t) = v(t) \]
+<p class="noindent" >\[ s(0) = 0 \]</div></p><div data-original="expandable" id="foldable3" class="foldable">xmhintComo a função \(v\) é uma função definida por partes, vamos primeiro resolver o
+seguinte PVI para \(0\leq t\leq 4\): \[ s'(t) =t-2 \]
+<p class="noindent" >\[ s(0) = 0 \]</div></p><div data-original="expandable" id="foldable4" class="foldable">xmhintPara \(0\leq t\leq 4\): \[ s(t) =\class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}t^2-\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}t+\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \]</div><div data-original="expandable" id="foldable5" class="foldable">xmhintAgora precisamos resolver o PVI para \(4\leq t\leq 8\): \[ s'(t) =2\cos \left (\frac {\pi t}{2}\right ) \]
+<p class="noindent" >Mas qual é a condição inicial aqui? \(s(0)=0\) não se aplica, porque \(4\leq t\leq 8\). Mas sabemos que a
+solução \(s\) tem de ser uma função derivável. Portanto, \(s\) é contínua. Logo, ela é, em
+particular, contínua em \(t=4\). Portanto, usando a expressão de \(s(t)\) para \(t\) em \([0,4]\), obtemos
+que
+</p><p class="noindent" >\(s(4)= \lim _{t\to 4^{-}}s(t)= \frac {1}{2}(16)-2(4)=0\)</div></p><div data-original="expandable" id="foldable6" class="foldable">xmhintPara \(0\leq t\leq 4\): \[ s(t) =\class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}t^2-\class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}}t+\class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}} \]</div><div data-original="expandable" id="foldable7" class="foldable">xmhintAgora precisamos resolver o PVI para \(4\leq t\leq 8\): \[ s'(t) =2\cos \left (\frac {\pi t}{2}\right ) \] \[ s(4) =0 \] Assim, \[ s(t) =\class{xm-answer}{\cssId{xm-answer-7}{\phantom{\rule{7em}{1.5em}}}}\sin \left (\frac {\pi t}{2}\right ) +C, \] e \[ s(4) =0. \] Substituindo
+\(t=4\), obtemos \[ s(4) =\class{xm-answer}{\cssId{xm-answer-8}{\phantom{\rule{7em}{1.5em}}}}\sin \left (\frac {\pi (4)}{2}\right ) +C=C, \] Portanto, \[ C =\class{xm-answer}{\cssId{xm-answer-9}{\phantom{\rule{7em}{1.5em}}}}. \]</div>SOLUÇÃO:
+<p class="noindent" >Se \( 0&lt;t\leq 4\) \[ s(t) = \class{xm-answer}{\cssId{xm-answer-10}{\phantom{\rule{7em}{1.5em}}}}t^2-\class{xm-answer}{\cssId{xm-answer-11}{\phantom{\rule{7em}{1.5em}}}}t ; \] se \( 4&lt;t\leq 8\) \[ s(t)=\class{xm-answer}{\cssId{xm-answer-12}{\phantom{\rule{7em}{1.5em}}}}\sin \left (\frac {\pi t}{2}\right ). \]
+</p>
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"\\frac {1}{2}","format":"expression","given":false,"antiderivative":false},"xm-answer-10":{"answer":"\\frac {1}{2}","format":"expression","given":false,"antiderivative":false},"xm-answer-11":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-12":{"answer":"\\frac {4}{\\pi }","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"\\frac {1}{2}","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"0","format":"expression","given":false,"antiderivative":false},"xm-answer-7":{"answer":"\\frac {4}{\\pi }","format":"expression","given":false,"antiderivative":false},"xm-answer-8":{"answer":"\\frac {4}{\\pi }","format":"expression","given":false,"antiderivative":false},"xm-answer-9":{"answer":"0","format":"expression","given":false,"antiderivative":false}}</script>

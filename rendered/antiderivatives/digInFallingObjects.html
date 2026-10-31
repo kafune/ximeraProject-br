@@ -1,0 +1,130 @@
+<!-- traduz-render: 1467a5b35f53f4d21b9d5cad1a36aa0b923d490d9fc843f82caafe0b7e6eace9 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Estudamos um tipo especial de equação diferencial. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Uma <strong>equação diferencial</strong> é simplesmente uma equação que contém uma derivada,
+como esta: \[ f'(x) = k f(x). \] Quando um matemático resolve uma equação diferencial, ele está
+encontrando uma <em>função</em> que satisfaz a equação.
+</p><p class='noindent'>Considere um objeto em queda. Lembre-se de que a aceleração da gravidade é de
+aproximadamente \(-9.8\) m/s\(^2\). Como a primeira derivada da função velocidade é a
+aceleração e a segunda derivada de uma função posição é a aceleração, temos as
+equações diferenciais \begin{align*}  v'(t) &amp;= -9.8,\\ s''(t) &amp;= -9.8.  \end{align*}
+</p><p class='noindent'>A partir dessas equações simples, podemos obter expressões para a velocidade e para
+a posição do objeto usando antiderivadas.
+</p>
+<div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-2r1'></a>Uma bola é lançada para cima com velocidade inicial de \(15\) m/s. Qual é a velocidade
+da bola após 1 segundo? E após 2 segundos? <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Sabendo que a aceleração da gravidade
+é \(-9.8\) m/s\(^2\), escrevemos \[ v'(t) = \class{xm-given}{-9.8}. \] Para resolver essa equação diferencial, tome a antiderivada de
+ambos os lados \begin{align*}  \int v'(t) \d t &amp;= \int \class{xm-given}{-9.8} \d t\\ v(t) &amp;= \class{xm-given}{-9.8 t} + C.  \end{align*}
+<p class='noindent'>Como a bola é lançada para cima com velocidade inicial de \(15\) m/s, \[ \class{xm-given}{15} = v(0) = -9.8\cdot 0 + C, \] e vemos que \(C=\class{xm-given}{15}\).
+Portanto, \(C\) representa a velocidade inicial da bola. Logo, \(v(t) = -9.8t + 15\).
+</p><p class='noindent'>Agora, quando \(t=1\), \(v(1) = 5.2\) m/s, e a bola está subindo; e em \(t=2\), \(v(2) = -4.6\) m/s, e a bola está caindo. </p></div>
+</div>
+<p class='noindent'>Agora vamos resolver um problema parecido, mas, em vez de encontrar a velocidade,
+vamos encontrar a posição.
+</p>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-4r3'></a>Uma bola é lançada para cima com velocidade inicial de \(15\) m/s a partir de uma altura
+de 2 metros. Quando a bola atinge o chão? <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-5r4'></a>Sabendo que a aceleração da gravidade é \(-9.8\)
+m/s\(^2\), escrevemos \[ v'(t) = \class{xm-given}{-9.8}. \] Comece tomando a antiderivada de ambos os lados da equação
+\begin{align*}  \int v'(t) \d t &amp;= \int \class{xm-given}{-9.8} \d t\\ v(t) &amp;= \class{xm-given}{-9.8 t} + C.  \end{align*}
+<p class='noindent'>Aqui \(C\) representa a velocidade inicial da bola. Como ela é lançada para cima com
+velocidade inicial de \(15\) m/s, \(C = 15\) e \[ v(t) = -9.8t + 15. \] Como a velocidade é a derivada da posição, podemos
+escrever, de forma equivalente, \[ s'(t) = -9.8t + 15. \] Agora vamos tomar a antiderivada novamente.
+\begin{align*}  \int s'(t) \d t &amp;= \int \class{xm-given}{-9.8t +15} \d t\\ s(t) &amp;= \class{xm-given}{\frac {-9.8t^2}{2} + 15t} + D.  \end{align*}
+</p><p class='noindent'>Como sabemos que a altura inicial era \(2\) metros, escrevemos \[ 2 = s(0) = \frac {-9.8\cdot 0^2}{2} + 15\cdot 0 + D. \] Logo, \(s(t) = \frac {-9.8t^2}{2} + 15t + 2\). Precisamos saber
+quando a bola atinge o chão, ou seja, quando \(s(t)=0\). Resolvendo a equação \[ \frac {-9.8t^2}{2} + 15t + 2 = 0 \] encontramos
+duas soluções, \(t\approx -0.1\) e \(t\approx 3.2\). Descartando a solução negativa, vemos que a bola atingirá o chão
+após aproximadamente \(3.2\) segundos. </p></div> </div>
+<p class='noindent'>O poder do cálculo está em nos libertar da memorização mecânica de fórmulas e nos
+permitir deduzir o que precisamos.
+</p>
+<script type="application/json" class="xm-answers">{}</script>

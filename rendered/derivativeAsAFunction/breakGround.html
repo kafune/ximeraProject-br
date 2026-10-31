@@ -1,0 +1,128 @@
+<!-- traduz-render: 979fe0c93f26da578d8a75c500de2db34491407c36d9a5a24f18be59f3f83a57 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Dois jovens matemáticos discutem derivadas como funções. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Confira este diálogo entre dois estudantes de cálculo (baseado em uma história
+real):
+     </p><dl class='dialogue'><dt class='actor'>
+Devyn </dt><dd class='speech'>Riley, acho que sou um gênio do cálculo.
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>É mesmo? Então me explica essa.
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Primeiro deixa eu te fazer uma pergunta. Digamos que você tenha uma
+     função, tipo \(f(x) = x^2\), e queira saber \(f'(3)\). Você substitui o número \(3\) antes ou depois
+     de encontrar a derivada?
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Hmmmm. Bom, meu próximo passo normalmente é \[ f'(3) = \lim _{h\to 0}\frac {f(3+h)-f(3)}{h}. \] Então acho que
+     antes.
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>Aha! Acho que você está perdendo tempo. Veja, eu escrevo \[ f'(x) = \lim _{h\to 0}\frac {f(x+h)-f(x)}{h}. \] e isso
+     significa que posso olhar a derivada da minha função em <em>qualquer</em> ponto.
+     Então, eu substituo o \(3\) depois de ter encontrado a derivada.
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Isso realmente parece uma jogada de gênio. Mas trabalhar com \(x\), em vez
+     de números, não torna tudo isso mais difícil?
+     </dd><dt class='actor'>
+Devyn </dt><dd class='speech'>De jeito nenhum. Vamos resolver o problema das duas maneiras, ao mesmo
+                                                                  
+
+                                                                  
+     tempo: <div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/derivativeAsAFunction/breakGround-900bd4e0d63070eac6dcb0184560b4cc.svg" /> </div>
+     </dd><dt class='actor'>
+Riley </dt><dd class='speech'>Uau. Então agora a derivada é uma função. Espera, qual é o domínio dela? E
+     a imagem?</dd></dl>
+<div class='problem-environment problem' id='problem1' numbered='' role='article' titletext=' Problem'>  Suponha que você tenha uma função \(f\). Quais das alternativas a seguir são
+verdadeiras? <div class='select-all' id='problem2' titletext=' Select All'><a id='x1-2r1'></a> <span class='choice  ' id='choice1'>O domínio de \(f'\) é igual ao domínio de \(f\). </span><span class='choice  ' id='choice2'>A imagem de \(f'\) é igual à
+imagem de \(f\). </span><span class='choice correct ' id='choice3'>O domínio de \(f'\) é um subconjunto do domínio de \(f\). </span><span class='choice  ' id='choice4'>A imagem de \(f'\) é
+um subconjunto da imagem de \(f\).</span> </div>    </div>
+<div class='problem-environment problem' id='problem3' numbered='' role='article' titletext=' Problem'>  Determine \(g'(2)\) para \(g(x) = x^2 + 1\) usando os dois métodos descritos acima.  \[ g'(2) = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \]     </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"4","format":"expression","given":false,"antiderivative":false}}</script>

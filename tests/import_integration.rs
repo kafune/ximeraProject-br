@@ -41,7 +41,7 @@ fn file_order(database: &Path) -> Vec<String> {
     db::chapters(&db::open(database).unwrap())
         .unwrap()
         .into_iter()
-        .flat_map(|(_, files)| files.into_iter().map(|(path, _)| path))
+        .flat_map(|(_, files)| files.into_iter().map(|(path, _, _)| path))
         .collect()
 }
 

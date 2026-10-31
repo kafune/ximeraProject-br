@@ -1,0 +1,129 @@
+<!-- traduz-render: ab3a9b3760d86be338858e7f94db3391f061a44754aa092d146898f1cda4b166 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div role="article" class="problem-environment exercise" id="problem1" numbered="" titletext=" Exercise">
+<p class="noindent" >Um inseto se move ao longo da curva \(y=\sqrt {x}\) e sua altitude está aumentando à taxa de
+\(4ft\)/s. Aqui, \(x\) e \(y\) são ambos medidos em pés. Com que rapidez a distância do
+inseto até a origem está variando no instante em que o inseto está a \(\sqrt {12}\) pés da
+origem?
+</p><p class="noindent" >ETAPA 1
+</p><p class="noindent" >Introduza uma variável \(D\) que denote a distância do inseto até a origem. Esboce e rotule uma figura. </p><div data-original="expandable" id="foldable2" class="foldable">xmhint<div class="image-environment" role="img" aria-labelledby="image-alt-1">
+<img 
+src="/rendered/appliedRelatedRates/exercises/relatedRatesApplied77-7eefa0bae6a1c08b0e6ee1d4387d127b.svg" alt="[Picture]"  /> </div>
+</div>
+<p class="noindent" >ETAPA 2
+</p><p class="noindent" >Complete as afirmações a seguir.
+</p><p class="noindent" >A taxa dada é \[ \dd t \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}}= 4 ft/s \]
+</p><p class="noindent" >A taxa a ser determinada é \[ \dd t \class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}} \text { , quando } D=\sqrt {12} ft \]
+</p><p class="noindent" >Escreva uma equação que relacione as variáveis \(x\), \(y\) e \(D\).
+</p><p class="noindent" >\[ D^2=\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \]
+</p><p class="noindent" >ETAPA 3
+</p><p class="noindent" >Derive.
+</p><p class="noindent" >\[ 2 D\cdot \dd t{\class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}}=\class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}}\cdot x\cdot \dd t{\class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}}}+2\cdot \class{xm-answer}{\cssId{xm-answer-7}{\phantom{\rule{7em}{1.5em}}}}\cdot \dd t{\class{xm-answer}{\cssId{xm-answer-8}{\phantom{\rule{7em}{1.5em}}}}} \]
+</p><p class="noindent" >Simplifique.
+</p><p class="noindent" >\[ D\cdot \dd t{\class{xm-answer}{\cssId{xm-answer-9}{\phantom{\rule{7em}{1.5em}}}}}=x\cdot \dd t{\class{xm-answer}{\cssId{xm-answer-10}{\phantom{\rule{7em}{1.5em}}}}}+\class{xm-answer}{\cssId{xm-answer-11}{\phantom{\rule{7em}{1.5em}}}}\cdot \dd t{\class{xm-answer}{\cssId{xm-answer-12}{\phantom{\rule{7em}{1.5em}}}}} \]
+                                                                  
+
+                                                                  
+</p><p class="noindent" >ETAPA 4
+</p><p class="noindent" >Calcule. Para calcular \(\left [\dd t{D}\right ]_{D=\sqrt {12}}\), precisamos calcular
+</p>
+<div data-original="expandable" id="foldable3" class="foldable">xmhint\[ D^2=x^2+y^2 \]
+<p class="noindent" >Portanto, quando \(D=\sqrt {12}\)
+</p><p class="noindent" >\[ 12=x^2+x \]
+</p><p class="noindent" >Resolva a equação quadrática
+</p><p class="noindent" >\[ x^2+x-12=0 \]</div>
+</p><p class="noindent" >\[ \left [x\right ]_{D=\sqrt {12}}=\class{xm-answer}{\cssId{xm-answer-13}{\phantom{\rule{7em}{1.5em}}}} ft \]
+</p><p class="noindent" >\[ \left [y\right ]_{D=\sqrt {12}}=\class{xm-answer}{\cssId{xm-answer-14}{\phantom{\rule{7em}{1.5em}}}} ft \]
+</p><p class="noindent" >\begin{align}  \left [\dd t{x}\right ]_{D=\sqrt {12}}&amp;=\left [\dd t{y^2}\right ]_{D=\sqrt {12}}\\ &amp;=\left [2y\cdot \dd t{y}\right ]_{D=\sqrt {12}}\\ &amp;=\class{xm-answer}{\cssId{xm-answer-15}{\phantom{\rule{7em}{1.5em}}}}\text { ft/s}\\  \end{align}
+</p><p class="noindent" >Portanto,
+</p><p class="noindent" >\[ \sqrt {12}\cdot \left [\dd t{D}\right ]_{D=\sqrt {12}}=3\cdot 8\sqrt {3}+\sqrt {3}\cdot {\class{xm-answer}{\cssId{xm-answer-16}{\phantom{\rule{7em}{1.5em}}}}} \]
+</p><p class="noindent" >e
+</p><p class="noindent" >\[ \left [\dd t{D}\right ]_{D=\sqrt {12}}= \class{xm-answer}{\cssId{xm-answer-17}{\phantom{\rule{7em}{1.5em}}}} \text { ft/s} \]   </p></div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"y","format":"expression","given":false,"antiderivative":false},"xm-answer-10":{"answer":"x","format":"expression","given":false,"antiderivative":false},"xm-answer-11":{"answer":"y","format":"expression","given":false,"antiderivative":false},"xm-answer-12":{"answer":"y","format":"expression","given":false,"antiderivative":false},"xm-answer-13":{"answer":"3","format":"expression","given":false,"antiderivative":false},"xm-answer-14":{"answer":"\\sqrt {3}","format":"expression","given":false,"antiderivative":false},"xm-answer-15":{"answer":"8\\sqrt {3}","format":"expression","given":false,"antiderivative":false},"xm-answer-16":{"answer":"4","format":"expression","given":false,"antiderivative":false},"xm-answer-17":{"answer":"14","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"D","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"x^2+y^2","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"D","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"x","format":"expression","given":false,"antiderivative":false},"xm-answer-7":{"answer":"y","format":"expression","given":false,"antiderivative":false},"xm-answer-8":{"answer":"y","format":"expression","given":false,"antiderivative":false},"xm-answer-9":{"answer":"D","format":"expression","given":false,"antiderivative":false}}</script>

@@ -1,0 +1,211 @@
+<!-- traduz-render: f5c0af084d14e6a51564249cfc08d688f461f41ed8d63bfa51a781b5e952718b -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Funções exponenciais e logarítmicas sob uma nova luz. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>As funções exponenciais e logarítmicas podem parecer um tanto esotéricas à
+primeira vista, mas elas modelam muitos fenômenos do mundo real.
+</p>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>O que são funções exponenciais e logarítmicas?</h3>
+<div class='theorem-like problem-environment definition' id='problem1' titletext=' definition'><a id='x1-1001r1'></a>Uma <strong>função exponencial</strong> é uma função da forma \[ f(x) = b^x \] em que \(b\neq 1\) é um número real
+positivo. O domínio de uma função exponencial é \((-\infty ,\infty )\). </div>
+<div class='problem-environment question' id='problem2' numbered='' role='article' titletext=' Question'>  \(b^{-x}\) é uma função exponencial?  <div class='multiple-choice' id='problem3' titletext=' Multiple Choice'><span class='choice correct ' id='choice1'>sim </span><span class='choice  ' id='choice2'>não</span> </div>  <div class='feedback' data-feedback='attempt' id='feedback4' titletext=' Feedback (attempt)'>Observe que \[ b^{-x} = \left (b^{-1}\right )^x = \left (\frac {1}{b}\right )^x. \] </div>    </div>
+<div class='theorem-like problem-environment definition' id='problem5' titletext=' definition'><a id='x1-1002r2'></a>Uma <strong>função logarítmica</strong> é uma função definida da seguinte forma \[ \log _b(x) = y \qquad \text {significa que}\qquad b^y = x \] em
+que \(b\ne 1\) é um número real positivo. O domínio de uma função logarítmica é \((0,\infty )\).
+</div>
+<p class='noindent'>Em ambas as definições acima, \(b\) é chamado de <strong>base</strong>.
+</p><p class='noindent'>Lembre-se de que, no caso das funções exponenciais e logarítmicas, existe uma base
+muito especial: \[ e = 2.7182818284590\ldots \] Esse é um número irracional que você verá com frequência. A
+exponencial de base \(e\), \(f(x) = e^x\), costuma ser chamada de função ‘exponencial natural’. Para o
+logaritmo de base \(e\), temos uma notação especial: \(\ln (x)\) é a função ‘logaritmo
+natural’.
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>1.1   </span> <a id='x1-20001.1'></a>Conexões entre funções exponenciais e logaritmos</h4>
+<p class='noindent'>Seja \(b\) um número real positivo com \(b\ne 1\). </p>
+     <ul class='itemize1'>
+     <li class='itemize'>\(b^{\log _b(x)} = x\) para todo \(x\) positivo
+     </li>
+     <li class='itemize'>\(\log _b(b^x) = x\) para todo \(x\) real</li></ul>
+<div class='problem-environment question' id='problem6' numbered='' role='article' titletext=' Question'>  Que expoente torna verdadeira a expressão a seguir? \[ 3^x = e^{\left ( x \cdot \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \right )}. \]    </div>
+                                                                  
+
+                                                                  
+
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-30002'></a>Como podem ser os gráficos?</h3>
+
+<h4 class='subsectionHead'><span class='titlemark'>2.1   </span> <a id='x1-40002.1'></a>Gráficos de funções exponenciais</h4>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-4001r3'></a>Aqui vemos os gráficos de quatro funções exponenciais. <div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions-1f4161aad5eb99d5a11728e626aa91ca.svg" /> </div> Associe as curvas \(A\), \(B\), \(C\) e \(D\)
+às funções \[ e^x, \qquad \left (\frac {1}{2}\right )^{x}, \qquad \left (\frac {1}{3}\right )^{x}, \qquad 2^{x}. \] <div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-4002r4'></a>Uma maneira de resolver esse tipo de problema é comparar essas funções
+ao longo da reta vertical \(x=1\), <div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions-9778565cba2febe45876be8fd6d544fd.svg" /> </div> Observe que \[ \left (\frac {1}{3}\right )^1 &lt; \left (\frac {1}{2}\right )^1 &lt; 2^1 &lt; e^1. \] Logo, vemos que:
+     <ul class='itemize1'>
+     <li class='itemize'>\(\left (\frac {1}{3}\right )^{x}\) corresponde a \(\class{xm-given}{B}\).
+     </li>
+     <li class='itemize'>\(\left (\frac {1}{2}\right )^{x}\) corresponde a \(\class{xm-given}{A}\).
+     </li>
+     <li class='itemize'>\(2^x\) corresponde a \(\class{xm-given}{D}\).
+     </li>
+     <li class='itemize'>\(e^x\) corresponde a \(\class{xm-given}{C}\).</li></ul>
+</div> </div>
+
+<h4 class='subsectionHead'><span class='titlemark'>2.2   </span> <a id='x1-50002.2'></a>Gráficos de funções logarítmicas</h4>
+<div class='theorem-like problem-environment example' id='problem9' titletext=' example'><a id='x1-5001r5'></a>Aqui vemos os gráficos de quatro funções logarítmicas. <div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions-8b9d0328c23afb73c16306c997343439.svg" /> </div> Associe as curvas \(A\), \(B\), \(C\) e \(D\)
+às funções \[ \ln (x),\qquad \log _{1/2}(x), \qquad \log _{1/3}(x),\qquad \log _2(x). \] <div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-5002r6'></a>Primeiro, lembre-se do que \(\log _b(x)=y\) significa: \[ \log _b(x) = y \qquad \text {significa que}\qquad b^y = x. \] Além disso, \(\ln (x) = \log _e(x)\), em que
+\(e= 2.71828\dots \). Agora examine cada uma dessas funções ao longo da reta horizontal \(y=1\) <div aria-labelledby='image-alt-4' class='image-environment' role='img'>
+                                                                  
+
+                                                                  
+<img alt='[Picture]' src="/rendered/reviewOfFamousFunctions/digInExponentialAndLogarithmeticFunctions-daa4d52ae2e7c4c9304320aadce0b107.svg" /> </div> Observe novamente (isso
+vem da definição de logaritmo) \[ \left (\frac {1}{3}\right )^1 &lt; \left (\frac {1}{2}\right )^1 &lt; 2^1 &lt; e^1. \] Logo, vemos que:
+     <ul class='itemize1'>
+     <li class='itemize'>\(\log _{1/3}(x)\) corresponde a \(\class{xm-given}{B}\).
+     </li>
+     <li class='itemize'>\(\log _{1/2}(x)\) corresponde a \(\class{xm-given}{A}\).
+     </li>
+     <li class='itemize'>\(\log _2(x)\) corresponde a \(\class{xm-given}{D}\).
+     </li>
+     <li class='itemize'>\(\ln (x)\) corresponde a \(\class{xm-given}{C}\).</li></ul>
+</div> </div>
+
+<h3 class='sectionHead'><span class='titlemark'>3   </span> <a id='x1-60003'></a>Propriedades das funções exponenciais e dos logaritmos</h3>
+<p class='noindent'>Trabalhar com funções exponenciais e logarítmicas muitas vezes fica mais simples
+quando aplicamos as propriedades dessas funções. Essas propriedades vão aparecer
+ao longo de todo o nosso trabalho.
+                                                                  
+
+                                                                  
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>3.1   </span> <a id='x1-70003.1'></a>Propriedades dos expoentes</h4>
+<p class='noindent'>Seja \(b\) um número real positivo com \(b\neq 1\). </p>
+     <ul class='itemize1'>
+     <li class='itemize'>\(b^m\cdot b^n = b^{m+n}\)
+     </li>
+     <li class='itemize'>\(b^{-1} = \frac {1}{b}\)
+     </li>
+     <li class='itemize'>\(\left (b^m\right )^n = b^{mn}\)</li></ul>
+<div class='problem-environment question' id='problem11' numbered='' role='article' titletext=' Question'>  Que expoente torna verdadeira a igualdade a seguir? \[ 2^4 \cdot 2^3 = 2^{\class{xm-answer}{\cssId{xm-answer-2}{\phantom{\rule{7em}{1.5em}}}}} \] <div class='foldable' data-original='expandable' id='foldable12'>xmhint\[ (2^4) \cdot (2^3) = (2 \cdot 2\cdot 2 \cdot 2) \cdot (2 \cdot 2\cdot 2) \]</div>   </div>
+
+<h4 class='subsectionHead'><span class='titlemark'>3.2   </span> <a id='x1-80003.2'></a>Propriedades dos logaritmos</h4>
+<p class='noindent'>Seja \(b\) um número real positivo com \(b\neq 1\). </p>
+     <ul class='itemize1'>
+     <li class='itemize'>\(\log _b(m\cdot n) = \log _b(m) + \log _b(n)\)
+     </li>
+     <li class='itemize'>\(\log _b(m^n) = n\cdot \log _b(m)\)
+     </li>
+     <li class='itemize'>\(\log _b\left (\frac {1}{m}\right ) = \log _b(m^{-1}) = -\log _b(m)\)
+     </li>
+     <li class='itemize'>\(\log _a(m) = \frac {\log _b(m)}{\log _b(a)}\)</li></ul>
+                                                                  
+
+                                                                  
+<div class='problem-environment question' id='problem13' numbered='' role='article' titletext=' Question'>  Que valor torna verdadeira a expressão a seguir? \[ \log _2\left (\frac {8}{16}\right ) = 3-\class{xm-answer}{\cssId{xm-answer-3}{\phantom{\rule{7em}{1.5em}}}} \]    </div>
+<div class='problem-environment question' id='problem14' numbered='' role='article' titletext=' Question'>  O que torna verdadeira a expressão a seguir? \[ \log _3(x) = \frac {\ln (x)}{\class{xm-answer}{\cssId{xm-answer-4}{\phantom{\rule{7em}{1.5em}}}}} \]    </div>
+<div class='theorem-like problem-environment example' id='problem15' titletext=' example'><a id='x1-8001r7'></a>Resolva a equação: \(\displaystyle 5^{2x-3} = 7\). <div class='theorem-like problem-environment explanation' id='problem16' titletext=' explanation'><a id='x1-8002r8'></a>Como não conseguimos reescrever facilmente os dois lados como
+exponenciais de mesma base, vamos usar logaritmos. Acima dissemos que \(\log _b(x) = y\) significa
+que \(b^y = x\). Essa afirmação quer dizer que toda equação exponencial tem uma forma
+logarítmica equivalente, e vice-versa. Vamos converter para uma equação
+logarítmica e resolver a partir daí. \begin{align*}  5^{2x-3} &amp;= 7\\ \log _{\class{xm-answer}{\cssId{xm-answer-5}{\phantom{\rule{7em}{1.5em}}}}}\left ( \class{xm-answer}{\cssId{xm-answer-6}{\phantom{\rule{7em}{1.5em}}}} \right ) &amp;= 2x-3  \end{align*}
+<p class='noindent'>A partir daqui, podemos isolar \(x\) diretamente. \begin{align*}  2x &amp;= \log _{5}\left (7\right ) + 3\\ x &amp;= \frac {\log _{5}\left (7\right ) + 3}{2}  \end{align*}
+</p>
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem17' titletext=' example'><a id='x1-8003r9'></a>Resolva a equação: \(\displaystyle e^{2x} = e^x + 6\). <div class='theorem-like problem-environment explanation' id='problem18' titletext=' explanation'><a id='x1-8004r10'></a>Aplicar logaritmos imediatamente aos dois lados não vai ajudar
+aqui, pois o lado direito tem mais de um termo. Sabemos que os logaritmos se
+comportam bem com produtos e quocientes, mas não com somas. Observe que
+\(e^{2x} = \left (e^x\right )^2\). (Esse é um truque comum que você provavelmente verá muitas vezes.)
+\begin{align*}  e^{2x} &amp;= e^x + 6\\ \left (e^x\right )^2 &amp;= e^x + 6\\ \left (e^x\right )^2 - e^x - 6 &amp;= 0  \end{align*}
+<p class='noindent'>Nossa equação é, na verdade, uma equação quadrática em \(e^x\). O lado esquerdo se
+fatora como \(\left ( e^x - \class{xm-answer}{\cssId{xm-answer-7}{\phantom{\rule{7em}{1.5em}}}}\right ) \left (e^x + \class{xm-answer}{\cssId{xm-answer-8}{\phantom{\rule{7em}{1.5em}}}}\right )\), de modo que estamos lidando com \[ e^x - \class{xm-answer}{\cssId{xm-answer-9}{\phantom{\rule{7em}{1.5em}}}} = 0 \qquad \textrm {e} \qquad e^x+\class{xm-answer}{\cssId{xm-answer-10}{\phantom{\rule{7em}{1.5em}}}} = 0.\] Do primeiro fator: \begin{align*}  e^x &amp;= \class{xm-answer}{\cssId{xm-answer-11}{\phantom{\rule{7em}{1.5em}}}}\\ x &amp;= \ln \left ( \class{xm-answer}{\cssId{xm-answer-12}{\phantom{\rule{7em}{1.5em}}}}\right ).  \end{align*}
+</p><p class='noindent'>Do segundo fator: \(\displaystyle e^x = \class{xm-answer}{\cssId{xm-answer-13}{\phantom{\rule{7em}{1.5em}}}}\). Lembre-se de que vimos acima que a imagem da função
+exponencial é \((0, \infty )\). Não existe entrada que torne a saída um número negativo, então \(e^x = -2\)
+não tem soluções.
+</p><p class='noindent'>A solução de \(\displaystyle e^{2x} = e^x + 6\) é \(x = \class{xm-answer}{\cssId{xm-answer-14}{\phantom{\rule{7em}{1.5em}}}}\). </p></div> </div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"\\ln 3","format":"expression","given":false,"antiderivative":false},"xm-answer-10":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-11":{"answer":"3","format":"expression","given":false,"antiderivative":false},"xm-answer-12":{"answer":"3","format":"expression","given":false,"antiderivative":false},"xm-answer-13":{"answer":"-2","format":"expression","given":false,"antiderivative":false},"xm-answer-14":{"answer":"\\ln (3)","format":"expression","given":false,"antiderivative":false},"xm-answer-2":{"answer":"7","format":"expression","given":false,"antiderivative":false},"xm-answer-3":{"answer":"4","format":"expression","given":false,"antiderivative":false},"xm-answer-4":{"answer":"\\ln (3)","format":"expression","given":false,"antiderivative":false},"xm-answer-5":{"answer":"5","format":"expression","given":false,"antiderivative":false},"xm-answer-6":{"answer":"7","format":"expression","given":false,"antiderivative":false},"xm-answer-7":{"answer":"3","format":"expression","given":false,"antiderivative":false},"xm-answer-8":{"answer":"2","format":"expression","given":false,"antiderivative":false},"xm-answer-9":{"answer":"3","format":"expression","given":false,"antiderivative":false}}</script>

@@ -1,0 +1,219 @@
+<!-- traduz-render: 86a27c21d2a992309a709dbe3f3c041153e1fb05789a6f79da00ddc7329ea1d1 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Usamos derivadas para obter um “atalho” para o cálculo de limites. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>As derivadas nos permitem pegar problemas que antes eram difíceis de resolver e
+transformá-los em problemas mais fáceis de resolver. Vamos considerar a regra de
+L’Hôpital:
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>Regra de L’Hôpital</span> Sejam \(f(x)\) e \(g(x)\) funções deriváveis perto de \(a\). Se \[ \lim _{x \to a} f(x) = \lim _{x \to a}g(x) = 0 \qquad \text {ou} \pm \infty , \] e \(g'(x) \neq 0\) para todo \(x\) perto de
+\(a\), então \[ \lim _{x \to a} \frac {f(x)}{g(x)} = \lim _{x \to a} \frac {f'(x)}{g'(x)}, \] desde que \(\lim _{x \to a} \frac {f'(x)}{g'(x)}\) exista ou seja \(\pm \infty \). </div>
+<p class='noindent'>Esse teorema é um tanto difícil de demonstrar, em parte porque abrange muitas
+possibilidades diferentes, então não o demonstraremos aqui. </p><div class='theorem-like problem-environment remark' id='problem2' titletext=' remark'><a id='x1-3r2'></a>A regra de L’Hôpital se
+aplica mesmo quando \(\lim _{x\to a}f(x) = \pm \infty \) e \(\lim _{x\to a}g(x) = \mp \infty \). </div>
+<p class='noindent'>A regra de L’Hôpital nos permite investigar limites de <em>forma indeterminada</em>.
+</p>
+<div class='theorem-like problem-environment definition' id='problem3' titletext=' definition'><a id='x1-4r3'></a><span class='theorem-like-title'>Lista de formas indeterminadas</span>
+     <dl class='description'><dt class='description'>
+\(\relax \boldsymbol {\tfrac {0}{0}}\) </dt><dd class='description'>
+     <p class='noindent'>Refere-se a um limite da forma \(\lim _{x\to a} \frac {f(x)}{g(x)}\) em que \(f(x)\to 0\) e \(g(x)\to 0\) quando \(x\to a\).
+     </p></dd><dt class='description'>
+\(\relax \boldsymbol {\tfrac {\infty }{\infty }}\) </dt><dd class='description'>
+     <p class='noindent'>Refere-se a um limite da forma \(\lim _{x\to a} \frac {f(x)}{g(x)}\) em que \(f(x)\to \infty \) e \(g(x)\to \infty \) quando \(x\to a\).
+     </p></dd><dt class='description'>
+\(\relax \small \boldsymbol {0\cdot \infty }\) </dt><dd class='description'>
+     <p class='noindent'>Refere-se a um limite da forma \(\lim _{x\to a} \left (f(x)\cdot g(x)\right )\) em que \(f(x)\to 0\) e \(g(x)\to \infty \) quando \(x\to a\).
+     </p></dd><dt class='description'>
+\(\relax \small \boldsymbol {\infty - \infty }\) </dt><dd class='description'>
+     <p class='noindent'>Refere-se a um limite da forma \(\lim _{x\to a}\left ( f(x)-g(x)\right )\) em que \(f(x)\to \infty \) e \(g(x)\to \infty \) quando \(x\to a\).
+     </p></dd><dt class='description'>
+\(\relax \boldsymbol {1^\infty }\) </dt><dd class='description'>
+     <p class='noindent'>Refere-se a um limite da forma \(\lim _{x\to a} f(x)^{g(x)}\) em que \(f(x)\to 1\) e \(g(x)\to \infty \) quando \(x\to a\).
+     </p></dd><dt class='description'>
+\(\relax \boldsymbol {0^0}\) </dt><dd class='description'>
+     <p class='noindent'>Refere-se a um limite da forma \(\lim _{x\to a} f(x)^{g(x)}\) em que \(f(x)\to 0\) e \(g(x)\to 0\) quando \(x\to a\).
+                                                                  
+
+                                                                  
+     </p></dd><dt class='description'>
+\(\relax \boldsymbol {\infty ^0}\) </dt><dd class='description'>
+     <p class='noindent'>Refere-se a um limite da forma \(\lim _{x\to a} f(x)^{g(x)}\) em que \(f(x)\to \infty \) e \(g(x)\to 0\) quando \(x\to a\).</p></dd></dl>
+<p class='noindent'>Em cada um desses casos, o valor do limite <strong>não</strong> é imediatamente óbvio. Logo, é
+preciso uma análise cuidadosa! </p></div>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Formas indeterminadas básicas</h3>
+<p class='noindent'>Nosso primeiro exemplo é o cálculo de um limite que antes era um tanto
+difícil.
+</p>
+<div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-1001r4'></a>Calcule \[ \lim _{x\to 0} \frac {\sin (x)}{x}. \] <div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-1002r5'></a>Tome \(f(x) = \sin (x)\) e \(g(x) = x\). Como tanto \(f(x)\) quanto \(g(x)\) são funções deriváveis em \(0\), e \[ \lim _{x \to 0} f(x) = \lim _{x \to 0}g(x) = 0, \] esta situação
+é perfeita para a regra de L’Hôpital. Agora, \[ f'(x) = \class{xm-given}{\cos (x)} \] e \[ g'(x) = \class{xm-given}{1}. \] A regra de L’Hôpital nos diz que \[ \lim _{x \to 0} \frac {\sin (x)}{x} = \lim _{x \to 0} \frac {\cos (x)}{1} = 1. \] </div>
+</div>
+<div class='theorem-like problem-environment remark' id='problem6' titletext=' remark'><a id='x1-1003r6'></a>Observe que o matemático atento vai perceber que, em nosso exemplo acima,
+estamos trapaceando um pouco. Para aplicar a regra de L’Hôpital, precisamos
+conhecer a derivada do seno; porém, para conhecer a derivada do seno, precisamos
+ser capazes de calcular o limite: \[ \lim _{x\to 0}\frac {\sin (x)}{x} \] Logo, usar a regra de L’Hôpital para calcular esse
+limite é um argumento circular! Encorajamos o gentil leitor a ver a regra de
+L’Hôpital como um “lembrete” do que é verdade, e não como a dedução formal do
+resultado. </div>
+<div class='theorem-like problem-environment example' id='problem7' titletext=' example'><a id='x1-1004r7'></a>Calcule: \[ \lim _{x\to \infty } \dfrac {3x^2 + 1}{2xe^x}.\]
+<div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-1005r8'></a>Tome \(f(x) =3x^2+1\) e \(g(x)=2xe^x\). Como \(\displaystyle \lim _{x\to \infty }f(x) = \infty \) e \(\displaystyle \lim _{x\to \infty } g(x) = \infty \), este é um limite da forma \(\inftyOverInfty \), então a regra de L’Hôpital (RLH) se
+aplica. Isso dá: \[ \lim _{x\to \infty } \dfrac {3x^2 + 1}{2xe^x} = \lim _{x\to \infty }\dfrac {6x}{2e^x + 2xe^x}. \] O lado direito é outro limite da forma \(\inftyOverInfty \), então podemos usar a RLH
+de novo. \[ \lim _{x\to \infty }\dfrac {6x}{2e^x + 2xe^x} = \lim _{x\to \infty }\dfrac {6}{4e^x + 2xe^x}. \] Esse limite tem numerador tendendo a \(6\) e denominador tendendo a \(\infty \), de
+modo que seu valor é \(0\).
+<p class='noindent'>\[ \lim _{x\to \infty }\dfrac {3x^2+1}{2xe^x} = 0\] </p></div> </div>
+<p class='noindent'>Nosso próximo conjunto de exemplos percorre as demais formas indeterminadas que
+costumam aparecer.
+</p>
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Formas indeterminadas envolvendo multiplicação</h3>
+<p class='noindent'>\(\zeroTimesInfty \) são formas que surgem de um limite do tipo \(\displaystyle \lim _{x\to a}f(x)g(x)\). Uma maneira de escrever \(f(x)g(x)\) como uma
+fração é lembrar que \[ f(x)g(x) = \dfrac {f(x)}{\left (\dfrac {1}{g(x)}\right )} = \dfrac {g(x)}{\left (\dfrac {1}{f(x)}\right )}. \]
+</p>
+<div class='theorem-like problem-environment example' id='problem9' titletext=' example'><a id='x1-2001r9'></a>Calcule \[ \lim _{x\to \pi /2^+} \frac {\sec (x)}{\tan (x)}. \] <div class='theorem-like problem-environment explanation' id='problem10' titletext=' explanation'><a id='x1-2002r10'></a>Tome \(f(x) = \sec (x)\) e \(g(x) = \tan (x)\). Tanto \(f(x)\) quanto \(g(x)\) são deriváveis perto de \(\pi /2\). Além disso, \[ \lim _{x \to \pi /2^+} f(x) = \lim _{x \to \pi /2^+}g(x) = -\infty . \] Esta
+situação é perfeita para a regra de L’Hôpital. Agora, \[ f'(x) = \class{xm-given}{\sec (x)\tan (x)} \] e \[ g'(x) = \class{xm-given}{\sec ^2(x)}. \] A regra de L’Hôpital nos diz
+                                                                  
+
+                                                                  
+que \begin{align*}  \lim _{x\to \pi /2^+} \frac {\sec (x)}{\tan (x)} &amp;= \lim _{x\to \pi /2^+} \frac {\sec (x)\tan (x)}{\sec ^2(x)} \\ &amp;= \lim _{x\to \pi /2^+} \sin (x)\\ &amp;=\class{xm-given}{1}.  \end{align*}
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem11' titletext=' example'><a id='x1-2003r11'></a><a class='ximera-label' id='example:xlnx infty'></a> Calcule \[ \lim _{x\to 0^+} x\ln (x). \] <div class='theorem-like problem-environment explanation' id='problem12' titletext=' explanation'><a id='x1-2004r12'></a>Este limite não parece adequado para a regra de L’Hôpital. Quando \(x\) se
+aproxima de zero, \(\ln (x)\) vai para \(-\infty \), então o produto se parece com \[ (\text {algo muito pequeno})\cdot (\text {algo muito grande e negativo}). \] Esse produto poderia
+ser qualquer coisa. É preciso uma análise cuidadosa. Escreva \[ x\ln (x) = \frac {\ln (x)}{x^{-1}}. \] Tome \(f(x) = \ln (x)\) e \(g(x) = x^{-1}\). Como ambas
+as funções são deriváveis perto de zero e \[ \lim _{x\to 0+} \ln (x) = -\infty \qquad \text {e}\qquad \lim _{x\to 0+} x^{-1} = \infty , \] podemos aplicar a regra de L’Hôpital.
+Escreva comigo \[ f'(x) = \class{xm-given}{x^{-1}} \] e \[ g'(x) = \class{xm-given}{-x^{-2}}, \] então \begin{align*}  \lim _{x\to 0^+} x\ln (x) &amp;= \lim _{x\to 0^+} \frac {\ln (x)}{x^{-1}} \\ &amp;= \lim _{x\to 0^+} \frac {x^{-1}}{-x^{-2}}\\ &amp;=\lim _{x\to 0^+} -x \\ &amp;= 0.  \end{align*}
+<p class='noindent'>Uma maneira de interpretar isso é que, como \(\lim _{x\to 0^+}x\ln (x) = 0\), a função \(x\) se aproxima de zero muito
+mais rápido do que \(\ln (x)\) se aproxima de \(-\infty \). </p></div> </div>
+
+<h3 class='sectionHead'><span class='titlemark'>3   </span> <a id='x1-30003'></a>Formas indeterminadas envolvendo subtração</h3>
+<p class='noindent'>Há dois casos básicos aqui; faremos um exemplo de cada.
+</p>
+<div class='theorem-like problem-environment example' id='problem13' titletext=' example'><a id='x1-3001r13'></a>Calcule \[ \lim _{x\to 0} \left (\cot (x) - \csc (x)\right ). \] <div class='theorem-like problem-environment explanation' id='problem14' titletext=' explanation'><a id='x1-3002r14'></a>Aqui basta escrever cada termo como uma fração, \begin{align*}  \lim _{x\to 0} \left (\cot (x) - \csc (x)\right ) &amp;= \lim _{x\to 0} \left (\frac {\cos (x)}{\sin (x)} - \frac {1}{\sin (x)}\right )\\ &amp;= \lim _{x\to 0} \frac {\cos (x)-1}{\sin (x)}  \end{align*}
+<p class='noindent'>Tomando \(f(x) = \cos (x)-1\) e \(g(x)=\sin (x)\), ambas as funções são deriváveis perto de zero e \[ \lim _{x\to 0}(\cos (x)-1)=\lim _{x\to 0}\sin (x) = 0. \] Podemos agora aplicar
+a regra de L’Hôpital. Escreva comigo \[ f'(x) = \class{xm-given}{-\sin (x)} \] e \[ g'(x) = \class{xm-given}{\cos (x)}, \] então \begin{align*}  \lim _{x\to 0} \left (\cot (x) - \csc (x)\right ) &amp;= \lim _{x\to 0} \frac {\cos (x)-1}{\sin (x)}\\ &amp;= \lim _{x\to 0} \frac {-\sin (x)}{\cos (x)} \\ &amp;=0.  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>Às vezes é preciso ser um pouco mais esperto.
+</p>
+<div class='theorem-like problem-environment example' id='problem15' titletext=' example'><a id='x1-3003r15'></a>Calcule \[ \lim _{x\to \infty }\left (\sqrt {x^2+x}-x\right ). \] <div class='theorem-like problem-environment explanation' id='problem16' titletext=' explanation'><a id='x1-3004r16'></a>Novamente, este limite não parece adequado para a regra de L’Hôpital. Um
+pouco de manipulação algébrica vai ajudar. Escreva comigo \begin{align*}  \lim _{x\to \infty }\left (\sqrt {x^2+x}-x\right ) &amp;= \lim _{x\to \infty }\left (x\left (\sqrt {1+1/x}-1\right )\right )\\ &amp;=\lim _{x\to \infty }\frac {\sqrt {1+1/x}-1}{x^{-1}}  \end{align*}
+<p class='noindent'>Agora tome \(f(x) = \sqrt {1+1/x}-1\), \(g(x) = x^{-1}\). Como ambas as funções são deriváveis para valores grandes de \(x\) e \[ \lim _{x\to \infty } (\sqrt {1+1/x}-1) = \lim _{x\to \infty }x^{-1} = 0, \]
+podemos aplicar a regra de L’Hôpital. Escreva comigo \[ f'(x) = \class{xm-given}{(1/2)(1+1/x)^{-1/2}\cdot (-x^{-2})} \] e \[ g'(x) = \class{xm-given}{-x^{-2}} \] então \begin{align*}  \lim _{x\to \infty }\left (\sqrt {x^2+x}-x\right ) &amp;= \lim _{x\to \infty }\frac {\sqrt {1+1/x}-1}{x^{-1}} \\ &amp;= \lim _{x\to \infty }\frac {(1/2)(1+1/x)^{-1/2}\cdot (-x^{-2})}{-x^{-2}} \\ &amp;= \lim _{x\to \infty } \frac {1}{2\sqrt {1+1/x}}\\ &amp;= \frac {1}{2}.  \end{align*}
+</p>
+</div> </div>
+
+<h3 class='sectionHead'><span class='titlemark'>4   </span> <a id='x1-40004'></a>Formas indeterminadas exponenciais</h3>
+<p class='noindent'>Há um truque padrão para lidar com as formas indeterminadas \[ \oneToInfty ,\quad \zeroToZero ,\quad \inftyToZero . \] Dadas \(u(x)\) e \(v(x)\) tais que \[ \lim _{x\to a}u(x)^{v(x)} \]
+se encaixa em uma das categorias descritas acima, reescrevemos como \[ \lim _{x\to a}e^{\ln \left (u(x)^{v(x)}\right )} \] e, em seguida,
+reescrevemos como \[ \lim _{x\to a}e^{v(x)\ln {(u(x))}}. \] Lembre-se de que a função exponencial é contínua. Portanto, \[ \lim _{x\to a}e^{v(x)\ln {(u(x))}}=e^{\left [\lim _{x\to a} v(x)\ln (u(x))\right ]}. \]
+                                                                  
+
+                                                                  
+Agora vamos nos concentrar no limite \[ \lim _{x\to a} v(x)\ln (u(x)) \] usando a regra de L’Hôpital. (Depois de
+calcular esse limite, não se esqueça de substituir o resultado de volta na
+exponencial.)
+</p><p class='noindent'>Nos dois últimos exemplos abaixo, note que eles são formas indeterminadas
+exponenciais diferentes, mas os abordamos com a mesma técnica. </p><div class='theorem-like problem-environment example' id='problem17' titletext=' example'><a id='x1-4001r17'></a>Primeiro determine
+a forma do limite e, em seguida, calcule o limite. \[ \lim _{x\to 0^+} x ^{\sin (x)}. \] Selecione a alternativa correta. A
+forma do limite é <div class='multiple-choice' id='problem18' titletext=' Multiple Choice'><span class='choice  ' id='choice1'>\(\zeroOverZero \) </span><span class='choice  ' id='choice2'> \(\relax \boldsymbol {\tfrac {\infty }{\infty }}\) </span><span class='choice  ' id='choice3'>\(\zeroTimesInfty \) </span><span class='choice  ' id='choice4'> \(\relax \small \boldsymbol {\infty - \infty }\) </span><span class='choice  ' id='choice5'>\(\oneToInfty \) </span><span class='choice  ' id='choice6'>\( \inftyToZero \) </span><span class='choice correct ' id='choice7'>\(\zeroToZero \)</span> </div>
+<div class='theorem-like problem-environment explanation' id='problem19' titletext=' explanation'><a id='x1-4002r18'></a>Escreva \[\lim _{x\to 0^+} x^{\sin (x)} = e^{\left [ \lim _{x\to 0^+} \sin (x) \ln (x) \right ]}.\] Agora olhamos para o limite no expoente. \[ \lim _{x\to 0^+} \sin (x) \ln (x) = \lim _{x\to 0^+} \dfrac {\ln (x)}{(\sin (x))^{-1}} =\lim _{x\to 0^+} \dfrac {\ln (x)}{\csc (x)}\] Como \(\displaystyle \lim _{x\to 0^+} \ln (x) = \class{xm-given}{-\infty }\) e \(\displaystyle \lim _{x\to 0^+}\csc (x) = \class{xm-given}{\infty }\), sabemos que \(\displaystyle \lim _{x\to 0^+} \dfrac {\ln (x)}{\csc (x)}\) tem a
+forma \(\inftyOverInfty \), então podemos aplicar a regra de L’Hôpital.
+<p class='noindent'>Isso dá: \begin{align*}  \lim _{x\to 0^+} \dfrac {\ln (x)}{\csc (x)} &amp;= \lim _{x\to 0^+} \dfrac { \frac {1}{x} }{-\csc (x)\cot (x)}, \textrm { regra de l'H\^{o}pital}\\ &amp;= \lim _{x\to 0^+} \dfrac {- \sin (x)\tan (x)}{x}, \textrm { álgebra}\\ &amp;= \lim _{x\to 0^+} \dfrac {-\sin (x)\sec ^2(x) - \cos (x)\tan (x)}{1}, \textrm {regra de l'H\^{o}pital}\\ &amp;= \dfrac {0 - 0}{1} = 0.  \end{align*}
+</p><p class='noindent'>Note que \(\displaystyle \lim _{x\to 0^+} \dfrac {- \sin (x)\tan (x)}{x}\) tinha a forma \(\zeroOverZero \); usamos a regra de L’Hôpital de novo nesse passo.
+</p><p class='noindent'>Lembre-se de que \(\displaystyle \lim _{x\to 0^+} x^{\sin (x)} = e^{\left [ \lim _{x\to 0^+} \sin (x) \ln (x) \right ]}\). Acabamos de calcular que \(\displaystyle \lim _{x\to 0^+} \sin (x)\ln (x) = 0\), o que significa: \[\lim _{x\to 0^+} x^{\sin (x)} = \class{xm-given}{1}\] </p></div>
+</div>
+<div class='theorem-like problem-environment example' id='problem20' titletext=' example'><a id='x1-4003r19'></a>Primeiro determine a forma do limite e, em seguida, calcule o limite. \[ \lim _{x\to \infty }\left (1 + \frac {1}{x}\right )^x. \] Selecione a
+alternativa correta. A forma do limite é <div class='multiple-choice' id='problem21' titletext=' Multiple Choice'><span class='choice  ' id='choice8'>\(\zeroOverZero \) </span><span class='choice  ' id='choice9'> \(\relax \boldsymbol {\tfrac {\infty }{\infty }}\) </span><span class='choice  ' id='choice10'>\(\zeroTimesInfty \) </span><span class='choice  ' id='choice11'> \(\relax \small \boldsymbol {\infty - \infty }\) </span><span class='choice correct ' id='choice12'>\(\oneToInfty \) </span><span class='choice  ' id='choice13'>\( \inftyToZero \) </span><span class='choice  ' id='choice14'>\(\zeroToZero \)</span> </div> <div class='theorem-like problem-environment explanation' id='problem22' titletext=' explanation'><a id='x1-4004r20'></a>Escreva \[ \lim _{x\to \infty }\left (1 + \frac {1}{x}\right )^x = e^{\left [\lim _{x\to \infty }x\ln \left (1 + \frac {1}{x}\right )\right ]}. \] Agora olhe
+para o limite do expoente \[ \lim _{x\to \infty } x\ln \left (1 + \frac {1}{x}\right ) = \lim _{x\to \infty } \frac {\ln \left (1 + \frac {1}{x}\right )}{x^{-1}}. \] Tomando \(f(x) = \ln \left (1 + \frac {1}{x}\right )\) e \(g(x) = x^{-1}\), ambas as funções são deriváveis para valores
+grandes de \(x\) e \[ \lim _{x\to \infty }\ln \left (1 + \frac {1}{x}\right )=\lim _{x\to \infty }x^{-1} = 0. \] Podemos agora aplicar a regra de L’Hôpital. Escreva \[ f'(x) = \class{xm-given}{\frac {-x^{-2}}{1 + \frac {1}{x}}} \] e \[ g'(x) = \class{xm-given}{-x^{-2}}, \] então
+\begin{align*}  \lim _{x\to \infty } \frac {\ln \left (1 + \frac {1}{x}\right )}{x^{-1}} &amp;= \lim _{x\to \infty } \frac {\frac {-x^{-2}}{1 + \frac {1}{x}}}{-x^{-2}} \\ &amp;=\lim _{x\to \infty } \frac {1}{1 + \frac {1}{x}}\\ &amp;=1.  \end{align*}
+<p class='noindent'>Logo, \begin{align*}  \lim _{x\to \infty }\left (1 + \frac {1}{x}\right )^x &amp;=e^{ \eval {\lim _{x\to \infty }x\ln \left (1 + \frac {1}{x}\right )}} \\ &amp;=e^{ \eval {\lim _{x\to \infty } \frac {\ln \left (1 + \frac {1}{x}\right )}{x^{-1}}}} \\ &amp;=e^{1} \\ &amp;= e.  \end{align*}
+</p>
+</div> </div>
+<script type="application/json" class="xm-answers">{}</script>

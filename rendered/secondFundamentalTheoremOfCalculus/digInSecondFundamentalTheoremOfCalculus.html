@@ -1,0 +1,185 @@
+<!-- traduz-render: 25066202a2a1ce8ba5650f62991f69b267f965b7fa6ba6b54687686be01d460b -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+A acumulação de uma taxa é dada pela variação da quantidade. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Existe outra forma comum do Teorema Fundamental do Cálculo. Nessa forma, o
+Teorema Fundamental do Cálculo servirá como nossa “fórmula de atalho” para
+calcular integrais definidas.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>Segundo teorema fundamental do cálculo</span> Seja \(f\) contínua em \([a,b]\). Se \(F\) é <strong>qualquer</strong>
+antiderivada de \(f\), então \[ \int _a^b f(x)\d x = F(b)-F(a). \] <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Chame de \(G\) a função acumulação dada por \[G(x) = \int _a^x f(t) \d t.\] Pelo Primeiro
+Teorema Fundamental do Cálculo, \(G\) é uma antiderivada de \(f\). Vemos que valem as duas
+igualdades: \begin{align*}  G(a) &amp;= \int _a^a f(t) \d t = 0, \textrm { e } \\ G(b) &amp;= \int _a^b f(x) \d x.  \end{align*}
+<p class='noindent'>Fixe \(F\) como uma antiderivada qualquer de \(f\). Como \(F\) e \(G\) têm a mesma derivada, elas
+diferem por uma constante. Isto é, existe uma constante \(C\) tal que, para todo \(x\) no
+intervalo \([a, b]\), \(G(x) = F(x)+C\).
+</p><p class='noindent'>Então: \begin{align*}  \int _a^b f(x) \d x &amp;= G(b) = G(b) - 0\\ &amp;= G(b)-G(a)\\ &amp;=( F(b)+C ) - ( F(a) + C )\\ &amp;= F(b) - F(a).  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>A partir disso, você deve perceber que as duas versões do Teorema Fundamental
+estão intimamente relacionadas. Na verdade, as duas formas são <strong>equivalentes</strong>,
+apenas enunciadas de modo diferente. Por isso, muitas vezes as pessoas
+simplesmente chamam ambas de “O Teorema Fundamental do Cálculo”.
+Uma maneira de pensar no Segundo Teorema Fundamental do Cálculo é: </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/secondFundamentalTheoremOfCalculus/digInSecondFundamentalTheoremOfCalculus-bf145587771f2d9f13c080f9fbb4a314.svg" /> </div><p> Isso pode ser lido
+como:
+     </p><blockquote class='quote'>
+     <p class='noindent'><strong>A <span style='color:#007D4D;'>acumulação</span> de uma <span style='color:#004DB2;'>taxa</span> é dada pela <span style='color:#56008F;'>variação
+     da quantidade</span>.</strong>
+</p>
+     </blockquote>
+<p class='noindent'>Quando calculamos uma integral definida, primeiro encontramos uma antiderivada e
+depois a avaliamos nos limites de integração. É conveniente primeiro exibir a
+antiderivada e depois avaliá-la. Uma notação especial costuma ser usada
+no processo de calcular integrais definidas usando o Teorema Fundamental
+do Cálculo. Em vez de escrever explicitamente \(F(b)-F(a)\), muitas vezes escrevemos \[ \eval {F(x)}_a^b \]
+                                                                  
+
+                                                                  
+o que significa que devemos avaliar \(F(x)\) em \(b\) e depois subtrair \(F(x)\) avaliada em \(a\)
+\[ \eval {F(x)}_a^b = F(b)-F(a). \]
+</p>
+<div class='theorem-like problem-environment remark' id='problem3' titletext=' remark'><a id='x1-4r3'></a>Vamos examinar juntos o Primeiro e o Segundo Teoremas Fundamentais:
+\begin{align*}  \ddx \int _a^x f(t) \d t &amp;= f(x), \textrm { (Primeiro Teorema Fundamental do Cálculo)}\\ \int _a^b \ddx f(x) \d x &amp;= \eval {f(x)}_a^b, \textrm { (Segundo Teorema Fundamental do Cálculo)}  \end{align*}
+<p class='noindent'>Juntos, eles nos dizem como a integral definida e a derivada interagem uma com a
+outra. </p></div>
+<p class='noindent'>Vamos ver alguns exemplos do teorema fundamental em ação.
+</p>
+<div class='theorem-like problem-environment example' id='problem4' titletext=' example'><a id='x1-5r4'></a>Calcule: \[ \int _{-2}^2 x^3\d x \] <div class='theorem-like problem-environment explanation' id='problem5' titletext=' explanation'><a id='x1-6r5'></a>Começamos encontrando uma antiderivada de \(x^3\). Uma escolha possível é \(\frac {x^{4}}{4}\).
+(Podemos verificar isso derivando: \(\ddx \frac {x^4}{4} = x^3\).) Observe que não precisamos do termo “\(+C\)” aqui. O
+Segundo Teorema Fundamental do Cálculo diz que podemos usar <strong>qualquer</strong>
+antiderivada de \(x^3\). Quase sempre usaremos aquela com \(C=0\) ao calcular uma integral
+definida. \begin{align*}  \int _{-2}^2 x^3 \d x &amp;=\eval {\frac {x^4}{4}}_{-2}^2\\ &amp;= \frac {2^4}{4} - \frac {(-2)^4}{4}\\ &amp;= 0.  \end{align*}
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-7r6'></a>Calcule: \[ \int _0^\pi \sin (\theta ) \d \theta \] <div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-8r7'></a>Começamos encontrando uma antiderivada de \(\sin (\theta )\). Uma escolha correta é \(-\cos (\theta )\), o
+que se pode verificar calculando a derivada. Então \begin{align*}  \int _0^\pi \sin (\theta ) \d \theta &amp;= \eval {-\cos (\theta )}_0^\pi \\ &amp;=\class{xm-given}{-\cos (\pi )} - (-\cos (0))\\ &amp;=\class{xm-given}{2}.  \end{align*}
+<p class='noindent'>Isso é interessante: diz que a área sob uma “corcova” da curva do seno é \(2\). </p></div>
+</div>
+<div class='theorem-like problem-environment example' id='problem8' titletext=' example'><a id='x1-9r8'></a>Calcule: \[ \int _0^5 e^t\d t \] <div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-10r9'></a>Começamos encontrando uma antiderivada de \(e^t\). Uma escolha correta é \(\class{xm-given}{e^t}\), o
+que se pode verificar calculando a derivada. Logo \begin{align*}  \int _0^5 e^t \d t &amp;= \eval {e^t}_0^5 \\ &amp;= e^5-\class{xm-given}{e^0}\\ &amp;= e^5-\class{xm-given}{1}.  \end{align*}
+</div> </div>
+<div class='theorem-like problem-environment example' id='problem10' titletext=' example'><a id='x1-11r10'></a>Calcule: \[ \int _1^2\left (x^9 + \frac {1}{x}\right ) \d x \] <div class='theorem-like problem-environment explanation' id='problem11' titletext=' explanation'><a id='x1-12r11'></a>Começamos encontrando uma antiderivada de \(x^9 + \frac {1}{x}\). Uma escolha correta é \(\frac {x^{10}}{10} + \ln (x)\), o
+que se pode verificar calculando a derivada. Logo \begin{align*}  \int _1^2\left (x^9 + \frac {1}{x}\right ) \d x &amp;= \eval {\frac {x^{10}}{10} + \ln (x)}_1^2 \\ &amp;= \frac {2^{10}}{10} + \ln (2) - \class{xm-given}{\frac {1}{10}}.  \end{align*}
+</div> </div>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Entendendo o movimento com o Teorema Fundamental do Cálculo</h3>
+<p class='noindent'>Sabemos que </p>
+     <ul class='itemize1'>
+     <li class='itemize'>A derivada de uma função posição é uma função velocidade.
+     </li>
+     <li class='itemize'>A derivada de uma função velocidade é uma função aceleração.</li></ul>
+<p class='noindent'>Agora considere integrais definidas de funções velocidade e aceleração. Especificamente,
+                                                                  
+
+                                                                  
+se \(v(t)\) é uma função velocidade, o que significa \(\displaystyle \int _a^b v(t)\d t\)?
+</p><p class='noindent'>O Segundo Teorema Fundamental do Cálculo afirma que \[ \int _a^b v(t)\d t = V(b) - V(a), \] onde \(V(t)\) é qualquer
+antiderivada de \(v(t)\). Como \(v(t)\) é uma função velocidade, podemos escolher \(V(t)\) como a função
+posição. Então, \(V(b) - V(a)\) mede uma <strong>variação de posição</strong>, ou <strong>deslocamento</strong>, ao longo do
+intervalo de tempo \([a,b]\).
+</p>
+<div class='theorem-like problem-environment example' id='problem12' titletext=' example'><a id='x1-1001r12'></a>Uma bola é lançada verticalmente para cima com velocidade dada por \(v(t) = -32t+20 \unit {ft/s}\), onde \(t\) é
+medido em \(\unit {seconds}\). Determine e interprete \(\displaystyle \int _0^1 v(t)\d t\). <div class='theorem-like problem-environment explanation' id='problem13' titletext=' explanation'><a id='x1-1002r13'></a>Usando o Segundo Teorema Fundamental do
+Cálculo, temos \begin{align*}  \int _0^1 v(t)\d t &amp;= \int _0^1 (-32t+20)\d t \\ &amp;= \eval {\class{xm-given}{-16t^2 + 20t}}_0^1 \\ &amp;= 4.  \end{align*}
+<p class='noindent'>Assim, se uma bola é lançada verticalmente para cima com velocidade \[ v(t) = \class{xm-given}{-32t+20}, \] a altura da
+bola, \(1 \unit {second}\) depois, estará \(4 \unit {feet}\) acima da altura inicial. Observe que a bola <em>percorreu</em> uma
+distância muito maior. Ela subiu até o ponto mais alto e está caindo, mas a diferença
+entre sua altura em \(t=0\) e em \(t=1\) é \(4 \unit {ft}\). </p></div> </div>
+<p class='noindent'>Agora sabemos que, para resolver certos tipos de problemas, aqueles que envolvem
+alguma forma de acumulação, “basta” encontrar uma antiderivada, substituir dois
+valores e subtrair. Infelizmente, encontrar antiderivadas pode ser bastante difícil.
+Embora exista um pequeno número de regras que nos permitem calcular
+a derivada de qualquer função usual, não existem regras desse tipo para
+antiderivadas. Há algumas técnicas que frequentemente se mostram úteis,
+mas nunca conseguiremos reduzir o problema a um processo completamente
+mecânico.
+</p>
+<script type="application/json" class="xm-answers">{}</script>

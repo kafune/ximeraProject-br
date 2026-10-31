@@ -1,0 +1,132 @@
+<!-- traduz-render: 10fcb01e52c2678e35d135f056cf8e63a3b3f75930eb095bc2a57bc6acfee478 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Neste ponto, temos três integrais “diferentes”. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Neste ponto, temos três “integrais” diferentes. Vamos ver se conseguimos esclarecer
+as diferenças.
+</p>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Integrais indefinidas</h3>
+<p class='noindent'>Uma integral indefinida, também chamada de <strong>antiderivada</strong>, calcula classes de
+funções: \[ \int f(x) \d x = \text {``uma classe de funções cuja derivada é $f$''} \] Aqui não há limites de integração, e sua resposta terá um “\(+C\)” no final.
+Preste atenção à notação: </p><div aria-labelledby='image-alt-1' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals-06234d401dc1213f3e6a7ded615b644c.svg" /> </div><p>
+Onde \(F'(x) = f(x)\). </p><div class='theorem-like problem-environment explanation' id='problem1' titletext=' explanation'><a id='x1-1001r1'></a>Integrais indefinidas <span class='word-choice' id='word-choice2'><a id='x1-1002r2'></a><span class='choice  ' id='choice1'>têm</span><span class='choice correct ' id='choice2'>não têm</span></span> limites de integração, e elas
+calculam <span class='word-choice' id='word-choice3'><a id='x1-1003r3'></a><span class='choice  ' id='choice3'>área com sinal</span><span class='choice  ' id='choice4'>uma antiderivada</span><span class='choice correct ' id='choice5'>uma classe de antiderivadas</span></span>.
+</div>
+<div class='problem-environment question' id='problem4' numbered='' role='article' titletext=' Question'>  Dois estudantes, digamos Devyn e Riley, estão trabalhando com a seguinte integral
+indefinida: \[ \int \frac {2}{x\ln (x^2)}\d x \] Devyn calcula a integral como \[ \int \frac {2}{x\ln (x^2)}\d x = \ln |\ln |x^2|| + C \] e Riley calcula a integral como \[ \int \frac {2}{x\ln (x^2)}\d x = \ln |\ln |x|| + C. \] Qual dos
+estudantes está certo? <div class='multiple-choice' id='problem5' titletext=' Multiple Choice'><span class='choice  ' id='choice6'>Devyn está certo </span><span class='choice  ' id='choice7'>Riley está certo </span><span class='choice correct ' id='choice8'>Os dois estudantes
+estão certos </span><span class='choice  ' id='choice9'>Nenhum dos dois está certo</span> </div> <div class='feedback' data-feedback='attempt' id='feedback6' titletext=' Feedback (attempt)'>Os dois estudantes estão certos! A
+aparente discrepância vem do fato de que o “+C” em cada caso é <em>diferente</em>! </div>
+</div>
+
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Funções acumulação</h3>
+<p class='noindent'>Uma <strong>função acumulação</strong>, também chamada de <strong>função área</strong>, calcula a área
+acumulada: \[ \int _a^x f(t) \d t = \text {``uma função $F$ cuja derivada é $f$''} \] Esta é uma função de \(x\) cuja derivada é \(f\), com a propriedade adicional de
+que \(F(a)=0\). Preste atenção à notação: </p><div aria-labelledby='image-alt-2' class='image-environment' role='img'> <img alt='[Picture]' src="/rendered/secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals-fffdff6b2c6e930491a295f09f681c94.svg" /> </div><p>
+Onde \(F'(x) = f(x)\). </p><div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-2001r4'></a>Funções acumulação <span class='word-choice' id='word-choice8'><a id='x1-2002r5'></a><span class='choice correct ' id='choice10'>têm</span><span class='choice  ' id='choice11'>não têm</span></span> limites de integração, e elas calculam <span class='word-choice' id='word-choice9'><a id='x1-2003r6'></a><span class='choice  ' id='choice12'>área com sinal</span><span class='choice correct ' id='choice13'>uma antiderivada</span><span class='choice  ' id='choice14'>uma classe de antiderivadas</span></span>. </div>   <div class='problem-environment question' id='problem10' numbered='' role='article' titletext=' Question'>   Verdadeiro ou
+falso: existe uma função \(f\) tal que \[ \int _0^x f(t) \d t = e^x \]  <div class='multiple-choice' id='problem11' titletext=' Multiple Choice'><span class='choice  ' id='choice15'>verdadeiro </span><span class='choice correct ' id='choice16'>falso</span> </div> <div class='feedback' data-feedback='attempt' id='feedback12' titletext=' Feedback (attempt)'>Seja \[ F(x) = \int _0^x f(t) \d t, \] esta é uma função
+acumulação e \(F(0) = 0\), já que nenhuma área foi acumulada ainda. No entanto, \(e^0 =1\). Logo, não
+pode existir tal função \(f\). Por outro lado, existe uma função \(g\) com \[ \int _0^x g(t) \d t = e^x-1 \] a saber, \(g(x) = e^x\).
+                                                                  
+
+                                                                  
+Essa sutileza vem do fato de que uma função acumulação \[ F(x) = \int _a^x f(t) \d t \] fornece uma
+antiderivada <strong>específica</strong> de \(f\), aquela que, quando avaliada em \(x=a\), vale zero. </div>
+</div>
+
+<h3 class='sectionHead'><span class='titlemark'>3   </span> <a id='x1-30003'></a>Integrais definidas</h3>
+<p class='noindent'>Uma <strong>integral definida</strong> calcula área com sinal: \[ \int _a^b f(x) \d x = \text {``a área com sinal entre o eixo $x$ e $f$''} \] Aqui sempre temos limites
+de integração, e ambos são números. Além disso, integrais definidas têm
+valores definidos, a área com sinal entre \(f\) e o eixo \(x\). Preste atenção à notação: </p><div aria-labelledby='image-alt-3' class='image-environment' role='img'>
+<img alt='[Picture]' src="/rendered/secondFundamentalTheoremOfCalculus/digInATaleOfThreeIntegrals-f2d7b170f0baa0d29dc4968b4f940f58.svg" /> </div><p> Onde \(F'(x) = f(x)\). </p><div class='theorem-like problem-environment explanation' id='problem13' titletext=' explanation'><a id='x1-3001r7'></a>Integrais
+definidas <span class='word-choice' id='word-choice14'><a id='x1-3002r8'></a><span class='choice correct ' id='choice17'>têm</span><span class='choice  ' id='choice18'>não têm</span></span> limites de integração, e elas calculam <span class='word-choice' id='word-choice15'><a id='x1-3003r9'></a><span class='choice correct ' id='choice19'>área com sinal</span><span class='choice  ' id='choice20'>uma antiderivada</span><span class='choice  ' id='choice21'>uma classe de antiderivadas</span></span>. </div>
+<script type="application/json" class="xm-answers">{}</script>

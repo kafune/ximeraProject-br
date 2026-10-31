@@ -1,0 +1,101 @@
+/* Ajustes do Traduz sobre a folha do Ximera (base.css): rótulos em
+   português, estados dos elementos interativos e pequenas correções
+   para telas estreitas. */
+
+/* Rótulos dos ambientes (base.css escreve o nome do ambiente em inglês). */
+.theorem::before { content: "Teorema" attr(numbered) "."; }
+.axiom::before { content: "Axioma" attr(numbered) "."; }
+.conjecture::before { content: "Conjectura" attr(numbered) "."; }
+.corollary::before { content: "Corolário" attr(numbered) "."; }
+.proposition::before { content: "Proposição" attr(numbered) "."; }
+.lemma::before { content: "Lema" attr(numbered) "."; }
+.claim::before { content: "Afirmação" attr(numbered) "."; }
+.condition::before { content: "Condição" attr(numbered) "."; }
+.idea::before { content: "Ideia" attr(numbered) "."; }
+.definition::before { content: "Definição" attr(numbered) "."; }
+.conclusion::before { content: "Conclusão" attr(numbered) "."; }
+.summary::before { content: "Resumo" attr(numbered) "."; }
+.warning::before { content: "Atenção" attr(numbered) "."; }
+.paradox::before { content: "Paradoxo" attr(numbered) "."; }
+.example::before { content: "Exemplo" attr(numbered) "."; }
+.observation::before { content: "Observação" attr(numbered) "."; }
+.fact::before { content: "Fato" attr(numbered) "."; }
+.remark::before { content: "Nota" attr(numbered) "."; }
+.algorithm::before { content: "Algoritmo" attr(numbered) "."; }
+.notation::before { content: "Notação" attr(numbered) "."; }
+.criterion::before { content: "Critério" attr(numbered) "."; }
+.exercise::before { content: "Exercício" attr(numbered) "."; }
+.problem::before { content: "Problema" attr(numbered) "."; }
+.question::before { content: "Pergunta" attr(numbered) "."; }
+.explanation::before { content: "Explicação" attr(numbered) "."; }
+.exploration::before { content: "Exploração" attr(numbered) "."; }
+.model::before { content: "Modelo" attr(numbered) "."; }
+.formula::before { content: "Fórmula" attr(numbered) "."; }
+.procedure::before { content: "Procedimento" attr(numbered) "."; }
+.template::before { content: "Modelo" attr(numbered) "."; }
+.proof::before { content: "Demonstração."; font-style: italic; padding-right: 0.5em; }
+.abstract p:first-child:before { content: "Resumo."; }
+#byline:not(:empty):before { content: "Por "; }
+
+/* Dicas: escondidas até "Revelar dica"; cada dica revelada pode ser recolhida. */
+.accordion.xm-hint { position: relative; }
+.accordion.xm-hint.xm-hint-hidden { display: none; }
+.accordion.xm-hint > h3.xmhint { display: none; }
+.accordion.xm-hint > .xmhint-content { color: gray; margin-left: 1em; padding-top: 0.25em; }
+.accordion.xm-hint.xm-hint-collapsed > .xmhint-content { display: none; }
+.xm-hint-label { font-weight: bold; color: #636c72; margin-right: 0.5em; font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 0.9rem; }
+.btn-reveal-hint { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+/* Comentários (feedback) e ambientes aninhados aparecem só depois da resposta. */
+.feedback { display: none; color: #636c72; border-left: 3px solid #5bc0de; margin: 0.75em 0; padding: 0.25em 0 0.25em 0.75em; }
+.feedback.xm-available { display: block; }
+.xm-hidden { display: none !important; }
+
+/* Múltipla escolha e selecione todas. */
+.ximera-horizontal { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.5rem 1rem; margin: 0.5rem 0; }
+.multiple-choice .btn-group-vertical, .select-all .btn-group-vertical { align-items: stretch; }
+.multiple-choice .btn-group-vertical > .btn, .select-all .btn-group-vertical > .btn { text-align: left; white-space: normal; font-family: MJX_Main, "Times New Roman", serif; }
+.multiple-choice .btn-group-vertical > .btn.active, .select-all .btn-group-vertical > .btn.active { background-color: #ddd; border-color: #ccc; }
+.multiple-choice .btn-group-vertical > .btn.disabled, .select-all .btn-group-vertical > .btn.disabled { opacity: 0.45; }
+.multiple-choice .btn-group-vertical > .btn input, .select-all .btn-group-vertical > .btn input { margin-right: 0.5em; pointer-events: none; }
+.xm-controls { display: inline-flex; gap: 0.25rem; vertical-align: bottom; font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+.xm-controls .btn[hidden] { display: none; }
+
+/* Escolha de palavra dentro da frase. */
+.word-choice { display: inline-block; position: relative; }
+.word-choice > .choice { display: none; }
+.word-choice .dropdown-menu { position: absolute; z-index: 1000; display: none; min-width: 8rem; padding: 0.25rem 0; margin: 0.125rem 0 0; background: #fff; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 0; }
+.word-choice.show .dropdown-menu { display: block; }
+.word-choice .dropdown-item { display: block; width: 100%; padding: 0.25rem 1rem; text-align: left; background: none; border: 0; font: inherit; color: #292b2c; cursor: pointer; }
+.word-choice .dropdown-item:hover { background-color: #f7f7f9; }
+.word-choice .dropdown-toggle { font-family: MJX_Main, "Times New Roman", serif; }
+
+/* Caixas de resposta dentro da matemática (MathJax). */
+mjx-container .xm-answer-box { display: inline-flex; align-items: stretch; vertical-align: middle; line-height: normal; font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 0.8em; }
+.xm-answer-box .form-control { width: 7em; height: 2em; padding: 0.1em 0.4em; font-size: 1em; font-family: inherit; border-radius: 0; }
+.xm-answer-box .btn { padding: 0 0.5em; height: 2em; line-height: 1; border-radius: 0; font-size: 1em; }
+.xm-answer-box .btn[hidden] { display: none; }
+.xm-answer-box.xm-correct .form-control { border-color: #5cb85c; background-color: #f1f9f1; }
+.xm-answer-box.xm-incorrect .form-control { border-color: #d9534f; }
+.answer.respondable { display: inline-block; }
+mjx-container .xm-given { padding: 0.05em 0.3em; border: 1px solid #adb5bd; background-color: #e9ecef; border-radius: 0.2em; }
+
+/* Resposta livre. */
+.free-response textarea.form-control { margin-top: 0.5em; font-family: inherit; }
+
+/* \graph sem o Desmos: mostra as funções. */
+.graph { border: 1px dashed #ccc; padding: 0.5em 1em; margin: 0.5em 0; color: #636c72; font-family: monospace; }
+.graph::before { content: "Gráfico de: "; font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+/* Barra de navegação: o Traduz não tem os botões de conta do Ximera. */
+.navbar .btn.xm-reset { margin: 0.25rem 0 0.25rem 0.5rem; font-size: 0.8rem; }
+.navbar .navbar-nav .nav-link { padding: 0.5rem 0.75rem; }
+
+/* Telas estreitas: a faixa de atividades rola na horizontal e o rodapé
+   deixa de ter altura fixa. */
+@media (max-width: 767px) {
+  body { margin-bottom: 0; }
+  footer { position: static; height: auto; padding-bottom: 2rem; }
+  .navbar .xm-reset { display: none; }
+  .image-environment img { max-width: 100%; width: 100%; }
+}

@@ -2,66 +2,143 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ chapter }} · {{ course }} · Traduz</title>
-  <!-- Folha original que o Ximera serve nesta atividade. -->
-  <link rel="stylesheet" href="https://ximera.osu.edu/public/v1.8.1/stylesheets/base.css">
-  <link rel="stylesheet" href="/static/app.css">
-  <script>
-    window.MathJax = { tex: { inlineMath: [['\\(', '\\)']] }, options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'] } };
-  </script>
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <title>{{ title }} - {{ course }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="{{ course }}: tradução em português do curso Ximera">
+  <link href="/static/ximera/base.css" rel="stylesheet">
+  <link href="/static/ximera/reader.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/static/ximera/logo.svg">
+  <script src="/static/ximera/mathjax-config.js"></script>
+  <script defer src="/static/ximera/mathjax/tex-chtml-full.js"></script>
+  <script defer src="/static/ximera/vendor/math-expressions.js"></script>
+  <script defer src="/static/ximera/reader.js"></script>
 </head>
 <body class="reader-page">
-  <nav class="navbar navbar-light bg-faded reader-navbar" role="navigation">
-    <a class="navbar-brand" href="/chapters" aria-label="Traduz">
-      <img src="https://ximera.osu.edu/public/v1.8.1/images/logo/logo.svg" alt="Ximera">
-      <span>Traduz</span>
+  <nav class="navbar sticky-top navbar-toggleable navbar-light bg-faded" role="navigation">
+    <a class="navbar-brand" href="{% if let Some(home) = home %}/read/files/{{ home }}{% else %}/chapters{% endif %}" aria-label="Início do curso">
+      <img src="/static/ximera/logo.svg" alt="Ximera" style="max-height: 1rem; opacity: 0.5; vertical-align: baseline;">
     </a>
-    {% if let Some(segment_id) = translation_segment %}
-    <a class="reader-translate-link" href="/segments/{{ segment_id }}">Traduzir esta atividade</a>
-    {% endif %}
+    <div class="navbar-collapse collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/chapters">Atividades</a></li>
+        <li class="nav-item"><a class="nav-link" href="/glossary">Glossário</a></li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        {% if let Some(segment_id) = translation_segment %}
+        <li class="nav-item"><a class="nav-link" href="/segments/{{ segment_id }}">Editar tradução</a></li>
+        {% endif %}
+        <li class="nav-item"><button class="btn btn-sm btn-outline-secondary xm-reset" type="button" title="Apaga as respostas dadas nesta atividade">Apagar respostas</button></li>
+      </ul>
+    </div>
   </nav>
 
-  <nav class="reader-course-navigation" aria-label="Atividades do curso">
-    {% for activity in activities %}
-    <a class="reader-activity-card{% if activity.current %} reader-current-card{% endif %}" href="/read/files/{{ activity.id }}"{% if activity.current %} aria-current="page"{% endif %}>
-      <strong>{{ activity.title }}</strong>
-      {% if !activity.summary.is_empty() %}<span>{{ activity.summary }}</span>{% endif %}
-    </a>
-    {% endfor %}
+  {% if !cards.is_empty() %}
+  <nav role="navigation" aria-label="atividades do curso">
+    <div class="kinetic course-navigation card-group scroll">
+      {% for card in cards %}
+      {% if card.part %}
+      <div class="activity-card card card-sectionheading">
+        <div class="card-block"><h4 class="card-title">{{ card.title }}</h4></div>
+      </div>
+      {% else %}
+      <div class="activity-card card activity{% if card.chapter %} chapter{% else %} section{% endif %}{% if card.current %} active{% endif %}" data-file="{{ card.id }}">
+        <a href="/read/files/{{ card.id }}" aria-label="{{ card.title }}"{% if card.current %} aria-current="page"{% endif %}></a>
+        <div class="card-header p-2">
+          <div class="progress"><div class="progress-bar bg-success" role="progressbar" style="width: 0%;"></div></div>
+        </div>
+        <div class="card-block">
+          <h4 class="card-title">{{ card.title }}</h4>
+          <div class="card-text">{{ card.summary }}</div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
   </nav>
+  {% endif %}
 
   <nav aria-label="breadcrumb" role="navigation">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/chapters">mooculus</a></li>
-      <li class="breadcrumb-item"><a href="/chapters">{{ course }}</a></li>
-      <li class="breadcrumb-item active" aria-current="page">{{ chapter }}</li>
+      <li class="breadcrumb-item"><a href="/chapters">Traduz</a></li>
+      <li class="breadcrumb-item"><a href="{% if let Some(home) = home %}/read/files/{{ home }}{% else %}/chapters{% endif %}">{{ course }}</a></li>
+      {% if let Some(chapter) = chapter %}
+      <li class="breadcrumb-item"><a href="/read/files/{{ chapter.id }}">{{ chapter.title }}</a></li>
+      {% endif %}
+      <li class="breadcrumb-item active" aria-current="page">{{ title }}</li>
     </ol>
   </nav>
 
-  <div class="container-fluid reader-container">
-    <div class="row">
+  <div class="container-fluid">
+    {% if stale %}
+    <div class="row justify-content-center">
       <div class="col-md-10">
-        <main class="activity reader-activity" role="main">
-          <div class="activity-body reader-activity-body" id="page-content">
+        <div class="alert alert-warning mt-3 mb-0" role="alert">A tradução desta atividade mudou depois da última compilação; esta é a versão anterior. Rode <code>cargo run --bin render</code> para atualizá-la.</div>
+      </div>
+    </div>
+    {% endif %}
+    <div class="row">
+      <div class="col-md-12"></div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <main class="activity" id="theActivity" role="main" data-path="{{ path }}" data-title="{{ title }}">
+          <div class="activity-body" id="page-content">
             {{ body_html|safe }}
+            {% if previous.is_some() || next.is_some() %}
+            <nav class="my-4" aria-label="navegação entre atividades">
+              <ul class="pagination justify-content-start">
+                <li class="page-item{% if previous.is_none() %} disabled{% endif %}" id="previous-activity">
+                  {% if let Some(previous) = previous %}
+                  <a class="page-link" href="/read/files/{{ previous.id }}" aria-label="atividade anterior">&larr; Anterior</a>
+                  {% else %}
+                  <span class="page-link" aria-label="atividade anterior">&larr; Anterior</span>
+                  {% endif %}
+                </li>
+                <li class="page-item ml-auto{% if next.is_none() %} disabled{% endif %}" id="next-activity" aria-label="próxima atividade">
+                  {% if let Some(next) = next %}
+                  <a class="page-link" href="/read/files/{{ next.id }}"><span id="next-activity-label">Próxima</span> &rarr;</a>
+                  {% else %}
+                  <span class="page-link"><span id="next-activity-label">Próxima</span> &rarr;</span>
+                  {% endif %}
+                </li>
+              </ul>
+            </nav>
+            {% endif %}
           </div>
         </main>
-        <nav class="reader-pager" aria-label="Navegação entre atividades">
-          {% if let Some(previous) = previous %}
-          <a href="/read/files/{{ previous.id }}">← {{ previous.title }}</a>
-          {% else %}<span></span>{% endif %}
-          {% if let Some(next) = next %}
-          <a href="/read/files/{{ next.id }}">{{ next.title }} →</a>
-          {% endif %}
-        </nav>
       </div>
     </div>
   </div>
-  <footer class="reader-footer">
-    <div><strong>Traduz</strong> · leitura do curso {{ course }}</div>
-    <a href="/chapters">Atividades</a><a href="/glossary">Glossário</a>
+
+  <footer class="bg-inverse text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5><a href="{% if let Some(home) = home %}/read/files/{{ home }}{% else %}/chapters{% endif %}">{{ course }}</a></h5>
+          <ul>
+            <a href="/chapters">Todas as atividades</a>
+            <a href="/glossary">Glossário</a>
+            {% if let Some(segment_id) = translation_segment %}<a href="/segments/{{ segment_id }}">Editar esta tradução</a>{% endif %}
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Ximera</h5>
+          <ul>
+            <a href="https://ximera.osu.edu/">ximera.osu.edu</a>
+            <a href="https://ximera.osu.edu/mooculus/calculus1">Calculus 1 original (Mooculus)</a>
+            <a href="https://github.com/XimeraProject">Código do Ximera no GitHub</a>
+          </ul>
+        </div>
+        <div class="col-md-4 address">
+          <p>Tradução para o português do curso <em>Calculus 1</em> do projeto Mooculus/Ximera, da The Ohio State University. O conteúdo original está sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>; a tradução segue a mesma licença.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 osu">
+          <p>Traduz · páginas geradas com o ximeraLatex, o compilador oficial do Ximera.</p>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

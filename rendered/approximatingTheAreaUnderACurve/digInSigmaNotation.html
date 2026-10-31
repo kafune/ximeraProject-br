@@ -1,0 +1,194 @@
+<!-- traduz-render: 8c9fde51c7eb2b3575be0bc0c4e324d0c152fd011a05e164a99c6c9ee0d716bc -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Apresentamos a notação de somatório (notação sigma). 
+</div>
+<div class='maketitle'></div>
+<h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>A notação em si</h3>
+<p class='noindent'>A <em>notação de somatório</em> (ou notação sigma) é uma maneira de escrever
+uma soma de muitos termos de forma concisa. Uma soma em notação de
+somatório se parece com isto:
+</p><p class='noindent'>\[ \sum _{k=1}^{5} 3k \]
+</p><p class='noindent'>O \(\Sigma \) (sigma) indica que uma soma está sendo calculada. A variável \(k\) é
+chamada de <em>índice</em> da soma. Os números acima e abaixo do \(\Sigma \) são
+chamados de <em>limites superior e inferior</em> do somatório. Neste caso, o
+limite superior é \(5\), e o limite inferior é \(1\). A notação significa que
+tomamos cada valor inteiro de \(k\) entre \(1\) e \(5\) (ou seja, \(1\), \(2\), \(3\), \(4\) e \(5\)) e substituímos
+cada um deles na fórmula do termo geral (aqui, essa fórmula é \(3k\)). Depois,
+somamos todos esses valores. \[ \sum _{k=1}^{5} 3k= 3\cdot 1 + 3\cdot 2 + 3\cdot 3 + 3\cdot 4 + 3\cdot 5 = 45 \]
+</p>
+<div class='theorem-like problem-environment example' id='problem1' titletext=' example'><a id='x1-1001r1'></a>Escreva por extenso o que significa a expressão a seguir: \[ \sum _{k=0}^{3} \frac {1}{k+1} \] <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-1002r2'></a>Aqui, o índice \(k\)
+assume os valores \(0\), \(1\), \(2\) e \(3\). Vamos substituir cada um deles em \(\frac {1}{k+1}\) e somar os
+resultados. \[ \sum _{k=0}^3 \frac {1}{k+1} = \frac {1}{\class{xm-given}{0}+1} + \frac {1}{\class{xm-given}{1}+1} + \frac {1}{\class{xm-given}{2}+1} + \frac {1}{\class{xm-given}{3}+1} \] </div> </div>
+<div class='theorem-like problem-environment example' id='problem3' titletext=' example'><a id='x1-1003r3'></a>Escreva por extenso o que significa a expressão a seguir: \[ \sum _{i=1}^{8} \left (-1\right )^i \] <div class='theorem-like problem-environment explanation' id='problem4' titletext=' explanation'><a id='x1-1004r4'></a>Aqui, a
+variável índice está escrita como \(i\) em vez de \(k\). Não há problema nisso. As
+variáveis mais usadas como índice incluem \(i\), \(j\), \(k\), \(m\) e \(n\). \begin{align*}  \sum _{i=1}^8 (-1)^i = (-1)^{\class{xm-given}{1}} &amp;+ (-1)^{\class{xm-given}{2}} + (-1)^{\class{xm-given}{3}} + (-1)^{\class{xm-given}{4}} \\ &amp;+ (-1)^{\class{xm-given}{5} }+ (-1)^{\class{xm-given}{6}} + (-1)^{\class{xm-given}{7}} + (-1)^{\class{xm-given}{8}}  \end{align*}
+<p class='noindent'>Isso é igual a: \begin{align*}  &amp;= -1 + 1 + -1 + 1 + -1 + 1 + -1 + 1\\ &amp;= \class{xm-given}{0}  \end{align*}
+</p>
+</div> </div>
+<p class='noindent'>Tente uma por conta própria.   </p><div class='problem-environment question' id='problem5' numbered='' role='article' titletext=' Question'>   Escreva por extenso o que significa a
+expressão a seguir (não é preciso simplificar): \[ \sum _{n=-1}^{4} \sqrt {n+1} =\sqrt {0}+\sqrt {\class{xm-given}{1}}+\sqrt {\class{xm-given}{2}}+\sqrt {\class{xm-given}{3}}+\sqrt {\class{xm-given}{4}}+\sqrt {\class{xm-given}{5}}\]    </div>
+<p class='noindent'>Vamos tentar fazer o caminho inverso. </p><div class='theorem-like problem-environment example' id='problem6' titletext=' example'><a id='x1-1005r5'></a>Escreva a soma a seguir em
+notação de somatório. \[ 2 + 4 + 6 + 8 + \ldots + 22 + 24 \] <div class='theorem-like problem-environment explanation' id='problem7' titletext=' explanation'><a id='x1-1006r6'></a>Observe que podemos colocar um \(2\) em evidência
+                                                                  
+
+                                                                  
+em cada termo para reescrever essa soma como \[ \class{xm-given}{2}\cdot 1 + \class{xm-given}{2} \cdot 2 + \class{xm-given}{2}\cdot 3 + \class{xm-given}{2} \cdot 4 + \ldots + \class{xm-given}{2}\cdot 11 + \class{xm-given}{2}\cdot 12 \] Isso significa
+que estamos somando \(\class{xm-given}{2}\) vezes cada número entre \(1\) e \(12\). Se usarmos \(k\)
+como índice, a notação de somatório pode ser \[ \sum _{k=1}^{12} \class{xm-given}{2k} \] Não é obrigatório
+usar \(k\) como variável índice. Poderíamos muito bem ter usado \(m\)
+ou \(j\) no lugar dela. \[ \sum _{k=1}^{12} 2k = \sum _{m=1}^{12} 2m = \sum _{j=1}^{12} 2j\] Observe que essas somas NÃO são iguais a \[ \sum _{k=1}^{12} 2m \] </div>
+</div>
+<div class='theorem-like problem-environment example' id='problem8' titletext=' example'><a id='x1-1007r7'></a>Escreva a soma a seguir em notação de somatório. \[ 1 - \frac {1}{2} + \frac {1}{4} - \frac {1}{8} + \ldots - \frac {1}{64} + \frac {1}{128} \] <div class='theorem-like problem-environment explanation' id='problem9' titletext=' explanation'><a id='x1-1008r8'></a>Esta é um pouco
+mais complicada. Vamos nos preocupar com os sinais depois; primeiro,
+cuidamos dos números em si. Você percebe algum padrão nos termos?
+Claro: passamos de um termo para o seguinte dividindo por 2. Isto é:
+\begin{align*}  1 &amp;= \frac {1}{2^0} = \left (\frac {1}{2}\right )^0\\ \frac {1}{2} &amp;= \frac {1}{2^1} = \left (\frac {1}{2}\right )^{1}\\ \frac {1}{4} &amp;= \frac {1}{2^2} = \left (\frac {1}{2}\right )^{2}\\ &amp;\vdots \\ \frac {1}{128} &amp;= \frac {1}{2^7} = \left (\frac {1}{2}\right )^{7}  \end{align*}
+<p class='noindent'>Se chamarmos nossa variável índice de \(k\), então \(k\) deve ir de \(0\) até \(\class{xm-given}{7}\), e os
+números em si são simplesmente \(\left (\frac {1}{2}\right )^{\class{xm-given}{k}}\). Agora precisamos cuidar dos sinais.
+Vimos acima que \((-1)^k\) alterna entre \(+1\) e \(-1\). Isso significa que, se multiplicarmos
+os termos que acabamos de encontrar por \((-1)^k\), eles vão alternar entre \(+\) e \(-\).
+Estamos começando com \(k=0\), então \((-1)^0 = +1\) nos dá a alternância começando com o
+sinal que queremos. \[ \sum _{k=0}^{7} (-1)^k \left (\frac {1}{2}\right )^{k} = \sum _{k=0}^7 \left ( \class{xm-given}{\frac {-1}{2}} \right )^k \] </p></div> </div>
+<p class='noindent'>Tente uma por conta própria.   </p><div class='problem-environment question' id='problem10' numbered='' role='article' titletext=' Question'>   Escreva a soma a seguir em notação de
+somatório. \[ \frac {1}{\sqrt {2}} - \frac {2}{\sqrt {3}} + \frac {3}{\sqrt {4}} - \frac {4}{\sqrt {5}}+ \ldots + \frac {51}{\sqrt {52}} - \frac {52}{\sqrt {53}}\]  Escrevemos: \[ \sum _{k=2}^{53} \left ( \class{xm-given}{(-1)^{k}\frac {k-1}{\sqrt {k}} } \right ) \]     </div>
+
+<h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Calculando com a notação de somatório</h3>
+<p class='noindent'>Queremos usar a notação de somatório para simplificar nossos cálculos.
+Para isso, precisamos conhecer algumas somas básicas. Primeiro, vamos
+falar da soma de uma constante. (Observe que, aqui, nosso limite
+superior do somatório é \(n\). Neste caso, \(n\) não é a variável índice, mas sim o
+maior valor que a variável índice vai assumir.) \[ \sum _{k=1}^n C = \underbrace {C+C+ \dots +C}_{\text {n termos}} \] Esta é uma soma de \(n\)
+termos, cada um deles com valor \(C\). Isto é, estamos somando \(n\) cópias de \(C\).
+Essa soma é simplesmente \(nC\). As outras somas básicas de que precisamos
+são bem mais complicadas de deduzir. Em vez de explicar de onde elas
+vêm, vamos apenas dar a você uma lista das fórmulas finais, que você
+pode usar.
+                                                                  
+
+                                                                  
+</p>
+<div class='theorem-like problem-environment formula' id='problem11' titletext=' formula'><a id='x1-2001r9'></a>\(\sum _{k=1}^n C = nC\). </div> <div class='theorem-like problem-environment formula' id='problem12' titletext=' formula'><a id='x1-2002r10'></a>\(\sum _{k=1}^n k = \frac {n(n+1)}{2}\). </div> <div class='theorem-like problem-environment formula' id='problem13' titletext=' formula'><a id='x1-2003r11'></a>\(\sum _{k=1}^n k^2 = \frac {n(n+1)(2n+1)}{6}\). </div>
+<p class='noindent'>Agora que temos essa lista, vamos usá-la para calcular. </p><div class='theorem-like problem-environment example' id='problem14' titletext=' example'><a id='x1-2004r12'></a>Determine o
+valor da soma \(\sum _{k=1}^{5} 9\). <div class='theorem-like problem-environment explanation' id='problem15' titletext=' explanation'><a id='x1-2005r13'></a>Esta é simplesmente a soma de uma constante, com \(C=\class{xm-given}{9}\) e \(n=\class{xm-given}{5}\).
+O valor é \(nC=\class{xm-given}{45}\). </div> </div>
+<div class='theorem-like problem-environment example' id='problem16' titletext=' example'><a id='x1-2006r14'></a>Determine o valor da soma \(\sum _{k=1}^{100} k\). <div class='theorem-like problem-environment explanation' id='problem17' titletext=' explanation'><a id='x1-2007r15'></a>Esta é a soma \(1+2+3+ \ldots + 100\). De acordo com a Fórmula 2
+acima (com \(n=\class{xm-given}{100}\)), ela vale \(\frac {\class{xm-given}{100}(\class{xm-given}{101})}{2} = \class{xm-given}{5050}\). </div> </div>
+<p class='noindent'>Como a notação de somatório é apenas uma nova maneira de escrever
+uma adição, as propriedades usuais da adição continuam valendo, mas
+algumas das mais importantes ficam com uma aparência um pouco
+diferente.
+      </p><dl class='description'><dt class='description'>
+Comutatividade e associatividade: </dt><dd class='description'>
+      <p class='noindent'>\[ \sum _{k=1}^{n} (a_k + b_k) = \sum _{k=1}^n a_k + \sum _{k=1}^n b_k \]
+      </p></dd><dt class='description'>
+Distributividade: </dt><dd class='description'>
+      <p class='noindent'>\[ \sum _{k=1}^{n} c \cdot a_k = c \sum _{k=1}^n a_k \]</p></dd></dl>
+<div class='theorem-like problem-environment example' id='problem18' titletext=' example'><a id='x1-2008r16'></a>Determine o valor da soma: \[ \sum _{k=1}^{10} \left (2k^2+5\right ) \] <div class='theorem-like problem-environment explanation' id='problem19' titletext=' explanation'><a id='x1-2009r17'></a>Primeiro, usamos as propriedades acima
+para separar isso em duas somas e, em seguida, colocamos o \(2\) em
+evidência na primeira soma. \begin{align*}  \sum _{k=1}^{10} \left (2k^2+5\right ) &amp;= \sum _{k=1}^{10} 2k^2 + \sum _{k=1}^{10} 5\\ &amp;= 2 \sum _{k=1}^{10} \class{xm-given}{k^2} + \sum _{k=1}^{10} 5  \end{align*}
+<p class='noindent'>As duas somas que restaram podem ser calculadas usando as fórmulas 1
+e 3 acima! Vemos que: \[ \sum _{k=1}^{10} k^2 = \frac {\class{xm-given}{10}(\class{xm-given}{10}+1)(2\cdot \class{xm-given}{10}+1)}{6} = \class{xm-given}{385} \] Analogamente: \[ \sum _{k=1}^{10} 5 = \class{xm-given}{50} \] Juntando tudo isso, \(\sum _{k=1}^{10}\left (2k^2+5\right ) = 2 \cdot 385 + 50 = \class{xm-given}{820}\). </p></div>
+</div>
+<div class='theorem-like problem-environment example' id='problem20' titletext=' example'><a id='x1-2010r18'></a>Determine o valor da soma: \[ \sum _{k=1}^{200} \left (-6k^2+3\right ) \] <div class='theorem-like problem-environment explanation' id='problem21' titletext=' explanation'><a id='x1-2011r19'></a>Vamos usar a mesma abordagem do
+exemplo anterior. Primeiro, usamos as propriedades para separar isso em
+somas individuais e, em seguida, colocamos os coeficientes em evidência.
+Depois disso, usamos as fórmulas acima para calcular o resultado.
+\begin{align*}  \sum _{k=1}^{200} \left (-6k^2+3\right ) &amp;= \sum _{k=1}^{200} -6k^2 + \sum _{k=1}^{200}3\\ &amp;= - 6 \sum _{k=1}^{200} \class{xm-given}{k^2} + \sum _{k=1}^{200}\class{xm-given}{3}\\ &amp;= - 6 \left ( \frac {200(201)(401)}{6}\right ) + 200 \cdot 3\\ &amp;= \class{xm-given}{-16119600}  \end{align*}
+<p class='noindent'>Os números deste exemplo eram horrivelmente feios, mas conseguimos
+calcular a soma sem precisar de fato calcular todos os 200 termos e
+depois somá-los. Em \(4\) linhas curtas, conseguimos somar \(200\) números. </p></div>
+</div>
+                                                                  
+
+                                                                  
+<p class='noindent'>Tente uma por conta própria.   </p><div class='problem-environment question' id='problem22' numbered='' role='article' titletext=' Question'>   Determine o valor da soma \(\sum _{k=1}^{50} \left ( 4k^2-18k + 2(-1)^k \right )\)  \[ \sum _{k=1}^{50} \left ( 4k^2 - 18k + 2(-1)^k \right ) = \class{xm-answer}{\cssId{xm-answer-1}{\phantom{\rule{7em}{1.5em}}}} \]
+</div>
+<script type="application/json" class="xm-answers">{"xm-answer-1":{"answer":"148750","format":"expression","given":false,"antiderivative":false}}</script>

@@ -1,0 +1,148 @@
+<!-- traduz-render: ea80dbf8e392eb0a1548e30cb85226f77fbd920b818a255ec0e94456db1ac383 -->
+<div class="preamble">\(
+\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\todo }[0]{}
+\newcommand {\oiint }[0]{{\large \bigcirc }\kern -1.56em\iint }
+\newcommand {\mooculus }[0]{\textsf {\textbf {MOOC}\textnormal {\textsf {ULUS}}}}
+\newcommand {\tkzTabSlope }[1]{\foreach \x /\y /\z in {#1}{\node [left = 3pt] at (Z\x 1) {\scriptsize $\y $}; \node [right = 3pt] at (Z\x 1) {\scriptsize $\z $}; }}
+\newcommand {\RR }[0]{\mathbb R}
+\newcommand {\R }[0]{\mathbb R}
+\newcommand {\N }[0]{\mathbb N}
+\newcommand {\Z }[0]{\mathbb Z}
+\newcommand {\sagemath }[0]{\textsf {SageMath}}
+\newcommand {\d }[0]{\,d}
+\newcommand {\l }[0]{\ell }
+\newcommand {\ddx }[0]{\frac {d}{\d x}}
+\newcommand {\zeroOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {0}{0}}}}
+\newcommand {\inftyOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {\infty }{\infty }}}}
+\newcommand {\zeroOverInfty }[0]{\ensuremath {\boldsymbol {\tfrac {0}{\infty }}}}
+\newcommand {\zeroTimesInfty }[0]{\ensuremath {\small \boldsymbol {0\cdot \infty }}}
+\newcommand {\inftyMinusInfty }[0]{\ensuremath {\small \boldsymbol {\infty - \infty }}}
+\newcommand {\oneToInfty }[0]{\ensuremath {\boldsymbol {1^\infty }}}
+\newcommand {\zeroToZero }[0]{\ensuremath {\boldsymbol {0^0}}}
+\newcommand {\inftyToZero }[0]{\ensuremath {\boldsymbol {\infty ^0}}}
+\newcommand {\numOverZero }[0]{\ensuremath {\boldsymbol {\tfrac {\#}{0}}}}
+\newcommand {\dfn }[0]{\textbf }
+\newcommand {\unit }[0]{\mathop {}\!\mathrm }
+\newcommand {\eval }[1]{\bigg [ #1 \bigg ]}
+\newcommand {\seq }[1]{\left ( #1 \right )}
+\newcommand {\epsilon }[0]{\varepsilon }
+\newcommand {\phi }[0]{\varphi }
+\newcommand {\iff }[0]{\Leftrightarrow }
+\DeclareMathOperator {\arccot }{arccot}
+\DeclareMathOperator {\arcsec }{arcsec}
+\DeclareMathOperator {\arccsc }{arccsc}
+\DeclareMathOperator {\si }{Si}
+\DeclareMathOperator {\scal }{scal}
+\DeclareMathOperator {\sign }{sign}
+\newcommand {\arrowvec }[1]{{\overset {\rightharpoonup }{#1}}}
+\newcommand {\vec }[1]{{\overset {\boldsymbol {\rightharpoonup }}{\mathbf {#1}}}\hspace {0in}}
+\newcommand {\point }[1]{\left (#1\right )}
+\newcommand {\pt }[1]{\mathbf {#1}}
+\newcommand {\Lim }[2]{\lim _{\point {#1} \to \point {#2}}}
+\DeclareMathOperator {\proj }{\mathbf {proj}}
+\newcommand {\veci }[0]{{\boldsymbol {\hat {\imath }}}}
+\newcommand {\vecj }[0]{{\boldsymbol {\hat {\jmath }}}}
+\newcommand {\veck }[0]{{\boldsymbol {\hat {k}}}}
+\newcommand {\vecl }[0]{\vec {\boldsymbol {\l }}}
+\newcommand {\uvec }[1]{\mathbf {\hat {#1}}}
+\newcommand {\utan }[0]{\mathbf {\hat {t}}}
+\newcommand {\unormal }[0]{\mathbf {\hat {n}}}
+\newcommand {\ubinormal }[0]{\mathbf {\hat {b}}}
+\newcommand {\dotp }[0]{\bullet }
+\newcommand {\cross }[0]{\boldsymbol \times }
+\newcommand {\grad }[0]{\boldsymbol \nabla }
+\newcommand {\divergence }[0]{\grad \dotp }
+\newcommand {\curl }[0]{\grad \cross }
+\newcommand {\lto }[0]{\mathop {\longrightarrow \,}\limits }
+\newcommand {\bar }[0]{\overline }
+\newcommand {\surfaceColor }[0]{violet}
+\newcommand {\surfaceColorTwo }[0]{redyellow}
+\newcommand {\sliceColor }[0]{greenyellow}
+\newcommand {\vector }[1]{\left \langle #1\right \rangle }
+\newcommand {\sectionOutcomes }[0]{}
+\newcommand {\VerbMathToks }[2]{\alteqtoks {\begin {#2} #1 \end {#2}}}
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\GetTranslation }[1]{#1}
+\)</div>
+<div class='abstract'>
+Vemos que, se uma função é derivável em um ponto, então ela deve ser contínua
+nesse ponto. 
+</div>
+<div class='maketitle'></div>
+<p class='noindent'>Há conexões entre continuidade e derivabilidade.
+</p>
+<div class='theorem-like problem-environment theorem' id='problem1' titletext=' theorem'><a id='x1-2r1'></a><span class='theorem-like-title'>Derivabilidade implica continuidade</span> Se \(f\) é uma função derivável em \(x = a\), então \(f\) é
+contínua em \(x=a\). <div class='theorem-like problem-environment explanation' id='problem2' titletext=' explanation'><a id='x1-3r2'></a>Para explicar por que isso é verdade, vamos usar a seguinte definição
+da derivada \[ f'(a) = \lim _{x\to a} \frac {f(x)-f(a)}{x-a}. \] Supondo que \(f'(a)\) existe, queremos mostrar que \(f(x)\) é contínua em \(x=a\); logo,
+devemos mostrar que \[ \lim _{x\to a} f(x) = f(a). \] Começando com \[ \lim _{x\to a} \left (f(x) - f(a)\right ) \] multiplicamos e dividimos por \((x-a)\) para obter
+\begin{align*}  &amp;= \lim _{x\to a} \left ((x-a)\frac {f(x) - f(a)}{x-a}\right ) \\ &amp;= \left (\lim _{x\to a} (x-a) \right ) \left (\lim _{x\to a}\frac {f(x) - f(a)}{x-a}\right ) &amp;\text {Lei dos limites.} \\ &amp;= \class{xm-given}{0}\cdot f'(a) = \class{xm-given}{0}.  \end{align*}
+<p class='noindent'>Como \[ \lim _{x\to a}\left (f(x) - f(a)\right ) = 0 , \] aplicamos a lei da diferença ao lado esquerdo \[ \lim _{x\to a}f(x) - \lim _{x\to a}f(a) = 0 , \] e usamos a continuidade de
+uma constante para obter que \[ \lim _{x\to a}f(x) - f(a) = 0 . \] Em seguida, somamos \(f(a)\) aos dois lados e obtemos \[ \lim _{x\to a}f(x) = f(a). \]
+Agora vemos que \(\lim _{x\to a} f(x) = f(a)\), e portanto \(f\) é contínua em \(x=a\). </p></div> </div>
+<p class='noindent'>Esse teorema é frequentemente escrito na forma de sua contrapositiva:
+     </p><blockquote class='quote'>
+     <p class='noindent'>Se \(f(x)\) não é contínua em \(x=a\), então \(f(x)\) não é derivável em \(x=a\).</p></blockquote>
+<p class='noindent'>Pelo teorema acima, vemos que todas as funções deriváveis em \((-\infty , \infty )\) são contínuas em
+\((-\infty , \infty )\). No entanto, existem funções contínuas em \((-\infty , \infty )\) que não são deriváveis em
+\((-\infty , \infty )\).
+</p>
+<div class='problem-environment question' id='problem3' numbered='' role='article' titletext=' Question'>  Qual das funções a seguir é contínua, mas não derivável em \((-\infty , \infty )\)? <div class='multiple-choice' id='problem4' titletext=' Multiple Choice'><span class='choice  ' id='choice1'>\(x^2\) </span><span class='choice  ' id='choice2'>\(\lfloor x \rfloor \) </span><span class='choice correct ' id='choice3'>\(|x|\) </span><span class='choice  ' id='choice4'>\(\frac {\sin (x)}{x}\)</span> </div>
+</div>
+<div class='theorem-like problem-environment example' id='problem5' titletext=' example'><a id='x1-4r3'></a>Considere \[ f(x) = \begin{cases} x^2 &amp;\text {se $x&lt;3$,}\\ mx+b &amp;\text {se $x\ge 3$.} \end{cases} \] Quais valores de \(m\) e \(b\) tornam \(f\) derivável em \(x=3\)? <div class='theorem-like problem-environment explanation' id='problem6' titletext=' explanation'><a id='x1-5r4'></a>Para começar, sabemos que \(f\)
+deve ser contínua em \(x=3\), já que precisa ser derivável nesse ponto. Vamos começar
+tornando \(f\) contínua em \(x=3\). Escreva comigo: \begin{align*}  \lim _{x\to 3^-} f(x) &amp;= \class{xm-given}{9}\\ \lim _{x\to 3^+} f(x) &amp;= \class{xm-given}{m 3 + b}\\ f(3) &amp;= \class{xm-given}{m 3 + b}  \end{align*}
+<p class='noindent'>Logo, para que a função seja contínua, devemos ter \[ m\cdot 3 + b =9.\] Também precisamos garantir
+que a função seja derivável em \(x=3\). Em outras palavras, temos de garantir que o
+seguinte limite exista \[ \lim _{x\to 3}\frac {f(x)-f(3)}{x-3}.\]
+</p><p class='noindent'>Para calcular esse limite, temos de calcular os dois limites laterais \[ \lim _{x\to 3^{+}}\frac {f(x)-f(3)}{x-3} \] e \[ \lim _{x\to 3^{-}}\frac {f(x)-f(3)}{x-3}, \] já que \(f(x)\) muda de
+expressão em \(x=3\). Escreva comigo \begin{align*}  \lim _{x\to 3^{-}}\frac {f(x)-f(3)}{x-3}&amp;= \lim _{x\to 3}\frac {x^2 -9}{x-3}\\ &amp;= \lim _{x\to 3^{-}}\frac {\cancel {(x-3)}(x+3)}{\cancel {x-3}}\\ &amp;= \lim _{x\to 3^{-}}\left (x+3\right )\\ &amp;=6,  \end{align*}
+</p><p class='noindent'>e \begin{align*}  \lim _{x\to 3^{+}}\frac {f(x)-f(3)}{x-3}&amp;= \lim _{x\to 3}\frac {mx+b -(3m+b)}{x-3}\\ &amp;= \lim _{x\to 3^{+}}\frac {mx-3m}{x-3}\\ &amp;= \lim _{x\to 3^{+}}\frac {m\cancel {(x-3)}}{\cancel {x-3}}\\ &amp;= \lim _{x\to 3^{+}}m\\ &amp;=m.  \end{align*}
+</p><p class='noindent'>Logo, devemos ter \[ m=6.\] Ah! Então agora a equação que deve ser satisfeita \begin{align*}  9 &amp;= m\cdot 3 + b,\\ becomes\hspace {0.3in} 9 &amp;= 6\cdot 3 + b.\\  \end{align*}
+</p><p class='noindent'>Portanto, \(b=\class{xm-given}{-9}\). Assim, tomar \(m=\class{xm-given}{6}\) e \(b=\class{xm-given}{-9}\) nos dá uma função que é derivável (e, portanto,
+contínua) em \(x=3\).
+</p>
+                                                                  
+
+                                                                  
+</div> </div><p> Podemos dizer, a partir do gráfico, se a função é ou não derivável em um ponto
+\(a\)?
+</p><div class='problem-environment question' id='problem7' numbered='' role='article' titletext=' Question'>  Como pode ser o gráfico de uma função \(f\) quando \(f\) não é derivável em \(a\)?
+<div class='theorem-like problem-environment explanation' id='problem8' titletext=' explanation'><a id='x1-6r5'></a>
+<p class='noindent'>Cada uma das figuras A-D mostra uma função que não é derivável em \(a=1\).
+</p><div aria-labelledby='image-alt-1' class='image-environment' role='img'><div class='tabular'> <table class='tabular' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /></colgroup><tr id='TBL-1-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-1-1' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/derivativeAsAFunction/digInDifferentiabilityImpliesContinuity-8be004be061de762e6c5776972bafc40.svg" />  </td><td class='td11' id='TBL-1-1-2' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/derivativeAsAFunction/digInDifferentiabilityImpliesContinuity-981e9648e5c491ff864b6d8428b7eb0c.svg" />  </td>
+</tr><tr id='TBL-1-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-1-2-1' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/derivativeAsAFunction/digInDifferentiabilityImpliesContinuity-f356b41e87ae4422b4ebb8b9a20ef58f.svg" />  </td><td class='td11' id='TBL-1-2-2' style='white-space:nowrap; text-align:center;'>  <img alt='[Picture]' src="/rendered/derivativeAsAFunction/digInDifferentiabilityImpliesContinuity-bd76d0e75aa363d614fb0f41aef19958.svg" />  </td>
+</tr></table>                                                                                       </div>
+</div> A função na figura A não é contínua em \(a\) e, portanto, não é derivável nesse
+ponto.
+<p class='noindent'>Nas figuras \(B\)–\(D\) as funções são contínuas em \(a\), mas, em cada caso, o limite \[ \lim _{x\to a} \frac {f(x)-f(a)}{x-a} \] não existe,
+cada vez por uma razão diferente.
+</p><p class='noindent'>Na figura \(B\) \[ \lim _{x\to a^{+}} \frac {f(x)-f(a)}{x-a}\ne \lim _{x\to a^{-}} \frac {f(x)-f(a)}{x-a}. \]
+</p><p class='noindent'>Na figura \(C\) \[ \lim _{x\to a} \frac {f(x)-f(a)}{x-a}=\infty . \] Na figura \(D\) os dois limites laterais não existem e nenhum deles é
+infinito.
+</p><p class='noindent'>Então, se no ponto \(a\) uma função tem um “salto” no gráfico, ou um bico, ou algo que
+se parece com uma “reta tangente vertical”, ou se ela oscila rapidamente perto de \(a\),
+então a função não é derivável em \(a\). </p></div>    </div>
+<script type="application/json" class="xm-answers">{}</script>
